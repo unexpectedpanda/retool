@@ -10,9 +10,13 @@ def main() -> None:
         'tests/source/features/Retool - Exclusions.dat',
     ]
 
-    golden_comparison_folder: str = 'features'
-    test_name: str = 'Exclusions'
-    arguments_list: list[str] = [
+    golden_comparison_folder: str
+    test_name: str
+    arguments_list: list[str]
+
+    golden_comparison_folder = 'features/exclusions'
+    test_name = 'Exclusions'
+    arguments_list = [
         '--test --exclude aAbBcdDefkmMopPruv --config tests/configs/user-config-regions-1.yaml'
     ]
 

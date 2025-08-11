@@ -1192,7 +1192,7 @@
 		{
 			"group": "Hali Bote IV",
 			"titles": [
-				{"searchTerm": "Hali Bote IV", "localizedNames": {"chinese (traditional)": "哈利波特Ⅳ"}}
+				{"searchTerm": "Hali Bote IV", "localNames": {"chinese (traditional)": "哈利波特Ⅳ"}}
 			]
 		},
 		{
@@ -1970,7 +1970,7 @@
 		{
 			"group": "Mojie Qibing",
 			"titles": [
-				{"searchTerm": "Mojie Qibing", "localizedNames": {"chinese (traditional)": "魔戒奇兵"}}
+				{"searchTerm": "Mojie Qibing", "localNames": {"chinese (traditional)": "魔戒奇兵"}}
 			]
 		},
 		{
@@ -2063,7 +2063,7 @@
 		{
 			"group": "Next Generation Tennis",
 			"titles": [
-				{"searchTerm": "Next Generation Tennis", "localizedNames": {"english": "Next Generation Tennis", "french": "Roland Garros 2002 - French Open", "german": "Next Generation Tennis", "italian": "Roland Garros 2002 - French Open", "portuguese": "Roland Garros 2002 - French Open", "spanish": "Roland Garros 2002 - French Open"}}
+				{"searchTerm": "Next Generation Tennis", "localNames": {"english": "Next Generation Tennis", "french": "Roland Garros 2002 - French Open", "german": "Next Generation Tennis", "italian": "Roland Garros 2002 - French Open", "portuguese": "Roland Garros 2002 - French Open", "spanish": "Roland Garros 2002 - French Open"}}
 			]
 		},
 		{
@@ -2383,7 +2383,7 @@
 		{
 			"group":"Rayman IV",
 			"titles": [
-				{"searchTerm": "Rayman IV", "localizedNames": {"russian": "Райман - Путешествие солнечного света"}}
+				{"searchTerm": "Rayman IV", "localNames": {"russian": "Райман - Путешествие солнечного света"}}
 			]
 		},
 		{
@@ -2396,7 +2396,7 @@
 		{
 			"group": "Renzhe Shen Gui 2",
 			"titles": [
-				{"searchTerm": "Renzhe Shen Gui 2", "localizedNames": {"chinese (traditional)": "忍者神龟２"}}
+				{"searchTerm": "Renzhe Shen Gui 2", "localNames": {"chinese (traditional)": "忍者神龟２"}}
 			]
 		},
 		{
@@ -2562,13 +2562,13 @@
 		{
 			"group": "Shiruike II - Yu Meiren",
 			"titles": [
-				{"searchTerm": "Shiruike II - Yu Meiren", "localizedNames": {"chinese (traditional)": "史瑞克Ⅱ　-　虞美人"}}
+				{"searchTerm": "Shiruike II - Yu Meiren", "localNames": {"chinese (traditional)": "史瑞克Ⅱ　-　虞美人"}}
 			]
 		},
 		{
 			"group": "Shrek Prezessin",
 			"titles": [
-				{"searchTerm": "Shrek Prezessin", "localizedNames": {"russian": "Шрек - мак-самосейка"}}
+				{"searchTerm": "Shrek Prezessin", "localNames": {"russian": "Шрек - мак-самосейка"}}
 			]
 		},
 		{
@@ -3012,14 +3012,14 @@
 		{
 			"group": "Total Soccer 2002",
 			"titles": [
-				{"searchTerm": "Total Soccer 2002", "localizedNames": {"english": "Steven Gerrard's Total Soccer 2002", "dutch": "Total Soccer 2002", "french": "Marcel Desailly - Football Advance", "german": "Alexander Zickler Total Soccer 2002", "italian": "Total Soccer 2002", "spanish": "Total Soccer 2002"}},
+				{"searchTerm": "Total Soccer 2002", "localNames": {"english": "Steven Gerrard's Total Soccer 2002", "dutch": "Total Soccer 2002", "french": "Marcel Desailly - Football Advance", "german": "Alexander Zickler Total Soccer 2002", "italian": "Total Soccer 2002", "spanish": "Total Soccer 2002"}},
 				{"searchTerm": "Total Soccer Advance"}
 			]
 		},
 		{
 			"group": "Total Soccer Manager",
 			"titles": [
-				{"searchTerm": "Total Soccer Manager", "localizedNames": {"english": "Alex Ferguson's Player Manager 2002", "dutch": "Total Soccer Manager", "french": "Guy Roux Manager 2002", "german": "Total Soccer Manager", "italian": "Total Soccer Manager", "spanish": "Total Soccer Manager"}}
+				{"searchTerm": "Total Soccer Manager", "localNames": {"english": "Alex Ferguson's Player Manager 2002", "dutch": "Total Soccer Manager", "french": "Guy Roux Manager 2002", "german": "Total Soccer Manager", "italian": "Total Soccer Manager", "spanish": "Total Soccer Manager"}}
 			]
 		},
 		{
@@ -3063,7 +3063,7 @@
 		{
 			"group": "Ultraman - Confrontation Between Justice and Evil",
 			"titles": [
-				{"searchTerm": "Ultraman - Confrontation Between Justice and Evil", "localizedNames": {"russian": "УЛЬТраман - Конфронтация между справедливостью и злом"}}
+				{"searchTerm": "Ultraman - Confrontation Between Justice and Evil", "localNames": {"russian": "УЛЬТраман - Конфронтация между справедливостью и злом"}}
 			]
 		},
 		{
@@ -3296,7 +3296,7 @@
 		{
 			"group": "Zook Man ZX4",
 			"titles": [
-				{"searchTerm": "Zook Man ZX4", "localizedNames": {"chinese (traditional)": "路克人ZX4"}}
+				{"searchTerm": "Zook Man ZX4", "localNames": {"chinese (traditional)": "路克人ZX4"}}
 			]
 		},
 		{

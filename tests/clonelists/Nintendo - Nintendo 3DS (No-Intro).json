@@ -1057,7 +1057,7 @@
 			"group": "Nintendogs + Cats - French Bulldog & New Friends",
 			"titles": [
 				{"searchTerm": "Nintendogs + Cats - French Bulldog & New Friends"},
-				{"searchTerm": "Nintendogs + Cats - French Bull & New Chingudeul", "localizedNames": {"korean": "Nintendogs + Cats 프렌치 불 & NEW친구들"}}
+				{"searchTerm": "Nintendogs + Cats - French Bull & New Chingudeul", "localNames": {"korean": "Nintendogs + Cats 프렌치 불 & NEW친구들"}}
 			]
 		},
 		{
@@ -1065,7 +1065,7 @@
 			"titles": [
 				{"searchTerm": "Nintendogs + Cats - Golden Retriever & New Friends"},
 				{"searchTerm": "Nintendogs + Cats - Shiba & New Friends"},
-				{"searchTerm": "Nintendogs + Cats - Shiba Inu & New Chingudeul", "localizedNames": {"korean": "Nintendogs + Cats 시바 이누 & NEW친구들"}}
+				{"searchTerm": "Nintendogs + Cats - Shiba Inu & New Chingudeul", "localNames": {"korean": "Nintendogs + Cats 시바 이누 & NEW친구들"}}
 			]
 		},
 		{

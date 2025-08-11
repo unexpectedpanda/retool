@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-about.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.6.2
+## Created by: Qt User Interface Compiler version 6.9.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -23,7 +23,7 @@ class Ui_AboutWindow(object):
     def setupUi(self, AboutWindow):
         if not AboutWindow.objectName():
             AboutWindow.setObjectName(u"AboutWindow")
-        AboutWindow.setWindowModality(Qt.NonModal)
+        AboutWindow.setWindowModality(Qt.WindowModality.NonModal)
         AboutWindow.setEnabled(True)
         AboutWindow.resize(362, 312)
         sizePolicy = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
@@ -33,9 +33,9 @@ class Ui_AboutWindow(object):
         AboutWindow.setSizePolicy(sizePolicy)
         AboutWindow.setMinimumSize(QSize(362, 312))
         AboutWindow.setMaximumSize(QSize(362, 312))
-        AboutWindow.setContextMenuPolicy(Qt.NoContextMenu)
+        AboutWindow.setContextMenuPolicy(Qt.ContextMenuPolicy.NoContextMenu)
         icon = QIcon()
-        icon.addFile(u":/retoolIcon/images/retool.ico", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u":/retoolIcon/images/retool.ico", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         AboutWindow.setWindowIcon(icon)
         AboutWindow.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         AboutWindow.setModal(True)
@@ -45,30 +45,30 @@ class Ui_AboutWindow(object):
         font = QFont()
         font.setFamilies([u"Segoe UI"])
         self.labelName.setFont(font)
-        self.labelName.setTextFormat(Qt.RichText)
+        self.labelName.setTextFormat(Qt.TextFormat.RichText)
         self.labelName.setScaledContents(False)
-        self.labelName.setAlignment(Qt.AlignCenter)
+        self.labelName.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.labelName.setOpenExternalLinks(True)
-        self.labelName.setTextInteractionFlags(Qt.LinksAccessibleByKeyboard|Qt.LinksAccessibleByMouse)
+        self.labelName.setTextInteractionFlags(Qt.TextInteractionFlag.LinksAccessibleByKeyboard|Qt.TextInteractionFlag.LinksAccessibleByMouse)
         self.labelVersion = QLabel(AboutWindow)
         self.labelVersion.setObjectName(u"labelVersion")
         self.labelVersion.setGeometry(QRect(15, 232, 331, 20))
         self.labelVersion.setFont(font)
-        self.labelVersion.setAlignment(Qt.AlignCenter)
+        self.labelVersion.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.aboutLogo = QLabel(AboutWindow)
         self.aboutLogo.setObjectName(u"aboutLogo")
         self.aboutLogo.setGeometry(QRect(105, 15, 151, 151))
         self.aboutLogo.setPixmap(QPixmap(u":/retoolAbout/images/retool-about.png"))
         self.aboutLogo.setScaledContents(True)
-        self.aboutLogo.setAlignment(Qt.AlignCenter)
+        self.aboutLogo.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.labelCreditIcons8 = QLabel(AboutWindow)
         self.labelCreditIcons8.setObjectName(u"labelCreditIcons8")
         self.labelCreditIcons8.setGeometry(QRect(9, 270, 341, 20))
         self.labelCreditIcons8.setFont(font)
-        self.labelCreditIcons8.setTextFormat(Qt.RichText)
-        self.labelCreditIcons8.setAlignment(Qt.AlignCenter)
+        self.labelCreditIcons8.setTextFormat(Qt.TextFormat.RichText)
+        self.labelCreditIcons8.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.labelCreditIcons8.setOpenExternalLinks(True)
-        self.labelCreditIcons8.setTextInteractionFlags(Qt.LinksAccessibleByKeyboard|Qt.LinksAccessibleByMouse)
+        self.labelCreditIcons8.setTextInteractionFlags(Qt.TextInteractionFlag.LinksAccessibleByKeyboard|Qt.TextInteractionFlag.LinksAccessibleByMouse)
 
         self.retranslateUi(AboutWindow)
 

@@ -8,15 +8,16 @@ import sys
 from functools import reduce
 from typing import TYPE_CHECKING, Any
 
-from strictyaml import YAML, Map, MapPattern, Seq, Str, YAMLError, YAMLValidationError, load
+from strictyaml import YAML, Map, MapPattern, Seq, Str # type: ignore
 
 import modules.constants as const
 
 if TYPE_CHECKING:
-    from modules.config import Config
-    from modules.dats import Dat
+    from modules.config.config import Config
+    from modules.dat.process_dat import Dat
 
-from modules.clone_list import CloneList
+from modules.clone_lists.clone_list import CloneList
+from modules.config.read_write_config import read_config
 from modules.utils import Font, SmartFormatter, download, eprint, minimum_version, regex_test
 
 
@@ -26,9 +27,9 @@ class UserInput:
         input_file_name: str = '',
         update: bool = False,
         no_1g1r: bool = False,
-        empty_titles: bool = False,
         filter_languages: bool = False,
         oldest: bool = False,
+        retroachievements: bool = False,
         local_names: bool = False,
         region_bias: bool = False,
         legacy: bool = False,
@@ -57,11 +58,14 @@ class UserInput:
         clone_list: str = '',
         user_config: str = '',
         metadata: str = '',
+        mia: str = '',
+        ra: str = '',
         no_overrides: bool = False,
         list_names: bool = False,
-        log: bool = False,
+        report: bool = False,
         machine_not_game: bool = False,
-        no_label_mia: bool = False,
+        label_mia: bool = False,
+        label_retro: bool = False,
         original_header: bool = False,
         output_folder_name: str = '',
         user_output_folder: str = '',
@@ -73,13 +77,14 @@ class UserInput:
         warningpause: bool = False,
         single_cpu: bool = False,
         trace: str = '',
-        no_dtd: bool = False,
         excludes: str = '',
         dev_mode: bool = False,
         user_options: str = '',
         user_clone_list_location: str = '',
         user_clone_list_metadata_download_location: str = '',
         user_metadata_location: str = '',
+        user_mia_location: str = '',
+        user_ra_location: str = '',
         test: bool = False,
     ) -> None:
         """
@@ -87,52 +92,52 @@ class UserInput:
 
         Args:
             input_file_name (str, optional): The path to the input DAT file. Defaults to
-            `''`.
+                `''`.
 
             update (bool, optional): Calls the clone list update function. Defaults to
-            `False`.
+                `False`.
 
             no_1g1r (bool, optional): Disables 1G1R processing. Defaults to `False`.
 
-            empty_titles (bool, optional): Includes titles that don't have hashes or a
-            size. Defaults to `False`.
-
             filter_languages (bool, optional): Filters by languages, removing any title
-              that doesn't support the languages in the supplied list. Defaults to `False`.
+                that doesn't support the languages in the supplied list. Defaults to
+                `False`.
 
             local_names (bool, optional): Uses local names for titles if available. For
-            example, `ダイナマイト　ヘッディー (Japan): instead of `Dynamite Headdy (Japan):.
+                example, `ダイナマイト　ヘッディー (Japan): instead of `Dynamite Headdy
+                (Japan)`.
 
             oldest (bool, optional): Prefers oldest production versions of titles instead
-            of newest.
+                of newest.
+
+            retroachievements (bool, optional): Prefers titles with RetroAchievements.
 
             region_bias (bool, optional): Prefers regions over languages. Defaults to
-            `False`.
+                `False`.
 
             legacy (bool, optional): Outputs the DAT file in legacy mode, complete with
-            parent/clone tags. Only useful for clone list maintainers who want to trac
-            changes between DAT releases. Defaults to `False`.
+                parent/clone tags. Only useful for clone list maintainers who want to
+                track changes between DAT releases. Defaults to `False`.
 
             demote_unl (bool, optional): Demotes unlicensed, aftermarket, and pirate
-            titles if a production version of a title is found in another region. Defaults
-            to `False`.
+                titles if a production version of a title is found in another region.
+                Defaults to `False`.
 
-            modern (bool, optional): Whether to choose a version of a title ripped
-            from a modern rerelease (e.g. Steam, Virtual Console) over the original
-            title. Defaults to `False`.
+            modern (bool, optional): Whether to choose a version of a title ripped from a
+                modern rerelease (e.g. Steam, Virtual Console) over the original title.
+                Defaults to `False`.
 
             compilations (str, optional): What compilations mode to set Retool to.
-            Defaults to ''.
+                Defaults to ''.
 
-            no_applications (bool, optional): Excludes applications. Defaults to
-            `False`.
+            no_applications (bool, optional): Excludes applications. Defaults to `False`.
 
             no_audio (bool, optional): Excludes audio. Defaults to `False`.
 
             no_bad_dumps (bool, optional): Excludes bad dumps. Defaults to `False`.
 
-            no_bios (bool, optional): Excludes BIOS and other chip-based titles.
-            Defaults to `False`.
+            no_bios (bool, optional): Excludes BIOS and other chip-based titles. Defaults
+                to `False`.
 
             no_coverdiscs (bool, optional): Excludes coverdiscs. Defaults to `False`.
 
@@ -141,10 +146,10 @@ class UserInput:
             no_add_ons (bool, optional): Excludes add-ons. Defaults to `False`.
 
             no_educational (bool, optional): Excludes educational titles. Defaults to
-            `False`.
+                `False`.
 
             no_aftermarket (bool, optional): Excludes aftermarket titles. Defaults to
-            `False`.
+                `False`.
 
             no_games (bool, optional): Excludes games. Defaults to `False`.
 
@@ -153,116 +158,130 @@ class UserInput:
             no_manuals (bool, optional): Excludes manuals. Defaults to `False`.
 
             no_multimedia (bool, optional): Excludes multimedia titles. Defaults to
-            `False`.
+                `False`.
 
             no_bonus_discs (bool, optional): Excludes bonus discs. Defaults to `False`.
 
             no_pirate (bool, optional): Excludes pirate titles. Defaults to `False`.
 
             no_preproduction (bool, optional): Excludes preproduction titles. Defaults to
-            `False`.
+                `False`.
 
             no_promotional (bool, optional): Excludes promotional titles. Defaults to
-            `False`.
+                `False`.
 
             no_unlicensed (bool, optional): Excludes unlicensed, aftermarket, and pirate
-            titles. Defaults to `False`.
+                titles. Defaults to `False`.
 
             no_video (bool, optional): Excludes video titles. Defaults to `False`.
 
-            clone_list (str, optional): The path to a clone list to load, overriding
-            the default selection. Defaults to `''`.
+            clone_list (str, optional): The path to a clone list to load, overriding the
+                default selection. Defaults to `''`.
 
             user_config (str, optional): The path to a user config file to load,
-            overriding the default selection. Defaults to `''`.
+                overriding the default selection. Defaults to `''`.
 
             metadata (str, optional): The path to a metadata file to load, overriding the
-            default selection. Defaults to `''`.
+                default selection. Defaults to `''`.
 
-            no_overrides (bool, optional): Disables global and system overrides.
-            Defaults to `False`.
+            mia (str, optional): The path to an MIA file to load, overriding the default
+                selection. Defaults to `''`.
+
+            ra (str, optional): The path to a RetroAchievements file to load, overriding
+                the default selection. Defaults to `''`.
+
+            no_overrides (bool, optional): Disables global and system overrides. Defaults
+                to `False`.
 
             list_names (bool, optional): Additionally outputs a file that contains just
-            the names of the 1G1R titles found after processing. Defaults to `False`.
+                the names of the 1G1R titles found after processing. Defaults to `False`.
 
-            log (bool, optional): Additionally outputs a file that shows what titles
-            have been kept and removed. Defaults to `False`.
+            report (bool, optional): Additionally outputs a file that shows what titles
+                have been kept and removed. Defaults to `False`.
 
             machine_not_game (bool, optional): Uses the MAME standard of <machine> for
-            title nodes in the output DAT file instead of <game>. Defaults to `False`.
+                title nodes in the output DAT file instead of <game>. Defaults to `False`.
 
-            no_label_mia (bool, optional): Doesn't add MIA attributes to ROMs or titles.
-            Defaults to `False`.
+            label_mia (bool, optional): Adds MIA attributes to ROMs or titles. Defaults to
+                `False`.
+
+            label_retro (bool, optional): Adds RetroAchievements attributes to titles.
+                Defaults to `False`.
 
             original_header (bool, optional): Uses the header from the input DAT in the
-            output DAT. Useful to update original No-Intro and Redump DATs already loaded
-            in CLRMAMEPro. Defaults to `False`.
+                output DAT. Useful to update original No-Intro and Redump DATs already
+                loaded in CLRMAMEPro. Defaults to `False`.
 
             output_folder_name (str, optional): Sets the folder DATs are written to.
-            Defaults to `''`.
+                Defaults to `''`.
 
-            user_output_folder (str, optional): Whether or not the output folder is
-            user provided. Defaults to ''.
+            user_output_folder (str, optional): Whether the output folder is user
+                provided. Defaults to ''.
 
             output_region_split (bool, optional): Produces multiple DAT files split by
-            region, instead of just a single DAT file. Defaults to `False`.
+                region, instead of just a single DAT file. Defaults to `False`.
 
             output_remove_dat (bool, optional): Additionally outputs a DAT that contains
-            all the titles Retool has removed as part of its process. Defaults to `False`.
+                all the titles Retool has removed as part of its process. Defaults to
+                `False`.
 
-            replace (bool, optional): Delete the input DAT file and create Retool files
-            in the same folder. Defaults to `False`.
+            replace (bool, optional): Delete the input DAT file and create Retool files in
+                the same folder. Defaults to `False`.
 
             reprocess_dat (bool, optional): Let DAT files be processed even if Retool has
-            already processed them. Defaults to `False`.
+                already processed them. Defaults to `False`.
 
             verbose (bool, optional): Displays warnings when clone list errors occur.
-            Defaults to `False`.
+                Defaults to `False`.
 
             warningpause (bool, optional): Pauses Retool when a clone list error is
-            reported. Defaults to `False`.
+                reported. Defaults to `False`.
 
             single_cpu (bool, optional): Uses a single CPU to do the processing, instead
-            of using all available processors. Defaults to `False`.
+                of using all available processors. Defaults to `False`.
 
             trace (str, optional): Traces a title through Retool's process, using the
-            supplied string as regex. Defaults to `''`.
+                supplied string as regex. Defaults to `''`.
 
-            no_dtd (bool, optional): Bypasses DTD validation. Defaults to `False`.
-
-            excludes (str, optional): A string representation of all the exclusion
-            options as single letters. Used in naming the output DAT file as a way to
-            determine what options generated the file. Defaults to `''`.
+            excludes (str, optional): A string representation of all the exclusion options
+                as single letters. Used in naming the output DAT file as a way to
+                determine what options generated the file. Defaults to `''`.
 
             dev_mode (bool, optional): Enables dev mode. Displays some extra messages to
-            help troubleshoot code issues. Defaults to `False`.
+                help troubleshoot code issues. Defaults to `False`.
 
-            user_options (str, optional): If a user has enabled single letter user
-            options (-delryz), adds them to the output filename. Defaults to `''`.
+            user_options (str, optional): If a user has enabled single letter user options
+                (-delryz), adds them to the output filename. Defaults to `''`.
 
             user_clone_list_location (str, optional): A user-defined folder for where
-            clone lists live. Only settable in the GUI. Defaults to `''`.
+                clone lists live. Only settable in the GUI. Defaults to `''`.
 
-            user_clone_list_metadata_download_location (str, optional): A user-defined
-            URL for where to download clone list and metadata updates from. Only settable
-            in the GUI. Defaults to `''`.
+            user_clone_list_metadata_download_location (str, optional): A user-defined URL
+                for where to download clone list and metadata updates from. Only settable
+                in the GUI. Defaults to `''`.
 
             user_metadata_location (str, optional): A user-defined folder for where
-            metadata files live. Only settable in the GUI. Defaults to `''`.
+                metadata files live. Only settable in the GUI. Defaults to `''`.
 
-            test (bool, optional): Runs tests helpful to Retool's development. Defaults
-            to `False`.
+            user_mia_location (str, optional): A user-defined folder for where MIA files
+                live. Only settable in the GUI. Defaults to `''`.
+
+            user_ra_location (str, optional): A user-defined folder for where
+                RetroAchievements files live. Only settable in the GUI. Defaults to `''`.
+
+            test (bool, optional): Runs tests helpful to Retool's development. Defaults to
+                `False`.
         """
         # Positional
         self.input_file_name: str = input_file_name
 
         # Optional
         self.no_1g1r: bool = no_1g1r
-        self.empty_titles: bool = empty_titles
         self.legacy: bool = legacy
         self.filter_languages: bool = filter_languages
         self.local_names: bool = local_names
         self.oldest: bool = oldest
+        self.retroachievements: bool = retroachievements
         self.no_mia: bool = no_mia
         self.region_bias: bool = region_bias
         self.demote_unl: bool = demote_unl
@@ -293,18 +312,32 @@ class UserInput:
         self.clone_list: str = clone_list
         self.user_config: str = user_config
         self.metadata: str = metadata
+        self.mia: str = mia
+        self.ra: str = ra
         self.user_clone_list_location: str = user_clone_list_location
         self.user_clone_list_metadata_download_location: str = (
             user_clone_list_metadata_download_location
         )
         self.user_metadata_location: str = user_metadata_location
+        self.user_mia_location: str = user_mia_location
+        self.user_ra_location: str = user_ra_location
         self.no_overrides: bool = no_overrides
 
         # Outputs
         self.list_names: bool = list_names
-        self.log: bool = log
+        self.report: bool = report
         self.machine_not_game: bool = machine_not_game
-        self.no_label_mia: bool = no_label_mia
+        self.label_mia: bool = label_mia
+        self.label_retro: bool = label_retro
+
+        # ROMs need to be labeled MIA for them to be removed
+        if self.no_mia:
+            self.label_mia = True
+
+        # Titles need to be labeled for RetroAchievements for them to be selected
+        if self.retroachievements:
+            self.label_retro = True
+
         self.original_header: bool = original_header
         self.output_folder_name: str = output_folder_name
         self.user_output_folder: bool = bool(user_output_folder)
@@ -318,7 +351,6 @@ class UserInput:
         self.warningpause: bool = warningpause
         self.single_cpu: bool = single_cpu
         self.trace: str = trace
-        self.no_dtd: bool = no_dtd
 
         # Internal
         self.user_options: str = user_options
@@ -333,6 +365,10 @@ class UserInput:
 
             if not trace_test:
                 self.trace = ''
+            else:
+                # Enable single CPU, as the regex is valid and multiprocessor doesn't
+                # like the output provided by the trace
+                self.single_cpu = True
 
 
 def check_input() -> UserInput:
@@ -363,6 +399,12 @@ def check_input() -> UserInput:
     )
 
     parser.add_argument(
+        '-c',
+        action='store_true',
+        help='R|Prefer titles with RetroAchievements.\n\n',
+    )
+
+    parser.add_argument(
         '-d',
         action='store_true',
         help='R|Disable 1G1R filtering. Clone lists are ignored, and each'
@@ -374,19 +416,11 @@ def check_input() -> UserInput:
     )
 
     parser.add_argument(
-        '-e',
-        action='store_true',
-        help='R|Include titles that don\'t have hashes or sizes'
-        '\nspecified in the input DAT.'
-        '\n\n',
-    )
-
-    parser.add_argument(
         '-l',
         action='store_true',
         help=f'R|Filter by languages using a list. If a title doesn\'t'
         '\nsupport any of the languages on the list, it\'s removed'
-        f'\n(see {Font.bold}config/user-config.yaml{Font.end}).'
+        f'\n(see {Font.b}config/user-config.yaml{Font.be}).'
         '\n\n',
     )
 
@@ -396,7 +430,7 @@ def check_input() -> UserInput:
         help=f'R|Use local names for titles if available. For example,'
         '\nシャイニング●フォースⅡ 『古の封印』 instead of'
         '\nShining Force II - Inishie no Fuuin'
-        f'\n(see {Font.bold}config/user-config.yaml{Font.end}).'
+        f'\n(see {Font.b}config/user-config.yaml{Font.be}).'
         '\n\n',
     )
 
@@ -462,7 +496,7 @@ def check_input() -> UserInput:
         '\n \tregardless of region, language, and clone list priorities,'
         '\n \tand discard compilations unless they contain unique games.'
         '\n \tYou\'re likely to prefer this mode if you use ROM hacks or'
-        '\n \tRetro Achievements. When choosing a compilation for unique'
+        '\n \tRetroAchievements. When choosing a compilation for unique'
         '\n \ttitles, if other titles in the compilation have individual'
         '\n \tequivalents, the individual titles are also included, leading'
         '\n \tto some title duplication.'
@@ -471,7 +505,7 @@ def check_input() -> UserInput:
         '\n \tindividual titles are only compared against other individual'
         '\n \ttitles, and compilations against other compilations. This option'
         '\n \thas the most title duplication.'
-        f'\n\no\t{Font.bold}(Beta){Font.end} Optimize for the least possible title duplication. Not'
+        f'\n\no\t{Font.b}(Beta){Font.be} Optimize for the least possible title duplication. Not'
         '\n \trecommended. While this mode can save disk space, it can be hard'
         '\n \tto tell what compilations contain based on their filename. This'
         '\n \tmode might not choose the optimal solution when supersets or'
@@ -489,19 +523,25 @@ def check_input() -> UserInput:
     parser.add_argument('--test', action='store_true', help=argparse.SUPPRESS)
 
     outputs.add_argument(
-        '--listnames',
+        '--labelmia',
         action='store_true',
-        help='R|Also output a TXT file of just the kept title names. See'
-        f'\n{Font.bold}config/user-config.yaml{Font.end} to add a prefix and/or suffix'
-        '\nto each line.'
+        help='R|Mark files as MIA with an mia="yes" attribute. Don\'t use this if you\'re '
+        '\na DATVault subscriber.'
         '\n\n',
     )
 
     outputs.add_argument(
-        '--log',
+        '--labelretro',
         action='store_true',
-        help='R|Also output a TXT file of what titles have been kept,'
-        '\nremoved, and set as clones.'
+        help='R|Mark titles with a retroachievements="yes" attribute.\n\n',
+    )
+
+    outputs.add_argument(
+        '--listnames',
+        action='store_true',
+        help='R|Also output a TXT file of just the kept title names. See'
+        f'\n{Font.b}config/user-config.yaml{Font.be} to add a prefix and/or suffix'
+        '\nto each line.'
         '\n\n',
     )
 
@@ -510,14 +550,6 @@ def check_input() -> UserInput:
         action='store_true',
         help='R|Export each title node to the output DAT file using the MAME'
         '\nstandard of <machine> instead of <game>.'
-        '\n\n',
-    )
-
-    outputs.add_argument(
-        '--nolabelmia',
-        action='store_true',
-        help='R|Don\'t add MIA attributes to titles. Use this if you\'re a'
-        '\nDATVault subscriber.'
         '\n\n',
     )
 
@@ -549,6 +581,14 @@ def check_input() -> UserInput:
     )
 
     outputs.add_argument(
+        '--removesdat',
+        action='store_true',
+        help='R|Also output DAT files containing titles that were'
+        '\nremoved from 1G1R DAT files.'
+        '\n\n',
+    )
+
+    outputs.add_argument(
         '--replace',
         action='store_true',
         help='R|Replace input DAT files with Retool versions. Only use this if'
@@ -560,10 +600,10 @@ def check_input() -> UserInput:
     )
 
     outputs.add_argument(
-        '--removesdat',
+        '--report',
         action='store_true',
-        help='R|Also output DAT files containing titles that were'
-        '\nremoved from 1G1R DAT files.'
+        help='R|Also output a report of the titles that have been kept,'
+        '\nremoved, and set as clones.'
         '\n\n',
     )
 
@@ -588,19 +628,7 @@ def check_input() -> UserInput:
         '\nUseful if you want to use your own, or if Redump or'
         '\nNo-Intro renames their DAT, and the clone list isn\'t'
         '\nautomatically detected anymore. Often used together with'
-        '\n--metadata.'
-        '\n\n',
-    )
-
-    debug.add_argument(
-        '--metadata',
-        metavar='<file>',
-        type=str,
-        help='R|Set a custom metadata file to use instead of the default.'
-        '\nUseful if you want to use your own, or if Redump or'
-        '\nNo-Intro renames their DAT, and the metadata file isn\'t'
-        '\nautomatically detected anymore. Often used together with'
-        '\n--clonelist.'
+        '\n--metadata, --mia, and --ra.'
         '\n\n',
     )
 
@@ -612,7 +640,41 @@ def check_input() -> UserInput:
         '\n\n',
     )
 
-    debug.add_argument('--nodtd', action='store_true', help='R|Bypass DTD validation.\n\n')
+    debug.add_argument(
+        '--metadata',
+        metavar='<file>',
+        type=str,
+        help='R|Set a custom metadata file to use instead of the default.'
+        '\nUseful if you want to use your own, or if Redump or'
+        '\nNo-Intro renames their DAT, and the metadata file isn\'t'
+        '\nautomatically detected anymore. Often used together with'
+        '\n--clonelist, --mia, and --ra.'
+        '\n\n',
+    )
+
+    debug.add_argument(
+        '--mia',
+        metavar='<file>',
+        type=str,
+        help='R|Set a custom MIA file to use instead of the default.'
+        '\nUseful if you want to use your own, or if Redump or'
+        '\nNo-Intro renames their DAT, and the MIA file isn\'t'
+        '\nautomatically detected anymore. Often used together with'
+        '\n--clonelist, --metadata, and --ra.'
+        '\n\n',
+    )
+
+    debug.add_argument(
+        '--ra',
+        metavar='<file>',
+        type=str,
+        help='R|Set a custom RetroAchievements file to use instead of the'
+        '\ndefault. Useful if you want to use your own, or if Redump or'
+        '\nNo-Intro renames their DAT, and the RetroAchievements file'
+        '\n isn\'t automatically detected anymore. Often used together'
+        '\nwith --clonelist, --metadata, and --mia.'
+        '\n\n',
+    )
 
     debug.add_argument(
         '--singlecpu', action='store_true', help='R|Disable multiprocessor usage.\n\n'
@@ -660,7 +722,7 @@ def check_input() -> UserInput:
         '\ne\tEducational titles'
         '\nf\tAftermarket titles'
         '\ng\tGames'
-        '\nk\tMIA titles and individual MIA ROMs'
+        '\nk\tTitles with MIA ROMs'
         '\nm\tManuals'
         '\nM\tMultimedia titles (might include games)'
         '\no\tBonus discs'
@@ -721,6 +783,7 @@ def check_input() -> UserInput:
             eprint(f'• {Font.b}Operating in dev mode{Font.be}', level='warning')
         else:
             eprint(f'• {Font.b}Operating in test mode{Font.be}', level='warning')
+            eprint(f'• {Font.b}Running Python version: {sys.version}{Font.be}', level='warning')
         eprint('')
 
     # Compensate for trailing backslash in Windows
@@ -746,31 +809,37 @@ def check_input() -> UserInput:
     else:
         args.output = ''
 
-    # Validate the clone list the user specified exists
-    if args.clonelist is not None:
-        if pathlib.Path(args.clonelist).is_file():
-            eprint(f'• Custom clone list found: "{Font.b}{args.clonelist}{Font.be}".')
-        else:
-            eprint(
-                f'• Can\'t find the specified clone list: '
-                f'"{Font.b}{args.clonelist}{Font.be}". Ignoring...',
-                level='warning',
-            )
-    else:
-        args.clonelist = ''
+    # Validate that user specified files exist
+    def validate_user_file(user_file_path: str | None, user_file_type: str) -> str:
+        """
+        Check that a file path provided by the user exists, otherwise ignore it.
 
-    # Validate the metadata file the user specified exists
-    if args.metadata is not None:
-        if pathlib.Path(args.metadata).is_file():
-            eprint(f'• Custom metadata file found: "{Font.b}{args.metadata}{Font.be}".')
+        Args:
+            user_file_path (str | None): The path to the user file.
+
+            user_file_type (str): A description of the file. Used in messages to the user.
+
+        Returns:
+            str: The file path the user provided.
+        """
+        if user_file_path is not None:
+            if pathlib.Path(user_file_path).is_file():
+                eprint(f'• Custom {user_file_type} found: "{Font.b}{user_file_path}{Font.be}".')
+            else:
+                eprint(
+                    f'• Can\'t find the specified {user_file_type}: '
+                    f'"{Font.b}{user_file_path}{Font.be}". Ignoring...',
+                    level='warning',
+                )
         else:
-            eprint(
-                f'• Can\'t find the specified metadata file: '
-                f'"{Font.b}{args.metadata}{Font.be}". Ignoring...',
-                level='warning',
-            )
-    else:
-        args.metadata = ''
+            user_file_path = ''
+
+        return user_file_path
+
+    args.clonelist = validate_user_file(args.clonelist, 'clone list')
+    args.metadata = validate_user_file(args.metadata, 'metadata file')
+    args.mia = validate_user_file(args.mia, 'MIA file')
+    args.ra = validate_user_file(args.ra, 'RetroAchievements file')
 
     # Create user options string
     user_options: list[str] = []
@@ -780,27 +849,29 @@ def check_input() -> UserInput:
         'clonelist',
         'compilations',
         'config',
+        'e',
         'exclude',
-        'q',
-        'warnings',
-        'warningpause',
         'legacy',
-        'log',
-        'machine',
-        'nolabelmia',
-        'originalheader',
-        'metadata',
-        'nooverrides',
-        'nodtd',
+        'labelmia',
+        'labelretro',
         'listnames',
-        'replace',
+        'machine',
+        'metadata',
+        'mia',
+        'mianooverrides',
+        'originalheader',
+        'q',
         'regionsplit',
         'removesdat',
+        'replace',
+        'report',
         'reprocess',
+        'retroachievements',
         'singlecpu',
-        'trace',
         'test',
-        'e',
+        'trace',
+        'warnings',
+        'warningpause',
     )
 
     for arg in vars(args):
@@ -851,10 +922,10 @@ def check_input() -> UserInput:
         input_file_name=str(pathlib.Path(args.Input).resolve()),
         update=args.update,
         no_1g1r=args.d,
-        empty_titles=args.e,
         filter_languages=args.l,
         local_names=args.n,
         oldest=args.o,
+        retroachievements=args.c,
         region_bias=args.r,
         legacy=args.legacy,
         demote_unl=args.y,
@@ -882,11 +953,14 @@ def check_input() -> UserInput:
         clone_list=str(pathlib.Path(args.clonelist).resolve()),
         user_config=args.config,
         metadata=str(pathlib.Path(args.metadata).resolve()),
+        mia=str(pathlib.Path(args.mia).resolve()),
+        ra=str(pathlib.Path(args.ra).resolve()),
         no_overrides=args.nooverrides,
         list_names=args.listnames,
-        log=args.log,
+        report=args.report,
         machine_not_game=args.machine,
-        no_label_mia=args.nolabelmia,
+        label_mia=args.labelmia,
+        label_retro=args.labelretro,
         original_header=args.originalheader,
         output_folder_name=str(pathlib.Path(args.output).resolve()),
         user_output_folder=args.output,
@@ -898,13 +972,14 @@ def check_input() -> UserInput:
         warningpause=args.warningpause,
         single_cpu=args.singlecpu,
         trace=' '.join(args.trace),
-        no_dtd=args.nodtd,
         excludes=''.join(sorted(args_set, key=lambda s: (s.lower(), s[0].isupper()))),
         dev_mode=dev_mode,
         user_options=user_options_string,
         user_clone_list_location='',
         user_clone_list_metadata_download_location='',
         user_metadata_location='',
+        user_mia_location='',
+        user_ra_location='',
         test=args.test,
     )
 
@@ -913,7 +988,7 @@ def get_config_value(
     config_object: tuple[Any, ...], key: str, default_value: str, is_path: bool = True
 ) -> str:
     """
-    Gets a value for a specific key in an object out of user-config.yaml and system
+    Gets a value for a specific key in an object out of `user-config.yaml` and system
     config files.
 
     Args:
@@ -922,10 +997,10 @@ def get_config_value(
         key (str): The key in the YAML object to query.
 
         default_value (str): The equivalent default value as found in
-        internal-config.json.
+            `internal-config.json`.
 
         is_path (bool, optional): Whether to process the value as a path. Defaults to
-        `True`.
+            `True`.
     """
     key_and_value: list[dict[str, Any]] = [
         x for x in config_object if key in x and x != {f'"{key}": ""'}
@@ -950,33 +1025,28 @@ def get_config_value(
     return value
 
 
-def import_clone_list(
-    input_dat: Dat, gui_input: UserInput | None, config: Config, bar: Any
-) -> CloneList:
+def import_clone_list_mia(input_dat: Dat, gui_input: UserInput | None, config: Config) -> CloneList:
     """
-    Imports a clone list from the relevant file and sets it up for use in Retool.
+    Imports a clone list and MIAs from the relevant files and sets them up for use in
+    Retool.
 
     Args:
         input_dat (Dat): The Retool input_dat object.
 
-        gui_input (UserInput): Used to determine whether or not the function is being
-        called from the GUI.
+        gui_input (UserInput): Used to determine if the function is being called from the
+            GUI.
 
         config (Config): The Retool config object.
 
-        bar (Any): The progress bar.
-
     Raises:
-        ExitRetool: Silently exit if run from the GUI, so UI elements can
-        re-enable.
+        ExitRetool: Silently exit if run from the GUI, so UI elements can re-enable.
 
     Returns:
-        CloneList: A CloneList object which is used to enable custom matching
-        of titles, pioritization of titles, assignment of new categories, and
-        more.
+        CloneList: A CloneList object which is used to enable custom matching of titles,
+        pioritization of titles, assignment of new categories, and more.
     """
     # Grab local file path where clone lists are found
-    clone_list_path: str = config.config_file_content[const.CLONE_LISTS_KEY]['localDir']
+    clone_list_path: str = str(config.path_clone_list)
 
     if config.user_input.user_clone_list_location:
         clone_list_path = config.user_input.user_clone_list_location
@@ -1007,19 +1077,95 @@ def import_clone_list(
     clonedata: dict[str, Any] = load_data(clone_file, 'clone list', config)
 
     min_version: str = ''
-    mias: list[str] = []
     variants: list[dict[str, Any]] = []
 
-    if 'mias' in clonedata:
-        mias = clonedata['mias']
     if 'variants' in clonedata:
         variants = clonedata['variants']
     if 'description' in clonedata:
         if 'minimumVersion' in clonedata['description']:
             min_version = clonedata['description']['minimumVersion']
-            minimum_version(min_version, clone_file, gui_input, bar)
+            minimum_version(min_version, clone_file, gui_input)
 
-    return CloneList(min_version, mias, variants)
+    # Grab local file path where MIAs are found
+    mias: list[dict[str, str]] = []
+
+    if config.user_input.label_mia:
+        mia_path: str = str(config.path_mia)
+
+        if config.user_input.user_mia_location:
+            mia_path = config.user_input.user_mia_location
+
+        mia_file: str = ''
+
+        # Import the MIA file
+        if config.system_mia_file and {'override': 'true'} in config.system_user_path_settings:
+            # If a user has set a custom MIA file for a system through a config file
+            mia_file = config.system_mia_file
+        elif config.user_input.mia and config.user_input.mia != str(pathlib.Path('').resolve()):
+            # If a user has set a custom MIA file using the CLI
+            mia_file = config.user_input.mia
+        else:
+            # Load the default MIA list, which has the same name as input_dat.search_name.json
+            mia_file_name: str = input_dat.search_name
+
+            if config.user_input.test:
+                mia_file = f'tests/mias/{mia_file_name}.json'
+            else:
+                mia_file = f'{mia_path}/{mia_file_name}.json'
+
+        mia_data: dict[str, list[dict[str, str]]] = load_data(mia_file, 'MIA file', config)
+
+        if 'mias' in mia_data:
+            mias = mia_data['mias']
+
+    # Grab local file path where RetroAchievements are found
+    retroachievements: list[dict[str, str]] = []
+
+    if config.user_input.label_retro:
+        ra_path: str = str(config.path_ra)
+
+        if config.user_input.user_ra_location:
+            ra_path = config.user_input.user_ra_location
+
+        ra_file: str = ''
+        ra_chd_file: str = ''
+        retroachievements_data: dict[str, list[dict[str, str]]] = {}
+
+        # Import the RetroAchievements data
+        if config.system_ra_file and {'override': 'true'} in config.system_user_path_settings:
+            # If a user has set a custom RetroAchievements file for a system through a config
+            # file
+            ra_file = config.system_ra_file
+        elif config.user_input.ra and config.user_input.ra != str(pathlib.Path('').resolve()):
+            # If a user has set a custom RetroAchievements file using the CLI
+            ra_file = config.user_input.ra
+        else:
+            # Load the default RetroAchievments list
+            ra_file_name: str = (
+                input_dat.search_name.replace('Non-Redump - ', '')
+                .replace(' (No-Intro)', '')
+                .replace(' (Redump)', '')
+            )
+
+            if config.user_input.test:
+                ra_file = f'tests/retroachievements/{ra_file_name}.json'
+            else:
+                ra_file = f'{ra_path}/{ra_file_name}.json'
+                ra_chd_file = f'{ra_path}/{ra_file_name} (CHD).json'
+
+        retroachievements_data = load_data(ra_file, 'RetroAchievements file', config)
+
+        if 'retroachievements' in retroachievements_data:
+            retroachievements = retroachievements_data['retroachievements']
+
+        # Some RetroAchievements have CHD equivalents, so import those digests too
+        if ra_chd_file and pathlib.Path(ra_chd_file).exists():
+            retroachievements_data = load_data(ra_chd_file, 'RetroAchievements CHD file', config)
+
+            if 'retroachievements' in retroachievements_data:
+                retroachievements.extend(retroachievements_data['retroachievements'])
+
+    return CloneList(min_version, mias, retroachievements, variants)
 
 
 def import_metadata(input_dat: Dat, config: Config) -> dict[str, dict[str, str]]:
@@ -1029,14 +1175,15 @@ def import_metadata(input_dat: Dat, config: Config) -> dict[str, dict[str, str]]
 
     Args:
         input_dat (Dat): The Retool input_dat object.
+
         config (Config): The Retool config object.
 
     Returns:
-        dict[str, dict[str, str]]: A dictionary that contains metadata for all
-        the titles in the DAT.
+        dict (dict[str, dict[str, str]]): A dictionary that contains metadata for all the
+        titles in the DAT.
     """
     # Grab local file path where metadata files are found
-    metadata_path: str = config.config_file_content[const.METADATA_KEY]['localDir']
+    metadata_path: str = str(config.path_metadata)
 
     if config.user_input.user_metadata_location:
         metadata_path = config.user_input.user_metadata_location
@@ -1092,35 +1239,35 @@ def import_system_settings(
         search_name (str): The name of the system file, based on the DAT's system.
 
         system_language_order_key (str): The key in the system config that specifies the
-        language order as defined by the user.
+            language order as defined by the user.
 
         system_region_order_key (str): The key in the system config that specifies the
-        region order as defined by the user.
+            region order as defined by the user.
 
         system_localization_order_key (str): The key in the system config that specifies
-        the localization order as defined by the user.
+            the localization order as defined by the user.
 
         system_video_order_key (str): The key in the system config that specifies the
-        order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM as defined by
-        the user.
+            order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM as defined
+            by the user.
 
         system_list_prefix_key (str): The key in the system config that specifies the
-        prefix used when the user specifies `--listnames`.
+            prefix used when the user specifies `--listnames`.
 
         system_list_suffix_key (str): The key in the system config that specifies the
-        suffix used when the user specifies `--listnames`.
+            suffix used when the user specifies `--listnames`.
 
         system_override_exclude_key (str): The key in the system config that specifies
-        the exclude overrides set by the user.
+            the exclude overrides set by the user.
 
         system_override_include_key (str): The key in the system config that specifies
-        the include overrides set by the user.
+            the include overrides set by the user.
 
         system_filter_key (str): The key in the system config that specifies the post
-        filters set by the user.
+            filters set by the user.
 
         system_exclusions_options_key (str): They key in the system config that specifies
-        settings used by the GUI.
+            settings used by the GUI.
     """
     # Reset system settings
     config.system_user_path_settings = ()
@@ -1128,6 +1275,8 @@ def import_system_settings(
     config.system_output = ''
     config.system_clone_list = ''
     config.system_metadata_file = ''
+    config.system_mia_file = ''
+    config.system_ra_file = ''
     config.system_exclude = []
     config.system_include = []
     config.system_filter = []
@@ -1142,6 +1291,7 @@ def import_system_settings(
     if pathlib.Path(f'{config.system_settings_path}/{search_name}.yaml').is_file():
         schema = Map(
             {
+                'config version': Str(),
                 'paths': Seq(Str() | MapPattern(Str(), Str())) | Str(),
                 system_language_order_key: Seq(Str() | MapPattern(Str(), Str())) | Str(),
                 system_region_order_key: Seq(Str() | MapPattern(Str(), Str())) | Str(),
@@ -1157,62 +1307,7 @@ def import_system_settings(
         )
 
         system_config_file: str = f'{config.system_settings_path}/{search_name}.yaml'
-        system_settings: YAML
-
-        try:
-            with open(pathlib.Path(system_config_file), encoding='utf-8') as system_config_import:
-                system_settings = load(str(system_config_import.read()), schema)
-
-        except OSError as e:
-            eprint(f'• {Font.b}Error{Font.be}: {e!s}\n', level='error')
-            raise
-
-        except YAMLValidationError as e:
-            # For compatibility, check if the following filter keys are missing, and add
-            # them if not found:
-            #
-            # * filters, added in v2.01.0
-            # * localization order, added in v2.02.0
-
-            if '\'filters\' not found' in str(e) or '\'localization order\' not found' in str(e):
-                key_name: str = ''
-
-                if '\'filters\' not found' in str(e):
-                    key_name = 'filters'
-
-                if '\'localization order\' not found' in str(e):
-                    key_name = 'localization order'
-
-                try:
-                    with open(
-                        pathlib.Path(system_config_file), encoding='utf-8'
-                    ) as system_config_import:
-                        add_key: list[str] = system_config_import.readlines()
-                        add_key.append(f'\n\n{key_name}:')
-
-                    with open(
-                        pathlib.Path(system_config_file), 'w', encoding='utf-8'
-                    ) as system_config_import:
-                        system_config_import.writelines(add_key)
-                except Exception as e2:
-                    eprint(f'• {Font.b}Error{Font.be}: {e2!s}\n', level='error')
-                    raise
-
-                try:
-                    with open(
-                        pathlib.Path(system_config_file), encoding='utf-8'
-                    ) as system_config_import:
-                        system_settings = load(str(system_config_import.read()), schema)
-                except Exception as e2:
-                    eprint(f'• {Font.b}Error{Font.be}: {e2!s}\n', level='error')
-                    raise
-            else:
-                eprint(f'• {Font.b}YAML validation error{Font.be}: {e!s}\n', level='error')
-                raise
-
-        except YAMLError as e:
-            eprint(f'• {Font.b}YAML error{Font.be}: {e!s}\n', level='error')
-            raise
+        system_settings: YAML = read_config(schema, system_config_file, config)
 
         # Get system paths
         config.system_user_path_settings = system_settings.data['paths']
@@ -1222,6 +1317,12 @@ def import_system_settings(
         )
         config.system_metadata_file = get_config_value(
             config.system_user_path_settings, 'metadata file', '.', True
+        )
+        config.system_mia_file = get_config_value(
+            config.system_user_path_settings, 'mia file', '.', True
+        )
+        config.system_ra_file = get_config_value(
+            config.system_user_path_settings, 'retroachievements file', '.', True
         )
         config.system_output = get_config_value(
             config.system_user_path_settings, 'output', '.', True
@@ -1417,17 +1518,17 @@ def import_system_settings(
 
         if {'override options': 'true'} in config.system_exclusions_options:
             config.user_input.demote_unl = False
-            config.user_input.empty_titles = False
             config.user_input.legacy = False
             config.user_input.list_names = False
-            config.user_input.log = False
+            config.user_input.report = False
             config.user_input.machine_not_game = False
-            config.user_input.no_label_mia = False
+            config.user_input.label_mia = False
+            config.user_input.label_retro = False
             config.user_input.oldest = False
+            config.user_input.retroachievements = False
             config.user_input.original_header = False
             config.user_input.modern = False
             config.user_input.no_1g1r = False
-            config.user_input.no_dtd = False
             config.user_input.no_overrides = False
             config.user_input.compilations = ''
             config.user_input.output_region_split = False
@@ -1440,33 +1541,32 @@ def import_system_settings(
             config.user_input.trace = ''
 
             options: list[str] = []
-            option: str
 
             for option in config.system_exclusions_options:
+                if option == 'c':
+                    config.user_input.retroachievements = True
+                    options.append('c')
                 if option == 'd':
                     config.user_input.no_1g1r = True
                     options.append('d')
-                if option == 'e':
-                    config.user_input.empty_titles = True
-                    options.append('e')
                 if option == 'legacy':
                     config.user_input.legacy = True
                     options.append('x')
                 if option == 'listnames':
                     config.user_input.list_names = True
-                if option == 'log':
-                    config.user_input.log = True
+                if option == 'report':
+                    config.user_input.report = True
                 if option == 'machine':
                     config.user_input.machine_not_game = True
-                if option == 'nolabelmia':
-                    config.user_input.no_label_mia = True
+                if option == 'labelmia':
+                    config.user_input.label_mia = True
+                if option == 'labelretro':
+                    config.user_input.label_retro = True
                 if option == 'o':
                     config.user_input.oldest = True
                     options.append('o')
                 if option == 'originalheader':
                     config.user_input.original_header = True
-                if option == 'nodtd':
-                    config.user_input.no_dtd = True
                 if option == 'nooverrides':
                     config.user_input.no_overrides = True
                 if option == 'r':
@@ -1489,7 +1589,7 @@ def import_system_settings(
                     config.user_input.demote_unl = True
                 if option == 'z':
                     config.user_input.modern = True
-                    options.append('y')
+                    options.append('z')
 
             config.user_input.compilations = get_config_value(
                 config.system_exclusions_options, 'compilations', '', is_path=False
@@ -1515,7 +1615,7 @@ def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:
         config (Config): The Retool config object.
 
     Returns:
-        dict[str, Any]: The JSON representation of the file.
+        dict (dict[str, Any]): The JSON representation of the file.
     """
     data_content: dict[str, Any] = {}
 
@@ -1533,8 +1633,8 @@ def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:
                 eprint(
                     f'• {Font.b}Warning{Font.be}: The {Font.b}{data_file}{Font.be} '
                     f'{file_type} contains invalid JSON. Retool won\'t '
-                    'be able to detect clones as accurately. Would you like to redownload the '
-                    f'{file_type} to fix this? (y/n)',
+                    'be able to detect clones as accurately. Would you like to redownload '
+                    f'the {file_type} to fix this? (y/n)',
                     level='warning',
                 )
 

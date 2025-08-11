@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Unknown (Retool)</name>
+		<description>Unknown (1) (-x) (2025-06-29) (Retool)</description>
+		<version>2025-06-29</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>unexpectedpanda | https://unexpectedpanda.github.io/retool</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>Unknown</url>
+		<retool>Created by Retool X</retool>
+	</header>
+	<game name="Test Title (USA)">
+		<category>BIOS</category>
+		<description>Test Title (USA)</description>
+		<release name="Test Title (USA)" region="USA" language="En"/>
+		<rom name="Test Title (USA).cue" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA).bin" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

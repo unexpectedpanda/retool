@@ -33,8 +33,8 @@ and want to integrate Retool into your flow, complete the following steps.
         1.  Optional: In the **Options** tab, enable
             **Don't modify the input DAT file's existing header fields**.
 
-        1.  DATVault only: In the **Options** tab, enable
-            **Don't use clone lists to mark titles as MIA**.
+        1.  DATVault only: In the **Options** tab, disable
+            **Add MIA attributes to files**.
 
         1.  Set your preferences for the ROMVault DAT files in Retool.
 
@@ -51,8 +51,6 @@ and want to integrate Retool into your flow, complete the following steps.
 
         * `--originalheader`: Optional. Use the original input DAT headers in output DAT
           files.
-
-        * `--nolabelmia`: DatVault only. Don't use clone lists to mark titles as MIA.
 
 ## Process the DAT files and update ROMVault
 

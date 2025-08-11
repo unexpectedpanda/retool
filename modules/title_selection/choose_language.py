@@ -6,8 +6,8 @@ from functools import reduce
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from modules.config import Config
-    from modules.dats import DatNode
+    from modules.config.config import Config
+    from modules.dat.process_dat import DatNode
 
 from modules.titletools import TraceTools
 from modules.utils import Font, eprint
@@ -17,36 +17,32 @@ def choose_language(
     title_set: set[DatNode], config: Config, report_on_match: bool, first_time: bool = True
 ) -> set[DatNode]:
     """
-    Compares any two titles from a set of DatNodes, looking for languages based on
-    the user language order.
+    Compares any two titles from a set of DatNodes, looking for languages based on the
+    user language order.
 
     Args:
         title_set (set[DatNode]): A set of titles as DatNode instances.
 
         config (Config): The Retool config object.
 
-        report_on_match (bool): Whether Retool needs to report any titles being
-        traced.
+        report_on_match (bool): Whether Retool needs to report any titles being traced.
 
-        first_time (bool, optional): Whether this is the first time the
-        `choose_language` function has been run. If `True`, the comparison stops at
-        the first language match. If `False`, the language order is used to
-        determine which is the more desired title.
+        first_time (bool, optional): Whether this is the first time the `choose_language`
+            function has been run. If `True`, the comparison stops at the first language
+            match. If `False`, the language order is used to determine which is the more
+            desired title.
 
-        For example, if a user has a language order of En > Fr > De > Zh > and the
-        following titles are passed in:
+            For example, if a user has a language order of En > Fr > De > Zh > and the
+            following titles are passed in:
 
-        • Title 1 (En,Fr,De)
+            • Title 1 (En,Fr,De)
+            • Title 2 (En,Fr,Zh)
 
-        • Title 2 (En,Fr,Zh)
-
-        With `first_time` set to `True`, both titles are selected, as Retool finds
-        En in both titles and stops. When `first_time` is `False`, the comparison
-        continues. Both have Fr, but only Title 1 has De, and so it is selected.
-        If both titles contain all the desired languages, as a fallback the title
-        with the most languages is selected.
-
-        Defaults to `True`.
+            With `first_time` set to `True`, both titles are selected, as Retool finds
+            `En` in both titles and stops. When `first_time` is `False`, the comparison
+            continues. Both have Fr, but only Title 1 has De, and so it is selected.
+            If both titles contain all the desired languages, as a fallback the title
+            with the most languages is selected. Defaults to `True`.
 
     Returns:
         set[DatNode]: A set of DatNodes filtered by language priority.
@@ -292,32 +288,30 @@ def choose_language_top(
     report_on_match: bool,
 ) -> set[DatNode]:
     """
-    Checks a set of DatNodes for which titles support the top language in a
-    group, split by short name.
+    Checks a set of DatNodes for which titles support the top language in a group, split
+    by short name.
 
     Args:
         title_set (set[DatNode]): A set of titles as DatNode instances.
 
-        short_name_top_languages (set[tuple[str, int, str]]): The top
-        languages for each title in a group split by short name, in the
-        format `{short name, language priority, language code regex}`.
+        short_name_top_languages (set[tuple[str, int, str]]): The top languages for each
+            title in a group split by short name, in the format
+            `{short name, language priority, language code regex}`.
 
-        For example, with a language priority of En > Ja:
+            For example, with a language priority of En > Ja:
 
-        `{('title 1 (disc 1)', 1, 'Ja'), ('title 1 (disc 2)', 1, 'Ja'),
-        ('title 1 - special edition', 0, 'En(?:-[A-Z][A-Z])?')}`.
+            {('title 1 (disc 1)', 1, 'Ja'), ('title 1 (disc 2)', 1, 'Ja'),
+            ('title 1 - special edition', 0, 'En(?:-[A-Z][A-Z])?')}
 
-        group_name (str): The name of the group being processed, only used
-        as part of a trace.
+        group_name (str): The name of the group being processed, only used as part of a
+            trace.
 
-        report_on_match (bool): Whether Retool needs to report any titles
-        being traced.
+        report_on_match (bool): Whether Retool needs to report any titles being traced.
 
     Returns:
-        set[DatNode]: A set of DatNodes that contain titles that only
-        support the top language for a group, split by short name. If
-        there's only one title in the set and it doesn't support the top
-        language, it isn't removed.
+        set[DatNode]: A set of DatNodes that contain titles that only support the top
+        language for a group, split by short name. If there's only one title in the set
+        and it doesn't support the top language, it isn't removed.
     """
     if report_on_match:
         TraceTools.trace_title('REF0015', [], keep_remove=False)

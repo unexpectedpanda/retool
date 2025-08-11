@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - Clone list filters (Retool)</name>
+		<description>Retool - Clone list filters (8) (-x) (2024-02-24 00-00-00) (Retool)</description>
+		<version>2024-02-24 00-00-00</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://unexpectedpanda.github.io/retool</url>
+		<retool>Created by Retool X</retool>
+	</header>
+	<game name="Test Title 0 (Disc 1) (USA)">
+		<category>Games</category>
+		<description>Test Title 0 (USA)</description>
+		<release name="Test Title 0 (Disc 1) (USA)" region="USA" language="En"/>
+		<rom name="Test Title 0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 0 (Disc 2) (USA)">
+		<category>Games</category>
+		<description>Test Title 0 (Disc 2) (USA)</description>
+		<release name="Test Title 0 (Disc 2) (USA)" region="USA" language="En"/>
+		<rom name="Test Title 0 (Disc 2) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 (Disc 2) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Title 1 (USA)</description>
+		<release name="Test Title 1 (USA)" region="USA" language="En"/>
+		<rom name="Test Title 1 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 2 (USA)">
+		<category>Games</category>
+		<description>Test Title 2 (USA)</description>
+		<release name="Test Title 2 (USA)" region="USA" language="En"/>
+		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 2 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 3 (USA)">
+		<category>Games</category>
+		<description>Test Title 3 (USA)</description>
+		<release name="Test Title 3 (USA)" region="USA" language="En"/>
+		<rom name="Test Title 3 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 3 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 3 (USA) (Fr)">
+		<category>Games</category>
+		<description>Test Title 3 (USA) (Fr)</description>
+		<release name="Test Title 3 (USA) (Fr)" region="USA" language="Fr"/>
+		<rom name="Test Title 3 (USA) (Fr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 3 (USA) (Fr).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 4 (USA)">
+		<category>Games</category>
+		<description>Test Title 4 (USA)</description>
+		<release name="Test Title 4 (USA)" region="USA" language="En"/>
+		<rom name="Test Title 4 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 4 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 4 (USA) (Pirate)">
+		<category>Games</category>
+		<description>Test Title 4 (USA) (Pirate)</description>
+		<release name="Test Title 4 (USA) (Pirate)" region="USA" language="En"/>
+		<rom name="Test Title 4 (USA) (Pirate).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 4 (USA) (Pirate).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

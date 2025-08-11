@@ -1,5 +1,5 @@
 # Set the user files and options
-__version__ = '2.3.9'
+__version__ = '2.4.0'
 CLONE_LIST_METADATA_DOWNLOAD_LOCATION: str = (
     'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main'
 )
@@ -8,8 +8,9 @@ PROGRAM_DOWNLOAD_LOCATION: str = 'https://raw.githubusercontent.com/unexpectedpa
 PROGRAM_DOWNLOAD_LOCATION_KEY: str = 'programUrl'
 CONFIG_FILE: str = 'config/internal-config.json'
 DAT_FILE_TAGS_KEY: str = 'datFileTags'
-IGNORE_TAGS_KEY: str = "ignoreTags"
-DISC_RENAME_KEY: str = "discRename"
+IGNORE_TAGS_KEY: str = 'ignoreTags'
+DISC_RENAME_KEY: str = 'discRename'
+VERSION_IGNORE_KEY: str = 'versionIgnore'
 BUDGET_EDITIONS_KEY: str = 'budgetEditions'
 PROMOTE_EDITIONS_KEY: str = 'promoteEditions'
 DEMOTE_EDITIONS_KEY: str = 'demoteEditions'
@@ -19,6 +20,8 @@ REGION_ORDER_KEY: str = 'defaultRegionOrder'
 VIDEO_ORDER_KEY: str = 'defaultVideoOrder'
 CLONE_LISTS_KEY: str = 'cloneLists'
 METADATA_KEY: str = 'metadata'
+MIAS_KEY: str = 'mias'
+RA_KEY: str = 'retroAchievements'
 SYSTEM_LANGUAGE_ORDER_KEY: str = 'language order'
 SYSTEM_REGION_ORDER_KEY: str = 'region order'
 SYSTEM_LOCALIZATION_ORDER_KEY: str = 'localization order'
@@ -52,7 +55,7 @@ COMPILATIONS_DEFAULT: str = (
 COMPILATIONS_INDIVIDUAL: str = (
     'Chooses individual titles regardless of region, language, and clone list priorities, and\n'
     'discards compilations unless they contain unique games. You\'re likely to prefer this mode\n'
-    'if you use ROM hacks or Retro Achievements. When choosing a compilation for unique titles,\n'
+    'if you use ROM hacks or RetroAchievements. When choosing a compilation for unique titles,\n'
     'if other titles in the compilation have individual equivalents, the individual titles are\n'
     'also included, leading to some title duplication.'
 )

@@ -2530,7 +2530,7 @@
 		<category>Games</category>
 		<description>Colin McRae Rally 04 (Asia)</description>
 		<release name="Colin McRae Rally 04 (Asia)" region="Asia"/>
-		<rom name="Colin McRae Rally 04 (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Colin McRae Rally 04 (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It)">
 		<category>Games</category>
@@ -2620,7 +2620,7 @@
 		<category>Preproduction</category>
 		<description>Combat Elite - WWII Paratroopers (USA) (Beta)</description>
 		<release name="Combat Elite - WWII Paratroopers (USA) (Beta)" region="USA" language="En"/>
-		<rom name="Combat Elite - WWII Paratroopers (USA) (Beta).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Combat Elite - WWII Paratroopers (USA) (Beta).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Commandos - Strike Force (USA, Europe) (En,Fr,De,Es,It)">
 		<category>Games</category>
@@ -7602,7 +7602,7 @@
 		<category>Preproduction</category>
 		<description>LEGO Super Soccer Adventure (Europe) (Proto)</description>
 		<release name="LEGO Super Soccer Adventure (Europe) (Proto)" region="Europe" language="En"/>
-		<rom name="LEGO Super Soccer Adventure (Europe) (Proto).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="LEGO Super Soccer Adventure (Europe) (Proto).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="LMA Manager 2003 (Europe)">
 		<category>Games</category>
@@ -10558,7 +10558,7 @@
 		<description>Ninja Gaiden Black (Japan) (En,Ja)</description>
 		<release name="Ninja Gaiden Black (Japan) (En,Ja)" region="Japan" language="En"/>
 		<release name="Ninja Gaiden Black (Japan) (En,Ja)" region="Japan" language="Ja"/>
-		<rom name="Ninja Gaiden Black (Japan) (En,Ja).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Ninja Gaiden Black (Japan) (En,Ja).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Ninja Gaiden Black (USA) (En,Ja)" cloneof="Ninja Gaiden Black (Europe) (En,Fr,De,Es,It)">
 		<category>Games</category>
@@ -12613,7 +12613,7 @@
 		<category>Preproduction</category>
 		<description>Painkiller - Hell Wars (USA) (Beta) (2005-10-18)</description>
 		<release name="Painkiller - Hell Wars (USA) (Beta) (2005-10-18)" region="USA" language="En"/>
-		<rom name="Painkiller - Hell Wars (USA) (Beta) (2005-10-18).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Painkiller - Hell Wars (USA) (Beta) (2005-10-18).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Panzer Dragoon Orta (Europe) (Beta) (2002-12-24)" cloneof="Panzer Dragoon Orta (Europe) (En,Fr,De,Es,It)">
 		<category>Preproduction</category>
@@ -14629,7 +14629,7 @@
 		<description>Shin Sangoku Musou 4 (Japan) (En,Ja)</description>
 		<release name="Shin Sangoku Musou 4 (Japan) (En,Ja)" region="Japan" language="En"/>
 		<release name="Shin Sangoku Musou 4 (Japan) (En,Ja)" region="Japan" language="Ja"/>
-		<rom name="Shin Sangoku Musou 4 (Japan) (En,Ja).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Shin Sangoku Musou 4 (Japan) (En,Ja).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Shinchou Mahjong (Japan)">
 		<category>Games</category>
@@ -15177,7 +15177,7 @@
 		<category>Games</category>
 		<description>Sphinx and the Cursed Mummy (Korea)</description>
 		<release name="Sphinx and the Cursed Mummy (Korea)" region="Korea" language="Ko"/>
-		<rom name="Sphinx and the Cursed Mummy (Korea).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Sphinx and the Cursed Mummy (Korea).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Sphinx and the Cursed Mummy (USA)" cloneof="Sphinx and the Cursed Mummy (Europe) (En,Fr,De,Es,It)">
 		<category>Games</category>
@@ -18776,7 +18776,7 @@
 		<release name="Xbox Demo Disc Version 2.2 (USA)" region="USA" language="En"/>
 		<rom name="Xbox Demo Disc Version 2.2 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disc Version 2.2a (USA)">
+	<game name="Xbox Demo Disc Version 2.2a (USA)" cloneof="Xbox Demo Disc Version 4.6 (USA)">
 		<category>Demos</category>
 		<description>Xbox Demo Disc Version 2.2a (USA)</description>
 		<release name="Xbox Demo Disc Version 2.2a (USA)" region="USA" language="En"/>
@@ -18926,19 +18926,19 @@
 		<release name="Xbox Demo Disc Version 4.6 (USA)" region="USA" language="En"/>
 		<rom name="Xbox Demo Disc Version 4.6 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 1.0 (USA)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 1.0 (USA)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 1.0 (USA)</description>
 		<release name="Xbox Demo Disk Version 1.0 (USA)" region="USA" language="En"/>
 		<rom name="Xbox Demo Disk Version 1.0 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 1.1 (USA)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 1.1 (USA)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 1.1 (USA)</description>
 		<release name="Xbox Demo Disk Version 1.1 (USA)" region="USA" language="En"/>
 		<rom name="Xbox Demo Disk Version 1.1 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 1.4 (USA)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 1.4 (USA)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 1.4 (USA)</description>
 		<release name="Xbox Demo Disk Version 1.4 (USA)" region="USA" language="En"/>
@@ -18962,7 +18962,7 @@
 		<release name="Xbox Demo Disk Version 13 (Europe)" region="Europe" language="En"/>
 		<rom name="Xbox Demo Disk Version 13 (Europe).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 2.0 (USA)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 2.0 (USA)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 2.0 (USA)</description>
 		<release name="Xbox Demo Disk Version 2.0 (USA)" region="USA" language="En"/>
@@ -18974,25 +18974,25 @@
 		<release name="Xbox Demo Disk Version 2.0 (USA) (GameStop)" region="USA" language="En"/>
 		<rom name="Xbox Demo Disk Version 2.0 (USA) (GameStop).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 2.1 (USA)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 2.1 (USA)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 2.1 (USA)</description>
 		<release name="Xbox Demo Disk Version 2.1 (USA)" region="USA" language="En"/>
 		<rom name="Xbox Demo Disk Version 2.1 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 3.0 (Europe)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 3.0 (Europe)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 3.0 (Europe)</description>
 		<release name="Xbox Demo Disk Version 3.0 (Europe)" region="Europe" language="En"/>
 		<rom name="Xbox Demo Disk Version 3.0 (Europe).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 4.0 (Europe)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 4.0 (Europe)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 4.0 (Europe)</description>
 		<release name="Xbox Demo Disk Version 4.0 (Europe)" region="Europe" language="En"/>
 		<rom name="Xbox Demo Disk Version 4.0 (Europe).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 5.0 (Europe) (En,Fr,De,Es,It)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 5.0 (Europe) (En,Fr,De,Es,It)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 5.0 (Europe) (En,Fr,De,Es,It)</description>
 		<release name="Xbox Demo Disk Version 5.0 (Europe) (En,Fr,De,Es,It)" region="Europe" language="De"/>
@@ -19002,26 +19002,26 @@
 		<release name="Xbox Demo Disk Version 5.0 (Europe) (En,Fr,De,Es,It)" region="Europe" language="It"/>
 		<rom name="Xbox Demo Disk Version 5.0 (Europe) (En,Fr,De,Es,It).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 5.0 (Germany)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 5.0 (Germany)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 5.0 (Germany)</description>
 		<release name="Xbox Demo Disk Version 5.0 (Germany)" region="Germany" language="De"/>
 		<rom name="Xbox Demo Disk Version 5.0 (Germany).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 7.0 (Europe)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 7.0 (Europe)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 7.0 (Europe)</description>
 		<release name="Xbox Demo Disk Version 7.0 (Europe)" region="Europe" language="En"/>
 		<rom name="Xbox Demo Disk Version 7.0 (Europe).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 7.0 (Germany) (En,De)" cloneof="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 7.0 (Germany) (En,De)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 7.0 (Germany) (En,De)</description>
 		<release name="Xbox Demo Disk Version 7.0 (Germany) (En,De)" region="Germany" language="De"/>
 		<release name="Xbox Demo Disk Version 7.0 (Germany) (En,De)" region="Germany" language="En"/>
 		<rom name="Xbox Demo Disk Version 7.0 (Germany) (En,De).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xbox Demo Disk Version 9.0 (Europe)">
+	<game name="Xbox Demo Disk Version 9.0 (Europe)" cloneof="Xbox Demo Disk Version 13 (Europe)">
 		<category>Demos</category>
 		<description>Xbox Demo Disk Version 9.0 (Europe)</description>
 		<release name="Xbox Demo Disk Version 9.0 (Europe)" region="Europe" language="En"/>

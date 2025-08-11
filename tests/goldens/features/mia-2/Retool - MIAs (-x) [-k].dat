@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - MIAs (Retool)</name>
+		<description>Retool - MIAs (2) (-x) [-k] (2024-02-24 00-00-00) (Retool)</description>
+		<version>2024-02-24 00-00-00</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://unexpectedpanda.github.io/retool</url>
+		<retool>Created by Retool X</retool>
+	</header>
+	<game name="Test Title (Europe) (En,Fr,De,It)">
+		<category>Games</category>
+		<description>Test Title (Europe) (En,Fr,De,It)</description>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="De"/>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="En"/>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="Fr"/>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="It"/>
+		<rom name="Test Title (Europe) (En,Fr,De,It).cue" size="1000" crc="55555555" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe) (En,Fr,De,It).bin" size="1000" crc="66666666" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="This isn't MIA (Canada) (En,Fr)">
+		<category>Games</category>
+		<description>This isn't MIA (Canada) (En,Fr)</description>
+		<release name="This isn't MIA (Canada) (En,Fr)" region="Canada" language="En"/>
+		<release name="This isn't MIA (Canada) (En,Fr)" region="Canada" language="Fr"/>
+		<rom name="This isn't MIA (Canada) (En,Fr).cue" size="1000" crc="55555555" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="This isn't MIA (Canada) (En,Fr).bin" size="1000" crc="66666666" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

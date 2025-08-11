@@ -3,9 +3,10 @@ import re
 from typing import Any
 
 import modules.constants as const
-from modules.config import Config, UserOverrides, generate_config
+from modules.config.config import Config
 from modules.gui.gui_utils import enable_go_button
 from modules.input import UserInput, get_config_value
+from modules.config.read_write_config import UserOverrides, generate_config
 
 
 def import_config() -> Config:
@@ -19,6 +20,7 @@ def import_config() -> Config:
         const.DAT_FILE_TAGS_KEY,
         const.IGNORE_TAGS_KEY,
         const.DISC_RENAME_KEY,
+        const.VERSION_IGNORE_KEY,
         const.BUDGET_EDITIONS_KEY,
         const.PROMOTE_EDITIONS_KEY,
         const.DEMOTE_EDITIONS_KEY,
@@ -28,6 +30,8 @@ def import_config() -> Config:
         const.VIDEO_ORDER_KEY,
         const.CLONE_LISTS_KEY,
         const.METADATA_KEY,
+        const.MIAS_KEY,
+        const.RA_KEY,
         const.USER_CONFIG_KEY,
         const.USER_LANGUAGE_ORDER_KEY,
         const.USER_REGION_ORDER_KEY,
@@ -64,17 +68,17 @@ def write_config(
         main_window (Any): The MainWindow widget.
 
         dat_details (dict[str, dict[str, str]]): The dictionary that carries DAT file
-        details like its system name and filepath.
+            details like its system name and filepath.
 
         config (Config): The Retool config object.
 
         settings_window (Any): The settings widget. Defaults to `None`.
 
         run_retool (bool, optional): Whether Retool should be run after a config write.
-        Defaults to `False`.
+            Defaults to `False`.
 
         update_clone_list (bool, optional): Whether the user has requested a clone list
-        update. Defaults to `False`.
+            update. Defaults to `False`.
     """
     # Check if the "Process DAT files" button should be enabled
     enable_go_button(main_window)
@@ -140,20 +144,22 @@ def write_config(
     ]
 
     system_overrides_status = {
-        'exclusions': main_window.ui.checkBoxSystemOverrideExclusions.isChecked(),
-        'languages': main_window.ui.checkBoxSystemOverrideLanguages.isChecked(),
-        'localizations': main_window.ui.checkBoxSystemOverrideLocalization.isChecked(),
-        'options': main_window.ui.checkBoxSystemOverrideOptions.isChecked(),
-        'paths': main_window.ui.checkBoxSystemOverridePaths.isChecked(),
-        'post_filters': main_window.ui.checkBoxSystemOverridePostFilter.isChecked(),
-        'regions': main_window.ui.checkBoxSystemOverrideRegions.isChecked(),
-        'video': main_window.ui.checkBoxSystemOverrideVideo.isChecked(),
+        'exclusions': str(main_window.ui.checkBoxSystemOverrideExclusions.isChecked()),
+        'languages': str(main_window.ui.checkBoxSystemOverrideLanguages.isChecked()),
+        'localizations': str(main_window.ui.checkBoxSystemOverrideLocalization.isChecked()),
+        'options': str(main_window.ui.checkBoxSystemOverrideOptions.isChecked()),
+        'paths': str(main_window.ui.checkBoxSystemOverridePaths.isChecked()),
+        'post_filters': str(main_window.ui.checkBoxSystemOverridePostFilter.isChecked()),
+        'regions': str(main_window.ui.checkBoxSystemOverrideRegions.isChecked()),
+        'video': str(main_window.ui.checkBoxSystemOverrideVideo.isChecked()),
     }
 
     # System paths
     output_folder: str = ''
     clone_list: str = ''
     metadata_file: str = ''
+    mia_file: str = ''
+    ra_file: str = ''
 
     if main_window.system_output_folder != '.':
         output_folder = main_window.system_output_folder
@@ -164,10 +170,18 @@ def write_config(
     if main_window.system_metadata_file != '.':
         metadata_file = main_window.system_metadata_file
 
+    if main_window.system_mia_file != '.':
+        mia_file = main_window.system_mia_file
+
+    if main_window.system_ra_file != '.':
+        ra_file = main_window.system_ra_file
+
     system_override_paths: dict[str, str] = {
         'output': output_folder,
         'clone list': clone_list,
         'metadata file': metadata_file,
+        'mia file': mia_file,
+        'retroachievements file': ra_file,
     }
 
     # If English isn't being processed, make sure it's commented out and at the top of the list
@@ -241,7 +255,7 @@ def write_config(
     disable_1G1R: bool = main_window.ui.checkBoxGlobalOptionsDisable1G1R.isChecked()
     prefer_regions: bool = main_window.ui.checkBoxGlobalOptionsPreferRegions.isChecked()
     prefer_oldest: bool = main_window.ui.checkBoxGlobalOptionsPreferOldest.isChecked()
-    include_hashless: bool = main_window.ui.checkBoxGlobalOptionsIncludeHashless.isChecked()
+    prefer_retro: bool = main_window.ui.checkBoxGlobalOptionsPreferRetro.isChecked()
     modern_platforms: bool = main_window.ui.checkBoxGlobalOptionsModernPlatforms.isChecked()
     demote_unlicensed: bool = main_window.ui.checkBoxGlobalOptionsDemoteUnlicensed.isChecked()
     disable_overrides: bool = main_window.ui.checkBoxGlobalOptionsDisableOverrides.isChecked()
@@ -267,13 +281,13 @@ def write_config(
     reprocess: bool = main_window.ui.checkBoxGlobalOptionsAlreadyProcessed.isChecked()
     keep_removes: bool = main_window.ui.checkBoxGlobalOptionsKeepRemove.isChecked()
     use_machine: bool = main_window.ui.checkBoxGlobalOptionsUseMachine.isChecked()
-    no_label_mia: bool = main_window.ui.checkBoxGlobalOptionsNoMIA.isChecked()
+    label_mia: bool = main_window.ui.checkBoxGlobalOptionsMIA.isChecked()
+    label_retro: bool = main_window.ui.checkBoxGlobalOptionsRetroAchievements.isChecked()
     use_original_header: bool = main_window.ui.checkBoxGlobalOptionsOriginalHeader.isChecked()
     list_1g1r_names: bool = main_window.ui.checkBoxGlobalOptions1G1RNames.isChecked()
     report_warnings: bool = main_window.ui.checkBoxGlobalOptionsReportWarnings.isChecked()
     pause_on_warnings: bool = main_window.ui.checkBoxGlobalOptionsPauseWarnings.isChecked()
     legacy_dat: bool = main_window.ui.checkBoxGlobalOptionsLegacy.isChecked()
-    bypass_dtd: bool = main_window.ui.checkBoxGlobalOptionsBypassDTD.isChecked()
     disable_multiprocessor: bool = main_window.ui.checkBoxGlobalOptionsDisableMultiCPU.isChecked()
     trace: bool = main_window.ui.checkBoxGlobalOptionsTrace.isChecked()
 
@@ -301,7 +315,7 @@ def write_config(
     system_disable_1G1R: bool = main_window.ui.checkBoxSystemOptionsDisable1G1R.isChecked()
     system_prefer_regions: bool = main_window.ui.checkBoxSystemOptionsPreferRegions.isChecked()
     system_prefer_oldest: bool = main_window.ui.checkBoxSystemOptionsPreferOldest.isChecked()
-    system_include_hashless: bool = main_window.ui.checkBoxSystemOptionsIncludeHashless.isChecked()
+    system_prefer_retro: bool = main_window.ui.checkBoxSystemOptionsPreferRetro.isChecked()
     system_modern_platforms: bool = main_window.ui.checkBoxSystemOptionsModernPlatforms.isChecked()
     system_demote_unlicensed: bool = (
         main_window.ui.checkBoxSystemOptionsDemoteUnlicensed.isChecked()
@@ -331,7 +345,8 @@ def write_config(
     system_reprocess: bool = main_window.ui.checkBoxSystemOptionsAlreadyProcessed.isChecked()
     system_keep_removes: bool = main_window.ui.checkBoxSystemOptionsKeepRemove.isChecked()
     system_use_machine: bool = main_window.ui.checkBoxSystemOptionsUseMachine.isChecked()
-    system_no_label_mia: bool = main_window.ui.checkBoxSystemOptionsNoMIA.isChecked()
+    system_label_mia: bool = main_window.ui.checkBoxSystemOptionsMIA.isChecked()
+    system_label_retro: bool = main_window.ui.checkBoxSystemOptionsRetroAchievements.isChecked()
     system_use_original_header: bool = (
         main_window.ui.checkBoxSystemOptionsOriginalHeader.isChecked()
     )
@@ -339,7 +354,6 @@ def write_config(
     system_report_warnings: bool = main_window.ui.checkBoxSystemOptionsReportWarnings.isChecked()
     system_pause_on_warnings: bool = main_window.ui.checkBoxSystemOptionsPauseWarnings.isChecked()
     system_legacy_dat: bool = main_window.ui.checkBoxSystemOptionsLegacy.isChecked()
-    system_bypass_dtd: bool = main_window.ui.checkBoxSystemOptionsBypassDTD.isChecked()
     system_disable_multiprocessor: bool = (
         main_window.ui.checkBoxSystemOptionsDisableMultiCPU.isChecked()
     )
@@ -508,8 +522,8 @@ def write_config(
         gui_settings.add('r')
     if prefer_oldest:
         gui_settings.add('o')
-    if include_hashless:
-        gui_settings.add('e')
+    if prefer_retro:
+        gui_settings.add('c')
     if modern_platforms:
         gui_settings.add('z')
     if demote_unlicensed:
@@ -527,11 +541,13 @@ def write_config(
     if reprocess:
         gui_settings.add('reprocess')
     if keep_removes:
-        gui_settings.add('log')
+        gui_settings.add('report')
     if use_machine:
         gui_settings.add('machine')
-    if no_label_mia:
-        gui_settings.add('nolabelmia')
+    if label_mia:
+        gui_settings.add('labelmia')
+    if label_retro:
+        gui_settings.add('labelretro')
     if use_original_header:
         gui_settings.add('originalheader')
     if list_1g1r_names:
@@ -542,8 +558,6 @@ def write_config(
         gui_settings.add('warningpause')
     if legacy_dat:
         gui_settings.add('legacy')
-    if bypass_dtd:
-        gui_settings.add('nodtd')
     if disable_multiprocessor:
         gui_settings.add('singlecpu')
     if trace_str:
@@ -555,8 +569,8 @@ def write_config(
         system_exclusions_options.add('r')
     if system_prefer_oldest:
         system_exclusions_options.add('o')
-    if system_include_hashless:
-        system_exclusions_options.add('e')
+    if system_prefer_retro:
+        system_exclusions_options.add('c')
     if system_modern_platforms:
         system_exclusions_options.add('z')
     if system_demote_unlicensed:
@@ -574,11 +588,13 @@ def write_config(
     if system_reprocess:
         system_exclusions_options.add('reprocess')
     if system_keep_removes:
-        system_exclusions_options.add('log')
+        system_exclusions_options.add('report')
     if system_use_machine:
         system_exclusions_options.add('machine')
-    if system_no_label_mia:
-        system_exclusions_options.add('nolabelmia')
+    if system_label_mia:
+        system_exclusions_options.add('labelmia')
+    if system_label_retro:
+        system_exclusions_options.add('labelretro')
     if system_use_original_header:
         system_exclusions_options.add('originalheader')
     if system_list_1g1r_names:
@@ -589,8 +605,6 @@ def write_config(
         system_exclusions_options.add('warningpause')
     if system_legacy_dat:
         system_exclusions_options.add('legacy')
-    if system_bypass_dtd:
-        system_exclusions_options.add('nodtd')
     if system_disable_multiprocessor:
         system_exclusions_options.add('singlecpu')
     if system_trace_str:
@@ -606,27 +620,31 @@ def write_config(
         'Input',
         'output',
         'clonelist',
+        'compilations',
         'config',
+        'e',
         'exclude',
-        'q',
-        'warnings',
-        'warningpause',
         'legacy',
-        'log',
-        'machine',
-        'nolabelmia',
-        'originalheader',
-        'metadata',
-        'nooverrides',
-        'nodtd',
+        'labelmia',
+        'labelretro',
         'listnames',
-        'replace',
+        'machine',
+        'metadata',
+        'mia',
+        'mianooverrides',
+        'originalheader',
+        'q',
         'regionsplit',
         'removesdat',
+        'replace',
+        'report',
         'reprocess',
+        'retroachievements',
         'singlecpu',
         'test',
-        'e',
+        'trace',
+        'warnings',
+        'warningpause',
     )
 
     user_options_list: list[str] = sorted([x for x in gui_settings if x not in hidden_options])
@@ -700,6 +718,21 @@ def write_config(
             gui_settings.add(f'metadata folder: {settings_window.ui.labelMetadataLocation.text()}')
 
         if (
+            settings_window.ui.labelMIALocation.text()
+            != str(pathlib.Path(config.path_mia).resolve())
+            and settings_window.ui.labelMIALocation.text() != 'No MIA folder selected'
+        ):
+            gui_settings.add(f'mia folder: {settings_window.ui.labelMIALocation.text()}')
+
+        if (
+            settings_window.ui.labelRALocation.text() != str(pathlib.Path(config.path_ra).resolve())
+            and settings_window.ui.labelRALocation.text() != 'No RetroAchievements folder selected'
+        ):
+            gui_settings.add(
+                f'retroachievements folder: {settings_window.ui.labelRALocation.text()}'
+            )
+
+        if (
             settings_window.ui.labelQuickImportLocation.text()
             != str(pathlib.Path(config.path_quick_import).resolve())
             and settings_window.ui.labelQuickImportLocation.text()
@@ -721,6 +754,8 @@ def write_config(
         # Compensate if we can't get the settings from the dialog itself
         clone_lists_folder: str = ''
         metadata_folder: str = ''
+        mia_folder: str = ''
+        ra_folder: str = ''
         quick_import_folder: str = ''
         clone_list_metadata_url: str = ''
 
@@ -728,14 +763,28 @@ def write_config(
             clone_lists_folder = str(pathlib.Path(main_window.clone_lists_folder).resolve())
         else:
             clone_lists_folder = get_config_value(
-                config.user_gui_settings, 'clone lists folder', config.path_clone_list
+                config.user_gui_settings, 'clone lists folder', str(config.path_clone_list)
             )
 
         if main_window.metadata_folder:
             metadata_folder = str(pathlib.Path(main_window.metadata_folder).resolve())
         else:
             metadata_folder = get_config_value(
-                config.user_gui_settings, 'metadata folder', config.path_metadata
+                config.user_gui_settings, 'metadata folder', str(config.path_metadata)
+            )
+
+        if main_window.mia_folder:
+            mia_folder = str(pathlib.Path(main_window.mia_folder).resolve())
+        else:
+            mia_folder = get_config_value(
+                config.user_gui_settings, 'mia folder', str(config.path_mia)
+            )
+
+        if main_window.ra_folder:
+            ra_folder = str(pathlib.Path(main_window.ra_folder).resolve())
+        else:
+            ra_folder = get_config_value(
+                config.user_gui_settings, 'retroachievements folder', str(config.path_ra)
             )
 
         if main_window.quick_import_folder:
@@ -759,12 +808,21 @@ def write_config(
             pathlib.Path(config.path_clone_list).resolve()
         ):
             gui_settings.add(f'clone lists folder: {clone_lists_folder}')
+
         if metadata_folder and metadata_folder != str(pathlib.Path(config.path_metadata).resolve()):
             gui_settings.add(f'metadata folder: {metadata_folder}')
+
+        if mia_folder and mia_folder != str(pathlib.Path(config.path_mia).resolve()):
+            gui_settings.add(f'mia folder: {mia_folder}')
+
+        if ra_folder and ra_folder != str(pathlib.Path(config.path_ra).resolve()):
+            gui_settings.add(f'retroachievements folder: {ra_folder}')
+
         if quick_import_folder and quick_import_folder != str(
             pathlib.Path(config.path_quick_import).resolve()
         ):
             gui_settings.add(f'quick import folder: {quick_import_folder}')
+
         if (
             clone_list_metadata_url
             and clone_list_metadata_url != config.clone_list_metadata_download_location
@@ -850,10 +908,10 @@ def write_config(
                     input_file_name=str(dat_file),
                     update=update_clone_list,
                     no_1g1r=disable_1G1R,
-                    empty_titles=include_hashless,
                     filter_languages=filter_languages_enabled,
                     local_names=use_local_names,
                     oldest=prefer_oldest,
+                    retroachievements=prefer_retro,
                     region_bias=prefer_regions,
                     legacy=legacy_dat,
                     demote_unl=demote_unlicensed,
@@ -881,11 +939,14 @@ def write_config(
                     clone_list='',
                     user_config='',
                     metadata='',
+                    mia='',
+                    ra='',
                     no_overrides=disable_overrides,
                     list_names=list_1g1r_names,
-                    log=keep_removes,
+                    report=keep_removes,
                     machine_not_game=use_machine,
-                    no_label_mia=no_label_mia,
+                    label_mia=label_mia,
+                    label_retro=label_retro,
                     original_header=use_original_header,
                     output_folder_name=main_window.output_folder,
                     output_region_split=split_regions,
@@ -896,13 +957,14 @@ def write_config(
                     warningpause=pause_on_warnings,
                     single_cpu=disable_multiprocessor,
                     trace=trace_str,
-                    no_dtd=bypass_dtd,
                     excludes=exclude_str,
                     dev_mode=False,
                     user_options=user_options_str,
                     user_clone_list_location=clone_lists_folder,
                     user_clone_list_metadata_download_location=clone_list_metadata_url,
                     user_metadata_location=metadata_folder,
+                    user_mia_location=mia_folder,
+                    user_ra_location=ra_folder,
                     test=False,
                 )
 
@@ -912,9 +974,10 @@ def write_config(
                 input_file_name='',
                 update=update_clone_list,
                 no_1g1r=False,
-                empty_titles=False,
                 filter_languages=False,
                 local_names=False,
+                oldest=False,
+                retroachievements=False,
                 region_bias=False,
                 legacy=False,
                 demote_unl=False,
@@ -942,11 +1005,14 @@ def write_config(
                 clone_list='',
                 user_config='',
                 metadata='',
+                mia='',
+                ra='',
                 no_overrides=False,
                 list_names=False,
-                log=False,
+                report=False,
                 machine_not_game=False,
-                no_label_mia=False,
+                label_mia=False,
+                label_retro=False,
                 original_header=False,
                 output_folder_name='',
                 output_region_split=False,
@@ -957,13 +1023,14 @@ def write_config(
                 warningpause=False,
                 single_cpu=False,
                 trace='',
-                no_dtd=False,
                 excludes='',
                 dev_mode=False,
                 user_options='',
                 user_clone_list_location='',
                 user_clone_list_metadata_download_location=clone_list_metadata_url,
                 user_metadata_location='',
+                user_mia_location='',
+                user_ra_location='',
                 test=False,
             )
 

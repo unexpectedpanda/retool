@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-clone-list-name.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.6.2
+## Created by: Qt User Interface Compiler version 6.9.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -38,7 +38,7 @@ class Ui_CloneListNameTool(object):
         font.setFamilies([u"Segoe UI"])
         CloneListNameTool.setFont(font)
         icon = QIcon()
-        icon.addFile(u":/retoolIcon/images/retool.ico", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u":/retoolIcon/images/retool.ico", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         CloneListNameTool.setWindowIcon(icon)
         CloneListNameTool.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.centralwidget = QWidget(CloneListNameTool)
@@ -51,10 +51,10 @@ class Ui_CloneListNameTool(object):
         self.labelContribute.setMinimumSize(QSize(0, 36))
         self.labelContribute.setFont(font)
         self.labelContribute.setScaledContents(False)
-        self.labelContribute.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.labelContribute.setAlignment(Qt.AlignmentFlag.AlignLeading|Qt.AlignmentFlag.AlignLeft|Qt.AlignmentFlag.AlignTop)
         self.labelContribute.setWordWrap(True)
         self.labelContribute.setOpenExternalLinks(True)
-        self.labelContribute.setTextInteractionFlags(Qt.LinksAccessibleByKeyboard|Qt.LinksAccessibleByMouse)
+        self.labelContribute.setTextInteractionFlags(Qt.TextInteractionFlag.LinksAccessibleByKeyboard|Qt.TextInteractionFlag.LinksAccessibleByMouse)
 
         self.verticalLayout.addWidget(self.labelContribute)
 
@@ -100,10 +100,10 @@ class Ui_CloneListNameTool(object):
         self.lineEditShortName.setMinimumSize(QSize(320, 24))
         palette = QPalette()
         brush = QBrush(QColor(240, 240, 240, 255))
-        brush.setStyle(Qt.SolidPattern)
-        palette.setBrush(QPalette.Active, QPalette.Base, brush)
-        palette.setBrush(QPalette.Inactive, QPalette.Base, brush)
-        palette.setBrush(QPalette.Disabled, QPalette.Base, brush)
+        brush.setStyle(Qt.BrushStyle.SolidPattern)
+        palette.setBrush(QPalette.ColorGroup.Active, QPalette.ColorRole.Base, brush)
+        palette.setBrush(QPalette.ColorGroup.Inactive, QPalette.ColorRole.Base, brush)
+        palette.setBrush(QPalette.ColorGroup.Disabled, QPalette.ColorRole.Base, brush)
         self.lineEditShortName.setPalette(palette)
         self.lineEditShortName.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.lineEditShortName.setReadOnly(True)
@@ -124,9 +124,9 @@ class Ui_CloneListNameTool(object):
         self.lineEditGroupName.setObjectName(u"lineEditGroupName")
         self.lineEditGroupName.setMinimumSize(QSize(320, 24))
         palette1 = QPalette()
-        palette1.setBrush(QPalette.Active, QPalette.Base, brush)
-        palette1.setBrush(QPalette.Inactive, QPalette.Base, brush)
-        palette1.setBrush(QPalette.Disabled, QPalette.Base, brush)
+        palette1.setBrush(QPalette.ColorGroup.Active, QPalette.ColorRole.Base, brush)
+        palette1.setBrush(QPalette.ColorGroup.Inactive, QPalette.ColorRole.Base, brush)
+        palette1.setBrush(QPalette.ColorGroup.Disabled, QPalette.ColorRole.Base, brush)
         self.lineEditGroupName.setPalette(palette1)
         self.lineEditGroupName.setReadOnly(True)
 
@@ -146,9 +146,9 @@ class Ui_CloneListNameTool(object):
         self.lineEditRegionFreeName.setObjectName(u"lineEditRegionFreeName")
         self.lineEditRegionFreeName.setMinimumSize(QSize(320, 24))
         palette2 = QPalette()
-        palette2.setBrush(QPalette.Active, QPalette.Base, brush)
-        palette2.setBrush(QPalette.Inactive, QPalette.Base, brush)
-        palette2.setBrush(QPalette.Disabled, QPalette.Base, brush)
+        palette2.setBrush(QPalette.ColorGroup.Active, QPalette.ColorRole.Base, brush)
+        palette2.setBrush(QPalette.ColorGroup.Inactive, QPalette.ColorRole.Base, brush)
+        palette2.setBrush(QPalette.ColorGroup.Disabled, QPalette.ColorRole.Base, brush)
         self.lineEditRegionFreeName.setPalette(palette2)
         self.lineEditRegionFreeName.setReadOnly(True)
 

@@ -28396,7 +28396,7 @@
 		<release name="Wii Fit Plus (USA) (En,Fr,Es)" region="USA" language="Fr"/>
 		<rom name="Wii Fit Plus (USA) (En,Fr,Es).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Wii Menu Install Disc (Ver. 1) (World)">
+	<game name="Wii Menu Install Disc (Ver. 1) (World)" cloneof="Wii Menu Install Disc (Ver. 2) (World)">
 		<category>Applications</category>
 		<description>Wii Menu Install Disc (Ver. 1) (World)</description>
 		<release name="Wii Menu Install Disc (Ver. 1) (World)" region="World" language="En"/>

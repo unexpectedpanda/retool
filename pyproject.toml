@@ -1,7 +1,7 @@
 [project]
 name = "Retool"
 dynamic = ["version"]
-description = "A better filter tool for Redump and No-Intro DATs"
+description = "A better filter tool for Redump and No-Intro DAT files"
 readme = "readme.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
@@ -16,15 +16,16 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
 dependencies = [
-    "alive-progress >= 3.1.5",
-    "darkdetect >= 0.8.0",
-    "lxml >= 5.2.1",
-    "psutil >= 5.9.8",
-    "PySide6 == 6.6.2",
-    "strictyaml >= 1.7.3",
-    "validators >= 0.28.0",
+    "alive-progress>=3.2.0",
+    "darkdetect>=0.8.0",
+    "lxml>=5.4.0",
+    "psutil>=7.0.0",
+    "PySide6>=6.9.1",
+    "strictyaml>=1.7.3",
+    "validators>=0.35.0",
 ]
 
 [project.urls]
@@ -48,20 +49,24 @@ path = "modules/constants.py"
 packages = ["retool.py", "retoolgui.py", "modules"]
 
 [[tool.hatch.envs.all.matrix]]
-python = ["3.10", "3.11", "3.12"]
+python = ["3.10", "3.11", "3.12", "3.13"]
 
 [tool.hatch.envs.default.scripts]
 all = [
     "hatch run style:fix",
     "hatch run types:check",
     "hatch run lint:check",
-    "hatch run integration:test",
+    "hatch run full:test",
 ]
 
 build = [
     "all",
     "hatch run build:build"
 ]
+
+# Use UV for dependency installation
+[tool.hatch.envs.default]
+installer = "uv"
 
 # Hatch lint setup and scripts
 [tool.hatch.envs.lint]
@@ -133,7 +138,7 @@ show_error_codes = true
 
 [tool.ruff]
 lint.select = [
-    "F", "W", "E", "UP", "YTT", "C4", "DTZ", "FA", "ISC", "PIE", "T20", "RSE", "TCH",
+    "F", "W", "E", "UP", "YTT", "C4", "DTZ", "FA", "ISC", "PIE", "T20", "RSE",
     "B002", "B003", "B005", "B007", "B009", "B012", "B013", "B014", "B015", "B018", "B020", "B021", "B023", "B026", "B033", "B034", "B905",
     "COM818",
     "D200", "D201", "D202", "D204", "D207", "D208", "D209", "D210", "D211", "D213", "D214", "D300", "D301", "D400", "D402", "D403", "D405", "D412", "D414", "D415", "D416", "D417", "D419",
@@ -141,46 +146,147 @@ lint.select = [
     "PERF101",
     "PGH004", "PGH005",
     "FLY002",
-    "PLC", "PLE", "PLR0124", "PLR0133", "PLR0206", "PLR0402", "PLR1701", "PLR1722", "PLW0120", "PLW0127", "PLW0129", "PLW0131", "PLW0406", "PLW0602", "PLW0603", "PLW0711",
+    "PLC", "PLE", "PLR0124", "PLR0133", "PLR0206", "PLR0402", "PLR1722", "PLW0120", "PLW0127", "PLW0129", "PLW0131", "PLW0406", "PLW0602", "PLW0603", "PLW0711",
     "RUF001", "RUF005", "RUF007", "RUF010", "RUF013", "RUF100", "RUF200",
     "SIM101", "SIM107", "SIM201", "SIM202", "SIM208", "SIM210", "SIM211", "SIM300", "SIM401", "SIM910",
 ]
-lint.ignore = ["E501", "E731"]
+lint.ignore = ["E501", "E731", "PLC0206", "PLC0415",]
 extend-exclude = ["modules/gui/resources_rc.py", "modules/gui/retool_*.py"]
 
 [tool.ruff.lint.flake8-comprehensions]
 allow-dict-calls-with-keyword-arguments = true
 
 # Hatch integration tests
-[tool.hatch.envs.integration]
+[tool.hatch.envs.quick]
 
-[[tool.hatch.envs.integration.matrix]]
-python = ["3.10", "3.11", "3.12"]
+[[tool.hatch.envs.quick.matrix]]
+python = ["3.13"]
 
-[tool.hatch.envs.integration.scripts]
+[tool.hatch.envs.quick.scripts]
+clone_list_filters = "python -m tests.clone_list_filters"
 compilations = "python -m tests.compilations"
 exclusions = "python -m tests.exclusions"
-filters = "python -m tests.filters"
+label_retroachievements = "python -m tests.label_retroachievements"
 languages = "python -m tests.languages"
-modern_rips = "python -m tests.modern_rips"
-oldest = "python -m tests.oldest"
+list = "python -m tests.list"
+local_names = "python -m tests.local_names"
+machine_disk = "python -m tests.machine_disk"
+machine_tags = "python -m tests.machine_tags"
+mia = "python -m tests.mia"
+missing_header_data = "python -m tests.missing_header_data"
+missing_title_data = "python -m tests.missing_title_data"
+no_size_hash = "python -m tests.no_size_hash"
+numbered = "python -m tests.numbered"
+original_header = "python -m tests.original_header"
+overrides = "python -m tests.overrides"
 post_filters = "python -m tests.post_filters"
+prefer_licensed = "python -m tests.prefer_licensed"
+prefer_modern_rips = "python -m tests.prefer_modern_rips"
+prefer_oldest = "python -m tests.prefer_oldest"
+prefer_regions = "python -m tests.prefer_regions"
+prefer_retroachievements = "python -m tests.prefer_retroachievements"
+removes_dat = "python -m tests.removes_dat"
+report = "python -m tests.report"
+
+regions = "python -m tests.regions"
+
+unit = "python -m tests.unit"
+
+test = [
+    "clone_list_filters",
+    "compilations",
+    "exclusions",
+    "label_retroachievements",
+    "languages",
+    "list",
+    "local_names",
+    "machine_disk",
+    "machine_tags",
+    "mia",
+    "missing_header_data",
+    "missing_title_data",
+    "numbered",
+    "no_size_hash",
+    "original_header",
+    "overrides",
+    "post_filters",
+    "prefer_licensed",
+    "prefer_modern_rips",
+    "prefer_oldest",
+    "prefer_regions",
+    "prefer_retroachievements",
+    "removes_dat",
+    "report",
+    "regions",
+    "unit",
+]
+
+[tool.hatch.envs.full]
+
+[[tool.hatch.envs.full.matrix]]
+python = ["3.10", "3.11", "3.12", "3.13"]
+
+[tool.hatch.envs.full.scripts]
+clone_list_filters = "python -m tests.clone_list_filters"
+compilations = "python -m tests.compilations"
+exclusions = "python -m tests.exclusions"
+label_retroachievements = "python -m tests.label_retroachievements"
+languages = "python -m tests.languages"
+list = "python -m tests.list"
+local_names = "python -m tests.local_names"
+machine_disk = "python -m tests.machine_disk"
+machine_tags = "python -m tests.machine_tags"
+mia = "python -m tests.mia"
+missing_header_data = "python -m tests.missing_header_data"
+missing_title_data = "python -m tests.missing_title_data"
+no_size_hash = "python -m tests.no_size_hash"
+numbered = "python -m tests.numbered"
+original_header = "python -m tests.original_header"
+overrides = "python -m tests.overrides"
+post_filters = "python -m tests.post_filters"
+prefer_licensed = "python -m tests.prefer_licensed"
+prefer_modern_rips = "python -m tests.prefer_modern_rips"
+prefer_oldest = "python -m tests.prefer_oldest"
+prefer_regions = "python -m tests.prefer_regions"
+prefer_retroachievements = "python -m tests.prefer_retroachievements"
+removes_dat = "python -m tests.removes_dat"
+report = "python -m tests.report"
 
 determinism = "python -m tests.determinism"
 regions = "python -m tests.regions"
 
+unit = "python -m tests.unit"
+
 features = [
+    "clone_list_filters",
     "compilations",
     "exclusions",
-    "filters",
+    "label_retroachievements",
     "languages",
-    "modern_rips",
-    "oldest",
+    "list",
+    "local_names",
+    "machine_disk",
+    "machine_tags",
+    "mia",
+    "missing_header_data",
+    "missing_title_data",
+    "numbered",
+    "no_size_hash",
+    "original_header",
+    "overrides",
     "post_filters",
+    "prefer_licensed",
+    "prefer_modern_rips",
+    "prefer_oldest",
+    "prefer_regions",
+    "prefer_retroachievements",
+    "removes_dat",
+    "report",
 ]
 
 test = [
     "features",
     "determinism",
     "regions",
+    "unit",
 ]

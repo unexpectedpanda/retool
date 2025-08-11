@@ -8,7 +8,7 @@
 		<author>aci68, ajax16384, ajshell1, Arctic Circle System, Aringon, b2071988, Bent, buckwheat, C. V. Reynolds, Connie, coraz, Datman, DeadSkullzJr, Densetsu, einstein95, Fonix, Gefflon, Hiccup, InternalLoss, Jack, jimmsu, Just001Kim, Larsenv, MeguCocoa, MisterSheeple, Money_114, NESBrew12, NovaAurora, PPLToast, psykopat, rarenight, relax, Rifu, scorp256, SonGoku, Tauwasser, TBemme, togemet2, u53r123, Xenirina, xprism, xuom2, ZeroSkill, zg, Zora</author>
 		<homepage>No-Intro</homepage>
 		<url>https://www.no-intro.org</url>
-		<clrmamepro forcenodump="required"/>
+		<clrmamepro forcenodump="required"></clrmamepro>
 	</header>
 	<game name="[BIOS] Nintendo 3DS ARM11 Boot ROM (World)" id="xB02">
 		<description>[BIOS] Nintendo 3DS ARM11 Boot ROM (World)</description>

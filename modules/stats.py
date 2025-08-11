@@ -3,9 +3,9 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from modules.config import Config
-    from modules.dats import DatNode
-
+    from modules.config.config import Config
+    from modules.dat.process_dat import Dat, DatNode
+    from modules.titletools import Removes
 from modules.utils import Font, eprint
 
 
@@ -45,113 +45,107 @@ class Stats:
         system_exclude_count: int = 0,
         global_filter_count: int = 0,
         system_filter_count: int = 0,
-        post_filter_clones_count: int = 0,
     ):
         """
         Creates an object that stores stats based on how Retool has manipulated a
         DAT.
 
         Args:
-            original_count (int, optional): The original number of titles in the DAT.
-            Defaults to `0`.
+            original_count (int, optional): The original number of titles in the DAT file.
+                Defaults to `0`.
 
             final_count (int, optional): The final number of titles in the main output
-            DAT. Only used in the final stats report. Defaults to `0`.
+                DAT file. Only used in the final stats report. Defaults to `0`.
 
-            file_count (int, optional): The final number of titles in any DAT Retool
-            creates. Unlike `final_count`, this includes both the main output DAT and the
-            removes DAT. This number is included in filenames and DAT headers. Defaults to
-            `0`.
+            file_count (int, optional): The final number of titles in any DAT file Retool
+                creates. Unlike `final_count`, this includes both the main output DAT
+                file and the removes DAT file. This number is included in filenames and
+                DAT file headers. Defaults to `0`.
 
             applications_count (int, optional): How many applications were removed.
-            Defaults to `0`.
+                Defaults to `0`.
 
             audio_count (int, optional): How many audio titles were removed. Defaults to
-            `0`.
+                `0`.
 
             bad_dumps_count (int, optional): How many bad dumps were removed. Defaults
-            to `0`.
+                to `0`.
 
             bios_count (int, optional): How many BIOS and other chip-based titles were
-            removed. Defaults to `0`.
+                removed. Defaults to `0`.
 
             coverdiscs_count (int, optional): How many coverdiscs were removed. Defaults
-            to `0`.
+                to `0`.
 
             demos_count (int, optional): How many demos were removed. Defaults to `0`.
 
-            addons_count (int, optional): How many add-ons were removed. Defaults to
-            `0`.
+            addons_count (int, optional): How many add-ons were removed. Defaults to `0`.
 
             educational_count (int, optional): How many educational titles were removed.
-            Defaults to `0`.
+                Defaults to `0`.
 
             aftermarket_count (int, optional): How many aftermarket titles were removed.
-            Defaults to `0`.
+                Defaults to `0`.
 
             games_count (int, optional): How many games were removed. Defaults to `0`.
 
             mia_count (int, optional): How many MIA titles were removed. Defaults to `0`.
 
-            manuals_count (int, optional): How many manuals were removed. Defaults to
-            `0`.
+            manuals_count (int, optional): How many manuals were removed. Defaults to `0`.
 
             multimedia_count (int, optional): How many multimedia titles were removed.
-            Defaults to `0`.
+                Defaults to `0`.
 
             bonus_discs_count (int, optional): How many bonus discs were removed.
-            Defaults to `0`.
+                Defaults to `0`.
 
             pirate_count (int, optional): How many pirated titles were removed. Defaults
-            to `0`.
+                to `0`.
 
             preproduction_count (int, optional): How many preproduction titles were
-            removed. Defaults to `0`.
+                removed. Defaults to `0`.
 
             promotional_count (int, optional): How many promotional titles were removed.
-            Defaults to `0`.
+                Defaults to `0`.
 
-            unlicensed_count (int, optional): How many unlicensed, aftermarket, and
-            pirate titles were removed. Defaults to `0`.
+            unlicensed_count (int, optional): How many unlicensed, aftermarket, and pirate
+                titles were removed. Defaults to `0`.
 
             video_count (int, optional): How many video titles were removed. Defaults to
-            `0`.
+                `0`.
 
-            removes_count (int, optional): How many titles were removed in total.
-            Defaults to `0`.
+            removes_count (int, optional): How many titles were removed in total. Defaults
+                to `0`.
 
             clones_count (int, optional): How many clones were assigned by Retool in
-            total. Defaults to `0`.
+                total. Defaults to `0`.
 
             languages_count (int, optional): How many titles were removed due to a
-            language filter. Defaults to `0`.
+                language filter. Defaults to `0`.
 
             regions_count (int, optional): How many titles were removed due to a region
-            filter. Defaults to `0`.
+                filter. Defaults to `0`.
 
             duplicate_titles_count (int, optional): How many titles were removed due to
-            them being in a DAT file more than once. Defaults to `0`.
+                them being in a DAT file more than once. Defaults to `0`.
 
             global_include_count (int, optional): How many titles were included due to a
-            global override. Defaults to `0`.
+                global override. Defaults to `0`.
 
             global_exclude_count (int, optional): How many titles were excluded due to a
-            global override. Defaults to `0`.
+                global override. Defaults to `0`.
 
             system_include_count (int, optional): How many titles were included due to a
-            system override. Defaults to `0`.
+                system override. Defaults to `0`.
 
             system_exclude_count (int, optional): How many titles were excluded due to a
-            system override. Defaults to `0`.
+                system override. Defaults to `0`.
 
             global_filter_count (int, optional): How many titles were included due to a
-            global post filter. Defaults to `0`.
+                global post filter. Defaults to `0`.
 
             system_filter_count (int, optional): How many titles were excluded due to a
-            system post filter. Defaults to `0`.
-
-            post_filter_clones_count (int, optional): How many titles that were clones
-            were excluded due to a post filter. Defaults to `0`.
+                system post filter. Defaults to `0`.
         """
         self.original_count: int = original_count
         self.final_count: int = final_count
@@ -175,7 +169,7 @@ class Stats:
         self.promotional_count: int = promotional_count
         self.unlicensed_count: int = unlicensed_count
         self.video_count: int = video_count
-        self.removes_count: int = removes_count
+        self.ignores_count: int = removes_count
         self.clones_count: int = clones_count
         self.languages_count: int = languages_count
         self.regions_count: int = regions_count
@@ -186,30 +180,29 @@ class Stats:
         self.system_exclude_count: int = system_exclude_count
         self.global_filter_count: int = global_filter_count
         self.system_filter_count: int = system_filter_count
-        self.post_filter_clones_count: int = post_filter_clones_count
 
 
-def get_parent_clone_stats(
-    processed_titles: dict[str, set[DatNode]], config: Config
-) -> tuple[dict[str, set[str]], set[DatNode]]:
+def get_report_data(
+    processed_titles: dict[str, set[DatNode]], config: Config, input_dat: Dat
+) -> tuple[dict[str, set[str]], set[str]]:
     """
-    Gets how many parents and clones are in the final Retool output, and
-    also returns the relationships between these titles in case the user has set `--log`.
+    Gets parents and clones are in the final Retool output, and also returns the
+    relationships between these titles in case the user has set `--report`.
 
     Args:
-        processed_titles (dict[str, set[DatNode]]): A work in progress dictionary
-          of DatNodes, originally populated from the input DAT and actively being worked on
-          by Retool.
+        processed_titles (dict[str, set[DatNode]]): A work in progress dictionary of
+            DatNodes, originally populated from the input DAT and actively being worked on
+            by Retool.
 
         config (Config): The Retool config object.
 
+        input_dat (Dat): The Retool input_dat object.
+
     Returns:
-        tuple[dict[str, set[str]], set[DatNode]]: Parents grouped with clones,
+        tuple (tuple[dict[str, set[str]], set[DatNode]]): Parents grouped with clones,
         standalone titles.
     """
-    # Get the clone stats
-    config.stats.final_count = 0
-    config.stats.clones_count = 0
+    # Get the clone details
     title_names_with_clones: dict[str, set[str]] = {}
     all_clones: set[str] = set()
 
@@ -218,41 +211,104 @@ def get_parent_clone_stats(
             if title.cloneof:
                 if title.cloneof not in title_names_with_clones:
                     title_names_with_clones[title.cloneof] = set()
-                    config.stats.final_count += 1
 
-                if title.full_name not in title_names_with_clones[title.cloneof]:
-                    if title.full_name not in all_clones:
-                        title_names_with_clones[title.cloneof].add(title.full_name)
-                        all_clones.add(title.full_name)
-                        config.stats.clones_count += 1
+                if input_dat.numbered:
+                    title_name = title.numbered_name
+                else:
+                    title_name = title.full_name
 
-                        if config.user_input.legacy:
-                            config.stats.final_count += 1
+                if title_name not in title_names_with_clones[title.cloneof]:
+                    if title_name not in all_clones:
+                        title_names_with_clones[title.cloneof].add(title_name)
+                        all_clones.add(title_name)
 
-    # Get the non-clone stats
-    titles_without_clones: set[DatNode] = set()
+    # Get the non-clone details
+    titles_without_clones: set[str] = set()
     title_names_with_clones_names_only: set[str] = set(title_names_with_clones)
 
     for titles in processed_titles.values():
-        for title in [
-            x
-            for x in sorted(titles, key=lambda y: y.full_name)
-            if x.full_name not in title_names_with_clones_names_only and not x.cloneof
-        ]:
-            if title not in titles_without_clones and title.full_name not in all_clones:
-                titles_without_clones.add(title)
-                config.stats.final_count += 1
+        if input_dat.numbered:
+            title_list = [
+                x
+                for x in sorted(titles, key=lambda y: y.numbered_name)
+                if x.numbered_name not in title_names_with_clones_names_only and not x.cloneof
+            ]
+        else:
+            title_list = [
+                x
+                for x in sorted(titles, key=lambda y: y.full_name)
+                if x.full_name not in title_names_with_clones_names_only and not x.cloneof
+            ]
+
+        for title in title_list:
+            if title.full_name not in titles_without_clones and title.full_name not in all_clones:
+                titles_without_clones.add(title.full_name)
 
     return (title_names_with_clones, titles_without_clones)
 
 
-def report_stats(config: Config) -> None:
+def report_stats(removed_titles: Removes, config: Config) -> None:
     """
     Reports stats based on how Retool has manipulated a DAT.
 
     Args:
+        removed_titles (Removes): The Retool removes object, which contains and
+            categorizes all the titles that have been removed from consideration. It is
+            used for recovering titles defined by user includes, stats, and other output
+            files generated by Retool.
+
         config (Config): The Retool config object.
     """
+    # Dedupe the removed titles to take into account supersets and compilations existing
+    # in multiple groups.
+    removed_full_names: set[str] = set()
+    dupe_removed_titles: dict[str, set[DatNode]] = {}
+
+    for key in removed_titles.__dict__.keys():
+        remove_category: set[DatNode] = removed_titles.__getattribute__(key)
+
+        for title in remove_category:
+            if title.full_name not in removed_full_names:
+                removed_full_names.add(title.full_name)
+            else:
+                if key not in dupe_removed_titles:
+                    dupe_removed_titles[key] = set()
+
+                dupe_removed_titles[key].add(title)
+
+        if key in dupe_removed_titles:
+            for title in dupe_removed_titles[key]:
+                removed_titles.__dict__[key].remove(title)
+
+    # Report the stats, and reset them for when Retool is processing a
+    # directory of DATs
+    config.stats.addons_count = len(removed_titles.add_ons_removes)
+    config.stats.aftermarket_count = len(removed_titles.aftermarket_removes)
+    config.stats.applications_count = len(removed_titles.applications_removes)
+    config.stats.audio_count = len(removed_titles.audio_removes)
+    config.stats.bad_dumps_count = len(removed_titles.bad_dumps_removes)
+    config.stats.bios_count = len(removed_titles.bios_removes)
+    config.stats.bonus_discs_count = len(removed_titles.bonus_discs_removes)
+    config.stats.coverdiscs_count = len(removed_titles.coverdiscs_removes)
+    config.stats.demos_count = len(removed_titles.demos_removes)
+    config.stats.educational_count = len(removed_titles.educational_removes)
+    config.stats.games_count = len(removed_titles.games_removes)
+    config.stats.global_exclude_count = len(removed_titles.global_excludes)
+    config.stats.global_filter_count = len(removed_titles.global_filter_removes)
+    config.stats.ignores_count = len(removed_titles.clone_list_ignores)
+    config.stats.languages_count = len(removed_titles.language_removes)
+    config.stats.manuals_count = len(removed_titles.manuals_removes)
+    config.stats.mia_count = len(removed_titles.mia_removes)
+    config.stats.multimedia_count = len(removed_titles.multimedia_removes)
+    config.stats.pirate_count = len(removed_titles.pirate_removes)
+    config.stats.preproduction_count = len(removed_titles.preproduction_removes)
+    config.stats.promotional_count = len(removed_titles.promotional_removes)
+    config.stats.regions_count = len(removed_titles.region_removes)
+    config.stats.system_exclude_count = len(removed_titles.system_excludes)
+    config.stats.system_filter_count = len(removed_titles.system_filter_removes)
+    config.stats.unlicensed_count = len(removed_titles.unlicensed_removes)
+    config.stats.video_count = len(removed_titles.video_removes)
+
     eprint(f'\nStats:\n•  Original title count: {config.stats.original_count:,}', wrap=False)
 
     if config.user_input.legacy and not config.user_input.no_1g1r:
@@ -323,18 +379,18 @@ def report_stats(config: Config) -> None:
     if config.user_input.no_video:
         eprint(f'-  Video titles removed: {config.stats.video_count:,}', wrap=False)
 
-    if config.stats.removes_count:
-        eprint(f'-  Titles force removed by clone list: {config.stats.removes_count:,}', wrap=False)
+    if config.stats.ignores_count:
+        eprint(f'-  Titles force removed by clone list: {config.stats.ignores_count:,}', wrap=False)
 
     if config.stats.global_exclude_count:
         eprint(
-            f'-  Titles removed by custom global override: {config.stats.global_exclude_count:,}',
+            f'-  Titles removed by global override: {config.stats.global_exclude_count:,}',
             wrap=False,
         )
 
     if config.stats.system_exclude_count:
         eprint(
-            f'-  Titles removed by custom system override: {config.stats.system_exclude_count:,}',
+            f'-  Titles removed by system override: {config.stats.system_exclude_count:,}',
             wrap=False,
         )
 
@@ -346,18 +402,6 @@ def report_stats(config: Config) -> None:
     if config.stats.regions_count:
         eprint(f'-  Titles removed by region filters: {config.stats.regions_count:,}', wrap=False)
 
-    if config.stats.global_include_count:
-        eprint(
-            f'   +  Titles force included by global include overrides: {config.stats.global_include_count:,}',
-            wrap=False,
-        )
-
-    if config.stats.system_include_count:
-        eprint(
-            f'   +  Titles force included by system include overrides: {config.stats.system_include_count:,}',
-            wrap=False,
-        )
-
     if config.stats.global_filter_count:
         eprint(
             f'-  Titles removed by global post filters: {config.stats.global_filter_count:,}',
@@ -367,6 +411,24 @@ def report_stats(config: Config) -> None:
     if config.stats.system_filter_count:
         eprint(
             f'-  Titles removed by system post filters: {config.stats.system_filter_count:,}',
+            wrap=False,
+        )
+
+    if config.stats.global_include_count or config.stats.system_include_count:
+        eprint(
+            '\n•  The following numbers are already taken into account in the remove stats, so don\'t contribute to the total:',
+            indent=3,
+        )
+
+    if config.stats.global_include_count:
+        eprint(
+            f'{Font.d}   +  Titles force included by global include overrides: {config.stats.global_include_count:,}{Font.end}',
+            wrap=False,
+        )
+
+    if config.stats.system_include_count:
+        eprint(
+            f'{Font.d}   +  Titles force included by system include overrides: {config.stats.system_include_count:,}{Font.end}',
             wrap=False,
         )
 
@@ -400,7 +462,7 @@ def report_stats(config: Config) -> None:
             - config.stats.promotional_count
             - config.stats.unlicensed_count
             - config.stats.video_count
-            - config.stats.removes_count
+            - config.stats.ignores_count
             - config.stats.languages_count
             - config.stats.regions_count
             - config.stats.duplicate_titles_count
@@ -415,9 +477,10 @@ def report_stats(config: Config) -> None:
 
         if delta != config.stats.final_count:
             eprint(
-                f'Stats mismatch delta vs final count: {delta - config.stats.final_count:,}. Often this means there\'s a duplicate entry in'
+                f'Stats mismatch delta vs final count: {delta - config.stats.final_count:,}. Often this means there\'s a duplicate entry in '
                 f'the clone list or the DAT file.',
                 level='error',
+                indent=0,
                 pause=True,
             )
         else:

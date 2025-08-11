@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - Prefer regions (Retool)</name>
+		<description>Retool - Prefer regions (3) (-rx) (2024-02-24 00-00-00) (Retool)</description>
+		<version>2024-02-24 00-00-00</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://unexpectedpanda.github.io/retool</url>
+		<retool>Created by Retool X</retool>
+	</header>
+	<game name="Test Title (Thailand) (En)" cloneof="Test Title (World) (El)">
+		<category>Games</category>
+		<description>Test Title (Thailand) (En)</description>
+		<release name="Test Title (Thailand) (En)" region="Thailand" language="En"/>
+		<rom name="Test Title (Thailand) (En).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Thailand) (En).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title (World) (El)">
+		<category>Games</category>
+		<description>Test Title (World) (El)</description>
+		<release name="Test Title (World) (El)" region="World" language="El"/>
+		<rom name="Test Title (World) (El).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (World) (El).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title Genius Edition (Canada)" cloneof="Test Title (World) (El)">
+		<category>Games</category>
+		<description>Test Title (Canada)</description>
+		<release name="Test Title Genius Edition (Canada)" region="Canada" language="En"/>
+		<rom name="Test Title (Canada).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Canada).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

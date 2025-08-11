@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - Machine and disk (Retool)</name>
+		<description>Retool - Machine and disk (2) (-x) (2025-06-21 00-00-00) (Retool)</description>
+		<version>2025-06-21 00-00-00</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://unexpectedpanda.github.io/retool</url>
+		<retool>Created by Retool X</retool>
+	</header>
+	<machine name="Test Title (Europe)" cloneof="Test Title (USA)">
+		<category>Games</category>
+		<description>Test Title (Europe)</description>
+		<release name="Test Title (Europe)" region="Europe" language="En"/>
+		<rom name="Test Title (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</machine>
+	<machine name="Test Title (USA)">
+		<category>Games</category>
+		<description>Test Title (USA)</description>
+		<release name="Test Title (USA)" region="USA" language="En"/>
+		<rom name="Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<disk name="Test Title (USA).dsk" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</machine>
+</datafile>

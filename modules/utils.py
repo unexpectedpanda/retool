@@ -27,20 +27,22 @@ def download(download_details: tuple[str, ...], report_download: bool = True) ->
 
     Args:
         download_details (tuple[str, ...]): A tuple of the URL to download the file from,
-          and the location to write it to.
+            and the location to write it to.
 
-        report_download (bool): Whether or not to report the filename being downloaded.
-          Defaults to `True`.
+        report_download (bool): Whether to report the filename being downloaded. Defaults
+            to `True`.
 
     Returns:
-        bool: Whether or not the download has failed
+        bool: Whether the download has failed.
     """
     download_url: str = download_details[0]
     local_file_path: str = download_details[1]
 
     if report_download:
         eprint(
-            f'• Downloading {pathlib.Path(download_details[1]).name}...', wrap=False, overwrite=True
+            f'• Downloading {Font.b}{pathlib.Path(download_details[1]).name}...{Font.be}',
+            wrap=False,
+            overwrite=True,
         )
 
     def get_file(req: urllib.request.Request) -> tuple[bytes, bool]:
@@ -231,33 +233,50 @@ def enable_vt_mode() -> Any:
 
 
 def eprint(
-    text: str = '', wrap=True, level='', indent: int = 2, pause=False, overwrite=False, **kwargs
+    text: str = '',
+    wrap: bool = True,
+    level: str = '',
+    indent: int = 2,
+    section: bool = False,
+    pause: bool = False,
+    overwrite: bool = False,
+    **kwargs: Any,
 ) -> None:
     """
     Prints to STDERR.
 
     Args:
-        text (str, optional): The content to tprint. Defaults to `''`.
+        text (str, optional): The content to print. Defaults to `''`.
+
         wrap (bool, optional): Whether to wrap text. Defaults to `True`.
+
         level (str, optional): How the text is formatted. Valid values include `warning`,
-          `error`, `success`, `disabled`, `heading`, `subheading`. Defaults to `''`.
+            `error`, `success`, `disabled`, `heading`, `subheading`. Defaults to `''`.
+
         indent (int, optional): After the first line, how many spaces to indent whenever
-          a text wraps to a new line. Defaults to `2`.
+            text wraps to a new line. Defaults to `2`.
+
         pause (bool, optional): Shows a `Press enter to continue` message and waits for
-          use input. Defaults to `False`.
+            user input. Defaults to `False`.
+
         overwrite (bool, optional): Delete the previous line and replace it with this one.
-          Defaults to `False`.
-        **kwargs: Any other keyword arguments to pass to the `print` function.
+            Defaults to `False`.
+
+        **kwargs (Any): Any other keyword arguments to pass to the `print` function.
     """
     indent_str: str = ''
     new_line: str = ''
     overwrite_str: str = ''
+    section_indicator: str = ''
 
     if text:
         indent_str = ' '
 
     if overwrite:
         overwrite_str = '\033M\033[2K'
+
+    if section:
+        section_indicator = '│  '
 
     if level == 'warning':
         color = Font.warning
@@ -283,20 +302,20 @@ def eprint(
         if level == 'subheading':
             print(f'\n{Font.subheading}{"─"*60}{Font.end}', file=sys.stderr)  # noqa: T201
         print(  # noqa: T201
-            f'{new_line}{textwrap.TextWrapper(width=95, subsequent_indent=indent_str*indent, replace_whitespace=False, break_long_words=False, break_on_hyphens=False).fill(message)}',
+            f'{new_line}{section_indicator}{textwrap.TextWrapper(width=95, subsequent_indent=section_indicator + indent_str*indent, replace_whitespace=False, break_long_words=False, break_on_hyphens=False).fill(message)}',
             file=sys.stderr,
             **kwargs,
         )
         if level == 'heading':
             print('\n')  # noqa: T201
     else:
-        print(message, file=sys.stderr, **kwargs)  # noqa: T201
+        print(f'{section_indicator}{message}', file=sys.stderr, **kwargs)  # noqa: T201
 
     if pause:
         empty_lines: str = '\n'
 
         if not text:
-            empty_lines: str = ''
+            empty_lines = ''
 
         print(  # noqa: T201
             f'{empty_lines}{Font.d}Press enter to continue{Font.end}', file=sys.stderr
@@ -306,14 +325,14 @@ def eprint(
 
 def format_value(value: Any) -> str:
     """
-    Formats a string-convertible value based on whether or not it is empty.
+    Formats a string-convertible value based on whether it is empty.
 
     Args:
         value (Any): The value.
 
     Returns:
-        str: A string that either indicates there's no value, or the original
-          value converted to a string.
+        str: A string that either indicates there's no value, or the original value
+        converted to a string.
     """
     if not value:
         return_value: str = f'{Font.d}None{Font.end}'
@@ -332,9 +351,7 @@ def get_datetime() -> datetime.datetime:
     )
 
 
-def minimum_version(
-    min_version: str, file_name: str, gui_input: UserInput | None, bar=None
-) -> None:
+def minimum_version(min_version: str, file_name: str, gui_input: UserInput | None) -> None:
     """
     Figures out if a file requires a higher version of Retool.
 
@@ -343,10 +360,8 @@ def minimum_version(
 
         file_name (str): The filename of a clone list, or internal config file.
 
-        gui_input (UserInput): Used to determine whether or not the function is being
-          called from the GUI.
-
-        bar (Any): The progress bar.
+        gui_input (UserInput): Used to determine if the function is being called from the
+            GUI.
     """
     # Convert old versions to new versioning system
     if len(re.findall('\\.', min_version)) < 2:
@@ -375,7 +390,7 @@ def minimum_version(
     if out_of_date:
         out_of_date_response: str = ''
 
-        def query_user(out_of_date_response):
+        def query_user(out_of_date_response: str) -> None:
             eprint(f'{Font.overwrite*3}')
             while not (out_of_date_response == 'y' or out_of_date_response == 'n'):
                 eprint(
@@ -397,15 +412,14 @@ def minimum_version(
             else:
                 eprint('')
 
-        if bar:
-            with bar.pause():
-                query_user(out_of_date_response)
-        else:
-            query_user(out_of_date_response)
+        query_user(out_of_date_response)
 
 
 def old_windows() -> bool:
-    """Figures out if Retool is running on a version of Windows earlier than Windows 10 or Windows Server 2019."""
+    """
+    Figures out if Retool is running on a version of Windows earlier than Windows 10 or
+    Windows Server 2019.
+    """
     windows_version: str = platform.release()
 
     if sys.platform.startswith('win'):
@@ -421,8 +435,8 @@ def old_windows() -> bool:
 
 def pattern2string(regex: Pattern[str], search_str: str, group_number: int = 0) -> str:
     """
-    Takes a regex pattern, searches in a string, then returns the result. Exists only
-    so MyPy doesn't complain about `None` grouping.
+    Takes a regex pattern, searches in a string, then returns the result. Exists only so
+    MyPy doesn't complain about `None` grouping.
 
     Args:
         regex (Pattern[str]): The regex pattern.
@@ -451,13 +465,13 @@ def regex_test(regex_list: list[str], regex_origin: str, type: str) -> list[str]
         regex_list (list[str]): A list of regex patterns in string form.
 
         regex_origin (str): The origin of the regex filters, included in messages to the
-        user when a regex is found to be invalid. Usually `categories`, `overrides`,
-        `variants`, `global exclude`, `global include`, `system exclude`, `system include`,
-        `global post filter`, `system post filter`.
+            user when a regex is found to be invalid. Usually `categories`, `overrides`,
+            `variants`, `global exclude`, `global include`, `system exclude`,
+            `system include`, `global post filter`, `system post filter`.
 
-        type (str): Whether the regex comes from an `user filter` (both overrides and
-        post filters), `clone list`, or `trace`. Behavior of the regex test changes based
-        on this.
+        type (str): Whether the regex comes from an `user filter` (both overrides and post
+            filters), `clone list`, or `trace`. Behavior of the regex test changes based
+            on this.
 
     Returns:
         list[str]: The remaining valid regexes as strings.

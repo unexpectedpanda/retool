@@ -2146,6 +2146,13 @@
 			]
 		},
 		{
+			"group": "Star Fox 2",
+			"titles": [
+				{"searchTerm": "Star Fox 2"},
+				{"searchTerm": "Star Fox 2 (CES)"}
+			]
+		},
+		{
 			"group": "Star Trek - The Next Generation - Future's Past",
 			"titles": [
 				{"searchTerm": "Shin Star Trek - Ooinaru Isan IFD no Nazo o Oe"},

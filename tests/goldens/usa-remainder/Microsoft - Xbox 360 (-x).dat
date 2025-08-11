@@ -1153,7 +1153,7 @@
 		<release name="Assassin's Creed II - Game of the Year Edition (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)" region="Europe" language="Nl"/>
 		<release name="Assassin's Creed II - Game of the Year Edition (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)" region="Europe" language="No"/>
 		<release name="Assassin's Creed II - Game of the Year Edition (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)" region="Europe" language="Sv"/>
-		<rom name="Assassin's Creed II - Game of the Year Edition (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Assassin's Creed II - Game of the Year Edition (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Assassin's Creed II - Game of the Year Edition (Europe) (It,Pl,Ru)" cloneof="Assassin's Creed II - Game of the Year Edition (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)">
 		<category>Games</category>
@@ -4746,7 +4746,7 @@
 		<category>Games</category>
 		<description>Crysis 3 (Europe)</description>
 		<release name="Crysis 3 (Europe)" region="Europe" language="En"/>
-		<rom name="Crysis 3 (Europe).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Crysis 3 (Europe).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Crysis 3 (Europe) (Es,It)" cloneof="Crysis 3 (USA, Europe) (En,Fr)">
 		<category>Games</category>
@@ -7978,7 +7978,7 @@
 		<release name="Experience Disc Version 1.5, The (USA) (En,Fr,Es)" region="USA" language="Fr"/>
 		<rom name="Experience Disc Version 1.5, The (USA) (En,Fr,Es).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Experience Disc Version 1.5V3, The (USA) (En,Fr,Es)">
+	<game name="Experience Disc Version 1.5V3, The (USA) (En,Fr,Es)" cloneof="Experience Disc Version 6.6, The (USA)">
 		<category>Demos</category>
 		<description>Experience Disc Version 1.5V3, The (USA) (En,Fr,Es)</description>
 		<release name="Experience Disc Version 1.5V3, The (USA) (En,Fr,Es)" region="USA" language="En"/>
@@ -8053,7 +8053,7 @@
 		<release name="Experience Disc Version 5.0, The (USA)" region="USA" language="En"/>
 		<rom name="Experience Disc Version 5.0, The (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Experience Disc Version 5.0.2, The (USA) (En,Fr,Es)">
+	<game name="Experience Disc Version 5.0.2, The (USA) (En,Fr,Es)" cloneof="Experience Disc Version 6.6, The (USA)">
 		<category>Demos</category>
 		<description>Experience Disc Version 5.0.2, The (USA) (En,Fr,Es)</description>
 		<release name="Experience Disc Version 5.0.2, The (USA) (En,Fr,Es)" region="USA" language="En"/>
@@ -8099,12 +8099,12 @@
 		<release name="Experience Disc Version 6.0, The (USA)" region="USA" language="En"/>
 		<rom name="Experience Disc Version 6.0, The (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Experience Disc Version 6.1G, The (USA) (En,Fr)">
+	<game name="Experience Disc Version 6.1G, The (USA) (En,Fr)" cloneof="Experience Disc Version 6.6, The (USA)">
 		<category>Demos</category>
 		<description>Experience Disc Version 6.1G, The (USA) (En,Fr)</description>
 		<release name="Experience Disc Version 6.1G, The (USA) (En,Fr)" region="USA" language="En"/>
 		<release name="Experience Disc Version 6.1G, The (USA) (En,Fr)" region="USA" language="Fr"/>
-		<rom name="Experience Disc Version 6.1G, The (USA) (En,Fr).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Experience Disc Version 6.1G, The (USA) (En,Fr).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Experience Disc Version 6.4, The (USA)" cloneof="Experience Disc Version 6.6, The (USA)">
 		<category>Demos</category>
@@ -11301,7 +11301,7 @@
 		<release name="Guitar Hero III - Legends of Rock (USA) (En,Fr,De,Es,It)" region="USA" language="Es"/>
 		<release name="Guitar Hero III - Legends of Rock (USA) (En,Fr,De,Es,It)" region="USA" language="Fr"/>
 		<release name="Guitar Hero III - Legends of Rock (USA) (En,Fr,De,Es,It)" region="USA" language="It"/>
-		<rom name="Guitar Hero III - Legends of Rock (USA) (En,Fr,De,Es,It).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Guitar Hero III - Legends of Rock (USA) (En,Fr,De,Es,It).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Guitar Hero III - Legends of Rock (USA, Europe) (En,Fr,De,Es,It)">
 		<category>Games</category>
@@ -11551,7 +11551,7 @@
 		<description>Halo 3 (Asia) (En,Zh)</description>
 		<release name="Halo 3 (Asia) (En,Zh)" region="Asia" language="En"/>
 		<release name="Halo 3 (Asia) (En,Zh)" region="Asia" language="Zh"/>
-		<rom name="Halo 3 (Asia) (En,Zh).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Halo 3 (Asia) (En,Zh).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Halo 3 (Brazil) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)" cloneof="Halo 3 (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)">
 		<category>Games</category>
@@ -11650,7 +11650,7 @@
 		<category>Games</category>
 		<description>Halo 3 (USA)</description>
 		<release name="Halo 3 (USA)" region="USA" language="Es"/>
-		<rom name="Halo 3 (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Halo 3 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Halo 3 (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)">
 		<category>Games</category>
@@ -12980,7 +12980,7 @@
 		<category>Games</category>
 		<description>Just Dance 2017 (USA)</description>
 		<release name="Just Dance 2017 (USA)" region="USA" language="En"/>
-		<rom name="Just Dance 2017 (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Just Dance 2017 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Just Dance 2018 (Europe)" cloneof="Just Dance 2018 (USA)">
 		<category>Games</category>
@@ -13023,7 +13023,7 @@
 		<category>Games</category>
 		<description>Just Dance 4 (Europe) (Rev 1)</description>
 		<release name="Just Dance 4 (Europe) (Rev 1)" region="Europe" language="En"/>
-		<rom name="Just Dance 4 (Europe) (Rev 1).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Just Dance 4 (Europe) (Rev 1).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Just Dance 4 (USA)">
 		<category>Games</category>
@@ -13182,7 +13182,7 @@
 		<description>Kinect Adventures! (Asia) (En,Zh)</description>
 		<release name="Kinect Adventures! (Asia) (En,Zh)" region="Asia" language="En"/>
 		<release name="Kinect Adventures! (Asia) (En,Zh)" region="Asia" language="Zh"/>
-		<rom name="Kinect Adventures! (Asia) (En,Zh).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Kinect Adventures! (Asia) (En,Zh).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Kinect Adventures! (Europe) (Rev 3)" cloneof="Kinect Adventures! (USA) (Rev 2)">
 		<category>Games</category>
@@ -15167,7 +15167,7 @@
 		<category>Bonus Discs</category>
 		<description>Mass Effect (France) (Bonus Content Disc)</description>
 		<release name="Mass Effect (France) (Bonus Content Disc)" region="France" language="Fr"/>
-		<rom name="Mass Effect (France) (Bonus Content Disc).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Mass Effect (France) (Bonus Content Disc).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Mass Effect (Germany)" cloneof="Mass Effect (USA) (En,Es) (Rev 1)">
 		<category>Games</category>
@@ -15797,7 +15797,7 @@
 		<category>Games</category>
 		<description>Metal Gear Solid - HD Edition (Japan)</description>
 		<release name="Metal Gear Solid - HD Edition (Japan)" region="Japan" language="Ja"/>
-		<rom name="Metal Gear Solid - HD Edition (Japan).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Metal Gear Solid - HD Edition (Japan).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Metal Gear Solid V - Ground Zeroes (Japan)" cloneof="Metal Gear Solid V - Ground Zeroes (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Ru)">
 		<category>Games</category>
@@ -16734,7 +16734,7 @@
 		<description>NBA Live 06 (Asia) (En,Zh)</description>
 		<release name="NBA Live 06 (Asia) (En,Zh)" region="Asia" language="En"/>
 		<release name="NBA Live 06 (Asia) (En,Zh)" region="Asia" language="Zh"/>
-		<rom name="NBA Live 06 (Asia) (En,Zh).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="NBA Live 06 (Asia) (En,Zh).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="NBA Live 06 (Europe) (En,Fr)" cloneof="NBA Live 06 (USA)">
 		<category>Games</category>
@@ -20343,7 +20343,7 @@
 		<release name="Resident Evil 5 (World) (En,Ja,Fr,De,Es,It) (Beta) (2009-01-07)" region="World" language="Fr"/>
 		<release name="Resident Evil 5 (World) (En,Ja,Fr,De,Es,It) (Beta) (2009-01-07)" region="World" language="It"/>
 		<release name="Resident Evil 5 (World) (En,Ja,Fr,De,Es,It) (Beta) (2009-01-07)" region="World" language="Ja"/>
-		<rom name="Resident Evil 5 (World) (En,Ja,Fr,De,Es,It) (Beta) (2009-01-07).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Resident Evil 5 (World) (En,Ja,Fr,De,Es,It) (Beta) (2009-01-07).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Resident Evil 5 ~ Biohazard 5 (World) (En,Ja,Fr,De,Es,It)">
 		<category>Games</category>
@@ -20672,7 +20672,7 @@
 		<category>Games</category>
 		<description>Rock Band 3 (USA) (Rev 1)</description>
 		<release name="Rock Band 3 (USA) (Rev 1)" region="USA" language="En"/>
-		<rom name="Rock Band 3 (USA) (Rev 1).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Rock Band 3 (USA) (Rev 1).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Rock Band 3 (USA, Europe) (En,Fr,De,Es,It)" cloneof="Rock Band 3 (USA) (Rev 1)">
 		<category>Games</category>
@@ -21234,7 +21234,7 @@
 		<category>Games</category>
 		<description>Scene It Bright Lights! Big Screen! (Canada)</description>
 		<release name="Scene It Bright Lights! Big Screen! (Canada)" region="Canada" language="En"/>
-		<rom name="Scene It Bright Lights! Big Screen! (Canada).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Scene It Bright Lights! Big Screen! (Canada).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Scene It Bright Lights! Big Screen! (USA)">
 		<category>Games</category>
@@ -26760,7 +26760,7 @@
 		<description>Your Shape - Fitness Evolved (Asia) (En,Zh)</description>
 		<release name="Your Shape - Fitness Evolved (Asia) (En,Zh)" region="Asia" language="En"/>
 		<release name="Your Shape - Fitness Evolved (Asia) (En,Zh)" region="Asia" language="Zh"/>
-		<rom name="Your Shape - Fitness Evolved (Asia) (En,Zh).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Your Shape - Fitness Evolved (Asia) (En,Zh).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Your Shape - Fitness Evolved (Japan)" cloneof="Your Shape - Fitness Evolved (USA, Europe)">
 		<category>Games</category>

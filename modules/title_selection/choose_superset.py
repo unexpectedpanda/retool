@@ -4,8 +4,8 @@ import itertools
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from modules.config import Config
-    from modules.dats import DatNode
+    from modules.config.config import Config
+    from modules.dat.process_dat import DatNode
 
 from modules.titletools import TraceTools
 from modules.utils import Font
@@ -13,20 +13,18 @@ from modules.utils import Font
 
 def choose_superset(title_set: set[DatNode], config: Config, report_on_match: bool) -> set[DatNode]:
     """
-    Compares any two titles from a set of DatNodes, and if one is a superset,
-    chooses it.
+    Compares any two titles from a set of DatNodes, and if one is a superset, chooses it.
 
     Args:
         title_set (set[DatNode]): A set of titles as DatNode instances.
 
         config (Config): The Retool config object.
 
-        report_on_match (bool): Whether Retool needs to report any titles being
-        traced.
+        report_on_match (bool): Whether Retool needs to report any titles being traced.
 
     Returns:
-        set[DatNode]: A set of DatNodes where supersets get chosen over normal
-        titles. If neither title is a superset, both titles are kept.
+        set[DatNode]: A set of DatNodes where supersets get chosen over normal titles. If
+        neither title is a superset, both titles are kept.
     """
     remove_titles: set[DatNode] = set()
 

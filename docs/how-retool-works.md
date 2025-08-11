@@ -150,8 +150,8 @@ and how Retool interprets it as an object of the `DatNode` class:
 5.  The [region-free name](naming-system.md#region-free-names) generated for the title.
 6.  The [short name](naming-system.md#short-names) generated for the title.
 7.  The [group name](naming-system.md#group-names) generated for the title.
-8.  Whether or not the title has already been moved by clone list to another group. If
-    `True`, Retool won't permit it to be moved again.
+8.  Whether the title has already been moved by clone list to another group. If `True`,
+    Retool won't permit it to be moved again.
 9.  A set of all the tags of the title. This mainly exists so Retool doesn't have to
     search through entire filenames when doing string and regex matches, although only
     part of the code relies on it for now.
@@ -200,7 +200,7 @@ and how Retool interprets it as an object of the `DatNode` class:
     1. `languages_title`, if it exists.
     1. `languages_implied`, if it exists.
 18. What title full name the title is a clone of.
-19. Whether or not the title is a superset. This is important for title comparisons.
+19. Whether the title is a superset. This is important for title comparisons.
 20. If the title is a compilation, the short names of the titles that the compilation
     contains.
 21. The priority of the title as set in a clone list. Defaults to `1`. Lower numbers are

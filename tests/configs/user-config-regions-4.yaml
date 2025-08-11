@@ -1,26 +1,29 @@
 ---
+config version: 2.4.0
 # ==============
 # LANGUAGE ORDER
 # ==============
 # If the -l option is used, only include titles with the following languages.
 # Comment out languages you don't want. Order is important.
 language order:
-# - English
 # - Afrikaans
 # - Albanian
 # - Arabic
 # - Basque
 # - Bulgarian
 # - Catalan
-# - Chinese
+# - Chinese (Simplified)
+# - Chinese (Traditional)
 # - Cornish
 # - Croatian
 # - Czech
 # - Danish
 # - Dutch
+# - English
 # - Estonian
 # - Finnish
 # - French
+# - French (Canadian)
 # - Gaelic
 # - German
 # - Greek
@@ -38,6 +41,7 @@ language order:
 # - Norwegian
 # - Polish
 # - Portuguese
+# - Portuguese (Brazilian)
 # - Punjabi
 # - Romanian
 # - Russian
@@ -45,6 +49,8 @@ language order:
 # - Slovak
 # - Slovenian
 # - Spanish
+# - Spanish (Latin American)
+# - Spanish (Mexican)
 # - Swedish
 # - Tamil
 # - Thai
@@ -116,6 +122,65 @@ region order:
 - Serbia
 - Indonesia
 - Unknown
+
+# ==================
+# LOCALIZATION ORDER
+# ==================
+# If the -n option is used, use local names where available for titles with the
+# following languages. Comment out languages you don't want. Order is important.
+# If all languages are commented out and -n is used, the language order is used
+# instead.
+localization order:
+# - Afrikaans
+# - Albanian
+# - Arabic
+# - Basque
+# - Bulgarian
+# - Catalan
+# - Chinese (Simplified)
+# - Chinese (Traditional)
+# - Cornish
+# - Croatian
+# - Czech
+# - Danish
+# - Dutch
+# - English
+# - Estonian
+# - Finnish
+# - French
+# - French (Canadian)
+# - Gaelic
+# - German
+# - Greek
+# - Hebrew
+# - Hindi
+# - Hungarian
+# - Icelandic
+# - Indonesian
+# - Italian
+# - Japanese
+# - Korean
+# - Latvian
+# - Lithuanian
+# - Macedonian
+# - Norwegian
+# - Polish
+# - Portuguese
+# - Portuguese (Brazilian)
+# - Punjabi
+# - Romanian
+# - Russian
+# - Serbian
+# - Slovak
+# - Slovenian
+# - Spanish
+# - Spanish (Latin American)
+# - Spanish (Mexican)
+# - Swedish
+# - Tamil
+# - Thai
+# - Turkish
+# - Ukranian
 
 # ===========
 # VIDEO ORDER
@@ -198,12 +263,9 @@ filters:
 # ============
 # GUI settings only, not used by the CLI.
 gui settings:
-- exclude:
+- exclude: 
+- gui height: 650
 - gui split left: 225
 - gui split right: 650
 - gui width: 957
-- gui height: 650
 - output: C:\
-
-
-localization order:

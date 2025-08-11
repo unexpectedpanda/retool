@@ -103,7 +103,8 @@
 			],
 			"compilations": [
 				{"searchTerm": "Asder - 20 in 1"},
-				{"searchTerm": "Caltron - 6 in 1"}
+				{"searchTerm": "Caltron - 6 in 1"},
+				{"searchTerm": "HES 6-Pak - Real Player's Pak"}
 			]
 		},
 		{
@@ -360,12 +361,6 @@
 			"group": "Banana Prince",
 			"titles": [
 				{"searchTerm": "Banana Prince"},
-				{"searchTerm": "Bananan Ouji no Daibouken"}
-			]
-		},
-		{
-			"group": "Bananan Ouji no Daibouken",
-			"titles": [
 				{"searchTerm": "Bananan Ouji no Daibouken"},
 				{"searchTerm": "Bananan Ouji no Daibouken (S-P6)", "priority": 2}
 			]
@@ -385,13 +380,14 @@
 			],
 			"compilations": [
 				{"searchTerm": "Asder - 20 in 1"},
-				{"searchTerm": "Caltron - 6 in 1"}
+				{"searchTerm": "Caltron - 6 in 1"},
+				{"searchTerm": "HES 6-Pak - Real Player's Pak"}
 			]
 		},
 		{
 			"group": "Bao Qingtian - Gedou Ban (Super Justice King)",
 			"titles": [
-				{"searchTerm": "Bao Qingtian - Gedou Ban (Super Justice King)", "localizedNames": {"chinese (traditional)": "新包青天Ⅱ（武鬥篇）"}}
+				{"searchTerm": "Bao Qingtian - Gedou Ban (Super Justice King)", "localNames": {"chinese (traditional)": "新包青天Ⅱ（武鬥篇）"}}
 			]
 		},
 		{
@@ -547,15 +543,6 @@
 			]
 		},
 		{
-			"group": "Bingo",
-			"titles": [
-				{"searchTerm": "Bingo", "priority": 3}
-			],
-			"compilations": [
-				{"searchTerm": "Asder - 20 in 1"}
-			]
-		},
-		{
 			"group": "Bingo 75",
 			"titles": [
 				{"searchTerm": "Bingo 75"},
@@ -687,7 +674,8 @@
 			],
 			"compilations": [
 				{"searchTerm": "Asder - 20 in 1"},
-				{"searchTerm": "Caltron - 6 in 1"}
+				{"searchTerm": "Caltron - 6 in 1"},
+				{"searchTerm": "HES 6-Pak - Real Player's Pak"}
 			]
 		},
 		{
@@ -739,13 +727,6 @@
 			],
 			"supersets": [
 				{"searchTerm": "cajoNES DELUXE! (Music Program)"}
-			]
-		},
-		{
-			"group": "Caltron - 6 in 1",
-			"titles": [
-				{"searchTerm": "Caltron - 6 in 1"},
-				{"searchTerm": "HES 6-Pak - Real Player's Pak"}
 			]
 		},
 		{
@@ -1071,7 +1052,8 @@
 			],
 			"compilations": [
 				{"searchTerm": "Asder - 20 in 1"},
-				{"searchTerm": "Caltron - 6 in 1"}
+				{"searchTerm": "Caltron - 6 in 1"},
+				{"searchTerm": "HES 6-Pak - Real Player's Pak"}
 			]
 		},
 		{
@@ -1366,7 +1348,7 @@
 					"filters": [
 						{
 							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"localizedNames": {"japanese": "双截龍"}}
+							"results": {"localNames": {"japanese": "双截龍"}}
 						}
 					]
 
@@ -2377,7 +2359,7 @@
 		{
 			"group": "JJ",
 			"titles": [
-				{"searchTerm": "JJ (Famicom 3D System)", "localizedNames": {"japanese": "ＪＪ とびだせ大作戦パートⅡ"}}
+				{"searchTerm": "JJ (Famicom 3D System)", "localNames": {"japanese": "ＪＪ とびだせ大作戦パートⅡ"}}
 			]
 		},
 		{
@@ -2408,7 +2390,7 @@
 			"group": "Jungle Book, The",
 			"titles": [
 				{"searchTerm": "Jungle Book, The"},
-				{"searchTerm": "Lion King, The.*?\\(Pirate\\)", "nameType": "regex", "priority": 2}
+				{"searchTerm": "Lion King, The (1995) (Pirate)", "nameType": "regionFree", "priority": 2}
 			]
 		},
 		{
@@ -2552,7 +2534,7 @@
 			"titles": [
 				{"searchTerm": "Hoshi no Kirby - Yume no Izumi no Monogatari"},
 				{"searchTerm": "Kirby's Adventure"},
-				{"searchTerm": "Wario Land 2", "localizedNames": {"japanese": "Ｗａｒｉｏ　Ｌａｎｄ　Ⅱ"}}
+				{"searchTerm": "Wario Land 2", "localNames": {"japanese": "Ｗａｒｉｏ　Ｌａｎｄ　Ⅱ"}}
 			]
 		},
 		{
@@ -2764,13 +2746,13 @@
 		{
 			"group": "Little Mermaid, The",
 			"titles": [
-				{"searchTerm": "Little Mermaid - Ningyo Hime", "localizedNames": {"japanese": "リトル・マーメイド人魚姫"}},
+				{"searchTerm": "Little Mermaid - Ningyo Hime", "localNames": {"japanese": "リトル・マーメイド人魚姫"}},
 				{"searchTerm": "Little Mermaid, The"},
 				{"searchTerm": "Little Mermaid, The (Electronica)"},
 				{"searchTerm": "Little Mermaid, The (Snake)", "priority": 2},
 				{"searchTerm": "Little Mermaid, The (Unknown)", "priority": 3},
 				{"searchTerm": "Malen'kaya Rusalochka", "priority": 4},
-				{"searchTerm": "Mermaid (M-U1)", "priority": 5, "localizedNames": {"japanese": "リトル・マーメイド人魚姫"}},
+				{"searchTerm": "Mermaid (M-U1)", "priority": 5, "localNames": {"japanese": "リトル・マーメイド人魚姫"}},
 				{"searchTerm": "Super Little Mamaid 2", "priority": 6}
 			]
 		},
@@ -2898,7 +2880,8 @@
 			],
 			"compilations": [
 				{"searchTerm": "Asder - 20 in 1"},
-				{"searchTerm": "Caltron - 6 in 1"}
+				{"searchTerm": "Caltron - 6 in 1"},
+				{"searchTerm": "HES 6-Pak - Real Player's Pak"}
 			]
 		},
 		{
@@ -3323,7 +3306,7 @@
 		{
 			"group": "Mortal Kombat II Yoko",
 			"titles": [
-				{"searchTerm": "Mortal Kombat II (Yoko)", "localizedNames": {"english": "Mortal Kombat Pro V"}},
+				{"searchTerm": "Mortal Kombat II (Yoko)", "localNames": {"english": "Mortal Kombat Pro V"}},
 				{"searchTerm": "Mortal Kombat V Turbo - 30 People", "priority": 2},
 				{"searchTerm": "Mortal Kombat V Turbo - 30 People (ZR006)", "priority": 3},
 				{"searchTerm": "Mortal Kombat V Pro", "priority": 5}
@@ -3657,7 +3640,7 @@
 			"group": "Pizza Pop!",
 			"titles": [
 				{"searchTerm": "Pizza Pop!"},
-				{"searchTerm": "Mary Pizza Pop!", "localizedNames": {"english": "Pizza Pop! Mario"}}
+				{"searchTerm": "Mary Pizza Pop!", "localNames": {"english": "Pizza Pop! Mario"}}
 			]
 		},
 		{
@@ -3668,6 +3651,13 @@
 			]
 		},
 		{
+			"group": "PLOID",
+			"titles": [
+				{"searchTerm": "PLOID"},
+				{"searchTerm": "PLOID (vX)", "priority": 2}
+			]
+		},
+		{
 			"group": "Pocahontas",
 			"titles": [
 				{
@@ -3675,7 +3665,7 @@
 					"filters": [
 						{
 							"conditions": {"matchRegions": ["Asia"], "matchString": "Pirate"},
-							"results": {"localizedNames": {"english": "Pocohontos"}}
+							"results": {"localNames": {"english": "Pocohontos"}}
 						}
 					]
 				}
@@ -3725,8 +3715,8 @@
 		{
 			"group": "Poker Jijin - The World of Card Games",
 			"titles": [
-				{"searchTerm": "Poker Jijin - The World of Card Games", "localizedNames": {"chinese (traditional)": "撲克集錦"}},
-				{"searchTerm": "Poker Jijin", "priority": 2, "localizedNames": {"chinese (traditional)": "撲克集錦"}}
+				{"searchTerm": "Poker Jijin - The World of Card Games", "localNames": {"chinese (traditional)": "撲克集錦"}},
+				{"searchTerm": "Poker Jijin", "priority": 2, "localNames": {"chinese (traditional)": "撲克集錦"}}
 			]
 		},
 		{
@@ -3752,7 +3742,8 @@
 			],
 			"compilations": [
 				{"searchTerm": "Asder - 20 in 1"},
-				{"searchTerm": "Caltron - 6 in 1"}
+				{"searchTerm": "Caltron - 6 in 1"},
+				{"searchTerm": "HES 6-Pak - Real Player's Pak"}
 			]
 		},
 		{
@@ -4283,7 +4274,7 @@
 			"titles": [
 				{"searchTerm": "Shaonian Youxia - Guangming Zhi Shen (Young Chivalry)"},
 				{"searchTerm": "Shaonian Youxia - Guangming Zhi Shen (Young Chivalry) (FS308)", "priority": 2},
-				{"searchTerm": "Jianxia Qingyuan", "priority": 3}
+				{"searchTerm": "Jianxia Qingyuan (Coolboy) (Unl)", "priority": 3, "nameType": "regionFree"}
 			]
 		},
 		{
@@ -4809,7 +4800,15 @@
 		{
 			"group": "Super Mario Bros. 2",
 			"titles": [
-				{"searchTerm": "Super Mario Bros. 2"},
+				{
+					"searchTerm": "Super Mario Bros. 2",
+					"filters": [
+                        {
+                            "conditions": {"matchString": "\\(Pirate\\)"},
+                            "results": {"group": "Super Mario Bros. 2 Pirate"}
+                        }
+                    ]
+				},
 				{"searchTerm": "Super Mario USA", "priority": 2},
 				{"searchTerm": "Super Bros. 2", "priority": 3},
 				{"searchTerm": "Super Bros. 5", "priority": 4}
@@ -5020,8 +5019,7 @@
 			"titles": [
 				{"searchTerm": "Tenchi o Kurau II - Shokatsu Koumei Den"},
 				{"searchTerm": "Tunshi Tiandi - Sanguo Waizhuan", "priority": 2},
-				{"searchTerm": "Tunshi Tiandi - Sanguo Waizhuan (Xianfeng)", "priority": 3},
-				{"searchTerm": "Tianshi Zhi Yi 2", "priority": 4}
+				{"searchTerm": "Tunshi Tiandi - Sanguo Waizhuan (Xianfeng)", "priority": 3}
 			]
 		},
 		{
@@ -5601,7 +5599,7 @@
 			"group": "Xuanyuan Jian - Xian Zhi Yuan",
 			"titles": [
 				{"searchTerm": "Xuanyuan Jian - Xian Zhi Yuan"},
-				{"searchTerm": "Jianxia Qingyuan", "priority": 2},
+				{"searchTerm": "Jianxia Qingyuan (Jncota) (Aftermarket) (Unl)", "priority": 2, "nameType": "regionFree"},
 				{"searchTerm": "Zhanshen Shijie", "priority": 3}
 			]
 		},

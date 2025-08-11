@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - Missing title data (CMP) (Retool)</name>
+		<description>Retool - Missing title data (CMP) (2) (-x) (2025-06-29) (Retool)</description>
+		<version>2025-06-29</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>unexpectedpanda | https://unexpectedpanda.github.io/retool</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>Unknown</url>
+		<retool>Created by Retool X</retool>
+	</header>
+	<game name="Test Title (Europe) (En,Fr,De,It)">
+		<category>BIOS</category>
+		<description />
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="De"/>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="En"/>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="Fr"/>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="It"/>
+		<rom name="Test Title (Europe) (En,Fr,De,It).iso" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title (USA)">
+		<category>BIOS</category>
+		<description>Test Title (USA)</description>
+		<release name="Test Title (USA)" region="USA" language="En"/>
+		<rom name="Test Title (USA).cue" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA).bin" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

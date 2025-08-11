@@ -16,9 +16,13 @@ def main() -> None:
         'tests/source/systems/Sony - PlayStation 2 - Datfile.dat',
     ]
 
-    golden_comparison_folder: str = 'usa-remainder'
-    test_name: str = 'Determinism'
-    arguments_list: list[str] = ['--test --config tests/configs/user-config-regions-1.yaml']
+    golden_comparison_folder: str
+    test_name: str
+    arguments_list: list[str]
+
+    golden_comparison_folder = 'determinism'
+    test_name = 'Determinism'
+    arguments_list = ['--test --config tests/configs/user-config-regions-1.yaml']
 
     for arguments in arguments_list:
         integration_test(input_dats, golden_comparison_folder, test_name, arguments, runs=5)

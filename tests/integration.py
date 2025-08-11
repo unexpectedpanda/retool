@@ -2,11 +2,16 @@
 
 """Integration test functions for Retool."""
 
+import sys
+from pathlib import Path
+
+# Set the main path up the hierarchy so we can import modules directly from Retool
+sys.path.append(str(Path(sys.argv[0]).resolve().parent.parent))
+
 import difflib
 import os
 import pathlib
 import subprocess
-import sys
 
 from modules.utils import Font, eprint
 
@@ -28,7 +33,7 @@ def integration_test(
         input_dats (list[str]): A list of DAT files to process.
 
         golden_comparison_folder (str): Where the golden output files are stored for
-        comparison against the test output.
+            comparison against the test output.
 
         test_name (str): The name of the test.
 
@@ -42,6 +47,8 @@ def integration_test(
 
     # Add the virtualenv site-packages to the path
     os.environ['PYTHONPATH'] = rf'{os.environ.get("VIRTUAL_ENV")}\Lib\site-packages'
+
+    eprint(f'{Font.bold}\nRUNNING TEST: {test_name}{Font.end}')
 
     # Test deterministic output
     for i in range(1, runs + 1, 1):
@@ -77,7 +84,18 @@ def compare_files(golden_folder: str, test_name: str, run: int = 0) -> None:
     eprint(f'\n{Font.subheading}Comparing files...{Font.end}\n')
 
     tests: list[pathlib.Path] = list(pathlib.Path('tests/comparison').glob('**/*'))
+    goldens: list[pathlib.Path] = list(pathlib.Path(f'tests/goldens/{golden_folder}').glob('**/*'))
     test_failed: bool = False
+
+    # Check if Retool crashed out on a file early
+    if len(tests) != len(goldens):
+        eprint(
+            'Different number of goldens compared to test files, '
+            'Retool might have crashed out early on a DAT file.',
+            indent=0,
+            level='error',
+        )
+        sys.exit(1)
 
     for test in tests:
         source_file: pathlib.Path = test
@@ -86,11 +104,11 @@ def compare_files(golden_folder: str, test_name: str, run: int = 0) -> None:
         )
 
         if not golden_file.is_file():
-            eprint(f'{Font.error}{Font.bold}Golden file is missing:\n{golden_file}{Font.end}\n')
+            eprint(f'{Font.error}{Font.b}Golden file is missing:\n{golden_file}{Font.end}\n')
             sys.exit(1)
 
         if not source_file.is_file():
-            eprint(f'{Font.error}{Font.bold}Test file is missing:\n{source_file}{Font.end}\n')
+            eprint(f'{Font.error}{Font.b}Test file is missing:\n{source_file}{Font.end}\n')
             sys.exit(1)
 
         if golden_file and source_file:
@@ -100,17 +118,14 @@ def compare_files(golden_folder: str, test_name: str, run: int = 0) -> None:
                 delta = ''.join(diff)
 
                 if delta:
-                    eprint(f'{Font.error}{Font.bold}Difference found{Font.end}\n')
-                    eprint(
-                        f'[{pathlib.Path(test).name}]\n\nThe golden lines are listed first, then the test output lines:\n\n'
-                    )
+                    eprint(f'{Font.error}{Font.b}Difference found{Font.end}\n')
+                    eprint(f'[{source_file.name}]\n\n')
+                    eprint('The golden lines are listed first, then the test output lines:\n\n')
                     eprint(delta)
-                    eprint(f'\n[{pathlib.Path(test).name}]\n')
+                    eprint(f'\n[{source_file.name}]\n')
                     test_failed = True
-                    golden_link = pathlib.Path(
-                        f'tests/goldens/{golden_folder}/{pathlib.Path(test).name}'
-                    ).resolve()
-                    test_link = pathlib.Path(test).resolve()
+                    golden_link = golden_file.resolve()
+                    test_link = source_file.resolve()
 
                     # Automatically open the differing files.
                     eprint('Opening file comparison...')

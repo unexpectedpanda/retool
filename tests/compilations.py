@@ -10,9 +10,13 @@ def main() -> None:
         'tests/source/features/Retool - Compilations.dat',
     ]
 
-    golden_comparison_folder: str = 'features/compilations-1'
-    test_name: str = 'Compilations default'
-    arguments_list: list[str] = [
+    golden_comparison_folder: str
+    test_name: str
+    arguments_list: list[str]
+
+    golden_comparison_folder = 'features/compilations-1'
+    test_name = 'Compilations default'
+    arguments_list = [
         '--test --config tests/configs/user-config-regions-1.yaml',
     ]
 

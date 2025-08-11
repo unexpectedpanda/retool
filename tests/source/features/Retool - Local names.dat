@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - Local names</name>
+		<description>Retool - Local names (2024-02-25)</description>
+		<version>2024-02-24 00-00-00</version>
+		<date>2024-02-24 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<url>https://unexpectedpanda.github.io/retool</url>
+	</header>
+    <game name="Test Title (USA)">
+		<category>Games</category>
+		<description>Test Title (USA)</description>
+		<rom name="Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+    <game name="Test Title 2 (USA)">
+		<category>Games</category>
+		<description>Test Title 2 (USA)</description>
+		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 2 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+   <game name="Test Title 3 (USA)">
+		<category>Games</category>
+		<description>Test Title 3 (USA)</description>
+		<rom name="Test Title 3 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 3 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

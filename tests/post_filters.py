@@ -10,9 +10,13 @@ def main() -> None:
         'tests/source/features/Retool - Post filters.dat',
     ]
 
-    golden_comparison_folder: str = 'features'
-    test_name: str = 'Post filters'
-    arguments_list: list[str] = [
+    golden_comparison_folder: str
+    test_name: str
+    arguments_list: list[str]
+
+    golden_comparison_folder = 'features/post-filters'
+    test_name = 'Post filters'
+    arguments_list = [
         '--test --config tests/configs/user-config-post-filters.yaml',
     ]
 

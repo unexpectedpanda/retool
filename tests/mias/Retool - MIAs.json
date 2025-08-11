@@ -1,0 +1,16 @@
+{
+	"mias": [
+		{
+			"name": "Test Title (USA).bin",
+			"crc": "22222222"
+		},
+		{
+			"name": "Test Title But Renamed.bin",
+			"crc": "44444444"
+		},
+		{
+			"name": "Test Title (Europe) (En,Fr,De,It).bin",
+			"crc": "badbad"
+		}
+	]
+}

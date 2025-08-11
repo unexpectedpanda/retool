@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - Numbered</name>
+		<description>Retool - Numbered (2024-02-25)</description>
+		<version>2024-02-24 00-00-00</version>
+		<date>2024-02-24 00-00-00</date>
+		<author>unexpectedpanda</author>
+        <url>https://www.no-intro.org</url>
+	</header>
+    <game name="z144 - Test Title (USA)">
+		<category>Games</category>
+		<description>z144 - Test Title (USA)</description>
+		<rom name="z144 - Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="z144 - Test Title (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+    <game name="5515 - Test Title (Europe)">
+		<category>Games</category>
+		<description>5515 - Test Title (Europe)</description>
+		<rom name="5515 - Test Title (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="5515 - Test Title (Europe).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+    <game name="xB04 - Test Title (Europe) (En,Fr,De,It)">
+		<category>Games</category>
+		<description>xB04 - Test Title (Europe) (En,Fr,De,It)</description>
+		<rom name="xB04 - Test Title (Europe) (En,Fr,De,It).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="xB04 - Test Title (Europe) (En,Fr,De,It).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="9999 - Test Title - Special Edition (Europe) (En,De,It)">
+		<category>Games</category>
+		<description>9999 - Test Title - Special Edition (Europe) (En,De,It)</description>
+		<rom name="9999 - Test Title - Special Edition (Europe) (En,De,It).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="9999 - Test Title - Special Edition (Europe) (En,De,It).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

@@ -6,7 +6,7 @@ from re import Pattern
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from modules.dats import DatNode
+    from modules.dat.process_dat import DatNode
 
 from modules.titletools import TraceTools
 from modules.utils import Font, pattern2string
@@ -16,15 +16,15 @@ def choose_made_in(
     pattern: Pattern[str], title_set: set[DatNode], report_on_match: bool
 ) -> set[DatNode]:
     """
-    Compares any two titles from a set of DatNodes, and removes the title that contains `pattern`.
+    Compares any two titles from a set of DatNodes, and removes the title that contains
+    `pattern`.
 
     Args:
         pattern (Pattern[str]): The "made in" regex pattern.
 
         title_set (set[DatNode]): A set of titles as DatNode instances.
 
-        report_on_match (bool): Whether Retool needs to report any titles being
-        traced.
+        report_on_match (bool): Whether Retool needs to report any titles being traced.
 
     Returns:
         set[DatNode]: A set of DatNodes that contain titles that don't match the

@@ -16,10 +16,10 @@ class CustomComboBox(qtw.QComboBox):
 
     def __init__(self, parent: Any = None) -> None:
         super().__init__(parent)
-        self.setFocusPolicy(qtc.Qt.StrongFocus)
+        self.setFocusPolicy(qtc.Qt.StrongFocus)  # type: ignore
 
-    def wheelEvent(self, *args, **kwargs):
-        return self.parentWidget().wheelEvent(*args, **kwargs)
+    def wheelEvent(self, *args: Any, **kwargs: Any) -> Any:
+        return self.parentWidget().wheelEvent(*args, **kwargs)  # type: ignore
 
 
 class CustomLineEdit(qtw.QLineEdit):
@@ -176,7 +176,10 @@ class CustomListSelfDrag(CustomList):
 
 
 class CustomListDropFiles(CustomList):
-    """A sub-subclassed list widget that allows a file to be dropped into it from a file explorer."""
+    """
+    A sub-subclassed list widget that allows a file to be dropped into it from a file
+    explorer.
+    """
 
     def __init__(self, parent: Any = None) -> None:
         super(CustomList, self).__init__(parent)
@@ -221,7 +224,7 @@ class CustomPushButton(qtw.QPushButton):
     Modified from https://stackoverflow.com/questions/60443811/button-hover-transition-duration#answer-60446633
 
     Args:
-        - `parent` The parent widget. Defaults to `None`.
+        parent (Any): The parent widget. Defaults to `None`.
     """
 
     def __init__(self, parent: Any = None) -> None:
@@ -315,12 +318,12 @@ class ElisionLabel(qtw.QLabel):
     https://stackoverflow.com/questions/11446478/pyside-pyqt-truncate-text-in-qlabel-based-on-minimumsize#answer-67628976
 
     Args:
-        - `text` The label text.
+        text (str): The label text.
 
-        - `parent` The QWidget main_window.
+        parent (Any): The QWidget main_window.
 
-        - `f` Qt.WindowFlags(), as defined at
-          https://doc-snapshots.qt.io/qtforpython-6.40/PySide6/QtCore/Qt.html#qtc.qtc.Qt.WindowType
+        f (Any): Qt.WindowFlags(), as defined at
+            https://doc-snapshots.qt.io/qtforpython-6.40/PySide6/QtCore/Qt.html#qtc.qtc.Qt.WindowType
     """
 
     elision_changed = qtc.Signal(bool)
@@ -337,9 +340,8 @@ class ElisionLabel(qtw.QLabel):
         self._contents = text
 
         # This line set for testing. Its value is the return value of
-        # QFontMetrics.elidedText, set in paintEvent. The variable
-        # must be initialized for testing.  The value should always be
-        # the same as contents when not elided.
+        # QFontMetrics.elidedText, set in paintEvent. The variable must be initialized for
+        # testing.  The value should always be the same as contents when not elided.
         self._elided_line = text
 
         self.update()
@@ -399,16 +401,47 @@ def custom_widgets(main_window: Any) -> Any:
     main_window.ui.listWidgetOpenFiles.setDefaultDropAction(qtc.Qt.IgnoreAction)  # type: ignore
 
     # Fix checkboxes, which have a weird hover effect on Windows 4k monitors on hover if
-    # you don't set a size that's divisible by 4.
+    # you don't set a size that's divisible by 4. Also add a custom SVGs to fix check
+    # mark scaling.
     checkbox_style = '''
-                     QCheckBox::indicator { width: 16px; height: 16px;}
-                     '''
+                    QCheckBox::indicator {width: 16px; height: 16px;}
+                    QCheckBox::indicator:unchecked {image: url(:/checkboxes/images/checkbox.svg);}
+                    QCheckBox::indicator:unchecked:disabled {image: url(:/checkboxes/images/checkbox-disabled.svg);}
+                    QCheckBox::indicator:unchecked:hover {image: url(:/checkboxes/images/checkbox-hover.svg);}
+                    QCheckBox::indicator:unchecked:pressed {image: url(:/checkboxes/images/checkbox-pressed.svg);}
+                    QCheckBox::indicator:checked {image: url(:/checkboxes/images/checkbox-checked.svg);}
+                    QCheckBox::indicator:checked:disabled {image: url(:/checkboxes/images/checkbox-checked-disabled.svg);}
+                    QCheckBox::indicator:checked:hover {image: url(:/checkboxes/images/checkbox-checked-hover.svg);}
+                    QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
+                    QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
+                    '''
 
     checkboxes = main_window.ui.centralwidget.findChildren(
         qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)')
     )
+
     for checkbox in checkboxes:
         checkbox.setStyleSheet(checkbox_style)
+
+    # Fix markers on dropdown boxes
+    dropdown_style = '''
+                    QComboBox::drop-down {
+                        subcontrol-origin: padding;
+                        subcontrol-position: top right;
+                        width: 16px;
+                        border-top-right-radius: 3px; /* same radius as the QComboBox */
+                        border-bottom-right-radius: 3px;
+                    }
+                    QComboBox::down-arrow {image: url(:/dropdowns/images/dropdown-arrow-down.svg);}
+                    QComboBox::down-arrow:on {image: url(:/dropdowns/images/dropdown-arrow-up.svg);}
+                    '''
+
+    dropdowns = main_window.ui.centralwidget.findChildren(
+        qtw.QComboBox, qtc.QRegularExpression('(comboBox)')
+    )
+
+    for dropdown in dropdowns:
+        dropdown.setStyleSheet(dropdown_style)
 
     # Fix the scrollArea background color,which for some reason is altered by setting
     # the font previously

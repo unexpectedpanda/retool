@@ -1779,12 +1779,12 @@
 		<category>Preproduction</category>
 		<description>Chicken Run (Japan) (Beta) (2000-08-01)</description>
 		<release name="Chicken Run (Japan) (Beta) (2000-08-01)" region="Japan" language="Ja"/>
-		<rom name="Chicken Run (Japan) (Beta) (2000-08-01).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Chicken Run (Japan) (Beta) (2000-08-01) (Track 1).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Chicken Run (Japan) (Beta) (2000-08-01) (Track 2).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Chicken Run (Japan) (Beta) (2000-08-01) (Track 3).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Chicken Run (Japan) (Beta) (2000-08-01) (Track 4).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Chicken Run (Japan) (Beta) (2000-08-01) (Track 5).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Chicken Run (Japan) (Beta) (2000-08-01).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Chicken Run (Japan) (Beta) (2000-08-01) (Track 1).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Chicken Run (Japan) (Beta) (2000-08-01) (Track 2).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Chicken Run (Japan) (Beta) (2000-08-01) (Track 3).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Chicken Run (Japan) (Beta) (2000-08-01) (Track 4).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Chicken Run (Japan) (Beta) (2000-08-01) (Track 5).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Chicken Run (UK)" cloneof="Chicken Run (USA)">
 		<category>Games</category>
@@ -3801,10 +3801,10 @@
 		<category>Demos</category>
 		<description>Dream Preview Vol. 1 (Japan)</description>
 		<release name="Dream Preview Vol. 1 (Japan)" region="Japan" language="Ja"/>
-		<rom name="Dream Preview Vol. 1 (Japan).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Dream Preview Vol. 1 (Japan) (Track 1).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Dream Preview Vol. 1 (Japan) (Track 2).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Dream Preview Vol. 1 (Japan) (Track 3).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Dream Preview Vol. 1 (Japan).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Dream Preview Vol. 1 (Japan) (Track 1).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Dream Preview Vol. 1 (Japan) (Track 2).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Dream Preview Vol. 1 (Japan) (Track 3).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Dream Preview Vol. 2 (Japan)">
 		<category>Demos</category>
@@ -14178,7 +14178,7 @@
 		<rom name="Sakura Taisen Online - Teito no Nagai Hibi (Japan) (Track 2).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Sakura Taisen Online - Teito no Nagai Hibi (Japan) (Track 3).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Samba de Amigo (Europe)" cloneof="Samba de Amigo (Japan)">
+	<game name="Samba de Amigo (Europe)" cloneof="Samba de Amigo Ver. 2000 (Japan)">
 		<category>Games</category>
 		<description>Samba de Amigo (Europe)</description>
 		<release name="Samba de Amigo (Europe)" region="Europe" language="En"/>
@@ -14187,7 +14187,7 @@
 		<rom name="Samba de Amigo (Europe) (Track 2).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Samba de Amigo (Europe) (Track 3).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Samba de Amigo (Japan)">
+	<game name="Samba de Amigo (Japan)" cloneof="Samba de Amigo Ver. 2000 (Japan)">
 		<category>Games</category>
 		<description>Samba de Amigo (Japan)</description>
 		<release name="Samba de Amigo (Japan)" region="Japan" language="Ja"/>
@@ -14196,7 +14196,7 @@
 		<rom name="Samba de Amigo (Japan) (Track 2).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Samba de Amigo (Japan) (Track 3).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Samba de Amigo (USA)" cloneof="Samba de Amigo (Japan)">
+	<game name="Samba de Amigo (USA)" cloneof="Samba de Amigo Ver. 2000 (Japan)">
 		<category>Games</category>
 		<description>Samba de Amigo (USA)</description>
 		<release name="Samba de Amigo (USA)" region="USA" language="En"/>

@@ -6,8 +6,8 @@ from re import Pattern
 from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:
-    from modules.config import Config
-    from modules.dats import DatNode
+    from modules.config.config import Config
+    from modules.dat.process_dat import DatNode
 
 from modules.title_selection.choose_date import choose_date
 from modules.title_selection.choose_good import choose_good
@@ -16,6 +16,7 @@ from modules.title_selection.choose_language import choose_language, choose_lang
 from modules.title_selection.choose_made_in import choose_made_in
 from modules.title_selection.choose_priority import choose_priority
 from modules.title_selection.choose_region import choose_region
+from modules.title_selection.choose_retroachievements import choose_retroachievements
 from modules.title_selection.choose_string import choose_string
 from modules.title_selection.choose_superset import choose_superset
 from modules.title_selection.choose_version_revision import choose_version_revision
@@ -26,6 +27,7 @@ from modules.utils import Font, eprint, pattern2string
 
 def choose_1g1r(
     config: Config,
+    is_numbered: bool,
     potential_parents: dict[str, set[DatNode]],
     is_superset_titles: bool,
     is_compilations: bool,
@@ -37,9 +39,11 @@ def choose_1g1r(
     Args:
         config (Config): The Retool config object.
 
+        is_numbered (bool): Whether the DAT file prefixes its title names with numbers.
+
         potential_parents (dict[str, set[DatNode]]): A dictionary of DatNodes that
-        contains non-finalized parents. Only needed when processing supersets, as
-        supersets need extra processing to make the parents deterministic.
+            contains non-finalized parents. Only needed when processing supersets, as
+            supersets need extra processing to make the parents deterministic.
 
         is_superset_titles (bool): Set to `True` if processing supersets.
 
@@ -48,7 +52,7 @@ def choose_1g1r(
         title_set (set[DatNode]): A list of DatNodes to choose a parent from.
 
     Returns:
-        dict[str, set[DatNode]]: A dictionary of DatNodes with parents selected.
+        dict (dict[str, set[DatNode]]): A dictionary of DatNodes with parents selected.
     """
     # Check if a system config is in play
     language_order: list[str] = []
@@ -173,394 +177,363 @@ def choose_1g1r(
 
         short_name_top_languages.add((short_name_group[0], highest_language_priority, top_language))
 
-    # Title comparisons per region
     for region in region_order:
         parent_titles: set[DatNode] = {x for x in title_set if region in x.primary_region}
 
-        if parent_titles and len(parent_titles) > 1:
-            if report_on_match:
-                eprint(f'Region: {region} [{group_name}]', level='subheading')
-                TraceTools.trace_title('REF0001', [], parent_titles, keep_remove=False)
+        # Split group into short names to avoid needless comparison work
+        titles_by_short_name: dict[str, set[DatNode]] = {}
 
-            # 1) Clean up preproduction/bad/pirate/mixed version-revision titles
-            if len(parent_titles) > 1:
-                parent_titles = choose_good(parent_titles, config)
+        for title in parent_titles:
+            if title.short_name not in titles_by_short_name:
+                titles_by_short_name[title.short_name] = set()
 
-            if report_on_match:
-                TraceTools.trace_title('REF0003', [], parent_titles, keep_remove=False)
+            titles_by_short_name[title.short_name].add(title)
 
-            # 2) Cycle through language order until one title doesn't have the required language
-            if len(parent_titles) > 1:
-                parent_titles = choose_language(parent_titles, config, report_on_match)
+        for short_name, titles in titles_by_short_name.items():
+            if titles and len(titles) > 1:
+                if report_on_match:
+                    eprint(
+                        f'Region: {region} | Group: {group_name} | Short name: {short_name}',
+                        level='subheading',
+                    )
+                    TraceTools.trace_title('REF0001', [], titles, keep_remove=False)
 
-            if report_on_match:
-                TraceTools.trace_title('REF0005', [], parent_titles, keep_remove=False)
+                # 0) Select RetroAchievements
+                if len(titles) > 1 and config.user_input.retroachievements:
+                    titles = choose_retroachievements(titles, report_on_match)
 
-            # 3) Select supersets
-            if len(parent_titles) > 1:
-                parent_titles = choose_superset(parent_titles, config, report_on_match)
-
-            if report_on_match:
-                TraceTools.trace_title('REF0076', [], parent_titles, keep_remove=False)
-
-            # 4) Reference clone list priorities
-            if len(parent_titles) > 1:
-                parent_titles = choose_priority(parent_titles, config, report_on_match)
-
-            if report_on_match:
-                TraceTools.trace_title('REF0002', [], parent_titles, keep_remove=False)
-
-            # 5) Handle modern titles like Virtual Console, Mini Console, and other
-            # collections ripped from other platforms
-            if len(parent_titles) > 1:
-                for edition in config.tags_modern_editions:
-                    match_string: Any = ''
-
-                    if edition[1] == 'regex':
-                        match_string = re.compile(edition[0])
-                    elif edition[1] == 'string':
-                        match_string = edition[0]
-
-                    if not config.user_input.modern:
-                        parent_titles = choose_string(
-                            match_string,
-                            parent_titles,
-                            report_on_match,
-                            choose_title_with_string=False,
-                        )
-                    elif config.user_input.modern:
-                        parent_titles = choose_string(
-                            match_string,
-                            parent_titles,
-                            report_on_match,
-                            choose_title_with_string=True,
-                        )
-
-            if report_on_match:
-                TraceTools.trace_title('REF0004', [], parent_titles, keep_remove=False)
-
-            # 6) Prefer production versions over unlicensed/aftermarket
-            if len(parent_titles) > 1:
-                parent_titles = choose_string(
-                    config.regex.unlicensed,
-                    parent_titles,
-                    report_on_match,
-                    choose_title_with_string=False,
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_string(
-                    config.regex.aftermarket,
-                    parent_titles,
-                    report_on_match,
-                    choose_title_with_string=False,
-                )
-
-            if report_on_match:
-                TraceTools.trace_title('REF0060', [], parent_titles, keep_remove=False)
-
-            # 7) Select special editions
-            if len(parent_titles) > 1:
-                parent_titles = choose_string(
-                    config.regex.sega32x,
-                    parent_titles,
-                    report_on_match,
-                    choose_title_with_string=True,
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_string(
-                    config.regex.fmtowns_marty,
-                    parent_titles,
-                    report_on_match,
-                    choose_title_with_string=True,
-                )
-
-            if report_on_match:
-                TraceTools.trace_title('REF0006', [], parent_titles, keep_remove=False)
-
-            # 8) Select budget editions
-            if len(parent_titles) > 1:
-                for edition in config.tags_budget_editions:
-                    match_string = ''
-
-                    if edition[1] == 'regex':
-                        match_string = re.compile(edition[0])
-                    elif edition[1] == 'string':
-                        match_string = edition[0]
-
-                    if not config.user_input.oldest:
-                        parent_titles = choose_string(
-                            match_string,
-                            parent_titles,
-                            report_on_match,
-                            choose_title_with_string=True,
-                        )
-                    else:
-                        parent_titles = choose_string(
-                            match_string,
-                            parent_titles,
-                            report_on_match,
-                            choose_title_with_string=False,
-                        )
+                # 1) Clean up preproduction/bad/pirate/mixed version-revision titles
+                if len(titles) > 1:
+                    titles = choose_good(titles, config)
 
                 if report_on_match:
-                    TraceTools.trace_title('REF0113', [], parent_titles, keep_remove=False)
+                    TraceTools.trace_title('REF0003', [], titles, keep_remove=False)
 
-            # 9) Check for versions and revisions, and select the highest of each
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.version, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.dreamcast_version, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.fmtowns_pippin_version, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.long_version, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.fds_version, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.hyperscan_version, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.nintendo_mastering_code, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.revision, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.beta, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.alpha, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.proto, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.sega_panasonic_ring_code,
-                    parent_titles,
-                    config,
-                    report_on_match,
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.nec_mastering_code, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.ps_firmware, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.ps1_2_id, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.ps3_id, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.ps4_id, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.psp_id, parent_titles, config, report_on_match
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.psv_id, parent_titles, config, report_on_match
-                )
+                # 2) Cycle through language order until one title doesn't have the required language
+                if len(titles) > 1:
+                    titles = choose_language(titles, config, report_on_match)
 
-            if report_on_match:
-                TraceTools.trace_title('REF0007', [], parent_titles, keep_remove=False)
+                if report_on_match:
+                    TraceTools.trace_title('REF0005', [], titles, keep_remove=False)
 
-            # 10 Choose video standard
-            video_order: list[str] = config.video_order_user
+                # 3) Select supersets
+                if len(titles) > 1:
+                    titles = choose_superset(titles, config, report_on_match)
 
-            if config.system_video_order_user:
-                if {'override': 'true'} in config.system_video_order_user:
-                    video_order = [
-                        str(x) for x in config.system_video_order_user if 'override' not in x
-                    ]
+                if report_on_match:
+                    TraceTools.trace_title('REF0076', [], titles, keep_remove=False)
 
-            if len(parent_titles) > 1:
-                for video_standard in video_order:
-                    parent_titles = choose_video_standard(
-                        video_standard.lower(), parent_titles, config, report_on_match
-                    )
+                # 4) Reference clone list priorities
+                if len(titles) > 1:
+                    titles = choose_priority(titles, config, report_on_match)
 
-            if report_on_match:
-                TraceTools.trace_title('REF0096', [], parent_titles, keep_remove=False)
+                if report_on_match:
+                    TraceTools.trace_title('REF0002', [], titles, keep_remove=False)
 
-            # 11) Second language pass -- required to allow versions/revisions to be correctly selected
-            if len(parent_titles) > 1:
-                parent_titles = choose_language(
-                    parent_titles, config, report_on_match, first_time=False
-                )
+                # 5) Handle modern titles like Virtual Console, Mini Console, and other
+                # collections ripped from other platforms
+                if len(titles) > 1:
+                    for edition in config.tags_modern_editions:
+                        match_string: Any = ''
 
-            if report_on_match:
-                TraceTools.trace_title('REF0043', [], parent_titles, keep_remove=False)
+                        if edition[1] == 'regex':
+                            match_string = re.compile(edition[0])
+                        elif edition[1] == 'string':
+                            match_string = edition[0]
 
-            # 12) Preference titles with more regions that are higher up the region priority
-            if len(parent_titles) > 1:
-                parent_titles = choose_region(
-                    parent_titles,
-                    region_order,
-                    world_is_usa_europe_japan=False,
-                    report_on_match=report_on_match,
-                )
+                        if not config.user_input.modern:
+                            titles = choose_string(
+                                match_string,
+                                titles,
+                                report_on_match,
+                                choose_title_with_string=False,
+                            )
+                        elif config.user_input.modern:
+                            titles = choose_string(
+                                match_string,
+                                titles,
+                                report_on_match,
+                                choose_title_with_string=True,
+                            )
 
-            if report_on_match:
-                TraceTools.trace_title('REF0008', [], parent_titles, keep_remove=False)
+                if report_on_match:
+                    TraceTools.trace_title('REF0004', [], titles, keep_remove=False)
 
-            # 13) Choose original versions over alternatives
-            if len(parent_titles) > 1:
-                parent_titles = choose_string(
-                    config.regex.alt,
-                    parent_titles,
-                    report_on_match,
-                    choose_title_with_string=False,
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_string(
-                    config.regex.oem,
-                    parent_titles,
-                    report_on_match,
-                    choose_title_with_string=False,
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_string(
-                    config.regex.not_for_resale,
-                    parent_titles,
-                    report_on_match,
-                    choose_title_with_string=False,
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_string(
-                    config.regex.covermount,
-                    parent_titles,
-                    report_on_match,
-                    choose_title_with_string=False,
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_string(
-                    config.regex.rerelease,
-                    parent_titles,
-                    report_on_match,
-                    choose_title_with_string=False,
-                )
-            if len(parent_titles) > 1:
-                parent_titles = choose_string(
-                    config.regex.edc,
-                    parent_titles,
-                    report_on_match,
-                    choose_title_with_string=True,
-                )
-
-            if report_on_match:
-                TraceTools.trace_title('REF0010', [], parent_titles, keep_remove=False)
-
-            # 14) Handle promotion and demotion editions
-            if len(parent_titles) > 1:
-                for edition in config.tags_promote_editions:
-                    match_string = ''
-
-                    if edition[1] == 'regex':
-                        match_string = re.compile(edition[0])
-                    elif edition[1] == 'string':
-                        match_string = edition[0]
-
-                    parent_titles = choose_string(
-                        match_string,
-                        parent_titles,
+                # 6) Prefer production versions over unlicensed/aftermarket
+                if len(titles) > 1:
+                    titles = choose_string(
+                        config.regex.unlicensed,
+                        titles,
                         report_on_match,
-                        choose_title_with_string=True,
+                        choose_title_with_string=False,
                     )
-
-                for edition in config.tags_demote_editions:
-                    match_string = ''
-
-                    if edition[1] == 'regex':
-                        match_string = re.compile(edition[0])
-                    elif edition[1] == 'string':
-                        match_string = edition[0]
-
-                    parent_titles = choose_string(
-                        match_string,
-                        parent_titles,
+                if len(titles) > 1:
+                    titles = choose_string(
+                        config.regex.aftermarket,
+                        titles,
                         report_on_match,
                         choose_title_with_string=False,
                     )
 
-            if report_on_match:
-                TraceTools.trace_title('REF0011', [], parent_titles, keep_remove=False)
+                if report_on_match:
+                    TraceTools.trace_title('REF0060', [], titles, keep_remove=False)
 
-            # 15) Choose dates
-            if len(parent_titles) > 1:
-                parent_titles = choose_date(parent_titles, config, report_on_match)
+                # 7) Select special editions
+                if len(titles) > 1:
+                    titles = choose_string(
+                        config.regex.sega32x,
+                        titles,
+                        report_on_match,
+                        choose_title_with_string=True,
+                    )
+                if len(titles) > 1:
+                    titles = choose_string(
+                        config.regex.fmtowns_marty,
+                        titles,
+                        report_on_match,
+                        choose_title_with_string=True,
+                    )
 
-            if report_on_match:
-                TraceTools.trace_title('REF0009', [], parent_titles, keep_remove=False)
+                if report_on_match:
+                    TraceTools.trace_title('REF0006', [], titles, keep_remove=False)
 
-            # 16) Choose builds
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.build, parent_titles, config, report_on_match
-                )
+                # 8) Select budget editions
+                if len(titles) > 1:
+                    for edition in config.tags_budget_editions:
+                        match_string = ''
 
-            # 17) Handle "Made in" titles
-            if len(parent_titles) > 1:
-                parent_titles = choose_made_in(config.regex.madein, parent_titles, report_on_match)
+                        if edition[1] == 'regex':
+                            match_string = re.compile(edition[0])
+                        elif edition[1] == 'string':
+                            match_string = edition[0]
 
-            if report_on_match:
-                TraceTools.trace_title('REF0012', [], parent_titles, keep_remove=False)
+                        if not config.user_input.oldest:
+                            titles = choose_string(
+                                match_string,
+                                titles,
+                                report_on_match,
+                                choose_title_with_string=True,
+                            )
+                        else:
+                            titles = choose_string(
+                                match_string,
+                                titles,
+                                report_on_match,
+                                choose_title_with_string=False,
+                            )
 
-            # 18) Another version check just in case multiple Alts are the only titles left
-            if len(parent_titles) > 1:
-                parent_titles = choose_version_revision(
-                    config.regex.alt, parent_titles, config, report_on_match
-                )
+                    if report_on_match:
+                        TraceTools.trace_title('REF0113', [], titles, keep_remove=False)
 
-            if report_on_match:
-                TraceTools.trace_title('REF0061', [], parent_titles, keep_remove=False)
+                # 9) Check for versions and revisions, and select the highest of each
+                if len(titles) > 1:
+                    titles = choose_version_revision(titles, 'version', config, report_on_match)
+                if len(titles) > 1:
+                    titles = choose_version_revision(titles, 'revision', config, report_on_match)
+                if len(titles) > 1:
+                    titles = choose_version_revision(titles, 'firmware', config, report_on_match)
+                if len(titles) > 1:
+                    titles = choose_version_revision(titles, 'beta', config, report_on_match)
+                if len(titles) > 1:
+                    titles = choose_version_revision(titles, 'alpha', config, report_on_match)
+                if len(titles) > 1:
+                    titles = choose_version_revision(titles, 'proto', config, report_on_match)
+                if len(titles) > 1:
+                    titles = choose_version_revision(
+                        titles,
+                        'sega',
+                        config,
+                        report_on_match,
+                    )
+                if len(titles) > 1:
+                    titles = choose_version_revision(titles, 'playstation', config, report_on_match)
+                if len(titles) > 1:
+                    titles = choose_version_revision(
+                        titles,
+                        'nec',
+                        config,
+                        report_on_match,
+                    )
 
-            # 19) As a fail-safe, do a string comparison. This compares character by character,and when
-            # a title has a higher comparative character than another title, it wins.
-            if not is_compilations:
-                if len(parent_titles) > 1:
-                    parent_titles = choose_highest_string(parent_titles, report_on_match)
+                if report_on_match:
+                    TraceTools.trace_title('REF0007', [], titles, keep_remove=False)
 
-            if report_on_match:
-                TraceTools.trace_title('REF0059', [], parent_titles, keep_remove=False)
+                # 10 Choose video standard
+                video_order: list[str] = config.video_order_user
 
-        elif len(parent_titles) == 1:
-            if report_on_match:
-                eprint(f'Region: {region} [{group_name}]', level='subheading')
-                TraceTools.trace_title('REF0074', [], parent_titles, keep_remove=False)
+                if config.system_video_order_user:
+                    if {'override': 'true'} in config.system_video_order_user:
+                        video_order = [
+                            str(x) for x in config.system_video_order_user if 'override' not in x
+                        ]
 
-        # Add remaining titles from multiple regions to a single set
-        cross_region_parent_titles = cross_region_parent_titles | parent_titles
+                if len(titles) > 1:
+                    for video_standard in video_order:
+                        titles = choose_video_standard(
+                            video_standard.lower(), titles, config, report_on_match
+                        )
+
+                    if report_on_match:
+                        TraceTools.trace_title('REF0096', [], titles, keep_remove=False)
+
+                # 11) Second language pass -- required to allow versions/revisions to be correctly selected
+                if len(titles) > 1:
+                    titles = choose_language(titles, config, report_on_match, first_time=False)
+
+                    if report_on_match:
+                        TraceTools.trace_title('REF0043', [], titles, keep_remove=False)
+
+                # 12) Preference titles with more regions that are higher up the region priority
+                if len(titles) > 1:
+                    titles = choose_region(
+                        titles,
+                        region_order,
+                        world_is_usa_europe_japan=False,
+                        report_on_match=report_on_match,
+                    )
+
+                    if report_on_match:
+                        TraceTools.trace_title('REF0008', [], titles, keep_remove=False)
+
+                # 13) Choose original versions over alternatives
+                if len(titles) > 1:
+                    titles = choose_string(
+                        config.regex.alt,
+                        titles,
+                        report_on_match,
+                        choose_title_with_string=False,
+                    )
+                if len(titles) > 1:
+                    titles = choose_string(
+                        config.regex.oem,
+                        titles,
+                        report_on_match,
+                        choose_title_with_string=False,
+                    )
+                if len(titles) > 1:
+                    parent_titles = choose_string(
+                        config.regex.not_for_resale,
+                        titles,
+                        report_on_match,
+                        choose_title_with_string=False,
+                    )
+                if len(titles) > 1:
+                    titles = choose_string(
+                        config.regex.covermount,
+                        titles,
+                        report_on_match,
+                        choose_title_with_string=False,
+                    )
+                if len(titles) > 1:
+                    titles = choose_string(
+                        config.regex.rerelease,
+                        titles,
+                        report_on_match,
+                        choose_title_with_string=False,
+                    )
+                if len(titles) > 1:
+                    titles = choose_string(
+                        config.regex.edc,
+                        titles,
+                        report_on_match,
+                        choose_title_with_string=True,
+                    )
+
+                if report_on_match:
+                    TraceTools.trace_title('REF0010', [], titles, keep_remove=False)
+
+                # 14) Handle promotion and demotion editions
+                if len(titles) > 1:
+                    for edition in config.tags_promote_editions:
+                        match_string = ''
+
+                        if edition[1] == 'regex':
+                            match_string = re.compile(edition[0])
+                        elif edition[1] == 'string':
+                            match_string = edition[0]
+
+                        titles = choose_string(
+                            match_string,
+                            titles,
+                            report_on_match,
+                            choose_title_with_string=True,
+                        )
+
+                    for edition in config.tags_demote_editions:
+                        match_string = ''
+
+                        if edition[1] == 'regex':
+                            match_string = re.compile(edition[0])
+                        elif edition[1] == 'string':
+                            match_string = edition[0]
+
+                        titles = choose_string(
+                            match_string,
+                            titles,
+                            report_on_match,
+                            choose_title_with_string=False,
+                        )
+
+                    if report_on_match:
+                        TraceTools.trace_title('REF0011', [], titles, keep_remove=False)
+
+                # 15) Choose dates
+                if len(titles) > 1:
+                    titles = choose_date(titles, config, report_on_match)
+
+                    if report_on_match:
+                        TraceTools.trace_title('REF0009', [], titles, keep_remove=False)
+
+                # 16) Choose builds
+                if len(titles) > 1:
+                    titles = choose_version_revision(titles, 'build', config, report_on_match)
+
+                # 17) Handle "Made in" titles
+                if len(titles) > 1:
+                    titles = choose_made_in(config.regex.madein, titles, report_on_match)
+
+                    if report_on_match:
+                        TraceTools.trace_title('REF0012', [], titles, keep_remove=False)
+
+                # 18) Another version check just in case multiple Alts are the only titles left
+                if len(titles) > 1:
+                    titles = choose_version_revision(titles, 'alt', config, report_on_match)
+
+                    if report_on_match:
+                        TraceTools.trace_title('REF0061', [], titles, keep_remove=False)
+
+                # 19) As a fail-safe, do a string comparison. This compares character by character,and when
+                # a title has a higher comparative character than another title, it wins.
+                if not is_compilations:
+                    if len(titles) > 1:
+                        titles = choose_highest_string(titles, report_on_match)
+
+                if report_on_match:
+                    TraceTools.trace_title('REF0059', [], titles, keep_remove=False)
+
+            elif len(titles) == 1:
+                if report_on_match:
+                    eprint(
+                        f'Region: {region} | Group: {group_name} | Short name: {list(titles)[0].short_name}',
+                        level='subheading',
+                        wrap=False,
+                    )
+                    TraceTools.trace_title('REF0074', [], titles, keep_remove=False)
+
+            # Add remaining titles from multiple regions to a single set
+            cross_region_parent_titles = cross_region_parent_titles | titles
 
     if report_on_match:
         eprint(f'Region: All [{group_name}]', level='subheading')
         TraceTools.trace_title('REF0013', [], cross_region_parent_titles, keep_remove=False)
 
     if len(cross_region_parent_titles) > 1:
+        # Select titles that support RetroAchievements
+        if config.user_input.retroachievements:
+            cross_region_parent_titles = choose_retroachievements(
+                cross_region_parent_titles.copy(), report_on_match
+            )
+
         # Remove titles that don't support the top language in the set
         if not config.user_input.region_bias:
             cross_region_parent_titles = choose_language_top(
@@ -572,19 +545,19 @@ def choose_1g1r(
         # Prefer good dump/production/retail titles
         def production_retail(
             titles: set[DatNode], patterns: tuple[Pattern[str], ...], report_on_match: bool
-        ):
+        ) -> set[DatNode]:
             """
-            Removes titles if they match a certain regex pattern, but only if
-                doing so wouldn't remove all titles in the set.
+            Removes titles if they match a certain regex pattern, but only if doing so
+            wouldn't remove all titles in the set.
 
             Args:
                 titles (set[DatNode]): The titles to iterate over.
 
                 patterns (tuple[Pattern[str], ...]): The pattern to match against the
-                title full names.
+                    title full names.
 
-                report_on_match (bool): Whether Retool needs to report any titles
-                being traced.
+                report_on_match (bool): Whether Retool needs to report any titles being
+                    traced.
             """
             cross_region_temp = titles.copy()
 
@@ -593,7 +566,7 @@ def choose_1g1r(
                     pattern_1_found: bool = False
                     pattern_2_found: bool = False
 
-                    patterns_found: list[str] = []
+                    patterns_found: list[Pattern[str]] = []
 
                     for pattern in patterns:
                         if pattern2string(pattern, title_1.full_name) and pattern2string(
@@ -990,7 +963,10 @@ def choose_1g1r(
                         clone_report[cross_region_title.full_name].add(title.full_name)
 
                 if not is_superset_titles:
-                    title.cloneof = cross_region_title.full_name
+                    if is_numbered:
+                        title.cloneof = cross_region_title.numbered_name
+                    else:
+                        title.cloneof = cross_region_title.full_name
                 else:
                     if not next(
                         (

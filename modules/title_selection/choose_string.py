@@ -6,37 +6,35 @@ from re import Pattern
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from modules.dats import DatNode
+    from modules.dat.process_dat import DatNode
 
 from modules.titletools import TraceTools
 from modules.utils import Font
 
 
 def choose_string(
-    match: Pattern[str] | str,
+    search_string: Pattern[str] | str,
     title_set: set[DatNode],
     report_on_match: bool,
     choose_title_with_string: bool,
 ) -> set[DatNode]:
     """
-    Compares any two titles from a set of DatNodes for a string. Can choose the
-    title with or without the string.
+    Compares any two titles from a set of DatNodes for a string. Can choose the title with
+    or without the string.
 
     Args:
-        match (Pattern[str]|str): The regex pattern or string to search for in the
-        title name.
+        search_string (Pattern[str]|str): The regex pattern or string to search for.
 
         title_set (set[DatNode]): A set of titles as DatNode instances.
 
-        report_on_match (bool): Whether Retool needs to report any titles being
-        traced.
+        report_on_match (bool): Whether Retool needs to report any titles being traced.
 
         choose_title_with_string (bool): If `True`, chooses the title that contains
-        `string`. If `False`, chooses the title that doesn't contain `string`.
+            `string`. If `False`, chooses the title that doesn't contain `string`.
 
     Returns:
-        set[DatNode]: A set of DatNodes that either does or doesn't contain the
-        specified `pattern`.
+        set[DatNode]: A set of DatNodes that either does or doesn't contain the specified
+        `pattern`.
     """
     remove_titles: set[DatNode] = set()
 
@@ -53,21 +51,25 @@ def choose_string(
             title_1_match: bool = False
             title_2_match: bool = False
 
-            if type(match) is re.Pattern:
-                if re.search(match, title_1.full_name) and not re.search(match, title_2.full_name):
+            if type(search_string) is re.Pattern:
+                if re.search(search_string, title_1.full_name) and not re.search(
+                    search_string, title_2.full_name
+                ):
                     title_1_match = True
 
-                if re.search(match, title_2.full_name) and not re.search(match, title_1.full_name):
+                if re.search(search_string, title_2.full_name) and not re.search(
+                    search_string, title_1.full_name
+                ):
                     title_2_match = True
 
-            elif isinstance(match, str):
-                if match in title_1.tags and match not in title_2.tags:
+            elif isinstance(search_string, str):
+                if search_string in title_1.tags and search_string not in title_2.tags:
                     title_1_match = True
-                elif match in title_2.tags and match not in title_1.tags:
+                elif search_string in title_2.tags and search_string not in title_1.tags:
                     title_2_match = True
 
             regex_string: str = (
-                str(match).replace('re.compile(', '').replace(', re.IGNORECASE)', '')
+                str(search_string).replace('re.compile(', '').replace(', re.IGNORECASE)', '')
             )
             regex_string = re.sub('\'\\)$', '\'', regex_string)
 

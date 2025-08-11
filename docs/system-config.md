@@ -290,12 +290,12 @@ exclusions and options:
 - d
 - e
 - listnames
-- log
 - nodtd
 - nofilters
 - r
 - regionsplit
 - removesdat
+- report
 - singlecpu
 - trace: "Metal Gear Solid"
 - warningpause

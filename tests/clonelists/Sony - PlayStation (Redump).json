@@ -1720,11 +1720,14 @@
 			"group": "Dino Crisis (Demo)",
 			"titles": [
 				{
-					"searchTerm": "Dino Crisis (Europe) (Demo)",
-					"nameType": "full",
-					"categories": ["Demos", "Preproduction"]
-				},
-				{"searchTerm": "Dino Crisis (Demo)"}
+					"searchTerm": "Dino Crisis (Demo)",
+					"filters": [
+						{
+							"conditions": {"matchRegions": ["Europe"]},
+							"results": {"categories": ["Demos", "Preproduction"]}
+						}
+					]
+				}
 			]
 		},
 		{
@@ -3392,12 +3395,6 @@
 			]
 		},
 		{
-			"group": "Kamen Rider V3",
-			"titles": [
-				{"searchTerm": "Kamen Rider V3", "nameType": "regionFree"}
-			]
-		},
-		{
 			"group": "Kart Challenge",
 			"titles": [
 				{"searchTerm": "Kart Challenge"}
@@ -4045,6 +4042,13 @@
 			]
 		},
 		{
+			"group": "Micro Machines V3",
+			"titles": [
+				{"searchTerm": "Micro Machines V3"},
+				{"searchTerm": "Micro Machines"}
+			]
+		},
+		{
 			"group": "Mike Tyson Boxing",
 			"titles": [
 				{"searchTerm": "Mike Tyson Boxing"},
@@ -4357,7 +4361,7 @@
 		{
 			"group": "Necronomicon - The Dawning of Darkness (Disc 1)",
 			"titles": [
-				{"searchTerm": "Necronomicon - Das Mysterium der Daemmerung (Disc 1)", "localizedNames": {"german": "Das Mysterium der Dämmerung"}},
+				{"searchTerm": "Necronomicon - Das Mysterium der Daemmerung (Disc 1)", "localNames": {"german": "Das Mysterium der Dämmerung"}},
 				{"searchTerm": "Necronomicon - El Alba de las Tinieblas (Disc 1)"},
 				{"searchTerm": "Necronomicon - Ispirato alle opere di H.P. Lovecraft (Disc 1)"},
 				{"searchTerm": "Necronomicon - L'Aube des Tenebres (Disc 1)"},
@@ -4368,7 +4372,7 @@
 		{
 			"group": "Necronomicon - The Dawning of Darkness (Disc 2)",
 			"titles": [
-				{"searchTerm": "Necronomicon - Das Mysterium der Daemmerung (Disc 2)", "localizedNames": {"german": "Das Mysterium der Dämmerung"}},
+				{"searchTerm": "Necronomicon - Das Mysterium der Daemmerung (Disc 2)", "localNames": {"german": "Das Mysterium der Dämmerung"}},
 				{"searchTerm": "Necronomicon - El Alba de las Tinieblas (Disc 2)"},
 				{"searchTerm": "Necronomicon - Ispirato alle opere di H.P. Lovecraft (Disc 2)"},
 				{"searchTerm": "Necronomicon - L'Aube des Tenebres (Disc 2)"},
@@ -5170,7 +5174,7 @@
 		{
 			"group": "Ren'ai Kouza - Real Age - The Art of Eguchi Hisashi",
 			"titles": [
-				{"searchTerm": "Ren'ai Kouza - Real Age - The Art of Eguchi Hisashi", "localizedNames": {"japanese": "恋愛講座　ＲＥＡＬ　ＡＧＥ　－　江口 寿史の美術"}}
+				{"searchTerm": "Ren'ai Kouza - Real Age - The Art of Eguchi Hisashi", "localNames": {"japanese": "恋愛講座　ＲＥＡＬ　ＡＧＥ　－　江口 寿史の美術"}}
 			]
 		},
 		{

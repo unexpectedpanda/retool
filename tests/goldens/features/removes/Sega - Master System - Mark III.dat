@@ -1,0 +1,2410 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>Sega - Master System - Mark III (Retool)</name>
+		<description>Sega - Master System - Mark III (477) (20231025-002124) (Retool)</description>
+		<version>20231025-002124</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>Arctic Circle System, BigFred, C. V. Reynolds, fuzzball, gigadeath, Hiccup, kazumi213, nnssxx, NovaAurora, omonim2007, rarenight, relax, Rifu, sCZther, SonGoku, TeamEurope, xuom2</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<retool>Created by Retool X</retool>
+		<clrmamepro forcenodump="required"></clrmamepro>
+	</header>
+	<game name="11 Hap Gam-Boy (Korea) (Unl)" id="0770">
+		<category>Games</category>
+		<description>11 Hap Gam-Boy (Korea) (Unl)</description>
+		<rom name="11 Hap Gam-Boy (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="128 Hap (Korea) (Unl)" id="0771">
+		<category>Games</category>
+		<description>128 Hap (Korea) (Unl)</description>
+		<rom name="128 Hap (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="2 Hap in 1 - Moai-ui Bomul + David II (Korea) (Unl)" id="0762">
+		<category>Games</category>
+		<description>2 Hap in 1 - Moai-ui Bomul + David II (Korea) (Unl)</description>
+		<rom name="2 Hap in 1 - Moai-ui Bomul + David II (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="20 em 1 (Brazil)" id="0001">
+		<category>Games</category>
+		<description>20 em 1 (Brazil)</description>
+		<rom name="20 em 1 (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="3 in 1 - The Best Game Collection (A) (Korea) (En) (Unl)" id="0602">
+		<category>Games</category>
+		<description>3 in 1 - The Best Game Collection (A) (Korea) (En) (Unl)</description>
+		<rom name="3 in 1 - The Best Game Collection (A) (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="3 in 1 - The Best Game Collection (B) (Korea) (En) (Unl)" id="0603">
+		<category>Games</category>
+		<description>3 in 1 - The Best Game Collection (B) (Korea) (En) (Unl)</description>
+		<rom name="3 in 1 - The Best Game Collection (B) (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="3 in 1 - The Best Game Collection (C) (Korea) (En) (Unl)" id="0604">
+		<category>Games</category>
+		<description>3 in 1 - The Best Game Collection (C) (Korea) (En) (Unl)</description>
+		<rom name="3 in 1 - The Best Game Collection (C) (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="3 in 1 - The Best Game Collection (D) (Korea) (En) (Unl)" id="0605">
+		<category>Games</category>
+		<description>3 in 1 - The Best Game Collection (D) (Korea) (En) (Unl)</description>
+		<rom name="3 in 1 - The Best Game Collection (D) (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="3 in 1 - The Best Game Collection (E) (Korea) (En) (Unl)" id="0606">
+		<category>Games</category>
+		<description>3 in 1 - The Best Game Collection (E) (Korea) (En) (Unl)</description>
+		<rom name="3 in 1 - The Best Game Collection (E) (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="3 in 1 - The Best Game Collection (F) (Korea) (En) (Unl)" id="0607">
+		<category>Games</category>
+		<description>3 in 1 - The Best Game Collection (F) (Korea) (En) (Unl)</description>
+		<rom name="3 in 1 - The Best Game Collection (F) (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="3D Gunner (USA) (Beta)" id="0618">
+		<category>Preproduction</category>
+		<description>3D Gunner (USA) (Beta)</description>
+		<rom name="3D Gunner (USA) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="4 PAK All Action (Australia) (Unl)" id="0535">
+		<category>Games</category>
+		<description>4 PAK All Action (Australia) (Unl)</description>
+		<rom name="4 PAK All Action (Australia) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="8 in 1 - The Best Game Collection (A) (Korea) (En) (Unl)" id="0608">
+		<category>Games</category>
+		<description>8 in 1 - The Best Game Collection (A) (Korea) (En) (Unl)</description>
+		<rom name="8 in 1 - The Best Game Collection (A) (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="8 in 1 - The Best Game Collection (B) (Korea) (En) (Unl)" id="0609">
+		<category>Games</category>
+		<description>8 in 1 - The Best Game Collection (B) (Korea) (En) (Unl)</description>
+		<rom name="8 in 1 - The Best Game Collection (B) (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="8 in 1 - The Best Game Collection (C) (Korea) (En) (Unl)" id="0610">
+		<category>Games</category>
+		<description>8 in 1 - The Best Game Collection (C) (Korea) (En) (Unl)</description>
+		<rom name="8 in 1 - The Best Game Collection (C) (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="94 Super World Cup Soccer (Korea) (Unl)" id="0549">
+		<category>Games</category>
+		<description>94 Super World Cup Soccer (Korea) (Unl)</description>
+		<rom name="94 Super World Cup Soccer (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="A-Team Music, The (Unknown) (Proto) (1992-11-09) (Sound Data)" id="0735">
+		<category>Audio</category>
+		<category>Preproduction</category>
+		<description>A-Team Music, The (Unknown) (Proto) (1992-11-09) (Sound Data)</description>
+		<rom name="A-Team Music, The (Unknown) (Proto) (1992-11-09) (Sound Data).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ace of Aces (Europe, Brazil) (En)" id="0002">
+		<category>Games</category>
+		<description>Ace of Aces (Europe, Brazil) (En)</description>
+		<rom name="Ace of Aces (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Acerte o Alvo (Brazil) (Aftermarket) (Unl)" id="0736">
+		<category>Games</category>
+		<description>Acerte o Alvo (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Acerte o Alvo (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Action Fighter (USA, Europe, Brazil) (En) (Rev 1)" id="0004">
+		<category>Games</category>
+		<description>Action Fighter (USA, Europe, Brazil) (En) (Rev 1)</description>
+		<rom name="Action Fighter (USA, Europe, Brazil) (En) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Addams Family, The (Europe)" id="0005">
+		<category>Games</category>
+		<description>Addams Family, The (Europe)</description>
+		<rom name="Addams Family, The (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Aerial Assault (USA)" id="0500">
+		<category>Games</category>
+		<description>Aerial Assault (USA)</description>
+		<rom name="Aerial Assault (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="After Burner (World)" id="0007">
+		<category>Games</category>
+		<description>After Burner (World)</description>
+		<rom name="After Burner (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Air Rescue (Europe, Brazil) (En)" id="0008">
+		<category>Games</category>
+		<description>Air Rescue (Europe, Brazil) (En)</description>
+		<rom name="Air Rescue (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Aladdin (Europe, Brazil) (En)" id="0009">
+		<category>Games</category>
+		<description>Aladdin (Europe, Brazil) (En)</description>
+		<rom name="Aladdin (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd - High-Tech World (USA, Europe, Brazil) (En)" id="0011">
+		<category>Games</category>
+		<description>Alex Kidd - High-Tech World (USA, Europe, Brazil) (En)</description>
+		<rom name="Alex Kidd - High-Tech World (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd - The Lost Stars (World)" id="0012">
+		<category>Games</category>
+		<description>Alex Kidd - The Lost Stars (World)</description>
+		<rom name="Alex Kidd - The Lost Stars (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd 3 - Curse in Miracle World (Unknown) (En) (v1.1) (Aftermarket) (Unl)" id="0674">
+		<category>Games</category>
+		<description>Alex Kidd 3 - Curse in Miracle World (Unknown) (En) (v1.1) (Aftermarket) (Unl)</description>
+		<rom name="Alex Kidd 3 - Curse in Miracle World (Unknown) (En) (v1.1) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd in Miracle World (USA, Europe, Brazil) (En) (Rev 1)" id="0016">
+		<category>Games</category>
+		<description>Alex Kidd in Miracle World (USA, Europe, Brazil) (En) (Rev 1)</description>
+		<rom name="Alex Kidd in Miracle World (USA, Europe, Brazil) (En) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd in Miracle World 2 (World) (Unl)" id="0621">
+		<category>Games</category>
+		<description>Alex Kidd in Miracle World 2 (World) (Unl)</description>
+		<rom name="Alex Kidd in Miracle World 2 (World) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd in Shinobi World (USA, Europe, Brazil) (En)" id="0017">
+		<category>Games</category>
+		<description>Alex Kidd in Shinobi World (USA, Europe, Brazil) (En)</description>
+		<rom name="Alex Kidd in Shinobi World (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alf (USA)" id="0018">
+		<category>Games</category>
+		<description>Alf (USA)</description>
+		<rom name="Alf (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alibaba and 40 Thieves (Korea) (En) (Unl)" id="0563">
+		<category>Games</category>
+		<description>Alibaba and 40 Thieves (Korea) (En) (Unl)</description>
+		<rom name="Alibaba and 40 Thieves (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alien 3 (Europe, Brazil) (En)" id="0019">
+		<category>Games</category>
+		<description>Alien 3 (Europe, Brazil) (En)</description>
+		<rom name="Alien 3 (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alien Storm (Europe, Brazil) (En)" id="0020">
+		<category>Games</category>
+		<description>Alien Storm (Europe, Brazil) (En)</description>
+		<rom name="Alien Storm (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alien Syndrome (USA, Europe, Brazil) (En)" id="0022">
+		<category>Games</category>
+		<description>Alien Syndrome (USA, Europe, Brazil) (En)</description>
+		<rom name="Alien Syndrome (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alocos (Taiwan) (En) (Unl)" id="0632">
+		<category>Games</category>
+		<description>Alocos (Taiwan) (En) (Unl)</description>
+		<rom name="Alocos (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Altered Beast (USA, Europe, Brazil) (En)" id="0023">
+		<category>Games</category>
+		<description>Altered Beast (USA, Europe, Brazil) (En)</description>
+		<rom name="Altered Beast (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Andre Agassi Tennis (Europe, Brazil) (En)" id="0028">
+		<category>Games</category>
+		<description>Andre Agassi Tennis (Europe, Brazil) (En)</description>
+		<rom name="Andre Agassi Tennis (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Arcade Smash Hits (Europe)" id="0030">
+		<category>Games</category>
+		<description>Arcade Smash Hits (Europe)</description>
+		<rom name="Arcade Smash Hits (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ariel - The Little Mermaid (Brazil) (En)" id="0032">
+		<category>Games</category>
+		<description>Ariel - The Little Mermaid (Brazil) (En)</description>
+		<rom name="Ariel - The Little Mermaid (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Arno Dash 2 (Unknown) (v1.03) (Aftermarket) (Unl)" id="0682">
+		<category>Games</category>
+		<description>Arno Dash 2 (Unknown) (v1.03) (Aftermarket) (Unl)</description>
+		<rom name="Arno Dash 2 (Unknown) (v1.03) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Assault City (USA, Europe, Brazil) (En) (Light Phaser)" id="0035">
+		<category>Games</category>
+		<description>Assault City (USA, Europe, Brazil) (En) (Light Phaser)</description>
+		<rom name="Assault City (USA, Europe, Brazil) (En) (Light Phaser).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Asterix (Europe, Brazil) (En,Fr) (Rev 1)" id="0037">
+		<category>Games</category>
+		<description>Asterix (Europe, Brazil) (En,Fr) (Rev 1)</description>
+		<rom name="Asterix (Europe, Brazil) (En,Fr) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Asterix and the Great Rescue (Europe, Brazil) (En,Fr,De,Es,It)" id="0038">
+		<category>Games</category>
+		<description>Asterix and the Great Rescue (Europe, Brazil) (En,Fr,De,Es,It)</description>
+		<rom name="Asterix and the Great Rescue (Europe, Brazil) (En,Fr,De,Es,It).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Asterix and the Secret Mission (Europe, Brazil) (En,Fr,De)" id="0039">
+		<category>Games</category>
+		<description>Asterix and the Secret Mission (Europe, Brazil) (En,Fr,De)</description>
+		<rom name="Asterix and the Secret Mission (Europe, Brazil) (En,Fr,De).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Astro Warrior &amp; Pit Pot (Europe)" id="0041">
+		<category>Games</category>
+		<description>Astro Warrior &amp; Pit Pot (Europe)</description>
+		<rom name="Astro Warrior &amp; Pit Pot (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Astro Warrior &amp; Pit Pot (Europe) (Sample)" id="0664">
+		<category>Demos</category>
+		<description>Astro Warrior &amp; Pit Pot (Europe) (Sample)</description>
+		<rom name="Astro Warrior &amp; Pit Pot (Europe) (Sample).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Astro Warrior (Japan, USA, Brazil) (En)" id="0042">
+		<category>Games</category>
+		<description>Astro Warrior (Japan, USA, Brazil) (En)</description>
+		<rom name="Astro Warrior (Japan, USA, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Aventuras da TV Colosso, As (Brazil)" id="0407">
+		<category>Games</category>
+		<description>Aventuras da TV Colosso, As (Brazil)</description>
+		<rom name="Aventuras da TV Colosso, As (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ayrton Senna's Super Monaco GP II (Europe, Brazil) (En)" id="0043">
+		<category>Games</category>
+		<description>Ayrton Senna's Super Monaco GP II (Europe, Brazil) (En)</description>
+		<rom name="Ayrton Senna's Super Monaco GP II (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Aztec Adventure (World)" id="0044">
+		<category>Games</category>
+		<description>Aztec Adventure (World)</description>
+		<rom name="Aztec Adventure (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="BMX Trial - Alex Kidd (Japan)" id="0013">
+		<category>Games</category>
+		<description>BMX Trial - Alex Kidd (Japan)</description>
+		<rom name="BMX Trial - Alex Kidd (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Back to the Future Part II (Europe, Brazil) (En)" id="0045">
+		<category>Games</category>
+		<description>Back to the Future Part II (Europe, Brazil) (En)</description>
+		<rom name="Back to the Future Part II (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Back to the Future Part III (Europe)" id="0046">
+		<category>Games</category>
+		<description>Back to the Future Part III (Europe)</description>
+		<rom name="Back to the Future Part III (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Baku Baku (Brazil) (En)" id="0047">
+		<category>Games</category>
+		<description>Baku Baku (Brazil) (En)</description>
+		<rom name="Baku Baku (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bank Panic (Europe, Brazil) (En)" id="0048">
+		<category>Games</category>
+		<description>Bank Panic (Europe, Brazil) (En)</description>
+		<rom name="Bank Panic (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bara Buru (Unknown) (En) (Aftermarket) (Unl)" id="0717">
+		<category>Games</category>
+		<description>Bara Buru (Unknown) (En) (Aftermarket) (Unl)</description>
+		<rom name="Bara Buru (Unknown) (En) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Basketball Nightmare (Europe, Brazil) (En)" id="0049">
+		<category>Games</category>
+		<description>Basketball Nightmare (Europe, Brazil) (En)</description>
+		<rom name="Basketball Nightmare (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Batman Returns (Europe, Brazil) (En)" id="0050">
+		<category>Games</category>
+		<description>Batman Returns (Europe, Brazil) (En)</description>
+		<rom name="Batman Returns (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Battle Out Run (Europe, Brazil) (En)" id="0051">
+		<category>Games</category>
+		<description>Battle Out Run (Europe, Brazil) (En)</description>
+		<rom name="Battle Out Run (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Battle Wings (World) (Beta) (1988-09-07)" id="0624">
+		<category>Preproduction</category>
+		<description>Battle Wings (World) (Beta) (1988-09-07)</description>
+		<rom name="Battle Wings (World) (Beta) (1988-09-07).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Battlemaniacs (Brazil) (En)" id="0052">
+		<category>Games</category>
+		<description>Battlemaniacs (Brazil) (En)</description>
+		<rom name="Battlemaniacs (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Black Belt (USA, Europe, Brazil) (En)" id="0053">
+		<category>Games</category>
+		<description>Black Belt (USA, Europe, Brazil) (En)</description>
+		<rom name="Black Belt (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Blade Eagle 3-D (World)" id="0054">
+		<category>Games</category>
+		<description>Blade Eagle 3-D (World)</description>
+		<rom name="Blade Eagle 3-D (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bobble Bobble (Korea) (En) (Unl)" id="0565">
+		<category>Games</category>
+		<description>Bobble Bobble (Korea) (En) (Unl)</description>
+		<rom name="Bobble Bobble (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bolas e Cores (Brazil) (Aftermarket) (Unl)" id="0737">
+		<category>Games</category>
+		<description>Bolas e Cores (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Bolas e Cores (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bolhas (Brazil) (Aftermarket) (Unl)" id="0738">
+		<category>Games</category>
+		<description>Bolhas (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Bolhas (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bombeiros (Brazil) (Aftermarket) (Unl)" id="0739">
+		<category>Games</category>
+		<description>Bombeiros (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Bombeiros (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bomber Raid (World)" id="0055">
+		<category>Games</category>
+		<description>Bomber Raid (World)</description>
+		<rom name="Bomber Raid (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bonanza Bros. (Europe, Brazil) (En)" id="0056">
+		<category>Games</category>
+		<description>Bonanza Bros. (Europe, Brazil) (En)</description>
+		<rom name="Bonanza Bros. (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bonkers Wax Up! (Brazil) (En)" id="0057">
+		<category>Games</category>
+		<description>Bonkers Wax Up! (Brazil) (En)</description>
+		<rom name="Bonkers Wax Up! (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bram Stoker's Dracula (Europe)" id="0058">
+		<category>Games</category>
+		<description>Bram Stoker's Dracula (Europe)</description>
+		<rom name="Bram Stoker's Dracula (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bread and Butter (World) (v1.032) (Aftermarket) (Unl)" id="0693">
+		<category>Games</category>
+		<description>Bread and Butter (World) (v1.032) (Aftermarket) (Unl)</description>
+		<rom name="Bread and Butter (World) (v1.032) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bread and Butter World (World) (Aftermarket) (Unl)" id="0694">
+		<category>Games</category>
+		<description>Bread and Butter World (World) (Aftermarket) (Unl)</description>
+		<rom name="Bread and Butter World (World) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v1.00) (Aftermarket) (Unl)" id="0701">
+		<category>Games</category>
+		<description>Bruce Lee (Unknown) (v1.00) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v1.00) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v1.05) (Tech Demo) (Aftermarket) (Unl)" id="0713">
+		<category>Demos</category>
+		<description>Bruce Lee (Unknown) (v1.05) (Tech Demo) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v1.05) (Tech Demo) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bubble Bobble (Europe, Brazil) (En)" id="0059">
+		<category>Games</category>
+		<description>Bubble Bobble (Europe, Brazil) (En)</description>
+		<rom name="Bubble Bobble (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Buggy Run (Europe, Brazil) (En)" id="0060">
+		<category>Games</category>
+		<description>Buggy Run (Europe, Brazil) (En)</description>
+		<rom name="Buggy Run (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="C_So! (Korea) (Unl)" id="0566">
+		<category>Games</category>
+		<description>C_So! (Korea) (Unl)</description>
+		<rom name="C_So! (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="California Games (USA, Europe, Brazil) (En)" id="0061">
+		<category>Games</category>
+		<description>California Games (USA, Europe, Brazil) (En)</description>
+		<rom name="California Games (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="California Games II (Europe)" id="0062">
+		<category>Games</category>
+		<description>California Games II (Europe)</description>
+		<rom name="California Games II (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Captain Silver (USA)" id="0064">
+		<category>Games</category>
+		<description>Captain Silver (USA)</description>
+		<rom name="Captain Silver (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Casino Games (USA, Europe)" id="0065">
+		<category>Games</category>
+		<description>Casino Games (USA, Europe)</description>
+		<rom name="Casino Games (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Castelo Ra-Tim-Bum (Brazil)" id="0066">
+		<category>Games</category>
+		<description>Castelo Ra-Tim-Bum (Brazil)</description>
+		<rom name="Castelo Ra-Tim-Bum (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En) (Demo)" id="0504">
+		<category>Demos</category>
+		<description>Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En) (Demo)</description>
+		<rom name="Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En) (Demo).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En) (Rev 1)" id="0067">
+		<category>Games</category>
+		<description>Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En) (Rev 1)</description>
+		<rom name="Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cava-Cava (Brazil) (Aftermarket) (Unl)" id="0740">
+		<category>Games</category>
+		<description>Cava-Cava (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Cava-Cava (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Champions of Europe (Europe, Brazil) (En)" id="0069">
+		<category>Games</category>
+		<description>Champions of Europe (Europe, Brazil) (En)</description>
+		<rom name="Champions of Europe (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Championship Hockey (Europe)" id="0070">
+		<category>Games</category>
+		<description>Championship Hockey (Europe)</description>
+		<rom name="Championship Hockey (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Chapolim x Dracula - Um Duelo Assustador (Brazil)" id="0071">
+		<category>Games</category>
+		<description>Chapolim x Dracula - Um Duelo Assustador (Brazil)</description>
+		<rom name="Chapolim x Dracula - Um Duelo Assustador (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cheese Cat-astrophe Starring Speedy Gonzales (Europe, Brazil) (En,Fr,De,Es)" id="0072">
+		<category>Games</category>
+		<description>Cheese Cat-astrophe Starring Speedy Gonzales (Europe, Brazil) (En,Fr,De,Es)</description>
+		<rom name="Cheese Cat-astrophe Starring Speedy Gonzales (Europe, Brazil) (En,Fr,De,Es).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Choplifter (USA, Europe, Brazil) (En)" id="0074">
+		<category>Games</category>
+		<description>Choplifter (USA, Europe, Brazil) (En)</description>
+		<rom name="Choplifter (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Chuck Rock (Europe, Brazil) (En)" id="0076">
+		<category>Games</category>
+		<description>Chuck Rock (Europe, Brazil) (En)</description>
+		<rom name="Chuck Rock (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Chuck Rock II - Son of Chuck (Europe)" id="0078">
+		<category>Games</category>
+		<description>Chuck Rock II - Son of Chuck (Europe)</description>
+		<rom name="Chuck Rock II - Son of Chuck (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cloud Master (USA, Europe, Brazil) (En)" id="0080">
+		<category>Games</category>
+		<description>Cloud Master (USA, Europe, Brazil) (En)</description>
+		<rom name="Cloud Master (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Color &amp; Switch Test (Brazil) (En) (Rev 1)" id="0778">
+		<category>Applications</category>
+		<category>Preproduction</category>
+		<description>Color &amp; Switch Test (Brazil) (En) (Rev 1)</description>
+		<rom name="Color &amp; Switch Test (Brazil) (En) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Columns (USA, Europe, Brazil) (En)" id="0082">
+		<category>Games</category>
+		<description>Columns (USA, Europe, Brazil) (En)</description>
+		<rom name="Columns (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Comical Machine Gun Joe (Japan)" id="0083">
+		<category>Games</category>
+		<description>Comical Machine Gun Joe (Japan)</description>
+		<rom name="Comical Machine Gun Joe (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Con-Dori (Korea) (Unl)" id="0727">
+		<category>Games</category>
+		<description>Con-Dori (Korea) (Unl)</description>
+		<rom name="Con-Dori (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cool Spot (Europe)" id="0084">
+		<category>Games</category>
+		<description>Cool Spot (Europe)</description>
+		<rom name="Cool Spot (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cosmic Spacehead (Europe) (En,Fr,De,Es)" id="0085">
+		<category>Games</category>
+		<description>Cosmic Spacehead (Europe) (En,Fr,De,Es)</description>
+		<rom name="Cosmic Spacehead (Europe) (En,Fr,De,Es).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Creature Capture (Brazil) (Aftermarket) (Unl)" id="0741">
+		<category>Games</category>
+		<description>Creature Capture (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Creature Capture (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cyber Shinobi, The (Europe, Brazil) (En)" id="0086">
+		<category>Games</category>
+		<description>Cyber Shinobi, The (Europe, Brazil) (En)</description>
+		<rom name="Cyber Shinobi, The (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cyborg Hunter (USA, Europe, Brazil) (En)" id="0087">
+		<category>Games</category>
+		<description>Cyborg Hunter (USA, Europe, Brazil) (En)</description>
+		<rom name="Cyborg Hunter (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cyborg Z (Korea) (Unl)" id="0550">
+		<category>Games</category>
+		<description>Cyborg Z (Korea) (Unl)</description>
+		<rom name="Cyborg Z (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="DINOBASHER - Starring Bignose the Caveman (Europe) (Proto)" id="0096">
+		<category>Preproduction</category>
+		<description>DINOBASHER - Starring Bignose the Caveman (Europe) (Proto)</description>
+		<rom name="DINOBASHER - Starring Bignose the Caveman (Europe) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It)" id="0088">
+		<category>Games</category>
+		<description>Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It)</description>
+		<rom name="Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dallyeora Pigu-Wang (Korea) (Unl)" id="0089">
+		<category>Games</category>
+		<description>Dallyeora Pigu-Wang (Korea) (Unl)</description>
+		<rom name="Dallyeora Pigu-Wang (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Danan - The Jungle Fighter (Europe, Brazil) (En)" id="0090">
+		<category>Games</category>
+		<description>Danan - The Jungle Fighter (Europe, Brazil) (En)</description>
+		<rom name="Danan - The Jungle Fighter (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dead Angle (USA, Europe, Brazil) (En)" id="0091">
+		<category>Games</category>
+		<description>Dead Angle (USA, Europe, Brazil) (En)</description>
+		<rom name="Dead Angle (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Deep Duck Trouble Starring Donald Duck (Europe, Brazil) (En)" id="0092">
+		<category>Games</category>
+		<description>Deep Duck Trouble Starring Donald Duck (Europe, Brazil) (En)</description>
+		<rom name="Deep Duck Trouble Starring Donald Duck (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Desert Speedtrap Starring Road Runner and Wile E. Coyote (Europe, Brazil) (En,Fr,De,Es,It)" id="0093">
+		<category>Games</category>
+		<description>Desert Speedtrap Starring Road Runner and Wile E. Coyote (Europe, Brazil) (En,Fr,De,Es,It)</description>
+		<rom name="Desert Speedtrap Starring Road Runner and Wile E. Coyote (Europe, Brazil) (En,Fr,De,Es,It).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Desert Strike (Europe) (En,Fr,De,Es)" id="0094">
+		<category>Games</category>
+		<description>Desert Strike (Europe) (En,Fr,De,Es)</description>
+		<rom name="Desert Strike (Europe) (En,Fr,De,Es).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dick Tracy (USA, Europe, Brazil) (En)" id="0095">
+		<category>Games</category>
+		<description>Dick Tracy (USA, Europe, Brazil) (En)</description>
+		<rom name="Dick Tracy (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dinosaur Dooley, The (Korea) (En) (Unl)" id="0097">
+		<category>Games</category>
+		<description>Dinosaur Dooley, The (Korea) (En) (Unl)</description>
+		<rom name="Dinosaur Dooley, The (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Domino (Brazil) (Aftermarket) (Unl)" id="0742">
+		<category>Games</category>
+		<description>Domino (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Domino (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Double Dragon (World)" id="0099">
+		<category>Games</category>
+		<description>Double Dragon (World)</description>
+		<rom name="Double Dragon (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Double Hawk (Europe)" id="0100">
+		<category>Games</category>
+		<description>Double Hawk (Europe)</description>
+		<rom name="Double Hawk (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Doze Trabalhos de Jongo, Os (Brazil) (Aftermarket) (Unl)" id="0743">
+		<category>Games</category>
+		<description>Doze Trabalhos de Jongo, Os (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Doze Trabalhos de Jongo, Os (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dr. HELLO (Korea) (En) (Unl)" id="0518">
+		<category>Games</category>
+		<description>Dr. HELLO (Korea) (En) (Unl)</description>
+		<rom name="Dr. HELLO (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dr. Robotnik's Mean Bean Machine (Europe, Brazil) (En)" id="0102">
+		<category>Games</category>
+		<description>Dr. Robotnik's Mean Bean Machine (Europe, Brazil) (En)</description>
+		<rom name="Dr. Robotnik's Mean Bean Machine (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dragon - The Bruce Lee Story (Europe)" id="0103">
+		<category>Games</category>
+		<description>Dragon - The Bruce Lee Story (Europe)</description>
+		<rom name="Dragon - The Bruce Lee Story (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dragon Crystal (Europe, Brazil) (En)" id="0104">
+		<category>Games</category>
+		<description>Dragon Crystal (Europe, Brazil) (En)</description>
+		<rom name="Dragon Crystal (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dynamite Duke (Europe, Brazil) (En)" id="0105">
+		<category>Games</category>
+		<description>Dynamite Duke (Europe, Brazil) (En)</description>
+		<rom name="Dynamite Duke (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dynamite Dux (Europe, Brazil) (En)" id="0106">
+		<category>Games</category>
+		<description>Dynamite Dux (Europe, Brazil) (En)</description>
+		<rom name="Dynamite Dux (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dynamite Headdy (Brazil) (En)" id="0107">
+		<category>Games</category>
+		<description>Dynamite Headdy (Brazil) (En)</description>
+		<rom name="Dynamite Headdy (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="E-SWAT (USA, Europe, Brazil) (En) (Rev A)" id="0109">
+		<category>Games</category>
+		<description>E-SWAT (USA, Europe, Brazil) (En) (Rev A)</description>
+		<rom name="E-SWAT (USA, Europe, Brazil) (En) (Rev A).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="E.I. - Exa Innova (Korea) (En) (Unl)" id="0568">
+		<category>Games</category>
+		<description>E.I. - Exa Innova (Korea) (En) (Unl)</description>
+		<rom name="E.I. - Exa Innova (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Eagles 5 (Korea) (Unl)" id="0551">
+		<category>Games</category>
+		<description>Eagles 5 (Korea) (Unl)</description>
+		<rom name="Eagles 5 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Earthworm Jim (Brazil) (En)" id="0110">
+		<category>Games</category>
+		<description>Earthworm Jim (Brazil) (En)</description>
+		<rom name="Earthworm Jim (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ecco - The Tides of Time (Brazil)" id="0111">
+		<category>Games</category>
+		<description>Ecco - The Tides of Time (Brazil)</description>
+		<rom name="Ecco - The Tides of Time (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ecco The Dolphin (Europe, Brazil) (En)" id="0112">
+		<category>Games</category>
+		<description>Ecco The Dolphin (Europe, Brazil) (En)</description>
+		<rom name="Ecco The Dolphin (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Enduro Racer (Japan)" id="0113">
+		<category>Games</category>
+		<description>Enduro Racer (Japan)</description>
+		<rom name="Enduro Racer (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Excellent Dizzy Collection, The (Europe) (En,Fr,De,Es,It) (Proto)" id="0115">
+		<category>Preproduction</category>
+		<description>Excellent Dizzy Collection, The (Europe) (En,Fr,De,Es,It) (Proto)</description>
+		<rom name="Excellent Dizzy Collection, The (Europe) (En,Fr,De,Es,It) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="F-1 Spirit - The Way to Formula-1 (Korea) (En) (Unl)" id="0530">
+		<category>Games</category>
+		<description>F-1 Spirit - The Way to Formula-1 (Korea) (En) (Unl)</description>
+		<rom name="F-1 Spirit - The Way to Formula-1 (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="F-16 Fighter (USA, Europe, Brazil) (En)" id="0116">
+		<category>Games</category>
+		<description>F-16 Fighter (USA, Europe, Brazil) (En)</description>
+		<rom name="F-16 Fighter (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="F1 (Europe, Brazil) (En)" id="0119">
+		<category>Games</category>
+		<description>F1 (Europe, Brazil) (En)</description>
+		<rom name="F1 (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="FA Tetris (Korea) (Unl)" id="0517">
+		<category>Games</category>
+		<description>FA Tetris (Korea) (Unl)</description>
+		<rom name="FA Tetris (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="FIFA International Soccer (Brazil) (En,Es,Pt)" id="0129">
+		<category>Games</category>
+		<description>FIFA International Soccer (Brazil) (En,Es,Pt)</description>
+		<rom name="FIFA International Soccer (Brazil) (En,Es,Pt).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fabrica de Chocolate (Brazil) (Aftermarket) (Unl)" id="0744">
+		<category>Games</category>
+		<description>Fabrica de Chocolate (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Fabrica de Chocolate (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fantastic Dizzy (Europe) (En,Fr,De,Es,It)" id="0121">
+		<category>Games</category>
+		<description>Fantastic Dizzy (Europe) (En,Fr,De,Es,It)</description>
+		<rom name="Fantastic Dizzy (Europe) (En,Fr,De,Es,It).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fantasy Zone (World) (Rev 1)" id="0124">
+		<category>Games</category>
+		<description>Fantasy Zone (World) (Rev 1)</description>
+		<rom name="Fantasy Zone (World) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fantasy Zone - The Maze (USA, Europe, Brazil) (En)" id="0125">
+		<category>Games</category>
+		<description>Fantasy Zone - The Maze (USA, Europe, Brazil) (En)</description>
+		<rom name="Fantasy Zone - The Maze (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fantasy Zone II (USA, Europe, Brazil) (En)" id="0127">
+		<category>Games</category>
+		<description>Fantasy Zone II (USA, Europe, Brazil) (En)</description>
+		<rom name="Fantasy Zone II (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Feiche Zhengba Zhan (Taiwan) (En) (Unl)" id="0729">
+		<category>Games</category>
+		<description>Feiche Zhengba Zhan (Taiwan) (En) (Unl)</description>
+		<rom name="Feiche Zhengba Zhan (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ferias Frustradas do Pica Pau (Brazil)" id="0128">
+		<category>Games</category>
+		<description>Ferias Frustradas do Pica Pau (Brazil)</description>
+		<rom name="Ferias Frustradas do Pica Pau (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fire &amp; Forget II (Europe)" id="0131">
+		<category>Games</category>
+		<description>Fire &amp; Forget II (Europe)</description>
+		<rom name="Fire &amp; Forget II (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fire &amp; Ice (Brazil) (En)" id="0132">
+		<category>Games</category>
+		<description>Fire &amp; Ice (Brazil) (En)</description>
+		<rom name="Fire &amp; Ice (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Flash, The (Europe, Brazil) (En)" id="0133">
+		<category>Games</category>
+		<description>Flash, The (Europe, Brazil) (En)</description>
+		<rom name="Flash, The (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Flashpoint (Korea) (Unl)" id="0516">
+		<category>Games</category>
+		<description>Flashpoint (Korea) (Unl)</description>
+		<rom name="Flashpoint (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Flight of Pigarus (Unknown) (v1.11) (Aftermarket) (Unl)" id="0697">
+		<category>Games</category>
+		<description>Flight of Pigarus (Unknown) (v1.11) (Aftermarket) (Unl)</description>
+		<rom name="Flight of Pigarus (Unknown) (v1.11) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Flintstones, The (Europe, Brazil) (En)" id="0134">
+		<category>Games</category>
+		<description>Flintstones, The (Europe, Brazil) (En)</description>
+		<rom name="Flintstones, The (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Forgotten Worlds (Europe, Brazil) (En)" id="0135">
+		<category>Games</category>
+		<description>Forgotten Worlds (Europe, Brazil) (En)</description>
+		<rom name="Forgotten Worlds (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="G-LOC - Air Battle (Europe, Brazil) (En)" id="0137">
+		<category>Games</category>
+		<description>G-LOC - Air Battle (Europe, Brazil) (En)</description>
+		<rom name="G-LOC - Air Battle (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="GP Rider (Europe, Brazil) (En)" id="0162">
+		<category>Games</category>
+		<description>GP Rider (Europe, Brazil) (En)</description>
+		<rom name="GP Rider (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gaegujangi Ggachi (Korea) (Unl)" id="0138">
+		<category>Games</category>
+		<description>Gaegujangi Ggachi (Korea) (Unl)</description>
+		<rom name="Gaegujangi Ggachi (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gain Ground (Europe, Brazil) (En)" id="0139">
+		<category>Games</category>
+		<description>Gain Ground (Europe, Brazil) (En)</description>
+		<rom name="Gain Ground (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Galactic Protector (Japan)" id="0140">
+		<category>Games</category>
+		<description>Galactic Protector (Japan)</description>
+		<rom name="Galactic Protector (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Galaxian (Korea) (Unl)" id="0595">
+		<category>Games</category>
+		<description>Galaxian (Korea) (Unl)</description>
+		<rom name="Galaxian (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Galaxy Force (USA)" id="0142">
+		<category>Games</category>
+		<description>Galaxy Force (USA)</description>
+		<rom name="Galaxy Force (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Game Box Serie Esportes Radicais (Brazil) (En)" id="0143">
+		<category>Games</category>
+		<description>Game Box Serie Esportes Radicais (Brazil) (En)</description>
+		<rom name="Game Box Serie Esportes Radicais (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Game Chongjiphap 200 (Korea) (Unl)" id="0759">
+		<category>Games</category>
+		<description>Game Chongjiphap 200 (Korea) (Unl)</description>
+		<rom name="Game Chongjiphap 200 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Game Mo-eumjip 188 Hap (Korea) (v1.1) (Unl)" id="0760">
+		<category>Games</category>
+		<description>Game Mo-eumjip 188 Hap (Korea) (v1.1) (Unl)</description>
+		<rom name="Game Mo-eumjip 188 Hap (Korea) (v1.1) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Game de Check! Koutsuu Anzen (Japan) (Proto)" id="0622">
+		<category>Preproduction</category>
+		<description>Game de Check! Koutsuu Anzen (Japan) (Proto)</description>
+		<rom name="Game de Check! Koutsuu Anzen (Japan) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gangcheol RoboCop (Korea) (En) (Unl)" id="0569">
+		<category>Games</category>
+		<description>Gangcheol RoboCop (Korea) (En) (Unl)</description>
+		<rom name="Gangcheol RoboCop (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gangster Town (USA, Europe, Brazil) (En)" id="0144">
+		<category>Games</category>
+		<description>Gangster Town (USA, Europe, Brazil) (En)</description>
+		<rom name="Gangster Town (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gauntlet (Europe, Brazil) (En)" id="0145">
+		<category>Games</category>
+		<description>Gauntlet (Europe, Brazil) (En)</description>
+		<rom name="Gauntlet (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Geraldinho (Brazil) (En)" id="0147">
+		<category>Games</category>
+		<description>Geraldinho (Brazil) (En)</description>
+		<rom name="Geraldinho (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ghost House (USA, Europe, Brazil) (En)" id="0149">
+		<category>Games</category>
+		<description>Ghost House (USA, Europe, Brazil) (En)</description>
+		<rom name="Ghost House (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ghostbusters (USA, Europe, Brazil) (En)" id="0151">
+		<category>Games</category>
+		<description>Ghostbusters (USA, Europe, Brazil) (En)</description>
+		<rom name="Ghostbusters (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ghouls'n Ghosts (USA, Europe, Brazil) (En)" id="0152">
+		<category>Games</category>
+		<description>Ghouls'n Ghosts (USA, Europe, Brazil) (En)</description>
+		<rom name="Ghouls'n Ghosts (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ghouls'n Ghosts (USA, Europe, Brazil) (En) (Demo)" id="0527">
+		<category>Demos</category>
+		<description>Ghouls'n Ghosts (USA, Europe, Brazil) (En) (Demo)</description>
+		<rom name="Ghouls'n Ghosts (USA, Europe, Brazil) (En) (Demo).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Global Defense (USA, Europe, Brazil) (En)" id="0153">
+		<category>Games</category>
+		<description>Global Defense (USA, Europe, Brazil) (En)</description>
+		<rom name="Global Defense (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Global Gladiators (Europe, Brazil) (En)" id="0233">
+		<category>Games</category>
+		<description>Global Gladiators (Europe, Brazil) (En)</description>
+		<rom name="Global Gladiators (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Golden Axe (USA, Europe, Brazil) (En)" id="0156">
+		<category>Games</category>
+		<description>Golden Axe (USA, Europe, Brazil) (En)</description>
+		<rom name="Golden Axe (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Golden Axe (USA, Europe, Brazil) (En) (Demo)" id="0670">
+		<category>Demos</category>
+		<description>Golden Axe (USA, Europe, Brazil) (En) (Demo)</description>
+		<rom name="Golden Axe (USA, Europe, Brazil) (En) (Demo).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Golden Axe Warrior (USA, Europe, Brazil) (En)" id="0157">
+		<category>Games</category>
+		<description>Golden Axe Warrior (USA, Europe, Brazil) (En)</description>
+		<rom name="Golden Axe Warrior (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Golfamania (Europe, Brazil) (En)" id="0158">
+		<category>Games</category>
+		<description>Golfamania (Europe, Brazil) (En)</description>
+		<rom name="Golfamania (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Golvellius - Valley of Doom (USA, Europe, Brazil) (En)" id="0161">
+		<category>Games</category>
+		<description>Golvellius - Valley of Doom (USA, Europe, Brazil) (En)</description>
+		<rom name="Golvellius - Valley of Doom (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gotris (World) (v0.5) (Aftermarket) (Unl)" id="0683">
+		<category>Games</category>
+		<description>Gotris (World) (v0.5) (Aftermarket) (Unl)</description>
+		<rom name="Gotris (World) (v0.5) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Baseball (Japan)" id="0163">
+		<category>Games</category>
+		<description>Great Baseball (Japan)</description>
+		<rom name="Great Baseball (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Baseball (USA, Europe)" id="0164">
+		<category>Games</category>
+		<description>Great Baseball (USA, Europe)</description>
+		<rom name="Great Baseball (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Basketball (World)" id="0165">
+		<category>Games</category>
+		<description>Great Basketball (World)</description>
+		<rom name="Great Basketball (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Football (World)" id="0166">
+		<category>Games</category>
+		<description>Great Football (World)</description>
+		<rom name="Great Football (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Golf (World)" id="0168">
+		<category>Games</category>
+		<description>Great Golf (World)</description>
+		<rom name="Great Golf (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Golf (World) (Beta)" id="0169">
+		<category>Preproduction</category>
+		<description>Great Golf (World) (Beta)</description>
+		<rom name="Great Golf (World) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Ice Hockey (Japan, USA) (En)" id="0170">
+		<category>Games</category>
+		<description>Great Ice Hockey (Japan, USA) (En)</description>
+		<rom name="Great Ice Hockey (Japan, USA) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Soccer (Europe)" id="0171">
+		<category>Games</category>
+		<description>Great Soccer (Europe)</description>
+		<rom name="Great Soccer (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Volleyball (USA, Europe, Brazil) (En)" id="0175">
+		<category>Games</category>
+		<description>Great Volleyball (USA, Europe, Brazil) (En)</description>
+		<rom name="Great Volleyball (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gun.Smoke (Korea) (En) (Unl)" id="0572">
+		<category>Games</category>
+		<description>Gun.Smoke (Korea) (En) (Unl)</description>
+		<rom name="Gun.Smoke (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hang On &amp; Safari Hunt (USA)" id="0178">
+		<category>Games</category>
+		<description>Hang On &amp; Safari Hunt (USA)</description>
+		<rom name="Hang On &amp; Safari Hunt (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Heroes of the Lance (Europe, Brazil) (En)" id="0182">
+		<category>Games</category>
+		<description>Heroes of the Lance (Europe, Brazil) (En)</description>
+		<rom name="Heroes of the Lance (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="High School! Kimengumi (Japan)" id="0183">
+		<category>Games</category>
+		<description>High School! Kimengumi (Japan)</description>
+		<rom name="High School! Kimengumi (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Home Alone (Europe)" id="0185">
+		<category>Games</category>
+		<description>Home Alone (Europe)</description>
+		<rom name="Home Alone (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hong Kil Dong (Korea) (Unl)" id="0590">
+		<category>Games</category>
+		<description>Hong Kil Dong (Korea) (Unl)</description>
+		<rom name="Hong Kil Dong (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hook (Europe) (Proto)" id="0186">
+		<category>Preproduction</category>
+		<description>Hook (Europe) (Proto)</description>
+		<rom name="Hook (Europe) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hoshi wo Sagashite... (Japan)" id="0187">
+		<category>Games</category>
+		<description>Hoshi wo Sagashite... (Japan)</description>
+		<rom name="Hoshi wo Sagashite... (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Impossible Mission (Europe, Brazil) (En)" id="0188">
+		<category>Games</category>
+		<description>Impossible Mission (Europe, Brazil) (En)</description>
+		<rom name="Impossible Mission (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Incredible Crash Dummies, The (Europe, Brazil) (En)" id="0189">
+		<category>Games</category>
+		<description>Incredible Crash Dummies, The (Europe, Brazil) (En)</description>
+		<rom name="Incredible Crash Dummies, The (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Incredible Hulk, The (Europe, Brazil) (En)" id="0190">
+		<category>Games</category>
+		<description>Incredible Hulk, The (Europe, Brazil) (En)</description>
+		<rom name="Incredible Hulk, The (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Indiana Jones and the Last Crusade (Europe, Brazil) (En)" id="0191">
+		<category>Games</category>
+		<description>Indiana Jones and the Last Crusade (Europe, Brazil) (En)</description>
+		<rom name="Indiana Jones and the Last Crusade (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="James 'Buster' Douglas Knockout Boxing (USA)" id="0192">
+		<category>Games</category>
+		<description>James 'Buster' Douglas Knockout Boxing (USA)</description>
+		<rom name="James 'Buster' Douglas Knockout Boxing (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="James 'Buster' Douglas Knockout Boxing (USA) (Sample)" id="0534">
+		<category>Demos</category>
+		<description>James 'Buster' Douglas Knockout Boxing (USA) (Sample)</description>
+		<rom name="James 'Buster' Douglas Knockout Boxing (USA) (Sample).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="James Bond 007 - The Duel (Europe)" id="0194">
+		<category>Games</category>
+		<description>James Bond 007 - The Duel (Europe)</description>
+		<rom name="James Bond 007 - The Duel (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="James Pond 2 - Codename RoboCod (Europe, Brazil) (En)" id="0195">
+		<category>Games</category>
+		<description>James Pond 2 - Codename RoboCod (Europe, Brazil) (En)</description>
+		<rom name="James Pond 2 - Codename RoboCod (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Jang Pung 3 (Korea) (Unl)" id="0513">
+		<category>Games</category>
+		<description>Jang Pung 3 (Korea) (Unl)</description>
+		<rom name="Jang Pung 3 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Jang Pung II (Korea) (Unl)" id="0591">
+		<category>Games</category>
+		<description>Jang Pung II (Korea) (Unl)</description>
+		<rom name="Jang Pung II (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Janggun-ui Adeul (Korea) (Unl)" id="0552">
+		<category>Games</category>
+		<description>Janggun-ui Adeul (Korea) (Unl)</description>
+		<rom name="Janggun-ui Adeul (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Joe Montana Football (USA, Europe, Brazil) (En)" id="0196">
+		<category>Games</category>
+		<description>Joe Montana Football (USA, Europe, Brazil) (En)</description>
+		<rom name="Joe Montana Football (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Jungle Book, The (Europe, Brazil) (En)" id="0198">
+		<category>Games</category>
+		<description>Jungle Book, The (Europe, Brazil) (En)</description>
+		<rom name="Jungle Book, The (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Jurassic Park (Europe, Brazil) (En)" id="0199">
+		<category>Games</category>
+		<description>Jurassic Park (Europe, Brazil) (En)</description>
+		<rom name="Jurassic Park (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="KLAX (Europe)" id="0204">
+		<category>Games</category>
+		<description>KLAX (Europe)</description>
+		<rom name="KLAX (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Kenseiden (USA, Europe, Brazil) (En)" id="0201">
+		<category>Games</category>
+		<description>Kenseiden (USA, Europe, Brazil) (En)</description>
+		<rom name="Kenseiden (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="King &amp; Balloon (Korea) (En) (Unl)" id="0573">
+		<category>Games</category>
+		<description>King &amp; Balloon (Korea) (En) (Unl)</description>
+		<rom name="King &amp; Balloon (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="King's Quest - Quest for the Crown (USA)" id="0202">
+		<category>Games</category>
+		<description>King's Quest - Quest for the Crown (USA)</description>
+		<rom name="King's Quest - Quest for the Crown (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Knightmare II - The Maze of Galious (Korea) (Unl)" id="0553">
+		<category>Games</category>
+		<description>Knightmare II - The Maze of Galious (Korea) (Unl)</description>
+		<rom name="Knightmare II - The Maze of Galious (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Krusty's Fun House (Europe, Brazil) (En)" id="0205">
+		<category>Games</category>
+		<description>Krusty's Fun House (Europe, Brazil) (En)</description>
+		<rom name="Krusty's Fun House (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Kung Fu Kid (USA, Europe, Brazil) (En)" id="0207">
+		<category>Games</category>
+		<description>Kung Fu Kid (USA, Europe, Brazil) (En)</description>
+		<rom name="Kung Fu Kid (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Land of Illusion Starring Mickey Mouse (Europe, Brazil) (En)" id="0208">
+		<category>Games</category>
+		<description>Land of Illusion Starring Mickey Mouse (Europe, Brazil) (En)</description>
+		<rom name="Land of Illusion Starring Mickey Mouse (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Laser Ghost (Europe)" id="0209">
+		<category>Games</category>
+		<description>Laser Ghost (Europe)</description>
+		<rom name="Laser Ghost (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Legend of Illusion Starring Mickey Mouse (Brazil) (En)" id="0210">
+		<category>Games</category>
+		<description>Legend of Illusion Starring Mickey Mouse (Brazil) (En)</description>
+		<rom name="Legend of Illusion Starring Mickey Mouse (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lemmings (Europe, Brazil) (En)" id="0211">
+		<category>Games</category>
+		<description>Lemmings (Europe, Brazil) (En)</description>
+		<rom name="Lemmings (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lemmings 2 - The Tribes (Europe) (Proto) (1995-09-04)" id="0571">
+		<category>Preproduction</category>
+		<description>Lemmings 2 - The Tribes (Europe) (Proto) (1995-09-04)</description>
+		<rom name="Lemmings 2 - The Tribes (Europe) (Proto) (1995-09-04).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lethal Weapon 3 Music (Unknown) (Proto) (1992-11-30) (Sound Data)" id="0734">
+		<category>Audio</category>
+		<category>Preproduction</category>
+		<description>Lethal Weapon 3 Music (Unknown) (Proto) (1992-11-30) (Sound Data)</description>
+		<rom name="Lethal Weapon 3 Music (Unknown) (Proto) (1992-11-30) (Sound Data).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Line of Fire (Europe, Brazil) (En)" id="0213">
+		<category>Games</category>
+		<description>Line of Fire (Europe, Brazil) (En)</description>
+		<rom name="Line of Fire (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lion King, The (Europe, Brazil) (En)" id="0214">
+		<category>Games</category>
+		<description>Lion King, The (Europe, Brazil) (En)</description>
+		<rom name="Lion King, The (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lord of the Sword (USA, Europe, Brazil) (En)" id="0216">
+		<category>Games</category>
+		<description>Lord of the Sword (USA, Europe, Brazil) (En)</description>
+		<rom name="Lord of the Sword (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Loretta no Shouzou - Sherlock Holmes (Japan)" id="0217">
+		<category>Games</category>
+		<description>Loretta no Shouzou - Sherlock Holmes (Japan)</description>
+		<rom name="Loretta no Shouzou - Sherlock Holmes (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En)" id="0218">
+		<category>Games</category>
+		<description>Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En)</description>
+		<rom name="Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lucky Penguin (Unknown) (v1.1) (Aftermarket) (Unl)" id="0681">
+		<category>Games</category>
+		<description>Lucky Penguin (Unknown) (v1.1) (Aftermarket) (Unl)</description>
+		<rom name="Lucky Penguin (Unknown) (v1.1) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="MSX Soccer (Korea) (Unl)" id="0728">
+		<category>Games</category>
+		<description>MSX Soccer (Korea) (Unl)</description>
+		<rom name="MSX Soccer (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Mahjong Sengoku Jidai (Japan, Hong Kong) (Ja)" id="0220">
+		<category>Games</category>
+		<description>Mahjong Sengoku Jidai (Japan, Hong Kong) (Ja)</description>
+		<rom name="Mahjong Sengoku Jidai (Japan, Hong Kong) (Ja).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Marble Madness (Europe)" id="0223">
+		<category>Games</category>
+		<description>Marble Madness (Europe)</description>
+		<rom name="Marble Madness (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Marksman Shooting &amp; Trap Shooting (USA, Brazil) (En)" id="0225">
+		<category>Games</category>
+		<description>Marksman Shooting &amp; Trap Shooting (USA, Brazil) (En)</description>
+		<rom name="Marksman Shooting &amp; Trap Shooting (USA, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Master of Darkness (Europe, Brazil) (En)" id="0226">
+		<category>Games</category>
+		<description>Master of Darkness (Europe, Brazil) (En)</description>
+		<rom name="Master of Darkness (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Masters of Combat (Europe, Brazil) (En)" id="0227">
+		<category>Games</category>
+		<description>Masters of Combat (Europe, Brazil) (En)</description>
+		<rom name="Masters of Combat (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Maze Hunter 3-D (USA, Europe, Brazil) (En)" id="0228">
+		<category>Games</category>
+		<description>Maze Hunter 3-D (USA, Europe, Brazil) (En)</description>
+		<rom name="Maze Hunter 3-D (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Megumi Rescue (Japan)" id="0230">
+		<category>Games</category>
+		<description>Megumi Rescue (Japan)</description>
+		<rom name="Megumi Rescue (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Memoria Master (Brazil) (Aftermarket) (Unl)" id="0745">
+		<category>Games</category>
+		<description>Memoria Master (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Memoria Master (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Mercs (Europe, Brazil) (En)" id="0231">
+		<category>Games</category>
+		<description>Mercs (Europe, Brazil) (En)</description>
+		<rom name="Mercs (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Michael Jackson's Moonwalker (USA, Europe, Brazil) (En)" id="0232">
+		<category>Games</category>
+		<description>Michael Jackson's Moonwalker (USA, Europe, Brazil) (En)</description>
+		<rom name="Michael Jackson's Moonwalker (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Mickey's Ultimate Challenge (Brazil) (En)" id="0234">
+		<category>Games</category>
+		<description>Mickey's Ultimate Challenge (Brazil) (En)</description>
+		<rom name="Mickey's Ultimate Challenge (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Micro Machines (Europe)" id="0235">
+		<category>Games</category>
+		<description>Micro Machines (Europe)</description>
+		<rom name="Micro Machines (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Micro Xevious, The (Korea) (Unl)" id="0597">
+		<category>Games</category>
+		<description>Micro Xevious, The (Korea) (Unl)</description>
+		<rom name="Micro Xevious, The (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Mina Terrestre (Brazil) (Aftermarket) (Unl)" id="0746">
+		<category>Games</category>
+		<description>Mina Terrestre (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Mina Terrestre (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Minerador (Brazil) (Aftermarket) (Unl)" id="0747">
+		<category>Games</category>
+		<description>Minerador (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Minerador (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En)" id="0236">
+		<category>Games</category>
+		<description>Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En)</description>
+		<rom name="Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Missile Defense 3-D (USA, Europe, Brazil) (En)" id="0237">
+		<category>Games</category>
+		<description>Missile Defense 3-D (USA, Europe, Brazil) (En)</description>
+		<rom name="Missile Defense 3-D (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Missile Defense 3-D (USA, Europe, Brazil) (En) (Sample)" id="0614">
+		<category>Demos</category>
+		<description>Missile Defense 3-D (USA, Europe, Brazil) (En) (Sample)</description>
+		<rom name="Missile Defense 3-D (USA, Europe, Brazil) (En) (Sample).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Monopoly (USA, Europe)" id="0239">
+		<category>Games</category>
+		<description>Monopoly (USA, Europe)</description>
+		<rom name="Monopoly (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Montezuma's Revenge - Featuring PANAMA JOE (USA)" id="0241">
+		<category>Games</category>
+		<description>Montezuma's Revenge - Featuring PANAMA JOE (USA)</description>
+		<rom name="Montezuma's Revenge - Featuring PANAMA JOE (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Mopiranger (Korea) (En) (Unl)" id="0574">
+		<category>Games</category>
+		<description>Mopiranger (Korea) (En) (Unl)</description>
+		<rom name="Mopiranger (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Mortal Kombat (Europe, Brazil) (En)" id="0242">
+		<category>Games</category>
+		<description>Mortal Kombat (Europe, Brazil) (En)</description>
+		<rom name="Mortal Kombat (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Mortal Kombat 3 (Brazil) (En)" id="0243">
+		<category>Games</category>
+		<description>Mortal Kombat 3 (Brazil) (En)</description>
+		<rom name="Mortal Kombat 3 (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Mortal Kombat II (Europe, Brazil) (En)" id="0244">
+		<category>Games</category>
+		<description>Mortal Kombat II (Europe, Brazil) (En)</description>
+		<rom name="Mortal Kombat II (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ms. Pac-Man (Europe, Brazil) (En)" id="0245">
+		<category>Games</category>
+		<description>Ms. Pac-Man (Europe, Brazil) (En)</description>
+		<rom name="Ms. Pac-Man (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="My Hero (USA, Europe, Brazil) (En)" id="0246">
+		<category>Games</category>
+		<description>My Hero (USA, Europe, Brazil) (En)</description>
+		<rom name="My Hero (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="NBA Jam (Europe) (Proto)" id="0541">
+		<category>Preproduction</category>
+		<description>NBA Jam (Europe) (Proto)</description>
+		<rom name="NBA Jam (Europe) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Nekkyuu Koushien (Japan)" id="0247">
+		<category>Games</category>
+		<description>Nekkyuu Koushien (Japan)</description>
+		<rom name="Nekkyuu Koushien (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Nemesis (Korea) (Unl)" id="0554">
+		<category>Games</category>
+		<description>Nemesis (Korea) (Unl)</description>
+		<rom name="Nemesis (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Nemesis 2 (Korea) (En) (Unl)" id="0562">
+		<category>Games</category>
+		<description>Nemesis 2 (Korea) (En) (Unl)</description>
+		<rom name="Nemesis 2 (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="New Boggle Boggle 2 (Korea) (En) (Unl)" id="0575">
+		<category>Games</category>
+		<description>New Boggle Boggle 2 (Korea) (En) (Unl)</description>
+		<rom name="New Boggle Boggle 2 (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="NewZealand Story, The (Europe)" id="0248">
+		<category>Games</category>
+		<description>NewZealand Story, The (Europe)</description>
+		<rom name="NewZealand Story, The (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ninja Gaiden (Europe, Brazil) (En)" id="0249">
+		<category>Games</category>
+		<description>Ninja Gaiden (Europe, Brazil) (En)</description>
+		<rom name="Ninja Gaiden (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ninja, The (USA, Europe, Brazil) (En)" id="0252">
+		<category>Games</category>
+		<description>Ninja, The (USA, Europe, Brazil) (En)</description>
+		<rom name="Ninja, The (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Nouka Densetsu (World) (Ja) (Aftermarket) (Unl)" id="0752">
+		<category>Games</category>
+		<description>Nouka Densetsu (World) (Ja) (Aftermarket) (Unl)</description>
+		<rom name="Nouka Densetsu (World) (Ja) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)" id="0253">
+		<category>Games</category>
+		<description>Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)</description>
+		<rom name="Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Operation Wolf (Europe, Brazil) (En)" id="0256">
+		<category>Games</category>
+		<description>Operation Wolf (Europe, Brazil) (En)</description>
+		<rom name="Operation Wolf (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ottifants, The (Europe, Brazil) (En,Fr,De,Es,It)" id="0257">
+		<category>Games</category>
+		<description>Ottifants, The (Europe, Brazil) (En,Fr,De,Es,It)</description>
+		<rom name="Ottifants, The (Europe, Brazil) (En,Fr,De,Es,It).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="OutRun (World)" id="0258">
+		<category>Games</category>
+		<description>OutRun (World)</description>
+		<rom name="OutRun (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="OutRun 3-D (Europe, Brazil) (En)" id="0259">
+		<category>Games</category>
+		<description>OutRun 3-D (Europe, Brazil) (En)</description>
+		<rom name="OutRun 3-D (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="OutRun Europa (Europe, Brazil) (En)" id="0260">
+		<category>Games</category>
+		<description>OutRun Europa (Europe, Brazil) (En)</description>
+		<rom name="OutRun Europa (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="PGA Tour Golf (Europe)" id="0267">
+		<category>Games</category>
+		<description>PGA Tour Golf (Europe)</description>
+		<rom name="PGA Tour Golf (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Pac-Mania (Europe)" id="0261">
+		<category>Games</category>
+		<description>Pac-Mania (Europe)</description>
+		<rom name="Pac-Mania (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Palhacos (Brazil) (Aftermarket) (Unl)" id="0748">
+		<category>Games</category>
+		<description>Palhacos (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Palhacos (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Paperboy (USA, Brazil) (En)" id="0263">
+		<category>Games</category>
+		<description>Paperboy (USA, Brazil) (En)</description>
+		<rom name="Paperboy (USA, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Parlour Games (USA, Europe)" id="0264">
+		<category>Games</category>
+		<description>Parlour Games (USA, Europe)</description>
+		<rom name="Parlour Games (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Pat Riley Basketball (USA) (Proto)" id="0265">
+		<category>Preproduction</category>
+		<description>Pat Riley Basketball (USA) (Proto)</description>
+		<rom name="Pat Riley Basketball (USA) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Penguin Adventure (Korea) (En) (Unl)" id="0529">
+		<category>Games</category>
+		<description>Penguin Adventure (Korea) (En) (Unl)</description>
+		<rom name="Penguin Adventure (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Penguin Land (USA, Europe)" id="0266">
+		<category>Games</category>
+		<description>Penguin Land (USA, Europe)</description>
+		<rom name="Penguin Land (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Phantasy Star (USA, Europe) (Rev A)" id="0272">
+		<category>Games</category>
+		<description>Phantasy Star (USA, Europe) (Rev A)</description>
+		<rom name="Phantasy Star (USA, Europe) (Rev A).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Pigu-Wang 7 Hap - Jaemiiss-neun Game Mo-eumjip (Korea) (Unl)" id="0755">
+		<category>Games</category>
+		<description>Pigu-Wang 7 Hap - Jaemiiss-neun Game Mo-eumjip (Korea) (Unl)</description>
+		<rom name="Pigu-Wang 7 Hap - Jaemiiss-neun Game Mo-eumjip (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Pit-Fighter (Europe)" id="0274">
+		<category>Games</category>
+		<description>Pit-Fighter (Europe)</description>
+		<rom name="Pit-Fighter (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Pooyan (Korea) (En) (Unl)" id="0576">
+		<category>Games</category>
+		<description>Pooyan (Korea) (En) (Unl)</description>
+		<rom name="Pooyan (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Populous (Europe, Brazil) (En)" id="0275">
+		<category>Games</category>
+		<description>Populous (Europe, Brazil) (En)</description>
+		<rom name="Populous (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Poseidon Wars 3-D (USA, Europe, Brazil) (En)" id="0276">
+		<category>Games</category>
+		<description>Poseidon Wars 3-D (USA, Europe, Brazil) (En)</description>
+		<rom name="Poseidon Wars 3-D (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Power Boggle Boggle (Korea) (En) (Unl)" id="0577">
+		<category>Games</category>
+		<description>Power Boggle Boggle (Korea) (En) (Unl)</description>
+		<rom name="Power Boggle Boggle (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Power Strike (USA, Europe, Brazil) (En)" id="0277">
+		<category>Games</category>
+		<description>Power Strike (USA, Europe, Brazil) (En)</description>
+		<rom name="Power Strike (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Power Strike II (Europe, Brazil) (En)" id="0278">
+		<category>Games</category>
+		<description>Power Strike II (Europe, Brazil) (En)</description>
+		<rom name="Power Strike II (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ppang Gongjang (Korea) (En) (Unl)" id="0567">
+		<category>Games</category>
+		<description>Ppang Gongjang (Korea) (En) (Unl)</description>
+		<rom name="Ppang Gongjang (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Predator 2 (Europe)" id="0279">
+		<category>Games</category>
+		<description>Predator 2 (Europe)</description>
+		<rom name="Predator 2 (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Prince of Persia (Europe, Brazil) (En)" id="0280">
+		<category>Games</category>
+		<description>Prince of Persia (Europe, Brazil) (En)</description>
+		<rom name="Prince of Persia (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Pro Wrestling (USA, Europe, Brazil) (En)" id="0281">
+		<category>Games</category>
+		<description>Pro Wrestling (USA, Europe, Brazil) (En)</description>
+		<rom name="Pro Wrestling (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Pro Yakyuu, The - Pennant Race (Japan)" id="0282">
+		<category>Games</category>
+		<description>Pro Yakyuu, The - Pennant Race (Japan)</description>
+		<rom name="Pro Yakyuu, The - Pennant Race (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Promocao Especial M. System III Compact (Brazil) (Sample)" id="0283">
+		<category>Demos</category>
+		<description>Promocao Especial M. System III Compact (Brazil) (Sample)</description>
+		<rom name="Promocao Especial M. System III Compact (Brazil) (Sample).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Psychic World (Europe, Brazil) (En)" id="0284">
+		<category>Games</category>
+		<description>Psychic World (Europe, Brazil) (En)</description>
+		<rom name="Psychic World (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Psycho Fox (USA, Europe, Brazil) (En)" id="0285">
+		<category>Games</category>
+		<description>Psycho Fox (USA, Europe, Brazil) (En)</description>
+		<rom name="Psycho Fox (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Putt &amp; Putter (Europe, Brazil) (En)" id="0286">
+		<category>Games</category>
+		<description>Putt &amp; Putter (Europe, Brazil) (En)</description>
+		<rom name="Putt &amp; Putter (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Puzzle Game (Korea) (En) (Unl)" id="0578">
+		<category>Games</category>
+		<description>Puzzle Game (Korea) (En) (Unl)</description>
+		<rom name="Puzzle Game (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Quartet (USA, Europe)" id="0288">
+		<category>Games</category>
+		<description>Quartet (USA, Europe)</description>
+		<rom name="Quartet (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Quest for the Shaven Yak Starring Ren Hoek &amp; Stimpy (Brazil) (En)" id="0289">
+		<category>Games</category>
+		<description>Quest for the Shaven Yak Starring Ren Hoek &amp; Stimpy (Brazil) (En)</description>
+		<rom name="Quest for the Shaven Yak Starring Ren Hoek &amp; Stimpy (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="R-Type (World)" id="0290">
+		<category>Games</category>
+		<description>R-Type (World)</description>
+		<rom name="R-Type (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="R.C. Grand Prix (USA, Europe, Brazil) (En)" id="0291">
+		<category>Games</category>
+		<description>R.C. Grand Prix (USA, Europe, Brazil) (En)</description>
+		<rom name="R.C. Grand Prix (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rainbow Islands (Europe)" id="0293">
+		<category>Games</category>
+		<description>Rainbow Islands (Europe)</description>
+		<rom name="Rainbow Islands (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rambo - First Blood Part II (USA)" id="0294">
+		<category>Games</category>
+		<description>Rambo - First Blood Part II (USA)</description>
+		<rom name="Rambo - First Blood Part II (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rambo III (USA, Europe, Brazil) (En)" id="0295">
+		<category>Games</category>
+		<description>Rambo III (USA, Europe, Brazil) (En)</description>
+		<rom name="Rambo III (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rampage (USA, Europe, Brazil) (En)" id="0296">
+		<category>Games</category>
+		<description>Rampage (USA, Europe, Brazil) (En)</description>
+		<rom name="Rampage (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rampart (Europe)" id="0297">
+		<category>Games</category>
+		<description>Rampart (Europe)</description>
+		<rom name="Rampart (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rastan (USA, Europe, Brazil) (En)" id="0298">
+		<category>Games</category>
+		<description>Rastan (USA, Europe, Brazil) (En)</description>
+		<rom name="Rastan (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Reggie Jackson Baseball (USA)" id="0299">
+		<category>Games</category>
+		<description>Reggie Jackson Baseball (USA)</description>
+		<rom name="Reggie Jackson Baseball (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Renegade (Europe, Brazil) (En)" id="0300">
+		<category>Games</category>
+		<description>Renegade (Europe, Brazil) (En)</description>
+		<rom name="Renegade (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rescue Mission (USA, Europe, Brazil) (En)" id="0301">
+		<category>Games</category>
+		<description>Rescue Mission (USA, Europe, Brazil) (En)</description>
+		<rom name="Rescue Mission (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Road Fighter (Korea) (En) (Unl)" id="0579">
+		<category>Games</category>
+		<description>Road Fighter (Korea) (En) (Unl)</description>
+		<rom name="Road Fighter (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Road Rash (Europe, Brazil) (En)" id="0302">
+		<category>Games</category>
+		<description>Road Rash (Europe, Brazil) (En)</description>
+		<rom name="Road Rash (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="RoboCop 3 (Europe, Brazil) (En)" id="0303">
+		<category>Games</category>
+		<description>RoboCop 3 (Europe, Brazil) (En)</description>
+		<rom name="RoboCop 3 (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="RoboCop versus The Terminator (Europe, Brazil) (En)" id="0304">
+		<category>Games</category>
+		<description>RoboCop versus The Terminator (Europe, Brazil) (En)</description>
+		<rom name="RoboCop versus The Terminator (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rocky (World)" id="0305">
+		<category>Games</category>
+		<description>Rocky (World)</description>
+		<rom name="Rocky (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Running Battle (Europe, Brazil) (En)" id="0306">
+		<category>Games</category>
+		<description>Running Battle (Europe, Brazil) (En)</description>
+		<rom name="Running Battle (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sagaia (Europe, Brazil) (En)" id="0307">
+		<category>Games</category>
+		<description>Sagaia (Europe, Brazil) (En)</description>
+		<rom name="Sagaia (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sagak-ui Bimil (Korea) (En) (Unl)" id="0564">
+		<category>Games</category>
+		<description>Sagak-ui Bimil (Korea) (En) (Unl)</description>
+		<rom name="Sagak-ui Bimil (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Samgukji 3 (Korea) (Unl)" id="0308">
+		<category>Games</category>
+		<description>Samgukji 3 (Korea) (Unl)</description>
+		<rom name="Samgukji 3 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sapo Xule - O Mestre do Kung Fu (Brazil)" id="0309">
+		<category>Games</category>
+		<description>Sapo Xule - O Mestre do Kung Fu (Brazil)</description>
+		<rom name="Sapo Xule - O Mestre do Kung Fu (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sapo Xule - S.O.S. Lagoa Poluida (Brazil, Portugal) (Pt)" id="0310">
+		<category>Games</category>
+		<description>Sapo Xule - S.O.S. Lagoa Poluida (Brazil, Portugal) (Pt)</description>
+		<rom name="Sapo Xule - S.O.S. Lagoa Poluida (Brazil, Portugal) (Pt).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sapo Xule vs. Os Invasores do Brejo (Brazil)" id="0311">
+		<category>Games</category>
+		<description>Sapo Xule vs. Os Invasores do Brejo (Brazil)</description>
+		<rom name="Sapo Xule vs. Os Invasores do Brejo (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Satellite 7 (Japan)" id="0312">
+		<category>Games</category>
+		<description>Satellite 7 (Japan)</description>
+		<rom name="Satellite 7 (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es)" id="0313">
+		<category>Games</category>
+		<description>Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es)</description>
+		<rom name="Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Scramble Spirits (Europe, Brazil) (En)" id="0315">
+		<category>Games</category>
+		<description>Scramble Spirits (Europe, Brazil) (En)</description>
+		<rom name="Scramble Spirits (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sega Chess (Europe, Brazil) (En)" id="0318">
+		<category>Games</category>
+		<description>Sega Chess (Europe, Brazil) (En)</description>
+		<rom name="Sega Chess (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sega Graphic Board (USA) (v2.0) (Proto)" id="0582">
+		<category>Applications</category>
+		<category>Preproduction</category>
+		<description>Sega Graphic Board (USA) (v2.0) (Proto)</description>
+		<rom name="Sega Graphic Board (USA) (v2.0) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sega World Tournament Golf (Europe, Brazil) (En)" id="0319">
+		<category>Games</category>
+		<description>Sega World Tournament Golf (Europe, Brazil) (En)</description>
+		<rom name="Sega World Tournament Golf (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Senha (Brazil) (Aftermarket) (Unl)" id="0749">
+		<category>Games</category>
+		<description>Senha (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Senha (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sensible Soccer (Europe)" id="0321">
+		<category>Games</category>
+		<description>Sensible Soccer (Europe)</description>
+		<rom name="Sensible Soccer (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Shadow Dancer - The Secret of Shinobi (Europe, Brazil) (En)" id="0322">
+		<category>Games</category>
+		<description>Shadow Dancer - The Secret of Shinobi (Europe, Brazil) (En)</description>
+		<rom name="Shadow Dancer - The Secret of Shinobi (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Shadow of the Beast (Europe, Brazil) (En)" id="0323">
+		<category>Games</category>
+		<description>Shadow of the Beast (Europe, Brazil) (En)</description>
+		<rom name="Shadow of the Beast (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Shanghai (USA, Europe)" id="0324">
+		<category>Games</category>
+		<description>Shanghai (USA, Europe)</description>
+		<rom name="Shanghai (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Shinobi (USA, Europe, Brazil) (En) (Rev 1)" id="0327">
+		<category>Games</category>
+		<description>Shinobi (USA, Europe, Brazil) (En) (Rev 1)</description>
+		<rom name="Shinobi (USA, Europe, Brazil) (En) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Shooting Gallery (USA, Europe, Brazil) (En)" id="0328">
+		<category>Games</category>
+		<description>Shooting Gallery (USA, Europe, Brazil) (En)</description>
+		<rom name="Shooting Gallery (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Simpsons Trivia (Unknown) (v2.0) (Aftermarket) (Unl)" id="0719">
+		<category>Games</category>
+		<description>Simpsons Trivia (Unknown) (v2.0) (Aftermarket) (Unl)</description>
+		<rom name="Simpsons Trivia (Unknown) (v2.0) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Simpsons, The - Bart vs. The Space Mutants (Europe, Brazil) (En)" id="0329">
+		<category>Games</category>
+		<description>Simpsons, The - Bart vs. The Space Mutants (Europe, Brazil) (En)</description>
+		<rom name="Simpsons, The - Bart vs. The Space Mutants (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Simpsons, The - Bart vs. The World (Europe, Brazil) (En)" id="0330">
+		<category>Games</category>
+		<description>Simpsons, The - Bart vs. The World (Europe, Brazil) (En)</description>
+		<rom name="Simpsons, The - Bart vs. The World (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sitio do Picapau Amarelo (Brazil)" id="0331">
+		<category>Games</category>
+		<description>Sitio do Picapau Amarelo (Brazil)</description>
+		<rom name="Sitio do Picapau Amarelo (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Skazka (Unknown) (v2.0) (Aftermarket) (Unl)" id="0716">
+		<category>Games</category>
+		<description>Skazka (Unknown) (v2.0) (Aftermarket) (Unl)</description>
+		<rom name="Skazka (Unknown) (v2.0) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sky Fighter (Korea) (En) (Unl)" id="0583">
+		<category>Games</category>
+		<description>Sky Fighter (Korea) (En) (Unl)</description>
+		<rom name="Sky Fighter (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sky Jaguar (Korea) (Unl)" id="0555">
+		<category>Games</category>
+		<description>Sky Jaguar (Korea) (Unl)</description>
+		<rom name="Sky Jaguar (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Slap Shot (Europe) (Sample)" id="0332">
+		<category>Demos</category>
+		<description>Slap Shot (Europe) (Sample)</description>
+		<rom name="Slap Shot (Europe) (Sample).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Slap Shot (USA, Europe, Brazil) (En)" id="0334">
+		<category>Games</category>
+		<description>Slap Shot (USA, Europe, Brazil) (En)</description>
+		<rom name="Slap Shot (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Smurfs, The (Europe, Brazil) (En,Fr,De,Es)" id="0335">
+		<category>Games</category>
+		<description>Smurfs, The (Europe, Brazil) (En,Fr,De,Es)</description>
+		<rom name="Smurfs, The (Europe, Brazil) (En,Fr,De,Es).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Solomon no Kagi - Oujo Rihita no Namida (Japan)" id="0336">
+		<category>Games</category>
+		<description>Solomon no Kagi - Oujo Rihita no Namida (Japan)</description>
+		<rom name="Solomon no Kagi - Oujo Rihita no Namida (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sonic Blast (Brazil) (En)" id="0337">
+		<category>Games</category>
+		<description>Sonic Blast (Brazil) (En)</description>
+		<rom name="Sonic Blast (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sonic Chaos (Europe, Brazil) (En)" id="0338">
+		<category>Games</category>
+		<description>Sonic Chaos (Europe, Brazil) (En)</description>
+		<rom name="Sonic Chaos (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sonic Spinball (Europe, Brazil) (En)" id="0339">
+		<category>Games</category>
+		<description>Sonic Spinball (Europe, Brazil) (En)</description>
+		<rom name="Sonic Spinball (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sonic The Hedgehog (USA, Europe, Brazil) (En)" id="0340">
+		<category>Games</category>
+		<description>Sonic The Hedgehog (USA, Europe, Brazil) (En)</description>
+		<rom name="Sonic The Hedgehog (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sonic The Hedgehog 2 (Europe, Brazil) (En) (Rev 1)" id="0342">
+		<category>Games</category>
+		<description>Sonic The Hedgehog 2 (Europe, Brazil) (En) (Rev 1)</description>
+		<rom name="Sonic The Hedgehog 2 (Europe, Brazil) (En) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sonic's Edusoft (Unknown) (Proto)" id="0343">
+		<category>Preproduction</category>
+		<description>Sonic's Edusoft (Unknown) (Proto)</description>
+		<rom name="Sonic's Edusoft (Unknown) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Space Gun (Europe)" id="0344">
+		<category>Games</category>
+		<description>Space Gun (Europe)</description>
+		<rom name="Space Gun (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Space Harrier (Japan, USA) (En)" id="0345">
+		<category>Games</category>
+		<description>Space Harrier (Japan, USA) (En)</description>
+		<rom name="Space Harrier (Japan, USA) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Space Harrier 3-D (USA, Europe, Brazil) (En)" id="0347">
+		<category>Games</category>
+		<description>Space Harrier 3-D (USA, Europe, Brazil) (En)</description>
+		<rom name="Space Harrier 3-D (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Special Criminal Investigation (Europe)" id="0349">
+		<category>Games</category>
+		<description>Special Criminal Investigation (Europe)</description>
+		<rom name="Special Criminal Investigation (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Speedball (Europe) (Rev 1)" id="0352">
+		<category>Games</category>
+		<description>Speedball (Europe) (Rev 1)</description>
+		<rom name="Speedball (Europe) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Speedball 2 (Europe)" id="0353">
+		<category>Games</category>
+		<description>Speedball 2 (Europe)</description>
+		<rom name="Speedball 2 (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="SpellCaster (USA, Europe, Brazil) (En)" id="0354">
+		<category>Games</category>
+		<description>SpellCaster (USA, Europe, Brazil) (En)</description>
+		<rom name="SpellCaster (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Spider-Man (USA, Europe, Brazil) (En)" id="0356">
+		<category>Games</category>
+		<description>Spider-Man (USA, Europe, Brazil) (En)</description>
+		<rom name="Spider-Man (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Spider-Man - Return of the Sinister Six (Europe, Brazil) (En)" id="0355">
+		<category>Games</category>
+		<description>Spider-Man - Return of the Sinister Six (Europe, Brazil) (En)</description>
+		<rom name="Spider-Man - Return of the Sinister Six (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sports Pad Football (USA)" id="0357">
+		<category>Games</category>
+		<description>Sports Pad Football (USA)</description>
+		<rom name="Sports Pad Football (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Spy vs Spy (USA, Europe, Brazil) (En)" id="0360">
+		<category>Games</category>
+		<description>Spy vs Spy (USA, Europe, Brazil) (En)</description>
+		<rom name="Spy vs Spy (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Star Wars (Europe, Brazil) (En)" id="0361">
+		<category>Games</category>
+		<description>Star Wars (Europe, Brazil) (En)</description>
+		<rom name="Star Wars (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Street Fighter II' (Brazil) (En)" id="0362">
+		<category>Games</category>
+		<description>Street Fighter II' (Brazil) (En)</description>
+		<rom name="Street Fighter II' (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Street Master (Korea) (Unl)" id="0515">
+		<category>Games</category>
+		<description>Street Master (Korea) (Unl)</description>
+		<rom name="Street Master (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Streets of Rage (Europe, Brazil) (En)" id="0363">
+		<category>Games</category>
+		<description>Streets of Rage (Europe, Brazil) (En)</description>
+		<rom name="Streets of Rage (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Streets of Rage II (Europe, Brazil) (En)" id="0364">
+		<category>Games</category>
+		<description>Streets of Rage II (Europe, Brazil) (En)</description>
+		<rom name="Streets of Rage II (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Strider (USA, Europe, Brazil) (En)" id="0365">
+		<category>Games</category>
+		<description>Strider (USA, Europe, Brazil) (En)</description>
+		<rom name="Strider (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Strider (USA, Europe, Brazil) (En) (Demo)" id="0544">
+		<category>Demos</category>
+		<description>Strider (USA, Europe, Brazil) (En) (Demo)</description>
+		<rom name="Strider (USA, Europe, Brazil) (En) (Demo).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Strider II (Europe, Brazil) (En)" id="0366">
+		<category>Games</category>
+		<description>Strider II (Europe, Brazil) (En)</description>
+		<rom name="Strider II (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Submarine Attack (Europe, Brazil) (En)" id="0367">
+		<category>Games</category>
+		<description>Submarine Attack (Europe, Brazil) (En)</description>
+		<rom name="Submarine Attack (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sudoku (Brazil) (Aftermarket) (Unl)" id="0750">
+		<category>Games</category>
+		<description>Sudoku (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Sudoku (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Suho Jeonsa (Korea) (Unl)" id="0510">
+		<category>Games</category>
+		<description>Suho Jeonsa (Korea) (Unl)</description>
+		<rom name="Suho Jeonsa (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan)" id="0368">
+		<category>Games</category>
+		<description>Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan)</description>
+		<rom name="Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Summer Games (Europe, Brazil) (En)" id="0369">
+		<category>Games</category>
+		<description>Summer Games (Europe, Brazil) (En)</description>
+		<rom name="Summer Games (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Basketball (USA) (Demo)" id="0371">
+		<category>Demos</category>
+		<description>Super Basketball (USA) (Demo)</description>
+		<rom name="Super Basketball (USA) (Demo).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Bioman I (Korea) (Unl)" id="0599">
+		<category>Games</category>
+		<description>Super Bioman I (Korea) (Unl)</description>
+		<rom name="Super Bioman I (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Boy 4 (Korea) (Unl)" id="0524">
+		<category>Games</category>
+		<description>Super Boy 4 (Korea) (Unl)</description>
+		<rom name="Super Boy 4 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Boy I (Korea) (En) (Unl)" id="0600">
+		<category>Games</category>
+		<description>Super Boy I (Korea) (En) (Unl)</description>
+		<rom name="Super Boy I (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Boy II (Korea) (En) (Unl)" id="0520">
+		<category>Games</category>
+		<description>Super Boy II (Korea) (En) (Unl)</description>
+		<rom name="Super Boy II (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Boy III (Korea) (En) (Unl)" id="0601">
+		<category>Games</category>
+		<description>Super Boy III (Korea) (En) (Unl)</description>
+		<rom name="Super Boy III (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Bubble Bobble (Korea) (En) (Unl)" id="0580">
+		<category>Games</category>
+		<description>Super Bubble Bobble (Korea) (En) (Unl)</description>
+		<rom name="Super Bubble Bobble (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Columns &amp; Tetris (Korea) (Unl)" id="0593">
+		<category>Games</category>
+		<description>Super Columns &amp; Tetris (Korea) (Unl)</description>
+		<rom name="Super Columns &amp; Tetris (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Game 150 (Korea) (Unl)" id="0768">
+		<category>Games</category>
+		<description>Super Game 150 (Korea) (Unl)</description>
+		<rom name="Super Game 150 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Game 180 (Korea) (Unl)" id="0769">
+		<category>Games</category>
+		<description>Super Game 180 (Korea) (Unl)</description>
+		<rom name="Super Game 180 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Game 45 (Korea) (Unl)" id="0756">
+		<category>Games</category>
+		<description>Super Game 45 (Korea) (Unl)</description>
+		<rom name="Super Game 45 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Game 52 Hap (Korea) (Unl)" id="0757">
+		<category>Games</category>
+		<description>Super Game 52 Hap (Korea) (Unl)</description>
+		<rom name="Super Game 52 Hap (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Game World 30 Hap (Korea) (v1.1) (Unl)" id="0772">
+		<category>Games</category>
+		<description>Super Game World 30 Hap (Korea) (v1.1) (Unl)</description>
+		<rom name="Super Game World 30 Hap (Korea) (v1.1) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Game World 75 Hap (Korea) (Unl)" id="0774">
+		<category>Games</category>
+		<description>Super Game World 75 Hap (Korea) (Unl)</description>
+		<rom name="Super Game World 75 Hap (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Kick Off (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)" id="0372">
+		<category>Games</category>
+		<description>Super Kick Off (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)</description>
+		<rom name="Super Kick Off (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Monaco GP (USA)" id="0374">
+		<category>Games</category>
+		<description>Super Monaco GP (USA)</description>
+		<rom name="Super Monaco GP (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Multi Game - Super 125 in 1 (Korea) (Unl)" id="0758">
+		<category>Games</category>
+		<description>Super Multi Game - Super 125 in 1 (Korea) (Unl)</description>
+		<rom name="Super Multi Game - Super 125 in 1 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Multi Game - Super 75 in 1 (Korea) (Unl)" id="0775">
+		<category>Games</category>
+		<description>Super Multi Game - Super 75 in 1 (Korea) (Unl)</description>
+		<rom name="Super Multi Game - Super 75 in 1 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Off Road (Europe)" id="0375">
+		<category>Games</category>
+		<description>Super Off Road (Europe)</description>
+		<rom name="Super Off Road (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Penguin (Korea) (Unl)" id="0726">
+		<category>Games</category>
+		<description>Super Penguin (Korea) (Unl)</description>
+		<rom name="Super Penguin (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Racing (Japan)" id="0376">
+		<category>Games</category>
+		<description>Super Racing (Japan)</description>
+		<rom name="Super Racing (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Smash T.V. (Europe)" id="0377">
+		<category>Games</category>
+		<description>Super Smash T.V. (Europe)</description>
+		<rom name="Super Smash T.V. (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Space Invaders (Europe)" id="0378">
+		<category>Games</category>
+		<description>Super Space Invaders (Europe)</description>
+		<rom name="Super Space Invaders (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Tennis (USA, Europe)" id="0379">
+		<category>Games</category>
+		<description>Super Tennis (USA, Europe)</description>
+		<rom name="Super Tennis (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Tetris (Korea) (Unl)" id="0519">
+		<category>Games</category>
+		<description>Super Tetris (Korea) (Unl)</description>
+		<rom name="Super Tetris (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Superman - The Man of Steel (Europe, Brazil) (En)" id="0382">
+		<category>Games</category>
+		<description>Superman - The Man of Steel (Europe, Brazil) (En)</description>
+		<rom name="Superman - The Man of Steel (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="T2 - The Arcade Game (Europe)" id="0383">
+		<category>Games</category>
+		<description>T2 - The Arcade Game (Europe)</description>
+		<rom name="T2 - The Arcade Game (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Taito Chase H.Q. (Europe)" id="0384">
+		<category>Games</category>
+		<description>Taito Chase H.Q. (Europe)</description>
+		<rom name="Taito Chase H.Q. (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Tangram (Brazil) (Aftermarket) (Unl)" id="0751">
+		<category>Games</category>
+		<description>Tangram (Brazil) (Aftermarket) (Unl)</description>
+		<rom name="Tangram (Brazil) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Tank Battalion (Korea) (Unl)" id="0767">
+		<category>Games</category>
+		<description>Tank Battalion (Korea) (Unl)</description>
+		<rom name="Tank Battalion (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Taz in Escape from Mars (Brazil) (En)" id="0385">
+		<category>Games</category>
+		<description>Taz in Escape from Mars (Brazil) (En)</description>
+		<rom name="Taz in Escape from Mars (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Taz-Mania (Europe, Brazil) (En)" id="0386">
+		<category>Games</category>
+		<description>Taz-Mania (Europe, Brazil) (En)</description>
+		<rom name="Taz-Mania (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Tecmo World Cup '93 (Europe)" id="0389">
+		<category>Games</category>
+		<description>Tecmo World Cup '93 (Europe)</description>
+		<rom name="Tecmo World Cup '93 (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Teddy Boy (USA, Europe, Brazil) (En)" id="0390">
+		<category>Games</category>
+		<description>Teddy Boy (USA, Europe, Brazil) (En)</description>
+		<rom name="Teddy Boy (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Tennis Ace (Europe, Brazil) (En)" id="0393">
+		<category>Games</category>
+		<description>Tennis Ace (Europe, Brazil) (En)</description>
+		<rom name="Tennis Ace (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Tensai Bakabon (Japan)" id="0394">
+		<category>Games</category>
+		<description>Tensai Bakabon (Japan)</description>
+		<rom name="Tensai Bakabon (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Terminator 2 - Judgment Day (Europe)" id="0395">
+		<category>Games</category>
+		<description>Terminator 2 - Judgment Day (Europe)</description>
+		<rom name="Terminator 2 - Judgment Day (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Terminator, The (Europe)" id="0397">
+		<category>Games</category>
+		<description>Terminator, The (Europe)</description>
+		<rom name="Terminator, The (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Three Dragon Story, The (Korea) (Unl)" id="0521">
+		<category>Games</category>
+		<description>Three Dragon Story, The (Korea) (Unl)</description>
+		<rom name="Three Dragon Story, The (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Thunder Blade (USA, Europe, Brazil) (En)" id="0399">
+		<category>Games</category>
+		<description>Thunder Blade (USA, Europe, Brazil) (En)</description>
+		<rom name="Thunder Blade (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Time Soldiers (USA, Europe, Brazil) (En)" id="0400">
+		<category>Games</category>
+		<description>Time Soldiers (USA, Europe, Brazil) (En)</description>
+		<rom name="Time Soldiers (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Tom and Jerry - The Movie (Europe, Brazil) (En)" id="0402">
+		<category>Games</category>
+		<description>Tom and Jerry - The Movie (Europe, Brazil) (En)</description>
+		<rom name="Tom and Jerry - The Movie (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Toto World 3 (Korea) (Unl)" id="0403">
+		<category>Games</category>
+		<description>Toto World 3 (Korea) (Unl)</description>
+		<rom name="Toto World 3 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="TransBot (USA, Europe, Brazil) (En)" id="0404">
+		<category>Games</category>
+		<description>TransBot (USA, Europe, Brazil) (En)</description>
+		<rom name="TransBot (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Trivial Pursuit - Genus Edition (Europe) (En,Fr,De,Es)" id="0405">
+		<category>Games</category>
+		<description>Trivial Pursuit - Genus Edition (Europe) (En,Fr,De,Es)</description>
+		<rom name="Trivial Pursuit - Genus Edition (Europe) (En,Fr,De,Es).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ultima IV - Quest of the Avatar (Europe, Brazil) (En)" id="0408">
+		<category>Games</category>
+		<description>Ultima IV - Quest of the Avatar (Europe, Brazil) (En)</description>
+		<rom name="Ultima IV - Quest of the Avatar (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ultimate Soccer (Europe, Brazil) (En,Fr,De,Es,It)" id="0410">
+		<category>Games</category>
+		<description>Ultimate Soccer (Europe, Brazil) (En,Fr,De,Es,It)</description>
+		<rom name="Ultimate Soccer (Europe, Brazil) (En,Fr,De,Es,It).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Vigilante (USA, Europe, Brazil) (En)" id="0412">
+		<category>Games</category>
+		<description>Vigilante (USA, Europe, Brazil) (En)</description>
+		<rom name="Vigilante (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Virtua Fighter Animation (Brazil) (En)" id="0413">
+		<category>Games</category>
+		<description>Virtua Fighter Animation (Brazil) (En)</description>
+		<rom name="Virtua Fighter Animation (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="WWF Wrestlemania - Steel Cage Challenge (Europe, Brazil) (En)" id="0437">
+		<category>Games</category>
+		<description>WWF Wrestlemania - Steel Cage Challenge (Europe, Brazil) (En)</description>
+		<rom name="WWF Wrestlemania - Steel Cage Challenge (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Walter Payton Football (USA)" id="0414">
+		<category>Games</category>
+		<description>Walter Payton Football (USA)</description>
+		<rom name="Walter Payton Football (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wanted (USA, Europe, Brazil) (En)" id="0415">
+		<category>Games</category>
+		<description>Wanted (USA, Europe, Brazil) (En)</description>
+		<rom name="Wanted (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Waternet (Unknown) (Aftermarket) (Unl)" id="0679">
+		<category>Games</category>
+		<description>Waternet (Unknown) (Aftermarket) (Unl)</description>
+		<rom name="Waternet (Unknown) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Where in the World is Carmen Sandiego (USA)" id="0417">
+		<category>Games</category>
+		<description>Where in the World is Carmen Sandiego (USA)</description>
+		<rom name="Where in the World is Carmen Sandiego (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wimbledon (Europe)" id="0418">
+		<category>Games</category>
+		<description>Wimbledon (Europe)</description>
+		<rom name="Wimbledon (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wimbledon II (Europe, Brazil) (En)" id="0419">
+		<category>Games</category>
+		<description>Wimbledon II (Europe, Brazil) (En)</description>
+		<rom name="Wimbledon II (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Winter Olympics (Europe) (En,Fr,De,Es,It,Pt,Sv,No)" id="0421">
+		<category>Games</category>
+		<description>Winter Olympics (Europe) (En,Fr,De,Es,It,Pt,Sv,No)</description>
+		<rom name="Winter Olympics (Europe) (En,Fr,De,Es,It,Pt,Sv,No).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wolfchild (Europe, Brazil) (En)" id="0422">
+		<category>Games</category>
+		<description>Wolfchild (Europe, Brazil) (En)</description>
+		<rom name="Wolfchild (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wonder Boy (USA, Europe, Brazil) (En) (Rev 1)" id="0423">
+		<category>Games</category>
+		<description>Wonder Boy (USA, Europe, Brazil) (En) (Rev 1)</description>
+		<rom name="Wonder Boy (USA, Europe, Brazil) (En) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wonder Boy III - The Dragon's Trap (USA, Europe)" id="0424">
+		<category>Games</category>
+		<description>Wonder Boy III - The Dragon's Trap (USA, Europe)</description>
+		<rom name="Wonder Boy III - The Dragon's Trap (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wonder Boy in Monster Land (USA, Europe)" id="0425">
+		<category>Games</category>
+		<description>Wonder Boy in Monster Land (USA, Europe)</description>
+		<rom name="Wonder Boy in Monster Land (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wonder Boy in Monster World (Europe)" id="0426">
+		<category>Games</category>
+		<description>Wonder Boy in Monster World (Europe)</description>
+		<rom name="Wonder Boy in Monster World (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wonsiin (Korea) (Unl)" id="0514">
+		<category>Games</category>
+		<description>Wonsiin (Korea) (Unl)</description>
+		<rom name="Wonsiin (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Woody Pop - Shinjinrui no Block Kuzushi (Japan)" id="0428">
+		<category>Games</category>
+		<description>Woody Pop - Shinjinrui no Block Kuzushi (Japan)</description>
+		<rom name="Woody Pop - Shinjinrui no Block Kuzushi (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="World Class Leaderboard (Europe, Brazil) (En)" id="0429">
+		<category>Games</category>
+		<description>World Class Leaderboard (Europe, Brazil) (En)</description>
+		<rom name="World Class Leaderboard (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="World Cup Italia '90 (Europe, Brazil) (En)" id="0430">
+		<category>Games</category>
+		<description>World Cup Italia '90 (Europe, Brazil) (En)</description>
+		<rom name="World Cup Italia '90 (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="World Cup Italia '90 (USA) (Demo)" id="0528">
+		<category>Demos</category>
+		<description>World Cup Italia '90 (USA) (Demo)</description>
+		<rom name="World Cup Italia '90 (USA) (Demo).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="World Cup USA 94 (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)" id="0431">
+		<category>Games</category>
+		<description>World Cup USA 94 (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)</description>
+		<rom name="World Cup USA 94 (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="World Games (Europe, Brazil) (En)" id="0432">
+		<category>Games</category>
+		<description>World Games (Europe, Brazil) (En)</description>
+		<rom name="World Games (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="World Grand Prix (USA, Brazil) (En)" id="0435">
+		<category>Games</category>
+		<description>World Grand Prix (USA, Brazil) (En)</description>
+		<rom name="World Grand Prix (USA, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="World Soccer (World)" id="0436">
+		<category>Games</category>
+		<description>World Soccer (World)</description>
+		<rom name="World Soccer (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="X-Men - Mojo World (Brazil) (En)" id="0438">
+		<category>Games</category>
+		<description>X-Men - Mojo World (Brazil) (En)</description>
+		<rom name="X-Men - Mojo World (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Xenon 2 - Megablast (Europe) (Rev 1)" id="0440">
+		<category>Games</category>
+		<description>Xenon 2 - Megablast (Europe) (Rev 1)</description>
+		<rom name="Xenon 2 - Megablast (Europe) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Xyzolog (Korea) (En) (Unl)" id="0581">
+		<category>Games</category>
+		<description>Xyzolog (Korea) (En) (Unl)</description>
+		<rom name="Xyzolog (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ys - The Vanished Omens (USA, Europe) (Ja) (Demo)" id="0537">
+		<category>Demos</category>
+		<description>Ys - The Vanished Omens (USA, Europe) (Ja) (Demo)</description>
+		<rom name="Ys - The Vanished Omens (USA, Europe) (Ja) (Demo).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ys - The Vanished Omens (USA, Europe, Brazil) (En)" id="0027">
+		<category>Games</category>
+		<description>Ys - The Vanished Omens (USA, Europe, Brazil) (En)</description>
+		<rom name="Ys - The Vanished Omens (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zaxxon 3-D (World)" id="0441">
+		<category>Games</category>
+		<description>Zaxxon 3-D (World)</description>
+		<rom name="Zaxxon 3-D (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zemina Best 25 (Korea) (Unl)" id="0766">
+		<category>Games</category>
+		<description>Zemina Best 25 (Korea) (Unl)</description>
+		<rom name="Zemina Best 25 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zemina Best 39 (Korea) (Unl)" id="0765">
+		<category>Games</category>
+		<description>Zemina Best 39 (Korea) (Unl)</description>
+		<rom name="Zemina Best 39 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zemina Best 88 (Korea) (Unl)" id="0764">
+		<category>Games</category>
+		<description>Zemina Best 88 (Korea) (Unl)</description>
+		<rom name="Zemina Best 88 (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zemina Rompack - Q-Bert + Sports 3 + Gulkave + Pooyan (Korea) (Unl)" id="0763">
+		<category>Games</category>
+		<description>Zemina Rompack - Q-Bert + Sports 3 + Gulkave + Pooyan (Korea) (Unl)</description>
+		<rom name="Zemina Rompack - Q-Bert + Sports 3 + Gulkave + Pooyan (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zillion (USA, Europe) (Rev 1)" id="0445">
+		<category>Games</category>
+		<description>Zillion (USA, Europe) (Rev 1)</description>
+		<rom name="Zillion (USA, Europe) (Rev 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zillion II - The Tri Formation (World)" id="0446">
+		<category>Games</category>
+		<description>Zillion II - The Tri Formation (World)</description>
+		<rom name="Zillion II - The Tri Formation (World).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zool - Ninja of the 'Nth' Dimension (Europe)" id="0447">
+		<category>Games</category>
+		<description>Zool - Ninja of the 'Nth' Dimension (Europe)</description>
+		<rom name="Zool - Ninja of the 'Nth' Dimension (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Alex Kidd in Miracle World (BIOS Version) (World) (Sega Ages)" id="xB13">
+		<category>BIOS</category>
+		<category>Games</category>
+		<description>[BIOS] Alex Kidd in Miracle World (BIOS Version) (World) (Sega Ages)</description>
+		<rom name="[BIOS] Alex Kidd in Miracle World (BIOS Version) (World) (Sega Ages).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Alex Kidd in Miracle World (Korea) (Unl)" id="xB01">
+		<category>BIOS</category>
+		<description>[BIOS] Alex Kidd in Miracle World (Korea) (Unl)</description>
+		<rom name="[BIOS] Alex Kidd in Miracle World (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Alex Kidd in Miracle World (USA, Europe, Brazil) (En)" id="xB02">
+		<category>BIOS</category>
+		<category>Games</category>
+		<category>Miscellaneous</category>
+		<description>[BIOS] Alex Kidd in Miracle World (USA, Europe, Brazil) (En)</description>
+		<rom name="[BIOS] Alex Kidd in Miracle World (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Hang On &amp; Safari Hunt (USA, Europe, Brazil) (En) (v2.4)" id="xB03">
+		<category>BIOS</category>
+		<description>[BIOS] Hang On &amp; Safari Hunt (USA, Europe, Brazil) (En) (v2.4)</description>
+		<rom name="[BIOS] Hang On &amp; Safari Hunt (USA, Europe, Brazil) (En) (v2.4).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Hang On (USA, Europe) (v3.4)" id="xB04">
+		<category>BIOS</category>
+		<description>[BIOS] Hang On (USA, Europe) (v3.4)</description>
+		<rom name="[BIOS] Hang On (USA, Europe) (v3.4).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Missile Defense 3-D (USA, Europe) (v4.4)" id="xB05">
+		<category>BIOS</category>
+		<description>[BIOS] Missile Defense 3-D (USA, Europe) (v4.4)</description>
+		<rom name="[BIOS] Missile Defense 3-D (USA, Europe) (v4.4).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Sega Master System (Europe) (v2.0)" id="xB12">
+		<category>BIOS</category>
+		<description>[BIOS] Sega Master System (Europe) (v2.0)</description>
+		<rom name="[BIOS] Sega Master System (Europe) (v2.0).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Sega Master System (Japan) (v2.1)" id="xB06">
+		<category>BIOS</category>
+		<description>[BIOS] Sega Master System (Japan) (v2.1)</description>
+		<rom name="[BIOS] Sega Master System (Japan) (v2.1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Sega Master System (USA) (M404) (Proto)" id="xB07">
+		<category>BIOS</category>
+		<category>Preproduction</category>
+		<description>[BIOS] Sega Master System (USA) (M404) (Proto)</description>
+		<rom name="[BIOS] Sega Master System (USA) (M404) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Sega Master System (USA) (Proto)" id="xB11">
+		<category>BIOS</category>
+		<category>Miscellaneous</category>
+		<category>Preproduction</category>
+		<description>[BIOS] Sega Master System (USA) (Proto)</description>
+		<rom name="[BIOS] Sega Master System (USA) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Sega Master System (USA) (Store Display Unit)" id="xB08">
+		<category>BIOS</category>
+		<description>[BIOS] Sega Master System (USA) (Store Display Unit)</description>
+		<rom name="[BIOS] Sega Master System (USA) (Store Display Unit).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Sega Master System (USA, Europe) (v1.3)" id="xB09">
+		<category>BIOS</category>
+		<description>[BIOS] Sega Master System (USA, Europe) (v1.3)</description>
+		<rom name="[BIOS] Sega Master System (USA, Europe) (v1.3).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] Sonic The Hedgehog (Europe)" id="xB10">
+		<category>BIOS</category>
+		<description>[BIOS] Sonic The Hedgehog (Europe)</description>
+		<rom name="[BIOS] Sonic The Hedgehog (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="[BIOS] TecToy Master System Evolution Menu (Brazil) (2011)" id="0777">
+		<category>BIOS</category>
+		<category>Miscellaneous</category>
+		<description>[BIOS] TecToy Master System Evolution Menu (Brazil) (2011)</description>
+		<rom name="[BIOS] TecToy Master System Evolution Menu (Brazil) (2011).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

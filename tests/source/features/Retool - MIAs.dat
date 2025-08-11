@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - MIAs</name>
+		<description>Retool - MIAs (2025-06-14)</description>
+		<version>2024-02-24 00-00-00</version>
+		<date>2024-02-24 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<url>https://unexpectedpanda.github.io/retool</url>
+	</header>
+    <game name="Test Title (USA)">
+		<category>Games</category>
+		<description>Test Title (USA)</description>
+		<rom name="Test Title (USA).cue" size="1000" crc="11111111" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA).bin" size="1000" crc="22222222" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+    <game name="Test Title (Europe)">
+		<category>Games</category>
+		<description>Test Title (Europe)</description>
+		<rom name="Test Title (Europe).cue" size="1000" crc="33333333" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe).bin" size="1000" crc="44444444" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+    <game name="Test Title (Europe) (En,Fr,De,It)">
+		<category>Games</category>
+		<description>Test Title (Europe) (En,Fr,De,It)</description>
+		<rom name="Test Title (Europe) (En,Fr,De,It).cue" size="1000" crc="55555555" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe) (En,Fr,De,It).bin" size="1000" crc="66666666" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="This isn't MIA (Canada) (En,Fr)">
+		<category>Games</category>
+		<description>This isn't MIA (Canada) (En,Fr)</description>
+		<rom name="This isn't MIA (Canada) (En,Fr).cue" size="1000" crc="55555555" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="This isn't MIA (Canada) (En,Fr).bin" size="1000" crc="66666666" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

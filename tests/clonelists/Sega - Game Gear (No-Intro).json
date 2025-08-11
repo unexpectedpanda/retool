@@ -112,7 +112,7 @@
 					"filters": [
 						{
 							"conditions": {"matchRegions": ["Japan", "Europe"]},
-							"results": {"localizedNames": {"english": "Fantasy Zone", "japanese": "ＦａｎｔａｓｙＺｏｎｅＧｅａｒオパオパＪｒ．の冒険"}}
+							"results": {"localNames": {"english": "Fantasy Zone", "japanese": "ＦａｎｔａｓｙＺｏｎｅＧｅａｒオパオパＪｒ．の冒険"}}
 						}
 					]
 				}
@@ -170,8 +170,8 @@
 		{
 			"group": "Power Strike II",
 			"titles": [
-				{"searchTerm": "GG Aleste II", "localizedNames": {"english": "Power Strike II", "japanese": "ＧＧ　Ａｌｅｓｔｅ　Ⅱ"}},
-				{"searchTerm": "Power Strike II", "localizedNames": {"english": "Power Strike II", "japanese": "ＧＧ　Ａｌｅｓｔｅ　Ⅱ"}}
+				{"searchTerm": "GG Aleste II", "localNames": {"english": "Power Strike II", "japanese": "ＧＧ　Ａｌｅｓｔｅ　Ⅱ"}},
+				{"searchTerm": "Power Strike II", "localNames": {"english": "Power Strike II", "japanese": "ＧＧ　Ａｌｅｓｔｅ　Ⅱ"}}
 			]
 		},
 		{

@@ -288,13 +288,13 @@
 		{
 			"group": "Frame Gride",
 			"titles": [
-				{"searchTerm": "Frame Gride", "localizedNames": {"japanese": "フレームグライド"}}
+				{"searchTerm": "Frame Gride", "localNames": {"japanese": "フレームグライド"}}
 			]
 		},
 		{
 			"group": "Frame Gride - Test Operation Disc",
 			"titles": [
-				{"searchTerm": "Frame Gride - Test Operation Disc (Demo)", "localizedNames": {"japanese": "フレームグライド）　～体験版～"}}
+				{"searchTerm": "Frame Gride - Test Operation Disc (Demo)", "localNames": {"japanese": "フレームグライド）　～体験版～"}}
 			]
 		},
 		{
@@ -326,7 +326,7 @@
 					"filters": [
 						{
 							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"localizedNames": {"japanese": "ザ　ハウス　オブ　ザ　デッド　２"}}
+							"results": {"localNames": {"japanese": "ザ　ハウス　オブ　ザ　デッド　２"}}
 						}
 					]
 				}
@@ -340,11 +340,11 @@
 					"filters": [
 						{
 							"conditions": {"matchRegions": "Taiwan"},
-							"results": {"localizedNames": {"chinese (traditional)": "勇闖鬼界"}}
+							"results": {"localNames": {"chinese (traditional)": "勇闖鬼界"}}
 						},
 						{
 							"conditions": {"matchRegions": "Japan"},
-							"results": {"localizedNames": {"japanese": "イルブリード"}}
+							"results": {"localNames": {"japanese": "イルブリード"}}
 						}
 					]
 				}
@@ -420,13 +420,13 @@
 		{
 			"group": "Memories Off 2nd - Making Disc",
 			"titles": [
-				{"searchTerm": "Memories Off 2nd - Making Disc", "localizedNames": {"japanese": "メモリーズオフ　セカンド　～Ｍａｋｉｎｇ　Ｄｉｓｃ～"}}
+				{"searchTerm": "Memories Off 2nd - Making Disc", "localNames": {"japanese": "メモリーズオフ　セカンド　～Ｍａｋｉｎｇ　Ｄｉｓｃ～"}}
 			]
 		},
 		{
 			"group": "Memories Off 2nd - Promotion Disc",
 			"titles": [
-				{"searchTerm": "Memories Off 2nd - Promotion Disc", "localizedNames": {"japanese": "メモリーズオフ　セカンド　～Ｐｒｏｍｏｔｉｏｎ　Ｄｉｓｃ～"}}
+				{"searchTerm": "Memories Off 2nd - Promotion Disc", "localNames": {"japanese": "メモリーズオフ　セカンド　～Ｐｒｏｍｏｔｉｏｎ　Ｄｉｓｃ～"}}
 			]
 		},
 		{
@@ -609,6 +609,15 @@
 			]
 		},
 		{
+			"group": "Samba de Amigo",
+			"titles": [
+				{"searchTerm": "Samba de Amigo"}
+			],
+			"supersets": [
+				{"searchTerm": "Samba de Amigo Ver. 2000"}
+			]
+		},
+		{
 			"group": "San Francisco Rush 2049",
 			"titles": [
 				{"searchTerm": "Rush 2049"},
@@ -735,14 +744,14 @@
 		{
 			"group": "Space Channel 5 Demo",
 			"titles": [
-				{"searchTerm": "Space Channel 5 (Taikenban)", "localizedNames": {"japanese": "スペース・チャンネル５　～体験版～"}}
+				{"searchTerm": "Space Channel 5 (Taikenban)", "localNames": {"japanese": "スペース・チャンネル５　～体験版～"}}
 			]
 		},
 		{
 			"group": "Space Channel 5 Theme Music - Mexican Flyer",
 			"categories": ["Audio"],
 			"titles": [
-				{"searchTerm": "Space Channel 5 Theme Music - Mexican Flyer", "localizedNames": {"japanese": "スペース・チャンネル５　～テーマ曲～　Ｍｅｘｉｃａｎ　Ｆｌｙｅｒ"}}
+				{"searchTerm": "Space Channel 5 Theme Music - Mexican Flyer", "localNames": {"japanese": "スペース・チャンネル５　～テーマ曲～　Ｍｅｘｉｃａｎ　Ｆｌｙｅｒ"}}
 			]
 		},
 		{
@@ -935,7 +944,7 @@
 			"group": "Virtua Striker 2",
 			"titles": [
 				{"searchTerm": "Virtua Striker 2"},
-				{"searchTerm": "Virtua Striker 2000.1", "nametype": "regionFree"}
+				{"searchTerm": "Virtua Striker 2 Ver. 2000.1"}
 			]
 		},
 		{
@@ -956,7 +965,7 @@
 		{
 			"group": "Wind and Water - Puzzle Battles",
 			"titles": [
-				{"searchTerm": "Wind and Water - Puzzle Battles", "localizedNames": {"english": "Wind and Water - Puzzle Battles", "japanese": "時空五行　風水大戰"}}
+				{"searchTerm": "Wind and Water - Puzzle Battles", "localNames": {"english": "Wind and Water - Puzzle Battles", "japanese": "時空五行　風水大戰"}}
 			]
 		},
 		{

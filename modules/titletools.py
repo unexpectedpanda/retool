@@ -2,12 +2,13 @@ from __future__ import annotations
 
 import re
 from copy import deepcopy
+from itertools import zip_longest
 from re import Pattern
 from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:
-    from modules.dats import DatNode
-    from modules.config import Config
+    from modules.config.config import Config
+    from modules.dat.process_dat import DatNode
 
 from modules.utils import Font, eprint, pattern2string
 
@@ -34,7 +35,7 @@ class Removes:
         self.promotional_removes: set[DatNode] = set()
         self.unlicensed_removes: set[DatNode] = set()
         self.video_removes: set[DatNode] = set()
-        self.clone_list_removes: set[DatNode] = set()
+        self.clone_list_ignores: set[DatNode] = set()
         self.language_removes: set[DatNode] = set()
         self.region_removes: set[DatNode] = set()
         self.system_excludes: set[DatNode] = set()
@@ -61,7 +62,7 @@ class Regex:
             '\\((?:\\w*?\\s)*Proto(?:type)?(?:\\s\\d+)?\\)', flags=re.I
         )
         self.preprod: Pattern[str] = re.compile('\\((?:Pre-production|Prerelease)\\)', flags=re.I)
-        self.dev: Pattern[str] = re.compile('\\(DEV|DEBUG\\)', flags=re.I)
+        self.dev: Pattern[str] = re.compile('\\((?:DEV|DEBUG)\\)', flags=re.I)
 
         # Possibly production
         self.not_for_resale: Pattern[str] = re.compile(
@@ -71,31 +72,35 @@ class Regex:
 
         # Versions
         self.version: Pattern[str] = re.compile('\\(v[\\.0-9].*?\\)', flags=re.I)
-        self.version_non_parens: Pattern[str] = re.compile('(?<!^)(?<=\\(|\\s)v(?:\\d\\.?)+')
         self.long_version: Pattern[str] = re.compile(
-            '\\s?(?!Version Vol\\.|Version \\(|Version$|Version -|Version \\d-)(?: - )?\\(?(?:\\((?:\\w[\\.\\-]?\\s*)*|)[Vv]ers(?:ion|ao)\\s?(?:[\\d\\.\\-]+)+[A-Za-z]?(?: (?:\\d-?)+)?.*?(?:(?:\\w[\\.\\-]?\\s*)*\\))?'
+            '\\s?(?!Version Vol\\.|Version \\(|Version$|Version -|Version \\d-)(?: - )?\\(?(?:\\((?:\\w[\\.\\-]?\\s*)*|)(?:[Vv]ers(?:ion|ao)|[Vv]er\\.)\\s(?:[\\d]+[\\.\\-a-zA-Z]*\\)?|\\s?[A-Za-z](?:$|\\s|\\)))+|\\s[Vv]\\(?(?:[\\dv]+[\\.\\-]*)+[A-Za-z]*?\\)?'
         )
         self.revision: Pattern[str] = re.compile('\\(R[eE][vV](?:[ -][0-9A-Z].*?)?\\)', flags=re.I)
         self.build: Pattern[str] = re.compile('\\(Build [0-9].*?\\)', flags=re.I)
         self.dreamcast_version: Pattern[str] = re.compile('V[0-9]{2,2} L[0-9]{2,2}')
-        self.fds_version: Pattern[str] = re.compile('\\(DV [0-9].*?\\)', flags=re.I)
-        self.fmtowns_pippin_version: Pattern[str] = re.compile(
-            '(?<!^)\\s(?:V|Ver\\. |- Version |Version )\\d(?:\\.\\d+)?(?: L(?:evel )?\\d+[A-Z]?)?'
+        self.famicom_disk_system_version: Pattern[str] = re.compile('\\(DV [0-9].*?\\)', flags=re.I)
+        self.fmtowns_version: Pattern[str] = re.compile(
+            '(?<!^)\\s(?:V|Ver\\. |- Version |Version )\\d(?:\\.\\d+)?(?: L(?:evel )?\\d+[A-Z]?)'
         )
         self.hyperscan_version: Pattern[str] = re.compile('\\(USE[0-9]\\)')
-        self.nec_mastering_code: Pattern[str] = re.compile('\\((?:(?:FA|S)[A-F][ABT]S?(?:, )?)+\\)')
+        self.nec_mastering_code: Pattern[str] = re.compile('\\((?:(?:F|S)A[A-F][ABTS](?:, )?)+\\)')
         self.nintendo_mastering_code: Pattern[str] = re.compile(
             '\\((?:A[BDEFNPS]|B[58DFJNPT]|CX|FT|JE|K[AFIKMRZ]|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[ABCDEFGHIKJMLNPQSTUVWYZ0-9][DEJPVXYZ]\\)'
         )
         self.ps_firmware: Pattern[str] = re.compile('\\(FW[0-9].*?\\)', flags=re.I)
-        self.ps1_2_id: Pattern[str] = re.compile('\\([SP][BCL][EKPU][ADHMNSX]-\\d{5}\\)')
-        self.ps3_id: Pattern[str] = re.compile('\\([BM][CLR][AEJKTU][BCDMST]-\\d{5}\\)')
-        self.ps4_id: Pattern[str] = re.compile('\\([CP][CLU][ACJKS][AMS]-\\d{5}\\)')
-        self.psp_id: Pattern[str] = re.compile('\\(U[CLT][EJUS][BST]-\\d{5}\\)')
-        self.psv_id: Pattern[str] = re.compile('\\(P[CS]{2}[ABEFGH]\\d{5}\\)')
-        self.sega_panasonic_ring_code: Pattern[str] = re.compile(
-            '\\((?:(?:[0-9]{1,2}[ABCMRS],? ?)*|R[E]?[-]?[0-9]*)\\)'
+        self.ps1_2_id: Pattern[str] = re.compile(
+            '\\([LSPT][ABCDEILRSTU][ACEKPTUXZ][ACDHJLMNSX]-\\d{5}\\)'
         )
+        self.ps3_id: Pattern[str] = re.compile('\\([XBM][CLR][AEJKTU][BCDMSTVXZ]-\\d{5}\\)')
+        self.ps3_digital_id: Pattern[str] = re.compile('\\([N][P][EHIJKMNOPQUVWX][A-Z]-\\d{5}\\)')
+        self.ps4_id: Pattern[str] = re.compile('\\([CP][CLU][ACJKS][ABMSZ]-\\d{5}\\)')
+        self.ps5_id: Pattern[str] = re.compile('\\([EP][CLP][AJS][AMS]-\\d{5}\\)')
+        self.psp_id: Pattern[str] = re.compile('\\(U[CLMT][ADEJKUS][BDMPSTX]-\\d{5}\\)')
+        self.ps_vita_id: Pattern[str] = re.compile('\\([PV][CLS][CAJKS][ABCDEFGHIMSX]-\\d{5}\\)')
+        self.sega_panasonic_ring_code: Pattern[str] = re.compile(
+            '\\((?:(?:[0-9]{1,2}[ABCMRS][0-9]?,? ?)+[B0-9]*?|R[E]?[-]?[0-9]*)\\)'
+        )
+        self.sega_ringedge_serial: Pattern[str] = re.compile('\\(DVR-\\d{4,4}\\)')
 
         # Video standards
         self.mpal_1: Pattern[str] = re.compile('(?:-)?[( ]MPAL\\)?')
@@ -149,7 +154,8 @@ class Regex:
 
         self.demos: tuple[Pattern[str], ...] = (
             re.compile('\\((?:\\w[-.]?\\s*)*Demo(?:(?:,?\\s|-)[\\w0-9\\.]*)*\\)', flags=re.I),
-            re.compile('Taikenban', flags=re.I),
+            re.compile('Cheheompan', flags=re.I), # 체험판
+            re.compile('Taikenban', flags=re.I), # 体験版
             re.compile('\\(@barai\\)', flags=re.I),
             re.compile('\\(GameCube Preview\\)', flags=re.I),
             re.compile('\\(Preview\\)', flags=re.I),
@@ -186,6 +192,35 @@ class Regex:
             self.unlicensed,
         )
 
+        self.versions: tuple[Pattern[str], ...] = (
+            self.nintendo_mastering_code,
+            self.fmtowns_version,
+            self.dreamcast_version,
+            self.version,
+            self.long_version,
+            self.famicom_disk_system_version,
+            self.hyperscan_version,
+            self.revision,
+            self.sega_panasonic_ring_code,
+            self.sega_ringedge_serial,
+            self.nec_mastering_code,
+            self.ps_firmware,
+            self.ps1_2_id,
+            self.ps3_id,
+            self.ps3_digital_id,
+            self.ps4_id,
+            self.ps5_id,
+            self.psp_id,
+            self.ps_vita_id,
+            self.beta,
+            self.alpha,
+            self.proto,
+            self.preprod,
+            self.dev,
+            self.build,
+            self.alt,
+        )
+
         self.video: tuple[Pattern[str], ...] = (
             re.compile('Game Boy Advance Video', flags=re.I),
             re.compile('- (Preview|Movie) Trailer', flags=re.I),
@@ -212,8 +247,8 @@ class TitleTools:
         Args:
             title_set (set[DatNode]): Compilation titles to be considered.
 
-            compare_groups (dict[str, set[DatNode]]): A dictionary to store the
-            virtual titles in for comparison later.
+            compare_groups (dict[str, set[DatNode]]): A dictionary to store the virtual
+                titles in for comparison later.
 
             title_group (str): The group the title should be assigned to.
 
@@ -259,80 +294,6 @@ class TitleTools:
 
         return compare_groups
 
-    @staticmethod
-    def find_title(
-        name: str,
-        name_type: str,
-        titles: dict[str, set[DatNode]],
-        missing_titles: set[str],
-        config: Config,
-        deep_search: bool = False,
-    ) -> set[DatNode]:
-        """
-        Finds titles in a dict of DatNodes, whether by short, tag free, or full name,
-        or regex.
-
-        Args:
-            name (str): The name to search for.
-
-            name_type (str): Whether to search for the `short` name,
-            `regionFree` name, `full` name, or by `regex` on the full name.
-
-            titles (dict[str, set[DatNode]]): A dictionary of DatNodes to search.
-
-            missing_titles (set[str]): Somewhere to store searched for names that aren't
-            found in the DAT file when going through `titles`. These are reported as not
-            found if the user has clone list warnings turned on.
-
-            config (Config): The Retool config object.
-
-            deep_search (bool, optional): Usually for speed a title is searched for by
-            deriving the group name from the full name. If Retool has done a certain
-            amount of processing already, titles might have changed groups. A deep search
-            traverses the entire dictionary for the title instead. Mandatory for a
-            `match_type` of `regex`, defaults to `False`.
-
-        Returns:
-            set[DatNode]: A list of titles that match the search terms.
-        """
-        found_titles: set[DatNode] = set()
-
-        if deep_search:
-            # Find the title not knowing the group name
-            for group in titles:
-                for title in list(titles[group]):
-                    if name_type == 'short' and title.short_name.lower() == name.lower():
-                        found_titles.add(title)
-                    elif name_type == 'full' and title.full_name.lower() == name.lower():
-                        found_titles.add(title)
-                    elif name_type == 'regex' and re.search(name, title.full_name.lower(), re.I):
-                        found_titles.add(title)
-                    elif (
-                        name_type == 'regionFree' and title.region_free_name.lower() == name.lower()
-                    ):
-                        found_titles.add(title)
-            if not found_titles:
-                missing_titles.add(name)
-        else:
-            # Find the title by deriving the group name
-            group_name: str = TitleTools.get_group_name(name, config)
-
-            if group_name in titles:
-                for title in titles[group_name]:
-                    if name_type == 'short' and title.short_name.lower() == name.lower():
-                        found_titles.add(title)
-                    elif name_type == 'full' and title.full_name.lower() == name.lower():
-                        found_titles.add(title)
-                    elif name_type == 'regex' and re.search(name, title.full_name.lower(), re.I):
-                        found_titles.add(title)
-                    elif (
-                        name_type == 'regionFree' and title.region_free_name.lower() == name.lower()
-                    ):
-                        found_titles.add(title)
-            else:
-                missing_titles.add(name)
-
-        return found_titles
 
     @staticmethod
     def get_date(name: str, config: Config) -> int:
@@ -442,129 +403,12 @@ class TitleTools:
         return formatted_date
 
     @staticmethod
-    def languages(name: str, tags: set[str], config: Config, method: str) -> str:
-        """
-        Identifies the languages in a title's name, and either returns just
-        the languages, or returns the title's name without the languages tag.
-
-        Args:
-            name (str): A title's full name.
-
-            config (Config): The Retool config object.
-
-            tags: (set[str]): The title tags.
-
-            method (str): Whether to `get` the languages from the title's
-            name, or `remove` them.
-
-        Returns:
-            str: Either the name of the title with the languages tag stripped,
-            or just the languages.
-        """
-        regex_search_str: str = ''
-        result: str = ''
-
-        if tags:
-            for tag in tags:
-                if pattern2string(config.regex.languages, tag):
-                    regex_search_str = pattern2string(config.regex.languages, tag)
-                    break
-        else:
-            regex_search_str = pattern2string(config.regex.languages, name)
-
-        if regex_search_str:
-            if method == 'remove':
-                result = name.replace(f'{regex_search_str}', '').replace('  ', ' ').strip()
-
-            if method == 'get':
-                result = regex_search_str.strip()[1:-1]
-
-        return result
-
-    @staticmethod
-    def regions(name: str, config: Config, method: str) -> str:
-        """
-        Identifies the regions in a title's name, and either returns just
-        the regions, or returns the title's name without the regions tag.
-
-        Args:
-            name (str): A title's full name.
-
-            config (Config): The Retool config object.
-
-            method (str): Whether to `get` the languages from the title's
-            name, or `remove` them.
-
-        Returns:
-            str: Either the name of the title with the region tag stripped, or
-            just the regions.
-        """
-        regex_search_str: str = pattern2string(config.regex.region_order_default, name)
-
-        result: str = ''
-
-        if regex_search_str:
-            regex_search_str = f' {regex_search_str}'
-            if method == 'remove':
-                result = name.replace(regex_search_str, '').strip()
-
-            if method == 'get':
-                result = regex_search_str.strip()[1:-1].replace('Export', 'World')
-
-        return result
-
-    @staticmethod
-    def remove_tags(name: str, config: Config) -> str:
-        """
-        Removes tags found in internal-config.json that are set as "ignore tags" from
-        the input title's full name. This includes the explicit `ignore_tags` array, but
-        also the `promote_editions`, `demote_editions`, and `modern_editions` arrays.
-
-        Args:
-            name (str): A title's full name.
-
-            config (Config): The Retool config object.
-
-        Returns:
-            str: The full name of the title without any ignored tags.
-        """
-        for tag in config.tags_ignore:
-            if tag[1] == 'regex':
-                name = re.sub(tag[0], '', name).strip()
-            elif tag[1] == 'string':
-                if tag[0] in name:
-                    name = name.replace(f'{tag[0]}', '').replace('  ', ' ').strip()
-
-        return name
-
-    @staticmethod
-    def normalize_discs(name: str, config: Config) -> str:
-        """
-        Renames multiple variants of "Disk", "Disc", "Disque" and more found in title
-        names to the same standard to make title matching easier. The strings are defined
-        in the `disc_rename` array in internal-config.json.
-
-        Args:
-            name (str): A title's full name.
-
-            config (Config): The Retool config object.
-
-        Returns:
-            str: The full name of the title with any disc tags normalized.
-        """
-        for key, value in config.tags_disc_rename.items():
-            if key in name:
-                name = name.replace(key, value)
-
-        return name
-
-    @staticmethod
     def get_group_name(name: str, config: Config) -> str:
         """
-        Finds the group name of a given title from one of its other names.
-        A group name is generally determined by taking a name string up to the first
-        instance of ' (', although some exceptions have to be made for custom versioning
-        where parentheses aren't used.
+        Finds the group name of a given title from one of its other names. A group name is
+        generally determined by taking a name string up to the first instance of ' (',
+        although some exceptions have to be made for custom versioning where parentheses
+        aren't used.
 
         Args:
             name (str): A title's full name.
@@ -579,46 +423,266 @@ class TitleTools:
         if name.find('(') != -1:
             name = name[: (name.find('(') - 1)].rstrip()
 
-        # Dreamcast version compensation
-        if re.search(config.regex.dreamcast_version, name):
-            name = re.sub(config.regex.dreamcast_version, '', name)
+        pattern_tuple: tuple[Pattern[str], ...] = (
+            config.regex.dreamcast_version,
+            config.regex.fmtowns_version,
+            config.regex.long_version,
+            *config.regex.mpal,
+            *config.regex.ntsc,
+            *config.regex.pal_60hz,
+            *config.regex.pal,
+            *config.regex.secam,
+        )
 
-        # FM-Towns/Pippin version compensation
-        if re.search(config.regex.fmtowns_pippin_version, name):
-            name = re.sub(config.regex.fmtowns_pippin_version, '', name)
+        problem_title_found: bool = False
 
-        # Long version compensation
-        if re.search(config.regex.long_version, name):
-            name = re.sub(config.regex.long_version, '', name)
+        for pattern_tag in pattern_tuple:
+            for pattern_string in config.version_ignore:
+                # Guard against known problem titles and long version checking
+                if pattern_tag == config.regex.long_version:
+                    if pattern2string(re.compile(pattern_string), name):
+                        problem_title_found = True
 
-        # Short version compensation
-        if re.search(config.regex.version_non_parens, name):
-            name = re.sub(config.regex.version_non_parens, '', name)
-
-        # Video standard compensation
-        for pattern in config.regex.ntsc:
-            if re.search(pattern, name):
-                name = re.sub(pattern, '', name)
-
-        for pattern in config.regex.pal:
-            if re.search(pattern, name):
-                name = re.sub(pattern, '', name)
-
-        for pattern in config.regex.pal_60hz:
-            if re.search(pattern, name):
-                name = re.sub(pattern, '', name)
-
-        for pattern in config.regex.secam:
-            if re.search(pattern, name):
-                name = re.sub(pattern, '', name)
+            if problem_title_found:
+                continue
+            else:
+                name = re.sub(pattern_tag, '', name).strip()
 
         return name.lower().replace('  ', ' ').strip()
 
     @staticmethod
+    def get_normalized_version(title_full_name: str, config: Config) -> dict[str, str | bool]:
+        """
+        Normalizes version strings so they can be compared.
+
+        Args:
+            title_full_name (str): The full name of the title.
+
+            config (Config): The Retool config object.
+
+        Returns:
+            list[str]: The normalized versions in string form.
+        """
+        version: str = ''
+        versions: dict[str, str | bool] = {}
+
+        # Guard against known problem titles having versions misassigned
+        problem_title_found: bool = False
+        for pattern_string in config.version_ignore:
+            if pattern2string(re.compile(pattern_string), title_full_name):
+                problem_title_found = True
+
+        for pattern in config.regex.versions:
+            # Guard against DreamCast/FMTowns and version collisions
+            if 'dreamcast' in versions:
+                if (
+                    versions['dreamcast']
+                    and pattern == config.regex.fmtowns_version
+                    or pattern == config.regex.long_version
+                ):
+                    continue
+
+            # Guard against FMTowns and version collisions
+            if 'fmtowns' in versions:
+                if versions['fmtowns'] and (
+                    pattern == config.regex.version or pattern == config.regex.long_version
+                ):
+                    continue
+
+            # Guard against known problem titles and long version checking
+            if pattern == config.regex.long_version and problem_title_found:
+                continue
+
+            # Normalize version strings
+            if (
+                pattern != config.regex.nintendo_mastering_code
+                and pattern != config.regex.fmtowns_version
+                and not problem_title_found
+            ):
+                title_full_name = re.sub(' Version ((\\d\\.?)+)', ' (v\\1)', title_full_name)
+                title_full_name = re.sub(' (v(\\d\\.?)+)', ' (\\1)', title_full_name)
+
+                # Fix bad beta tags
+                title_full_name = re.sub(
+                    ' \\((v(\\d\\.?)+)beta\\)', ' (\\1) (Beta)', title_full_name
+                )
+
+            # Get the version from the title, if it exists
+            regex_search_str = pattern2string(pattern, title_full_name)
+
+            if regex_search_str:
+                version = regex_search_str.replace('(', '').replace(')', '')
+
+                # Preprocess special version types
+                if pattern == config.regex.famicom_disk_system_version:
+                    version = max(re.findall('\\d+', version))
+                elif pattern == config.regex.nec_mastering_code:
+                    version = max(version.split(', '))
+                elif pattern == config.regex.sega_panasonic_ring_code:
+                    if pattern2string(re.compile('\\d+'), version):
+                        version = str(max([int(i) for i in re.findall('\\d+', version)]))
+                    else:
+                        version = '0'
+                elif pattern == config.regex.beta:
+                    if version == 'Beta':
+                        version = '0'
+                elif pattern == config.regex.alpha:
+                    if version == 'Alpha':
+                        version = '0'
+                elif pattern == config.regex.proto:
+                    if version == 'Proto' or version == 'Prototype':
+                        version = '0'
+                elif pattern == config.regex.alt:
+                    if version == 'Alt':
+                        version = '0'
+
+                # Convert names that have two version strings into a single version.
+                # For example, convert "v1.2.0, v2096" to "1.2.0.2096". From hereon,
+                # the first version is referred to as version A, the second as version B.
+                # These turn up in DAT files like 3DS (Digital), Commodore Amiga,
+                # PS3 (Digital) (Content), IBM - PC and Compatibles (Flux), and
+                # IBM - PC and Compatibles (Digital) (GOG).
+
+                # Clean up known strings that would otherwise interfere with the process
+                version = (
+                    version.replace('PS3 ', '')
+                    .replace('-to-', ', ')
+                    .replace(' - AGI', ',')
+                    .replace('rev', '')
+                )
+
+                # Detect if there are two versions listed
+                num_versions: int = len(re.findall('v[\\d+\\.\\-]+', version))
+
+                if re.search('v[\\d+\\.]+(?:, )\\d{4}-\\d{2}-\\d{2}', version):
+                    num_versions = len(re.findall('(v[\\d+\\.]+|\\d{4}-\\d{2}-\\d{2})', version))
+
+                if num_versions == 2:
+                    # Split the versions into lists of lists. For example, "v1.4.1 v2096"
+                    # becomes [['1'], ['4'], ['1']] and ['2096'].
+                    version_a = re.findall('[\\d+\\.\\-]+', version)[0]
+                    version_b = str(re.findall('[\\d+\\.\\-]+', version)[1]).replace('-', '.')
+
+                    # Normalize the version A lengths. For example, if given 1.4.1
+                    # or 1.4, make them 1.4.1.0.0 and 1.4.0.0.0. This gives room for
+                    # versioning systems to get crazier than expected.
+                    version_a_parsed = [
+                        re.findall('[\\d+\\.\\-]+', x) for x in version_a.split('.')
+                    ]
+
+                    version_a_zip: list[Any] = list(
+                        zip_longest(version_a_parsed, [['0'] * 6], fillvalue=['0'])
+                    )
+
+                    try:
+                        version = '.'.join([i[0][0] for i in version_a_zip])
+                    except Exception:
+                        # If an unexpected versioning system turns up that causes a tuple
+                        # item in version_a_zip to be empty, fail silently
+                        pass
+
+                    # Add the version B to version A
+                    version = f'{version}.{version_b}'
+
+                # Remove known prefixes and strip whitespace
+                version = version.strip()
+                if pattern == config.regex.long_version:
+                    version = re.sub(
+                        'ver\\.',
+                        '',
+                        version,
+                        flags=re.I,
+                    )
+
+                if (
+                    pattern != config.regex.nintendo_mastering_code
+                    and pattern != config.regex.ps_vita_id
+                ):
+                    version = re.sub(
+                        'version|^(v|Rev|Version|Beta|Alpha|Prototype|Proto|Build|Alt|FW)|\\s',
+                        '',
+                        version,
+                        flags=re.I,
+                    )
+
+                # Compensate for Doom version wackiness
+                if '666' in version and 'Doom' in title_full_name:
+                    version = version.replace('666', '6.6.6')
+
+                # If the versioning system uses . separators, do further cleanup
+                if '.' in version:
+
+                    # Compensate for bad version strings that start with '.'
+                    if re.search('^\\.', version):
+                        version = re.sub('^\\.', '0.', version)
+
+                # Assign the version type
+                if pattern == config.regex.revision:
+                    versions['revision'] = version
+                elif pattern == (
+                    config.regex.sega_panasonic_ring_code
+                    or config.regex.sega_ringedge_serial):
+                    versions['sega'] = version
+                elif pattern == config.regex.nec_mastering_code:
+                    versions['nec'] = version
+                elif pattern == config.regex.beta:
+                    versions['beta'] = version
+                    versions['preproduction'] = True
+                elif pattern == config.regex.alpha:
+                    versions['alpha'] = version
+                    versions['preproduction'] = True
+                elif pattern == config.regex.proto:
+                    versions['proto'] = version
+                    versions['preproduction'] = True
+                elif pattern == config.regex.build:
+                    versions['build'] = version
+                elif pattern == config.regex.preprod:
+                    versions['preproduction'] = True
+                elif pattern == config.regex.dev:
+                    versions['preproduction'] = True
+                elif pattern == config.regex.alt:
+                    versions['alt'] = version
+                elif pattern == config.regex.ps_firmware:
+                    versions['firmware'] = version
+                elif (
+                    pattern == config.regex.ps1_2_id
+                    or pattern == config.regex.ps3_id
+                    or pattern == config.regex.ps3_digital_id
+                    or pattern == config.regex.ps4_id
+                    or pattern == config.regex.ps5_id
+                    or pattern == config.regex.psp_id
+                    or pattern == config.regex.ps_vita_id
+                ):
+                    # There are enough PlayStation ID variants that sometimes the regex
+                    # overlaps. We need to make sure the same version string isn't added
+                    # twice.
+                    if 'playstation' in versions:
+                        if versions['playstation'] != version:
+                            versions['playstation'] = version
+                    else:
+                        versions['playstation'] = version
+                else:
+                    versions['version'] = version
+
+                # Add the guard clauses for DreamCast and FMTowns
+                if pattern == config.regex.dreamcast_version:
+                    versions['dreamcast'] = True
+                elif pattern == config.regex.fmtowns_version:
+                    versions['fmtowns'] = True
+
+        # Clean up the guard clauses
+        if 'dreamcast' in versions:
+            del versions['dreamcast']
+        elif 'fmtowns' in versions:
+            del versions['fmtowns']
+
+        return versions
+
+    @staticmethod
     def get_region_free_name(name: str, tags: set[str], config: Config) -> str:
         """
-        Finds the region-free name of a title, given its full name. This means both
-        the name's regions and languages are removed.
+        Finds the region-free name of a title, given its full name. This means both the
+        name's regions and languages are removed.
 
         Args:
             name (str): A title's full name.
@@ -650,8 +714,8 @@ class TitleTools:
     @staticmethod
     def get_short_name(name: str, tags: set[str], config: Config) -> str:
         """
-        Finds the short name of a given title. A short name is a full name that has
-        had its ignored, region, and language tags removed, and its disc names normalized.
+        Finds the short name of a given title. A short name is a full name that has had
+        its ignored, region, and language tags removed, and its disc names normalized.
 
         Among other things, the short name helps to differentiate titles that are assigned
         to the same group. For example, `Title 1 (USA) (Disc 1)` and
@@ -676,6 +740,158 @@ class TitleTools:
         return name.lower()
 
     @staticmethod
+    def languages(name: str, tags: set[str], config: Config, method: str) -> str:
+        """
+        Identifies the languages in a title's name, and either returns just the languages,
+        or returns the title's name without the languages tag.
+
+        Redump now uses two sets of language tags for some titles, so we need to remove
+        both, but only return the first.
+
+        Args:
+            name (str): A title's full name.
+
+            config (Config): The Retool config object.
+
+            tags: (set[str]): The title tags.
+
+            method (str): Whether to `get` the languages from the title's name, or
+                `remove` them.
+
+        Returns:
+            str: Either the name of the title with the languages tag stripped, or just the
+            languages.
+        """
+        regex_search_strs: list[str] = []
+        result: str = ''
+
+        if tags:
+            for tag in tags:
+                if pattern2string(config.regex.languages, tag):
+                    regex_search_strs.append(pattern2string(config.regex.languages, tag))
+        else:
+            regex_search_strs.append(pattern2string(config.regex.languages, name))
+
+        if regex_search_strs:
+            if method == 'remove':
+                result = name
+                for regex_search_str in regex_search_strs:
+                    result = result.replace(f'{regex_search_str}', '').replace('  ', ' ').strip()
+
+            if method == 'get':
+                result = regex_search_strs[0].strip()[1:-1]
+
+        return result
+
+    @staticmethod
+    def normalize_discs(name: str, config: Config) -> str:
+        """
+        Renames multiple variants of "Disk", "Disc", "Disque" and more found in title
+        names to the same standard to make title matching easier. The strings are defined
+        in the `disc_rename` array in `internal-config.json`.
+
+        Args:
+            name (str): A title's full name.
+
+            config (Config): The Retool config object.
+
+        Returns:
+            str: The full name of the title with any disc tags normalized.
+        """
+        for key, value in config.tags_disc_rename.items():
+            if key in name:
+                name = name.replace(key, value)
+
+        return name
+
+    @staticmethod
+    def regions(name: str, config: Config, method: str) -> str:
+        """
+        Identifies the regions in a title's name, and either returns just
+        the regions, or returns the title's name without the regions tag.
+
+        Args:
+            name (str): A title's full name.
+
+            config (Config): The Retool config object.
+
+            method (str): Whether to `get` the languages from the title's name, or
+                `remove` them.
+
+        Returns:
+            str: Either the name of the title with the region tag stripped, or just the
+            regions.
+        """
+        regex_search_str: str = pattern2string(config.regex.region_order_default, name)
+
+        result: str = ''
+
+        if regex_search_str:
+            regex_search_str = f' {regex_search_str}'
+            if method == 'remove':
+                result = name.replace(regex_search_str, '').strip()
+
+            if method == 'get':
+                result = regex_search_str.strip()[1:-1].replace('Export', 'World')
+
+        return result
+
+    @staticmethod
+    def remove_tags(name: str, config: Config) -> str:
+        """
+        Removes tags found in `internal-config.json` that are set as "ignore tags" from
+        the input title's full name. This includes the explicit `ignore_tags` array, but
+        also the `promote_editions`, `demote_editions`, and `modern_editions` arrays.
+
+        Args:
+            name (str): A title's full name.
+
+            config (Config): The Retool config object.
+
+        Returns:
+            str: The full name of the title without any ignored tags.
+        """
+        for tag in config.tags_ignore:
+            if tag[1] == 'regex':
+                name = re.sub(tag[0], '', name).strip()
+            elif tag[1] == 'string':
+                if tag[0] in name:
+                    name = name.replace(f'{tag[0]}', '').replace('  ', ' ').strip()
+
+        pattern_tuple: tuple[Pattern[str], ...] = (
+            *config.regex.dates,
+            *config.regex.mpal,
+            *config.regex.ntsc,
+            *config.regex.pal_60hz,
+            *config.regex.pal,
+            *config.regex.preproduction,
+            *config.regex.secam,
+            *config.regex.unl_group,
+            *config.regex.versions,
+            *config.regex.video,
+            config.regex.multimedia,
+            config.regex.oem,
+            config.regex.rerelease,
+            config.regex.review,
+        )
+
+        problem_title_found: bool = False
+
+        for pattern_tag in pattern_tuple:
+            for pattern_string in config.version_ignore:
+                # Guard against known problem titles and long version checking
+                if pattern_tag == config.regex.long_version:
+                    if pattern2string(re.compile(pattern_string), name):
+                        problem_title_found = True
+
+            if problem_title_found:
+                continue
+            else:
+                name = re.sub(pattern_tag, '', name).strip().replace('  ', ' ')
+
+        return name
+
+    @staticmethod
     def replace_invalid_characters(name: str, config: Config, is_header_detail: bool) -> str:
         r"""
         Removes invalid file / folder name characters from a string.
@@ -685,9 +901,9 @@ class TitleTools:
 
             config (Config): The Retool config object.
 
-            is_header_detail (bool): Set to `True` if checking a DAT's header strings
-            for invalid characters. Unlike filepaths, `/` and `\` are replaced for
-            header details.
+            is_header_detail (bool): Set to `True` if checking a DAT's header strings for
+                invalid characters. Unlike filepaths, `/` and `\` are replaced for header
+                details.
 
         Returns:
             str: A string with invalid characters removed.
@@ -732,7 +948,7 @@ class TraceTools:
             trace_str (str): The string being traced.
 
         Returns:
-            bool: If a match for the trace string is foundm returns `True`. Otherwise,
+            bool: If a match for the trace string is found, returns `True`. Otherwise,
             returns `False`.
         """
         report_on_match: bool = False
@@ -747,8 +963,8 @@ class TraceTools:
     @staticmethod
     def trace_title(
         trace_reference: str,
-        variable: list[str] = [],
-        title_set: set[DatNode] = set(),
+        variable: list[str] | None = None,
+        title_set: set[DatNode] | None = None,
         keep_remove: bool = False,
     ) -> None:
         """
@@ -758,20 +974,23 @@ class TraceTools:
 
         Args:
             trace_reference (str): In the format `REF####`. Causes the relevant message
-            print, based on its reference number.
+                print, based on its reference number.
 
             variable (list[str], optional): Variables that can be included in the
-            reference message, or alternatively, to specify which title is being kept and
-            which is being removed when comparing two titles. Defaults to `[]`.
+                reference message, or alternatively, to specify which title is being kept
+                and which is being removed when comparing two titles. Defaults to `None`.
 
             title_set (set[DatNode], optional): The set of DatNodes that are being
-            acted upon. Defaults to `set()`.
+                acted upon. Defaults to `None`.
 
-            keep_remove (bool, optional): Whether or not to show text which indicates
-            which title has been kept, and which has been removed when comparing two
-            titles. Defaults to `False`.
+            keep_remove (bool, optional): Whether to show text which indicates which title
+                has been kept, and which has been removed when comparing two titles.
+                Defaults to `False`.
         """
         message: str = ''
+        variable = variable if variable is not None else []
+        title_set = title_set if title_set is not None else set()
+
         if trace_reference == 'REF0001':
             message = 'Original unmodified group:'
         if trace_reference == 'REF0002':
@@ -892,8 +1111,6 @@ class TraceTools:
             message = 'Group after handling Alt versions:'
         if trace_reference == 'REF0062':
             message = 'ACTION: Excluded due to known MIA:'
-        if trace_reference == 'REF0063':
-            message = 'ACTION: Title tagged as MIA:'
         if trace_reference == 'REF0066':
             message = 'ACTION: Included due to being related to a system or global override:'
         if trace_reference == 'REF0067':
@@ -933,7 +1150,7 @@ class TraceTools:
         if trace_reference == 'REF0084':
             message = f'Fallback language comparison. Compare languages based on default region order.\nDefault region language order: {variable[0]}'
         if trace_reference == 'REF0085':
-            message = f'ACTION: ROM tagged as MIA in {Font.b}{variable[0]}{Font.be}:'
+            message = f'ACTION: ROM tagged as MIA due to name match in {Font.b}{variable[0]}{Font.be} (name: {variable[1]}):'
         if trace_reference == 'REF0086':
             message = 'ACTION: User has region bias enabled, selecting a higher region title than the superset:'
         if trace_reference == 'REF0087':
@@ -1030,6 +1247,16 @@ class TraceTools:
             message = f'ACTION: Marking a title as the oldest due to a condition in the {Font.b}Variants{Font.be} object being true:'
         if trace_reference == 'REF0133':
             message = 'Group after handling budget editions:'
+        if trace_reference == 'REF0134':
+            message = f'ACTION: ROM tagged as MIA due to CRC match in {Font.b}{variable[0]}{Font.be} (CRC: {variable[1]}):'
+        if trace_reference == 'REF0135':
+            message = f'ACTION: ROM tagged as MIA due to CRC and name match in {Font.b}{variable[0]}{Font.be} (CRC: {variable[1]}, name: {variable[2]}):'
+        if trace_reference == 'REF0136':
+            message = f'ACTION: Title tagged as supporting RetroAchievements {Font.b}{variable[0]}{Font.be}'
+        if trace_reference == 'REF0137':
+            message = 'ACTION: Choose RetroAchievements:'
+        if trace_reference == 'REF0138':
+            message = 'ACTION: Choose RetroAchievements:'
 
         if trace_reference:
             eprint(

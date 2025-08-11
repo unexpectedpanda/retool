@@ -22,7 +22,7 @@ what region a title was from and what languages it supported, and built user-ena
 support into ROM managers to select titles based on the user's region and language
 preferences. It was, at the time, enough.
 
-As DAT files became more detailed, 1G1R caoability failed to keep pace.
+As DAT files became more detailed, 1G1R capability failed to keep pace.
 
 ## The problems with ROM manager 1G1R and parent/clone DAT files
 

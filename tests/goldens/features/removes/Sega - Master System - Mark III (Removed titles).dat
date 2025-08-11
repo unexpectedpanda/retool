@@ -1,0 +1,1594 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>Sega - Master System - Mark III (Retool) (Removed titles)</name>
+		<description>Sega - Master System - Mark III (263) (20231025-002124) (Retool) (Removed titles)</description>
+		<version>20231025-002124</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>Arctic Circle System, BigFred, C. V. Reynolds, fuzzball, gigadeath, Hiccup, kazumi213, nnssxx, NovaAurora, omonim2007, rarenight, relax, Rifu, sCZther, SonGoku, TeamEurope, xuom2</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<retool>Created by Retool X</retool>
+		<clrmamepro forcenodump="required"></clrmamepro>
+	</header>
+	<game name="94-Nen Super Basketball (Taiwan) (En) (Unl)" id="0639">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Great Basketball (World)</comment>
+		<description>94-Nen Super Basketball (Taiwan) (En) (Unl)</description>
+		<rom name="94-Nen Super Basketball (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Action Boy (Taiwan) (En) (Unl)" id="0643">
+		<category>Games</category>
+		<comment>Remove reason: Clone of My Hero (USA, Europe, Brazil) (En)</comment>
+		<description>Action Boy (Taiwan) (En) (Unl)</description>
+		<rom name="Action Boy (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Action Fighter (Japan, Europe) (En)" id="0003">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Action Fighter (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Action Fighter (Japan, Europe) (En)</description>
+		<rom name="Action Fighter (Japan, Europe) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Action Fighter (Japan, Europe) (En) (Beta)" id="0584">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Action Fighter (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Action Fighter (Japan, Europe) (En) (Beta)</description>
+		<rom name="Action Fighter (Japan, Europe) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Action Fighter (Taiwan) (Unl)" id="0589">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Action Fighter (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Action Fighter (Taiwan) (Unl)</description>
+		<rom name="Action Fighter (Taiwan) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Aerial Assault (Europe, Brazil) (En)" id="0006">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Aerial Assault (USA)</comment>
+		<description>Aerial Assault (Europe, Brazil) (En)</description>
+		<rom name="Aerial Assault (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Aerial Assault (Taiwan) (En) (Unl)" id="0631">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Aerial Assault (USA)</comment>
+		<description>Aerial Assault (Taiwan) (En) (Unl)</description>
+		<rom name="Aerial Assault (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Agigongnyong Dooly (Korea) (Unl)" id="0512">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Dinosaur Dooley, The (Korea) (En) (Unl)</comment>
+		<description>Agigongnyong Dooly (Korea) (Unl)</description>
+		<rom name="Agigongnyong Dooly (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Aleste (Japan)" id="0010">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Power Strike (USA, Europe, Brazil) (En)</comment>
+		<description>Aleste (Japan)</description>
+		<rom name="Aleste (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd - High-Tech World (USA, Europe, Brazil) (En) (Beta)" id="0616">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Alex Kidd - High-Tech World (USA, Europe, Brazil) (En)</comment>
+		<description>Alex Kidd - High-Tech World (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Alex Kidd - High-Tech World (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd 3 - Curse in Miracle World (Unknown) (De) (v1.1) (Aftermarket) (Unl)" id="0720">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd 3 - Curse in Miracle World (Unknown) (En) (v1.1) (Aftermarket) (Unl)</comment>
+		<description>Alex Kidd 3 - Curse in Miracle World (Unknown) (De) (v1.1) (Aftermarket) (Unl)</description>
+		<rom name="Alex Kidd 3 - Curse in Miracle World (Unknown) (De) (v1.1) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd 3 - Curse in Miracle World (Unknown) (De) (v1.2) (Aftermarket) (Unl)" id="0676">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd 3 - Curse in Miracle World (Unknown) (En) (v1.1) (Aftermarket) (Unl)</comment>
+		<description>Alex Kidd 3 - Curse in Miracle World (Unknown) (De) (v1.2) (Aftermarket) (Unl)</description>
+		<rom name="Alex Kidd 3 - Curse in Miracle World (Unknown) (De) (v1.2) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd 3 - Curse in Miracle World (Unknown) (Es) (v1.1) (Aftermarket) (Unl)" id="0678">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd 3 - Curse in Miracle World (Unknown) (En) (v1.1) (Aftermarket) (Unl)</comment>
+		<description>Alex Kidd 3 - Curse in Miracle World (Unknown) (Es) (v1.1) (Aftermarket) (Unl)</description>
+		<rom name="Alex Kidd 3 - Curse in Miracle World (Unknown) (Es) (v1.1) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd 3 - Curse in Miracle World (Unknown) (Fr) (v1.1) (Aftermarket) (Unl)" id="0675">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd 3 - Curse in Miracle World (Unknown) (En) (v1.1) (Aftermarket) (Unl)</comment>
+		<description>Alex Kidd 3 - Curse in Miracle World (Unknown) (Fr) (v1.1) (Aftermarket) (Unl)</description>
+		<rom name="Alex Kidd 3 - Curse in Miracle World (Unknown) (Fr) (v1.1) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd 3 - Curse in Miracle World (Unknown) (It) (v1.0) (Aftermarket) (Unl)" id="0718">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd 3 - Curse in Miracle World (Unknown) (En) (v1.1) (Aftermarket) (Unl)</comment>
+		<description>Alex Kidd 3 - Curse in Miracle World (Unknown) (It) (v1.0) (Aftermarket) (Unl)</description>
+		<rom name="Alex Kidd 3 - Curse in Miracle World (Unknown) (It) (v1.0) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd 3 - Curse in Miracle World (Unknown) (Pt) (v1.1) (Aftermarket) (Unl)" id="0677">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd 3 - Curse in Miracle World (Unknown) (En) (v1.1) (Aftermarket) (Unl)</comment>
+		<description>Alex Kidd 3 - Curse in Miracle World (Unknown) (Pt) (v1.1) (Aftermarket) (Unl)</description>
+		<rom name="Alex Kidd 3 - Curse in Miracle World (Unknown) (Pt) (v1.1) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd in Miracle World (USA, Europe)" id="0015">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd in Miracle World (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Alex Kidd in Miracle World (USA, Europe)</description>
+		<rom name="Alex Kidd in Miracle World (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd in Miracle World (World) (Ja) (Sega Ages)" id="0656">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd in Miracle World (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Alex Kidd in Miracle World (World) (Ja) (Sega Ages)</description>
+		<rom name="Alex Kidd in Miracle World (World) (Ja) (Sega Ages).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd in Miracle World (World) (Sega Ages)" id="0657">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd in Miracle World (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Alex Kidd in Miracle World (World) (Sega Ages)</description>
+		<rom name="Alex Kidd in Miracle World (World) (Sega Ages).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kidd no Miracle World (Japan)" id="0014">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd in Miracle World (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Alex Kidd no Miracle World (Japan)</description>
+		<rom name="Alex Kidd no Miracle World (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alex Kido (Taiwan) (En) (Unl)" id="0612">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd in Miracle World (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Alex Kido (Taiwan) (En) (Unl)</description>
+		<rom name="Alex Kido (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alien Syndrome (Japan)" id="0021">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alien Syndrome (USA, Europe, Brazil) (En)</comment>
+		<description>Alien Syndrome (Japan)</description>
+		<rom name="Alien Syndrome (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Alien Syndrome (USA, Europe, Brazil) (En) (Beta)" id="0536">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Alien Syndrome (USA, Europe, Brazil) (En)</comment>
+		<description>Alien Syndrome (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Alien Syndrome (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="American Baseball (Europe, Brazil) (En)" id="0024">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Reggie Jackson Baseball (USA)</comment>
+		<description>American Baseball (Europe, Brazil) (En)</description>
+		<rom name="American Baseball (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="American Pro Football (Europe)" id="0025">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Walter Payton Football (USA)</comment>
+		<description>American Pro Football (Europe)</description>
+		<rom name="American Pro Football (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Anmitsu Hime (Japan)" id="0029">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alex Kidd - High-Tech World (USA, Europe, Brazil) (En)</comment>
+		<description>Anmitsu Hime (Japan)</description>
+		<rom name="Anmitsu Hime (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Argos no Juujiken (Japan)" id="0031">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Alocos (Taiwan) (En) (Unl)</comment>
+		<description>Argos no Juujiken (Japan)</description>
+		<rom name="Argos no Juujiken (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ashura (Japan)" id="0033">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Rambo - First Blood Part II (USA)</comment>
+		<description>Ashura (Japan)</description>
+		<rom name="Ashura (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Assault City (Europe) (Joypad)" id="0034">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Assault City (USA, Europe, Brazil) (En) (Light Phaser)</comment>
+		<description>Assault City (Europe) (Joypad)</description>
+		<rom name="Assault City (Europe) (Joypad).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Asterix (Europe, Brazil) (En,Fr)" id="0036">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Asterix (Europe, Brazil) (En,Fr) (Rev 1)</comment>
+		<description>Asterix (Europe, Brazil) (En,Fr)</description>
+		<rom name="Asterix (Europe, Brazil) (En,Fr).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Astro Adventure (Taiwan) (En) (Unl)" id="0645">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Penguin Land (USA, Europe)</comment>
+		<description>Astro Adventure (Taiwan) (En) (Unl)</description>
+		<rom name="Astro Adventure (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Astro Flash (Japan)" id="0040">
+		<category>Games</category>
+		<comment>Remove reason: Clone of TransBot (USA, Europe, Brazil) (En)</comment>
+		<description>Astro Flash (Japan)</description>
+		<rom name="Astro Flash (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Astro Warrior &amp; Pit Pot (Brazil) (En) (2011 Master System Evolution)" id="0776">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Astro Warrior &amp; Pit Pot (Europe)</comment>
+		<description>Astro Warrior &amp; Pit Pot (Brazil) (En) (2011 Master System Evolution)</description>
+		<rom name="Astro Warrior &amp; Pit Pot (Brazil) (En) (2011 Master System Evolution).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Aztel Adventure (Taiwan) (En) (Unl)" id="0732">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Aztec Adventure (World)</comment>
+		<description>Aztel Adventure (Taiwan) (En) (Unl)</description>
+		<rom name="Aztel Adventure (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Basketball Nightmare (Europe, Brazil) (En) (Beta 1)" id="0669">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Basketball Nightmare (Europe, Brazil) (En)</comment>
+		<description>Basketball Nightmare (Europe, Brazil) (En) (Beta 1)</description>
+		<rom name="Basketball Nightmare (Europe, Brazil) (En) (Beta 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Basketball Nightmare (Europe, Brazil) (En) (Beta 2)" id="0628">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Basketball Nightmare (Europe, Brazil) (En)</comment>
+		<description>Basketball Nightmare (Europe, Brazil) (En) (Beta 2)</description>
+		<rom name="Basketball Nightmare (Europe, Brazil) (En) (Beta 2).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Black Belt (Taiwan) (En) (Unl)" id="0634">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Black Belt (USA, Europe, Brazil) (En)</comment>
+		<description>Black Belt (Taiwan) (En) (Unl)</description>
+		<rom name="Black Belt (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Blade Eagle (World) (Beta)" id="0503">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Blade Eagle 3-D (World)</comment>
+		<description>Blade Eagle (World) (Beta)</description>
+		<rom name="Blade Eagle (World) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bread and Butter (World) (v1.00) (Aftermarket) (Unl)" id="0690">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bread and Butter (World) (v1.032) (Aftermarket) (Unl)</comment>
+		<description>Bread and Butter (World) (v1.00) (Aftermarket) (Unl)</description>
+		<rom name="Bread and Butter (World) (v1.00) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bread and Butter (World) (v1.01) (Aftermarket) (Unl)" id="0691">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bread and Butter (World) (v1.032) (Aftermarket) (Unl)</comment>
+		<description>Bread and Butter (World) (v1.01) (Aftermarket) (Unl)</description>
+		<rom name="Bread and Butter (World) (v1.01) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bread and Butter (World) (v1.026) (Aftermarket) (Unl)" id="0692">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bread and Butter (World) (v1.032) (Aftermarket) (Unl)</comment>
+		<description>Bread and Butter (World) (v1.026) (Aftermarket) (Unl)</description>
+		<rom name="Bread and Butter (World) (v1.026) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v0.20) (Aftermarket) (Unl)" id="0708">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.00) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v0.20) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v0.20) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v0.21) (Aftermarket) (Unl)" id="0707">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.00) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v0.21) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v0.21) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v0.22) (Aftermarket) (Unl)" id="0706">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.00) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v0.22) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v0.22) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v0.50) (Aftermarket) (Unl)" id="0705">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.00) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v0.50) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v0.50) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v0.51) (Aftermarket) (Unl)" id="0704">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.00) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v0.51) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v0.51) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v0.52) (Aftermarket) (Unl)" id="0703">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.00) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v0.52) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v0.52) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v0.75) (Aftermarket) (Unl)" id="0702">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.00) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v0.75) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v0.75) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v1.00) (Tech Demo) (Aftermarket) (Unl)" id="0709">
+		<category>Demos</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.05) (Tech Demo) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v1.00) (Tech Demo) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v1.00) (Tech Demo) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v1.01) (Tech Demo) (Aftermarket) (Unl)" id="0710">
+		<category>Demos</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.05) (Tech Demo) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v1.01) (Tech Demo) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v1.01) (Tech Demo) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v1.02) (Tech Demo) (Aftermarket) (Unl)" id="0711">
+		<category>Demos</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.05) (Tech Demo) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v1.02) (Tech Demo) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v1.02) (Tech Demo) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bruce Lee (Unknown) (v1.04) (Tech Demo) (Aftermarket) (Unl)" id="0712">
+		<category>Demos</category>
+		<comment>Remove reason: Clone of Bruce Lee (Unknown) (v1.05) (Tech Demo) (Aftermarket) (Unl)</comment>
+		<description>Bruce Lee (Unknown) (v1.04) (Tech Demo) (Aftermarket) (Unl)</description>
+		<rom name="Bruce Lee (Unknown) (v1.04) (Tech Demo) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Bubble Bobble (Taiwan) (En) (Unl)" id="0635">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bubble Bobble (Europe, Brazil) (En)</comment>
+		<description>Bubble Bobble (Taiwan) (En) (Unl)</description>
+		<rom name="Bubble Bobble (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Captain Silver (Japan, Europe, Brazil) (En)" id="0063">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Captain Silver (USA)</comment>
+		<description>Captain Silver (Japan, Europe, Brazil) (En)</description>
+		<rom name="Captain Silver (Japan, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Captain Silver (USA) (Beta)" id="0585">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Captain Silver (USA)</comment>
+		<description>Captain Silver (USA) (Beta)</description>
+		<rom name="Captain Silver (USA) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)" id="0068">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)</description>
+		<rom name="Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Choplifter (Japan) (Proto)" id="0073">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Choplifter (USA, Europe, Brazil) (En)</comment>
+		<description>Choplifter (Japan) (Proto)</description>
+		<rom name="Choplifter (Japan) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Choplifter (Taiwan) (En) (Unl)" id="0731">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Choplifter (USA, Europe, Brazil) (En)</comment>
+		<description>Choplifter (Taiwan) (En) (Unl)</description>
+		<rom name="Choplifter (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Choplifter (USA, Europe, Brazil) (En) (Beta)" id="0538">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Choplifter (USA, Europe, Brazil) (En)</comment>
+		<description>Choplifter (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Choplifter (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Chouon Senshi Borgman (Japan)" id="0075">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Cyborg Hunter (USA, Europe, Brazil) (En)</comment>
+		<description>Chouon Senshi Borgman (Japan)</description>
+		<rom name="Chouon Senshi Borgman (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Chouon Senshi Borgman (Japan) (Beta)" id="0531">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Cyborg Hunter (USA, Europe, Brazil) (En)</comment>
+		<description>Chouon Senshi Borgman (Japan) (Beta)</description>
+		<rom name="Chouon Senshi Borgman (Japan) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Chuck Rock II - Son of Chuck (Brazil) (En)" id="0077">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Chuck Rock II - Son of Chuck (Europe)</comment>
+		<description>Chuck Rock II - Son of Chuck (Brazil) (En)</description>
+		<rom name="Chuck Rock II - Son of Chuck (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Circuit, The (Japan)" id="0079">
+		<category>Games</category>
+		<comment>Remove reason: Clone of World Grand Prix (USA, Brazil) (En)</comment>
+		<description>Circuit, The (Japan)</description>
+		<rom name="Circuit, The (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Color &amp; Switch Test (Japan) (En) (Proto)" id="0081">
+		<category>Applications</category>
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Color &amp; Switch Test (Brazil) (En) (Rev 1)</comment>
+		<description>Color &amp; Switch Test (Japan) (En) (Proto)</description>
+		<rom name="Color &amp; Switch Test (Japan) (En) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Columns (USA, Europe, Brazil) (En) (Beta)" id="0532">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Columns (USA, Europe, Brazil) (En)</comment>
+		<description>Columns (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Columns (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Comical Machine Gun Joe (Korea) (Unl)" id="0594">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Comical Machine Gun Joe (Japan)</comment>
+		<description>Comical Machine Gun Joe (Korea) (Unl)</description>
+		<rom name="Comical Machine Gun Joe (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Comical Machine Gun Joe (Taiwan) (Unl)" id="0556">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Comical Machine Gun Joe (Japan)</comment>
+		<description>Comical Machine Gun Joe (Taiwan) (Unl)</description>
+		<rom name="Comical Machine Gun Joe (Taiwan) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cyber Shinobi, The (Europe, Brazil) (En) (Beta)" id="0539">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Cyber Shinobi, The (Europe, Brazil) (En)</comment>
+		<description>Cyber Shinobi, The (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Cyber Shinobi, The (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cyber Shinobi, The (Taiwan) (En) (Unl)" id="0636">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Cyber Shinobi, The (Europe, Brazil) (En)</comment>
+		<description>Cyber Shinobi, The (Taiwan) (En) (Unl)</description>
+		<rom name="Cyber Shinobi, The (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Cyborg Hunter (USA, Europe, Brazil) (En) (Beta) (1988-09-12)" id="0625">
+		<category>Games</category>
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Cyborg Hunter (USA, Europe, Brazil) (En)</comment>
+		<description>Cyborg Hunter (USA, Europe, Brazil) (En) (Beta) (1988-09-12)</description>
+		<rom name="Cyborg Hunter (USA, Europe, Brazil) (En) (Beta) (1988-09-12).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dead Angle (USA, Europe, Brazil) (En) (Beta)" id="0661">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Dead Angle (USA, Europe, Brazil) (En)</comment>
+		<description>Dead Angle (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Dead Angle (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Doki Doki Penguin Land - Uchuu Daibouken (Japan)" id="0098">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Penguin Land (USA, Europe)</comment>
+		<description>Doki Doki Penguin Land - Uchuu Daibouken (Japan)</description>
+		<rom name="Doki Doki Penguin Land - Uchuu Daibouken (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Doki Doki Penguin Land - Uchuu Daibouken (Japan) (Beta)" id="0506">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Penguin Land (USA, Europe)</comment>
+		<description>Doki Doki Penguin Land - Uchuu Daibouken (Japan) (Beta)</description>
+		<rom name="Doki Doki Penguin Land - Uchuu Daibouken (Japan) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Double Dragon (Taiwan) (En) (Unl)" id="0637">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Double Dragon (World)</comment>
+		<description>Double Dragon (Taiwan) (En) (Unl)</description>
+		<rom name="Double Dragon (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Double Hawk (Europe) (Beta)" id="0449">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Double Hawk (Europe)</comment>
+		<description>Double Hawk (Europe) (Beta)</description>
+		<rom name="Double Hawk (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Double Target - Cynthia no Nemuri (Japan)" id="0101">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Quartet (USA, Europe)</comment>
+		<description>Double Target - Cynthia no Nemuri (Japan)</description>
+		<rom name="Double Target - Cynthia no Nemuri (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Dynamite Dux (Europe, Brazil) (En) (Beta)" id="0665">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Dynamite Dux (Europe, Brazil) (En)</comment>
+		<description>Dynamite Dux (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Dynamite Dux (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="E-SWAT (Taiwan) (En) (Unl)" id="0733">
+		<category>Games</category>
+		<comment>Remove reason: Clone of E-SWAT (USA, Europe, Brazil) (En) (Rev A)</comment>
+		<description>E-SWAT (Taiwan) (En) (Unl)</description>
+		<rom name="E-SWAT (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="E-SWAT (USA, Europe, Brazil) (En)" id="0108">
+		<category>Games</category>
+		<comment>Remove reason: Clone of E-SWAT (USA, Europe, Brazil) (En) (Rev A)</comment>
+		<description>E-SWAT (USA, Europe, Brazil) (En)</description>
+		<rom name="E-SWAT (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="E-SWAT (USA, Europe, Brazil) (En) (Beta 1)" id="0586">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of E-SWAT (USA, Europe, Brazil) (En) (Rev A)</comment>
+		<description>E-SWAT (USA, Europe, Brazil) (En) (Beta 1)</description>
+		<rom name="E-SWAT (USA, Europe, Brazil) (En) (Beta 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="E-SWAT (USA, Europe, Brazil) (En) (Beta 2)" id="0587">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of E-SWAT (USA, Europe, Brazil) (En) (Rev A)</comment>
+		<description>E-SWAT (USA, Europe, Brazil) (En) (Beta 2)</description>
+		<rom name="E-SWAT (USA, Europe, Brazil) (En) (Beta 2).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="E-SWAT (USA, Europe, Brazil) (En) (Beta 3)" id="0588">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of E-SWAT (USA, Europe, Brazil) (En) (Rev A)</comment>
+		<description>E-SWAT (USA, Europe, Brazil) (En) (Beta 3)</description>
+		<rom name="E-SWAT (USA, Europe, Brazil) (En) (Beta 3).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Enduro Racer (USA, Europe, Brazil) (En)" id="0114">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Enduro Racer (Japan)</comment>
+		<description>Enduro Racer (USA, Europe, Brazil) (En)</description>
+		<rom name="Enduro Racer (USA, Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="F-16 Fighting Falcon (Japan)" id="0117">
+		<category>Games</category>
+		<comment>Remove reason: Clone of F-16 Fighter (USA, Europe, Brazil) (En)</comment>
+		<description>F-16 Fighting Falcon (Japan)</description>
+		<rom name="F-16 Fighting Falcon (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="F-16 Fighting Falcon (Taiwan) (Unl)" id="0557">
+		<category>Games</category>
+		<comment>Remove reason: Clone of F-16 Fighter (USA, Europe, Brazil) (En)</comment>
+		<description>F-16 Fighting Falcon (Taiwan) (Unl)</description>
+		<rom name="F-16 Fighting Falcon (Taiwan) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="F-16 Fighting Falcon (USA)" id="0118">
+		<category>Games</category>
+		<comment>Remove reason: Clone of F-16 Fighter (USA, Europe, Brazil) (En)</comment>
+		<description>F-16 Fighting Falcon (USA)</description>
+		<rom name="F-16 Fighting Falcon (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Family Games (Japan)" id="0120">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Parlour Games (USA, Europe)</comment>
+		<description>Family Games (Japan)</description>
+		<rom name="Family Games (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fantasy Zone (Japan)" id="0122">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Fantasy Zone (World) (Rev 1)</comment>
+		<description>Fantasy Zone (Japan)</description>
+		<rom name="Fantasy Zone (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fantasy Zone (Taiwan) (Unl)" id="0558">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Fantasy Zone (World) (Rev 1)</comment>
+		<description>Fantasy Zone (Taiwan) (Unl)</description>
+		<rom name="Fantasy Zone (Taiwan) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fantasy Zone (World) (Beta)" id="0123">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Fantasy Zone (World) (Rev 1)</comment>
+		<description>Fantasy Zone (World) (Beta)</description>
+		<rom name="Fantasy Zone (World) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fantasy Zone II - Opa-Opa no Namida (Japan)" id="0126">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Fantasy Zone II (USA, Europe, Brazil) (En)</comment>
+		<description>Fantasy Zone II - Opa-Opa no Namida (Japan)</description>
+		<rom name="Fantasy Zone II - Opa-Opa no Namida (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Final Bubble Bobble (Japan)" id="0130">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Bubble Bobble (Europe, Brazil) (En)</comment>
+		<description>Final Bubble Bobble (Japan)</description>
+		<rom name="Final Bubble Bobble (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Flight of Pigarus (Unknown) (v1.00) (Aftermarket) (Unl)" id="0695">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Flight of Pigarus (Unknown) (v1.11) (Aftermarket) (Unl)</comment>
+		<description>Flight of Pigarus (Unknown) (v1.00) (Aftermarket) (Unl)</description>
+		<rom name="Flight of Pigarus (Unknown) (v1.00) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Flight of Pigarus (Unknown) (v1.10) (Aftermarket) (Unl)" id="0696">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Flight of Pigarus (Unknown) (v1.11) (Aftermarket) (Unl)</comment>
+		<description>Flight of Pigarus (Unknown) (v1.10) (Aftermarket) (Unl)</description>
+		<rom name="Flight of Pigarus (Unknown) (v1.10) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Forgotten Worlds (Taiwan) (En) (Unl)" id="0638">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Forgotten Worlds (Europe, Brazil) (En)</comment>
+		<description>Forgotten Worlds (Taiwan) (En) (Unl)</description>
+		<rom name="Forgotten Worlds (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fushigi no Oshiro Pit Pot (Japan)" id="0136">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Astro Warrior &amp; Pit Pot (Europe)</comment>
+		<description>Fushigi no Oshiro Pit Pot (Japan)</description>
+		<rom name="Fushigi no Oshiro Pit Pot (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Fushigi no Oshiro Pit Pot (Japan) (Beta)" id="0725">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Astro Warrior &amp; Pit Pot (Europe)</comment>
+		<description>Fushigi no Oshiro Pit Pot (Japan) (Beta)</description>
+		<rom name="Fushigi no Oshiro Pit Pot (Japan) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gain Ground (Europe, Brazil) (En) (Beta)" id="0533">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Gain Ground (Europe, Brazil) (En)</comment>
+		<description>Gain Ground (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Gain Ground (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Galaxy Force (Europe, Brazil) (En)" id="0141">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Galaxy Force (USA)</comment>
+		<description>Galaxy Force (Europe, Brazil) (En)</description>
+		<rom name="Galaxy Force (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Game Mo-eumjip 188 Hap (Korea) (v1.0) (Unl)" id="0671">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Game Mo-eumjip 188 Hap (Korea) (v1.1) (Unl)</comment>
+		<description>Game Mo-eumjip 188 Hap (Korea) (v1.0) (Unl)</description>
+		<rom name="Game Mo-eumjip 188 Hap (Korea) (v1.0) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="George Foreman's KO Boxing (Europe, Brazil) (En)" id="0146">
+		<category>Games</category>
+		<comment>Remove reason: Clone of James 'Buster' Douglas Knockout Boxing (USA)</comment>
+		<description>George Foreman's KO Boxing (Europe, Brazil) (En)</description>
+		<rom name="George Foreman's KO Boxing (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ghost House (Japan)" id="0148">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Ghost House (USA, Europe, Brazil) (En)</comment>
+		<description>Ghost House (Japan)</description>
+		<rom name="Ghost House (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ghost House (USA, Europe, Brazil) (En) (Beta)" id="0150">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Ghost House (USA, Europe, Brazil) (En)</comment>
+		<description>Ghost House (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Ghost House (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Global Defense (USA, Europe, Brazil) (En) (Beta)" id="0154">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Global Defense (USA, Europe, Brazil) (En)</comment>
+		<description>Global Defense (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Global Defense (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gokuaku Doumei Dump Matsumoto (Japan)" id="0155">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Pro Wrestling (USA, Europe, Brazil) (En)</comment>
+		<description>Gokuaku Doumei Dump Matsumoto (Japan)</description>
+		<rom name="Gokuaku Doumei Dump Matsumoto (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Golfamania (Europe) (Beta)" id="0159">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Golfamania (Europe, Brazil) (En)</comment>
+		<description>Golfamania (Europe) (Beta)</description>
+		<rom name="Golfamania (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gotris (Unknown) (v0.6) (Aftermarket) (Unl)" id="0684">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Gotris (World) (v0.5) (Aftermarket) (Unl)</comment>
+		<description>Gotris (Unknown) (v0.6) (Aftermarket) (Unl)</description>
+		<rom name="Gotris (Unknown) (v0.6) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gotris (Unknown) (v0.7) (NTSC) (Aftermarket) (Unl)" id="0686">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Gotris (World) (v0.5) (Aftermarket) (Unl)</comment>
+		<description>Gotris (Unknown) (v0.7) (NTSC) (Aftermarket) (Unl)</description>
+		<rom name="Gotris (Unknown) (v0.7) (NTSC) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gotris (Unknown) (v0.7) (PAL) (Aftermarket) (Unl)" id="0685">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Gotris (World) (v0.5) (Aftermarket) (Unl)</comment>
+		<description>Gotris (Unknown) (v0.7) (PAL) (Aftermarket) (Unl)</description>
+		<rom name="Gotris (Unknown) (v0.7) (PAL) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gotris (Unknown) (v0.8) (NTSC) (Aftermarket) (Unl)" id="0687">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Gotris (World) (v0.5) (Aftermarket) (Unl)</comment>
+		<description>Gotris (Unknown) (v0.8) (NTSC) (Aftermarket) (Unl)</description>
+		<rom name="Gotris (Unknown) (v0.8) (NTSC) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gotris (Unknown) (v0.8) (PAL) (Aftermarket) (Unl)" id="0688">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Gotris (World) (v0.5) (Aftermarket) (Unl)</comment>
+		<description>Gotris (Unknown) (v0.8) (PAL) (Aftermarket) (Unl)</description>
+		<rom name="Gotris (Unknown) (v0.8) (PAL) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gotris (Unknown) (v1.2p) (Aftermarket) (Unl)" id="0689">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Gotris (World) (v0.5) (Aftermarket) (Unl)</comment>
+		<description>Gotris (Unknown) (v1.2p) (Aftermarket) (Unl)</description>
+		<rom name="Gotris (Unknown) (v1.2p) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gotris (Unknown) (v1.3p) (NTSC) (Aftermarket) (Unl)" id="0714">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Gotris (World) (v0.5) (Aftermarket) (Unl)</comment>
+		<description>Gotris (Unknown) (v1.3p) (NTSC) (Aftermarket) (Unl)</description>
+		<rom name="Gotris (Unknown) (v1.3p) (NTSC) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Gotris (Unknown) (v1.3p) (PAL) (Aftermarket) (Unl)" id="0715">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Gotris (World) (v0.5) (Aftermarket) (Unl)</comment>
+		<description>Gotris (Unknown) (v1.3p) (PAL) (Aftermarket) (Unl)</description>
+		<rom name="Gotris (Unknown) (v1.3p) (PAL) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Golf (Japan)" id="0167">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Great Golf (World)</comment>
+		<description>Great Golf (Japan)</description>
+		<rom name="Great Golf (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Golf (Korea) (En) (Unl)" id="0570">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Great Golf (World)</comment>
+		<description>Great Golf (Korea) (En) (Unl)</description>
+		<rom name="Great Golf (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Soccer (Japan)" id="0172">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Great Soccer (Europe)</comment>
+		<description>Great Soccer (Japan)</description>
+		<rom name="Great Soccer (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Soccer (Taiwan) (Unl)" id="0559">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Great Soccer (Europe)</comment>
+		<description>Great Soccer (Taiwan) (Unl)</description>
+		<rom name="Great Soccer (Taiwan) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Tennis (Japan)" id="0173">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Super Tennis (USA, Europe)</comment>
+		<description>Great Tennis (Japan)</description>
+		<rom name="Great Tennis (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Great Volleyball (Japan)" id="0174">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Great Volleyball (USA, Europe, Brazil) (En)</comment>
+		<description>Great Volleyball (Japan)</description>
+		<rom name="Great Volleyball (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Haja no Fuuin (Japan)" id="0176">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En)</comment>
+		<description>Haja no Fuuin (Japan)</description>
+		<rom name="Haja no Fuuin (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hang On &amp; Astro Warrior (USA)" id="0177">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Astro Warrior &amp; Pit Pot (Europe)</comment>
+		<description>Hang On &amp; Astro Warrior (USA)</description>
+		<rom name="Hang On &amp; Astro Warrior (USA).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hang On &amp; Safari Hunt (USA) (Beta)" id="0540">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Hang On &amp; Safari Hunt (USA)</comment>
+		<description>Hang On &amp; Safari Hunt (USA) (Beta)</description>
+		<rom name="Hang On &amp; Safari Hunt (USA) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hang On (Europe)" id="0179">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Hang On &amp; Safari Hunt (USA)</comment>
+		<description>Hang On (Europe)</description>
+		<rom name="Hang On (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hang On (Europe) (Beta)" id="0617">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Hang On &amp; Safari Hunt (USA)</comment>
+		<description>Hang On (Europe) (Beta)</description>
+		<rom name="Hang On (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hang On (Japan)" id="0180">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Hang On &amp; Safari Hunt (USA)</comment>
+		<description>Hang On (Japan)</description>
+		<rom name="Hang On (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Heavyweight Champ (Europe, Brazil) (En)" id="0181">
+		<category>Games</category>
+		<comment>Remove reason: Clone of James 'Buster' Douglas Knockout Boxing (USA)</comment>
+		<description>Heavyweight Champ (Europe, Brazil) (En)</description>
+		<rom name="Heavyweight Champ (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Heroes of the Lance (Europe, Brazil) (En) (Beta)" id="0660">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Heroes of the Lance (Europe, Brazil) (En)</comment>
+		<description>Heroes of the Lance (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Heroes of the Lance (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hokuto no Ken (Japan)" id="0184">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Black Belt (USA, Europe, Brazil) (En)</comment>
+		<description>Hokuto no Ken (Japan)</description>
+		<rom name="Hokuto no Ken (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hokuto no Ken (Taiwan) (Unl)" id="0560">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Black Belt (USA, Europe, Brazil) (En)</comment>
+		<description>Hokuto no Ken (Taiwan) (Unl)</description>
+		<rom name="Hokuto no Ken (Taiwan) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Hwarang-ui Geom (Korea) (Unl)" id="0451">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Kenseiden (USA, Europe, Brazil) (En)</comment>
+		<description>Hwarang-ui Geom (Korea) (Unl)</description>
+		<rom name="Hwarang-ui Geom (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Impossible Mission (Europe, Brazil) (En) (Beta)" id="0501">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Impossible Mission (Europe, Brazil) (En)</comment>
+		<description>Impossible Mission (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Impossible Mission (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Indiana Jones and the Last Crusade (USA) (Proto)" id="0502">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Indiana Jones and the Last Crusade (Europe, Brazil) (En)</comment>
+		<description>Indiana Jones and the Last Crusade (USA) (Proto)</description>
+		<rom name="Indiana Jones and the Last Crusade (USA) (Proto).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="James Bond 007 - The Duel (Brazil) (En)" id="0193">
+		<category>Games</category>
+		<comment>Remove reason: Clone of James Bond 007 - The Duel (Europe)</comment>
+		<description>James Bond 007 - The Duel (Brazil) (En)</description>
+		<rom name="James Bond 007 - The Duel (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Jogos de Verao II (Brazil) (En)" id="0197">
+		<category>Games</category>
+		<comment>Remove reason: Clone of California Games II (Europe)</comment>
+		<description>Jogos de Verao II (Brazil) (En)</description>
+		<rom name="Jogos de Verao II (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Kenseiden (Japan)" id="0200">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Kenseiden (USA, Europe, Brazil) (En)</comment>
+		<description>Kenseiden (Japan)</description>
+		<rom name="Kenseiden (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="King's Quest - Quest for the Crown (USA) (Beta 1)" id="0721">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of King's Quest - Quest for the Crown (USA)</comment>
+		<description>King's Quest - Quest for the Crown (USA) (Beta 1)</description>
+		<rom name="King's Quest - Quest for the Crown (USA) (Beta 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="King's Quest - Quest for the Crown (USA) (Beta 2)" id="0203">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of King's Quest - Quest for the Crown (USA)</comment>
+		<description>King's Quest - Quest for the Crown (USA) (Beta 2)</description>
+		<rom name="King's Quest - Quest for the Crown (USA) (Beta 2).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Kujaku Ou (Japan)" id="0206">
+		<category>Games</category>
+		<comment>Remove reason: Clone of SpellCaster (USA, Europe, Brazil) (En)</comment>
+		<description>Kujaku Ou (Japan)</description>
+		<rom name="Kujaku Ou (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Kung Fu Kid (Taiwan) (En) (Unl)" id="0641">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Kung Fu Kid (USA, Europe, Brazil) (En)</comment>
+		<description>Kung Fu Kid (Taiwan) (En) (Unl)</description>
+		<rom name="Kung Fu Kid (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lemmings (Europe) (Beta)" id="0212">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Lemmings (Europe, Brazil) (En)</comment>
+		<description>Lemmings (Europe) (Beta)</description>
+		<rom name="Lemmings (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lord of Sword (Japan)" id="0215">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Lord of the Sword (USA, Europe, Brazil) (En)</comment>
+		<description>Lord of Sword (Japan)</description>
+		<rom name="Lord of Sword (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lord of Sword (Taiwan) (Ja) (Unl)" id="0642">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Lord of the Sword (USA, Europe, Brazil) (En)</comment>
+		<description>Lord of Sword (Taiwan) (Ja) (Unl)</description>
+		<rom name="Lord of Sword (Taiwan) (Ja) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En) (Beta)" id="0219">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En)</comment>
+		<description>Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Lucky Penguin (Unknown) (v1.0) (Aftermarket) (Unl)" id="0680">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Lucky Penguin (Unknown) (v1.1) (Aftermarket) (Unl)</comment>
+		<description>Lucky Penguin (Unknown) (v1.0) (Aftermarket) (Unl)</description>
+		<rom name="Lucky Penguin (Unknown) (v1.0) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Mahjong Sengoku Jidai (Japan) (Beta)" id="0221">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Mahjong Sengoku Jidai (Japan, Hong Kong) (Ja)</comment>
+		<description>Mahjong Sengoku Jidai (Japan) (Beta)</description>
+		<rom name="Mahjong Sengoku Jidai (Japan) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Makai Retsuden (Japan)" id="0222">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Kung Fu Kid (USA, Europe, Brazil) (En)</comment>
+		<description>Makai Retsuden (Japan)</description>
+		<rom name="Makai Retsuden (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Maou Golvellius (Japan)" id="0160">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Golvellius - Valley of Doom (USA, Europe, Brazil) (En)</comment>
+		<description>Maou Golvellius (Japan)</description>
+		<rom name="Maou Golvellius (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Maou Golvellius (Japan) (Beta)" id="0507">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Golvellius - Valley of Doom (USA, Europe, Brazil) (En)</comment>
+		<description>Maou Golvellius (Japan) (Beta)</description>
+		<rom name="Maou Golvellius (Japan) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Marksman Shooting &amp; Trap Shooting &amp; Safari Hunt (Europe)" id="0224">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Hang On &amp; Safari Hunt (USA)</comment>
+		<description>Marksman Shooting &amp; Trap Shooting &amp; Safari Hunt (Europe)</description>
+		<rom name="Marksman Shooting &amp; Trap Shooting &amp; Safari Hunt (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Maze Walker (Japan) (En)" id="0229">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Maze Hunter 3-D (USA, Europe, Brazil) (En)</comment>
+		<description>Maze Walker (Japan) (En)</description>
+		<rom name="Maze Walker (Japan) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Maze Walker (Japan) (En) (Sega 3D Classics)" id="0761">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Maze Hunter 3-D (USA, Europe, Brazil) (En)</comment>
+		<description>Maze Walker (Japan) (En) (Sega 3D Classics)</description>
+		<rom name="Maze Walker (Japan) (En) (Sega 3D Classics).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Michael Jackson's Moonwalker (USA, Europe, Brazil) (En) (Beta)" id="0505">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Michael Jackson's Moonwalker (USA, Europe, Brazil) (En)</comment>
+		<description>Michael Jackson's Moonwalker (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Michael Jackson's Moonwalker (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En) (Beta) (1988-02-25)" id="0448">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En)</comment>
+		<description>Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En) (Beta) (1988-02-25)</description>
+		<rom name="Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En) (Beta) (1988-02-25).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Monica no Castelo do Dragao (Brazil)" id="0238">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Wonder Boy in Monster Land (USA, Europe)</comment>
+		<description>Monica no Castelo do Dragao (Brazil)</description>
+		<rom name="Monica no Castelo do Dragao (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Monopoly (Europe) (Rev A)" id="0240">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Monopoly (USA, Europe)</comment>
+		<description>Monopoly (Europe) (Rev A)</description>
+		<rom name="Monopoly (Europe) (Rev A).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Monopoly (USA, Europe) (Beta 1)" id="0525">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Monopoly (USA, Europe)</comment>
+		<description>Monopoly (USA, Europe) (Beta 1)</description>
+		<rom name="Monopoly (USA, Europe) (Beta 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Monopoly (USA, Europe) (Beta 2)" id="0723">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Monopoly (USA, Europe)</comment>
+		<description>Monopoly (USA, Europe) (Beta 2)</description>
+		<rom name="Monopoly (USA, Europe) (Beta 2).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Montezuma's Revenge - Featuring PANAMA JOE (USA) (Beta)" id="0508">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Montezuma's Revenge - Featuring PANAMA JOE (USA)</comment>
+		<description>Montezuma's Revenge - Featuring PANAMA JOE (USA) (Beta)</description>
+		<rom name="Montezuma's Revenge - Featuring PANAMA JOE (USA) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ninja (Japan)" id="0251">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Ninja, The (USA, Europe, Brazil) (En)</comment>
+		<description>Ninja (Japan)</description>
+		<rom name="Ninja (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ninja Gaiden (Europe, Brazil) (En) (Beta)" id="0250">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Ninja Gaiden (Europe, Brazil) (En)</comment>
+		<description>Ninja Gaiden (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Ninja Gaiden (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ninja, The (Taiwan) (Unl)" id="0730">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Ninja, The (USA, Europe, Brazil) (En)</comment>
+		<description>Ninja, The (Taiwan) (Unl)</description>
+		<rom name="Ninja, The (Taiwan) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Northen Ken (Taiwan) (Ja) (Unl)" id="0640">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Black Belt (USA, Europe, Brazil) (En)</comment>
+		<description>Northen Ken (Taiwan) (Ja) (Unl)</description>
+		<rom name="Northen Ken (Taiwan) (Ja) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Nouka Densetsu (World) (Ja) (Easy Version) (Aftermarket) (Unl)" id="0753">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Nouka Densetsu (World) (Ja) (Aftermarket) (Unl)</comment>
+		<description>Nouka Densetsu (World) (Ja) (Easy Version) (Aftermarket) (Unl)</description>
+		<rom name="Nouka Densetsu (World) (Ja) (Easy Version) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Olympic Gold (Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)" id="0254">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)</comment>
+		<description>Olympic Gold (Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)</description>
+		<rom name="Olympic Gold (Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Opa Opa (Japan)" id="0255">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Fantasy Zone - The Maze (USA, Europe, Brazil) (En)</comment>
+		<description>Opa Opa (Japan)</description>
+		<rom name="Opa Opa (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="OutRun 3-D (Europe, Brazil) (En) (Beta)" id="0626">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of OutRun 3-D (Europe, Brazil) (En)</comment>
+		<description>OutRun 3-D (Europe, Brazil) (En) (Beta)</description>
+		<rom name="OutRun 3-D (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="OutRun 3-D (Japan) (En) (Sega 3D Fukkoku Akaibusu)" id="0754">
+		<category>Games</category>
+		<comment>Remove reason: Clone of OutRun 3-D (Europe, Brazil) (En)</comment>
+		<description>OutRun 3-D (Japan) (En) (Sega 3D Fukkoku Akaibusu)</description>
+		<rom name="OutRun 3-D (Japan) (En) (Sega 3D Fukkoku Akaibusu).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Paper Boy (Taiwan) (En) (Unl)" id="0644">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Paperboy (USA, Brazil) (En)</comment>
+		<description>Paper Boy (Taiwan) (En) (Unl)</description>
+		<rom name="Paper Boy (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Paperboy (Europe)" id="0262">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Paperboy (USA, Brazil) (En)</comment>
+		<description>Paperboy (Europe)</description>
+		<rom name="Paperboy (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Phantasy Star (Brazil) (En)" id="0268">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Phantasy Star (USA, Europe) (Rev A)</comment>
+		<description>Phantasy Star (Brazil) (En)</description>
+		<rom name="Phantasy Star (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Phantasy Star (Japan)" id="0269">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Phantasy Star (USA, Europe) (Rev A)</comment>
+		<description>Phantasy Star (Japan)</description>
+		<rom name="Phantasy Star (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Phantasy Star (Japan) (Virtual Console)" id="0613">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Phantasy Star (USA, Europe) (Rev A)</comment>
+		<description>Phantasy Star (Japan) (Virtual Console)</description>
+		<rom name="Phantasy Star (Japan) (Virtual Console).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Phantasy Star (Korea) (Unl)" id="0270">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Phantasy Star (USA, Europe) (Rev A)</comment>
+		<description>Phantasy Star (Korea) (Unl)</description>
+		<rom name="Phantasy Star (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Phantasy Star (USA, Europe)" id="0271">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Phantasy Star (USA, Europe) (Rev A)</comment>
+		<description>Phantasy Star (USA, Europe)</description>
+		<rom name="Phantasy Star (USA, Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Phantasy Star (World) (Ja) (Sega Ages)" id="0659">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Phantasy Star (USA, Europe) (Rev A)</comment>
+		<description>Phantasy Star (World) (Ja) (Sega Ages)</description>
+		<rom name="Phantasy Star (World) (Ja) (Sega Ages).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Phantasy Star (World) (Sega Ages)" id="0658">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Phantasy Star (USA, Europe) (Rev A)</comment>
+		<description>Phantasy Star (World) (Sega Ages)</description>
+		<rom name="Phantasy Star (World) (Sega Ages).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Pit-Fighter (Brazil) (En)" id="0273">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Pit-Fighter (Europe)</comment>
+		<description>Pit-Fighter (Brazil) (En)</description>
+		<rom name="Pit-Fighter (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Predator 2 (Brazil) (En)" id="0542">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Predator 2 (Europe)</comment>
+		<description>Predator 2 (Brazil) (En)</description>
+		<rom name="Predator 2 (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Prince of Persia (Taiwan) (En) (Unl)" id="0646">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Prince of Persia (Europe, Brazil) (En)</comment>
+		<description>Prince of Persia (Taiwan) (En) (Unl)</description>
+		<rom name="Prince of Persia (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Psycho Fox (USA, Europe, Brazil) (En) (Beta)" id="0668">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Psycho Fox (USA, Europe, Brazil) (En)</comment>
+		<description>Psycho Fox (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Psycho Fox (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Putt &amp; Putter (Europe, Brazil) (En) (Beta)" id="0287">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Putt &amp; Putter (Europe, Brazil) (En)</comment>
+		<description>Putt &amp; Putter (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Putt &amp; Putter (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Quartet (Taiwan) (En) (Unl)" id="0647">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Quartet (USA, Europe)</comment>
+		<description>Quartet (Taiwan) (En) (Unl)</description>
+		<rom name="Quartet (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="R-Type (Taiwan) (En) (Unl)" id="0648">
+		<category>Games</category>
+		<comment>Remove reason: Clone of R-Type (World)</comment>
+		<description>R-Type (Taiwan) (En) (Unl)</description>
+		<rom name="R-Type (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="R-Type (World) (Beta)" id="0543">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of R-Type (World)</comment>
+		<description>R-Type (World) (Beta)</description>
+		<rom name="R-Type (World) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="R.C. Grand Prix (USA, Europe, Brazil) (En) (Beta)" id="0526">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of R.C. Grand Prix (USA, Europe, Brazil) (En)</comment>
+		<description>R.C. Grand Prix (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="R.C. Grand Prix (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rainbow Islands (Brazil) (En)" id="0292">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Rainbow Islands (Europe)</comment>
+		<description>Rainbow Islands (Brazil) (En)</description>
+		<rom name="Rainbow Islands (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rampage (USA, Europe, Brazil) (En) (Beta)" id="0666">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Rampage (USA, Europe, Brazil) (En)</comment>
+		<description>Rampage (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Rampage (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Rastan (USA, Europe, Brazil) (En) (Beta)" id="0629">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Rastan (USA, Europe, Brazil) (En)</comment>
+		<description>Rastan (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Rastan (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="SDI (Japan)" id="0316">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Global Defense (USA, Europe, Brazil) (En)</comment>
+		<description>SDI (Japan)</description>
+		<rom name="SDI (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es) (Beta) (1996-08-12)" id="0314">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es)</comment>
+		<description>Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es) (Beta) (1996-08-12)</description>
+		<rom name="Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es) (Beta) (1996-08-12).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Scramble Spirits (Europe, Brazil) (En) (Beta)" id="0724">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Scramble Spirits (Europe, Brazil) (En)</comment>
+		<description>Scramble Spirits (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Scramble Spirits (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Scramble Spirits (Taiwan) (En) (Unl)" id="0649">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Scramble Spirits (Europe, Brazil) (En)</comment>
+		<description>Scramble Spirits (Taiwan) (En) (Unl)</description>
+		<rom name="Scramble Spirits (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Secret Command (Europe)" id="0317">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Rambo - First Blood Part II (USA)</comment>
+		<description>Secret Command (Europe)</description>
+		<rom name="Secret Command (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Seishun Scandal (Japan)" id="0320">
+		<category>Games</category>
+		<comment>Remove reason: Clone of My Hero (USA, Europe, Brazil) (En)</comment>
+		<description>Seishun Scandal (Japan)</description>
+		<rom name="Seishun Scandal (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Shadow Dancer (Taiwan) (En) (Unl)" id="0650">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Shadow Dancer - The Secret of Shinobi (Europe, Brazil) (En)</comment>
+		<description>Shadow Dancer (Taiwan) (En) (Unl)</description>
+		<rom name="Shadow Dancer (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Shadow of the Beast (Taiwan) (En) (Unl)" id="0651">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Shadow of the Beast (Europe, Brazil) (En)</comment>
+		<description>Shadow of the Beast (Taiwan) (En) (Unl)</description>
+		<rom name="Shadow of the Beast (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Shanghai (USA, Europe) (Beta)" id="0325">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Shanghai (USA, Europe)</comment>
+		<description>Shanghai (USA, Europe) (Beta)</description>
+		<rom name="Shanghai (USA, Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Shangwei Mingling (Taiwan) (En) (Unl)" id="0633">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Rambo - First Blood Part II (USA)</comment>
+		<description>Shangwei Mingling (Taiwan) (En) (Unl)</description>
+		<rom name="Shangwei Mingling (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Shinobi (Japan, Brazil) (Ja)" id="0326">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Shinobi (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Shinobi (Japan, Brazil) (Ja)</description>
+		<rom name="Shinobi (Japan, Brazil) (Ja).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Simpsons Trivia (Unknown) (v1.00) (Aftermarket) (Unl)" id="0698">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Simpsons Trivia (Unknown) (v2.0) (Aftermarket) (Unl)</comment>
+		<description>Simpsons Trivia (Unknown) (v1.00) (Aftermarket) (Unl)</description>
+		<rom name="Simpsons Trivia (Unknown) (v1.00) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Simpsons Trivia (Unknown) (v1.01) (Aftermarket) (Unl)" id="0699">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Simpsons Trivia (Unknown) (v2.0) (Aftermarket) (Unl)</comment>
+		<description>Simpsons Trivia (Unknown) (v1.01) (Aftermarket) (Unl)</description>
+		<rom name="Simpsons Trivia (Unknown) (v1.01) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Simpsons Trivia (Unknown) (v1.02) (Aftermarket) (Unl)" id="0700">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Simpsons Trivia (Unknown) (v2.0) (Aftermarket) (Unl)</comment>
+		<description>Simpsons Trivia (Unknown) (v1.02) (Aftermarket) (Unl)</description>
+		<rom name="Simpsons Trivia (Unknown) (v1.02) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sky Jaguar (Korea) (Clover) (Unl)" id="0592">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Sky Jaguar (Korea) (Unl)</comment>
+		<description>Sky Jaguar (Korea) (Clover) (Unl)</description>
+		<rom name="Sky Jaguar (Korea) (Clover) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Slap Shoot (USA) (Beta)" id="0509">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Slap Shot (USA, Europe, Brazil) (En)</comment>
+		<description>Slap Shoot (USA) (Beta)</description>
+		<rom name="Slap Shoot (USA) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Slap Shot (Europe)" id="0333">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Slap Shot (USA, Europe, Brazil) (En)</comment>
+		<description>Slap Shot (Europe)</description>
+		<rom name="Slap Shot (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Solomon no Kagi - Oujo Rihita no Namida (Japan) (Beta)" id="0611">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Solomon no Kagi - Oujo Rihita no Namida (Japan)</comment>
+		<description>Solomon no Kagi - Oujo Rihita no Namida (Japan) (Beta)</description>
+		<rom name="Solomon no Kagi - Oujo Rihita no Namida (Japan) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sonic Chaos (Europe, Brazil) (En) (Beta) (1993-06-30)" id="0619">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Sonic Chaos (Europe, Brazil) (En)</comment>
+		<description>Sonic Chaos (Europe, Brazil) (En) (Beta) (1993-06-30)</description>
+		<rom name="Sonic Chaos (Europe, Brazil) (En) (Beta) (1993-06-30).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sonic Chaos (Europe, Brazil) (En) (Beta) (1993-07-13)" id="0620">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Sonic Chaos (Europe, Brazil) (En)</comment>
+		<description>Sonic Chaos (Europe, Brazil) (En) (Beta) (1993-07-13)</description>
+		<rom name="Sonic Chaos (Europe, Brazil) (En) (Beta) (1993-07-13).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sonic The Hedgehog 2 (Europe, Brazil) (En)" id="0341">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Sonic The Hedgehog 2 (Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Sonic The Hedgehog 2 (Europe, Brazil) (En)</description>
+		<rom name="Sonic The Hedgehog 2 (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Space Harrier (Europe)" id="0346">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Space Harrier (Japan, USA) (En)</comment>
+		<description>Space Harrier (Europe)</description>
+		<rom name="Space Harrier (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Space Harrier 3D (Japan)" id="0348">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Space Harrier 3-D (USA, Europe, Brazil) (En)</comment>
+		<description>Space Harrier 3D (Japan)</description>
+		<rom name="Space Harrier 3D (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Special Criminal Investigation (Europe) (Beta)" id="0350">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Special Criminal Investigation (Europe)</comment>
+		<description>Special Criminal Investigation (Europe) (Beta)</description>
+		<rom name="Special Criminal Investigation (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Speedball (Europe)" id="0351">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Speedball (Europe) (Rev 1)</comment>
+		<description>Speedball (Europe)</description>
+		<rom name="Speedball (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Sports Pad Soccer (Japan)" id="0358">
+		<category>Games</category>
+		<comment>Remove reason: Clone of World Soccer (World)</comment>
+		<description>Sports Pad Soccer (Japan)</description>
+		<rom name="Sports Pad Soccer (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Spy vs Spy (Japan)" id="0359">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Spy vs Spy (USA, Europe, Brazil) (En)</comment>
+		<description>Spy vs Spy (Japan)</description>
+		<rom name="Spy vs Spy (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Spy vs Spy (Taiwan) (Unl)" id="0561">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Spy vs Spy (USA, Europe, Brazil) (En)</comment>
+		<description>Spy vs Spy (Taiwan) (Unl)</description>
+		<rom name="Spy vs Spy (Taiwan) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Strider, The (Taiwan) (En) (Unl)" id="0652">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Strider (USA, Europe, Brazil) (En)</comment>
+		<description>Strider, The (Taiwan) (En) (Unl)</description>
+		<rom name="Strider, The (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Submarine Attack (Taiwan) (En) (Unl)" id="0653">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Submarine Attack (Europe, Brazil) (En)</comment>
+		<description>Submarine Attack (Taiwan) (En) (Unl)</description>
+		<rom name="Submarine Attack (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Summer Games (Europe, Brazil) (En) (Beta 1)" id="0667">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Summer Games (Europe, Brazil) (En)</comment>
+		<description>Summer Games (Europe, Brazil) (En) (Beta 1)</description>
+		<rom name="Summer Games (Europe, Brazil) (En) (Beta 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Summer Games (Europe, Brazil) (En) (Beta 2)" id="0370">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Summer Games (Europe, Brazil) (En)</comment>
+		<description>Summer Games (Europe, Brazil) (En) (Beta 2)</description>
+		<rom name="Summer Games (Europe, Brazil) (En) (Beta 2).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Arkanoid (Korea) (Unl)" id="0598">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Woody Pop - Shinjinrui no Block Kuzushi (Japan)</comment>
+		<description>Super Arkanoid (Korea) (Unl)</description>
+		<rom name="Super Arkanoid (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Futebol II (Brazil)" id="0672">
+		<category>Games</category>
+		<comment>Remove reason: Clone of World Cup Italia '90 (Europe, Brazil) (En)</comment>
+		<description>Super Futebol II (Brazil)</description>
+		<rom name="Super Futebol II (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Game World 30 Hap (Korea) (Unl)" id="0773">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Super Game World 30 Hap (Korea) (v1.1) (Unl)</comment>
+		<description>Super Game World 30 Hap (Korea) (Unl)</description>
+		<rom name="Super Game World 30 Hap (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Golf (Europe) (Beta)" id="0545">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Golfamania (Europe, Brazil) (En)</comment>
+		<description>Super Golf (Europe) (Beta)</description>
+		<rom name="Super Golf (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Monaco GP (Europe, Brazil) (En)" id="0373">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Super Monaco GP (USA)</comment>
+		<description>Super Monaco GP (Europe, Brazil) (En)</description>
+		<rom name="Super Monaco GP (Europe, Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Monaco GP (Europe, Brazil) (En) (Beta)" id="0511">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Super Monaco GP (USA)</comment>
+		<description>Super Monaco GP (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Super Monaco GP (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Monaco GP (USA) (Beta 1)" id="0546">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Super Monaco GP (USA)</comment>
+		<description>Super Monaco GP (USA) (Beta 1)</description>
+		<rom name="Super Monaco GP (USA) (Beta 1).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Monaco GP (USA) (Beta 2)" id="0722">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Super Monaco GP (USA)</comment>
+		<description>Super Monaco GP (USA) (Beta 2)</description>
+		<rom name="Super Monaco GP (USA) (Beta 2).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Off Road (Europe) (Beta)" id="0615">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Super Off Road (Europe)</comment>
+		<description>Super Off Road (Europe) (Beta)</description>
+		<rom name="Super Off Road (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Super Wonder Boy - Monster World (Japan)" id="0381">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Wonder Boy in Monster Land (USA, Europe)</comment>
+		<description>Super Wonder Boy - Monster World (Japan)</description>
+		<rom name="Super Wonder Boy - Monster World (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Taito Chase H.Q. (Europe) (Beta)" id="0630">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Taito Chase H.Q. (Europe)</comment>
+		<description>Taito Chase H.Q. (Europe) (Beta)</description>
+		<rom name="Taito Chase H.Q. (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Taz-Mania (Europe, Brazil) (En) (Beta)" id="0387">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Taz-Mania (Europe, Brazil) (En)</comment>
+		<description>Taz-Mania (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Taz-Mania (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Tecmo World Cup '92 (Europe) (Beta)" id="0388">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Tecmo World Cup '93 (Europe)</comment>
+		<description>Tecmo World Cup '92 (Europe) (Beta)</description>
+		<rom name="Tecmo World Cup '92 (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Teddy Boy Blues (Japan)" id="0391">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Teddy Boy (USA, Europe, Brazil) (En)</comment>
+		<description>Teddy Boy Blues (Japan)</description>
+		<rom name="Teddy Boy Blues (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Teddy Boy Blues (Japan) (Proto) (Ep-MyCard)" id="0392">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Teddy Boy (USA, Europe, Brazil) (En)</comment>
+		<description>Teddy Boy Blues (Japan) (Proto) (Ep-MyCard)</description>
+		<rom name="Teddy Boy Blues (Japan) (Proto) (Ep-MyCard).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Terminator, The (Brazil) (En)" id="0396">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Terminator, The (Europe)</comment>
+		<description>Terminator, The (Brazil) (En)</description>
+		<rom name="Terminator, The (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Thunder Blade (Japan)" id="0398">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Thunder Blade (USA, Europe, Brazil) (En)</comment>
+		<description>Thunder Blade (Japan)</description>
+		<rom name="Thunder Blade (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Thunder Blade (Taiwan) (En) (Unl)" id="0654">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Thunder Blade (USA, Europe, Brazil) (En)</comment>
+		<description>Thunder Blade (Taiwan) (En) (Unl)</description>
+		<rom name="Thunder Blade (Taiwan) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Thunder Blade (USA, Europe, Brazil) (En) (Beta)" id="0662">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Thunder Blade (USA, Europe, Brazil) (En)</comment>
+		<description>Thunder Blade (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="Thunder Blade (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Tom &amp; Jerry (Europe, Brazil) (En) (Beta)" id="0401">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Tom and Jerry - The Movie (Europe, Brazil) (En)</comment>
+		<description>Tom &amp; Jerry (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Tom &amp; Jerry (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="TransBot (USA, Europe, Brazil) (En) (Beta)" id="0547">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of TransBot (USA, Europe, Brazil) (En)</comment>
+		<description>TransBot (USA, Europe, Brazil) (En) (Beta)</description>
+		<rom name="TransBot (USA, Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ttoriui Moheom (Korea) (En) (Unl)" id="0522">
+		<category>Games</category>
+		<comment>Remove reason: Clone of My Hero (USA, Europe, Brazil) (En)</comment>
+		<description>Ttoriui Moheom (Korea) (En) (Unl)</description>
+		<rom name="Ttoriui Moheom (Korea) (En) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Turma da Monica em O Resgate (Brazil)" id="0406">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Wonder Boy III - The Dragon's Trap (USA, Europe)</comment>
+		<description>Turma da Monica em O Resgate (Brazil)</description>
+		<rom name="Turma da Monica em O Resgate (Brazil).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ultima IV - Quest of the Avatar (Europe, Brazil) (En) (Beta)" id="0409">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Ultima IV - Quest of the Avatar (Europe, Brazil) (En)</comment>
+		<description>Ultima IV - Quest of the Avatar (Europe, Brazil) (En) (Beta)</description>
+		<rom name="Ultima IV - Quest of the Avatar (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Vampire (Europe) (Beta)" id="0411">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Master of Darkness (Europe, Brazil) (En)</comment>
+		<description>Vampire (Europe) (Beta)</description>
+		<rom name="Vampire (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Where in the World is Carmen Sandiego (Brazil) (En)" id="0416">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Where in the World is Carmen Sandiego (USA)</comment>
+		<description>Where in the World is Carmen Sandiego (Brazil) (En)</description>
+		<rom name="Where in the World is Carmen Sandiego (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wimbledon (Brazil) (En)" id="0673">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Wimbledon (Europe)</comment>
+		<description>Wimbledon (Brazil) (En)</description>
+		<rom name="Wimbledon (Brazil) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Winter Olympics (Brazil) (En,Fr,De,Es,It,Pt,Sv,No)" id="0420">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Winter Olympics (Europe) (En,Fr,De,Es,It,Pt,Sv,No)</comment>
+		<description>Winter Olympics (Brazil) (En,Fr,De,Es,It,Pt,Sv,No)</description>
+		<rom name="Winter Olympics (Brazil) (En,Fr,De,Es,It,Pt,Sv,No).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wonder Boy (Japan, Europe) (En)" id="0380">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Wonder Boy (USA, Europe, Brazil) (En) (Rev 1)</comment>
+		<description>Wonder Boy (Japan, Europe) (En)</description>
+		<rom name="Wonder Boy (Japan, Europe) (En).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wonder Boy III - The Dragon's Trap (USA, Europe) (Aftermarket) (Unl)" id="0623">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Wonder Boy III - The Dragon's Trap (USA, Europe)</comment>
+		<description>Wonder Boy III - The Dragon's Trap (USA, Europe) (Aftermarket) (Unl)</description>
+		<rom name="Wonder Boy III - The Dragon's Trap (USA, Europe) (Aftermarket) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wonder Boy in Monster Land (USA, Europe) (Beta)" id="0523">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Wonder Boy in Monster Land (USA, Europe)</comment>
+		<description>Wonder Boy in Monster Land (USA, Europe) (Beta)</description>
+		<rom name="Wonder Boy in Monster Land (USA, Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Wonder Boy in Monster World (Europe) (Beta)" id="0427">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Wonder Boy in Monster World (Europe)</comment>
+		<description>Wonder Boy in Monster World (Europe) (Beta)</description>
+		<rom name="Wonder Boy in Monster World (Europe) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="World Games (Europe, Brazil) (En) (Beta)" id="0433">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of World Games (Europe, Brazil) (En)</comment>
+		<description>World Games (Europe, Brazil) (En) (Beta)</description>
+		<rom name="World Games (Europe, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="World Grand Prix (Europe)" id="0434">
+		<category>Games</category>
+		<comment>Remove reason: Clone of World Grand Prix (USA, Brazil) (En)</comment>
+		<description>World Grand Prix (Europe)</description>
+		<rom name="World Grand Prix (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="World Grand Prix (USA, Brazil) (En) (Beta)" id="0548">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of World Grand Prix (USA, Brazil) (En)</comment>
+		<description>World Grand Prix (USA, Brazil) (En) (Beta)</description>
+		<rom name="World Grand Prix (USA, Brazil) (En) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Xenon 2 - Megablast (Europe)" id="0439">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Xenon 2 - Megablast (Europe) (Rev 1)</comment>
+		<description>Xenon 2 - Megablast (Europe)</description>
+		<rom name="Xenon 2 - Megablast (Europe).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Ys (Japan)" id="0026">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Ys - The Vanished Omens (USA, Europe, Brazil) (En)</comment>
+		<description>Ys (Japan)</description>
+		<rom name="Ys (Japan).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Yuyryeong-ui Jip (Korea) (Unl)" id="0596">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Ghost House (USA, Europe, Brazil) (En)</comment>
+		<description>Yuyryeong-ui Jip (Korea) (Unl)</description>
+		<rom name="Yuyryeong-ui Jip (Korea) (Unl).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zaxxon 3-D (World) (Beta)" id="0442">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Zaxxon 3-D (World)</comment>
+		<description>Zaxxon 3-D (World) (Beta)</description>
+		<rom name="Zaxxon 3-D (World) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zillion (Europe, Brazil) (En) (Rev 2)" id="0443">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Zillion (USA, Europe) (Rev 1)</comment>
+		<description>Zillion (Europe, Brazil) (En) (Rev 2)</description>
+		<rom name="Zillion (Europe, Brazil) (En) (Rev 2).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zillion (Japan, Europe) (En,Ja)" id="0444">
+		<category>Games</category>
+		<comment>Remove reason: Clone of Zillion (USA, Europe) (Rev 1)</comment>
+		<description>Zillion (Japan, Europe) (En,Ja)</description>
+		<rom name="Zillion (Japan, Europe) (En,Ja).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Zillion II - The Tri Formation (World) (Beta)" id="0627">
+		<category>Preproduction</category>
+		<comment>Remove reason: Clone of Zillion II - The Tri Formation (World)</comment>
+		<description>Zillion II - The Tri Formation (World) (Beta)</description>
+		<rom name="Zillion II - The Tri Formation (World) (Beta).sms" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

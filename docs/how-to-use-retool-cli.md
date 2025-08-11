@@ -364,6 +364,8 @@ can pass other settings via command line options.
 
 These options change how Retool handles certain titles.
 
+* **`-c` Prefer titles with RetroAchievements**
+
 * **`-d` Disable 1G1R filtering**{:#disable-1g1r}
   <br>Ignore clone lists, and treat each title as unique. Useful if you want to keep
   everything from a specific set of regions and/or languages. You can use this in
@@ -371,10 +373,6 @@ These options change how Retool handles certain titles.
   and nothing more.
   <br>
   <br>This option isn't compatible with [`--legacy`](#legacy).
-
-* **`-e` Include titles without hashes or sizes specified in the input DAT file**
-  <br>Some DAT files don't list any hashes or sizes for some files, and Retool overrides
-  these out by default. This option makes sure those files are kept.
 
 * **`-l` Filter by languages using a list**
   <br>If a title doesn't support any of the languages on the list, it's removed (see
@@ -502,7 +500,7 @@ The available exclusions are as follows:
   <br>Titles with the DAT file category `Games`, or no DAT file category.
 
 * **`k` MIA**
-  <br>Titles or ROMs declared as missing in action in the clone lists or DAT files.
+  <br>Titles with ROMs declared as missing in action in the clone lists or DAT files.
 
 * **`m` Manuals**
   <br>Titles with `(Manual)` in the name.
@@ -539,35 +537,43 @@ The available exclusions are as follows:
   name:
     * `(Unl)`
     * `(Aftermarket)`
-    * `(Homebrew)`
     * `(Pirate)`
 
 * **`v` Video**
   <br>Titles with the DAT file category `Video`.
 
 ### Outputs
+* **`--labelmia` Mark files as MIA with an mia="yes" attribute**
+  <br>Don't use this if you're a DATVault subscriber.
+
+* **`--labelretro` Mark titles with a retroachievements="yes" attribute**
+
 * **`--listnames` Also output a TXT file of just the kept title names**
   <br>See [`config/user-config.yaml`](#the-user-configyaml-file) to add a prefix and/or
   suffix to each line.
 
-* **`--log` Also output a TXT file of what titles have been kept, removed, and set as clones**
-
 * **`--machine` Export each title node to the output DAT file using the MAME standard of `<machine>` instead of `<game>`**
-
-* **`--nolabelmia` Don't add MIA attributes to titles**
-  <br>Use this if you're a DATVault subscriber.
 
 * **`--originalheader` Use the original input DAT file headers in output DAT files**
   <br>Useful if you want to load Retool DAT files as an update to original Redump and No-Intro
   DAT files already in CLRMAMEPro.
 
-* **`--output <folder>` Set an output folder where the new 1G1R DAT file/s will be created**
+* **`--output <folder>` Set an output folder where the new 1G1R DAT file/s will be created**{:#output}
 
 * **`--regionsplit` Split the result into multiple DAT files based on region**{:#region-split}
   <br>Use with `-d` to only split by region with no 1G1R processing. Not compatible with
   [`--legacy`](#legacy).
 
 * **`--removesdat` Also output DAT files containing titles that were removed from 1G1R DAT files**
+
+* **`--replace` Replace input DAT files with Retool versions**
+  <br>Only use this if you can recover the original DAT files from elsewhere. Useful for
+  RomVault or DatVault users operating directly on their DatRoot files. Not compatible
+  with [`--output`](#output).
+
+* **`--report` Also output a report of the titles that have been kept, removed, and set as clones**
+
+* **`--reprocess` Let DAT files be processed even if Retool has already processed them**
 
 ### Debug
 * **`--config <file>` Set a custom user config file to use instead of the default**
@@ -576,19 +582,26 @@ The available exclusions are as follows:
 * **`--clonelist <file>` Set a custom clone list to use instead of the default**
   <br>Useful if you want to use your own, or if Redump or No-Intro renames their DAT file
   and the clone list isn't automatically detected anymore. Often used together with
-  `--metadata`.
-
-* **`--metadata <file>` Set a custom metadata file to use instead of the default**
-  <br>Useful if you want to use your own, or if Redump or No-Intro renames their DAT
-  file and the metadata file isn't automatically detected anymore. Often used together
-  with `--clonelist`.
+  `--metadata`, `--mia`, and `--ra`.
 
 * **`--legacy` Output DAT files in legacy parent/clone format**{:#legacy}
   Not recommended unless you're debugging or comparing outputs between DAT file versions.
   Not compatible with [`-d`](#disable-1g1r).
 
-* **`--nodtd` Bypass DTD validation**
-  <br>Skips DTD validation of DAT files, useful if validation is causing issues.
+* **`--metadata <file>` Set a custom metadata file to use instead of the default**
+  <br>Useful if you want to use your own, or if Redump or No-Intro renames their DAT
+  file and the metadata file isn't automatically detected anymore. Often used together
+  with `--clonelist`, `--mia`, and `--ra`.
+
+* **`--mia <file>` Set a custom MIA file to use instead of the default**
+  <br>Useful if you want to use your own, or if Redump or No-Intro renames their DAT, and
+  the MIA file isn't automatically detected anymore. Often used together with
+  `--clonelist`, `--metadata`, and `--ra`.
+
+* **`--ra <file>` Set a custom RetroAchievements file to use instead of the default**
+  <br>Useful if you want to use your own, or if Redump or No-Intro renames their DAT, and
+  the RetroAchievements file isn't automatically detected anymore. Often used together
+  with `--clonelist`, `--metadata`, and `--mia`.
 
 * **`--singlecpu` Disable multiprocessor usage**
   br>Forces Retool to use only a single CPU core, at the cost of performance. This can

@@ -5434,31 +5434,31 @@
 		<release name="Interactive Multi-Game Demo Disc - October 2001 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc - October 2001 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 10 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 30 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 10 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 10 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 10 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 10 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 11 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 31 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 11 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 11 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 11 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 11 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 12 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 32 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 12 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 12 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 12 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 12 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 13 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 33 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 13 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 13 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 13 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 13 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 14 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 34 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 14 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 14 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 14 (USA)" region="USA" language="En"/>
@@ -5470,55 +5470,55 @@
 		<release name="Interactive Multi-Game Demo Disc Version 15 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 15 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 16 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 26 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 16 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 16 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 16 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 16 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 17 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 27 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 17 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 17 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 17 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 17 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 18 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 28 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 18 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 18 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 18 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 18 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 19 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 29 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 19 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 19 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 19 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 19 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 20 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 30 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 20 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 20 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 20 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 20 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 21 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 31 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 21 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 21 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 21 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 21 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 22 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 32 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 22 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 22 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 22 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 22 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 23 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 33 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 23 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 23 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 23 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 23 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 24 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 34 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 24 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 24 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 24 (USA)" region="USA" language="En"/>
@@ -5530,55 +5530,55 @@
 		<release name="Interactive Multi-Game Demo Disc Version 25 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 25 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 26 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 26 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 26 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 26 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 26 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 27 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 27 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 27 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 27 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 27 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 28 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 28 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 28 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 28 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 28 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 29 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 29 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 29 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 29 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 29 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 30 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 30 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 30 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 30 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 30 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 31 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 31 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 31 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 31 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 31 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 32 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 32 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 32 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 32 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 32 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 33 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 33 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 33 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 33 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 33 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 34 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 34 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 34 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 34 (USA)" region="USA" language="En"/>
@@ -5590,19 +5590,19 @@
 		<release name="Interactive Multi-Game Demo Disc Version 35 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 35 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 7 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 9 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 7 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 7 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 7 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 7 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 8 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 9 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 8 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 8 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 8 (USA)" region="USA" language="En"/>
 		<rom name="Interactive Multi-Game Demo Disc Version 8 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Interactive Multi-Game Demo Disc Version 9 (USA)">
+	<game name="Interactive Multi-Game Demo Disc Version 9 (USA)" cloneof="Interactive Multi-Game Demo Disc Version 35 (USA)">
 		<category>Demos</category>
 		<description>Interactive Multi-Game Demo Disc Version 9 (USA)</description>
 		<release name="Interactive Multi-Game Demo Disc Version 9 (USA)" region="USA" language="En"/>
@@ -6288,7 +6288,7 @@
 		<category>Preproduction</category>
 		<description>LEGO Super Soccer Adventure (Europe) (Proto)</description>
 		<release name="LEGO Super Soccer Adventure (Europe) (Proto)" region="Europe" language="En"/>
-		<rom name="LEGO Super Soccer Adventure (Europe) (Proto).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="LEGO Super Soccer Adventure (Europe) (Proto).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Lara Croft Tomb Raider - Legend (Europe)">
 		<category>Games</category>
@@ -10612,7 +10612,7 @@
 		<category>Promotional</category>
 		<description>SmaBro DX Event-you Disc (Japan)</description>
 		<release name="SmaBro DX Event-you Disc (Japan)" region="Japan" language="Ja"/>
-		<rom name="SmaBro DX Event-you Disc (Japan).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="SmaBro DX Event-you Disc (Japan).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Smashing Drive (USA)">
 		<category>Games</category>

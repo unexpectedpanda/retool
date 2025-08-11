@@ -56,10 +56,12 @@
 			]
 		},
 		{
-			"group": "Dragon Quest X - All in One Package-",
+			"group": "Dragon Quest X - All in One Package",
 			"titles": [
-				{"searchTerm": "Dragon Quest X - All in One Package-"},
-				{"searchTerm": "Dragon Quest X - All in One Package", "priority": 2}
+				{"searchTerm": "Dragon Quest X - All in One Package"}
+			],
+			"supersets": [
+				{"searchTerm": "Dragon Quest X - All in One Package Version 1-Version 4"}
 			]
 		},
 		{

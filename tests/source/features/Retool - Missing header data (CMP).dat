@@ -1,0 +1,13 @@
+clrmamepro (
+	description "Missing title data (CMP)"
+	category Console
+	version 2025-06-29
+	author "unexpectedpanda | https://unexpectedpanda.github.io/retool"
+)
+
+game (
+	name "Test Title (USA)"
+	description "Test Title (USA)"
+	rom ( name "Test Title (USA).cue" size 1000 crc 10000000 md5 10000000000000000000000000000000 sha1 1000000000000000000000000000000000000000 )
+	rom ( name "Test Title (USA).bin" size 1000 crc 10000000 md5 10000000000000000000000000000000 sha1 1000000000000000000000000000000000000000 )
+)

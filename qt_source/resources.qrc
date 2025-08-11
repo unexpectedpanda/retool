@@ -2,7 +2,7 @@
   <qresource prefix="retoolAbout">
     <file>../images/retool-about.png</file>
   </qresource>
-  <qresource prefix="Arrows">
+  <qresource prefix="arrows">
     <file>../images/vertical-grip.png</file>
     <file>../images/icons8-end-100.png</file>
     <file>../images/icons8-skip-to-start-100.png</file>
@@ -10,6 +10,20 @@
     <file>../images/icons8-sort-left-100.png</file>
     <file>../images/icons8-sort-right-100.png</file>
     <file>../images/icons8-sort-up-100.png</file>
+  </qresource>
+  <qresource prefix="checkboxes">
+    <file>../images/checkbox.svg</file>
+    <file>../images/checkbox-checked.svg</file>
+    <file>../images/checkbox-checked-disabled.svg</file>
+    <file>../images/checkbox-checked-hover.svg</file>
+    <file>../images/checkbox-checked-pressed.svg</file>
+    <file>../images/checkbox-disabled.svg</file>
+    <file>../images/checkbox-hover.svg</file>
+    <file>../images/checkbox-pressed.svg</file>
+  </qresource>
+  <qresource prefix="dropdowns">
+    <file>../images/dropdown-arrow-down.svg</file>
+    <file>../images/dropdown-arrow-up.svg</file>
   </qresource>
   <qresource prefix="retoolFiles">
     <file>../images/icons8-multiply-80.png</file>

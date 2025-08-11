@@ -8,7 +8,7 @@
 		<author>Arctic Circle System, BigFred, C. V. Reynolds, fuzzball, gigadeath, Hiccup, kazumi213, nnssxx, NovaAurora, omonim2007, rarenight, relax, Rifu, sCZther, SonGoku, TeamEurope, xuom2</author>
 		<homepage>No-Intro</homepage>
 		<url>https://www.no-intro.org</url>
-		<clrmamepro forcenodump="required"/>
+		<clrmamepro forcenodump="required"></clrmamepro>
 	</header>
 	<game name="[BIOS] Alex Kidd in Miracle World (Korea) (Unl)" id="xB01" cloneofid="xB02">
 		<description>[BIOS] Alex Kidd in Miracle World (Korea) (Unl)</description>

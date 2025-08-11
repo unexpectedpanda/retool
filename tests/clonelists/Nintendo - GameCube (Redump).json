@@ -941,20 +941,15 @@
 			"group": "NBA Street",
 			"titles": [
 				{
-					"searchTerm": "NBA Street",
-					"filters": [
-						{
-							"conditions": {"matchString": "V3"},
-							"results": {"group": "NBA Street V3"}
-						}
-					]
+					"searchTerm": "NBA Street"
 				}
 			]
 		},
 		{
 			"group": "NBA Street V3",
 			"titles": [
-				{"searchTerm": "NBA Street V3 - Mario de Dunk", "nameType": "regionFree"}
+				{"searchTerm": "NBA Street V3"},
+				{"searchTerm": "NBA Street V3 - Mario de Dunk"}
 			]
 		},
 		{
@@ -1410,7 +1405,7 @@
 			"group": "Virtua Striker 2002",
 			"titles": [
 				{"searchTerm": "Virtua Striker 2002"},
-				{"searchTerm": "Virtua Striker 3 Ver. 2002", "nameType": "regionFree"}
+				{"searchTerm": "Virtua Striker 3 Ver. 2002"}
 			]
 		},
 		{

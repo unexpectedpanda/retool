@@ -2837,18 +2837,6 @@
 			]
 		},
 		{
-			"group": "GuitarFreaks & DrumMania V3",
-			"titles": [
-				{"searchTerm": "GuitarFreaks & DrumMania V3", "nameType": "regionFree"}
-			]
-		},
-		{
-			"group": "GuitarFreaks V2 & DrumMania V2",
-			"titles": [
-				{"searchTerm": "GuitarFreaks V2 & DrumMania V2", "nameType": "regionFree"}
-			]
-		},
-		{
 			"group": "Guncom 2",
 			"titles": [
 				{"searchTerm": "Death Crimson OX+"},
@@ -3770,7 +3758,8 @@
 			"group": "Life Line",
 			"titles": [
 				{"searchTerm": "Life Line"},
-				{"searchTerm": "Operator's Side"}
+				{"searchTerm": "Operator's Side (Doukonban)"},
+				{"searchTerm": "Operator's Side", "priority": 2}
 			]
 		},
 		{
@@ -4637,20 +4626,6 @@
 			]
 		},
 		{
-			"group": "NBA Street",
-			"titles": [
-				{
-					"searchTerm": "NBA Street",
-					"filters": [
-						{
-							"conditions": {"matchString": "V3"},
-							"results": {"group": "NBA Street V3"}
-						}
-					]
-				}
-			]
-		},
-		{
 			"group": "NBA Street Vol. 2",
 			"titles": [
 				{"searchTerm": "NBA Street 2 - Dunk Tengoku"},
@@ -4977,13 +4952,6 @@
 			"titles": [
 				{"searchTerm": "Onmyou Taisenki - Byakko Enbu (EyeToy Camera Doukonban)"},
 				{"searchTerm": "Onmyou Taisenki - Byakko Enbu", "priority": 2}
-			]
-		},
-		{
-			"group": "Operator's Side",
-			"titles": [
-				{"searchTerm": "Operator's Side (Doukonban)"},
-				{"searchTerm": "Operator's Side", "priority": 2}
 			]
 		},
 		{

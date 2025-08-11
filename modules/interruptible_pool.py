@@ -68,31 +68,30 @@ class InterruptiblePool(Pool):
         new_initializer = functools.partial(_initializer_wrapper, initializer)
         super().__init__(processes, new_initializer, initargs, **kwargs)
 
+    def map(self: Any, func: Any, iterable: Any, chunksize: Any = None) -> Any:
+        """
+        Equivalent of `map()` built-in, without swallowing `KeyboardInterrupt`.
 
-def poolmap(self: Any, func: Any, iterable: Any, chunksize: Any = None) -> Any:
-    """
-    Equivalent of `map()` built-in, without swallowing `KeyboardInterrupt`.
+        Args:
+            self (Any): The instance of the pool map.
 
-    Args:
-        self (Any): The instance of the pool map.
+            func (Any): The function to apply to the items.
 
-        func (Any): The function to apply to the items.
+            iterable (Any): An iterable of items that will have `func` applied to them.
 
-        iterable (Any): An iterable of items that will have `func` applied to them.
+            chunksize (Any): The number of items from an iterable to pass to the task
+                workers as a batch.
+        """
+        # The key magic is that we must call r.get() with a timeout, because
+        # a Condition.wait() without a timeout swallows KeyboardInterrupts.
+        r = self.map_async(func, iterable, chunksize)
 
-        chunksize (Any): The number of items from an iterable to pass to the
-        task workers as a batch.
-    """
-    # The key magic is that we must call r.get() with a timeout, because
-    # a Condition.wait() without a timeout swallows KeyboardInterrupts.
-    r = self.map_async(func, iterable, chunksize)
-
-    while True:
-        try:
-            return r.get(self.wait_timeout)
-        except TimeoutError:
-            pass
-        except KeyboardInterrupt:
-            self.terminate()
-            self.join()
-            raise
+        while True:
+            try:
+                return r.get(self.wait_timeout)
+            except TimeoutError:
+                pass
+            except KeyboardInterrupt:
+                self.terminate()
+                self.join()
+                raise

@@ -4,8 +4,8 @@ import itertools
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from modules.dats import Config
-    from modules.dats import DatNode
+    from modules.config.config import Config
+    from modules.dat.process_dat import DatNode
 
 from modules.titletools import TraceTools
 from modules.utils import eprint
@@ -13,16 +13,15 @@ from modules.utils import eprint
 
 def choose_priority(title_set: set[DatNode], config: Config, report_on_match: bool) -> set[DatNode]:
     """
-    Compare any two titles from a set of DatNodes, and select the one
-    with the lowest priority number set in a clone list.
+    Compare any two titles from a set of DatNodes, and select the one with the lowest
+    priority number set in a clone list.
 
     Args:
         title_set (set[DatNode]): A set of titles as DatNode instances.
 
         config (Config): The Retool config object.
 
-        report_on_match (bool): Whether Retool needs to report any titles being
-        traced.
+        report_on_match (bool): Whether Retool needs to report any titles being traced.
 
     Returns:
         set[DatNode]: A set of DatNodes filtered by clone list priority.

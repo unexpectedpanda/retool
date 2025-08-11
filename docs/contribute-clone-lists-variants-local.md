@@ -40,9 +40,9 @@ Here's how to add this information to a clone list:
     "titles": [
       {
         "searchTerm": "Shining Force II - Inishie no Fuuin",
-        "localNames": [
-          {"japanese": "シャイニング●フォースII 『古の封印』"}
-        ]
+        "localNames": {
+          "japanese": "シャイニング●フォースII 『古の封印』"
+        }
       }
     ]
   }
@@ -107,10 +107,10 @@ Here's how to add this information to a clone list:
     "titles": [
       {
         "searchTerm": "Streets of Rage",
-        "localNames": [
-          {"english": "Streets of Rage"},
-          {"japanese": "ベアナックル 怒りの鉄拳"}
-        ]
+        "localNames": {
+          "english": "Streets of Rage",
+          "japanese": "ベアナックル 怒りの鉄拳"
+        }
       }
     ]
   }

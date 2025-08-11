@@ -2,33 +2,31 @@ from __future__ import annotations
 
 import itertools
 import re
-from re import Pattern
 from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:
-    from modules.config import Config
-    from modules.dats import DatNode
+    from modules.config.config import Config
+    from modules.dat.process_dat import DatNode
 
 from modules.titletools import TraceTools
-from modules.utils import Font, pattern2string
 
 
 def choose_version_revision(
-    pattern: Pattern[str], title_set: set[DatNode], config: Config, report_on_match: bool
+    title_set: set[DatNode], version_string: str, config: Config, report_on_match: bool
 ) -> set[DatNode]:
     """
-    Compares any two titles from a set of DatNodes to see which one has the
-    highest version/revision tag.
+    Compares any two titles from a set of DatNodes to see which one has the highest
+    version/revision tag.
 
     Args:
-        pattern (Pattern[str]): The version pattern to search for in the title name.
-
         title_set (set[DatNode]): A set of titles as DatNode instances.
+
+        version_string (str): The key in the titles' `normalized_version` property to use
+            as the basis for comparison.
 
         config (Config): The Retool config object.
 
-        report_on_match (bool): Whether Retool needs to report any titles being
-        traced.
+        report_on_match (bool): Whether Retool needs to report any titles being traced.
 
     Returns:
         set[DatNode]: A set of DatNodes filtered by highest version.
@@ -36,20 +34,6 @@ def choose_version_revision(
     remove_titles: set[DatNode] = set()
 
     for title_1, title_2 in itertools.combinations(title_set, 2):
-        # Normalize titles that contain "Version #", "(v#)" and "v#" formatting
-        title_1_name_normalized: str = re.sub(' Version ((\\d\\.?)+)', ' (v\\1)', title_1.full_name)
-        title_2_name_normalized: str = re.sub(' Version ((\\d\\.?)+)', ' (v\\1)', title_2.full_name)
-        title_1_name_normalized = re.sub(' (v(\\d\\.?)+)', ' (\\1)', title_1_name_normalized)
-        title_2_name_normalized = re.sub(' (v(\\d\\.?)+)', ' (\\1)', title_2_name_normalized)
-
-        # Fix bad beta tags
-        title_1_name_normalized = re.sub(
-            ' \\((v(\\d\\.?)+)beta\\)', ' (\\1) (Beta)', title_1_name_normalized
-        )
-        title_2_name_normalized = re.sub(
-            ' \\((v(\\d\\.?)+)beta\\)', ' (\\1) (Beta)', title_2_name_normalized
-        )
-
         if (
             title_1.short_name == title_2.short_name
             and title_1 in title_set
@@ -62,10 +46,11 @@ def choose_version_revision(
             remove_title_name: str = ''
 
             # Perform version comparison between a title that has a version string and a title that doesn't
-            if re.search(pattern, title_1_name_normalized) and not re.search(
-                pattern, title_2_name_normalized
+            if (
+                version_string in title_1.normalized_version
+                and version_string not in title_2.normalized_version
             ):
-                if pattern in config.regex.preproduction:
+                if 'preproduction' in title_1.normalized_version:
                     if title_1 in title_set:
                         keep_title_name = title_2.full_name
                         remove_title_name = title_1.full_name
@@ -88,16 +73,14 @@ def choose_version_revision(
                 if report_on_match:
                     TraceTools.trace_title(
                         'REF0038',
-                        [
-                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {keep_title_name}',
-                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {remove_title_name}{Font.end}',
-                        ],
+                        [keep_title_name, remove_title_name],
                         keep_remove=True,
                     )
-            elif re.search(pattern, title_2_name_normalized) and not re.search(
-                pattern, title_1_name_normalized
+            elif (
+                version_string in title_2.normalized_version
+                and version_string not in title_1.normalized_version
             ):
-                if pattern in config.regex.preproduction:
+                if 'preproduction' in title_2.normalized_version:
                     if title_2 in title_set:
                         keep_title_name = title_1.full_name
                         remove_title_name = title_2.full_name
@@ -120,19 +103,16 @@ def choose_version_revision(
                 if report_on_match:
                     TraceTools.trace_title(
                         'REF0039',
-                        [
-                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {keep_title_name}',
-                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {remove_title_name}{Font.end}',
-                        ],
+                        [keep_title_name, remove_title_name],
                         keep_remove=True,
                     )
-
             # Perform version comparison between two titles that both have version strings
-            elif re.search(pattern, title_1_name_normalized) and re.search(
-                pattern, title_2_name_normalized
+            elif (
+                version_string in title_1.normalized_version
+                and version_string in title_2.normalized_version
             ):
 
-                def process_versions(ver_1: str, ver_2: str) -> list[Any]:
+                def process_versions(ver_1: str, ver_2: str) -> list[str]:
                     """
                     Attempts to convert versions into a comparable format.
 
@@ -149,13 +129,6 @@ def choose_version_revision(
                     if '.' in ver_1 or '.' in ver_2:
                         ver_1_parsed: list[Any] = [[ver_1]]
                         ver_2_parsed: list[Any] = [[ver_2]]
-
-                        # Compensate for bad version strings that start with '.'
-                        if re.search('^\\.', ver_1):
-                            ver_1 = re.sub('^\\.', '0.', ver_1)
-
-                        if re.search('^.', ver_2):
-                            ver_2 = re.sub('^\\.', '0.', ver_2)
 
                         if '.' in ver_1:
                             ver_1_parsed = [
@@ -203,12 +176,11 @@ def choose_version_revision(
                             Formats versions so they can be compared.
 
                             Args:
-                                version (list[Any]): A version of a
-                                title that's already been parsed.
+                                version (list[Any]): A version of a title that's already
+                                    been parsed.
 
                             Returns:
-                                list[Any]: A normalized version of the
-                                input.
+                                list[Any]: A normalized version of the input.
                             """
                             ver_normalized: list[Any] = []
 
@@ -277,214 +249,101 @@ def choose_version_revision(
 
                     return version_compare_normalize
 
-                # Get the version from the title
-                regex_search_str_1 = pattern2string(pattern, title_1_name_normalized)
-                regex_search_str_2 = pattern2string(pattern, title_2_name_normalized)
-
-                title_1_ver: str = regex_search_str_1.replace('(', '').replace(')', '')
-                title_2_ver: str = regex_search_str_2.replace('(', '').replace(')', '')
-
-                # Preprocess special version types
-                if pattern == config.regex.fds_version:
-                    title_1_ver = max(re.findall('\\d+', title_1_ver))
-                    title_2_ver = max(re.findall('\\d+', title_2_ver))
-                elif pattern == config.regex.nec_mastering_code:
-                    title_1_ver = max(title_1_ver.split(', '))
-                    title_2_ver = max(title_2_ver.split(', '))
-                elif pattern == config.regex.sega_panasonic_ring_code:
-                    if re.search('\\d+', title_1_ver) and re.search('\\d+', title_2_ver):
-                        title_1_ver = str(max([int(i) for i in re.findall('\\d+', title_1_ver)]))
-                        title_2_ver = str(max([int(i) for i in re.findall('\\d+', title_2_ver)]))
-                    elif re.search('\\d+', title_1_ver) and not re.search('\\d+', title_2_ver):
-                        title_1_ver = '1'
-                        title_2_ver = '0'
-                    elif re.search('\\d+', title_2_ver) and not re.search('\\d+', title_1_ver):
-                        title_1_ver = '0'
-                        title_2_ver = '1'
-
-                # Preprocess double versions that turn up in 3DS (Digital), Commodore Amiga, PS3 (Digital) (Content),
-                # IBM - PC and Compatibles (Flux), and IBM - PC and Compatibles (Digital) (GOG)
-                title_1_ver = (
-                    title_1_ver.replace('PS3 ', '').replace('-to-', ', ').replace(' - AGI', ',').replace('rev', '')
-                )
-                title_2_ver = (
-                    title_2_ver.replace('PS3 ', '').replace('-to-', ', ').replace('- AGI', ',').replace('rev', '')
-                )
-
-                match_1_length: int = len(re.findall('v[\\d+\\.\\-]+', title_1_ver))
-                match_2_length: int = len(re.findall('v[\\d+\\.\\-]+', title_2_ver))
-
-                if re.search('v[\\d+\\.]+(?:, )\\d{4}-\\d{2}-\\d{2}', title_1_ver):
-                    match_1_length = len(
-                        re.findall('(v[\\d+\\.]+|\\d{4}-\\d{2}-\\d{2})', title_1_ver)
-                    )
-
-                if re.search('v[\\d+\\.]+(?:, )\\d{4}-\\d{2}-\\d{2}', title_2_ver):
-                    match_2_length = len(
-                        re.findall('(v[\\d+\\.]+|\\d{4}-\\d{2}-\\d{2})', title_2_ver)
-                    )
-
-                if match_1_length == 2 and match_2_length == 2:
-                    # Split the versions
-                    title_1_ver_a = re.findall('[\\d+\\.\\-]+', title_1_ver)[0]
-                    title_1_ver_b = str(re.findall('[\\d+\\.\\-]+', title_1_ver)[1]).replace(
-                        '-', '.'
-                    )
-                    title_2_ver_a = re.findall('[\\d+\\.\\-]+', title_2_ver)[0]
-                    title_2_ver_b = str(re.findall('[\\d+\\.\\-]+', title_2_ver)[1]).replace(
-                        '-', '.'
-                    )
-
-                    # Normalize the primary version lengths
-                    title_1_ver_a_parsed = [
-                        re.findall('[\\d+\\.\\-]+', x) for x in title_1_ver_a.split('.')
-                    ]
-                    title_2_ver_a_parsed = [
-                        re.findall('[\\d+\\.\\-]+', x) for x in title_2_ver_a.split('.')
-                    ]
-
-                    primary_version_zip: list[Any] = list(
-                        itertools.zip_longest(
-                            title_1_ver_a_parsed, title_2_ver_a_parsed, fillvalue=['0']
-                        )
-                    )
-
-                    try:
-                        title_1_ver = '.'.join([i[0][0] for i in primary_version_zip])
-                        title_2_ver = '.'.join([i[1][0] for i in primary_version_zip])
-                    except Exception:
-                        # If an unexpected versioning system turns up that causes a tuple
-                        # item in primary_version_zip to be empty, fail silently
-                        pass
-
-                    # Add the secondary version to the primary
-                    title_1_ver = f'{title_1_ver}.{title_1_ver_b}'
-                    title_2_ver = f'{title_2_ver}.{title_2_ver_b}'
-
-                # Remove known prefixes and strip whitespace
-                title_1_ver = re.sub(
-                    'version|^(v|Rev|Version|Beta|Alpha|Proto|Build)|\\s',
-                    '',
-                    title_1_ver,
-                    flags=re.I,
-                )
-                title_2_ver = re.sub(
-                    'version|^(v|Rev|Version|Beta|Alpha|Proto|Build)|\\s',
-                    '',
-                    title_2_ver,
-                    flags=re.I,
-                )
-
-                # Compensate for Doom version wackiness
-                if '666' in title_1_ver and 'Doom' in title_1.full_name:
-                    title_1_ver.replace('666', '6.6.6')
-
-                if '666' in title_2_ver and 'Doom' in title_2.full_name:
-                    title_1_ver.replace('666', '6.6.6')
-
                 # Normalize the versions
-                version_compare_normalize: list[Any] = process_versions(title_1_ver, title_2_ver)
+                if (
+                    version_string in title_1.normalized_version
+                    and version_string in title_2.normalized_version
+                ):
+                    version_compare_normalize: list[str] = process_versions(title_1.normalized_version[version_string], title_2.normalized_version[version_string])  # type: ignore
 
-                # Compare the normalized versions
-                for subversion in version_compare_normalize:
-                    try:
-                        if subversion[0] < subversion[1]:
-                            if title_1 in title_set:
-                                if config.user_input.oldest:
-                                    keep_title_name = title_1.full_name
-                                    remove_title_name = title_2.full_name
+                    # Compare the normalized versions
+                    for subversion in version_compare_normalize:
+                        try:
+                            if subversion[0] < subversion[1]:
+                                if title_1 in title_set:
+                                    if config.user_input.oldest:
+                                        keep_title_name = title_1.full_name
+                                        remove_title_name = title_2.full_name
 
-                                    remove_titles.add(title_2)
-                                else:
-                                    keep_title_name = title_2.full_name
-                                    remove_title_name = title_1.full_name
+                                        remove_titles.add(title_2)
+                                    else:
+                                        keep_title_name = title_2.full_name
+                                        remove_title_name = title_1.full_name
 
-                                    remove_titles.add(title_1)
+                                        remove_titles.add(title_1)
 
-                                if report_on_match:
-                                    TraceTools.trace_title(
-                                        'REF0041',
-                                        [
-                                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {keep_title_name}',
-                                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {remove_title_name}{Font.end}',
-                                        ],
-                                        keep_remove=True,
-                                    )
-                            break
+                                    if report_on_match:
+                                        TraceTools.trace_title(
+                                            'REF0041',
+                                            [keep_title_name, remove_title_name],
+                                            keep_remove=True,
+                                        )
+                                break
 
-                        if subversion[1] < subversion[0]:
-                            if title_2 in title_set:
-                                if config.user_input.oldest:
-                                    keep_title_name = title_2.full_name
-                                    remove_title_name = title_1.full_name
+                            if subversion[1] < subversion[0]:
+                                if title_2 in title_set:
+                                    if config.user_input.oldest:
+                                        keep_title_name = title_2.full_name
+                                        remove_title_name = title_1.full_name
 
-                                    remove_titles.add(title_1)
-                                else:
-                                    keep_title_name = title_1.full_name
-                                    remove_title_name = title_2.full_name
+                                        remove_titles.add(title_1)
+                                    else:
+                                        keep_title_name = title_1.full_name
+                                        remove_title_name = title_2.full_name
 
-                                    remove_titles.add(title_2)
+                                        remove_titles.add(title_2)
 
-                                if report_on_match:
-                                    TraceTools.trace_title(
-                                        'REF0040',
-                                        [
-                                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {keep_title_name}',
-                                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {remove_title_name}{Font.end}',
-                                        ],
-                                        keep_remove=True,
-                                    )
-                            break
-                    except Exception:
-                        # If there's a combination string and int, convert the int as a fallback.
-                        # This might result in the wrong version being chosen.
-                        if str(subversion[0]) < str(subversion[1]):
-                            if title_1 in title_set:
-                                if config.user_input.oldest:
-                                    keep_title_name = title_1.full_name
-                                    remove_title_name = title_2.full_name
+                                    if report_on_match:
+                                        TraceTools.trace_title(
+                                            'REF0040',
+                                            [keep_title_name, remove_title_name],
+                                            keep_remove=True,
+                                        )
+                                break
+                        except Exception:
+                            # If there's a combination string and int, convert the int as a fallback.
+                            # This might result in the wrong version being chosen.
+                            if str(subversion[0]) < str(subversion[1]):
+                                if title_1 in title_set:
+                                    if config.user_input.oldest:
+                                        keep_title_name = title_1.full_name
+                                        remove_title_name = title_2.full_name
 
-                                    remove_titles.add(title_2)
-                                else:
-                                    keep_title_name = title_2.full_name
-                                    remove_title_name = title_1.full_name
+                                        remove_titles.add(title_2)
+                                    else:
+                                        keep_title_name = title_2.full_name
+                                        remove_title_name = title_1.full_name
 
-                                    remove_titles.add(title_1)
+                                        remove_titles.add(title_1)
 
-                                if report_on_match:
-                                    TraceTools.trace_title(
-                                        'REF0041',
-                                        [
-                                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {keep_title_name}',
-                                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {remove_title_name}{Font.end}',
-                                        ],
-                                        keep_remove=True,
-                                    )
-                            break
+                                    if report_on_match:
+                                        TraceTools.trace_title(
+                                            'REF0041',
+                                            [keep_title_name, remove_title_name],
+                                            keep_remove=True,
+                                        )
+                                break
 
-                        if str(subversion[1]) < str(subversion[0]):
-                            if title_2 in title_set:
-                                if config.user_input.oldest:
-                                    keep_title_name = title_2.full_name
-                                    remove_title_name = title_1.full_name
+                            if str(subversion[1]) < str(subversion[0]):
+                                if title_2 in title_set:
+                                    if config.user_input.oldest:
+                                        keep_title_name = title_2.full_name
+                                        remove_title_name = title_1.full_name
 
-                                    remove_titles.add(title_1)
-                                else:
-                                    keep_title_name = title_1.full_name
-                                    remove_title_name = title_2.full_name
+                                        remove_titles.add(title_1)
+                                    else:
+                                        keep_title_name = title_1.full_name
+                                        remove_title_name = title_2.full_name
 
-                                    remove_titles.add(title_2)
+                                        remove_titles.add(title_2)
 
-                                if report_on_match:
-                                    TraceTools.trace_title(
-                                        'REF0040',
-                                        [
-                                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {keep_title_name}',
-                                            f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {remove_title_name}{Font.end}',
-                                        ],
-                                        keep_remove=True,
-                                    )
-                            break
+                                    if report_on_match:
+                                        TraceTools.trace_title(
+                                            'REF0040',
+                                            [keep_title_name, remove_title_name],
+                                            keep_remove=True,
+                                        )
+                                break
 
     for title in remove_titles:
         if title in title_set:

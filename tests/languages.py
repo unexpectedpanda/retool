@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""Regions integration test."""
+"""Languages integration test."""
 
 from tests.integration import integration_test
 

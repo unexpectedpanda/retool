@@ -112,9 +112,10 @@ Databases:
 - [The PC Engine Software Bible](http://www.pcengine.co.uk/) (NEC PC Engine/TurboGrafx-16
   titles)
 - [The Cutting Room Floor](https://tcrf.net)
+- [The Video Game Critic](https://videogamecritic.com)
 - [The World of CDI](https://www.theworldofcdi.com) (Philips CD-I titles)
-- [VDGB](https://vgdb.io)
 - [VGM](https://www.video-games-museum.com)
+- [VGMdb](https://vgmdb.net)
 
 General sites and retail stores:
 

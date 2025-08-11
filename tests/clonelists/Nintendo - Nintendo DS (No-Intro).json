@@ -1131,7 +1131,7 @@
 		{
 			"group": "D&CO - Ta Maison de Reve en 7 Jours",
 			"titles": [
-				{"searchTerm": "D&CO - Ta Maison de Reve en 7 Jours", "localizedNames": {"french": "D&CO - Ta Maison de Reve en 7 Jours", "italian": "Decora e Arreda con Stile"}}
+				{"searchTerm": "D&CO - Ta Maison de Reve en 7 Jours", "localNames": {"french": "D&CO - Ta Maison de Reve en 7 Jours", "italian": "Decora e Arreda con Stile"}}
 			]
 		},
 		{
@@ -1218,7 +1218,7 @@
 		{
 			"group": "Diddl in the Cheesecakeland - Diddl en Diddland",
 			"titles": [
-				{"searchTerm": "Diddl in the Cheesecakeland - Diddl en Diddland", "localizedNames": {"english": "Diddl in the Cheesecakeland - Diddl en Diddland", "french": "Diddl en Diddland", "german": "Diddl im Käsekuchenland"}}
+				{"searchTerm": "Diddl in the Cheesecakeland - Diddl en Diddland", "localNames": {"english": "Diddl in the Cheesecakeland - Diddl en Diddland", "french": "Diddl en Diddland", "german": "Diddl im Käsekuchenland"}}
 			]
 		},
 		{
@@ -2075,7 +2075,7 @@
 		{
 			"group": "General Knowledge for Dummies",
 			"titles": [
-				{"searchTerm": "General Knowledge for Dummies", "localizedNames": {"english": "General Knowledge for Dummies", "french": "Culture Générale pour les Nuls, La - 2e Édition", "german": "Allgemeinbildung für dummies"}}
+				{"searchTerm": "General Knowledge for Dummies", "localNames": {"english": "General Knowledge for Dummies", "french": "Culture Générale pour les Nuls, La - 2e Édition", "german": "Allgemeinbildung für dummies"}}
 			]
 		},
 		{
@@ -2792,7 +2792,7 @@
 		{
 			"group": "J'Apprends l'Anglais CP-CM1",
 			"titles": [
-				{"searchTerm": "J'Apprends l'Anglais CP-CM1", "localizedNames": {"french": "J'Apprends l'Anglais CP-CM1", "italian": "A Scuola Di - Inglese"}},
+				{"searchTerm": "J'Apprends l'Anglais CP-CM1", "localNames": {"french": "J'Apprends l'Anglais CP-CM1", "italian": "A Scuola Di - Inglese"}},
 				{"searchTerm": "Lernerfolg Grundschule - Englisch"}
 			]
 		},
@@ -3187,8 +3187,8 @@
 		{
 			"group": "Kirikou and the Wild Beasts",
 			"titles": [
-				{"searchTerm": "Kirikou and the Wild Beasts", "localizedNames": {"english": "Kirikou and the Wild Beasts", "french": "Kirikou et les Bêtes Sauvages", "german": "Kiriku und die wilden Tiere", "italian": "Kirikù e gli Animali Selvaggi", "spanish": "Kirikú y las Bestias Salvajes"}},
-				{"searchTerm": "Kirikou et les Betes Sauvages", "localizedNames": {"english": "Kirikou and the Wild Beasts", "french": "Kirikou et les Bêtes Sauvages", "german": "Kiriku und die wilden Tiere", "italian": "Kirikù e gli Animali Selvaggi", "spanish": "Kirikú y las Bestias Salvajes"}}
+				{"searchTerm": "Kirikou and the Wild Beasts", "localNames": {"english": "Kirikou and the Wild Beasts", "french": "Kirikou et les Bêtes Sauvages", "german": "Kiriku und die wilden Tiere", "italian": "Kirikù e gli Animali Selvaggi", "spanish": "Kirikú y las Bestias Salvajes"}},
+				{"searchTerm": "Kirikou et les Betes Sauvages", "localNames": {"english": "Kirikou and the Wild Beasts", "french": "Kirikou et les Bêtes Sauvages", "german": "Kiriku und die wilden Tiere", "italian": "Kirikù e gli Animali Selvaggi", "spanish": "Kirikú y las Bestias Salvajes"}}
 			]
 		},
 		{
@@ -3439,7 +3439,7 @@
 		{
 			"group": "Little Bears",
 			"titles": [
-				{"searchTerm": "Little Bears", "localizedNames": {"english": "Little Bears", "german": "Bärenbabys"}}
+				{"searchTerm": "Little Bears", "localNames": {"english": "Little Bears", "german": "Bärenbabys"}}
 			]
 		},
 		{
@@ -5140,10 +5140,10 @@
 			]
 		},
 		{
-			"group": "Pokemon - Black Version Veetoo",
+			"group": "Pokemon - Black Version V2",
 			"titles": [
 				{"searchTerm": "Pocket Monsters - Black 2"},
-				{"searchTerm": "Pokemon - Black"},
+				{"searchTerm": "Pokemon - Black Version 2"},
 				{"searchTerm": "Pokemon - Edicion Negra 2"},
 				{"searchTerm": "Pokemon - Schwarze Edition 2"},
 				{"searchTerm": "Pokemon - Version Noire 2"},
@@ -5220,14 +5220,14 @@
 			]
 		},
 		{
-			"group": "Pokemon - White Version Veetoo",
+			"group": "Pokemon - White V2",
 			"titles": [
 				{"searchTerm": "Pocket Monsters - White 2"},
 				{"searchTerm": "Pokemon - Edicion Blanca 2"},
 				{"searchTerm": "Pokemon - Version Blanche 2"},
 				{"searchTerm": "Pokemon - Versione Bianca 2"},
 				{"searchTerm": "Pokemon - Weisse Edition 2"},
-				{"searchTerm": "Pokemon - White"}
+				{"searchTerm": "Pokemon - White Version 2"}
 			]
 		},
 		{
@@ -5952,7 +5952,7 @@
 		{
 			"group": "Sideswiped",
 			"titles": [
-				{"searchTerm": "Clash King01"},
+				{"searchTerm": "Clash King V201"},
 				{"searchTerm": "Sideswiped"}
 			]
 		},
@@ -6262,7 +6262,7 @@
 		{
 			"group": "Street Football II",
 			"titles": [
-				{"searchTerm": "Street Football II", "localizedNames": {"english": "Street Football II", "french": "Foot 2 Rue - Nicolas Anelka", "italian": "Street Football II - Nuove Sfide"}}
+				{"searchTerm": "Street Football II", "localNames": {"english": "Street Football II", "french": "Foot 2 Rue - Nicolas Anelka", "italian": "Street Football II - Nuove Sfide"}}
 			]
 		},
 		{

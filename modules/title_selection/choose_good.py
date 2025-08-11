@@ -6,8 +6,8 @@ from re import Pattern
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from modules.config import Config
-    from modules.dats import DatNode
+    from modules.config.config import Config
+    from modules.dat.process_dat import DatNode
 
 
 def choose_good(title_set: set[DatNode], config: Config) -> set[DatNode]:
@@ -22,8 +22,8 @@ def choose_good(title_set: set[DatNode], config: Config) -> set[DatNode]:
         config (Config): The Retool config object.
 
     Returns:
-        set[DatNode]: A set of DatNodes with preproduction and bad titles
-        removed, if a better title exists to take their place.
+        set[DatNode]: A set of DatNodes with preproduction and bad titles removed, if a
+        better title exists to take their place.
     """
     remove_titles: set[DatNode] = set()
 

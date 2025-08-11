@@ -1301,12 +1301,12 @@
 			]
 		},
 		{
-			"group": "Sniper Elite",
+			"group": "Sniper Elite V2",
 			"titles": [
-				{"searchTerm": "Sniper Elite"}
+				{"searchTerm": "Sniper Elite V2"}
 			],
 			"supersets": [
-				{"searchTerm": "Sniper Elite - Silver Star Edition"}
+				{"searchTerm": "Sniper Elite V2 - Silver Star Edition"}
 			]
 		},
 		{

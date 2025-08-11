@@ -8,7 +8,7 @@
 		<author>aci68, ajshell1, Arctic Circle System, Aringon, asapy, Baronluigi, Bent, buckwheat, C. V. Reynolds, chillerecke, Connie, coraz, darthcloud, Datman, DeadSkullzJr, Densetsu, DeriLoko3, diego-rbb, DirkDagger, einstein95, Flashfire42, Fonix, fuzzball, Gefflon, Hiccup, hydr0x, iAmGhost, Icyelut, InternalLoss, Jhon591, jimmsu, Just001Kim, kazumi213, Kirtai, leekindo, Lesserkuma, Liam, MaxG, MeguCocoa, michal99, MisterSheeple, Money_114, Mr.K, NGEfreak, nhlay, niemand, nnssxx, NovaAurora, omonim2007, Powerpuff, PPLToast, psykopat, rarenight, relax, RetroGamer, Rifu, scorp256, Sir VG, SonGoku, Tauwasser, TBemme, Tescu, ToeKnee, togemet2, Tori, u53r123, ufocrossing, UnlockerPT, Vallaine01, Vigi, Whovian9369, Xenirina, xprism, xuom2, zg</author>
 		<homepage>No-Intro</homepage>
 		<url>https://www.no-intro.org</url>
-		<clrmamepro forcenodump="required"/>
+		<clrmamepro forcenodump="required"></clrmamepro>
 	</header>
 	<game name="[BIOS] iQue DS Firmware (China) (En,Fr,De,Es,It,Zh) (2005-06-09)" id="xB16">
 		<description>[BIOS] iQue DS Firmware (China) (En,Fr,De,Es,It,Zh) (2005-06-09)</description>

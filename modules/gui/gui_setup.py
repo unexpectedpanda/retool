@@ -8,7 +8,7 @@ from PySide6 import QtGui as qtg
 from PySide6 import QtWidgets as qtw
 
 import modules.constants as const
-from modules.config import Config, generate_config
+from modules.config.config import Config
 from modules.gui.gui_config import write_config
 from modules.gui.gui_utils import (
     add_list_items,
@@ -24,6 +24,7 @@ from modules.gui.gui_utils import (
 )
 from modules.gui.gui_windows import AboutWindow, SettingsWindow, TitleToolWindow
 from modules.input import get_config_value, import_system_settings
+from modules.config.read_write_config import generate_config
 from modules.utils import Font, eprint
 
 
@@ -39,7 +40,7 @@ def default_english_order(
         region_order_default (list[str]): The default region order.
 
         regions_list (str): The regions list to modify. Valid values are `global` and
-        `system`.
+            `system`.
     """
     if regions_list == 'global':
         main_window.ui.listWidgetGlobalAvailableRegions.clear()
@@ -61,7 +62,7 @@ def setup_gui_global(
         main_window (Any): The MainWindow widget.
 
         dat_details (dict[str, dict[str, str]]): The dictionary that carries DAT file
-        details like its system name and filepath.
+            details like its system name and filepath.
 
         config (Config): The Retool config object.
     """
@@ -184,10 +185,16 @@ def setup_gui_global(
     main_window.output_folder = str(pathlib.Path.cwd())
 
     main_window.clone_lists_folder = get_config_value(
-        config.user_gui_settings, 'clone lists folder', config.path_clone_list
+        config.user_gui_settings, 'clone lists folder', str(config.path_clone_list)
     )
     main_window.metadata_folder = get_config_value(
-        config.user_gui_settings, 'metadata folder', config.path_metadata
+        config.user_gui_settings, 'metadata folder', str(config.path_metadata)
+    )
+    main_window.mia_folder = get_config_value(
+        config.user_gui_settings, 'mia folder', str(config.path_mia)
+    )
+    main_window.ra_folder = get_config_value(
+        config.user_gui_settings, 'retroachievements folder', str(config.path_ra)
     )
     main_window.quick_import_folder = get_config_value(
         config.user_gui_settings, 'quick import folder', config.path_quick_import
@@ -221,6 +228,8 @@ def setup_gui_global(
             main_window.ui.checkBoxGlobalOptionsPreferRegions.setChecked(True)
         if 'o' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsPreferOldest.setChecked(True)
+        if 'c' in config.user_gui_settings:
+            main_window.ui.checkBoxGlobalOptionsPreferRetro.setChecked(True)
         if 'e' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsIncludeHashless.setChecked(True)
         if 'z' in config.user_gui_settings:
@@ -233,20 +242,20 @@ def setup_gui_global(
             main_window.ui.checkBoxGlobalOptionsRemovesDat.setChecked(True)
         if 'reprocess' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsAlreadyProcessed.setChecked(True)
-        if 'log' in config.user_gui_settings:
+        if 'report' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsKeepRemove.setChecked(True)
         if 'machine' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsUseMachine.setChecked(True)
-        if 'nolabelmia' in config.user_gui_settings:
-            main_window.ui.checkBoxGlobalOptionsNoMIA.setChecked(True)
+        if 'labelmia' in config.user_gui_settings:
+            main_window.ui.checkBoxGlobalOptionsMIA.setChecked(True)
+        if 'labelretro' in config.user_gui_settings:
+            main_window.ui.checkBoxGlobalOptionsRetroAchievements.setChecked(True)
         if 'originalheader' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsOriginalHeader.setChecked(True)
         if 'warnings' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsReportWarnings.setChecked(True)
         if 'warningpause' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsPauseWarnings.setChecked(True)
-        if 'nodtd' in config.user_gui_settings:
-            main_window.ui.checkBoxGlobalOptionsBypassDTD.setChecked(True)
         if 'singlecpu' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsDisableMultiCPU.setChecked(True)
         # Show the associated lineEdit later, as it takes a while for the checkbox to be enabled
@@ -328,11 +337,11 @@ def setup_gui_global(
         if 'v' in exclude:
             main_window.ui.checkBoxGlobalExcludeVideo.setChecked(True)
         if 'f' in exclude and 'p' in exclude and 'u' in exclude:
-            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)
+            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)  # type: ignore
         elif 'f' not in exclude and 'p' not in exclude and 'u' not in exclude:
-            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.Unchecked)
+            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.Unchecked)  # type: ignore
         else:
-            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.PartiallyChecked)
+            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.PartiallyChecked)  # type: ignore
 
     trace: list[dict[str, str]] = [x for x in config.user_gui_settings if 'trace' in x]
 
@@ -351,8 +360,6 @@ def setup_gui_global(
             'output_folder',
         )
     )
-
-    # Set up the options interactivity
     main_window.ui.checkBoxGlobalReplaceInputDats.clicked.connect(
         lambda: disable_incompatible_element(
             main_window.ui.checkBoxGlobalReplaceInputDats,
@@ -488,33 +495,36 @@ def setup_gui_global(
         qtc.QRegularExpression('checkBoxGlobalExclude(Aftermarket|Pirate|Unlicensed)$'),
     )
 
-    def unlicensed_all():
-        """Selects the "Unlicensed (select all)" checkbox if its child checkboxes are checked."""
+    def unlicensed_all() -> None:
+        """
+        Selects the "Unlicensed (select all)" checkbox if its child checkboxes are
+        checked.
+        """
         if (
             main_window.ui.checkBoxGlobalExcludeAftermarket.isChecked()
             and main_window.ui.checkBoxGlobalExcludePirate.isChecked()
             and main_window.ui.checkBoxGlobalExcludeUnlicensed.isChecked()
         ):
-            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)
+            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)  # type: ignore
         elif (
             not main_window.ui.checkBoxGlobalExcludeAftermarket.isChecked()
             and not main_window.ui.checkBoxGlobalExcludePirate.isChecked()
             and not main_window.ui.checkBoxGlobalExcludeUnlicensed.isChecked()
         ):
-            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.Unchecked)
+            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.Unchecked)  # type: ignore
         else:
-            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.PartiallyChecked)
+            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.PartiallyChecked)  # type: ignore
 
     for checkbox in global_unlicensed_checkboxes:
         checkbox.clicked.connect(lambda: unlicensed_all())
 
-    def clicked_unlicensed_all():
+    def clicked_unlicensed_all() -> None:
         """Selects all children of the "Unlicensed (select all)" checkbox if it's checked."""
         if (
             main_window.ui.checkBoxGlobalExcludeUnlicensedAll.checkState()
-            == qtc.Qt.PartiallyChecked
+            == qtc.Qt.PartiallyChecked  # type: ignore
         ):
-            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)
+            main_window.ui.checkBoxGlobalExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)  # type: ignore
 
         if main_window.ui.checkBoxGlobalExcludeUnlicensedAll.isChecked():
             select_checkboxes(global_unlicensed_checkboxes, True)
@@ -564,6 +574,17 @@ def setup_gui_global(
             main_window.ui.frameGlobalOptions1G1RPrefix,
         )
     )
+
+    def label_retroachievements() -> None:
+        if main_window.ui.checkBoxGlobalOptionsPreferRetro.isChecked():
+            main_window.ui.checkBoxGlobalOptionsRetroAchievements.setChecked(True)
+            main_window.ui.checkBoxGlobalOptionsRetroAchievements.setDisabled(True)
+        else:
+            main_window.ui.checkBoxGlobalOptionsRetroAchievements.setEnabled(True)
+
+    main_window.ui.checkBoxGlobalOptionsPreferRetro.clicked.connect(
+        lambda: label_retroachievements()
+    )
     main_window.ui.checkBoxGlobalOptionsTrace.clicked.connect(
         lambda: show_hide(
             main_window.ui.checkBoxGlobalOptionsTrace, main_window.ui.frameGlobalOptionsTrace
@@ -572,9 +593,9 @@ def setup_gui_global(
 
     def CloneListNameToolWindow() -> None:
         """
-        Opens the clone list name tool window. Trying to just show the window
-        directly with .show() means it opens and closes instantly, whereas formatting
-        it like this keeps it on screen as intended.
+        Opens the clone list name tool window. Trying to just show the window directly
+        with .show() means it opens and closes instantly, whereas formatting it like this
+        keeps it on screen as intended.
         """
         main_window.new_window.show()
 
@@ -626,7 +647,9 @@ def setup_gui_global(
         )
     )
 
-    def quick_import_folder(dat_details, config, main_window):
+    def quick_import_folder(
+        dat_details: dict[str, dict[str, str]], config: Config, main_window: Any
+    ) -> None:
         if not main_window.quick_import_folder:
             msg = qtw.QMessageBox()
             msg.setText(
@@ -711,7 +734,7 @@ def setup_gui_system(
         main_window (Any): The MainWindow widget.
 
         dat_details (dict[str, dict[str, str]]): The dictionary that carries DAT file
-        details like its system name and filepath.
+            details like its system name and filepath.
 
         config (Config): The Retool config object.
     """
@@ -735,13 +758,15 @@ def setup_gui_system(
     main_window.system_output_folder = ''
     main_window.system_clone_list = ''
     main_window.system_metadata_file = ''
+    main_window.system_mia_file = ''
+    main_window.system_ra_file = ''
 
     # Set up variables for paths system settings
     output_not_found: str = 'No output folder selected, using global settings'
-    clone_list_not_found: str = 'No custom clone list selected, using default clone list location'
-    metadata_file_not_found: str = (
-        'No custom metadata file selected, using default metadata file location'
-    )
+    clone_list_not_found: str = 'No custom clone list selected, using default location'
+    metadata_file_not_found: str = 'No custom metadata file selected, using default location'
+    mia_file_not_found: str = 'No custom MIA file selected, using default location'
+    ra_file_not_found: str = 'No custom RetroAchievements file selected, using default location'
 
     # Reset the path labels
     main_window.ui.labelSystemOutputFolder.setText(
@@ -752,6 +777,12 @@ def setup_gui_system(
     )
     main_window.ui.labelSystemMetadataFile.setText(
         qtc.QCoreApplication.translate('MainWindow', metadata_file_not_found, None)
+    )
+    main_window.ui.labelSystemMIAFile.setText(
+        qtc.QCoreApplication.translate('MainWindow', mia_file_not_found, None)
+    )
+    main_window.ui.labelSystemRAFile.setText(
+        qtc.QCoreApplication.translate('MainWindow', ra_file_not_found, None)
     )
 
     # Get the system exclude checkboxes
@@ -821,11 +852,13 @@ def setup_gui_system(
             try:
                 generate_config(
                     system_config_path,
-                    tuple([f'Comment|{x}' for x in sorted(config.languages)]),
-                    tuple([x for x in config.region_order_default if x != 'United Kingdom']),
-                    tuple(f'Comment|{x}' for x in sorted(config.languages)),
-                    tuple(config.video_order_default),
-                    config.system_settings_path,
+                    languages=tuple([f'Comment|{x}' for x in sorted(config.languages)]),
+                    regions=tuple(
+                        [x for x in config.region_order_default if x != 'United Kingdom']
+                    ),
+                    localizations=tuple(f'Comment|{x}' for x in sorted(config.languages)),
+                    video_standards=tuple(config.video_order_default),
+                    system_config_path=config.system_settings_path,
                     overwrite=True,
                     system_config=True,
                     system_paths={},
@@ -878,8 +911,16 @@ def setup_gui_system(
                 main_window.ui.buttonSystemChooseMetadataFile,
                 main_window.ui.labelSystemSelectMetadataFile,
                 main_window.ui.labelSystemMetadataFile,
+                main_window.ui.buttonSystemChooseMIAFile,
+                main_window.ui.labelSystemSelectMIAFile,
+                main_window.ui.labelSystemMIAFile,
+                main_window.ui.buttonSystemChooseRAFile,
+                main_window.ui.labelSystemSelectRAFile,
+                main_window.ui.labelSystemRAFile,
                 main_window.ui.buttonSystemClearCloneList,
                 main_window.ui.buttonSystemClearMetadataFile,
+                main_window.ui.buttonSystemClearMIAFile,
+                main_window.ui.buttonSystemClearRAFile,
                 main_window.ui.buttonSystemClearOutput,
                 main_window.ui.checkBoxSystemReplaceInputDats,
             ],
@@ -920,6 +961,24 @@ def setup_gui_system(
                 qtc.QCoreApplication.translate('MainWindow', metadata_file_not_found, None)
             )
             main_window.system_metadata_file = ''
+
+        if config.system_mia_file:
+            main_window.ui.labelSystemMIAFile.setText(config.system_mia_file)
+            main_window.system_mia_file = str(config.system_mia_file)
+        else:
+            main_window.ui.labelSystemMIAFile.setText(
+                qtc.QCoreApplication.translate('MainWindow', mia_file_not_found, None)
+            )
+            main_window.system_mia_file = ''
+
+        if config.system_ra_file:
+            main_window.ui.labelSystemRAFile.setText(config.system_ra_file)
+            main_window.system_ra_file = str(config.system_ra_file)
+        else:
+            main_window.ui.labelSystemRAFile.setText(
+                qtc.QCoreApplication.translate('MainWindow', ra_file_not_found, None)
+            )
+            main_window.system_ra_file = ''
 
         # Set the system regions UI enabled/disabled depending on override state
         if {'override': 'true'} in config.system_region_order_user:
@@ -1110,6 +1169,8 @@ def setup_gui_system(
                 main_window.ui.checkBoxSystemOptionsPreferRegions.setChecked(True)
             if 'o' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsPreferOldest.setChecked(True)
+            if 'c' in config.system_exclusions_options:
+                main_window.ui.checkBoxSystemOptionsPreferRetro.setChecked(True)
             if 'e' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsIncludeHashless.setChecked(True)
             if 'z' in config.system_exclusions_options:
@@ -1122,20 +1183,20 @@ def setup_gui_system(
                 main_window.ui.checkBoxSystemOptionsRemovesDat.setChecked(True)
             if 'reprocess' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsAlreadyProcessed.setChecked(True)
-            if 'log' in config.system_exclusions_options:
+            if 'report' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsKeepRemove.setChecked(True)
             if 'machine' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsUseMachine.setChecked(True)
-            if 'nolabelmia' in config.system_exclusions_options:
-                main_window.ui.checkBoxSystemOptionsNoMIA.setChecked(True)
+            if 'labelmia' in config.system_exclusions_options:
+                main_window.ui.checkBoxSystemOptionsMIA.setChecked(True)
+            if 'labelretro' in config.system_exclusions_options:
+                main_window.ui.checkBoxSystemOptionsRetroAchievements.setChecked(True)
             if 'originalheader' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsOriginalHeader.setChecked(True)
             if 'warnings' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsReportWarnings.setChecked(True)
             if 'warningpause' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsPauseWarnings.setChecked(True)
-            if 'nodtd' in config.system_exclusions_options:
-                main_window.ui.checkBoxSystemOptionsBypassDTD.setChecked(True)
             if 'singlecpu' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsDisableMultiCPU.setChecked(True)
             # Show the associated lineEdit later, as it takes a while for the checkbox to be enabled
@@ -1224,16 +1285,16 @@ def setup_gui_system(
             if 'v' in system_exclude:
                 main_window.ui.checkBoxSystemExcludeVideo.setChecked(True)
             if 'f' in system_exclude and 'p' in system_exclude and 'u' in system_exclude:
-                main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)
+                main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)  # type: ignore
             elif (
                 'f' not in system_exclude
                 and 'p' not in system_exclude
                 and 'u' not in system_exclude
             ):
-                main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.Unchecked)
+                main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.Unchecked)  # type: ignore
             else:
                 main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(
-                    qtc.Qt.PartiallyChecked
+                    qtc.Qt.PartiallyChecked  # type: ignore
                 )
 
         if config.system_user_prefix:
@@ -1391,8 +1452,16 @@ def setup_gui_system(
                 main_window.ui.buttonSystemChooseMetadataFile,
                 main_window.ui.labelSystemSelectMetadataFile,
                 main_window.ui.labelSystemMetadataFile,
+                main_window.ui.buttonSystemChooseMIAFile,
+                main_window.ui.labelSystemSelectMIAFile,
+                main_window.ui.labelSystemMIAFile,
+                main_window.ui.buttonSystemChooseRAFile,
+                main_window.ui.labelSystemSelectRAFile,
+                main_window.ui.labelSystemRAFile,
                 main_window.ui.buttonSystemClearCloneList,
                 main_window.ui.buttonSystemClearMetadataFile,
+                main_window.ui.buttonSystemClearMIAFile,
+                main_window.ui.buttonSystemClearRAFile,
                 main_window.ui.buttonSystemClearOutput,
                 main_window.ui.checkBoxSystemReplaceInputDats,
             ],
@@ -1418,6 +1487,14 @@ def setup_gui_system(
             main_window.ui.labelSystemMetadataFile.setText(metadata_file_not_found)
             main_window.system_metadata_file = ''
             config.system_metadata_file = ''
+        elif clear_button == main_window.ui.buttonSystemClearMIAFile:
+            main_window.ui.labelSystemMIAFile.setText(mia_file_not_found)
+            main_window.system_mia_file = ''
+            config.system_mia_file = ''
+        elif clear_button == main_window.ui.buttonSystemClearRAFile:
+            main_window.ui.labelSystemRAFile.setText(ra_file_not_found)
+            main_window.system_ra_file = ''
+            config.system_ra_file = ''
 
     main_window.ui.buttonSystemChooseOutput.clicked.connect(
         lambda: set_path(
@@ -1445,6 +1522,24 @@ def setup_gui_system(
             input_type='metadata',
         )
     )
+    main_window.ui.buttonSystemChooseMIAFile.clicked.connect(
+        lambda: set_path(
+            main_window,
+            main_window.system_mia_file,
+            main_window.ui.labelSystemMIAFile,
+            'system_mia_file',
+            input_type='mia',
+        )
+    )
+    main_window.ui.buttonSystemChooseRAFile.clicked.connect(
+        lambda: set_path(
+            main_window,
+            main_window.system_ra_file,
+            main_window.ui.labelSystemRAFile,
+            'system_ra_file',
+            input_type='ra',
+        )
+    )
     main_window.ui.buttonSystemClearOutput.clicked.connect(
         lambda: clear_system_paths(main_window.ui.buttonSystemClearOutput)
     )
@@ -1453,6 +1548,12 @@ def setup_gui_system(
     )
     main_window.ui.buttonSystemClearMetadataFile.clicked.connect(
         lambda: clear_system_paths(main_window.ui.buttonSystemClearMetadataFile)
+    )
+    main_window.ui.buttonSystemClearMIAFile.clicked.connect(
+        lambda: clear_system_paths(main_window.ui.buttonSystemClearMIAFile)
+    )
+    main_window.ui.buttonSystemClearRAFile.clicked.connect(
+        lambda: clear_system_paths(main_window.ui.buttonSystemClearRAFile)
     )
 
     main_window.ui.checkBoxSystemReplaceInputDats.clicked.connect(
@@ -1658,33 +1759,36 @@ def setup_gui_system(
         qtc.QRegularExpression('checkBoxSystemExclude(Aftermarket|Pirate|Unlicensed)$'),
     )
 
-    def unlicensed_all():
-        """Selects the "Unlicensed (select all)" checkbox if its child checkboxes are checked."""
+    def unlicensed_all() -> None:
+        """
+        Selects the "Unlicensed (select all)" checkbox if its child checkboxes are
+        checked.
+        """
         if (
             main_window.ui.checkBoxSystemExcludeAftermarket.isChecked()
             and main_window.ui.checkBoxSystemExcludePirate.isChecked()
             and main_window.ui.checkBoxSystemExcludeUnlicensed.isChecked()
         ):
-            main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)
+            main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)  # type: ignore
         elif (
             not main_window.ui.checkBoxSystemExcludeAftermarket.isChecked()
             and not main_window.ui.checkBoxSystemExcludePirate.isChecked()
             and not main_window.ui.checkBoxSystemExcludeUnlicensed.isChecked()
         ):
-            main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.Unchecked)
+            main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.Unchecked)  # type: ignore
         else:
-            main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.PartiallyChecked)
+            main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.PartiallyChecked)  # type: ignore
 
     for checkbox in system_unlicensed_checkboxes:
         checkbox.clicked.connect(lambda: unlicensed_all())
 
-    def clicked_unlicensed_all():
+    def clicked_unlicensed_all() -> None:
         """Selects all children of the "Unlicensed (select all)" checkbox if it's checked."""
         if (
             main_window.ui.checkBoxSystemExcludeUnlicensedAll.checkState()
-            == qtc.Qt.PartiallyChecked
+            == qtc.Qt.PartiallyChecked  # type: ignore
         ):
-            main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)
+            main_window.ui.checkBoxSystemExcludeUnlicensedAll.setCheckState(qtc.Qt.Checked)  # type: ignore
 
         if main_window.ui.checkBoxSystemExcludeUnlicensedAll.isChecked():
             select_checkboxes(system_unlicensed_checkboxes, True)
@@ -1737,6 +1841,17 @@ def setup_gui_system(
             main_window.ui.checkBoxSystemOptions1G1RNames,
             main_window.ui.frameSystemOptions1G1RPrefix,
         )
+    )
+
+    def label_retroachievements() -> None:
+        if main_window.ui.checkBoxSystemOptionsPreferRetro.isChecked():
+            main_window.ui.checkBoxSystemOptionsRetroAchievements.setChecked(True)
+            main_window.ui.checkBoxSystemOptionsRetroAchievements.setDisabled(True)
+        else:
+            main_window.ui.checkBoxSystemOptionsRetroAchievements.setEnabled(True)
+
+    main_window.ui.checkBoxSystemOptionsPreferRetro.clicked.connect(
+        lambda: label_retroachievements()
     )
     main_window.ui.checkBoxSystemOptionsTrace.clicked.connect(
         lambda: show_hide(

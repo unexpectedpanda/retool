@@ -8,7 +8,7 @@
 		<author>Arctic Circle System, Aringon, BigFred, BitLooter, C. V. Reynolds, fuzzball, Hiccup, jimmsu, kazumi213, nnssxx, omonim2007, Powerpuff, Psychofox11, psykopat, rarenight, relax, Rifu, sCZther, SonGoku, TeamEurope, xuom2</author>
 		<homepage>No-Intro</homepage>
 		<url>https://www.no-intro.org</url>
-		<clrmamepro forcenodump="required"/>
+		<clrmamepro forcenodump="required"></clrmamepro>
 	</header>
 	<game name="[BIOS] Sega Game Gear (USA) (Majesco)" id="xB01">
 		<description>[BIOS] Sega Game Gear (USA) (Majesco)</description>

@@ -8,7 +8,7 @@
 		<author>aci68, Arctic Circle System, baldjared, BigFred, bikerspade, BitLooter, Blank, buckwheat, C. V. Reynolds, chillerecke, DeadSkullzJr, DeriLoko3, EggmanPEI, einstein95, fuzzball, Gefflon, Hiccup, Jack, jimmsu, Just001Kim, kazumi213, Lesserkuma, Madeline, Money_114, NESBrew12, niemand, nnssxx, norkmetnoil577, NovaAurora, omonim2007, Powerpuff, PPLToast, Psychofox11, psykopat, rarenight, relax, RetroUprising, Rifu, sCZther, SonGoku, Special T, Tauwasser, ToeKnee, togemet2, UnlockerPT, Vigi, xuom2</author>
 		<homepage>No-Intro</homepage>
 		<url>https://www.no-intro.org</url>
-		<clrmamepro forcenodump="required"/>
+		<clrmamepro forcenodump="required"></clrmamepro>
 	</header>
 	<game name="[BIOS] Demo Vision (USA) (Rev 2) (Program)" id="3178">
 		<description>[BIOS] Demo Vision (USA) (Rev 2) (Program)</description>

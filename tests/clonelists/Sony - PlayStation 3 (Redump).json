@@ -2555,13 +2555,13 @@
 			]
 		},
 		{
-			"group": "Sniper Elite",
+			"group": "Sniper Elite V2",
 			"titles": [
-				{"searchTerm": "Sniper Elite"}
+				{"searchTerm": "Sniper Elite V2"}
 			],
 			"supersets": [
-				{"searchTerm": "Sniper Elite - Game of the Year Edition"},
-				{"searchTerm": "Sniper Elite - Silver Star Edition"}
+				{"searchTerm": "Sniper Elite V2 - Game of the Year Edition"},
+				{"searchTerm": "Sniper Elite V2 - Silver Star Edition"}
 			]
 		},
 		{

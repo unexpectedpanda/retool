@@ -19,7 +19,7 @@ from PySide6 import QtGui as qtg
 from PySide6 import QtWidgets as qtw
 
 import retool
-from modules.config import Config
+from modules.config.config import Config
 from modules.gui.gui_config import import_config, write_config
 from modules.gui.gui_setup import setup_gui_global, setup_gui_system
 from modules.gui.gui_utils import enable_go_button, show_hide
@@ -162,7 +162,9 @@ class MainWindow(qtw.QMainWindow):
         interactive_widgets.extend(
             self.ui.centralwidget.findChildren(
                 qtw.QCheckBox,
-                qtc.QRegularExpression('checkBox(Global|System)(Exclude|Options|Replace).*'),
+                qtc.QRegularExpression(
+                    'checkBox(Global|System)(Exclude|Options|Replace|Override).*'
+                ),
             )
         )
         interactive_widgets.extend(

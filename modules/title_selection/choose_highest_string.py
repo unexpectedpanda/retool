@@ -4,7 +4,7 @@ import itertools
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from modules.dats import DatNode
+    from modules.dat.process_dat import DatNode
 
 from modules.titletools import TraceTools
 
@@ -17,12 +17,10 @@ def choose_highest_string(title_set: set[DatNode], report_on_match: bool) -> set
     Args:
         title_set (set[DatNode]): A set of titles as DatNode instances.
 
-        report_on_match (bool): Whether Retool needs to report any titles being
-        traced.
+        report_on_match (bool): Whether Retool needs to report any titles being traced.
 
     Returns:
-        set[DatNode]: A set of DatNodes that contain titles only with the longest
-        name.
+        set[DatNode]: A set of DatNodes that contain titles only with the longest name.
     """
     remove_titles: set[DatNode] = set()
 

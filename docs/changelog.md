@@ -5,6 +5,499 @@ hide:
 
 # Changelog
 
+## 2.4.0 (2025-11-04)
+
+Consider this update a bonus, as I wanted to correct a few things. It isn't a sign of
+future updates to come.
+
+Redump clone lists have been updated. No-Intro clone lists... maybe, maybe not. Pulling
+No-Intro data is just as arduous as it's ever been, its bot protection and missing
+downloads frustrating automating the process.
+
+The primary focus of this update is fixing coding sins of the past, while making memory
+and speed improvements.
+
+Benchmarking platform:
+
+- CPU: Intel Core i7 14700K (28 threads across 8 P-Cores and 12 E-cores)
+
+- RAM: 64GB DDR DD5-6400
+
+- Disk: Samsung SSD 990 Pro 2TB
+
+Windows 10, Python 3.13.3 results:
+
+<style>
+    td {
+        --better-than-10: #0cbf9bdd;
+        --better-than-5: #1ac914b0;
+        --better-than-3: #1ac914a0;
+        --better-than-2: #1ac91480;
+        --better-than-1: #1ac91460;
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="3">DAT file</th>
+            <th rowspan="3">Number of titles</th>
+            <th rowspan="3">Options</th>
+            <th colspan="3">
+                <p>DAT processing time</p>
+                <p style="font-size:0.8em;line-height:0.8em">(seconds, averaged over five runs)</p>
+            </th>
+            <th colspan="3">
+                <p>Peak memory usage</p>
+                <p style="font-size:0.8em;line-height:0.8em">(Resident size, MB)<p>
+                <p style="font-size:0.8em;line-height:0.8em"><em>Measured by <a href="https://pypi.org/project/memory-profiler/">memory-profiler</a></em></p>
+            </th>
+        </tr>
+        <tr>
+            <th>v2.3.9</th>
+            <th>v2.4.0</th>
+            <th>Improvement</th>
+            <th>v2.3.9</th>
+            <th>v2.4.0</th>
+            <th>Improvement</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Commodore - Amiga CD</td>
+            <td>567</td>
+            <td>Default</td>
+            <td>1.45</td>
+            <td>0.35</td>
+            <td style="background-color:var(--better-than-3);">4.14x</td>
+            <td>54.70</td>
+            <td>47.60</td>
+            <td style="background-color:var(--better-than-1);">1.15x</td>
+        </tr>
+        <tr>
+            <td>Nintendo - Nintendo 3DS (Digital) (CDN)</td>
+            <td>10,152</td>
+            <td>Default</td>
+            <td>66.51</td>
+            <td>4.67</td>
+            <td style="background-color:var(--better-than-10);">14.24x</td>
+            <td>298.10</td>
+            <td>197.80</td>
+            <td style="background-color:var(--better-than-1);">1.51x</td>
+        </tr>
+        <tr>
+            <td>Nintendo - Nintendo Entertainment System</td>
+            <td>6,965</td>
+            <td>Default</td>
+            <td>3.71</td>
+            <td>2.68</td>
+            <td style="background-color:var(--better-than-1);">1.38x</td>
+            <td>143.00</td>
+            <td>120.20</td>
+            <td style="background-color:var(--better-than-1);">1.19x</td>
+        </tr>
+        <tr>
+            <td>Sony - PlayStation</td>
+            <td>10,776</td>
+            <td>Default</td>
+            <td>4.88</td>
+            <td>2.83</td>
+            <td style="background-color:var(--better-than-1);">1.72x</td>
+            <td>286.50</td>
+            <td>207.70</td>
+            <td style="background-color:var(--better-than-1);">1.38x</td>
+        </tr>
+        <tr>
+            <td>Sony - PlayStation</td>
+            <td>10,776</td>
+            <td>Exclude <code>aABcdDefmMopPruv</code></td>
+            <td>10.58</td>
+            <td>3.04</td>
+            <td style="background-color:var(--better-than-3);">3.48x</td>
+            <td>271.20</td>
+            <td>192.50</td>
+            <td style="background-color:var(--better-than-1);">1.41x</td>
+        </tr>
+    </tbody>
+</table>
+
+Ubuntu 24.04.2 LTS on [WSL](https://github.com/microsoft/WSL), Python 3.12.3 results:
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="3">DAT file</th>
+            <th rowspan="3">Number of titles</th>
+            <th rowspan="3">Options</th>
+            <th colspan="3">
+                <p>DAT processing time</p>
+                <p style="font-size:0.8em;line-height:0.8em">(seconds, averaged over five runs)</p>
+            </th>
+            <th colspan="3">
+                <p>Peak memory usage</p>
+                <p style="font-size:0.8em;line-height:0.8em">(Heap size, MB)</p>
+                <p style="font-size:0.8em;line-height:0.8em"><em>Measured by <a href="https://github.com/bloomberg/memray">Memray</a></em></p>
+            </th>
+            <th colspan="3">
+                <p>Peak memory usage</p>
+                <p style="font-size:0.8em;line-height:0.8em">(Resident size, MB)</p>
+                <p style="font-size:0.8em;line-height:0.8em"><em>Measured by <a href="https://github.com/bloomberg/memray">Memray</a></em></
+            </th>
+        </tr>
+        <tr>
+            <th>v2.3.9</th>
+            <th>v2.4.0</th>
+            <th>Improvement</th>
+            <th>v2.3.9</th>
+            <th>v2.4.0</th>
+            <th>Improvement</th>
+            <th>v2.3.9</th>
+            <th>v2.4.0</th>
+            <th>Improvement</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Commodore - Amiga CD</td>
+            <td>567</td>
+            <td>Default</td>
+            <td>0.35</td>
+            <td>0.34</td>
+            <td style="background-color:var(--better-than-1);">1.03x</td>
+            <td>15.47</td>
+            <td>12.64</td>
+            <td style="background-color:var(--better-than-1);">1.22x</td>
+            <td>67.13</td>
+            <td>62.92</td>
+            <td style="background-color:var(--better-than-1);">1.07x</td>
+        </tr>
+        <tr>
+            <td>Nintendo - Nintendo 3DS (Digital) (CDN)</td>
+            <td>10,152</td>
+            <td>Default</td>
+            <td>63.75</td>
+            <td>3.70</td>
+            <td style="background-color:var(--better-than-10);">17.23x</td>
+            <td>235.40</td>
+            <td>70.96</td>
+            <td style="background-color:var(--better-than-3);">3.32x</td>
+            <td>336.40</td>
+            <td>126.10</td>
+            <td style="background-color:var(--better-than-2);">2.67x</td>
+        </tr>
+        <tr>
+            <td>Nintendo - Nintendo Entertainment System</td>
+            <td>6,965</td>
+            <td>Default</td>
+            <td>5.93</td>
+            <td>1.56</td>
+            <td style="background-color:var(--better-than-3);">3.80x</td>
+            <td>52.50</td>
+            <td>28.01</td>
+            <td style="background-color:var(--better-than-1);">1.87x</td>
+            <td>113.30</td>
+            <td>79.79</td>
+            <td style="background-color:var(--better-than-1);">1.42x</td>
+        </tr>
+        <tr>
+            <td>Sony - PlayStation</td>
+            <td>10,776</td>
+            <td>Default</td>
+            <td>3.63</td>
+            <td>2.24</td>
+            <td style="background-color:var(--better-than-1);">1.62x</td>
+            <td>181.20</td>
+            <td>65.76</td>
+            <td style="background-color:var(--better-than-2);">2.76x</td>
+            <td>255.80</td>
+            <td>118.10</td>
+            <td style="background-color:var(--better-than-2);">2.17x</td>
+        </tr>
+        <tr>
+            <td>Sony - PlayStation</td>
+            <td>10,776</td>
+            <td>Exclude <code>aABcdDefmMopPruv</code></td>
+            <td>8.27</td>
+            <td>2.31</td>
+            <td style="background-color:var(--better-than-3);">3.58x</td>
+            <td>182.10</td>
+            <td>66.83</td>
+            <td style="background-color:var(--better-than-2);">2.72x</td>
+            <td>257.60</td>
+            <td>118.80</td>
+            <td style="background-color:var(--better-than-2);">2.17x</td>
+        </tr>
+    </tbody>
+</table>
+
+While I've done my best to equalize performance between Windows and Linux, the Python
+interpreter on Linux is much better than on Windows for multiprocessing,
+_even when Linux is running under Windows_. Mostly this is because of
+[the different ways Python starts a process on different operating systems](https://docs.python.org/3/library/multiprocessing.html#contexts-and-start-methods).
+Perhaps by the time the thread-free model becomes the default in Python and has been
+optimized things will change a little &mdash; but that's not going to happen for at least
+another year or more.
+
+For curiosity, I ran the same Sony - PlayStation DAT file on Retool 0.53, which dates back
+to 2020. It took 2m, 10.51s to complete. Now it's down to 2.83s, a 46x speed improvement
+in five years. Knowledge is a crazy thing. At this point in time there probably isn't
+many big performance wins left to squeeze out, just a collection of infinite tiny tweaks
+of diminishing returns that are likely not worth making.
+
+Here are the changes for 2.4.0:
+
+-  **_Feature_**: Retool can now assign titles as RetroAchievements compatible by adding a
+    `retroachievements="yes"` attribute on `game` or `machine` tags. You can also set your
+    1G1R title selection to prefer RetroAchievement titles. RetroAchievements data is
+    retrieved from an external source. If the source stops updating or becomes
+    unavailable, using RetroAchievements features won't be effective.
+
+-   **_Feature_**: Unrecognized attributes in `game` and `machine` elements are now passed
+    through to the output DAT file.
+
+-   **_Feature_**: Unrecognized child elements in the `game` and `machine` elements are
+    now passed through to the output DAT file.
+
+-   **_Change_**: There's now a `versionIgnore` array in `internal-config.json`, which
+    details the titles that shouldn't be picked up by automatic version detection.
+    Retool's version detection originally caused confusion in creating clone lists, where
+    you'd have to get tricky with workarounds for titles like _Pokemon - Black Version 2_,
+    as Retool would see it as version 2.0 of _Pokemon - Black_ &mdash; not its own game.
+
+    Now, so long as those problem titles are in the `versionIgnore` array, you can refer
+    to them directly in the clone lists instead of using workarounds.
+
+-   **_Change_**: Windows no longer uses the maximum amount of CPU cores available to it
+    in all scenarios. The cost of spinning up a process in Python under Windows is very
+    high, meaning that using more cores can mean less performance than fewer cores in
+    many cases. Instead, Retool makes a ballpark guess at the best number of processes to
+    use for best performance. While there is a penalty for adding processes in Linux as
+    well, the total processing time is still so small you may as well just use all cores
+    anyway. MacOS likely suffers the same fate as Windows as it also uses the `spawn`
+    method instead of `fork` to create a process, but I don't have the hardware to test,
+    so no changes have been made there.
+
+-   **_Change_**: Removed the **Include titles without hashes or sizes** option, as it was
+    tied to old code that was no longer used.
+
+-   **_Change_**: CLRMAMEPro DAT files are no longer converted to LogiqX before
+    processing. Instead, data gets ingested directly.
+
+-   **_Change_**: Retool no longer checks for XML external entity attacks, as its DAT file
+    parsing doesn't resolve these entities anyway.
+
+-   **_Change_**: DTD validation is no longer performed against a LogiqX DAT file. It's
+    clear people aren't really following the DTD, and the validation just takes up
+    processing time.
+
+-   **_Change_**: Output files now terminate with an empty line for easier diff
+    comparisons.
+
+-   **_Change_**: MIAs are no longer labelled by default. The `--nolabelmia` flag has been
+    inverted to be `--labelmia`.
+
+-   **_Change_**: MIA data is now downloaded from an external source. If the source stops
+    updating or becomes unavailable, marking MIAs won't be effective.
+
+-   **_Change_**: The option to remove MIAs now removes the entire title if it's missing a
+    file, not just the individual file from the title.
+
+-   **_Change_**: Numbered DAT files are now output sorted according to their number, not
+    their name without the number.
+
+-   **_Change_**: Since Retool's code base has matured enough, and there are now enough
+    tests to find problems, Retool no longer checks for clones that are also assigned as
+    parents. Files should process faster as a result.
+
+-   **_Fix_**: Redump now uses two sets of language tags for some titles. For example,
+    _Gears of War 2 (Europe) (En,Fr,De,Es,It,Zh,Ko,Pl,Ru,Cs,Hu) **(En,Es,It)**_ and
+    _Ultimate Action Triple Pack (Europe) (En,Fr,De,Es,It,Nl,Pt) **(En,Fr,De)**_. The
+    second set of languages unfortunately is used to mean more than one thing, so is not
+    useful for filtering based on the filename alone. For example, in
+    _Gears of War 2 (Europe) (En,Fr,De,Es,It,Zh,Ko,Pl,Ru,Cs,Hu) (En,Es,It)_, English,
+    Spanish, and Italian are the spoken languages available for the title. For
+    _Ultimate Action Triple Pack (Europe) (En,Fr,De,Es,It,Nl,Pt) (En,Fr,De)_ however,
+    the second set of languages represents the common languages found in each of the games
+    in the compilation:
+
+    * _Deus Ex: Human Revolution (BLES-01151) (v01.00) (Fr,De,Es,It)_
+
+    * _Hitman: Absolution (BLES-01403) (v01.00) (En,Fr,Es)_
+
+    * _Thief (BLES-01982) (v01.01) (En,Fr,De,Es,It,Pl,Ru)_
+
+    In the compilation's case, the second language block is being used as a marker of
+    where the title was intended to be distributed, since Redump is unable to add new
+    regions to their system.
+
+    Since this data is not presented in a syntax that's useful for filtering, the second
+    language tag is now stripped by Retool, and only the first is used to determine
+    language.
+
+-   **_Fix_**: You could turn on a system setting override in the GUI, but turning it off
+    again wouldn't save the off state in the config. This has been fixed.
+
+-   **_Fix_**: When you enabled **Prefer titles ripped from modern rereleases**, the
+    output file name added a code of `-r`, which is actually for
+    **Prefer licensed over unlicensed titles**. A code of `-z` is now used, as intended.
+    The content of the output DAT file was always correct, so no fix was required there.
+
+-   **_Fix_**: Fixed a crash when using include overrides.
+
+-   **_Fix_**: If one line was marked in the include or exclude overrides to remove
+    related titles, Retool removed the related titles for _all_ lines in the include or
+    exclude overrides. This has been fixed.
+
+-   **_Fix_**: If titles can be removed due to more than one exclusion setting, they now
+    always show up in the same exclusion category in the report.
+
+-   **_Fix_**: Fixed a stat counting bug to do with supersets.
+
+-   **_Fix_**: Fixed the `cloneof` property in legacy mode being set as a non-numbered
+    name in numbered DAT files.
+
+-   **_Fix_**: Fixed CLRMAMEPro BIOS DAT files from Redump exporting with a category of
+    `Console` instead of `BIOS`.
+
+-   **_Fix_**: Fixed the exclude and include options comment in system config files, so
+    it now correctly says "SYSTEM" instead of "GLOBAL".
+
+-   **_Fix_**: Some version comparison bugs were squashed.
+
+-   **_Chore_**: Created custom checkboxes as SVGs, as QT's default checkboxes don't scale
+    properly. Amusingly I'd done this before for Retool's first GUI, so was able to take
+    some of that work as a starting point. Also fixed the down arrow on dropdown boxes, as
+    the default moves weirdly on 4k monitors when you mouse over it.
+
+-   **_Chore_**: Retool now more aggressively skips some title comparisons to avoid doing
+    work it doesn't have to, improving performance for large groups. This was put in place
+    due to _Doko Demo Honya-san_ in the Nintendo 3DS CDN DAT file, which has 1,519 titles
+    bundled into the one group with no clones, and dramatically slowed down processing.
+
+-   **_Chore_**: Multiprocessing performance improvements. When each new process is
+    spawned/forked, Python does a bunch of serializing of data for each process. The more
+    data that goes in, the more performance tax there is for starting a process. As such,
+    things have been refactored to push as little as possible into each process.
+
+-   **_Chore_**: Memory usage improvements.
+
+    - Entire DAT files are no longer loaded into memory to read them. Instead, one `game`,
+      `set`, or `machine` element is ingested at a time.
+
+    - A full copy of the original data read in from the DAT file is no longer kept to
+      makes override includes work.
+
+    - Metadata and clone list content are discarded when they're no longer used.
+
+-   **_Chore_**: The progress bar now increments per title during the
+    _Selecting 1G1R titles_ stage, instead of incrementing milestone style after each
+    sub-stage completes.
+
+-   **_Chore_**: Deduped search strings found in both `internal-config.json` and Retool's
+    code.
+
+-   **_Chore_**: Moved most of the version normalization code out of the comparison loop,
+    so it's only performed once per title instead of for every comparison.
+
+-   **_Chore_**: Overhauled how Retool handles exclusions and stats, and got a nice speed
+    boost out of it.
+
+-   **_Chore_**: Overhauled how Retool handles config file incompatibilities between
+    versions.
+
+-   **_Chore_**: Fixed doc strings so they format properly in Visual Studio code when
+    hovering over the function name.
+
+-   **_Chore_**: Corrected multiple typing hints.
+
+-   **_Chore_**: Added multiple tests.
+
+-   **_Chore_**: Did some profiling between [Austin](https://github.com/P403n1x87/austin),
+    [Memray](https://github.com/bloomberg/memray), and
+    [memory-profiler](https://pypi.org/project/memory-profiler/) to reduce performance
+    issues.
+
+-   **_Chore_**: Updated dependencies. Unpinned QT version, as the bug that interfered
+    with testing was fixed.
+
+-   **_Chore_**: Almost six years into Python and apparently I missed the basics of
+    setting defaults in a function. Check out this function:
+
+    ```py
+    def message(
+        message_add: str = '',
+        message_list: list[str] = []
+        ) -> list[str]:
+            message_list.append(message_add)
+
+            return message_list
+
+    a: list[str] = message('Hello')
+    b: list[str] = message('Goodbye')
+    ```
+
+    What is the value of `a` going to be?
+
+    ```py
+    >>> print(a)
+    ['Hello', 'Goodbye']
+    ```
+
+    Huh, that's weird. What about `b`?
+
+    ```py
+    >>> print(b)
+    ['Hello', 'Goodbye']
+    ```
+
+    The same?!
+
+    It turns out that when you set a default for a function argument to an empty value of
+    a mutable type, that value only gets used the _first_ time the function runs as part
+    of constructing and assigning that variable.
+
+    So the first time `message` is called without specifying `message_list`, it creates
+    the empty list, `[]`... but every _subsequent_ time the function is called, it says
+    "oh hey, I've already got a reference to this variable... I'm going to use that
+    instead!"
+
+    So when `a = message('Hello')` is called, `message_list` starts as `[]`, and then
+    `Hello` is added to it. When `b = message('Goodbye')` is called... as far as Python is
+    concerned, the value for `message_list` already exists, and it's `['Hello']`... so it
+    appends `'Goodbye'` to it. _And_ because that value is just a reference, and both `a`
+    and `b` are pointing to that reference... they now both equal `['Hello', 'Goodbye']`.
+
+    To work around this, we need some Python boilerplate that's apparently well known...
+    that somehow I missed.
+
+    ```py
+    def message(
+        message_add: str = '',
+        message_list: list[str] | None = None
+        ) -> list[str]:
+            message_list = message_list if message_list is not None else []
+
+            message_list.append(message_add)
+
+            return message_list
+
+    a: list[str] = message('Hello')
+    b: list[str] = message('Goodbye')
+    ```
+
+    Now let's see how things go:
+
+    ```py
+    >>> print(a)
+    ['Hello']
+
+    >>> print(b)
+    ['Goodbye']
+    ```
+
+    Much better, much more predictable, and this is now fixed in Retool's code.
+
+
 ## 2.3.9 (2025-03-09)
 
 -   **_Fix_**: Retool now handles empty description fields.

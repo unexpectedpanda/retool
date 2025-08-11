@@ -79,7 +79,7 @@ The available exclusions are as follows:
   <br>Titles with `(Manual)` in the name.
 
 * **MIA**
-  <br>Titles or ROMs declared as missing in action in the clone lists or DAT files.
+  <br>Titles with ROMs declared as missing in action in the clone lists or DAT files.
 
 * **Multimedia**
   <br>Titles with the DAT file category `Multimedia`. These might include games.
@@ -109,7 +109,6 @@ The available exclusions are as follows:
   name:
     * `(Unl)`
     * `(Aftermarket)`
-    * `(Homebrew)`
     * `(Pirate)`
 
 * **Video**

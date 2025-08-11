@@ -4,7 +4,7 @@ import itertools
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from modules.dats import DatNode
+    from modules.dat.process_dat import DatNode
 
 from modules.titletools import TraceTools
 from modules.utils import Font
@@ -25,11 +25,10 @@ def choose_region(
 
         user_region_order (list[str]): The region order as defined by the user.
 
-        world_is_usa_europe_japan (bool): Whether to treat World as an equivalent
-        region to USA, Europe, and Japan.
+        world_is_usa_europe_japan (bool): Whether to treat World as an equivalent region
+            to USA, Europe, and Japan.
 
-        report_on_match (bool): Whether Retool needs to report any titles being
-        traced.
+        report_on_match (bool): Whether Retool needs to report any titles being traced.
 
     Returns:
         set[DatNode]: A set of DatNodes filtered by region priority.

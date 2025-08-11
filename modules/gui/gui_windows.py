@@ -4,12 +4,12 @@ import re
 from typing import Any
 
 import darkdetect  # type: ignore
-import validators  # type: ignore
+import validators
 from PySide6 import QtCore as qtc
 from PySide6 import QtWidgets as qtw
 
 import modules.constants as const
-from modules.config import Config
+from modules.config.config import Config
 from modules.gui.gui_config import write_config
 from modules.gui.gui_utils import set_fonts, set_path
 from modules.gui.gui_widgets import ElisionLabel
@@ -25,9 +25,9 @@ class AboutWindow(qtw.QDialog):
         The "About" window for Retool.
 
         Args:
-            parent (Any): The parent window that called this one. Important so the
-            modal doesn't turn up on the taskbar, and makes the parent
-            inaccessible while the modal is open. Defaults to `None`.
+            parent (Any): The parent window that called this one. Important so the modal
+                doesn't turn up on the taskbar, and makes the parent inaccessible while
+                the modal is open. Defaults to `None`.
         """
         super().__init__(parent)
         self.ui = Ui_AboutWindow()
@@ -60,14 +60,14 @@ class SettingsWindow(qtw.QDialog):
         The "Settings" window for Retool.
 
         Args:
-            dat_details (dict[str, dict[str, str]]): The dictionary that carries DAT
-            file details like its system name and filepath.
+            dat_details (dict[str, dict[str, str]]): The dictionary that carries DAT file
+                details like its system name and filepath.
 
             config (Config): The Retool config object.
 
             parent (Any): The parent window that called this one. Important so the modal
-            doesn't turn up on the taskbar, and makes the parent inaccessible while the
-            modal is open. Defaults to `None`.
+                doesn't turn up on the taskbar, and makes the parent inaccessible while
+                the modal is open. Defaults to `None`.
         """
         super().__init__(parent)
         self.ui = Ui_Settings()
@@ -98,6 +98,26 @@ class SettingsWindow(qtw.QDialog):
         self.ui.labelMetadataLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
         self.ui.labelMetadataLocation.setStyleSheet('color: #777')
 
+        self.ui.labelMIALocation.hide()
+        self.ui.labelMIALocation.deleteLater()
+        self.ui.labelMIALocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameMIALocation)  # type: ignore
+        self.ui.labelMIALocation.setText(
+            qtc.QCoreApplication.translate('Settings', 'No MIA folder selected', None)
+        )
+        self.ui.labelMIALocation.setObjectName('labelMIALocation')
+        self.ui.labelMIALocation.setGeometry(qtc.QRect(50, 20, 531, 20))
+        self.ui.labelMIALocation.setStyleSheet('color: #777')
+
+        self.ui.labelRALocation.hide()
+        self.ui.labelRALocation.deleteLater()
+        self.ui.labelRALocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameRALocation)  # type: ignore
+        self.ui.labelRALocation.setText(
+            qtc.QCoreApplication.translate('Settings', 'No RetroAchievements folder selected', None)
+        )
+        self.ui.labelRALocation.setObjectName('labelRALocation')
+        self.ui.labelRALocation.setGeometry(qtc.QRect(50, 20, 531, 20))
+        self.ui.labelRALocation.setStyleSheet('color: #777')
+
         self.ui.labelQuickImportLocation.hide()
         self.ui.labelQuickImportLocation.deleteLater()
         self.ui.labelQuickImportLocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameQuickImportLocation)  # type: ignore
@@ -116,6 +136,8 @@ class SettingsWindow(qtw.QDialog):
             str(pathlib.Path(parent.clone_lists_folder).resolve())
         )
         self.ui.labelMetadataLocation.setText(str(pathlib.Path(parent.metadata_folder).resolve()))
+        self.ui.labelMIALocation.setText(str(pathlib.Path(parent.mia_folder).resolve()))
+        self.ui.labelRALocation.setText(str(pathlib.Path(parent.ra_folder).resolve()))
         if parent.quick_import_folder:
             self.ui.labelQuickImportLocation.setText(
                 str(pathlib.Path(parent.quick_import_folder).resolve())
@@ -138,6 +160,24 @@ class SettingsWindow(qtw.QDialog):
                 parent.metadata_folder,
                 self.ui.labelMetadataLocation,
                 'metadata_folder',
+                input_type='folder',
+            )
+        )
+        self.ui.buttonChooseMIALocation.clicked.connect(
+            lambda: set_path(
+                parent,
+                parent.mia_folder,
+                self.ui.labelMIALocation,
+                'mia_folder',
+                input_type='folder',
+            )
+        )
+        self.ui.buttonChooseRALocation.clicked.connect(
+            lambda: set_path(
+                parent,
+                parent.ra_folder,
+                self.ui.labelRALocation,
+                'ra_folder',
                 input_type='folder',
             )
         )
@@ -180,6 +220,12 @@ class SettingsWindow(qtw.QDialog):
         self.ui.buttonChooseMetadataLocation.clicked.connect(
             lambda: write_config(parent, dat_details, config, self)
         )
+        self.ui.buttonChooseMIALocation.clicked.connect(
+            lambda: write_config(parent, dat_details, config, self)
+        )
+        self.ui.buttonChooseRALocation.clicked.connect(
+            lambda: write_config(parent, dat_details, config, self)
+        )
         self.ui.buttonChooseQuickImportLocation.clicked.connect(
             lambda: write_config(parent, dat_details, config, self)
         )
@@ -190,6 +236,8 @@ class SettingsWindow(qtw.QDialog):
                 str(pathlib.Path(config.path_clone_list).resolve())
             )
             self.ui.labelMetadataLocation.setText(str(pathlib.Path(config.path_metadata).resolve()))
+            self.ui.labelMIALocation.setText(str(pathlib.Path(config.path_mia).resolve()))
+            self.ui.labelRALocation.setText(str(pathlib.Path(config.path_ra).resolve()))
             self.ui.labelQuickImportLocation.setText(
                 qtc.QCoreApplication.translate('Settings', 'No quick import folder selected', None)
             )
@@ -198,6 +246,8 @@ class SettingsWindow(qtw.QDialog):
             )
             parent.clone_lists_folder = config.path_clone_list
             parent.metadata_folder = config.path_metadata
+            parent.mia_folder = config.path_mia
+            parent.ra_folder = config.path_ra
             parent.quick_import_folder = config.path_quick_import
             parent.clone_list_metadata_url = config.clone_list_metadata_download_location
             self.ui.labelURLError.hide()
@@ -209,9 +259,8 @@ class SettingsWindow(qtw.QDialog):
 class TitleToolWindow(qtw.QMainWindow):
     def __init__(self, config: Config) -> None:
         """
-        The title tool window in Retool. When a user enter's a title's full
-        name, it shows the short name, group name, tag-free name, and
-        region-free name.
+        The title tool window in Retool. When a user enter's a title's full name, it shows
+        the short name, group name, tag-free name, and region-free name.
 
         Args:
             config (Config): The Retool config object.
@@ -238,9 +287,19 @@ class TitleToolWindow(qtw.QMainWindow):
         set_fonts(self)
 
         # Fix checkboxes, which have a weird hover effect on Windows 4k monitors on hover if
-        # you don't set a size that's divisible by 4.
+        # you don't set a size that's divisible by 4. Also add custom SVGs to fix
+        # check mark scaling.
         checkbox_style = '''
-                        QCheckBox::indicator { width: 16px; height: 16px;}
+                        QCheckBox::indicator {width: 16px; height: 16px;}
+                        QCheckBox::indicator:unchecked {image: url(:/checkboxes/images/checkbox.svg);}
+                        QCheckBox::indicator:unchecked:disabled {image: url(:/checkboxes/images/checkbox-disabled.svg);}
+                        QCheckBox::indicator:unchecked:hover {image: url(:/checkboxes/images/checkbox-hover.svg);}
+                        QCheckBox::indicator:unchecked:pressed {image: url(:/checkboxes/images/checkbox-pressed.svg);}
+                        QCheckBox::indicator:checked {image: url(:/checkboxes/images/checkbox-checked.svg);}
+                        QCheckBox::indicator:checked:disabled {image: url(:/checkboxes/images/checkbox-checked-disabled.svg);}
+                        QCheckBox::indicator:checked:hover {image: url(:/checkboxes/images/checkbox-checked-hover.svg);}
+                        QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
+                        QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
                         '''
 
         checkboxes = self.ui.centralwidget.findChildren(
@@ -251,8 +310,8 @@ class TitleToolWindow(qtw.QMainWindow):
 
         def update_names() -> None:
             """
-            Grabs the different name variants of the title the user entered and
-            populates the fields.
+            Grabs the different name variants of the title the user entered and populates
+            the fields.
             """
             demo_string: str = ''
             if self.ui.checkBoxDemos.isChecked() and self.ui.lineEditEnterName.text():

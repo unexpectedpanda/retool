@@ -168,21 +168,21 @@
 		<category>Applications</category>
 		<description>3.15 IDU Firmware Update (USA)</description>
 		<release name="3.15 IDU Firmware Update (USA)" region="USA" language="En"/>
-		<rom name="3.15 IDU Firmware Update (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="3.15 IDU Firmware Update (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="3.40 IDU-IDU FW Update (USA)">
 		<category>Applications</category>
 		<description>3.40 IDU-IDU FW Update (USA)</description>
 		<release name="3.40 IDU-IDU FW Update (USA)" region="USA" language="En"/>
-		<rom name="3.40 IDU-IDU FW Update (USA).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="3.40 IDU-IDU FW Update (USA).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="3.40 IDU-IDU FW Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="3.40 IDU-IDU FW Update (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="3.66 IDU FW (USA)">
 		<category>Applications</category>
 		<description>3.66 IDU FW (USA)</description>
 		<release name="3.66 IDU FW (USA)" region="USA" language="En"/>
-		<rom name="3.66 IDU FW (USA).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="3.66 IDU FW (USA).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="3.66 IDU FW (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="3.66 IDU FW (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="3D Collection (Asia)">
 		<category>Games</category>
@@ -1031,7 +1031,7 @@
 		<category>Demos</category>
 		<description>April 2009 IDU 2.60 (USA)</description>
 		<release name="April 2009 IDU 2.60 (USA)" region="USA" language="En"/>
-		<rom name="April 2009 IDU 2.60 (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="April 2009 IDU 2.60 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Aquanaut's Holiday - Hidden Memories (Asia) (En,Zh)" cloneof="Aquanaut's Holiday - Kakusareta Kiroku (Japan)">
 		<category>Games</category>
@@ -2037,7 +2037,7 @@
 		<category>Games</category>
 		<description>Atelier Ayesha (Asia)</description>
 		<release name="Atelier Ayesha (Asia)" region="Asia" language="Zh"/>
-		<rom name="Atelier Ayesha (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Atelier Ayesha (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Atelier Ayesha - The Alchemist of Dusk (Europe)" cloneof="Ayesha no Atelier - Tasogare no Daichi no Renkinjutsushi (Japan)">
 		<category>Games</category>
@@ -4438,7 +4438,7 @@
 		<category>Games</category>
 		<description>Buzz! The Ultimate Music Quiz (Greece)</description>
 		<release name="Buzz! The Ultimate Music Quiz (Greece)" region="Greece" language="El"/>
-		<rom name="Buzz! The Ultimate Music Quiz (Greece).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Buzz! The Ultimate Music Quiz (Greece).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Buzz! The Ultimate Music Quiz (Scandinavia) (En,Sv,No,Da,Fi)" cloneof="Buzz! The Ultimate Music Quiz (Europe) (En,Es,Pt)">
 		<category>Games</category>
@@ -5101,7 +5101,7 @@
 		<category>Games</category>
 		<description>Call of Duty 4 - Modern Warfare (Korea)</description>
 		<release name="Call of Duty 4 - Modern Warfare (Korea)" region="Korea" language="Ko"/>
-		<rom name="Call of Duty 4 - Modern Warfare (Korea).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Call of Duty 4 - Modern Warfare (Korea).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Call of Duty 4 - Modern Warfare (Spain)" cloneof="Call of Duty 4 - Modern Warfare (Japan)">
 		<category>Games</category>
@@ -5179,7 +5179,7 @@
 		<release name="Captain America - Super Soldier (Asia) (En,Fr,De,Es,It)" region="Asia" language="Es"/>
 		<release name="Captain America - Super Soldier (Asia) (En,Fr,De,Es,It)" region="Asia" language="Fr"/>
 		<release name="Captain America - Super Soldier (Asia) (En,Fr,De,Es,It)" region="Asia" language="It"/>
-		<rom name="Captain America - Super Soldier (Asia) (En,Fr,De,Es,It).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Captain America - Super Soldier (Asia) (En,Fr,De,Es,It).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Captain America - Super Soldier (Europe) (En,Fr,De,Es,It)" cloneof="Captain America - Super Soldier (Asia) (En,Fr,De,Es,It)">
 		<category>Games</category>
@@ -8435,7 +8435,7 @@
 		<release name="Disney-Pixar Toy Story 3 (Scandinavia) (Sv,No,Da,Fi)" region="Scandinavia" language="Fi"/>
 		<release name="Disney-Pixar Toy Story 3 (Scandinavia) (Sv,No,Da,Fi)" region="Scandinavia" language="No"/>
 		<release name="Disney-Pixar Toy Story 3 (Scandinavia) (Sv,No,Da,Fi)" region="Scandinavia" language="Sv"/>
-		<rom name="Disney-Pixar Toy Story 3 (Scandinavia) (Sv,No,Da,Fi).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Disney-Pixar Toy Story 3 (Scandinavia) (Sv,No,Da,Fi).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Disney-Pixar Toy Story 3 (USA) (En,Fr,Es)">
 		<category>Games</category>
@@ -8681,7 +8681,7 @@
 		<category>Games</category>
 		<description>Drag-on Dragoon 3 (Asia)</description>
 		<release name="Drag-on Dragoon 3 (Asia)" region="Asia" language="Zh"/>
-		<rom name="Drag-on Dragoon 3 (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Drag-on Dragoon 3 (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Drag-on Dragoon 3 (Japan)">
 		<category>Games</category>
@@ -8971,7 +8971,7 @@
 		<release name="Dragon Ball Z - Budokai HD Collection (Asia) (En,Fr,Es)" region="Asia" language="En"/>
 		<release name="Dragon Ball Z - Budokai HD Collection (Asia) (En,Fr,Es)" region="Asia" language="Es"/>
 		<release name="Dragon Ball Z - Budokai HD Collection (Asia) (En,Fr,Es)" region="Asia" language="Fr"/>
-		<rom name="Dragon Ball Z - Budokai HD Collection (Asia) (En,Fr,Es).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Dragon Ball Z - Budokai HD Collection (Asia) (En,Fr,Es).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Dragon Ball Z - Budokai HD Collection (Europe) (En,Fr,De,Es,It)" cloneof="Dragon Ball Z - Budokai HD Collection (Asia) (En,Fr,Es)">
 		<category>Games</category>
@@ -9803,7 +9803,7 @@
 		<category>Demos</category>
 		<description>E-M Fall Refresh 3.40 IDU-IDU Update (USA)</description>
 		<release name="E-M Fall Refresh 3.40 IDU-IDU Update (USA)" region="USA" language="En"/>
-		<rom name="E-M Fall Refresh 3.40 IDU-IDU Update (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="E-M Fall Refresh 3.40 IDU-IDU Update (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="E.X. Troopers (Japan)">
 		<category>Games</category>
@@ -10192,13 +10192,13 @@
 		<category>Demos</category>
 		<description>Endcap Display - 2014 Holiday Refresh - Walmart (USA)</description>
 		<release name="Endcap Display - 2014 Holiday Refresh - Walmart (USA)" region="USA" language="En"/>
-		<rom name="Endcap Display - 2014 Holiday Refresh - Walmart (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Endcap Display - 2014 Holiday Refresh - Walmart (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Endcap Display - 2015 Winter Refresh - Walmart (USA)">
 		<category>Demos</category>
 		<description>Endcap Display - 2015 Winter Refresh - Walmart (USA)</description>
 		<release name="Endcap Display - 2015 Winter Refresh - Walmart (USA)" region="USA" language="En"/>
-		<rom name="Endcap Display - 2015 Winter Refresh - Walmart (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Endcap Display - 2015 Winter Refresh - Walmart (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Enemy Front (Europe) (En,Fr,De,Es,It,Pl,Ru)" cloneof="Enemy Front (USA) (En,Fr,Es,Pt)">
 		<category>Games</category>
@@ -10428,7 +10428,7 @@
 		<category>Games</category>
 		<description>Evil Within, The (Asia)</description>
 		<release name="Evil Within, The (Asia)" region="Asia" language="Zh"/>
-		<rom name="Evil Within, The (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Evil Within, The (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Evil Within, The (Europe) (En,Fr,De,Es,It)" cloneof="Psycho Break (Japan) (En,Ja)">
 		<category>Games</category>
@@ -10932,7 +10932,7 @@
 		<category>Games</category>
 		<description>FIFA 08 (Asia)</description>
 		<release name="FIFA 08 (Asia)" region="Asia" language="En"/>
-		<rom name="FIFA 08 (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="FIFA 08 (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="FIFA 08 (Europe) (En,Fr,De,Es,It,Nl,Sv)" cloneof="FIFA 08 - World Class Soccer (Japan)">
 		<category>Games</category>
@@ -11684,13 +11684,13 @@
 		<category>Demos</category>
 		<description>Fall 2013 - PS3 IDU 4.46 (USA)</description>
 		<release name="Fall 2013 - PS3 IDU 4.46 (USA)" region="USA" language="En"/>
-		<rom name="Fall 2013 - PS3 IDU 4.46 (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Fall 2013 - PS3 IDU 4.46 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Fall Refresh 2011 - 3.70 IDU FW Update (USA)">
 		<category>Demos</category>
 		<description>Fall Refresh 2011 - 3.70 IDU FW Update (USA)</description>
 		<release name="Fall Refresh 2011 - 3.70 IDU FW Update (USA)" region="USA" language="En"/>
-		<rom name="Fall Refresh 2011 - 3.70 IDU FW Update (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Fall Refresh 2011 - 3.70 IDU FW Update (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Falling Skies - The Game (Brazil) (En,Pt)" cloneof="Falling Skies - The Game (USA) (En,Fr,Es,Pt)">
 		<category>Games</category>
@@ -12875,7 +12875,7 @@
 		<category>Demos</category>
 		<description>GT5 - IDU FW update 3.40 (USA) (Kiosk Demo)</description>
 		<release name="GT5 - IDU FW update 3.40 (USA) (Kiosk Demo)" region="USA" language="En"/>
-		<rom name="GT5 - IDU FW update 3.40 (USA) (Kiosk Demo).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="GT5 - IDU FW update 3.40 (USA) (Kiosk Demo).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Gachinko Heroes (Japan)">
 		<category>Games</category>
@@ -13429,7 +13429,7 @@
 		<description>Gran Turismo 5 (Asia) (En,Zh)</description>
 		<release name="Gran Turismo 5 (Asia) (En,Zh)" region="Asia" language="En"/>
 		<release name="Gran Turismo 5 (Asia) (En,Zh)" region="Asia" language="Zh"/>
-		<rom name="Gran Turismo 5 (Asia) (En,Zh).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Gran Turismo 5 (Asia) (En,Zh).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Gran Turismo 5 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Pl,Ru,El,Tr) (v01.02)" cloneof="Gran Turismo 5 - XL Edition (USA) (En,Ja,Fr,Es,Pt)">
 		<category>Games</category>
@@ -14099,7 +14099,7 @@
 		<category>Demos</category>
 		<description>Guitar Hero - Aerosmith IDU_IDU 2.35 (USA)</description>
 		<release name="Guitar Hero - Aerosmith IDU_IDU 2.35 (USA)" region="USA" language="En"/>
-		<rom name="Guitar Hero - Aerosmith IDU_IDU 2.35 (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Guitar Hero - Aerosmith IDU_IDU 2.35 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Guitar Hero - Greatest Hits (Europe) (En,Fr,De,Es,It)" cloneof="Guitar Hero - Smash Hits (USA) (En,Fr)">
 		<category>Games</category>
@@ -14139,8 +14139,8 @@
 		<category>Demos</category>
 		<description>Guitar Hero - Smash Hits - May 2.76 IDU Update (USA)</description>
 		<release name="Guitar Hero - Smash Hits - May 2.76 IDU Update (USA)" region="USA" language="En"/>
-		<rom name="Guitar Hero - Smash Hits - May 2.76 IDU Update (USA).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Guitar Hero - Smash Hits - May 2.76 IDU Update (USA).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Guitar Hero - Smash Hits - May 2.76 IDU Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Guitar Hero - Smash Hits - May 2.76 IDU Update (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Guitar Hero - Van Halen (Australia) (En,Fr,De,Es,It)" cloneof="Guitar Hero - Van Halen (USA) (En,Fr)">
 		<category>Games</category>
@@ -14199,7 +14199,7 @@
 		<category>Demos</category>
 		<description>Guitar Hero - Warriors of Rock 3.40 IDU FW Update (USA) (Kiosk Demo)</description>
 		<release name="Guitar Hero - Warriors of Rock 3.40 IDU FW Update (USA) (Kiosk Demo)" region="USA" language="En"/>
-		<rom name="Guitar Hero - Warriors of Rock 3.40 IDU FW Update (USA) (Kiosk Demo).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Guitar Hero - Warriors of Rock 3.40 IDU FW Update (USA) (Kiosk Demo).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Guitar Hero 5 (Europe, Australia) (En,Fr,De,Es,It)" cloneof="Guitar Hero 5 (USA) (En,Fr)">
 		<category>Games</category>
@@ -14284,7 +14284,7 @@
 		<category>Demos</category>
 		<description>Guitar Hero World Tour IDU 2.43 (USA)</description>
 		<release name="Guitar Hero World Tour IDU 2.43 (USA)" region="USA" language="En"/>
-		<rom name="Guitar Hero World Tour IDU 2.43 (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Guitar Hero World Tour IDU 2.43 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Gundam Breaker (Japan)">
 		<category>Games</category>
@@ -15572,13 +15572,13 @@
 		<category>Demos</category>
 		<description>Inline Display - 2014 Holiday Refresh - Walmart (USA)</description>
 		<release name="Inline Display - 2014 Holiday Refresh - Walmart (USA)" region="USA" language="En"/>
-		<rom name="Inline Display - 2014 Holiday Refresh - Walmart (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Inline Display - 2014 Holiday Refresh - Walmart (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Inline Video Player Display - 2015 Winter Refresh - Walmart (USA)">
 		<category>Demos</category>
 		<description>Inline Video Player Display - 2015 Winter Refresh - Walmart (USA)</description>
 		<release name="Inline Video Player Display - 2015 Winter Refresh - Walmart (USA)" region="USA" language="En"/>
-		<rom name="Inline Video Player Display - 2015 Winter Refresh - Walmart (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Inline Video Player Display - 2015 Winter Refresh - Walmart (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="International Cricket 2010 (Europe)">
 		<category>Games</category>
@@ -15898,7 +15898,7 @@
 		<category>Games</category>
 		<description>Jin Samguk Mussang - Multi Raid Special (Korea)</description>
 		<release name="Jin Samguk Mussang - Multi Raid Special (Korea)" region="Korea" language="Ko"/>
-		<rom name="Jin Samguk Mussang - Multi Raid Special (Korea).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Jin Samguk Mussang - Multi Raid Special (Korea).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Jissen Pachi-Slot Hisshouhou! Hokuto no Ken F - Seikimatsu Kyuuseishu Densetsu (Japan)">
 		<category>Games</category>
@@ -18098,7 +18098,7 @@
 		<description>LittleBigPlanet 2 (Asia) (En,Zh)</description>
 		<release name="LittleBigPlanet 2 (Asia) (En,Zh)" region="Asia" language="En"/>
 		<release name="LittleBigPlanet 2 (Asia) (En,Zh)" region="Asia" language="Zh"/>
-		<rom name="LittleBigPlanet 2 (Asia) (En,Zh).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="LittleBigPlanet 2 (Asia) (En,Zh).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="LittleBigPlanet 2 (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)" cloneof="LittleBigPlanet 2 (Japan)">
 		<category>Games</category>
@@ -19471,7 +19471,7 @@
 		<release name="Marvel vs. Capcom 3 - Fate of Two Worlds (Korea) (En,Ja,Fr,De,Es,It)" region="Korea" language="Fr"/>
 		<release name="Marvel vs. Capcom 3 - Fate of Two Worlds (Korea) (En,Ja,Fr,De,Es,It)" region="Korea" language="It"/>
 		<release name="Marvel vs. Capcom 3 - Fate of Two Worlds (Korea) (En,Ja,Fr,De,Es,It)" region="Korea" language="Ja"/>
-		<rom name="Marvel vs. Capcom 3 - Fate of Two Worlds (Korea) (En,Ja,Fr,De,Es,It).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Marvel vs. Capcom 3 - Fate of Two Worlds (Korea) (En,Ja,Fr,De,Es,It).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Marvel vs. Capcom 3 - Fate of Two Worlds (USA) (En,Fr,De,Es,It) (Beta) (2010-12-17)" cloneof="Marvel vs. Capcom 3 - Fate of Two Worlds (Japan)">
 		<category>Preproduction</category>
@@ -20542,7 +20542,7 @@
 		<category>Games</category>
 		<description>Mobile Suit Gundam - Side Stories (Asia)</description>
 		<release name="Mobile Suit Gundam - Side Stories (Asia)" region="Asia" language="Zh"/>
-		<rom name="Mobile Suit Gundam - Side Stories (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Mobile Suit Gundam - Side Stories (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Mobile Suit Gundam - Side Stories (Japan)">
 		<category>Games</category>
@@ -21103,7 +21103,7 @@
 		<category>Games</category>
 		<description>MotorStorm 3 - Apocalypse (Asia)</description>
 		<release name="MotorStorm 3 - Apocalypse (Asia)" region="Asia" language="En"/>
-		<rom name="MotorStorm 3 - Apocalypse (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="MotorStorm 3 - Apocalypse (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="MotorStorm Complete (Japan)">
 		<category>Games</category>
@@ -21115,7 +21115,7 @@
 		<category>Games</category>
 		<description>MotorStorm II (Asia)</description>
 		<release name="MotorStorm II (Asia)" region="Asia" language="En"/>
-		<rom name="MotorStorm II (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="MotorStorm II (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="MotorStorm II (Japan)">
 		<category>Games</category>
@@ -21319,7 +21319,7 @@
 		<category>Games</category>
 		<description>Musou Orochi Z (Asia)</description>
 		<release name="Musou Orochi Z (Asia)" region="Asia" language="Zh"/>
-		<rom name="Musou Orochi Z (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Musou Orochi Z (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Musou Orochi Z (Japan) (v01.01)" cloneof="Musou Orochi Z (Japan) (v02.01)">
 		<category>Games</category>
@@ -21337,7 +21337,7 @@
 		<category>Games</category>
 		<description>Mussang Orochi Z (Korea)</description>
 		<release name="Mussang Orochi Z (Korea)" region="Korea" language="Ko"/>
-		<rom name="Mussang Orochi Z (Korea).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Mussang Orochi Z (Korea).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Muv-Luv (Japan)">
 		<category>Games</category>
@@ -23219,7 +23219,7 @@
 		<category>Games</category>
 		<description>Nobunaga no Yabou - Souzou (Asia)</description>
 		<release name="Nobunaga no Yabou - Souzou (Asia)" region="Asia" language="Zh"/>
-		<rom name="Nobunaga no Yabou - Souzou (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Nobunaga no Yabou - Souzou (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Nobunaga no Yabou - Souzou (Japan)" cloneof="Nobunaga no Yabou - Souzou - Sengoku Risshiden (Japan)">
 		<category>Games</category>
@@ -24030,7 +24030,7 @@
 		<category>Games</category>
 		<description>One Piece - Unlimited World R (Asia)</description>
 		<release name="One Piece - Unlimited World R (Asia)" region="Asia" language="Zh"/>
-		<rom name="One Piece - Unlimited World R (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="One Piece - Unlimited World R (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="One Piece - Unlimited World R (Japan)">
 		<category>Games</category>
@@ -24540,68 +24540,68 @@
 		<category>Demos</category>
 		<description>PS3 IDU - 2014 Holiday Refresh (USA)</description>
 		<release name="PS3 IDU - 2014 Holiday Refresh (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU - 2014 Holiday Refresh (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU - 2014 Holiday Refresh (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU - 2015 Holiday Refresh (USA)">
 		<category>Demos</category>
 		<description>PS3 IDU - 2015 Holiday Refresh (USA)</description>
 		<release name="PS3 IDU - 2015 Holiday Refresh (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU - 2015 Holiday Refresh (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU - 2015 Holiday Refresh (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU 3.50 FW - Oct 2010 (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU 3.50 FW - Oct 2010 (USA)</description>
 		<release name="PS3 IDU 3.50 FW - Oct 2010 (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU 3.50 FW - Oct 2010 (USA).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="PS3 IDU 3.50 FW - Oct 2010 (USA).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 3.50 FW - Oct 2010 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 3.50 FW - Oct 2010 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU 3.56 FW (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU 3.56 FW (USA)</description>
 		<release name="PS3 IDU 3.56 FW (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU 3.56 FW (USA).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="PS3 IDU 3.56 FW (USA).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 3.56 FW (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 3.56 FW (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU 3.72 PS 3D Display Update (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU 3.72 PS 3D Display Update (USA)</description>
 		<release name="PS3 IDU 3.72 PS 3D Display Update (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU 3.72 PS 3D Display Update (USA).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="PS3 IDU 3.72 PS 3D Display Update (USA).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 3.72 PS 3D Display Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 3.72 PS 3D Display Update (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU 431 (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU 431 (USA)</description>
 		<release name="PS3 IDU 431 (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU 431 (USA).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="PS3 IDU 431 (USA).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 431 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 431 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU Update 4.10 (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU Update 4.10 (USA)</description>
 		<release name="PS3 IDU Update 4.10 (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU Update 4.10 (USA).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="PS3 IDU Update 4.10 (USA).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU Update 4.10 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU Update 4.10 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU Update 430 (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU Update 430 (USA)</description>
 		<release name="PS3 IDU Update 430 (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU Update 430 (USA).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="PS3 IDU Update 430 (USA).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU Update 430 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU Update 430 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 Standard IDU 4.23 - Holiday 2012 Update (USA)">
 		<category>Demos</category>
 		<description>PS3 Standard IDU 4.23 - Holiday 2012 Update (USA)</description>
 		<release name="PS3 Standard IDU 4.23 - Holiday 2012 Update (USA)" region="USA" language="En"/>
-		<rom name="PS3 Standard IDU 4.23 - Holiday 2012 Update (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 Standard IDU 4.23 - Holiday 2012 Update (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 System Software v.4.21 - F-W Only (USA)">
 		<category>Applications</category>
 		<description>PS3 System Software v.4.21 - F-W Only (USA)</description>
 		<release name="PS3 System Software v.4.21 - F-W Only (USA)" region="USA" language="En"/>
-		<rom name="PS3 System Software v.4.21 - F-W Only (USA).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="PS3 System Software v.4.21 - F-W Only (USA).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 System Software v.4.21 - F-W Only (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 System Software v.4.21 - F-W Only (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Pac-Man and the Ghostly Adventures (Europe) (En,Fr,De,Es,It)" cloneof="Pac-Man and the Ghostly Adventures (USA) (En,Fr,Es,Pt)">
 		<category>Games</category>
@@ -24967,16 +24967,16 @@
 		<release name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr)" region="Europe" language="Sv"/>
 		<release name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr)" region="Europe" language="Tr"/>
 		<release name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr)" region="Europe" language="Zh"/>
-		<rom name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr)" cloneof="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr)">
 		<category>Applications</category>
 		<description>PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr)</description>
 		<release name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr)" region="USA" language="En"/>
 		<release name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr)" region="USA" language="Fr"/>
-		<rom name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr).cue" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr).bin" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PlayStation All-Stars Battle Royale (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)" cloneof="PlayStation All-Stars Battle Royale (Japan) (En,Ja)">
 		<category>Games</category>
@@ -25505,7 +25505,7 @@
 		<category>Games</category>
 		<description>Pro Yakyuu Spirits 2013 (Asia)</description>
 		<release name="Pro Yakyuu Spirits 2013 (Asia)" region="Asia" language="Ja"/>
-		<rom name="Pro Yakyuu Spirits 2013 (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Pro Yakyuu Spirits 2013 (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Pro Yakyuu Spirits 2013 (Japan)">
 		<category>Games</category>
@@ -28408,7 +28408,7 @@
 		<category>Games</category>
 		<description>Samurai Dou 3 (Japan) (v02.00)</description>
 		<release name="Samurai Dou 3 (Japan) (v02.00)" region="Japan" language="Ja"/>
-		<rom name="Samurai Dou 3 (Japan) (v02.00).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Samurai Dou 3 (Japan) (v02.00).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Samurai Dou 3 (Japan, Asia) (v01.01)" cloneof="Samurai Dou 3 (Japan) (v02.00)">
 		<category>Games</category>
@@ -29034,7 +29034,7 @@
 		<category>Games</category>
 		<description>Shin Sangoku Musou - Multi Raid 2 - HD Version (Korea)</description>
 		<release name="Shin Sangoku Musou - Multi Raid 2 - HD Version (Korea)" region="Korea" language="Ja"/>
-		<rom name="Shin Sangoku Musou - Multi Raid 2 - HD Version (Korea).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Shin Sangoku Musou - Multi Raid 2 - HD Version (Korea).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Shin Sangoku Musou - Multi Raid Special (Japan)">
 		<category>Games</category>
@@ -29046,7 +29046,7 @@
 		<category>Games</category>
 		<description>Shin Sangoku Musou 5 (Asia)</description>
 		<release name="Shin Sangoku Musou 5 (Asia)" region="Asia" language="Zh"/>
-		<rom name="Shin Sangoku Musou 5 (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Shin Sangoku Musou 5 (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Shin Sangoku Musou 5 (Japan)">
 		<category>Games</category>
@@ -29168,7 +29168,7 @@
 		<category>Games</category>
 		<description>Shining Resonance (Asia)</description>
 		<release name="Shining Resonance (Asia)" region="Asia" language="Zh"/>
-		<rom name="Shining Resonance (Asia).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Shining Resonance (Asia).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Shining Resonance (Japan)">
 		<category>Games</category>
@@ -29525,7 +29525,7 @@
 		<category>Games</category>
 		<description>SingStar (Norway)</description>
 		<release name="SingStar (Norway)" region="Norway" language="No"/>
-		<rom name="SingStar (Norway).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="SingStar (Norway).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="SingStar (Spain) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)" cloneof="SingStar (USA) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)">
 		<category>Games</category>
@@ -30032,7 +30032,7 @@
 		<release name="SingStar Kent (Scandinavia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl)" region="Scandinavia" language="Pl"/>
 		<release name="SingStar Kent (Scandinavia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl)" region="Scandinavia" language="Pt"/>
 		<release name="SingStar Kent (Scandinavia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl)" region="Scandinavia" language="Sv"/>
-		<rom name="SingStar Kent (Scandinavia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="SingStar Kent (Scandinavia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="SingStar Latino (USA) (En,Es,Pt)">
 		<category>Games</category>
@@ -30075,7 +30075,7 @@
 		<release name="SingStar Mallorca Party (Germany) (En,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Pl,Ru) (v02.00)" region="Germany" language="Pl"/>
 		<release name="SingStar Mallorca Party (Germany) (En,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Pl,Ru) (v02.00)" region="Germany" language="Pt"/>
 		<release name="SingStar Mallorca Party (Germany) (En,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Pl,Ru) (v02.00)" region="Germany" language="Ru"/>
-		<rom name="SingStar Mallorca Party (Germany) (En,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Pl,Ru) (v02.00).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="SingStar Mallorca Party (Germany) (En,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Pl,Ru) (v02.00).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="SingStar Mallorca Party (Germany) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru) (v01.02)" cloneof="SingStar Mallorca Party (Germany) (En,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Pl,Ru) (v02.00)">
 		<category>Games</category>
@@ -30483,7 +30483,7 @@
 		<release name="SingStar SuomiBileet (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Tr)" region="Finland" language="Ru"/>
 		<release name="SingStar SuomiBileet (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Tr)" region="Finland" language="Sv"/>
 		<release name="SingStar SuomiBileet (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Tr)" region="Finland" language="Tr"/>
-		<rom name="SingStar SuomiBileet (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Tr).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="SingStar SuomiBileet (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Tr).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="SingStar SuomiHelmet (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Af)">
 		<category>Games</category>
@@ -30539,7 +30539,7 @@
 		<release name="SingStar SuomiHuiput (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Af)" region="Finland" language="Pt"/>
 		<release name="SingStar SuomiHuiput (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Af)" region="Finland" language="Ru"/>
 		<release name="SingStar SuomiHuiput (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Af)" region="Finland" language="Sv"/>
-		<rom name="SingStar SuomiHuiput (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Af).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="SingStar SuomiHuiput (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,Af).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="SingStar SuomiSuosikit (Finland) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ru)">
 		<category>Games</category>
@@ -31949,7 +31949,7 @@
 		<category>Games</category>
 		<description>Spider-Man 3 (Korea)</description>
 		<release name="Spider-Man 3 (Korea)" region="Korea" language="En"/>
-		<rom name="Spider-Man 3 (Korea).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Spider-Man 3 (Korea).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Spider-Man 3 (USA)" cloneof="Spider-Man 3 (Japan)">
 		<category>Games</category>
@@ -32026,7 +32026,7 @@
 		<release name="Sports Champions &amp; Medieval Moves - Deadmund's Quest Combo Disc (USA) (En,Fr,Es,Pt)" region="USA" language="Es"/>
 		<release name="Sports Champions &amp; Medieval Moves - Deadmund's Quest Combo Disc (USA) (En,Fr,Es,Pt)" region="USA" language="Fr"/>
 		<release name="Sports Champions &amp; Medieval Moves - Deadmund's Quest Combo Disc (USA) (En,Fr,Es,Pt)" region="USA" language="Pt"/>
-		<rom name="Sports Champions &amp; Medieval Moves - Deadmund's Quest Combo Disc (USA) (En,Fr,Es,Pt).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Sports Champions &amp; Medieval Moves - Deadmund's Quest Combo Disc (USA) (En,Fr,Es,Pt).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Sports Champions (Asia) (En,Zh)" cloneof="Sports Champions (Japan) (En,Ja)">
 		<category>Games</category>
@@ -32133,25 +32133,25 @@
 		<category>Demos</category>
 		<description>Spring 2012 Refresh Standard - PS3 IDU 4.11 (USA)</description>
 		<release name="Spring 2012 Refresh Standard - PS3 IDU 4.11 (USA)" region="USA" language="En"/>
-		<rom name="Spring 2012 Refresh Standard - PS3 IDU 4.11 (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Spring 2012 Refresh Standard - PS3 IDU 4.11 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Spring 2013 - Standard IDU 4.31 (USA)">
 		<category>Demos</category>
 		<description>Spring 2013 - Standard IDU 4.31 (USA)</description>
 		<release name="Spring 2013 - Standard IDU 4.31 (USA)" region="USA" language="En"/>
-		<rom name="Spring 2013 - Standard IDU 4.31 (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Spring 2013 - Standard IDU 4.31 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Spring Refresh 2010 - 3.21 IDU Update (E-M) (USA)">
 		<category>Demos</category>
 		<description>Spring Refresh 2010 - 3.21 IDU Update (E-M) (USA)</description>
 		<release name="Spring Refresh 2010 - 3.21 IDU Update (E-M) (USA)" region="USA" language="En"/>
-		<rom name="Spring Refresh 2010 - 3.21 IDU Update (E-M) (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Spring Refresh 2010 - 3.21 IDU Update (E-M) (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Spring Refresh 2011 3.60 IDU FW Update (USA)">
 		<category>Demos</category>
 		<description>Spring Refresh 2011 3.60 IDU FW Update (USA)</description>
 		<release name="Spring Refresh 2011 3.60 IDU FW Update (USA)" region="USA" language="En"/>
-		<rom name="Spring Refresh 2011 3.60 IDU FW Update (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Spring Refresh 2011 3.60 IDU FW Update (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Square Enix Magazine Demo Disc Vol. 1 (Japan)">
 		<category>Demos</category>
@@ -32353,7 +32353,7 @@
 		<category>Games</category>
 		<description>Start the Party! (Korea)</description>
 		<release name="Start the Party! (Korea)" region="Korea" language="Ko"/>
-		<rom name="Start the Party! (Korea).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Start the Party! (Korea).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Start the Party! (UK)" cloneof="Start the Party! (USA) (En,Fr,Es,Pt)">
 		<category>Games</category>
@@ -32595,7 +32595,7 @@
 		<category>Demos</category>
 		<description>Summer Refresh 2011 - 3.65 IDU FW Update (USA)</description>
 		<release name="Summer Refresh 2011 - 3.65 IDU FW Update (USA)" region="USA" language="En"/>
-		<rom name="Summer Refresh 2011 - 3.65 IDU FW Update (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Summer Refresh 2011 - 3.65 IDU FW Update (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Summer Stars 2012 (Europe) (En,Fr,De,Es,It)" cloneof="Summer Stars 2012 (USA) (En,Fr,De,Es,It)">
 		<category>Games</category>
@@ -32815,7 +32815,7 @@
 		<category>Games</category>
 		<description>Syberia Collection (Brazil)</description>
 		<release name="Syberia Collection (Brazil)" region="Brazil" language="Pt-BR"/>
-		<rom name="Syberia Collection (Brazil).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Syberia Collection (Brazil).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Syberia Collection (Europe) (En,Fr,De,Es,It)">
 		<category>Games</category>
@@ -36509,7 +36509,7 @@
 		<category>Demos</category>
 		<description>Walmart Endcap - 2014 Summer Refresh (USA)</description>
 		<release name="Walmart Endcap - 2014 Summer Refresh (USA)" region="USA" language="En"/>
-		<rom name="Walmart Endcap - 2014 Summer Refresh (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Walmart Endcap - 2014 Summer Refresh (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Walt Disney Pictures Bolt (USA) (En,Fr,Es)">
 		<category>Games</category>
@@ -36990,13 +36990,13 @@
 		<category>Demos</category>
 		<description>Winter 2012 Refresh PS3 IDU 3.72 (USA)</description>
 		<release name="Winter 2012 Refresh PS3 IDU 3.72 (USA)" region="USA" language="En"/>
-		<rom name="Winter 2012 Refresh PS3 IDU 3.72 (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Winter 2012 Refresh PS3 IDU 3.72 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Winter Refresh 2011 - 3.55 FW Update (USA)">
 		<category>Demos</category>
 		<description>Winter Refresh 2011 - 3.55 FW Update (USA)</description>
 		<release name="Winter Refresh 2011 - 3.55 FW Update (USA)" region="USA" language="En"/>
-		<rom name="Winter Refresh 2011 - 3.55 FW Update (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Winter Refresh 2011 - 3.55 FW Update (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Winter Sports 2010 - The Great Tournament (Europe) (En,Fr,De,Es,It)" cloneof="Winter Sports 2010 - The Great Tournament (Japan)">
 		<category>Games</category>
@@ -38007,7 +38007,7 @@
 		<release name="inFamous 2 (Asia) (En,Zh,Ko)" region="Asia" language="En"/>
 		<release name="inFamous 2 (Asia) (En,Zh,Ko)" region="Asia" language="Ko"/>
 		<release name="inFamous 2 (Asia) (En,Zh,Ko)" region="Asia" language="Zh"/>
-		<rom name="inFamous 2 (Asia) (En,Zh,Ko).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="inFamous 2 (Asia) (En,Zh,Ko).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="inFamous 2 (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Pl,Ru)" cloneof="inFamous 2 (Japan)">
 		<category>Games</category>
@@ -38072,7 +38072,7 @@
 		<category>Demos</category>
 		<description>inFamous 2 + MotorStorm Apocalypse - Spring Refresh 2011 3.60 IDU FW Update (USA)</description>
 		<release name="inFamous 2 + MotorStorm Apocalypse - Spring Refresh 2011 3.60 IDU FW Update (USA)" region="USA" language="En"/>
-		<rom name="inFamous 2 + MotorStorm Apocalypse - Spring Refresh 2011 3.60 IDU FW Update (USA).iso" size="1000" mia="yes" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="inFamous 2 + MotorStorm Apocalypse - Spring Refresh 2011 3.60 IDU FW Update (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="uDraw Studio - Instant Artist (Europe, Australia) (En,Fr,De,Es,It,Nl)" cloneof="uDraw Studio - Instant Artist (USA) (En,Fr,De,Es,It,Nl)">
 		<category>Games</category>
