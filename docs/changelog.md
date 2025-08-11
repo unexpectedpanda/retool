@@ -5,7 +5,7 @@ hide:
 
 # Changelog
 
-## 2.4.0 (2025-11-04)
+## 2.4.0 (2025-08-11)
 
 Consider this update a bonus, as I wanted to correct a few things. It isn't a sign of
 future updates to come.
