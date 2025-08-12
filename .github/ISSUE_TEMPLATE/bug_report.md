@@ -22,9 +22,9 @@ A clear and concise description of what you expected to happen.
 - [ ] Other (please specify)
 
 **Retool edition**
-- [ ] retool-gui.exe
+- [ ] retoolgui.exe
 - [ ] retool.py
-- [ ] retool-gui.py
+- [ ] retoolgui.py
 
 **Retool version**
 For the command line edition of Retool, the version is shown when you run it with no other arguments.
@@ -44,4 +44,4 @@ System includes:
 **What other settings are you using?**
 
 **Additional context**
-Add any other context about the problem here.
+Add other context about the problem here.
