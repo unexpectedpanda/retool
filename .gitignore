@@ -4,16 +4,16 @@
 !.gitignore
 !.dev
 !tests/**/*.dat
+/config/
+/config/systems/*.yaml
+/clonelists/
+/metadata/
+/mias/
+/retroachievements/
 __pycache__/
-config/systems/*.yaml
-user-config.yaml
 debug.log
 *.spec
 *.xlsx
-config/
-datafile.dtd
-clonelists/
-metadata/
 
 # dependencies
 /node_modules

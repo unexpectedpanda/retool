@@ -1,0 +1,216 @@
+---
+config version: 2.4.0
+# ==============
+# LANGUAGE ORDER
+# ==============
+# If the -l option is used, only include titles with the following languages.
+# Comment out languages you don't want. Order is important.
+language order:
+# - English
+# - Afrikaans
+# - Albanian
+# - Arabic
+# - Basque
+# - Bulgarian
+# - Catalan
+# - Chinese (Simplified)
+# - Chinese (Traditional)
+# - Cornish
+# - Croatian
+# - Czech
+# - Danish
+# - Dutch
+# - Estonian
+# - Finnish
+# - French
+# - French (Canadian)
+# - Gaelic
+# - German
+# - Greek
+# - Hebrew
+# - Hindi
+# - Hungarian
+# - Icelandic
+# - Indonesian
+# - Italian
+# - Japanese
+# - Korean
+# - Latvian
+# - Lithuanian
+# - Macedonian
+# - Norwegian
+# - Polish
+# - Portuguese
+# - Portuguese (Brazilian)
+# - Punjabi
+# - Romanian
+# - Russian
+# - Serbian
+# - Slovak
+# - Slovenian
+# - Spanish
+# - Spanish (Latin American)
+# - Spanish (Mexican)
+# - Swedish
+# - Tamil
+# - Thai
+# - Turkish
+# - Ukranian
+
+# ============
+# REGION ORDER
+# ============
+# Only include titles with the following regions. Comment out the regions you
+# don't want. Order is important.
+region order:
+- USA
+- World
+- Canada
+- Europe
+- UK
+- Australia
+- New Zealand
+- Singapore
+- Ireland
+- Japan
+- Asia
+- Thailand
+- Spain
+- Mexico
+- Argentina
+- Latin America
+- Brazil
+- Portugal
+- France
+- Belgium
+- Netherlands
+- Germany
+- Austria
+- Italy
+- Switzerland
+- Hong Kong
+- China
+- Taiwan
+- Korea
+- Russia
+- Ukraine
+- Estonia
+- Poland
+- Latvia
+- Lithuania
+- Denmark
+- Norway
+- Sweden
+- Scandinavia
+- Finland
+- Iceland
+- Hungary
+- Czech
+- Greece
+- Macedonia
+- India
+- South Africa
+- Israel
+- Slovakia
+- Turkey
+- Croatia
+- Slovenia
+- United Arab Emirates
+- Bulgaria
+- Romania
+- Albania
+- Serbia
+- Indonesia
+- Unknown
+
+# ==================
+# LOCALIZATION ORDER
+# ==================
+# If the -n option is used, use local names where available for titles with the
+# following languages. Comment out languages you don't want. Order is important.
+# If all languages are commented out and -n is used, the language order is used
+# instead.
+localization order:
+
+# ===========
+# VIDEO ORDER
+# ===========
+# Priority for titles with a video tag in their name. Do not comment out any
+# lines.
+video order:
+- NTSC
+- PAL
+- PAL 60Hz
+- MPAL
+- SECAM
+
+# ============================
+# LIST NAMES PREFIX AND SUFFIX
+# ============================
+# If the --listnames option is used, you can optionally add a prefix and
+# suffix to each title.
+#
+# If you start a prefix with http://, https://, or ftp://, each line in the
+# list will be URL encoded.
+#
+# The text must be inside double quotes. You must escape other double quotes
+# and backslashes inside the quotes like so: \", \\
+list prefix:
+# - "This text will be at the start of each line"
+
+list suffix:
+# - "This text will be at the end of each line"
+
+# ====================================
+# GLOBAL EXCLUDE AND INCLUDE OVERRIDES
+# ====================================
+# Override Retool and force exclude or include specific titles by adding your own
+# text to match against. Items in the list are case sensitive. See the
+# documentation for more information, and pay particular attention to how system
+# overrides interact with global overrides.
+#
+# The formatting is as follows:
+#
+# * Plain text indicates a partial string match.
+# * A prefix of / indicates a regular expression match.
+# * A prefix of | indicates a full string match.
+# * Additionally, wrap a string in <> to also remove or include any match's 
+#   related clones.
+#
+# The text must be inside double quotes. You must escape double quotes and
+# backslashes like so: \", \\
+#
+# Comment out lines you don't want.
+exclude:
+# - "[b]"
+# - "/.*?\(Virtual*"
+
+include:
+# - "|My favorite title (Japan)"
+
+# ============
+# POST FILTERS
+# ============
+# After Retool has finished processing, remove all titles except the ones that
+# match the text listed here. Items in the list are case sensitive. See the
+# documentation for more information.
+#
+# The formatting is as follows:
+#
+# * Plain text indicates a partial string match.
+# * A prefix of / indicates a regular expression match.
+# * A prefix of | indicates a full string match.
+#
+# The text must be inside double quotes. You must escape double quotes and
+# backslashes like so: \", \\
+#
+# Comment out lines you don't want
+filters:
+# - "/.*?\(Virtual*"
+# - "|My favorite title (Japan)"
+
+# ============
+# GUI SETTINGS
+# ============
+# GUI settings only, not used by the CLI.
+gui settings:

@@ -1,0 +1,18 @@
+{
+    "description": {
+		"name": "Retool - Numbered",
+		"lastUpdated": "29 June 2025",
+		"minimumVersion": "2.02"
+	},
+	"variants": [
+        {
+            "group": "Test Title",
+            "titles": [
+                {"searchTerm": "Test Title"}
+            ],
+            "supersets": [
+                {"searchTerm": "Test Title - Special Edition"}
+            ]
+        }
+    ]
+}
