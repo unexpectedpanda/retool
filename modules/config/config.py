@@ -10,10 +10,10 @@ from itertools import product
 from re import Pattern
 from typing import Any
 
-from strictyaml import YAML, Map, MapPattern, Seq, Str # type: ignore
+from strictyaml import YAML, Map, MapPattern, Seq, Str  # type: ignore
 
-from modules.input import UserInput
 from modules.config.read_write_config import generate_config, read_config
+from modules.input import UserInput
 from modules.stats import Stats
 from modules.titletools import Regex
 from modules.utils import Font, download, eprint

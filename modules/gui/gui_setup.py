@@ -9,6 +9,7 @@ from PySide6 import QtWidgets as qtw
 
 import modules.constants as const
 from modules.config.config import Config
+from modules.config.read_write_config import generate_config
 from modules.gui.gui_config import write_config
 from modules.gui.gui_utils import (
     add_list_items,
@@ -24,7 +25,6 @@ from modules.gui.gui_utils import (
 )
 from modules.gui.gui_windows import AboutWindow, SettingsWindow, TitleToolWindow
 from modules.input import get_config_value, import_system_settings
-from modules.config.read_write_config import generate_config
 from modules.utils import Font, eprint
 
 

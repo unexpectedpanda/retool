@@ -287,9 +287,7 @@ assert test_version_normalization('Test Title (Japan) (FAAT, FACT)') == {'nec': 
 assert test_version_normalization('Test Title (Japan) (FABT)') == {'nec': 'FABT'}
 assert test_version_normalization('Test Title (Japan) (FADT)') == {'nec': 'FADT'}
 assert test_version_normalization('Test Title (Japan) (FAFT)') == {'nec': 'FAFT'}
-assert test_version_normalization('Test Title (Japan) (FABT, FACT, FAET, FAFT)') == {
-    'nec': 'FAFT'
-}
+assert test_version_normalization('Test Title (Japan) (FABT, FACT, FAET, FAFT)') == {'nec': 'FAFT'}
 assert test_version_normalization('Test Title (Japan) (SAAS)') == {'nec': 'SAAS'}
 assert test_version_normalization('Test Title (Japan) (SABS)') == {'nec': 'SABS'}
 assert test_version_normalization('Test Title (Japan) (SACS)') == {'nec': 'SACS'}

@@ -326,7 +326,9 @@ class WriteFiles:
                         if config.user_input.local_names:
 
                             if title.cloneof in quick_lookup['full_name_index']:
-                                clone_titles: set[DatNode] = quick_lookup['full_name_index'][title.cloneof]
+                                clone_titles: set[DatNode] = quick_lookup['full_name_index'][
+                                    title.cloneof
+                                ]
 
                             for clone_title in clone_titles:
                                 if clone_title.local_name:
@@ -515,14 +517,14 @@ class WriteFiles:
                     f'\t\t<date>{dat_date}</date>\n',
                     f'\t\t<author>{input_dat.author}</author>\n',
                     '\t\t<homepage>http://www.github.com/unexpectedpanda/retool</homepage>\n',
-                    f'\t\t<url>{html.escape(input_dat.url, quote=False)}</url>\n',
-                    f'\t\t<retool>Created by Retool {retool_version}</retool>\n',
+                    f'\t\t<url>{html.escape(input_dat.url, quote=False)}</url>\n'
                 ]
             )
 
             if rom_header:
                 final_xml.extend(rom_header)
 
+        final_xml.append(f'\t\t<retool>Created by Retool {retool_version}</retool>\n')
         final_xml.append('\t</header>\n')
 
         final_xml.extend(dat_xml)

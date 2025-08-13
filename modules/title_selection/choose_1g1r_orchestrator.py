@@ -22,7 +22,10 @@ from modules.utils import Font, eprint
 
 
 def choose_1g1r_orchestrator(
-    processed_titles: dict[str, set[DatNode]], quick_lookup: dict[str, dict[str, set[DatNode]]], config: Config, is_numbered: bool
+    processed_titles: dict[str, set[DatNode]],
+    quick_lookup: dict[str, dict[str, set[DatNode]]],
+    config: Config,
+    is_numbered: bool,
 ) -> dict[str, set[DatNode]]:
     """
     Sets up 1G1R selection using either single or multiprocessor, then executes 1G1R
@@ -32,6 +35,11 @@ def choose_1g1r_orchestrator(
         processed_titles (dict[str, set[DatNode]]): A work in progress dictionary of
             DatNodes, originally populated from the input DAT and actively being worked on
             by Retool.
+
+        quick_lookup (dict[str, set[DatNode]]): A dictionary keyed by multiple title
+            properties that enables quick lookup of titles. Due to the way Python
+            references variables, changes made here are also reflected in
+            `processed_titles`.
 
         config (Config): The Retool config object.
 
@@ -249,7 +257,9 @@ def choose_1g1r_orchestrator(
                             )
 
         # Now process compilations
-        processed_titles = choose_compilation(compilations, processed_titles, quick_lookup, config, is_numbered)
+        processed_titles = choose_compilation(
+            compilations, processed_titles, quick_lookup, config, is_numbered
+        )
 
         if not config.user_input.single_cpu and bar:
             for _ in compilations:

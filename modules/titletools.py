@@ -77,6 +77,12 @@ class Regex:
         )
         self.revision: Pattern[str] = re.compile('\\(R[eE][vV](?:[ -][0-9A-Z].*?)?\\)', flags=re.I)
         self.build: Pattern[str] = re.compile('\\(Build [0-9].*?\\)', flags=re.I)
+        self.benesse_id: Pattern[str] = re.compile(
+            '\\s\\((?:[0-9][BF][BCDEFIKMPQ][0-9D]{3,3}(?:[CNOST][BCEHSW])?(?: - )?)+\\)'
+        )
+        self.benesse_id_singular: Pattern[str] = re.compile(
+            '[0-9][BF][BCDEFIKMPQ][0-9D]{3,3}(?:[CNOST][BCEHSW])?'
+        )
         self.dreamcast_version: Pattern[str] = re.compile('V[0-9]{2,2} L[0-9]{2,2}')
         self.famicom_disk_system_version: Pattern[str] = re.compile('\\(DV [0-9].*?\\)', flags=re.I)
         self.fmtowns_version: Pattern[str] = re.compile(
@@ -154,8 +160,8 @@ class Regex:
 
         self.demos: tuple[Pattern[str], ...] = (
             re.compile('\\((?:\\w[-.]?\\s*)*Demo(?:(?:,?\\s|-)[\\w0-9\\.]*)*\\)', flags=re.I),
-            re.compile('Cheheompan', flags=re.I), # 체험판
-            re.compile('Taikenban', flags=re.I), # 体験版
+            re.compile('Cheheompan', flags=re.I),  # 체험판
+            re.compile('Taikenban', flags=re.I),  # 体験版
             re.compile('\\(@barai\\)', flags=re.I),
             re.compile('\\(GameCube Preview\\)', flags=re.I),
             re.compile('\\(Preview\\)', flags=re.I),
@@ -212,6 +218,7 @@ class Regex:
             self.ps5_id,
             self.psp_id,
             self.ps_vita_id,
+            self.benesse_id,
             self.beta,
             self.alpha,
             self.proto,
@@ -293,7 +300,6 @@ class TitleTools:
                             compare_groups[title_group].add(virtual_title)
 
         return compare_groups
-
 
     @staticmethod
     def get_date(name: str, config: Config) -> int:
@@ -523,6 +529,11 @@ class TitleTools:
                         version = str(max([int(i) for i in re.findall('\\d+', version)]))
                     else:
                         version = '0'
+                elif pattern == config.regex.benesse_id:
+                    if pattern2string(config.regex.benesse_id_singular, version):
+                        version = re.findall(config.regex.benesse_id_singular, version)[-1]
+                    else:
+                        version = '0'
                 elif pattern == config.regex.beta:
                     if version == 'Beta':
                         version = '0'
@@ -620,8 +631,8 @@ class TitleTools:
                 if pattern == config.regex.revision:
                     versions['revision'] = version
                 elif pattern == (
-                    config.regex.sega_panasonic_ring_code
-                    or config.regex.sega_ringedge_serial):
+                    config.regex.sega_panasonic_ring_code or config.regex.sega_ringedge_serial
+                ):
                     versions['sega'] = version
                 elif pattern == config.regex.nec_mastering_code:
                     versions['nec'] = version
@@ -661,6 +672,8 @@ class TitleTools:
                             versions['playstation'] = version
                     else:
                         versions['playstation'] = version
+                elif pattern == config.regex.benesse_id:
+                    versions['benesse'] = version
                 else:
                     versions['version'] = version
 

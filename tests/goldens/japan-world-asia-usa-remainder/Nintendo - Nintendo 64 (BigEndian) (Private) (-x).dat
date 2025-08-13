@@ -8,8 +8,8 @@
 		<author>aci68, Arctic Circle System, Aringon, baldjared, BigFred, BitLooter, Blank, C. V. Reynolds, chillerecke, DeriLoko3, EggmanPEI, einstein95, ElBarto, FakeShemp, Gefflon, Hiccup, jimmsu, Just001Kim, kazumi213, LNRC, Madeline, MeguCocoa, Money_114, NESBrew12, nnssxx, NovaAurora, omonim2007, Powerpuff, PPLToast, Psychofox11, psykopat, rarenight, relax, Rifu, scorp256, sCZther, SonGoku, Special T, TeamEurope, togemet2, UnlockerPT, xprism, xuom2</author>
 		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
 		<url>https://www.no-intro.org</url>
-		<retool>Created by Retool X</retool>
 		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool X</retool>
 	</header>
 	<game name="007 - The World Is Not Enough (Europe) (En,Fr,De)" cloneof="007 - The World Is Not Enough (USA)" id="0004">
 		<category>Games</category>

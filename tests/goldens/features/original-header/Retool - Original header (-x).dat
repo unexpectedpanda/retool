@@ -9,6 +9,7 @@
 		<date>2025-06-21 00-00-00</date>
 		<author>unexpectedpanda</author>
 		<url>https://unexpectedpanda.github.io/retool</url>
+		<retool>Created by Retool X</retool>
 	</header>
 	<game name="Test Title (Europe)" cloneof="Test Title (USA)">
 		<category>Games</category>

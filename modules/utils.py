@@ -256,6 +256,8 @@ def eprint(
         indent (int, optional): After the first line, how many spaces to indent whenever
             text wraps to a new line. Defaults to `2`.
 
+        section (bool, optional): Whether to show the prefix `|  ` before each line.
+
         pause (bool, optional): Shows a `Press enter to continue` message and waits for
             user input. Defaults to `False`.
 

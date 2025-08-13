@@ -109,4 +109,3 @@ def retroachievements(
             eprint('• Applying RetroAchievements attributes... done')
         else:
             eprint('• Applying RetroAchievements attributes... done', overwrite=True)
-

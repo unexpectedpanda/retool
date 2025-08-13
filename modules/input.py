@@ -8,7 +8,7 @@ import sys
 from functools import reduce
 from typing import TYPE_CHECKING, Any
 
-from strictyaml import YAML, Map, MapPattern, Seq, Str # type: ignore
+from strictyaml import YAML, Map, MapPattern, Seq, Str  # type: ignore
 
 import modules.constants as const
 

@@ -354,6 +354,13 @@ def choose_1g1r(
                         config,
                         report_on_match,
                     )
+                if len(titles) > 1:
+                    titles = choose_version_revision(
+                        titles,
+                        'benesse',
+                        config,
+                        report_on_match,
+                    )
 
                 if report_on_match:
                     TraceTools.trace_title('REF0007', [], titles, keep_remove=False)

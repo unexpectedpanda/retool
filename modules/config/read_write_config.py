@@ -7,8 +7,8 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from modules.config.config import Config
 
-from strictyaml import YAML, Map, YAMLError, YAMLValidationError, load # type: ignore
-from strictyaml.ruamel.comments import CommentedMap # type: ignore
+from strictyaml import YAML, Map, YAMLError, YAMLValidationError, load  # type: ignore
+from strictyaml.ruamel.comments import CommentedMap  # type: ignore
 
 from modules.utils import Font, eprint
 

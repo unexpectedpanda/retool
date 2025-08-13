@@ -8,8 +8,8 @@
 		<author>aci68, alcoatjez, Arctic Circle System, BigFred, bikerspade, Blank, C. V. Reynolds, chillerecke, coraz, DarkMatterCore, DeadSkullzJr, DeriLoko3, einstein95, Flashfire42, Gefflon, Hiccup, Jack, jimmsu, kazumi213, Madeline, MeguCocoa, Money_114, NESBrew12, nnssxx, norkmetnoil577, NovaAurora, omonim2007, Powerpuff, PPLToast, Psychofox11, psykopat, rarenight, relax, Rifu, sCZther, SonGoku, Special T, Tauwasser, TeamEurope, togemet2, Vigi, xuom2</author>
 		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
 		<url>https://www.no-intro.org</url>
-		<retool>Created by Retool X</retool>
 		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool X</retool>
 	</header>
 	<game name="'96 Zenkoku Koukou Soccer Senshuken (Japan)" id="0001">
 		<category>Games</category>

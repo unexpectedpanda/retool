@@ -1239,8 +1239,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-end-100.png</normaloff>:/Arrows/images/icons8-end-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-end-100.png</normaloff>:/arrows/images/icons8-end-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -1278,8 +1278,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-right-100.png</normaloff>:/Arrows/images/icons8-sort-right-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-right-100.png</normaloff>:/arrows/images/icons8-sort-right-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -1317,8 +1317,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-left-100.png</normaloff>:/Arrows/images/icons8-sort-left-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-left-100.png</normaloff>:/arrows/images/icons8-sort-left-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -1350,8 +1350,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-skip-to-start-100.png</normaloff>:/Arrows/images/icons8-skip-to-start-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-skip-to-start-100.png</normaloff>:/arrows/images/icons8-skip-to-start-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -1439,8 +1439,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-up-100.png</normaloff>:/Arrows/images/icons8-sort-up-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-up-100.png</normaloff>:/arrows/images/icons8-sort-up-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -1472,8 +1472,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-down-100.png</normaloff>:/Arrows/images/icons8-sort-down-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-down-100.png</normaloff>:/arrows/images/icons8-sort-down-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -1601,8 +1601,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-up-100.png</normaloff>:/Arrows/images/icons8-sort-up-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-up-100.png</normaloff>:/arrows/images/icons8-sort-up-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -1634,8 +1634,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-down-100.png</normaloff>:/Arrows/images/icons8-sort-down-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-down-100.png</normaloff>:/arrows/images/icons8-sort-down-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -1863,8 +1863,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-end-100.png</normaloff>:/Arrows/images/icons8-end-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-end-100.png</normaloff>:/arrows/images/icons8-end-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -1902,8 +1902,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-right-100.png</normaloff>:/Arrows/images/icons8-sort-right-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-right-100.png</normaloff>:/arrows/images/icons8-sort-right-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -1941,8 +1941,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-left-100.png</normaloff>:/Arrows/images/icons8-sort-left-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-left-100.png</normaloff>:/arrows/images/icons8-sort-left-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -1974,8 +1974,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-skip-to-start-100.png</normaloff>:/Arrows/images/icons8-skip-to-start-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-skip-to-start-100.png</normaloff>:/arrows/images/icons8-skip-to-start-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -2169,8 +2169,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-up-100.png</normaloff>:/Arrows/images/icons8-sort-up-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-up-100.png</normaloff>:/arrows/images/icons8-sort-up-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -2202,8 +2202,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-down-100.png</normaloff>:/Arrows/images/icons8-sort-down-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-down-100.png</normaloff>:/arrows/images/icons8-sort-down-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -3186,8 +3186,8 @@ games.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-up-100.png</normaloff>:/Arrows/images/icons8-sort-up-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-up-100.png</normaloff>:/arrows/images/icons8-sort-up-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -3219,8 +3219,8 @@ games.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-down-100.png</normaloff>:/Arrows/images/icons8-sort-down-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-down-100.png</normaloff>:/arrows/images/icons8-sort-down-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -3371,8 +3371,8 @@ games.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-end-100.png</normaloff>:/Arrows/images/icons8-end-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-end-100.png</normaloff>:/arrows/images/icons8-end-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -3410,8 +3410,8 @@ games.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-right-100.png</normaloff>:/Arrows/images/icons8-sort-right-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-right-100.png</normaloff>:/arrows/images/icons8-sort-right-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -3449,8 +3449,8 @@ games.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-left-100.png</normaloff>:/Arrows/images/icons8-sort-left-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-left-100.png</normaloff>:/arrows/images/icons8-sort-left-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -3482,8 +3482,8 @@ games.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-skip-to-start-100.png</normaloff>:/Arrows/images/icons8-skip-to-start-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-skip-to-start-100.png</normaloff>:/arrows/images/icons8-skip-to-start-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -7035,8 +7035,8 @@ for RomVault or DatVault users operating directly on their DatRoot files.</strin
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-up-100.png</normaloff>:/Arrows/images/icons8-sort-up-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-up-100.png</normaloff>:/arrows/images/icons8-sort-up-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -7068,8 +7068,8 @@ for RomVault or DatVault users operating directly on their DatRoot files.</strin
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-down-100.png</normaloff>:/Arrows/images/icons8-sort-down-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-down-100.png</normaloff>:/arrows/images/icons8-sort-down-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -7185,8 +7185,8 @@ for RomVault or DatVault users operating directly on their DatRoot files.</strin
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-end-100.png</normaloff>:/Arrows/images/icons8-end-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-end-100.png</normaloff>:/arrows/images/icons8-end-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -7224,8 +7224,8 @@ for RomVault or DatVault users operating directly on their DatRoot files.</strin
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-right-100.png</normaloff>:/Arrows/images/icons8-sort-right-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-right-100.png</normaloff>:/arrows/images/icons8-sort-right-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -7263,8 +7263,8 @@ for RomVault or DatVault users operating directly on their DatRoot files.</strin
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-left-100.png</normaloff>:/Arrows/images/icons8-sort-left-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-left-100.png</normaloff>:/arrows/images/icons8-sort-left-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -7296,8 +7296,8 @@ for RomVault or DatVault users operating directly on their DatRoot files.</strin
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-skip-to-start-100.png</normaloff>:/Arrows/images/icons8-skip-to-start-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-skip-to-start-100.png</normaloff>:/arrows/images/icons8-skip-to-start-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -7813,8 +7813,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-end-100.png</normaloff>:/Arrows/images/icons8-end-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-end-100.png</normaloff>:/arrows/images/icons8-end-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -7852,8 +7852,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-right-100.png</normaloff>:/Arrows/images/icons8-sort-right-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-right-100.png</normaloff>:/arrows/images/icons8-sort-right-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -7891,8 +7891,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-left-100.png</normaloff>:/Arrows/images/icons8-sort-left-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-left-100.png</normaloff>:/arrows/images/icons8-sort-left-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -7924,8 +7924,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-skip-to-start-100.png</normaloff>:/Arrows/images/icons8-skip-to-start-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-skip-to-start-100.png</normaloff>:/arrows/images/icons8-skip-to-start-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -8082,8 +8082,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-up-100.png</normaloff>:/Arrows/images/icons8-sort-up-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-up-100.png</normaloff>:/arrows/images/icons8-sort-up-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -8115,8 +8115,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-down-100.png</normaloff>:/Arrows/images/icons8-sort-down-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-down-100.png</normaloff>:/arrows/images/icons8-sort-down-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -8353,8 +8353,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-up-100.png</normaloff>:/Arrows/images/icons8-sort-up-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-up-100.png</normaloff>:/arrows/images/icons8-sort-up-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -8386,8 +8386,8 @@ English-speaking regions and 60Hz titles.</string>
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-down-100.png</normaloff>:/Arrows/images/icons8-sort-down-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-down-100.png</normaloff>:/arrows/images/icons8-sort-down-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -9314,8 +9314,8 @@ text in the name:
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-end-100.png</normaloff>:/Arrows/images/icons8-end-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-end-100.png</normaloff>:/arrows/images/icons8-end-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -9353,8 +9353,8 @@ text in the name:
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-right-100.png</normaloff>:/Arrows/images/icons8-sort-right-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-right-100.png</normaloff>:/arrows/images/icons8-sort-right-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -9392,8 +9392,8 @@ text in the name:
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-left-100.png</normaloff>:/Arrows/images/icons8-sort-left-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-left-100.png</normaloff>:/arrows/images/icons8-sort-left-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -9425,8 +9425,8 @@ text in the name:
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-skip-to-start-100.png</normaloff>:/Arrows/images/icons8-skip-to-start-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-skip-to-start-100.png</normaloff>:/arrows/images/icons8-skip-to-start-100.png</iconset>
                              </property>
                              <property name="iconSize">
                               <size>
@@ -9514,8 +9514,8 @@ text in the name:
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-up-100.png</normaloff>:/Arrows/images/icons8-sort-up-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-up-100.png</normaloff>:/arrows/images/icons8-sort-up-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -9547,8 +9547,8 @@ text in the name:
                               <string/>
                              </property>
                              <property name="icon">
-                              <iconset>
-                               <normaloff>:/Arrows/images/icons8-sort-down-100.png</normaloff>:/Arrows/images/icons8-sort-down-100.png</iconset>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/arrows/images/icons8-sort-down-100.png</normaloff>:/arrows/images/icons8-sort-down-100.png</iconset>
                              </property>
                             </widget>
                            </item>
@@ -9909,8 +9909,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>169</width>
-                          <height>559</height>
+                          <width>590</width>
+                          <height>396</height>
                          </rect>
                         </property>
                         <property name="minimumSize">
@@ -10221,8 +10221,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>391</width>
-                          <height>383</height>
+                          <width>590</width>
+                          <height>396</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -10640,8 +10640,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>423</width>
-                          <height>1188</height>
+                          <width>573</width>
+                          <height>1124</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">

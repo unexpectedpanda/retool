@@ -1,5 +1,13 @@
 # Retool changelog
 
+## 2.4.1 (2025-08-13)
+
+- Fix: Turns out pathing in QT is case sensitive, and a path rename broke wherever there
+  were arrow icons on buttons. This has now been fixed.
+- Fix: The `<retool>` element is now added to output DAT file headers again in all
+  circumstances. This enables the skipping of files that have already been processed.
+- Fix: Added a Benesse ID regex to version detection.
+
 ## 2.4.0 (2025-08-11)
 
 Consider this update a bonus, as I wanted to correct a few things. It isn't a sign of

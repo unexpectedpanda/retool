@@ -28,6 +28,7 @@ from typing import Any
 from modules.clone_lists.clone_list import CloneList
 from modules.clone_lists.mias import mias
 from modules.clone_lists.retroachievements import retroachievements
+from modules.clone_lists.update_clone_list_metadata import update_clonelists_metadata
 from modules.clone_lists.variants_orchestrator import clone_list_variants_orchestrator
 from modules.config.config import Config
 from modules.dat.process_dat import DatNode, process_dat
@@ -41,7 +42,6 @@ from modules.title_selection.filter_regions import filter_regions
 from modules.title_selection.includes import includes
 from modules.title_selection.overrides_post_filters import post_filters
 from modules.titletools import Removes
-from modules.clone_lists.update_clone_list_metadata import update_clonelists_metadata
 from modules.utils import ExitRetool, Font, minimum_version, old_windows
 
 
@@ -352,7 +352,13 @@ def main(gui_input: UserInput | None = None) -> None:
                     if len(flattened_titles) > 0:
                         # Write the final results to file/s
                         WriteFiles.output(
-                            processed_titles, quick_lookup, report, config, input_dat, removed_titles, dat_file
+                            processed_titles,
+                            quick_lookup,
+                            report,
+                            config,
+                            input_dat,
+                            removed_titles,
+                            dat_file,
                         )
 
                         if config.user_input.replace and config.user_input.output_region_split:

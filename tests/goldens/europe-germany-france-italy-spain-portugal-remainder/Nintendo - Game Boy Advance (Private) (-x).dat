@@ -8,8 +8,8 @@
 		<author>aci68, Arctic Circle System, Aringon, Bent, BigFred, bikerspade, C. V. Reynolds, chillerecke, DeadSkullzJr, Densetsu, DeriLoko3, einstein95, ElBarto, Enker, FakeShemp, Flashfire42, fuzzball, Gefflon, Hiccup, hking0036, hydr0x, InternalLoss, Jack, jimmsu, Just001Kim, kazumi213, Larsenv, Lesserkuma, Madeline, MeguCocoa, Money_114, NESBrew12, niemand, nnssxx, norkmetnoil577, NovaAurora, omonim2007, Powerpuff, PPLToast, Prominos, Psychofox11, psykopat, rarenight, relax, RetroGamer, Rifu, sCZther, SonGoku, Tauwasser, Tescu, togemet2, ufocrossing, Vallaine01, Whovian9369, xprism, xuom2, zg</author>
 		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
 		<url>https://www.no-intro.org</url>
-		<retool>Created by Retool X</retool>
 		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool X</retool>
 	</header>
 	<game name="007 - Everything or Nothing (Japan)" cloneof="007 - Everything or Nothing (USA, Europe) (En,Fr,De)" id="1468">
 		<category>Games</category>

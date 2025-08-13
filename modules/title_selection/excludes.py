@@ -109,13 +109,8 @@ def excludes(
     }
 
     if report_on_match:
-        if (
-            config.global_exclude
-            or config.system_exclude
-            or exclude_categories
-            or exclude_regexes
-            ):
-                eprint('Stage: Exclusions', level='heading')
+        if config.global_exclude or config.system_exclude or exclude_categories or exclude_regexes:
+            eprint('Stage: Exclusions', level='heading')
 
     for title in flattened_titles:
         if config.user_input.trace:

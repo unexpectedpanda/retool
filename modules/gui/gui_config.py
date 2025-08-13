@@ -4,9 +4,9 @@ from typing import Any
 
 import modules.constants as const
 from modules.config.config import Config
+from modules.config.read_write_config import UserOverrides, generate_config
 from modules.gui.gui_utils import enable_go_button
 from modules.input import UserInput, get_config_value
-from modules.config.read_write_config import UserOverrides, generate_config
 
 
 def import_config() -> Config:
