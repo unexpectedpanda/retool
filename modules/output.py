@@ -517,7 +517,7 @@ class WriteFiles:
                     f'\t\t<date>{dat_date}</date>\n',
                     f'\t\t<author>{input_dat.author}</author>\n',
                     '\t\t<homepage>http://www.github.com/unexpectedpanda/retool</homepage>\n',
-                    f'\t\t<url>{html.escape(input_dat.url, quote=False)}</url>\n'
+                    f'\t\t<url>{html.escape(input_dat.url, quote=False)}</url>\n',
                 ]
             )
 

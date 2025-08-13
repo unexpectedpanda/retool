@@ -14,11 +14,6 @@ hide:
 - Fix: Added a Benesse ID regex to version detection.
 
 
-## 2.4.1 (2025-08-12)
-
-Added a Benesse ID regex to version detection.
-
-
 ## 2.4.0 (2025-08-11)
 
 Consider this update a bonus, as I wanted to correct a few things. It isn't a sign of
