@@ -16,7 +16,7 @@ class CloneList:
 
         Args:
             min_retool_version (str, optional): The minimum Retool version required to
-                process the imported clone list. Defaults to `2.00`.
+                process the imported clone list. Defaults to `2.4`.
 
             mias (list[dict[str, str]], optional): A list to store the `mias` array found
                 in a related MIA file, if it exists. Defaults to `None`.

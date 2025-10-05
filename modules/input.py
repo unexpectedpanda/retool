@@ -1025,10 +1025,10 @@ def get_config_value(
     return value
 
 
-def import_clone_list_mia(input_dat: Dat, gui_input: UserInput | None, config: Config) -> CloneList:
+def import_clone_list_mia_ra(input_dat: Dat, gui_input: UserInput | None, config: Config) -> CloneList:
     """
-    Imports a clone list and MIAs from the relevant files and sets them up for use in
-    Retool.
+    Imports a clone list, RetroAchievements and MIAs from the relevant files and sets them
+    up for use in Retool.
 
     Args:
         input_dat (Dat): The Retool input_dat object.
@@ -1145,6 +1145,7 @@ def import_clone_list_mia(input_dat: Dat, gui_input: UserInput | None, config: C
                 input_dat.search_name.replace('Non-Redump - ', '')
                 .replace(' (No-Intro)', '')
                 .replace(' (Redump)', '')
+                .replace(' (MAME Redump)', '')
             )
 
             if config.user_input.test:

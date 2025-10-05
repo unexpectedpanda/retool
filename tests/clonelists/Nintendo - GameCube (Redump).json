@@ -1,15 +1,9 @@
 {
 	"description": {
 		"name": "Nintendo - GameCube (Redump)",
-		"lastUpdated": "26 December 2023",
-		"minimumVersion": "2.02"
+		"lastUpdated": "2025-08-30 10:23:53",
+		"minimumVersion": "2.4.0"
 	},
-
-	"mias": [
-		"LEGO Super Soccer Adventure (Europe) (Proto)",
-		"SmaBro DX Event-you Disc (Japan)"
-	],
-
 	"variants": [
 		{
 			"group": "007 - Agent Under Fire",
@@ -80,8 +74,15 @@
 					"priority": 2,
 					"filters": [
 						{
-							"conditions": {"regionOrder": {"higherRegions": ["Japan", "Korea", "Taiwan", "Asia"], "lowerRegions": ["All other regions"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"regionOrder": {
+									"higherRegions": ["Asia", "Japan", "Korea", "Taiwan"],
+									"lowerRegions": ["All other regions"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						}
 					]
 				},
@@ -90,8 +91,15 @@
 					"priority": 2,
 					"filters": [
 						{
-							"conditions": {"regionOrder": {"higherRegions": ["UK", "Australia", "New Zealand", "Singapore", "Ireland", "Europe", "Spain", "Brazil", "Thailand", "Portugal", "France", "Belgium", "Netherlands", "Germany", "Austria", "Italy", "Switzerland", "China", "Hong Kong", "Ukraine", "Estonia", "Poland", "Latvia", "Lithuania", "Denmark", "Norway", "Sweden", "Scandinavia", "Finland", "Iceland", "Hungary", "Czech", "Greece", "India", "South Africa", "Israel", "Slovakia", "Turkey", "Croatia", "Slovenia", "United Arab Emirates", "Bulgaria", "Romania", "Albania", "Serbia", "Indonesia"], "lowerRegions": ["All other regions"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"regionOrder": {
+									"higherRegions": ["Albania", "Australia", "Austria", "Belgium", "Brazil", "Bulgaria", "China", "Croatia", "Czech", "Denmark", "Estonia", "Europe", "Finland", "France", "Germany", "Greece", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Ireland", "Israel", "Italy", "Latvia", "Lithuania", "Netherlands", "New Zealand", "Norway", "Poland", "Portugal", "Romania", "Scandinavia", "Serbia", "Singapore", "Slovakia", "Slovenia", "South Africa", "Spain", "Sweden", "Switzerland", "Thailand", "Turkey", "UK", "Ukraine", "United Arab Emirates"],
+									"lowerRegions": ["All other regions"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						}
 					]
 				},
@@ -100,8 +108,15 @@
 					"priority": 2,
 					"filters": [
 						{
-							"conditions": {"regionOrder": {"higherRegions": ["USA", "Canada", "Latin America"], "lowerRegions": ["All other regions"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"regionOrder": {
+									"higherRegions": ["Canada", "Latin America", "USA"],
+									"lowerRegions": ["All other regions"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						}
 					]
 				}
@@ -246,8 +261,8 @@
 		{
 			"group": "Crash Bandicoot - The Wrath of Cortex",
 			"titles": [
-				{"searchTerm": "Crash Bandicoot - The Wrath of Cortex"},
-				{"searchTerm": "Crash Bandicoot 4 - Sakuretsu! Majin Power"}
+				{"searchTerm": "Crash Bandicoot 4 - Sakuretsu! Majin Power"},
+				{"searchTerm": "Crash Bandicoot - The Wrath of Cortex"}
 			]
 		},
 		{
@@ -315,40 +330,29 @@
 			]
 		},
 		{
-			"group": "Disney-Pixar Finding Nemo",
+			"group": "Disney Sports - Football",
 			"titles": [
-				{"searchTerm": "Disney-Pixar Buscando a Nemo"},
-				{"searchTerm": "Disney-Pixar Findet Nemo"},
-				{"searchTerm": "Disney-Pixar Finding Nemo"},
-				{"searchTerm": "Disney-Pixar Le Monde de Nemo"},
-				{"searchTerm": "Disney-Pixar Nemo-reul Chajaseo"},
-				{"searchTerm": "2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Disc 2)", "priority": 2},
-				{"searchTerm": "2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (Disc 2) (Le Monde de Nemo)", "priority": 2}
-			]
-		},
-		{
-			"group": "Disney-Pixar The Incredibles",
-			"titles": [
-				{"searchTerm": "Disney-Pixar Die Unglaublichen"},
-				{"searchTerm": "Disney-Pixar Les Indestructibles"},
-				{"searchTerm": "Disney-Pixar Mr. Incredible"},
-				{"searchTerm": "Disney-Pixar The Incredibles"},
-				{"searchTerm": "2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Disc 1)", "priority": 2},
-				{"searchTerm": "2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (Disc 1) (Les Indestructibles)", "priority": 2}
-			]
-		},
-		{
-			"group": "Disney-Pixar The Incredibles - Rise of the Underminer",
-			"titles": [
-				{"searchTerm": "Disney-Pixar Mr. Incredible - Kyouteki Underminer Toujou"},
-				{"searchTerm": "Disney-Pixar The Incredibles - Rise of the Underminer"}
+				{"searchTerm": "Disney Sports - American Football"},
+				{
+					"searchTerm": "Disney Sports - Football",
+					"filters": [
+						{
+							"conditions": {
+								"matchRegions": ["Europe"]
+							},
+							"results": {
+								"group": "Disney Sports - Soccer"
+							}
+						}
+					]
+				}
 			]
 		},
 		{
 			"group": "Disney's Chicken Little",
 			"titles": [
-				{"searchTerm": "Disney's Chicken Little"},
 				{"searchTerm": "Disney Chicken Little"},
+				{"searchTerm": "Disney's Chicken Little"},
 				{"searchTerm": "Disneys Himmel und Huhn"}
 			]
 		},
@@ -383,8 +387,8 @@
 		{
 			"group": "Disney's Piglet's Big Game",
 			"titles": [
-				{"searchTerm": "Disney's Piglet's Big Game"},
 				{"searchTerm": "Disney Les Aventures de Porcinet"},
+				{"searchTerm": "Disney's Piglet's Big Game"},
 				{"searchTerm": "Disneys Ferkels grosses Abenteuer-Spiel"}
 			]
 		},
@@ -403,18 +407,33 @@
 			]
 		},
 		{
-			"group": "Disney Sports - Football",
+			"group": "Disney-Pixar Finding Nemo",
 			"titles": [
-				{"searchTerm": "Disney Sports - American Football"},
-				{
-					"searchTerm": "Disney Sports - Football",
-					"filters": [
-						{
-							"conditions": {"matchRegions": ["Europe"]},
-							"results": {"group": "Disney Sports - Soccer"}
-						}
-					]
-				}
+				{"searchTerm": "Disney-Pixar Buscando a Nemo"},
+				{"searchTerm": "Disney-Pixar Findet Nemo"},
+				{"searchTerm": "Disney-Pixar Finding Nemo"},
+				{"searchTerm": "Disney-Pixar Le Monde de Nemo"},
+				{"searchTerm": "Disney-Pixar Nemo-reul Chajaseo"},
+				{"searchTerm": "2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Disc 2)", "priority": 2},
+				{"searchTerm": "2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (Disc 2) (Le Monde de Nemo)", "priority": 2}
+			]
+		},
+		{
+			"group": "Disney-Pixar The Incredibles",
+			"titles": [
+				{"searchTerm": "Disney-Pixar Die Unglaublichen"},
+				{"searchTerm": "Disney-Pixar Les Indestructibles"},
+				{"searchTerm": "Disney-Pixar Mr. Incredible"},
+				{"searchTerm": "Disney-Pixar The Incredibles"},
+				{"searchTerm": "2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Disc 1)", "priority": 2},
+				{"searchTerm": "2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (Disc 1) (Les Indestructibles)", "priority": 2}
+			]
+		},
+		{
+			"group": "Disney-Pixar The Incredibles - Rise of the Underminer",
+			"titles": [
+				{"searchTerm": "Disney-Pixar Mr. Incredible - Kyouteki Underminer Toujou"},
+				{"searchTerm": "Disney-Pixar The Incredibles - Rise of the Underminer"}
 			]
 		},
 		{
@@ -432,17 +451,17 @@
 			]
 		},
 		{
-			"group": "Dragon's Lair 3D - Return to the Lair",
-			"titles": [
-				{"searchTerm": "Dragon's Lair 3D - Return to the Lair"},
-				{"searchTerm": "Dragon's Lair 3D - Special Edition"}
-			]
-		},
-		{
 			"group": "Dragon Ball Z - Budokai",
 			"titles": [
 				{"searchTerm": "Dragon Ball Z"},
 				{"searchTerm": "Dragon Ball Z - Budokai"}
+			]
+		},
+		{
+			"group": "Dragon's Lair 3D - Return to the Lair",
+			"titles": [
+				{"searchTerm": "Dragon's Lair 3D - Return to the Lair"},
+				{"searchTerm": "Dragon's Lair 3D - Special Edition"}
 			]
 		},
 		{
@@ -671,8 +690,15 @@
 					"priority": 2,
 					"filters": [
 						{
-							"conditions": {"regionOrder": {"higherRegions": ["Japan", "Korea", "Taiwan", "Asia"], "lowerRegions": ["All other regions"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"regionOrder": {
+									"higherRegions": ["Asia", "Japan", "Korea", "Taiwan"],
+									"lowerRegions": ["All other regions"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						}
 					]
 				},
@@ -681,8 +707,15 @@
 					"priority": 2,
 					"filters": [
 						{
-							"conditions": {"regionOrder": {"higherRegions": ["USA", "Canada", "Latin America"], "lowerRegions": ["All other regions"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"regionOrder": {
+									"higherRegions": ["Canada", "Latin America", "USA"],
+									"lowerRegions": ["All other regions"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						}
 					]
 				}
@@ -705,8 +738,8 @@
 		{
 			"group": "Kirby Air Ride",
 			"titles": [
-				{"searchTerm": "Kirby's Airride"},
-				{"searchTerm": "Kirby Air Ride"}
+				{"searchTerm": "Kirby Air Ride"},
+				{"searchTerm": "Kirby's Airride"}
 			]
 		},
 		{
@@ -748,8 +781,8 @@
 			"group": "Lemony Snicket's A Series of Unfortunate Events",
 			"titles": [
 				{"searchTerm": "Desastreuses Aventures des Orphelins Baudelaire, Les - D'Apres Lemony Snicket"},
-				{"searchTerm": "Lemony Snicket's A Series of Unfortunate Events"},
 				{"searchTerm": "Lemony Snicket - Raetselhafte Ereignisse"},
+				{"searchTerm": "Lemony Snicket's A Series of Unfortunate Events"},
 				{"searchTerm": "Una Serie de Catastroficas Desdichas de Lemony Snicket"}
 			]
 		},
@@ -757,10 +790,10 @@
 			"group": "Lord of the Rings, The - The Return of the King",
 			"titles": [
 				{"searchTerm": "Herr der Ringe, Der - Die Rueckkehr des Koenigs"},
-				{"searchTerm": "Lord of the Rings, The - The Return of the King"},
 				{"searchTerm": "Lord of the Rings - Ou no Kikan"},
-				{"searchTerm": "Senor de los Anillos, El - El Retorno del Rey"},
+				{"searchTerm": "Lord of the Rings, The - The Return of the King"},
 				{"searchTerm": "Seigneur des Anneaux, Le - Le Retour du Roi"},
+				{"searchTerm": "Senor de los Anillos, El - El Retorno del Rey"},
 				{"searchTerm": "Signore degli Anelli, Il - Il ritorno del Re"}
 			]
 		},
@@ -768,8 +801,8 @@
 			"group": "Lord of the Rings, The - The Third Age (Disc 1)",
 			"titles": [
 				{"searchTerm": "Herr der Ringe, Der - Das dritte Zeitalter (Disc 1)"},
-				{"searchTerm": "Lord of the Rings, The - The Third Age (Disc 1)"},
 				{"searchTerm": "Lord of the Rings - Nakatsu Kuni Daisanki (Disc 1)"},
+				{"searchTerm": "Lord of the Rings, The - The Third Age (Disc 1)"},
 				{"searchTerm": "Seigneur des Anneaux, Le - Le Tiers Age (Disc 1)"},
 				{"searchTerm": "Senor de los Anillos, El - La Tercera Edad (Disc 1)"}
 			]
@@ -778,8 +811,8 @@
 			"group": "Lord of the Rings, The - The Third Age (Disc 2)",
 			"titles": [
 				{"searchTerm": "Herr der Ringe, Der - Das dritte Zeitalter (Disc 2)"},
-				{"searchTerm": "Lord of the Rings, The - The Third Age (Disc 2)"},
 				{"searchTerm": "Lord of the Rings - Nakatsu Kuni Daisanki (Disc 2)"},
+				{"searchTerm": "Lord of the Rings, The - The Third Age (Disc 2)"},
 				{"searchTerm": "Seigneur des Anneaux, Le - Le Tiers Age (Disc 2)"},
 				{"searchTerm": "Senor de los Anillos, El - La Tercera Edad (Disc 2)"}
 			]
@@ -788,8 +821,8 @@
 			"group": "Lord of the Rings, The - The Two Towers",
 			"titles": [
 				{"searchTerm": "Herr der Ringe, Der - Die zwei Tuerme"},
-				{"searchTerm": "Lord of the Rings, The - The Two Towers"},
 				{"searchTerm": "Lord of the Rings - Futatsu no Tou"},
+				{"searchTerm": "Lord of the Rings, The - The Two Towers"},
 				{"searchTerm": "Seigneur des Anneaux, Le - Les Deux Tours"},
 				{"searchTerm": "Senor de los Anillos, El - Las Dos Torres"},
 				{"searchTerm": "Signore degli Anelli, Il - Le Due Torri"}
@@ -812,8 +845,8 @@
 		{
 			"group": "Luigi's Mansion",
 			"titles": [
-				{"searchTerm": "Luigi's Mansion"},
-				{"searchTerm": "Luigi Mansion"}
+				{"searchTerm": "Luigi Mansion"},
+				{"searchTerm": "Luigi's Mansion"}
 			]
 		},
 		{
@@ -833,8 +866,8 @@
 		{
 			"group": "Mario Superstar Baseball",
 			"titles": [
-				{"searchTerm": "Super Mario Stadium - Miracle Baseball"},
-				{"searchTerm": "Mario Superstar Baseball"}
+				{"searchTerm": "Mario Superstar Baseball"},
+				{"searchTerm": "Super Mario Stadium - Miracle Baseball"}
 			]
 		},
 		{
@@ -904,8 +937,8 @@
 		{
 			"group": "Minority Report - Everybody Runs",
 			"titles": [
-				{"searchTerm": "Minority Report - Le Futur vous Rattrape"},
-				{"searchTerm": "Minority Report - Everybody Runs"}
+				{"searchTerm": "Minority Report - Everybody Runs"},
+				{"searchTerm": "Minority Report - Le Futur vous Rattrape"}
 			]
 		},
 		{
@@ -932,17 +965,15 @@
 		{
 			"group": "Naruto - Clash of Ninja 2",
 			"titles": [
-				{"searchTerm": "Naruto - Clash of Ninja - European Version"},
 				{"searchTerm": "Naruto - Clash of Ninja 2"},
+				{"searchTerm": "Naruto - Clash of Ninja - European Version"},
 				{"searchTerm": "Naruto - Gekitou Ninja Taisen! 2"}
 			]
 		},
 		{
 			"group": "NBA Street",
 			"titles": [
-				{
-					"searchTerm": "NBA Street"
-				}
+				{"searchTerm": "NBA Street"}
 			]
 		},
 		{
@@ -1013,14 +1044,6 @@
 				{"searchTerm": "Nickelodeon SpongeBob SquarePants - The Movie"},
 				{"searchTerm": "Nickelodeon SpongeBob Schwammkopf - Der Film", "priority": 2},
 				{"searchTerm": "2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Disc 1)", "priority": 3}
-			]
-		},
-		{
-			"group": "Tak and the Power of Juju",
-			"titles": [
-				{"searchTerm": "Tak & Le Pouvoir de Juju"},
-				{"searchTerm": "Tak and the Power of Juju"},
-				{"searchTerm": "Tak und die Macht des Juju"}
 			]
 		},
 		{
@@ -1107,34 +1130,6 @@
 			]
 		},
 		{
-			"group": "Resident Evil (Disc 1)",
-			"titles": [
-				{"searchTerm": "Biohazard (Disc 1)"},
-				{"searchTerm": "Resident Evil (Disc 1)"}
-			]
-		},
-		{
-			"group": "Resident Evil (Disc 2)",
-			"titles": [
-				{"searchTerm": "Biohazard (Disc 2)"},
-				{"searchTerm": "Resident Evil (Disc 2)"}
-			]
-		},
-		{
-			"group": "Resident Evil - Code - Veronica X (Disc 1)",
-			"titles": [
-				{"searchTerm": "Biohazard - Code - Veronica - Kanzenban (Disc 1)"},
-				{"searchTerm": "Resident Evil - Code - Veronica X (Disc 1)"}
-			]
-		},
-		{
-			"group": "Resident Evil - Code - Veronica X (Disc 2)",
-			"titles": [
-				{"searchTerm": "Biohazard - Code - Veronica - Kanzenban (Disc 2)"},
-				{"searchTerm": "Resident Evil - Code - Veronica X (Disc 2)"}
-			]
-		},
-		{
 			"group": "Resident Evil 2",
 			"titles": [
 				{"searchTerm": "Biohazard 2"},
@@ -1160,6 +1155,34 @@
 			"titles": [
 				{"searchTerm": "Biohazard 4 (Disc 2)"},
 				{"searchTerm": "Resident Evil 4 (Disc 2)"}
+			]
+		},
+		{
+			"group": "Resident Evil (Disc 1)",
+			"titles": [
+				{"searchTerm": "Biohazard (Disc 1)"},
+				{"searchTerm": "Resident Evil (Disc 1)"}
+			]
+		},
+		{
+			"group": "Resident Evil (Disc 2)",
+			"titles": [
+				{"searchTerm": "Biohazard (Disc 2)"},
+				{"searchTerm": "Resident Evil (Disc 2)"}
+			]
+		},
+		{
+			"group": "Resident Evil - Code - Veronica X (Disc 1)",
+			"titles": [
+				{"searchTerm": "Biohazard - Code - Veronica - Kanzenban (Disc 1)"},
+				{"searchTerm": "Resident Evil - Code - Veronica X (Disc 1)"}
+			]
+		},
+		{
+			"group": "Resident Evil - Code - Veronica X (Disc 2)",
+			"titles": [
+				{"searchTerm": "Biohazard - Code - Veronica - Kanzenban (Disc 2)"},
+				{"searchTerm": "Resident Evil - Code - Veronica X (Disc 2)"}
 			]
 		},
 		{
@@ -1323,6 +1346,14 @@
 			]
 		},
 		{
+			"group": "Tak and the Power of Juju",
+			"titles": [
+				{"searchTerm": "Tak & Le Pouvoir de Juju"},
+				{"searchTerm": "Tak and the Power of Juju"},
+				{"searchTerm": "Tak und die Macht des Juju"}
+			]
+		},
+		{
 			"group": "TimeSplitters - Future Perfect",
 			"titles": [
 				{"searchTerm": "TimeSplitters - Future Perfect"},
@@ -1334,15 +1365,6 @@
 			"titles": [
 				{"searchTerm": "Top Gun - Ace of the Sky"},
 				{"searchTerm": "Top Gun - Combat Zones"}
-			]
-		},
-		{
-			"group": "Ultimate Codes for Use with The Legend of Zelda - The Wind Waker",
-			"titles": [
-				{"searchTerm": "CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker"},
-				{"searchTerm": "Ultimate Cheats for Use with The Legend of Zelda - The Wind Waker"},
-				{"searchTerm": "Ultimate Cheats fuer The Legend of Zelda - The Wind Waker"},
-				{"searchTerm": "Ultimate Codes for Use with The Legend of Zelda - The Wind Waker"}
 			]
 		},
 		{
@@ -1360,6 +1382,15 @@
 			]
 		},
 		{
+			"group": "Ultimate Codes for Use with The Legend of Zelda - The Wind Waker",
+			"titles": [
+				{"searchTerm": "CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker"},
+				{"searchTerm": "Ultimate Cheats for Use with The Legend of Zelda - The Wind Waker"},
+				{"searchTerm": "Ultimate Cheats fuer The Legend of Zelda - The Wind Waker"},
+				{"searchTerm": "Ultimate Codes for Use with The Legend of Zelda - The Wind Waker"}
+			]
+		},
+		{
 			"group": "Ultimate Muscle - Legends vs. New Generation",
 			"titles": [
 				{"searchTerm": "Kinnikuman Nisei - Shinsedai Choujin vs. Densetsu Choujin"},
@@ -1374,10 +1405,10 @@
 			]
 		},
 		{
-			"group": "Viewtiful Joe Revival",
+			"group": "Viewtiful Joe 2",
 			"titles": [
-				{"searchTerm": "Viewtiful Joe Revival"},
-				{"searchTerm": "Viewtiful Joe", "priority": 2}
+				{"searchTerm": "Viewtiful Joe 2"},
+				{"searchTerm": "Viewtiful Joe 2 - Black Film no Nazo"}
 			]
 		},
 		{
@@ -1388,10 +1419,10 @@
 			]
 		},
 		{
-			"group": "Viewtiful Joe 2",
+			"group": "Viewtiful Joe Revival",
 			"titles": [
-				{"searchTerm": "Viewtiful Joe 2"},
-				{"searchTerm": "Viewtiful Joe 2 - Black Film no Nazo"}
+				{"searchTerm": "Viewtiful Joe Revival"},
+				{"searchTerm": "Viewtiful Joe", "priority": 2}
 			]
 		},
 		{
@@ -1404,8 +1435,8 @@
 		{
 			"group": "Virtua Striker 2002",
 			"titles": [
-				{"searchTerm": "Virtua Striker 2002"},
-				{"searchTerm": "Virtua Striker 3 Ver. 2002"}
+				{"searchTerm": "Virtua Striker 3 Ver. 2002"},
+				{"searchTerm": "Virtua Striker 2002"}
 			]
 		},
 		{
@@ -1424,17 +1455,17 @@
 			]
 		},
 		{
+			"group": "X2 - Wolverine's Revenge",
+			"titles": [
+				{"searchTerm": "X2 - Wolverine's Revenge"},
+				{"searchTerm": "X-Men 2 - Wolverine's Revenge"}
+			]
+		},
+		{
 			"group": "X-Men Legends II - Rise of Apocalypse",
 			"titles": [
 				{"searchTerm": "X-Men Legends II - El Ascenso de Apocalipsis"},
 				{"searchTerm": "X-Men Legends II - Rise of Apocalypse"}
-			]
-		},
-		{
-			"group": "X2 - Wolverine's Revenge",
-			"titles": [
-				{"searchTerm": "X-Men 2 - Wolverine's Revenge"},
-				{"searchTerm": "X2 - Wolverine's Revenge"}
 			]
 		},
 		{

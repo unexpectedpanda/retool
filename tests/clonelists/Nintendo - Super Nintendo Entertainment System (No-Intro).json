@@ -1,10 +1,9 @@
 {
 	"description": {
 		"name": "Nintendo - Super Nintendo Entertainment System (No-Intro)",
-		"lastUpdated": "26 December 2023",
-		"minimumVersion": "2.02"
+		"lastUpdated": "2025-08-30 10:23:54",
+		"minimumVersion": "2.4.0"
 	},
-
 	"variants": [
 		{
 			"group": "7th Saga, The",
@@ -194,19 +193,19 @@
 			]
 		},
 		{
-			"group": "BlaZeon - The Bio-Cyborg Challenge",
-			"titles": [
-				{"searchTerm": "BlaZeon"},
-				{"searchTerm": "BlaZeon - The Bio-Cyborg Challenge"}
-			]
-		},
-		{
 			"group": "Blackthorne",
 			"titles": [
 				{"searchTerm": "Blackhawk"},
 				{"searchTerm": "Blackthorne"},
 				{"searchTerm": "Blackthorne - Fukushuu no Kuroki Toge"},
 				{"searchTerm": "Blackthorne (CES)", "priority": 2}
+			]
+		},
+		{
+			"group": "BlaZeon - The Bio-Cyborg Challenge",
+			"titles": [
+				{"searchTerm": "BlaZeon"},
+				{"searchTerm": "BlaZeon - The Bio-Cyborg Challenge"}
 			]
 		},
 		{
@@ -312,8 +311,12 @@
 					"searchTerm": "Casper",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"group": "Casper (Japan)"}
+							"conditions": {
+								"matchRegions": ["Japan"]
+							},
+							"results": {
+								"group": "Casper (Japan)"
+							}
 						}
 					]
 				}
@@ -582,6 +585,13 @@
 			]
 		},
 		{
+			"group": "F1 Pole Position",
+			"titles": [
+				{"searchTerm": "F1 Pole Position"},
+				{"searchTerm": "Human Grand Prix"}
+			]
+		},
+		{
 			"group": "F1 Pole Position 2",
 			"titles": [
 				{"searchTerm": "F1 Pole Position 2"},
@@ -622,13 +632,6 @@
 			"titles": [
 				{"searchTerm": "Fatal Fury Special"},
 				{"searchTerm": "Garou Densetsu Special"}
-			]
-		},
-		{
-			"group": "F1 Pole Position",
-			"titles": [
-				{"searchTerm": "F1 Pole Position"},
-				{"searchTerm": "Human Grand Prix"}
 			]
 		},
 		{
@@ -797,17 +800,17 @@
 			]
 		},
 		{
-			"group": "HAL's Hole in One Golf",
-			"titles": [
-				{"searchTerm": "HAL's Hole in One Golf"},
-				{"searchTerm": "Jumbo Ozaki no Hole in One"}
-			]
-		},
-		{
 			"group": "Hagane - The Final Conflict",
 			"titles": [
 				{"searchTerm": "Hagane"},
 				{"searchTerm": "Hagane - The Final Conflict"}
+			]
+		},
+		{
+			"group": "HAL's Hole in One Golf",
+			"titles": [
+				{"searchTerm": "HAL's Hole in One Golf"},
+				{"searchTerm": "Jumbo Ozaki no Hole in One"}
 			]
 		},
 		{
@@ -832,6 +835,13 @@
 			]
 		},
 		{
+			"group": "Head-On Soccer",
+			"titles": [
+				{"searchTerm": "Fever Pitch Soccer"},
+				{"searchTerm": "Head-On Soccer"}
+			]
+		},
+		{
 			"group": "Hebereke's Popoitto",
 			"titles": [
 				{"searchTerm": "Hebereke's Popoitto"},
@@ -841,15 +851,8 @@
 		{
 			"group": "Hebereke's Popoon",
 			"titles": [
-				{"searchTerm": "Hebereke's Popoon"},
-				{"searchTerm": "Hebereke no Popoon"}
-			]
-		},
-		{
-			"group": "Head-On Soccer",
-			"titles": [
-				{"searchTerm": "Fever Pitch Soccer"},
-				{"searchTerm": "Head-On Soccer"}
+				{"searchTerm": "Hebereke no Popoon"},
+				{"searchTerm": "Hebereke's Popoon"}
 			]
 		},
 		{
@@ -998,17 +1001,17 @@
 			]
 		},
 		{
-			"group": "John Madden Football '93",
-			"titles": [
-				{"searchTerm": "John Madden Football '93"},
-				{"searchTerm": "Pro Football '93"}
-			]
-		},
-		{
 			"group": "John Madden Football",
 			"titles": [
 				{"searchTerm": "John Madden Football"},
 				{"searchTerm": "Pro Football"}
+			]
+		},
+		{
+			"group": "John Madden Football '93",
+			"titles": [
+				{"searchTerm": "John Madden Football '93"},
+				{"searchTerm": "Pro Football '93"}
 			]
 		},
 		{
@@ -1083,20 +1086,6 @@
 			]
 		},
 		{
-			"group": "Kirby's Dream Course",
-			"titles": [
-				{"searchTerm": "Kirby's Dream Course"},
-				{"searchTerm": "Kirby Bowl"}
-			]
-		},
-		{
-			"group": "Kirby's Dream Land 3",
-			"titles": [
-				{"searchTerm": "Hoshi no Kirby 3"},
-				{"searchTerm": "Kirby's Dream Land 3"}
-			]
-		},
-		{
 			"group": "Kirby Super Star",
 			"titles": [
 				{"searchTerm": "Hoshi no Kirby Super Deluxe"},
@@ -1113,10 +1102,24 @@
 			]
 		},
 		{
+			"group": "Kirby's Dream Course",
+			"titles": [
+				{"searchTerm": "Kirby Bowl"},
+				{"searchTerm": "Kirby's Dream Course"}
+			]
+		},
+		{
+			"group": "Kirby's Dream Land 3",
+			"titles": [
+				{"searchTerm": "Hoshi no Kirby 3"},
+				{"searchTerm": "Kirby's Dream Land 3"}
+			]
+		},
+		{
 			"group": "Krusty's Super Fun House",
 			"titles": [
-				{"searchTerm": "Krusty's Super Fun House"},
-				{"searchTerm": "Krusty World"}
+				{"searchTerm": "Krusty World"},
+				{"searchTerm": "Krusty's Super Fun House"}
 			]
 		},
 		{
@@ -1141,17 +1144,17 @@
 			]
 		},
 		{
+			"group": "Legend of the Mystical Ninja, The",
+			"titles": [
+				{"searchTerm": "Ganbare Goemon - Yuki Hime Kyuushutsu Emaki"},
+				{"searchTerm": "Legend of the Mystical Ninja, The"}
+			]
+		},
+		{
 			"group": "Legend of Zelda, The - A Link to the Past",
 			"titles": [
 				{"searchTerm": "Legend of Zelda, The - A Link to the Past"},
 				{"searchTerm": "Zelda no Densetsu - Kamigami no Triforce"}
-			]
-		},
-		{
-			"group": "Legend of the Mystical Ninja, The",
-			"titles": [
-				{"searchTerm": "Legend of the Mystical Ninja, The"},
-				{"searchTerm": "Ganbare Goemon - Yuki Hime Kyuushutsu Emaki"}
 			]
 		},
 		{
@@ -1250,8 +1253,8 @@
 		{
 			"group": "Mario's Super Picross",
 			"titles": [
-				{"searchTerm": "Mario's Super Picross"},
-				{"searchTerm": "Mario no Super Picross"}
+				{"searchTerm": "Mario no Super Picross"},
+				{"searchTerm": "Mario's Super Picross"}
 			]
 		},
 		{
@@ -1287,8 +1290,8 @@
 			"group": "MazezaM Challenge DX",
 			"titles": [
 				{"searchTerm": "MazezaM"},
-				{"searchTerm": "MazezaM Challenge DX"},
-				{"searchTerm": "MazezaM Challenge"}
+				{"searchTerm": "MazezaM Challenge"},
+				{"searchTerm": "MazezaM Challenge DX"}
 			]
 		},
 		{
@@ -1350,8 +1353,8 @@
 		{
 			"group": "Mega-lo-Mania",
 			"titles": [
-				{"searchTerm": "Mega-lo-Mania"},
 				{"searchTerm": "Mega lo Mania - Jikuu Daisenryaku"},
+				{"searchTerm": "Mega-lo-Mania"},
 				{"searchTerm": "Mega lo Mania", "priority": 2}
 			]
 		},
@@ -1404,8 +1407,12 @@
 					"searchTerm": "Monopoly",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"group": "Monopoly (Japan)"}
+							"conditions": {
+								"matchRegions": ["Japan"]
+							},
+							"results": {
+								"group": "Monopoly (Japan)"
+							}
 						}
 					]
 				}
@@ -1482,8 +1489,13 @@
 					"searchTerm": "NFL Football",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["USA"], "matchString": "Proto"},
-							"results": {"group": "NFL Football (USA) (Proto)"}
+							"conditions": {
+								"matchRegions": ["USA"],
+								"matchString": "Proto"
+							},
+							"results": {
+								"group": "NFL Football (USA) (Proto)"
+							}
 						}
 					]
 				}
@@ -1497,18 +1509,18 @@
 			]
 		},
 		{
+			"group": "NHL 97",
+			"titles": [
+				{"searchTerm": "NHL 97"},
+				{"searchTerm": "NHL '97", "priority": 2}
+			]
+		},
+		{
 			"group": "NHL '94",
 			"titles": [
 				{"searchTerm": "NHL '94"},
 				{"searchTerm": "NHL Hockey '94"},
 				{"searchTerm": "NHL Pro Hockey '94"}
-			]
-		},
-		{
-			"group": "NHL 97",
-			"titles": [
-				{"searchTerm": "NHL 97"},
-				{"searchTerm": "NHL '97", "priority": 2}
 			]
 		},
 		{
@@ -1521,8 +1533,8 @@
 		{
 			"group": "Nigel Mansell's World Championship Racing",
 			"titles": [
-				{"searchTerm": "Nigel Mansell's World Championship Racing"},
-				{"searchTerm": "Nigel Mansell F-1 Challenge"}
+				{"searchTerm": "Nigel Mansell F-1 Challenge"},
+				{"searchTerm": "Nigel Mansell's World Championship Racing"}
 			]
 		},
 		{
@@ -1846,20 +1858,20 @@
 			]
 		},
 		{
+			"group": "Rival Turf!",
+			"titles": [
+				{"searchTerm": "Rival Turf"},
+				{"searchTerm": "Rival Turf!"},
+				{"searchTerm": "Rushing Beat"}
+			]
+		},
+		{
 			"group": "River City Girls Zero",
 			"titles": [
 				{"searchTerm": "River City Girls Zero (RCG Translation, Switch)"},
 				{"searchTerm": "Shin Nekketsu Kouha - Kunio-tachi no Banka"},
 				{"searchTerm": "River City Girls Zero", "priority": 2},
 				{"searchTerm": "River City Girls Zero (Original Translation, Switch)", "priority": 2}
-			]
-		},
-		{
-			"group": "Rival Turf!",
-			"titles": [
-				{"searchTerm": "Rival Turf"},
-				{"searchTerm": "Rival Turf!"},
-				{"searchTerm": "Rushing Beat"}
 			]
 		},
 		{
@@ -1981,8 +1993,8 @@
 		{
 			"group": "Shien's Revenge",
 			"titles": [
-				{"searchTerm": "Shien's Revenge"},
-				{"searchTerm": "Shien - The Blade Chaser"}
+				{"searchTerm": "Shien - The Blade Chaser"},
+				{"searchTerm": "Shien's Revenge"}
 			]
 		},
 		{
@@ -2002,8 +2014,8 @@
 		{
 			"group": "Simpsons, The - Bart's Nightmare",
 			"titles": [
-				{"searchTerm": "Simpsons, The - Bart's Nightmare"},
-				{"searchTerm": "Simpsons, The - Bart no Fushigi na Yume no Daibouken"}
+				{"searchTerm": "Simpsons, The - Bart no Fushigi na Yume no Daibouken"},
+				{"searchTerm": "Simpsons, The - Bart's Nightmare"}
 			]
 		},
 		{
@@ -2446,8 +2458,8 @@
 		{
 			"group": "Super Mario World 2 - Yoshi's Island",
 			"titles": [
-				{"searchTerm": "Super Mario World 2 - Yoshi's Island"},
-				{"searchTerm": "Super Mario - Yoshi Island"}
+				{"searchTerm": "Super Mario - Yoshi Island"},
+				{"searchTerm": "Super Mario World 2 - Yoshi's Island"}
 			]
 		},
 		{
@@ -2579,10 +2591,10 @@
 			]
 		},
 		{
-			"group": "Super Turrican Collection",
+			"group": "Super Troll Islands",
 			"titles": [
-				{"searchTerm": "Super Turrican Collection"},
-				{"searchTerm": "Super Turrican", "priority": 2}
+				{"searchTerm": "Super Troll Islands"},
+				{"searchTerm": "Super Troll Islands - Shiawase o Ageru"}
 			]
 		},
 		{
@@ -2593,10 +2605,10 @@
 			]
 		},
 		{
-			"group": "Super Troll Islands",
+			"group": "Super Turrican Collection",
 			"titles": [
-				{"searchTerm": "Super Troll Islands"},
-				{"searchTerm": "Super Troll Islands - Shiawase o Ageru"}
+				{"searchTerm": "Super Turrican Collection"},
+				{"searchTerm": "Super Turrican", "priority": 2}
 			]
 		},
 		{
@@ -2973,11 +2985,15 @@
 					"searchTerm": "World Soccer",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Europe"], "matchString": "Proto"},
-							"results": {"group": "Tony Meola's Sidekicks Soccer"}
+							"conditions": {
+								"matchRegions": ["Europe"],
+								"matchString": "Proto"
+							},
+							"results": {
+								"group": "Tony Meola's Sidekicks Soccer"
+							}
 						}
 					]
-
 				},
 				{"searchTerm": "World Soccer 94 - Road to Glory"}
 			]
@@ -2986,8 +3002,8 @@
 			"group": "WWF WrestleMania - The Arcade Game",
 			"titles": [
 				{"searchTerm": "WWF WrestleMania - The Arcade Game"},
-				{"searchTerm": "WWF WrestleMania - The Arcade Game (VideoGames)", "priority": 2},
-				{"searchTerm": "WWF WrestleMania - The Arcade Game (Club Nintendo)", "priority": 2}
+				{"searchTerm": "WWF WrestleMania - The Arcade Game (Club Nintendo)", "priority": 2},
+				{"searchTerm": "WWF WrestleMania - The Arcade Game (VideoGames)", "priority": 2}
 			]
 		},
 		{
@@ -3014,15 +3030,15 @@
 		{
 			"group": "Yoshi's Cookie",
 			"titles": [
-				{"searchTerm": "Yoshi's Cookie"},
-				{"searchTerm": "Yoshi no Cookie"}
+				{"searchTerm": "Yoshi no Cookie"},
+				{"searchTerm": "Yoshi's Cookie"}
 			]
 		},
 		{
 			"group": "Yoshi's Safari",
 			"titles": [
-				{"searchTerm": "Yoshi's Safari"},
-				{"searchTerm": "Yoshi no Road Hunting"}
+				{"searchTerm": "Yoshi no Road Hunting"},
+				{"searchTerm": "Yoshi's Safari"}
 			]
 		},
 		{

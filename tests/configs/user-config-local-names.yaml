@@ -13,7 +13,7 @@ language order:
 # - Bulgarian
 # - Catalan
 # - Chinese (Simplified)
-# - Chinese (Traditional)
+- Chinese (Traditional)
 # - Cornish
 # - Croatian
 # - Czech
@@ -22,9 +22,9 @@ language order:
 # - English
 # - Estonian
 # - Finnish
-# - French
+- French
 # - French (Canadian)
-# - Gaelic
+- Gaelic
 # - German
 # - Greek
 # - Hebrew
@@ -33,7 +33,7 @@ language order:
 # - Icelandic
 # - Indonesian
 # - Italian
-# - Japanese
+- Japanese
 # - Korean
 # - Latvian
 # - Lithuanian
@@ -134,7 +134,7 @@ localization order:
 - Japanese
 - Chinese (Traditional)
 - French
-# - Afrikaans
+- Afrikaans
 # - Albanian
 # - Arabic
 # - Basque
@@ -263,7 +263,7 @@ filters:
 # ============
 # GUI settings only, not used by the CLI.
 gui settings:
-- exclude: 
+- exclude:
 - gui height: 650
 - gui split left: 225
 - gui split right: 650

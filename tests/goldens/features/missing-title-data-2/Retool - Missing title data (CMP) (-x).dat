@@ -24,7 +24,7 @@
 		<category>BIOS</category>
 		<description>Test Title (USA)</description>
 		<release name="Test Title (USA)" region="USA" language="En"/>
-		<rom name="Test Title (USA).cue" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
 		<rom name="Test Title (USA).bin" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA).cue" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
 	</game>
 </datafile>

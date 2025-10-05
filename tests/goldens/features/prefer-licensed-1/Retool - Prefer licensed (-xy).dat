@@ -15,14 +15,14 @@
 		<category>Games</category>
 		<description>Test Title (Europe)</description>
 		<release name="Test Title (Europe)" region="Europe" language="En"/>
-		<rom name="Test Title (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title (Europe).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title (USA) (v1.1) (Unl)" cloneof="Test Title (Europe)">
 		<category>Games</category>
 		<description>Test Title (USA)</description>
 		<release name="Test Title (USA) (v1.1) (Unl)" region="USA" language="En"/>
-		<rom name="Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 </datafile>

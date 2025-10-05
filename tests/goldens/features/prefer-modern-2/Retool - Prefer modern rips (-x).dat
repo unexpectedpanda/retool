@@ -15,35 +15,35 @@
 		<category>Games</category>
 		<description>Test Title 1 (USA)</description>
 		<release name="Test Title 1 (USA)" region="USA" language="En"/>
-		<rom name="Test Title 1 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 1 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 1 (USA) (e-Reader Edition)" cloneof="Test Title 1 (USA)">
 		<category>Games</category>
 		<description>Test Title 1 (USA) (e-Reader Edition)</description>
 		<release name="Test Title 1 (USA) (e-Reader Edition)" region="USA" language="En"/>
-		<rom name="Test Title 1 (USA) (e-Reader Edition).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 1 (USA) (e-Reader Edition).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (USA) (e-Reader Edition).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 2 (USA)">
 		<category>Games</category>
 		<description>Test Title 2 (USA)</description>
 		<release name="Test Title 2 (USA)" region="USA" language="En"/>
-		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 2 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 2 (USA) (PC Rerelease)" cloneof="Test Title 2 (USA)">
 		<category>Games</category>
 		<description>Test Title 2 (USA) (PC Rerelease)</description>
 		<release name="Test Title 2 (USA) (PC Rerelease)" region="USA" language="En"/>
-		<rom name="Test Title 2 (USA) (PC Rerelease).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 2 (USA) (PC Rerelease).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 2 (USA) (PC Rerelease).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 2 (USA) (e-Reader Edition)" cloneof="Test Title 2 (USA)">
 		<category>Games</category>
 		<description>Test Title 2 (USA) (e-Reader Edition)</description>
 		<release name="Test Title 2 (USA) (e-Reader Edition)" region="USA" language="En"/>
-		<rom name="Test Title 2 (USA) (e-Reader Edition).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 2 (USA) (e-Reader Edition).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 2 (USA) (e-Reader Edition).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 </datafile>

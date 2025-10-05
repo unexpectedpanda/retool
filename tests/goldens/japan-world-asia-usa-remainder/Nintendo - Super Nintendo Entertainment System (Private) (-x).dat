@@ -11882,8 +11882,8 @@
 		<category>Games</category>
 		<description>Mortal Kombat (Europe) (Rev 1)</description>
 		<release name="Mortal Kombat (Europe) (Rev 1)" region="Europe" language="En"/>
-		<rom name="Mortal Kombat (Europe) (Rev 1).sfc" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 		<rom name="Mortal Kombat (Europe) (Rev 1) (Patch ROM).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+		<rom name="Mortal Kombat (Europe) (Rev 1).sfc" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Mortal Kombat (USA)" cloneof="Mortal Kombat - Shinken Kourin Densetsu (Japan) (En)" id="1682">
 		<category>Games</category>

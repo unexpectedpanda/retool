@@ -15,8 +15,8 @@
 		<category>Games</category>
 		<description>5515 - Test Title (Europe)</description>
 		<release name="5515 - Test Title (Europe)" region="Europe" language="En"/>
-		<rom name="5515 - Test Title (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="5515 - Test Title (Europe).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="5515 - Test Title (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="9999 - Test Title - Special Edition (Europe) (En,De,It)">
 		<category>Games</category>
@@ -24,8 +24,8 @@
 		<release name="9999 - Test Title - Special Edition (Europe) (En,De,It)" region="Europe" language="De"/>
 		<release name="9999 - Test Title - Special Edition (Europe) (En,De,It)" region="Europe" language="En"/>
 		<release name="9999 - Test Title - Special Edition (Europe) (En,De,It)" region="Europe" language="It"/>
-		<rom name="9999 - Test Title - Special Edition (Europe) (En,De,It).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="9999 - Test Title - Special Edition (Europe) (En,De,It).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="9999 - Test Title - Special Edition (Europe) (En,De,It).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="xB04 - Test Title (Europe) (En,Fr,De,It)" cloneof="9999 - Test Title - Special Edition (Europe) (En,De,It)">
 		<category>Games</category>
@@ -34,14 +34,14 @@
 		<release name="xB04 - Test Title (Europe) (En,Fr,De,It)" region="Europe" language="En"/>
 		<release name="xB04 - Test Title (Europe) (En,Fr,De,It)" region="Europe" language="Fr"/>
 		<release name="xB04 - Test Title (Europe) (En,Fr,De,It)" region="Europe" language="It"/>
-		<rom name="xB04 - Test Title (Europe) (En,Fr,De,It).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="xB04 - Test Title (Europe) (En,Fr,De,It).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="xB04 - Test Title (Europe) (En,Fr,De,It).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="z144 - Test Title (USA)" cloneof="9999 - Test Title - Special Edition (Europe) (En,De,It)">
 		<category>Games</category>
 		<description>z144 - Test Title (USA)</description>
 		<release name="z144 - Test Title (USA)" region="USA" language="En"/>
-		<rom name="z144 - Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="z144 - Test Title (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="z144 - Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 </datafile>

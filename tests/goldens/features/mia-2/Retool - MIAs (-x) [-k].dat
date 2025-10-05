@@ -18,15 +18,15 @@
 		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="En"/>
 		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="Fr"/>
 		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="It"/>
-		<rom name="Test Title (Europe) (En,Fr,De,It).cue" size="1000" crc="55555555" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title (Europe) (En,Fr,De,It).bin" size="1000" crc="66666666" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe) (En,Fr,De,It).cue" size="1000" crc="55555555" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="This isn't MIA (Canada) (En,Fr)">
 		<category>Games</category>
 		<description>This isn't MIA (Canada) (En,Fr)</description>
 		<release name="This isn't MIA (Canada) (En,Fr)" region="Canada" language="En"/>
 		<release name="This isn't MIA (Canada) (En,Fr)" region="Canada" language="Fr"/>
-		<rom name="This isn't MIA (Canada) (En,Fr).cue" size="1000" crc="55555555" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="This isn't MIA (Canada) (En,Fr).bin" size="1000" crc="66666666" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="This isn't MIA (Canada) (En,Fr).cue" size="1000" crc="55555555" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 </datafile>

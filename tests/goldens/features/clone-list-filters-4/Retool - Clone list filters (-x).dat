@@ -15,84 +15,84 @@
 		<category>Games</category>
 		<description>Test Title 0 (USA)</description>
 		<release name="Test Title 0 (Disc 1) (USA)" region="USA" language="En"/>
-		<rom name="Test Title 0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 0 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 0 (Disc 2) (USA)">
 		<category>Games</category>
 		<description>Test Title 0 (Disc 2) (USA)</description>
 		<release name="Test Title 0 (Disc 2) (USA)" region="USA" language="En"/>
-		<rom name="Test Title 0 (Disc 2) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 0 (Disc 2) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 (Disc 2) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 0 (Germany)" cloneof="Test Title 0 (Disc 1) (USA)">
 		<category>Games</category>
 		<description>Test Title 0 (Germany)</description>
 		<release name="Test Title 0 (Germany)" region="Germany" language="De"/>
-		<rom name="Test Title 0 (Germany).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 0 (Germany).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 (Germany).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 1 (Germany)" cloneof="Test Title 1 (Japan) (Disc 2) (International Version)">
 		<category>Games</category>
 		<description>Test Title 1 (Germany)</description>
 		<release name="Test Title 1 (Germany)" region="Germany" language="De"/>
-		<rom name="Test Title 1 (Germany).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 1 (Germany).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Germany).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 1 (Japan) (Disc 1) (Japanese Version)">
 		<category>Games</category>
 		<description>Test Title 1 (Japan) (Disc 1) (Japanese Version)</description>
 		<release name="Test Title 1 (Japan) (Disc 1) (Japanese Version)" region="Japan" language="Ja"/>
-		<rom name="Test Title 1 (Japan) (Disc 1) (Japanese Version).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 1 (Japan) (Disc 1) (Japanese Version).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Japan) (Disc 1) (Japanese Version).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 1 (Japan) (Disc 2) (International Version)">
 		<category>Games</category>
 		<description>Test Title 1 (Japan) (Disc 2) (International Version)</description>
 		<release name="Test Title 1 (Japan) (Disc 2) (International Version)" region="Japan" language="Ja"/>
-		<rom name="Test Title 1 (Japan) (Disc 2) (International Version).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 1 (Japan) (Disc 2) (International Version).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Japan) (Disc 2) (International Version).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 1 (USA)" cloneof="Test Title 1 (Japan) (Disc 2) (International Version)">
 		<category>Games</category>
 		<description>Test Title 1 (USA)</description>
 		<release name="Test Title 1 (USA)" region="USA" language="En"/>
-		<rom name="Test Title 1 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 1 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 2 (USA)">
 		<category>Games</category>
 		<description>Test Title 2 (USA)</description>
 		<release name="Test Title 2 (USA)" region="USA" language="En"/>
-		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 2 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 3 (USA)">
 		<category>Games</category>
 		<description>Test Title 3 (USA)</description>
 		<release name="Test Title 3 (USA)" region="USA" language="En"/>
-		<rom name="Test Title 3 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 3 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 3 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 3 (USA) (Fr)">
 		<category>Games</category>
 		<description>Test Title 3 (USA) (Fr)</description>
 		<release name="Test Title 3 (USA) (Fr)" region="USA" language="Fr"/>
-		<rom name="Test Title 3 (USA) (Fr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 3 (USA) (Fr).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 3 (USA) (Fr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 4 (USA)">
 		<category>Games</category>
 		<description>Test Title 4 (USA)</description>
 		<release name="Test Title 4 (USA)" region="USA" language="En"/>
-		<rom name="Test Title 4 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 4 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 4 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 4 (USA) (Pirate)">
 		<category>Games</category>
 		<description>Test Title 4 (USA) (Pirate)</description>
 		<release name="Test Title 4 (USA) (Pirate)" region="USA" language="En"/>
-		<rom name="Test Title 4 (USA) (Pirate).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 4 (USA) (Pirate).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 4 (USA) (Pirate).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 </datafile>

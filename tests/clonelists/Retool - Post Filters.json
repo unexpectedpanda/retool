@@ -1,27 +1,27 @@
 {
 	"description": {
 		"name": "Retool - Post Filters",
-		"lastUpdated": "6 May 2024",
-		"minimumVersion": "2.02"
+		"lastUpdated": "2025-08-30 10:23:54",
+		"minimumVersion": "2.4.0"
 	},
 	"variants": [
-        {
-            "group": "Discard Test Title 2",
-            "titles": [
-                {"searchTerm": "Discard Test Title 2"}
-            ],
-            "compilations": [
-                {"searchTerm": "Discard Test Title 2 & 3"}
-            ]
-        },
-        {
-            "group": "Discard Test Title 3",
-            "titles": [
-                {"searchTerm": "Discard Test Title 3"}
-            ],
-            "compilations": [
-                {"searchTerm": "Discard Test Title 2 & 3"}
-            ]
-        }
-    ]
+		{
+			"group": "Discard Test Title 2",
+			"titles": [
+				{"searchTerm": "Discard Test Title 2"}
+			],
+			"compilations": [
+				{"searchTerm": "Discard Test Title 2 & 3"}
+			]
+		},
+		{
+			"group": "Discard Test Title 3",
+			"titles": [
+				{"searchTerm": "Discard Test Title 3"}
+			],
+			"compilations": [
+				{"searchTerm": "Discard Test Title 2 & 3"}
+			]
+		}
+	]
 }

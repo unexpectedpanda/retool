@@ -686,7 +686,7 @@ def process_dat(
             return (input_dat, CloneList(), {})
 
     # Import system settings
-    from modules.input import import_clone_list_mia, import_metadata, import_system_settings
+    from modules.input import import_clone_list_mia_ra, import_metadata, import_system_settings
 
     import_system_settings(
         config,
@@ -832,7 +832,7 @@ def process_dat(
             config.system_filter.append(regex)
 
     # Import the clone list
-    clone_list: CloneList = import_clone_list_mia(input_dat, gui_input, config)
+    clone_list: CloneList = import_clone_list_mia_ra(input_dat, gui_input, config)
 
     # Import the metadata file
     metadata = import_metadata(input_dat, config)

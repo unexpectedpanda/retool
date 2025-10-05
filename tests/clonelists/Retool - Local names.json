@@ -1,45 +1,45 @@
 {
-    "description": {
+	"description": {
 		"name": "Retool - Local names",
-		"lastUpdated": "28 June 2025",
-		"minimumVersion": "2.02"
+		"lastUpdated": "2025-08-30 10:23:54",
+		"minimumVersion": "2.4.0"
 	},
 	"variants": [
-        {
-            "group": "Test Title",
-            "titles": [
-                {
-                    "searchTerm": "Test Title",
-                    "localNames": {
-                        "chinese (traditional)": "測試標題",
-                        "french": "Titre du test",
-                        "japanese": "テストタイトル"
-                    }
-                }
-            ]
-        },
-        {
-            "group": "Test Title 2",
-            "titles": [
-                {
-                    "searchTerm": "Test Title 2",
-                    "localNames": {
-                        "chinese (traditional)": "測試標題 2",
-                        "german": "Testtitel 2"
-                    }
-                }
-            ]
-        },
-        {
-            "group": "Test Title 3",
-            "titles": [
-                {
-                    "searchTerm": "Test Title 3",
-                    "localNames": {
-                        "french": "Titre du test 3"
-                    }
-                }
-            ]
-        }
-    ]
+		{
+			"group": "Test Title",
+			"titles": [
+				{
+					"searchTerm": "Test Title",
+					"localNames": {
+						"chinese (traditional)": "測試標題",
+						"french": "Titre du test",
+						"japanese": "テストタイトル"
+					}
+				}
+			]
+		},
+		{
+			"group": "Test Title 2",
+			"titles": [
+				{
+					"searchTerm": "Test Title 2",
+					"localNames": {
+						"chinese (traditional)": "測試標題 2",
+						"german": "Testtitel 2"
+					}
+				}
+			]
+		},
+		{
+			"group": "Test Title 3",
+			"titles": [
+				{
+					"searchTerm": "Test Title 3",
+					"localNames": {
+						"french": "Titre du test 3"
+					}
+				}
+			]
+		}
+	]
 }

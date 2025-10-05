@@ -1556,7 +1556,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalOptions.setWidgetResizable(True)
         self.scrollAreaWidgetContentsGlobalOptions = QWidget()
         self.scrollAreaWidgetContentsGlobalOptions.setObjectName(u"scrollAreaWidgetContentsGlobalOptions")
-        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 573, 1159))
+        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, -570, 573, 1159))
         sizePolicy8.setHeightForWidth(self.scrollAreaWidgetContentsGlobalOptions.sizePolicy().hasHeightForWidth())
         self.scrollAreaWidgetContentsGlobalOptions.setSizePolicy(sizePolicy8)
         self.verticalLayout_16 = QVBoxLayout(self.scrollAreaWidgetContentsGlobalOptions)
@@ -3641,7 +3641,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemOptions.setWidgetResizable(True)
         self.layoutScrollAreaSystemOptions = QWidget()
         self.layoutScrollAreaSystemOptions.setObjectName(u"layoutScrollAreaSystemOptions")
-        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 573, 1124))
+        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, -614, 573, 1124))
         sizePolicy8.setHeightForWidth(self.layoutScrollAreaSystemOptions.sizePolicy().hasHeightForWidth())
         self.layoutScrollAreaSystemOptions.setSizePolicy(sizePolicy8)
         self.verticalLayout_22 = QVBoxLayout(self.layoutScrollAreaSystemOptions)
@@ -4668,20 +4668,27 @@ class Ui_MainWindow(object):
         self.labelGlobalOptions1G1RPrefix.setText(QCoreApplication.translate("MainWindow", u"Add text to the start of each title (start with http://, https//, or ftp:// to URL encode)", None))
         self.labelGlobalOptions1G1RSuffix.setText(QCoreApplication.translate("MainWindow", u"Add text to the end of each title", None))
         self.labelGlobalOptionsOnline.setText(QCoreApplication.translate("MainWindow", u"Online features", None))
-        self.labelGlobalOnlineExplanation.setText(QCoreApplication.translate("MainWindow", u"These features use data supplied by third parties. When those third parties stop updating, Retool might make choices that are out-of-date.", None))
+        self.labelGlobalOnlineExplanation.setText(QCoreApplication.translate("MainWindow", u"These features use data supplied by third parties. When those third parties stop updating,\n"
+"Retool might make choices that are out-of-date.", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsMIA.setToolTip(QCoreApplication.translate("MainWindow", u"For files that no one has (missing in action), add mia=\"yes\" to rom/file tags.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsMIA.setText(QCoreApplication.translate("MainWindow", u"Add MIA attributes to files (DatVault users should leave this disabled)", None))
+        self.checkBoxGlobalOptionsMIA.setText(QCoreApplication.translate("MainWindow", u"Add MIA attributes to DAT files (DatVault users should leave this disabled)", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsRetroAchievements.setToolTip(QCoreApplication.translate("MainWindow", u"For titles that support RetroAchievements, add retroachievements=\"yes\"\n"
-"to game/machine tags.", None))
+"to game/machine tags.\n"
+"\n"
+"For Redump, you need to use alternative DAT files that use either CHD\n"
+"or RVZ image formats, like the MAME Redump DAT files.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsRetroAchievements.setText(QCoreApplication.translate("MainWindow", u"Add RetroAchievements attributes to files", None))
+        self.checkBoxGlobalOptionsRetroAchievements.setText(QCoreApplication.translate("MainWindow", u"Add RetroAchievements attributes to DAT files (Requires CHD or RVZ DAT files for Redump)", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsPreferRetro.setToolTip(QCoreApplication.translate("MainWindow", u"Prioritizes titles that support RetroAchievements.", None))
+        self.checkBoxGlobalOptionsPreferRetro.setToolTip(QCoreApplication.translate("MainWindow", u"Prioritizes titles that support RetroAchievements.\n"
+"\n"
+"For Redump, you need to use alternative DAT files that use either CHD\n"
+"or RVZ image formats, like the MAME Redump DAT files.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsPreferRetro.setText(QCoreApplication.translate("MainWindow", u"Prefer titles with RetroAchievements", None))
+        self.checkBoxGlobalOptionsPreferRetro.setText(QCoreApplication.translate("MainWindow", u"Prefer titles with RetroAchievements (Requires CHD or RVZ DAT files for Redump)", None))
         self.labelGlobalOptionsDebug.setText(QCoreApplication.translate("MainWindow", u"Debug options", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsReportWarnings.setToolTip(QCoreApplication.translate("MainWindow", u"Turn on warnings when there are mismatches\n"
@@ -5139,20 +5146,27 @@ class Ui_MainWindow(object):
         self.labelSystemOptions1G1RPrefix.setText(QCoreApplication.translate("MainWindow", u"Add text to the start of each title (start with http://, https//, or ftp:// to URL encode)", None))
         self.labelSystemOptions1G1RSuffix.setText(QCoreApplication.translate("MainWindow", u"Add text to the end of each title", None))
         self.labelSystemOptionsOnline.setText(QCoreApplication.translate("MainWindow", u"Online features", None))
-        self.labelSystemOnlineExplanation.setText(QCoreApplication.translate("MainWindow", u"These features use data supplied by third parties. When those third parties stop updating, Retool might make choices that are out-of-date.", None))
+        self.labelSystemOnlineExplanation.setText(QCoreApplication.translate("MainWindow", u"These features use data supplied by third parties. When those third parties stop updating,\n"
+"Retool might make choices that are out-of-date.", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsMIA.setToolTip(QCoreApplication.translate("MainWindow", u"For files that no one has (missing in action), add mia=\"yes\" to rom/file tags.", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsMIA.setText(QCoreApplication.translate("MainWindow", u"Add MIA attributes to files (DatVault users should leave this disabled)", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsRetroAchievements.setToolTip(QCoreApplication.translate("MainWindow", u"For titles that support RetroAchievements, add retroachievements=\"yes\"\n"
-"to game/machine tags.", None))
+"to game/machine tags.\n"
+"\n"
+"For Redump, you need to use alternative DAT files that use either CHD\n"
+"or RVZ image formats, like the MAME Redump DAT files.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsRetroAchievements.setText(QCoreApplication.translate("MainWindow", u"Add RetroAchievements attributes to files", None))
+        self.checkBoxSystemOptionsRetroAchievements.setText(QCoreApplication.translate("MainWindow", u"Add RetroAchievements attributes to DAT files (Requires CHD or RVZ DAT files for Redump)", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsPreferRetro.setToolTip(QCoreApplication.translate("MainWindow", u"Prioritizes titles that support RetroAchievements.", None))
+        self.checkBoxSystemOptionsPreferRetro.setToolTip(QCoreApplication.translate("MainWindow", u"Prioritizes titles that support RetroAchievements.\n"
+"\n"
+"For Redump, you need to use alternative DAT files that use either CHD\n"
+"or RVZ image formats, like the MAME Redump DAT files.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsPreferRetro.setText(QCoreApplication.translate("MainWindow", u"Prefer titles with RetroAchievements", None))
+        self.checkBoxSystemOptionsPreferRetro.setText(QCoreApplication.translate("MainWindow", u"Prefer titles with RetroAchievements (Requires CHD or RVZ DAT files for Redump)", None))
         self.labelSystemOptionsDebug.setText(QCoreApplication.translate("MainWindow", u"Debug options", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsReportWarnings.setToolTip(QCoreApplication.translate("MainWindow", u"Turn on warnings when there are mismatches\n"

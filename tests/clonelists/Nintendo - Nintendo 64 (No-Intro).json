@@ -1,10 +1,9 @@
 {
 	"description": {
 		"name": "Nintendo - Nintendo 64 (No-Intro)",
-		"lastUpdated": "26 December 2023",
-		"minimumVersion": "2.02"
+		"lastUpdated": "2025-08-30 10:23:53",
+		"minimumVersion": "2.4.0"
 	},
-
 	"variants": [
 		{
 			"group": "AeroFighters Assault",
@@ -23,8 +22,8 @@
 		{
 			"group": "All Star Tennis 99",
 			"titles": [
-				{"searchTerm": "All Star Tennis '99"},
-				{"searchTerm": "All Star Tennis 99"}
+				{"searchTerm": "All Star Tennis 99"},
+				{"searchTerm": "All Star Tennis '99"}
 			]
 		},
 		{
@@ -37,15 +36,15 @@
 		{
 			"group": "Banjo-Kazooie",
 			"titles": [
-				{"searchTerm": "Banjo-Kazooie"},
-				{"searchTerm": "Banjo to Kazooie no Daibouken"}
+				{"searchTerm": "Banjo to Kazooie no Daibouken"},
+				{"searchTerm": "Banjo-Kazooie"}
 			]
 		},
 		{
 			"group": "Banjo-Tooie",
 			"titles": [
-				{"searchTerm": "Banjo-Tooie"},
-				{"searchTerm": "Banjo to Kazooie no Daibouken 2"}
+				{"searchTerm": "Banjo to Kazooie no Daibouken 2"},
+				{"searchTerm": "Banjo-Tooie"}
 			]
 		},
 		{
@@ -92,8 +91,12 @@
 					"searchTerm": "Bomberman 64",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"group": "Bomberman 64 (Japan)"}
+							"conditions": {
+								"matchRegions": ["Japan"]
+							},
+							"results": {
+								"group": "Bomberman 64 (Japan)"
+							}
 						}
 					]
 				}
@@ -116,8 +119,8 @@
 		{
 			"group": "Bust-A-Move '99",
 			"titles": [
-				{"searchTerm": "Bust-A-Move '99"},
 				{"searchTerm": "Bust-A-Move 3 DX"},
+				{"searchTerm": "Bust-A-Move '99"},
 				{"searchTerm": "Puzzle Bobble 64"}
 			]
 		},
@@ -163,8 +166,12 @@
 					"searchTerm": "Custom Robo",
 					"filters": [
 						{
-							"conditions": {"matchString": "V2"},
-							"results": {"group": "Custom Robo V2"}
+							"conditions": {
+								"matchString": "V2"
+							},
+							"results": {
+								"group": "Custom Robo V2"
+							}
 						}
 					]
 				}
@@ -199,17 +206,17 @@
 			]
 		},
 		{
-			"group": "F-Zero X",
-			"titles": [
-				{"searchTerm": "F-Zero X"},
-				{"searchTerm": "F-Zero X (The Legend of Zelda - Ocarina of Time leftover data)", "priority": 2}
-			]
-		},
-		{
 			"group": "F1 Pole Position 64",
 			"titles": [
 				{"searchTerm": "F1 Pole Position 64"},
 				{"searchTerm": "Human Grand Prix - The New Generation"}
+			]
+		},
+		{
+			"group": "F-Zero X",
+			"titles": [
+				{"searchTerm": "F-Zero X"},
+				{"searchTerm": "F-Zero X (The Legend of Zelda - Ocarina of Time leftover data)", "priority": 2}
 			]
 		},
 		{
@@ -236,8 +243,8 @@
 		{
 			"group": "Fighters Destiny",
 			"titles": [
-				{"searchTerm": "Fighting Cup"},
-				{"searchTerm": "Fighters Destiny"}
+				{"searchTerm": "Fighters Destiny"},
+				{"searchTerm": "Fighting Cup"}
 			]
 		},
 		{
@@ -255,18 +262,18 @@
 			]
 		},
 		{
+			"group": "GameBooster 64",
+			"categories": ["Applications"],
+			"titles": [
+				{"searchTerm": "GameBooster 64"}
+			]
+		},
+		{
 			"group": "GameShark Pro",
 			"categories": ["Applications"],
 			"titles": [
 				{"searchTerm": "Action Replay Pro 64"},
 				{"searchTerm": "GameShark Pro"}
-			]
-		},
-		{
-			"group": "GameBooster 64",
-			"categories": ["Applications"],
-			"titles": [
-				{"searchTerm": "GameBooster 64"}
 			]
 		},
 		{
@@ -306,10 +313,11 @@
 			]
 		},
 		{
-			"group": "International Superstar Soccer '98",
+			"group": "International Superstar Soccer 64",
 			"titles": [
-				{"searchTerm": "International Superstar Soccer '98"},
-				{"searchTerm": "Jikkyou World Soccer - World Cup France '98"}
+				{"searchTerm": "International Superstar Soccer 64"},
+				{"searchTerm": "Jikkyou World Soccer 3"},
+				{"searchTerm": "Ronaldinho's Soccer 64"}
 			]
 		},
 		{
@@ -320,19 +328,18 @@
 			]
 		},
 		{
-			"group": "International Superstar Soccer 64",
+			"group": "International Superstar Soccer '98",
 			"titles": [
-				{"searchTerm": "International Superstar Soccer 64"},
-				{"searchTerm": "Jikkyou World Soccer 3"},
-				{"searchTerm": "Ronaldinho's Soccer 64"}
+				{"searchTerm": "International Superstar Soccer '98"},
+				{"searchTerm": "Jikkyou World Soccer - World Cup France '98"}
 			]
 		},
 		{
 			"group": "International Track & Field 2000",
 			"titles": [
 				{"searchTerm": "Ganbare! Nippon! Olympics 2000"},
-				{"searchTerm": "International Track & Field - Summer Games"},
-				{"searchTerm": "International Track & Field 2000"}
+				{"searchTerm": "International Track & Field 2000"},
+				{"searchTerm": "International Track & Field - Summer Games"}
 			]
 		},
 		{
@@ -369,14 +376,6 @@
 			"titles": [
 				{"searchTerm": "Legend of Zelda, The - Ocarina of Time - Master Quest"},
 				{"searchTerm": "Zelda no Densetsu - Toki no Ocarina GC Ura"}
-			]
-		},
-		{
-			"group": "Quest 64",
-			"titles": [
-				{"searchTerm": "Eltale Monsters"},
-				{"searchTerm": "Holy Magic Century"},
-				{"searchTerm": "Quest 64"}
 			]
 		},
 		{
@@ -420,8 +419,8 @@
 		{
 			"group": "Mickey's Speedway USA",
 			"titles": [
-				{"searchTerm": "Mickey's Speedway USA"},
-				{"searchTerm": "Mickey no Racing Challenge USA"}
+				{"searchTerm": "Mickey no Racing Challenge USA"},
+				{"searchTerm": "Mickey's Speedway USA"}
 			]
 		},
 		{
@@ -447,6 +446,13 @@
 			]
 		},
 		{
+			"group": "Nagano Winter Olympics '98",
+			"titles": [
+				{"searchTerm": "Hyper Olympics in Nagano 64"},
+				{"searchTerm": "Nagano Winter Olympics '98"}
+			]
+		},
+		{
 			"group": "NBA in the Zone '98",
 			"titles": [
 				{"searchTerm": "NBA in the Zone '98"},
@@ -456,8 +462,8 @@
 		{
 			"group": "NBA in the Zone '99",
 			"titles": [
-				{"searchTerm": "NBA in the Zone '99"},
 				{"searchTerm": "NBA in the Zone 2"},
+				{"searchTerm": "NBA in the Zone '99"},
 				{"searchTerm": "NBA Pro 99"}
 			]
 		},
@@ -466,13 +472,6 @@
 			"titles": [
 				{"searchTerm": "NHL Blades of Steel '99"},
 				{"searchTerm": "NHL Pro 99"}
-			]
-		},
-		{
-			"group": "Nagano Winter Olympics '98",
-			"titles": [
-				{"searchTerm": "Hyper Olympics in Nagano 64"},
-				{"searchTerm": "Nagano Winter Olympics '98"}
 			]
 		},
 		{
@@ -504,8 +503,12 @@
 					"searchTerm": "Pokemon Stadium",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"group": "Pokemon Stadium (Japan)"}
+							"conditions": {
+								"matchRegions": ["Japan"]
+							},
+							"results": {
+								"group": "Pokemon Stadium (Japan)"
+							}
 						}
 					]
 				}
@@ -516,6 +519,14 @@
 			"titles": [
 				{"searchTerm": "Pokemon Stadium 2"},
 				{"searchTerm": "Pokemon Stadium Kin Gin"}
+			]
+		},
+		{
+			"group": "Quest 64",
+			"titles": [
+				{"searchTerm": "Eltale Monsters"},
+				{"searchTerm": "Holy Magic Century"},
+				{"searchTerm": "Quest 64"}
 			]
 		},
 		{
@@ -615,8 +626,8 @@
 		{
 			"group": "Top Gear Hyper-Bike",
 			"titles": [
-				{"searchTerm": "Top Gear Hyper-Bike"},
-				{"searchTerm": "Top Gear Hyper Bike"}
+				{"searchTerm": "Top Gear Hyper Bike"},
+				{"searchTerm": "Top Gear Hyper-Bike"}
 			]
 		},
 		{
@@ -642,6 +653,13 @@
 			]
 		},
 		{
+			"group": "Turok 2 - Seeds of Evil",
+			"titles": [
+				{"searchTerm": "Turok 2 - Seeds of Evil"},
+				{"searchTerm": "Violence Killer - Turok New Generation"}
+			]
+		},
+		{
 			"group": "Turok - Dinosaur Hunter",
 			"titles": [
 				{"searchTerm": "Jikuu Senshi Turok"},
@@ -653,13 +671,6 @@
 			"titles": [
 				{"searchTerm": "Turok - Legenden des Verlorenen Landes"},
 				{"searchTerm": "Turok - Rage Wars"}
-			]
-		},
-		{
-			"group": "Turok 2 - Seeds of Evil",
-			"titles": [
-				{"searchTerm": "Turok 2 - Seeds of Evil"},
-				{"searchTerm": "Violence Killer - Turok New Generation"}
 			]
 		},
 		{
@@ -689,8 +700,8 @@
 		{
 			"group": "Yoshi's Story",
 			"titles": [
-				{"searchTerm": "Yoshi's Story"},
-				{"searchTerm": "Yoshi Story"}
+				{"searchTerm": "Yoshi Story"},
+				{"searchTerm": "Yoshi's Story"}
 			]
 		}
 	]

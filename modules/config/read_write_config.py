@@ -300,7 +300,7 @@ def generate_config(
                     '\n# * Plain text indicates a partial string match.'
                     '\n# * A prefix of / indicates a regular expression match.'
                     '\n# * A prefix of | indicates a full string match.'
-                    '\n# * Additionally, wrap a string in <> to also remove or include any match\'s '
+                    '\n# * Additionally, wrap a string in <> to also remove or include any match\'s'
                     '\n#   related clones.'
                     '\n#'
                     '\n# The text must be inside double quotes. You must escape double quotes and'

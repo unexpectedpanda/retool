@@ -218,6 +218,10 @@ assert test_version_normalization('Test Title Ver. A (USA) (En,Fr,Es)') == {'ver
 assert test_version_normalization('Test Title Ver. 1.31 (USA)') == {'version': '1.31'}
 assert test_version_normalization('Test Title - Version 1.3 (Japan) (Unl)') == {'version': '1.3'}
 
+# Benesse version
+assert test_version_normalization('Test Title (Japan) (6FP103)') == {'benesse': '6FP103'}
+assert test_version_normalization('Test Title (Japan) (5BB212SS)') == {'benesse': '5BB212SS'}
+
 # Famicom Disk System version
 assert test_version_normalization('Test Title (Japan) (DV 10)') == {'version': '10'}
 

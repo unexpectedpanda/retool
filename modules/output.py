@@ -417,7 +417,7 @@ class WriteFiles:
                     for unrecognized_child in title.unrecognized_children:
                         dat_xml.append(f'\t\t{unrecognized_child}\n')
 
-                for rom in title.roms:
+                for rom in sorted(title.roms, key=lambda x: x["name"]):
                     crc: str = ''
                     md5: str = ''
                     sha1: str = ''

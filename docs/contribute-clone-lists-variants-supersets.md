@@ -83,6 +83,15 @@ You can use the following keys in an object that's in a `supersets` array:
       </td>
     </tr>
     <tr>
+      <td><code>categories</code></td>
+      <td><code>array[str]</code></td>
+      <td>
+        <p>Optional, A category is a class of titles, like Demos, Games, and Multimedia.
+          Multiple categories can be assigned to a title, and existing categories are
+          overridden.</p>
+      </td>
+    </tr>
+    <tr>
       <td><code>englishFriendly</code></td>
       <td><code>bool</code></td>
       <td>
@@ -90,6 +99,17 @@ You can use the following keys in an object that's in a `supersets` array:
           hasn't been marked as supporting English, but an English-speaking player can
           easily play to completion. Setting <code>englishFriendly</code> to
           <code>true</code> makes Retool treat a title as if it supports English.</p>
+      </td>
+    </tr>
+    <tr>
+      <td><code>isOldest</code></td>
+      <td><code>bool</code></td>
+      <td>
+        <p>Optional, defaults to <code>false</code>. When a user selects
+        <b>Prefer oldest production versions instead of newest</b>, this can
+        be used to manually override Retool's automatic choice, or override priority
+        settings in clone lists. Setting <code>isOldest</code> to <code>true</code>
+        manually marks which title is the oldest in the group.</p>
       </td>
     </tr>
     <tr>

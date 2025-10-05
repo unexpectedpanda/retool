@@ -12519,8 +12519,8 @@
 		<category>Applications</category>
 		<description>Important Update (USA)</description>
 		<release name="Important Update (USA)" region="USA" language="En"/>
-		<rom name="Important Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Important Update (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Important Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Incredible Hulk, The (Europe) (En,Fr,De,Es,It)" cloneof="Incredible Hulk, The (USA) (En,Fr)">
 		<category>Games</category>
@@ -18521,8 +18521,8 @@
 		<category>Applications</category>
 		<description>Original Xbox Game Support - August 2006 (1.5) (USA)</description>
 		<release name="Original Xbox Game Support - August 2006 (1.5) (USA)" region="USA" language="En"/>
-		<rom name="Original Xbox Game Support - August 2006 (1.5) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Original Xbox Game Support - August 2006 (1.5) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Original Xbox Game Support - August 2006 (1.5) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Otomedius Excellent (USA)" cloneof="Otomedius Excellent! (Japan)">
 		<category>Games</category>
@@ -21652,8 +21652,8 @@
 		<release name="Shodai Xbox Game Gokansei Update Disc - 2007-nen 7-gatsuban (Japan) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru)" region="Japan" language="Pt"/>
 		<release name="Shodai Xbox Game Gokansei Update Disc - 2007-nen 7-gatsuban (Japan) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru)" region="Japan" language="Ru"/>
 		<release name="Shodai Xbox Game Gokansei Update Disc - 2007-nen 7-gatsuban (Japan) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru)" region="Japan" language="Zh"/>
-		<rom name="Shodai Xbox Game Gokansei Update Disc - 2007-nen 7-gatsuban (Japan) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Shodai Xbox Game Gokansei Update Disc - 2007-nen 7-gatsuban (Japan) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Shodai Xbox Game Gokansei Update Disc - 2007-nen 7-gatsuban (Japan) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Shooting Love. 10-shuunen - XIIZeal &amp; DeltaZeal (Japan)">
 		<category>Games</category>
@@ -26589,8 +26589,8 @@
 		<release name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)" region="USA" language="Ko"/>
 		<release name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)" region="USA" language="Pt"/>
 		<release name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)" region="USA" language="Zh"/>
-		<rom name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Rev 1)">
 		<category>Applications</category>
@@ -26604,8 +26604,8 @@
 		<release name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Rev 1)" region="USA" language="Ko"/>
 		<release name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Rev 1)" region="USA" language="Pt"/>
 		<release name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Rev 1)" region="USA" language="Zh"/>
-		<rom name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Rev 1).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Rev 1).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Xbox 360 HD DVD Player Installation Disc (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Rev 1).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Xbox 360 Hard Disk Data Tensou-you Disc (Japan)">
 		<category>Applications</category>
@@ -26631,8 +26631,8 @@
 		<category>Applications</category>
 		<description>Xbox 360 Wireless Speed Wheel Software Disc (USA)</description>
 		<release name="Xbox 360 Wireless Speed Wheel Software Disc (USA)" region="USA" language="En"/>
-		<rom name="Xbox 360 Wireless Speed Wheel Software Disc (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Xbox 360 Wireless Speed Wheel Software Disc (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Xbox 360 Wireless Speed Wheel Software Disc (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Xbox Experience Demo V7.5 (USA)">
 		<category>Demos</category>

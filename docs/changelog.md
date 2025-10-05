@@ -5,12 +5,33 @@ hide:
 
 # Changelog
 
+## 2.4.2 (2025-10-06)
+
+-  **_Change_**: The `<rom>` elements in output DAT files are now listed in alphabetical
+   order based on file name. This makes it easier to find problems when analyzing DAT
+   files.
+
+-  **_Fix_**: Removed video regular expressions from the tags Retool ignores when grouping
+   titles together. These were added accidentally in 2.4.0.
+
+-  **_Fix_**: Original header output now works again for custom No-Intro DAT files (for
+   example, RVZ and WUX versions of Redump DAT files). Turns out reading the file in as
+   bytes required extra work to deal with LF line endings.
+
+-  **_Fix_**: The data source that provided RetroAchievement hashes has switched from
+   providing ISO, BIN, and CHD hashes to CHD and RVZ hashes. As such, Retool can now add
+   RetroAchievements labels to
+   [MAME Redump DAT files](https://github.com/MetalSlug/MAMERedump).
+
+
 ## 2.4.1 (2025-08-13)
 
 - Fix: Turns out pathing in QT is case sensitive, and a path rename broke wherever there
   were arrow icons on buttons. This has now been fixed.
+
 - Fix: The `<retool>` element is now added to output DAT file headers again in all
   circumstances. This enables the skipping of files that have already been processed.
+
 - Fix: Added a Benesse ID regex to version detection.
 
 

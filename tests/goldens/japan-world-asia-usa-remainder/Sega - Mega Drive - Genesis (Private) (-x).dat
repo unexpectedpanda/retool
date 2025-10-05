@@ -14384,8 +14384,8 @@
 		<category>Games</category>
 		<description>Sonic &amp; Knuckles (World)</description>
 		<release name="Sonic &amp; Knuckles (World)" region="World" language="En"/>
-		<rom name="Sonic &amp; Knuckles (World).md" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 		<rom name="Sonic &amp; Knuckles (World) (Lock-on).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+		<rom name="Sonic &amp; Knuckles (World).md" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Sonic &amp; Knuckles (World) (Beta) (1994-05-25)" cloneof="Sonic &amp; Knuckles (World)" id="2115">
 		<category>Preproduction</category>

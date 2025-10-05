@@ -6089,8 +6089,8 @@
 	<game name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)">
 		<category>Applications</category>
 		<description>Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)</description>
-		<rom name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Xbox Live Beta Starter Kit Disc (USA, Europe)">
 		<category>Preproduction</category>
@@ -6140,8 +6140,8 @@
 	<game name="Xbox Wireless Adapter Setup v1.0 (USA)">
 		<category>Applications</category>
 		<description>Xbox Wireless Adapter Setup v1.0 (USA)</description>
-		<rom name="Xbox Wireless Adapter Setup v1.0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Xbox Wireless Adapter Setup v1.0 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Xbox Wireless Adapter Setup v1.0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Xbox the Best of Demo Disk Version 10.0 (Europe) (En,Fr,De,Es,It,Nl,Sv)">
 		<category>Demos</category>

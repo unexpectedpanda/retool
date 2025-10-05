@@ -49,7 +49,7 @@ def clone_list_local_names(
 
         # Make sure the language is in the user's local language order
         for language in local_name_user_order_language_names:
-            if language in variant_title['localNames'].keys():
+            if language in variant_title['localNames']:
                 new_title.local_name = variant_title['localNames'][language]
                 break
 

@@ -1,8 +1,8 @@
 {
 	"description": {
 		"name": "Retool - Compilations",
-		"lastUpdated": "24 March 2024",
-		"minimumVersion": "2.02"
+		"lastUpdated": "2025-08-30 10:23:54",
+		"minimumVersion": "2.4.0"
 	},
 	"variants": [
 		{
@@ -10,153 +10,153 @@
 			"titles": [
 				{"searchTerm": "Test Title 0"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 0 + 1 + 2"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 0 + 1 + 2"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 1",
 			"titles": [
 				{"searchTerm": "Test Title 1"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 0 + 1 + 2"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 0 + 1 + 2"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 2",
 			"titles": [
 				{"searchTerm": "Test Title 2"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 0 + 1 + 2"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 0 + 1 + 2"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 3",
 			"titles": [
 				{"searchTerm": "Test Title 3", "priority": 2}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 3 + 4"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 3 + 4"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 4",
 			"titles": [
 				{"searchTerm": "Test Title 4"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 3 + 4"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 3 + 4"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 5",
 			"titles": [
 				{"searchTerm": "Test Title 5"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 5 + 6"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 5 + 6"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 6",
 			"titles": [
 				{"searchTerm": "Test Title 6"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 5 + 6"},
+			"compilations": [
+				{"searchTerm": "Test Title 5 + 6"},
 				{"searchTerm": "Test Title 6 + 7 + 8"}
-            ]
+			]
 		},
-        {
+		{
 			"group": "Test Title 7",
 			"titles": [
 				{"searchTerm": "Test Title 7"}
 			],
-            "compilations": [
+			"compilations": [
 				{"searchTerm": "Test Title 6 + 7 + 8"},
-                {"searchTerm": "Test Title 7 + 8"}
-            ],
-            "supersets": [
-                {"searchTerm": "Test Title 7 - Special Edition"}
-            ]
+				{"searchTerm": "Test Title 7 + 8"}
+			],
+			"supersets": [
+				{"searchTerm": "Test Title 7 - Special Edition"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 8",
 			"titles": [
 				{"searchTerm": "Test Title 8"}
 			],
-            "compilations": [
+			"compilations": [
 				{"searchTerm": "Test Title 6 + 7 + 8"},
-                {"searchTerm": "Test Title 7 + 8"}
-            ]
+				{"searchTerm": "Test Title 7 + 8"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 9",
 			"titles": [
 				{"searchTerm": "Test Title 9"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 9 + 10"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 9 + 10"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 10",
 			"titles": [
 				{"searchTerm": "Test Title 10"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 9 + 10"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 9 + 10"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 11",
 			"titles": [
 				{"searchTerm": "Test Title 11"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 11 + 12"},
+			"compilations": [
+				{"searchTerm": "Test Title 11 + 12"},
 				{"searchTerm": "Test Title 11 + 12 + 13"},
 				{"searchTerm": "Test Title 11 + 14"}
-            ]
+			]
 		},
-        {
+		{
 			"group": "Test Title 12",
 			"titles": [
 				{"searchTerm": "Test Title 12"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 11 + 12"},
+			"compilations": [
+				{"searchTerm": "Test Title 11 + 12"},
 				{"searchTerm": "Test Title 11 + 12 + 13"}
-            ]
+			]
 		},
-        {
+		{
 			"group": "Test Title 13",
-            "compilations": [
-                {"searchTerm": "Test Title 11 + 12 + 13"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 11 + 12 + 13"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 14",
 			"titles": [
 				{"searchTerm": "Test Title 14"}
 			],
-            "compilations": [
-                {"searchTerm": "Test Title 11 + 14"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 11 + 14"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 15",
-            "compilations": [
-                {"searchTerm": "Test Title 15 + 16"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 15 + 16"}
+			]
 		},
-        {
+		{
 			"group": "Test Title 16",
-            "compilations": [
-                {"searchTerm": "Test Title 15 + 16"}
-            ]
+			"compilations": [
+				{"searchTerm": "Test Title 15 + 16"}
+			]
 		}
 	]
 }

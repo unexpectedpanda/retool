@@ -1,10 +1,9 @@
 {
 	"description": {
 		"name": "Sega - Master System - Mark III (No-Intro)",
-		"lastUpdated": "26 December 2023",
-		"minimumVersion": "2.02"
+		"lastUpdated": "2025-08-30 10:23:54",
+		"minimumVersion": "2.4.0"
 	},
-
 	"variants": [
 		{
 			"group": "Alex Kidd - High-Tech World",
@@ -36,7 +35,7 @@
 			"compilations": [
 				{"searchTerm": "Astro Warrior & Pit Pot", "titlePosition": 1},
 				{"searchTerm": "Hang On & Astro Warrior", "titlePosition": 2},
-				{"searchTerm": "Astro Warrior & Pit Pot (2011 Master System Evolution)", "titlePosition": 1, "priority": 2}
+				{"searchTerm": "Astro Warrior & Pit Pot (2011 Master System Evolution)", "priority": 2, "titlePosition": 1}
 			]
 		},
 		{
@@ -82,8 +81,14 @@
 					"searchTerm": "Choplifter",
 					"filters": [
 						{
-							"conditions": {"matchRegions": "Taiwan"},
-							"results": {"localNames": {"chinese (traditional)": "阿帕契"}}
+							"conditions": {
+								"matchRegions": ["Taiwan"]
+							},
+							"results": {
+								"localNames": {
+									"chinese (traditional)": "阿帕契"
+								}
+							}
 						}
 					]
 				}
@@ -185,8 +190,12 @@
 					"searchTerm": "Great Baseball",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"group": "Great Baseball (Japan)"}
+							"conditions": {
+								"matchRegions": ["Japan"]
+							},
+							"results": {
+								"group": "Great Baseball (Japan)"
+							}
 						}
 					]
 				}
@@ -206,8 +215,13 @@
 					"searchTerm": "Great Golf",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["World"], "matchString": "Beta"},
-							"results": {"group": "Great Golf ~ Masters Golf"}
+							"conditions": {
+								"matchRegions": ["World"],
+								"matchString": "Beta"
+							},
+							"results": {
+								"group": "Great Golf ~ Masters Golf"
+							}
 						}
 					]
 				}
@@ -220,7 +234,7 @@
 			],
 			"compilations": [
 				{"searchTerm": "Hang On & Safari Hunt", "titlePosition": 1},
-				{"searchTerm": "Hang On & Astro Warrior", "titlePosition": 1, "priority": 2}
+				{"searchTerm": "Hang On & Astro Warrior", "priority": 2, "titlePosition": 1}
 			]
 		},
 		{
@@ -255,7 +269,12 @@
 		{
 			"group": "Mahjong Sengoku Jidai",
 			"titles": [
-				{"searchTerm": "Mahjong Sengoku Jidai", "localNames": {"japanese": "麻雀戦国時代"}}
+				{
+					"searchTerm": "Mahjong Sengoku Jidai",
+					"localNames": {
+						"japanese": "麻雀戦国時代"
+					}
+				}
 			]
 		},
 		{
@@ -295,7 +314,12 @@
 		{
 			"group": "MSX Soccer",
 			"titles": [
-				{"searchTerm": "MSX Soccer", "localNames": {"korean": "축구"}}
+				{
+					"searchTerm": "MSX Soccer",
+					"localNames": {
+						"korean": "축구"
+					}
+				}
 			]
 		},
 		{
@@ -350,7 +374,7 @@
 			],
 			"compilations": [
 				{"searchTerm": "Astro Warrior & Pit Pot", "titlePosition": 2},
-				{"searchTerm": "Astro Warrior & Pit Pot (2011 Master System Evolution)", "titlePosition": 1, "priority": 2}
+				{"searchTerm": "Astro Warrior & Pit Pot (2011 Master System Evolution)", "priority": 2, "titlePosition": 1}
 			]
 		},
 		{
@@ -559,8 +583,15 @@
 					"searchTerm": "Zillion",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Japan", "Europe"]},
-							"results": {"localNames": {"english": "Zillion", "japanese": "赤い光弾ジリオン"}}
+							"conditions": {
+								"matchRegions": ["Europe", "Japan"]
+							},
+							"results": {
+								"localNames": {
+									"english": "Zillion",
+									"japanese": "赤い光弾ジリオン"
+								}
+							}
 						}
 					]
 				}

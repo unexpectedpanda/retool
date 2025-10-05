@@ -17317,8 +17317,8 @@
 		<category>Games</category>
 		<description>Kid Dracula (World) (Castlevania Anniversary Collection)</description>
 		<release name="Kid Dracula (World) (Castlevania Anniversary Collection)" region="World" language="En"/>
-		<rom name="Kid Dracula (World) (Castlevania Anniversary Collection).sav" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 		<rom name="Kid Dracula (World) (Castlevania Anniversary Collection).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
+		<rom name="Kid Dracula (World) (Castlevania Anniversary Collection).sav" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Kid Funky (World) (Aftermarket) (Unl)" cloneof="Kid Funky (World) (v1.1) (Aftermarket) (Unl)" id="6419">
 		<category>Games</category>
@@ -28656,13 +28656,13 @@
 		<release name="Sheng Doushi Xingshi - Beiou Tuji Pian (China) (Aftermarket) (Unl)" region="China" language="Zh-Hans"/>
 		<rom name="Sheng Doushi Xingshi - Beiou Tuji Pian (China) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Sheng Doushi Xingshi - Shikong Doushi (China) (Aftermarket) (Pirate)" cloneof="Sheng Doushi Xingshi - Beiou Tuji Pian (China) (Aftermarket) (Unl)" id="5673">
+	<game name="Sheng Doushi Xingshi - Shikong Doushi (China) (Aftermarket) (Pirate)" cloneof="Sheng Doushi Xingshi - Tianma Zhi Huanxiang (China) (Aftermarket) (Pirate)" id="5673">
 		<category>Games</category>
 		<description>Sheng Doushi Xingshi - Shikong Doushi (China) (Aftermarket) (Pirate)</description>
 		<release name="Sheng Doushi Xingshi - Shikong Doushi (China) (Aftermarket) (Pirate)" region="China" language="Zh-Hans"/>
 		<rom name="Sheng Doushi Xingshi - Shikong Doushi (China) (Aftermarket) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Sheng Doushi Xingshi - Tianma Zhi Huanxiang (China) (Aftermarket) (Pirate)" cloneof="Sheng Doushi Xingshi - Beiou Tuji Pian (China) (Aftermarket) (Unl)" id="5672">
+	<game name="Sheng Doushi Xingshi - Tianma Zhi Huanxiang (China) (Aftermarket) (Pirate)" id="5672">
 		<category>Games</category>
 		<description>Sheng Doushi Xingshi - Tianma Zhi Huanxiang (China) (Aftermarket) (Pirate)</description>
 		<release name="Sheng Doushi Xingshi - Tianma Zhi Huanxiang (China) (Aftermarket) (Pirate)" region="China" language="Zh-Hans"/>

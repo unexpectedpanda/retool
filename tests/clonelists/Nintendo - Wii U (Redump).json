@@ -1,8 +1,8 @@
 {
 	"description": {
 		"name": "Nintendo - Wii U (Redump)",
-		"lastUpdated": "17 July 2023",
-		"minimumVersion": "2.00"
+		"lastUpdated": "2025-08-30 10:23:54",
+		"minimumVersion": "2.4.0"
 	},
 	"variants": [
 		{
@@ -148,8 +148,8 @@
 		{
 			"group": "LEGO Movie, The - Videogame",
 			"titles": [
-				{"searchTerm": "LEGO Movie, The - Videogame"},
-				{"searchTerm": "LEGO Movie - The Game"}
+				{"searchTerm": "LEGO Movie - The Game"},
+				{"searchTerm": "LEGO Movie, The - Videogame"}
 			]
 		},
 		{
@@ -271,8 +271,8 @@
 		{
 			"group": "Watch_Dogs",
 			"titles": [
-				{"searchTerm": "Watch_Dogs"},
-				{"searchTerm": "Watch Dogs"}
+				{"searchTerm": "Watch Dogs"},
+				{"searchTerm": "Watch_Dogs"}
 			]
 		},
 		{
@@ -285,8 +285,8 @@
 		{
 			"group": "Yoshi's Woolly World",
 			"titles": [
-				{"searchTerm": "Yoshi's Woolly World"},
-				{"searchTerm": "Yoshi Wool World"}
+				{"searchTerm": "Yoshi Wool World"},
+				{"searchTerm": "Yoshi's Woolly World"}
 			]
 		}
 	]

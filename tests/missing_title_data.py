@@ -6,7 +6,6 @@ from tests.integration import integration_test
 
 
 def main() -> None:
-
     input_dats: list[str]
     golden_comparison_folder: str
     test_name: str

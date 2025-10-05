@@ -15,21 +15,21 @@
 		<category>Games</category>
 		<description>Test Title (Thailand) (En)</description>
 		<release name="Test Title (Thailand) (En)" region="Thailand" language="En"/>
-		<rom name="Test Title (Thailand) (En).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title (Thailand) (En).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Thailand) (En).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title (World) (El)" cloneof="Test Title Genius Edition (Canada)">
 		<category>Games</category>
 		<description>Test Title (World) (El)</description>
 		<release name="Test Title (World) (El)" region="World" language="El"/>
-		<rom name="Test Title (World) (El).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title (World) (El).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (World) (El).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title Genius Edition (Canada)">
 		<category>Games</category>
 		<description>Test Title (Canada)</description>
 		<release name="Test Title Genius Edition (Canada)" region="Canada" language="En"/>
-		<rom name="Test Title (Canada).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title (Canada).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Canada).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 </datafile>

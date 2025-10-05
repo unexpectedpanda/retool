@@ -881,7 +881,6 @@ class TitleTools:
             *config.regex.secam,
             *config.regex.unl_group,
             *config.regex.versions,
-            *config.regex.video,
             config.regex.multimedia,
             config.regex.oem,
             config.regex.rerelease,

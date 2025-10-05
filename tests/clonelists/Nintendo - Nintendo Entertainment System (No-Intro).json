@@ -1,19 +1,10 @@
 {
 	"description": {
 		"name": "Nintendo - Nintendo Entertainment System (No-Intro)",
-		"lastUpdated": "26 December 2023",
-		"minimumVersion": "2.02"
+		"lastUpdated": "2025-08-30 10:23:53",
+		"minimumVersion": "2.4.0"
 	},
-
 	"variants": [
-		{
-			"group": "1943 - The Battle of Midway",
-			"titles": [
-				{"searchTerm": "1943 - The Battle of Midway"},
-				{"searchTerm": "1943 - The Battle of Valhalla"},
-				{"searchTerm": "1943"}
-			]
-		},
 		{
 			"group": "3D Block",
 			"titles": [
@@ -26,6 +17,14 @@
 			"titles": [
 				{"searchTerm": "4 Nin Uchi Mahjong"},
 				{"searchTerm": "Zhong Guo Mahjong"}
+			]
+		},
+		{
+			"group": "1943 - The Battle of Midway",
+			"titles": [
+				{"searchTerm": "1943"},
+				{"searchTerm": "1943 - The Battle of Midway"},
+				{"searchTerm": "1943 - The Battle of Valhalla"}
 			]
 		},
 		{
@@ -130,8 +129,8 @@
 			"group": "Adventure Island II",
 			"titles": [
 				{"searchTerm": "Adventure Island II"},
-				{"searchTerm": "Takahashi Meijin no Bouken-jima II"},
 				{"searchTerm": "Adventure Island Part II, The"},
+				{"searchTerm": "Takahashi Meijin no Bouken-jima II"},
 				{"searchTerm": "Super Bros. 9", "priority": 2},
 				{"searchTerm": "Super Mario World 9", "priority": 3}
 			]
@@ -164,8 +163,12 @@
 					"searchTerm": "Adventures of Lolo",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"group": "Adventures of Lolo 2"}
+							"conditions": {
+								"matchRegions": ["Japan"]
+							},
+							"results": {
+								"group": "Adventures of Lolo 2"
+							}
 						}
 					]
 				}
@@ -266,16 +269,6 @@
 			]
 		},
 		{
-			"group": "Arctic Adventure - Penguin & Seal",
-			"titles": [
-				{"searchTerm": "Arctic Adventure - Penguin & Seal"},
-				{"searchTerm": "Dong Dongnao 1"}
-			],
-			"compilations": [
-				{"searchTerm": "Mindblower Pak"}
-			]
-		},
-		{
 			"group": "Another World",
 			"titles": [
 				{"searchTerm": "Another World"},
@@ -287,6 +280,16 @@
 			"titles": [
 				{"searchTerm": "Aoshi Sanguozhi"},
 				{"searchTerm": "Sanguozhi - Zhi Aoshi Tiandi", "priority": 2}
+			]
+		},
+		{
+			"group": "Arctic Adventure - Penguin & Seal",
+			"titles": [
+				{"searchTerm": "Arctic Adventure - Penguin & Seal"},
+				{"searchTerm": "Dong Dongnao 1"}
+			],
+			"compilations": [
+				{"searchTerm": "Mindblower Pak"}
 			]
 		},
 		{
@@ -358,6 +361,18 @@
 			]
 		},
 		{
+			"group": "Balloon Monster",
+			"titles": [
+				{"searchTerm": "Balloon Monster"},
+				{"searchTerm": "Monstruo de los Globos, El"}
+			],
+			"compilations": [
+				{"searchTerm": "Asder - 20 in 1"},
+				{"searchTerm": "Caltron - 6 in 1"},
+				{"searchTerm": "HES 6-Pak - Real Player's Pak"}
+			]
+		},
+		{
 			"group": "Banana Prince",
 			"titles": [
 				{"searchTerm": "Banana Prince"},
@@ -373,21 +388,14 @@
 			]
 		},
 		{
-			"group": "Balloon Monster",
-			"titles": [
-				{"searchTerm": "Balloon Monster"},
-				{"searchTerm": "Monstruo de los Globos, El"}
-			],
-			"compilations": [
-				{"searchTerm": "Asder - 20 in 1"},
-				{"searchTerm": "Caltron - 6 in 1"},
-				{"searchTerm": "HES 6-Pak - Real Player's Pak"}
-			]
-		},
-		{
 			"group": "Bao Qingtian - Gedou Ban (Super Justice King)",
 			"titles": [
-				{"searchTerm": "Bao Qingtian - Gedou Ban (Super Justice King)", "localNames": {"chinese (traditional)": "新包青天Ⅱ（武鬥篇）"}}
+				{
+					"searchTerm": "Bao Qingtian - Gedou Ban (Super Justice King)",
+					"localNames": {
+						"chinese (traditional)": "新包青天Ⅱ（武鬥篇）"
+					}
+				}
 			]
 		},
 		{
@@ -474,8 +482,8 @@
 		{
 			"group": "Batman Returns",
 			"titles": [
-				{"searchTerm": "Batman Returns"},
-				{"searchTerm": "Batman III"}
+				{"searchTerm": "Batman III"},
+				{"searchTerm": "Batman Returns"}
 			]
 		},
 		{
@@ -567,16 +575,20 @@
 		{
 			"group": "Black Bass, The",
 			"titles": [
+				{"searchTerm": "Black Bass II, The"},
 				{
 					"searchTerm": "Black Bass, The",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"group": "Black Bass, The (Japan)"}
+							"conditions": {
+								"matchRegions": ["Japan"]
+							},
+							"results": {
+								"group": "Black Bass, The (Japan)"
+							}
 						}
 					]
-				},
-				{"searchTerm": "Black Bass II, The"}
+				}
 			]
 		},
 		{
@@ -732,8 +744,8 @@
 		{
 			"group": "Capcom's Gold Medal Challenge '92",
 			"titles": [
-				{"searchTerm": "Capcom's Gold Medal Challenge '92"},
-				{"searchTerm": "Capcom Barcelona '92"}
+				{"searchTerm": "Capcom Barcelona '92"},
+				{"searchTerm": "Capcom's Gold Medal Challenge '92"}
 			]
 		},
 		{
@@ -890,12 +902,28 @@
 					"priority": 2,
 					"filters": [
 						{
-							"conditions": {"matchString": "60 pin cart", "regionOrder": {"higherRegions": ["Japan"], "lowerRegions": ["All other regions"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"matchString": "60 pin cart",
+								"regionOrder": {
+									"higherRegions": ["Japan"],
+									"lowerRegions": ["All other regions"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						},
 						{
-							"conditions": {"matchString": "72 pin cart", "regionOrder": {"higherRegions": ["All other regions"], "lowerRegions": ["Japan"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"matchString": "72 pin cart",
+								"regionOrder": {
+									"higherRegions": ["All other regions"],
+									"lowerRegions": ["Japan"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						}
 					]
 				}
@@ -904,9 +932,9 @@
 		{
 			"group": "Chip 'n Dale - Rescue Rangers",
 			"titles": [
+				{"searchTerm": "Chip & Dales (BA058)"},
 				{"searchTerm": "Chip 'n Dale - Rescue Rangers"},
 				{"searchTerm": "Chip to Dale no Daisakusen"},
-				{"searchTerm": "Chip & Dales (BA058)"},
 				{"searchTerm": "Super Mario & Sonic 2"}
 			]
 		},
@@ -1016,6 +1044,13 @@
 			]
 		},
 		{
+			"group": "Conquest of the Crystal Palace",
+			"titles": [
+				{"searchTerm": "Conquest of the Crystal Palace"},
+				{"searchTerm": "Matendouji"}
+			]
+		},
+		{
 			"group": "Contra",
 			"titles": [
 				{"searchTerm": "Contra"},
@@ -1029,13 +1064,6 @@
 			"titles": [
 				{"searchTerm": "Contra Force"},
 				{"searchTerm": "Super Contra 6", "priority": 2}
-			]
-		},
-		{
-			"group": "Conquest of the Crystal Palace",
-			"titles": [
-				{"searchTerm": "Conquest of the Crystal Palace"},
-				{"searchTerm": "Matendouji"}
 			]
 		},
 		{
@@ -1177,21 +1205,21 @@
 			]
 		},
 		{
+			"group": "Death Race",
+			"titles": [
+				{"searchTerm": "Death Race"}
+			],
+			"compilations": [
+				{"searchTerm": "Maxi-15 Pack"}
+			]
+		},
+		{
 			"group": "Deathbots",
 			"titles": [
 				{"searchTerm": "Deathbots"}
 			],
 			"compilations": [
 				{"searchTerm": "Maxi 15"},
-				{"searchTerm": "Maxi-15 Pack"}
-			]
-		},
-		{
-			"group": "Death Race",
-			"titles": [
-				{"searchTerm": "Death Race"}
-			],
-			"compilations": [
 				{"searchTerm": "Maxi-15 Pack"}
 			]
 		},
@@ -1341,25 +1369,10 @@
 			]
 		},
 		{
-			"group": "Double Dragon",
-			"titles": [
-				{
-					"searchTerm": "Double Dragon",
-					"filters": [
-						{
-							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"localNames": {"japanese": "双截龍"}}
-						}
-					]
-
-				}
-			]
-		},
-		{
 			"group": "Dou Zhi Pinpan - Wisdom Boy",
 			"titles": [
-				{"searchTerm": "Dou Zhi Pinpan - Wisdom Boy (Unknown)"},
-				{"searchTerm": "Dou Zhi Pinpan - Wisdom Boy (Gamtec)"}
+				{"searchTerm": "Dou Zhi Pinpan - Wisdom Boy (Gamtec)"},
+				{"searchTerm": "Dou Zhi Pinpan - Wisdom Boy (Unknown)"}
 			]
 		},
 		{
@@ -1369,6 +1382,26 @@
 				{"searchTerm": "Double Action 53 - Volume 2 (RC.4a)", "priority": 2},
 				{"searchTerm": "Double Action 53 - Volume 2 (RC.3)", "priority": 3},
 				{"searchTerm": "Double Action 53 - Volume 2 (RC.2)", "priority": 4}
+			]
+		},
+		{
+			"group": "Double Dragon",
+			"titles": [
+				{
+					"searchTerm": "Double Dragon",
+					"filters": [
+						{
+							"conditions": {
+								"matchRegions": ["Japan"]
+							},
+							"results": {
+								"localNames": {
+									"japanese": "双截龍"
+								}
+							}
+						}
+					]
+				}
 			]
 		},
 		{
@@ -1402,13 +1435,6 @@
 				{"searchTerm": "Dr. Mario"},
 				{"searchTerm": "Virus", "priority": 2},
 				{"searchTerm": "Virus (PC10)", "priority": 3}
-			]
-		},
-		{
-			"group": "Dragon, The",
-			"titles": [
-				{"searchTerm": "Dragon, The"},
-				{"searchTerm": "Loxiaolong Chuanqi (The Dragon)"}
 			]
 		},
 		{
@@ -1452,7 +1478,6 @@
 				{"searchTerm": "Qilongzhu 2 - Jizhan Freeza!!", "priority": 3},
 				{"searchTerm": "Qilongzhu 2 - Dianguang Shihuo", "priority": 4},
 				{"searchTerm": "Shenhua Jian Yun", "priority": 5}
-
 			]
 		},
 		{
@@ -1516,6 +1541,13 @@
 				{"searchTerm": "Dragon Quest IV - Michibikareshi Monotachi"},
 				{"searchTerm": "Dragon Warrior IV"},
 				{"searchTerm": "Yongzhe Dou Elong VII (Dragon Quest VII)", "priority": 2}
+			]
+		},
+		{
+			"group": "Dragon, The",
+			"titles": [
+				{"searchTerm": "Dragon, The"},
+				{"searchTerm": "Loxiaolong Chuanqi (The Dragon)"}
 			]
 		},
 		{
@@ -1611,6 +1643,13 @@
 			]
 		},
 		{
+			"group": "F1 Race",
+			"titles": [
+				{"searchTerm": "F1 Race"},
+				{"searchTerm": "F-1 Race"}
+			]
+		},
+		{
 			"group": "F-15 City War",
 			"titles": [
 				{"searchTerm": "F-15 City War"}
@@ -1618,13 +1657,6 @@
 			"compilations": [
 				{"searchTerm": "Maxi 15"},
 				{"searchTerm": "Maxi-15 Pack"}
-			]
-		},
-		{
-			"group": "F1 Race",
-			"titles": [
-				{"searchTerm": "F-1 Race"},
-				{"searchTerm": "F1 Race"}
 			]
 		},
 		{
@@ -1717,12 +1749,28 @@
 					"priority": 2,
 					"filters": [
 						{
-							"conditions": {"matchString": "60 pin cart", "regionOrder": {"higherRegions": ["Japan"], "lowerRegions": ["All other regions"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"matchString": "60 pin cart",
+								"regionOrder": {
+									"higherRegions": ["Japan"],
+									"lowerRegions": ["All other regions"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						},
 						{
-							"conditions": {"matchString": "72 pin cart", "regionOrder": {"higherRegions": ["All other regions"], "lowerRegions": ["Japan"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"matchString": "72 pin cart",
+								"regionOrder": {
+									"higherRegions": ["All other regions"],
+									"lowerRegions": ["Japan"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						}
 					]
 				}
@@ -1772,8 +1820,8 @@
 			"group": "Fire 'n Ice",
 			"titles": [
 				{"searchTerm": "Fire 'n Ice"},
-				{"searchTerm": "Solomon's Key 2"},
-				{"searchTerm": "Solomon no Kagi 2 - Coolmintou Kyuushutsu Sakusen"}
+				{"searchTerm": "Solomon no Kagi 2 - Coolmintou Kyuushutsu Sakusen"},
+				{"searchTerm": "Solomon's Key 2"}
 			]
 		},
 		{
@@ -1838,8 +1886,8 @@
 		{
 			"group": "Flintstones, The - The Surprise at Dinosaur Peak!",
 			"titles": [
-				{"searchTerm": "Flintstones, The - The Surprise at Dinosaur Peak!"},
-				{"searchTerm": "Flintstones, The - The Surprise at Dinosaur Peak"}
+				{"searchTerm": "Flintstones, The - The Surprise at Dinosaur Peak"},
+				{"searchTerm": "Flintstones, The - The Surprise at Dinosaur Peak!"}
 			]
 		},
 		{
@@ -1882,9 +1930,9 @@
 		{
 			"group": "Galactic Crusader",
 			"titles": [
+				{"searchTerm": "Die Bian - Incantation"},
 				{"searchTerm": "Galactic Crusader"},
-				{"searchTerm": "Papillon Gals"},
-				{"searchTerm": "Die Bian - Incantation"}
+				{"searchTerm": "Papillon Gals"}
 			],
 			"compilations": [
 				{"searchTerm": "Mindblower Pak"},
@@ -1923,18 +1971,18 @@
 			]
 		},
 		{
+			"group": "Garou Densetsu Special",
+			"titles": [
+				{"searchTerm": "Garou Densetsu Special"},
+				{"searchTerm": "Garou Densetsu Special (Gouder)"},
+				{"searchTerm": "Super Real Bout 97", "priority": 2}
+			]
+		},
+		{
 			"group": "Garry Kitchen's Battletank",
 			"titles": [
 				{"searchTerm": "Garry Kitchen's Battletank"},
 				{"searchTerm": "Battle Tank", "priority": 2}
-			]
-		},
-		{
-			"group": "Garou Densetsu Special",
-			"titles": [
-				{"searchTerm": "Garou Densetsu Special (Gouder)"},
-				{"searchTerm": "Garou Densetsu Special"},
-				{"searchTerm": "Super Real Bout 97", "priority": 2}
 			]
 		},
 		{
@@ -2004,8 +2052,8 @@
 			"group": "Goal! Two",
 			"titles": [
 				{"searchTerm": "Eric Cantona Football Challenge - Goal! 2"},
-				{"searchTerm": "Goal!!"},
-				{"searchTerm": "Goal! Two"}
+				{"searchTerm": "Goal! Two"},
+				{"searchTerm": "Goal!!"}
 			]
 		},
 		{
@@ -2131,8 +2179,8 @@
 		{
 			"group": "Happy Camper",
 			"titles": [
-				{"searchTerm": "Happy Camper (NintendoAge)"},
-				{"searchTerm": "Happy Camper"}
+				{"searchTerm": "Happy Camper"},
+				{"searchTerm": "Happy Camper (NintendoAge)"}
 			]
 		},
 		{
@@ -2143,12 +2191,28 @@
 					"priority": 2,
 					"filters": [
 						{
-							"conditions": {"matchString": "60 pin cart", "regionOrder": {"higherRegions": ["Japan"], "lowerRegions": ["All other regions"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"matchString": "60 pin cart",
+								"regionOrder": {
+									"higherRegions": ["Japan"],
+									"lowerRegions": ["All other regions"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						},
 						{
-							"conditions": {"matchString": "72 pin cart", "regionOrder": {"higherRegions": ["All other regions"], "lowerRegions": ["Japan"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"matchString": "72 pin cart",
+								"regionOrder": {
+									"higherRegions": ["All other regions"],
+									"lowerRegions": ["Japan"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						}
 					]
 				}
@@ -2359,7 +2423,12 @@
 		{
 			"group": "JJ",
 			"titles": [
-				{"searchTerm": "JJ (Famicom 3D System)", "localNames": {"japanese": "ＪＪ とびだせ大作戦パートⅡ"}}
+				{
+					"searchTerm": "JJ (Famicom 3D System)",
+					"localNames": {
+						"japanese": "ＪＪ とびだせ大作戦パートⅡ"
+					}
+				}
 			]
 		},
 		{
@@ -2522,7 +2591,6 @@
 				{"searchTerm": "Kira Kira Star Night"},
 				{"searchTerm": "Kira Kira Star Night - Furusato Nouzei Fujimino-ban (Disc)", "priority": 2},
 				{"searchTerm": "Kira Kira Star Night AC", "priority": 3}
-
 			],
 			"supersets": [
 				{"searchTerm": "Kira Kira Star Night DX"},
@@ -2534,15 +2602,20 @@
 			"titles": [
 				{"searchTerm": "Hoshi no Kirby - Yume no Izumi no Monogatari"},
 				{"searchTerm": "Kirby's Adventure"},
-				{"searchTerm": "Wario Land 2", "localNames": {"japanese": "Ｗａｒｉｏ　Ｌａｎｄ　Ⅱ"}}
+				{
+					"searchTerm": "Wario Land 2",
+					"localNames": {
+						"japanese": "Ｗａｒｉｏ　Ｌａｎｄ　Ⅱ"
+					}
+				}
 			]
 		},
 		{
 			"group": "Kiwi Kraze - A Bird-Brained Adventure!",
 			"titles": [
+				{"searchTerm": "Kiwi Kraze (K-E3)"},
 				{"searchTerm": "Kiwi Kraze - A Bird-Brained Adventure!"},
-				{"searchTerm": "NewZealand Story, The"},
-				{"searchTerm": "Kiwi Kraze (K-E3)"}
+				{"searchTerm": "NewZealand Story, The"}
 			]
 		},
 		{
@@ -2717,8 +2790,8 @@
 			"group": "Linus Spacehead's Cosmic Crusade",
 			"titles": [
 				{"searchTerm": "Cosmic Spacehead"},
-				{"searchTerm": "Linus Spacehead's Cosmic Crusade"},
-				{"searchTerm": "Linus Spacehead"}
+				{"searchTerm": "Linus Spacehead"},
+				{"searchTerm": "Linus Spacehead's Cosmic Crusade"}
 			]
 		},
 		{
@@ -2746,13 +2819,24 @@
 		{
 			"group": "Little Mermaid, The",
 			"titles": [
-				{"searchTerm": "Little Mermaid - Ningyo Hime", "localNames": {"japanese": "リトル・マーメイド人魚姫"}},
+				{
+					"searchTerm": "Little Mermaid - Ningyo Hime",
+					"localNames": {
+						"japanese": "リトル・マーメイド人魚姫"
+					}
+				},
 				{"searchTerm": "Little Mermaid, The"},
 				{"searchTerm": "Little Mermaid, The (Electronica)"},
 				{"searchTerm": "Little Mermaid, The (Snake)", "priority": 2},
 				{"searchTerm": "Little Mermaid, The (Unknown)", "priority": 3},
 				{"searchTerm": "Malen'kaya Rusalochka", "priority": 4},
-				{"searchTerm": "Mermaid (M-U1)", "priority": 5, "localNames": {"japanese": "リトル・マーメイド人魚姫"}},
+				{
+					"searchTerm": "Mermaid (M-U1)",
+					"priority": 5,
+					"localNames": {
+						"japanese": "リトル・マーメイド人魚姫"
+					}
+				},
 				{"searchTerm": "Super Little Mamaid 2", "priority": 6}
 			]
 		},
@@ -2800,8 +2884,8 @@
 		{
 			"group": "Lizard",
 			"titles": [
-				{"searchTerm": "Lizard"},
 				{"searchTerm": "^Lizard.*?\\([0-9]{19}\\)", "nameType": "regex"},
+				{"searchTerm": "Lizard"},
 				{"searchTerm": "Lizard (2011)"}
 			]
 		},
@@ -2838,8 +2922,8 @@
 			"group": "M.C. Kids",
 			"titles": [
 				{"searchTerm": "M.C. Kids"},
-				{"searchTerm": "McDonaldland"},
-				{"searchTerm": "M.C. Mario"}
+				{"searchTerm": "M.C. Mario"},
+				{"searchTerm": "McDonaldland"}
 			]
 		},
 		{
@@ -2918,12 +3002,28 @@
 					"priority": 2,
 					"filters": [
 						{
-							"conditions": {"matchString": "60 pin cart", "regionOrder": {"higherRegions": ["Japan"], "lowerRegions": ["All other regions"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"matchString": "60 pin cart",
+								"regionOrder": {
+									"higherRegions": ["Japan"],
+									"lowerRegions": ["All other regions"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						},
 						{
-							"conditions": {"matchString": "72 pin cart", "regionOrder": {"higherRegions": ["All other regions"], "lowerRegions": ["Japan"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"matchString": "72 pin cart",
+								"regionOrder": {
+									"higherRegions": ["All other regions"],
+									"lowerRegions": ["Japan"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						}
 					]
 				}
@@ -2943,8 +3043,12 @@
 					"searchTerm": "Maniac Mansion",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"group": "Maniac Mansion (Japan)"}
+							"conditions": {
+								"matchRegions": ["Japan"]
+							},
+							"results": {
+								"group": "Maniac Mansion (Japan)"
+							}
 						}
 					]
 				}
@@ -3148,8 +3252,7 @@
 			"group": "Mickey Mania 7",
 			"titles": [
 				{"searchTerm": "Mickey Mania 7"},
-				{"searchTerm": "Zhongguo Tu Baobao - China Rabbit", "priority": 2},
-				{"searchTerm": "Zhongguo Tu Baobao - China Rabbit", "priority": 3}
+				{"searchTerm": "Zhongguo Tu Baobao - China Rabbit", "priority": 2}
 			]
 		},
 		{
@@ -3306,7 +3409,12 @@
 		{
 			"group": "Mortal Kombat II Yoko",
 			"titles": [
-				{"searchTerm": "Mortal Kombat II (Yoko)", "localNames": {"english": "Mortal Kombat Pro V"}},
+				{
+					"searchTerm": "Mortal Kombat II (Yoko)",
+					"localNames": {
+						"english": "Mortal Kombat Pro V"
+					}
+				},
 				{"searchTerm": "Mortal Kombat V Turbo - 30 People", "priority": 2},
 				{"searchTerm": "Mortal Kombat V Turbo - 30 People (ZR006)", "priority": 3},
 				{"searchTerm": "Mortal Kombat V Pro", "priority": 5}
@@ -3378,17 +3486,17 @@
 			]
 		},
 		{
-			"group": "Nekketsu! Street Basket - Ganbare Dunk Heroes",
-			"titles": [
-				{"searchTerm": "Nekketsu! Street Basket - Ganbare Dunk Heroes"},
-				{"searchTerm": "NBA Live 96", "priority": 2}
-			]
-		},
-		{
 			"group": "Nekketsu Kakutou Densetsu",
 			"titles": [
 				{"searchTerm": "Nekketsu Kakutou Densetsu"},
 				{"searchTerm": "Super Fighters"}
+			]
+		},
+		{
+			"group": "Nekketsu! Street Basket - Ganbare Dunk Heroes",
+			"titles": [
+				{"searchTerm": "Nekketsu! Street Basket - Ganbare Dunk Heroes"},
+				{"searchTerm": "NBA Live 96", "priority": 2}
 			]
 		},
 		{
@@ -3494,15 +3602,15 @@
 		{
 			"group": "Nobunaga's Ambition",
 			"titles": [
-				{"searchTerm": "Nobunaga's Ambition"},
-				{"searchTerm": "Nobunaga no Yabou - Zenkoku Ban"}
+				{"searchTerm": "Nobunaga no Yabou - Zenkoku Ban"},
+				{"searchTerm": "Nobunaga's Ambition"}
 			]
 		},
 		{
 			"group": "Nobunaga's Ambition II",
 			"titles": [
-				{"searchTerm": "Nobunaga's Ambition II"},
-				{"searchTerm": "Nobunaga no Yabou - Sengoku Gunyuuden"}
+				{"searchTerm": "Nobunaga no Yabou - Sengoku Gunyuuden"},
+				{"searchTerm": "Nobunaga's Ambition II"}
 			]
 		},
 		{
@@ -3523,13 +3631,6 @@
 			]
 		},
 		{
-			"group": "Ouroboros",
-			"titles": [
-				{"searchTerm": "Ouroboros"},
-				{"searchTerm": "Ouroboros (1JAM-Loop)", "priority": 2}
-			]
-		},
-		{
 			"group": "Othello",
 			"titles": [
 				{"searchTerm": "Othello"},
@@ -3537,6 +3638,13 @@
 			],
 			"compilations": [
 				{"searchTerm": "Total Funpak"}
+			]
+		},
+		{
+			"group": "Ouroboros",
+			"titles": [
+				{"searchTerm": "Ouroboros"},
+				{"searchTerm": "Ouroboros (1JAM-Loop)", "priority": 2}
 			]
 		},
 		{
@@ -3639,8 +3747,13 @@
 		{
 			"group": "Pizza Pop!",
 			"titles": [
-				{"searchTerm": "Pizza Pop!"},
-				{"searchTerm": "Mary Pizza Pop!", "localNames": {"english": "Pizza Pop! Mario"}}
+				{
+					"searchTerm": "Mary Pizza Pop!",
+					"localNames": {
+						"english": "Pizza Pop! Mario"
+					}
+				},
+				{"searchTerm": "Pizza Pop!"}
 			]
 		},
 		{
@@ -3664,8 +3777,15 @@
 					"searchTerm": "Pocahontas",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Asia"], "matchString": "Pirate"},
-							"results": {"localNames": {"english": "Pocohontos"}}
+							"conditions": {
+								"matchRegions": ["Asia"],
+								"matchString": "Pirate"
+							},
+							"results": {
+								"localNames": {
+									"english": "Pocohontos"
+								}
+							}
 						}
 					]
 				}
@@ -3701,12 +3821,28 @@
 					"priority": 2,
 					"filters": [
 						{
-							"conditions": {"matchString": "60 pin cart", "regionOrder": {"higherRegions": ["Japan"], "lowerRegions": ["All other regions"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"matchString": "60 pin cart",
+								"regionOrder": {
+									"higherRegions": ["Japan"],
+									"lowerRegions": ["All other regions"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						},
 						{
-							"conditions": {"matchString": "72 pin cart", "regionOrder": {"higherRegions": ["All other regions"], "lowerRegions": ["Japan"]}},
-							"results": {"priority": 1}
+							"conditions": {
+								"matchString": "72 pin cart",
+								"regionOrder": {
+									"higherRegions": ["All other regions"],
+									"lowerRegions": ["Japan"]
+								}
+							},
+							"results": {
+								"priority": 1
+							}
 						}
 					]
 				}
@@ -3715,8 +3851,19 @@
 		{
 			"group": "Poker Jijin - The World of Card Games",
 			"titles": [
-				{"searchTerm": "Poker Jijin - The World of Card Games", "localNames": {"chinese (traditional)": "撲克集錦"}},
-				{"searchTerm": "Poker Jijin", "priority": 2, "localNames": {"chinese (traditional)": "撲克集錦"}}
+				{
+					"searchTerm": "Poker Jijin - The World of Card Games",
+					"localNames": {
+						"chinese (traditional)": "撲克集錦"
+					}
+				},
+				{
+					"searchTerm": "Poker Jijin",
+					"priority": 2,
+					"localNames": {
+						"chinese (traditional)": "撲克集錦"
+					}
+				}
 			]
 		},
 		{
@@ -3764,8 +3911,8 @@
 		{
 			"group": "Power Soccer",
 			"titles": [
-				{"searchTerm": "Power Soccer"},
-				{"searchTerm": "FIFA 99"}
+				{"searchTerm": "FIFA 99"},
+				{"searchTerm": "Power Soccer"}
 			]
 		},
 		{
@@ -3816,7 +3963,9 @@
 		},
 		{
 			"group": "Puzzle",
-			"searchTerm": ["Puzzle"],
+			"titles": [
+				{"searchTerm": "Puzzle"}
+			],
 			"compilations": [
 				{"searchTerm": "Maxi 15"}
 			]
@@ -3896,7 +4045,6 @@
 		{
 			"group": "Rad Racer",
 			"titles": [
-				{"searchTerm": "Highway Star"},
 				{"searchTerm": "Rad Racer"},
 				{"searchTerm": "Highway Star", "priority": 2},
 				{"searchTerm": "Super Hang-On", "priority": 3}
@@ -3981,8 +4129,8 @@
 		{
 			"group": "Robocco Wars",
 			"titles": [
-				{"searchTerm": "Robocco Wars"},
-				{"searchTerm": "Konami World III (K-W3)"}
+				{"searchTerm": "Konami World III (K-W3)"},
+				{"searchTerm": "Robocco Wars"}
 			]
 		},
 		{
@@ -4132,16 +4280,6 @@
 			]
 		},
 		{
-			"group": "Sanguozhi II",
-			"titles": [
-				{"searchTerm": "Sanguozhi II"},
-				{"searchTerm": "Erzhan Zhi Jingdian Zhanyi", "priority": 2},
-				{"searchTerm": "Sanguozhi - Zhi Qian Jun Po", "priority": 3},
-				{"searchTerm": "Sanguozhi II Dai", "priority": 4},
-				{"searchTerm": "Wujian Dao Fengyun", "priority": 5}
-			]
-		},
-		{
 			"group": "Sanguozhi - Shu Wei Zhengba",
 			"titles": [
 				{"searchTerm": "Sanguozhi - Shu Wei Zhengba"},
@@ -4160,6 +4298,16 @@
 			"titles": [
 				{"searchTerm": "Sanguozhi - Xiongba Tianxia (980100026)"},
 				{"searchTerm": "Sanguozhi - Xiongba Tianxia (980337)", "priority": 2}
+			]
+		},
+		{
+			"group": "Sanguozhi II",
+			"titles": [
+				{"searchTerm": "Sanguozhi II"},
+				{"searchTerm": "Erzhan Zhi Jingdian Zhanyi", "priority": 2},
+				{"searchTerm": "Sanguozhi - Zhi Qian Jun Po", "priority": 3},
+				{"searchTerm": "Sanguozhi II Dai", "priority": 4},
+				{"searchTerm": "Wujian Dao Fengyun", "priority": 5}
 			]
 		},
 		{
@@ -4274,7 +4422,7 @@
 			"titles": [
 				{"searchTerm": "Shaonian Youxia - Guangming Zhi Shen (Young Chivalry)"},
 				{"searchTerm": "Shaonian Youxia - Guangming Zhi Shen (Young Chivalry) (FS308)", "priority": 2},
-				{"searchTerm": "Jianxia Qingyuan (Coolboy) (Unl)", "priority": 3, "nameType": "regionFree"}
+				{"searchTerm": "Jianxia Qingyuan (Coolboy) (Unl)", "nameType": "regionFree", "priority": 3}
 			]
 		},
 		{
@@ -4287,13 +4435,6 @@
 		{
 			"group": "Sheng Doushi Xingshi - Tianma Zhi Huanxiang",
 			"titles": [
-				{"searchTerm": "Sheng Doushi Xingshi - Tianma Zhi Huanxiang"},
-				{"searchTerm": "Sheng Doushi Xingshi - Beiou Tuji Pian", "priority": 2}
-			]
-		},
-		{
-			"group": "Sheng Doushi Xingshi - Tianma Zhi Huanxiang",
-			"titles" :[
 				{"searchTerm": "Sheng Doushi Xingshi - Tianma Zhi Huanxiang"},
 				{"searchTerm": "Sheng Doushi Xingshi - Shikong Doushi", "priority": 2}
 			]
@@ -4401,8 +4542,15 @@
 		{
 			"group": "Silk Worm",
 			"titles": [
-				{"searchTerm": "Silk Worm"},
-				{"searchTerm": "Silk 2"}
+				{"searchTerm": "Silk 2"},
+				{"searchTerm": "Silk Worm"}
+			]
+		},
+		{
+			"group": "Silva Saga",
+			"titles": [
+				{"searchTerm": "Silva Saga"},
+				{"searchTerm": "Yin Baise Shajia", "priority": 2}
 			]
 		},
 		{
@@ -4412,13 +4560,6 @@
 			],
 			"compilations": [
 				{"searchTerm": "Super Cartridge Ver 7 - 4 in 1"}
-			]
-		},
-		{
-			"group": "Silva Saga",
-			"titles": [
-				{"searchTerm": "Silva Saga"},
-				{"searchTerm": "Yin Baise Shajia", "priority": 2}
 			]
 		},
 		{
@@ -4488,8 +4629,8 @@
 		{
 			"group": "Solomon's Key",
 			"titles": [
-				{"searchTerm": "Solomon's Key"},
-				{"searchTerm": "Solomon no Kagi"}
+				{"searchTerm": "Solomon no Kagi"},
+				{"searchTerm": "Solomon's Key"}
 			]
 		},
 		{
@@ -4539,7 +4680,6 @@
 				{"searchTerm": "Spook-o'-tron (2023)"},
 				{"searchTerm": "Spook-o'-tron (2022)", "priority": 2},
 				{"searchTerm": "Spook-o'-tron (Backer Edition)", "priority": 3}
-
 			]
 		},
 		{
@@ -4623,6 +4763,13 @@
 			]
 		},
 		{
+			"group": "Street Fighter 2010 - The Final Fight",
+			"titles": [
+				{"searchTerm": "2010 Street Fighter"},
+				{"searchTerm": "Street Fighter 2010 - The Final Fight"}
+			]
+		},
+		{
 			"group": "Street Fighter II - The World Warrior",
 			"titles": [
 				{"searchTerm": "Street Fighter II - The World Warrior"},
@@ -4656,13 +4803,6 @@
 			]
 		},
 		{
-			"group": "Street Fighter 2010 - The Final Fight",
-			"titles": [
-				{"searchTerm": "2010 Street Fighter"},
-				{"searchTerm": "Street Fighter 2010 - The Final Fight"}
-			]
-		},
-		{
 			"group": "Street Fighter Zero 2 '97",
 			"titles": [
 				{"searchTerm": "Street Fighter Zero 2 '97"},
@@ -4692,22 +4832,6 @@
 				{"searchTerm": "Suitang Yanyi (970100587)"},
 				{"searchTerm": "Suitang Yanyi (980185)", "priority": 2},
 				{"searchTerm": "Zhonghua Yingxiong", "priority": 3}
-			]
-		},
-		{
-			"group": "Super City Tank",
-			"titles": [
-				{"searchTerm": "Super City Tank"},
-				{"searchTerm": "Super City Tank (Infinite Lives)", "priority": 2}
-			]
-		},
-		{
-			"group": "Superman - Sunsoft",
-			"titles": [
-				{"searchTerm": "Superman (Sunsoft)"}
-			],
-			"supersets": [
-				{"searchTerm": "Sunman"}
 			]
 		},
 		{
@@ -4757,7 +4881,7 @@
 		},
 		{
 			"group": "Super Gun",
-			"compilations" : [
+			"compilations": [
 				{"searchTerm": "Caltron - 9 in 1", "priority": 2}
 			]
 		},
@@ -4803,11 +4927,15 @@
 				{
 					"searchTerm": "Super Mario Bros. 2",
 					"filters": [
-                        {
-                            "conditions": {"matchString": "\\(Pirate\\)"},
-                            "results": {"group": "Super Mario Bros. 2 Pirate"}
-                        }
-                    ]
+						{
+							"conditions": {
+								"matchString": "\\(Pirate\\)"
+							},
+							"results": {
+								"group": "Super Mario Bros. 2 Pirate"
+							}
+						}
+					]
 				},
 				{"searchTerm": "Super Mario USA", "priority": 2},
 				{"searchTerm": "Super Bros. 2", "priority": 3},
@@ -4891,6 +5019,15 @@
 			]
 		},
 		{
+			"group": "Superman - Sunsoft",
+			"titles": [
+				{"searchTerm": "Superman (Sunsoft)"}
+			],
+			"supersets": [
+				{"searchTerm": "Sunman"}
+			]
+		},
+		{
 			"group": "Swords and Runes (Limited Edition)",
 			"titles": [
 				{"searchTerm": "Swords and Runes (Limited Edition)"},
@@ -4922,8 +5059,8 @@
 		{
 			"group": "Tank",
 			"titles": [
-				{"searchTerm": "Tanque"},
-				{"searchTerm": "Tank"}
+				{"searchTerm": "Tank"},
+				{"searchTerm": "Tanque"}
 			],
 			"compilations": [
 				{"searchTerm": "Asder - 20 in 1"},
@@ -4934,14 +5071,15 @@
 			"group": "Tank Fengyun - King Tank",
 			"titles": [
 				{"searchTerm": "Tank Fengyun - King Tank"},
-				{"searchTerm": "Super City Tank", "priority": 2}
+				{"searchTerm": "Super City Tank", "priority": 2},
+				{"searchTerm": "Super City Tank (Infinite Lives)", "priority": 3}
 			]
 		},
 		{
 			"group": "Target - Renegade",
 			"titles": [
-				{"searchTerm": "Target - Renegade"},
 				{"searchTerm": "Double Dragon IV"},
+				{"searchTerm": "Target - Renegade"},
 				{"searchTerm": "Double Dragon V - The Shadow Falls (D-N3)", "priority": 2}
 			]
 		},
@@ -4973,8 +5111,8 @@
 		{
 			"group": "Tecmo World Wrestling",
 			"titles": [
-				{"searchTerm": "Tecmo World Wrestling"},
-				{"searchTerm": "Gekitou Pro Wrestling!! - Toukon Densetsu"}
+				{"searchTerm": "Gekitou Pro Wrestling!! - Toukon Densetsu"},
+				{"searchTerm": "Tecmo World Wrestling"}
 			]
 		},
 		{
@@ -4986,8 +5124,12 @@
 					"searchTerm": "Teenage Mutant Ninja Turtles",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Japan"]},
-							"results": {"group": "Teenage Mutant Ninja Turtles II - The Arcade Game"}
+							"conditions": {
+								"matchRegions": ["Japan"]
+							},
+							"results": {
+								"group": "Teenage Mutant Ninja Turtles II - The Arcade Game"
+							}
 						}
 					]
 				}
@@ -5023,17 +5165,17 @@
 			]
 		},
 		{
-			"group": "Terminator, The",
-			"titles": [
-				{"searchTerm": "Terminator, The"},
-				{"searchTerm": "T3 Terminator (A-Q3)", "priority": 2}
-			]
-		},
-		{
 			"group": "Terminator 2 - Judgment Day",
 			"titles": [
 				{"searchTerm": "Terminator 2"},
 				{"searchTerm": "Terminator 2 - Judgment Day"}
+			]
+		},
+		{
+			"group": "Terminator, The",
+			"titles": [
+				{"searchTerm": "Terminator, The"},
+				{"searchTerm": "T3 Terminator (A-Q3)", "priority": 2}
 			]
 		},
 		{
@@ -5046,17 +5188,17 @@
 			]
 		},
 		{
-			"group": "Tetris - Tengen",
-			"titles": [
-				{"searchTerm": "Tetris (Tengen)"},
-				{"searchTerm": "Super Tetris II", "priority": 2}
-			]
-		},
-		{
 			"group": "Tetris 2",
 			"titles": [
 				{"searchTerm": "Tetris 2"},
 				{"searchTerm": "Tetris Flash"}
+			]
+		},
+		{
+			"group": "Tetris - Tengen",
+			"titles": [
+				{"searchTerm": "Tetris (Tengen)"},
+				{"searchTerm": "Super Tetris II", "priority": 2}
 			]
 		},
 		{
@@ -5102,8 +5244,8 @@
 		{
 			"group": "Tiny Toon Adventures",
 			"titles": [
-				{"searchTerm": "Tiny Toon Adventures"},
 				{"searchTerm": "Super Bros. 6"},
+				{"searchTerm": "Tiny Toon Adventures"},
 				{"searchTerm": "Felix vs Jerry (F-Y2)", "priority": 2},
 				{"searchTerm": "Domkey Kong", "priority": 3},
 				{"searchTerm": "Super Mario 6 (S-M6)", "priority": 4}
@@ -5133,18 +5275,18 @@
 			]
 		},
 		{
-			"group": "Tom & Jerry - The Ultimate Game of Cat and Mouse!",
-			"titles": [
-				{"searchTerm": "Tom & Jerry"},
-				{"searchTerm": "Tom & Jerry - The Ultimate Game of Cat and Mouse!"}
-			]
-		},
-		{
 			"group": "Tom & Jerry 3",
 			"titles": [
 				{"searchTerm": "Tom & Jerry 3"},
 				{"searchTerm": "Yuanshi", "priority": 2},
 				{"searchTerm": "Yuanshi II", "priority": 3}
+			]
+		},
+		{
+			"group": "Tom & Jerry - The Ultimate Game of Cat and Mouse!",
+			"titles": [
+				{"searchTerm": "Tom & Jerry"},
+				{"searchTerm": "Tom & Jerry - The Ultimate Game of Cat and Mouse!"}
 			]
 		},
 		{
@@ -5239,18 +5381,9 @@
 		{
 			"group": "Trolls in Crazyland, The",
 			"titles": [
+				{"searchTerm": "Crazy Land"},
 				{"searchTerm": "Doki! Doki! Yuuenchi - Crazy Land Daisakusen"},
-				{"searchTerm": "Trolls in Crazyland, The"},
-				{"searchTerm": "Crazy Land"}
-			]
-		},
-		{
-			"group": "Turbo Magic Carpet 1001",
-			"titles": [
-				{"searchTerm": "Magic Carpet 1001"}
-			],
-			"compilations": [
-				{"searchTerm": "Asder - 20 in 1"}
+				{"searchTerm": "Trolls in Crazyland, The"}
 			]
 		},
 		{
@@ -5264,8 +5397,8 @@
 			"group": "Twin Cobra",
 			"titles": [
 				{"searchTerm": "Kyuukyoku Tiger"},
-				{"searchTerm": "Twin Cobra"},
-				{"searchTerm": "Tiger (FK-C4-33)"}
+				{"searchTerm": "Tiger (FK-C4-33)"},
+				{"searchTerm": "Twin Cobra"}
 			]
 		},
 		{
@@ -5282,8 +5415,12 @@
 					"searchTerm": "Twin Eagle",
 					"filters": [
 						{
-							"conditions": {"matchRegions": ["Asia"]},
-							"results": {"group": "Double Strike - Aerial Attack Force"}
+							"conditions": {
+								"matchRegions": ["Asia"]
+							},
+							"results": {
+								"group": "Double Strike - Aerial Attack Force"
+							}
 						}
 					]
 				}
@@ -5313,8 +5450,8 @@
 		{
 			"group": "Ultima - Quest of the Avatar",
 			"titles": [
-				{"searchTerm": "Ultima - Seija e no Michi"},
-				{"searchTerm": "Ultima - Quest of the Avatar"}
+				{"searchTerm": "Ultima - Quest of the Avatar"},
+				{"searchTerm": "Ultima - Seija e no Michi"}
 			]
 		},
 		{
@@ -5420,8 +5557,8 @@
 		{
 			"group": "Wario's Woods",
 			"titles": [
-				{"searchTerm": "Wario's Woods"},
-				{"searchTerm": "Wario no Mori"}
+				{"searchTerm": "Wario no Mori"},
+				{"searchTerm": "Wario's Woods"}
 			]
 		},
 		{
@@ -5449,8 +5586,8 @@
 		{
 			"group": "Windows 2000",
 			"titles": [
-				{"searchTerm": "Windows 2000"},
 				{"searchTerm": "Bravesoft Windows 2000"},
+				{"searchTerm": "Windows 2000"},
 				{"searchTerm": "SuborWin 2000", "priority": 2}
 			]
 		},
@@ -5511,18 +5648,18 @@
 			]
 		},
 		{
+			"group": "Wurm - Journey to the Center of the Earth!",
+			"titles": [
+				{"searchTerm": "Chitei Senkuu Vazolder"},
+				{"searchTerm": "Wurm - Journey to the Center of the Earth!"}
+			]
+		},
+		{
 			"group": "Wushi Hun",
 			"titles": [
 				{"searchTerm": "Wushi Hun (8 characters)"},
 				{"searchTerm": "Wushi Hun (4 characters)", "priority": 2},
 				{"searchTerm": "Samurai Shodown III", "priority": 3}
-			]
-		},
-		{
-			"group": "Wurm - Journey to the Center of the Earth!",
-			"titles": [
-				{"searchTerm": "Chitei Senkuu Vazolder"},
-				{"searchTerm": "Wurm - Journey to the Center of the Earth!"}
 			]
 		},
 		{
@@ -5556,20 +5693,20 @@
 			]
 		},
 		{
+			"group": "Xiang Shuai Chuanqi",
+			"titles": [
+				{"searchTerm": "Xiang Shuai Chuanqi"},
+				{"searchTerm": "Chuliuxiang Xin Chuan", "priority": 2},
+				{"searchTerm": "Da Xieke - Chuliuxiang", "priority": 3}
+			]
+		},
+		{
 			"group": "Xiao Mali",
 			"titles": [
 				{"searchTerm": "Xiao Mali (Nei-Hu)"},
 				{"searchTerm": "Xiao Mali", "priority": 2},
 				{"searchTerm": "Xiao Mali (Unknown)", "priority": 3},
 				{"searchTerm": "Bingo", "priority": 4}
-			]
-		},
-		{
-			"group": "Xiang Shuai Chuanqi",
-			"titles": [
-				{"searchTerm": "Xiang Shuai Chuanqi"},
-				{"searchTerm": "Chuliuxiang Xin Chuan", "priority": 2},
-				{"searchTerm": "Da Xieke - Chuliuxiang", "priority": 3}
 			]
 		},
 		{
@@ -5599,7 +5736,7 @@
 			"group": "Xuanyuan Jian - Xian Zhi Yuan",
 			"titles": [
 				{"searchTerm": "Xuanyuan Jian - Xian Zhi Yuan"},
-				{"searchTerm": "Jianxia Qingyuan (Jncota) (Aftermarket) (Unl)", "priority": 2, "nameType": "regionFree"},
+				{"searchTerm": "Jianxia Qingyuan (Jncota) (Aftermarket) (Unl)", "nameType": "regionFree", "priority": 2},
 				{"searchTerm": "Zhanshen Shijie", "priority": 3}
 			]
 		},
@@ -5660,8 +5797,8 @@
 		{
 			"group": "Yoshi's Cookie",
 			"titles": [
-				{"searchTerm": "Yoshi's Cookie"},
 				{"searchTerm": "Yoshi no Cookie"},
+				{"searchTerm": "Yoshi's Cookie"},
 				{"searchTerm": "Mario 12", "priority": 2}
 			]
 		},
@@ -5723,8 +5860,8 @@
 		{
 			"group": "Zippy Race",
 			"titles": [
-				{"searchTerm": "Zippy Race"},
-				{"searchTerm": "Rally"}
+				{"searchTerm": "Rally"},
+				{"searchTerm": "Zippy Race"}
 			]
 		},
 		{

@@ -15,8 +15,8 @@
 		<category>Games</category>
 		<description>Test Title (Europe)</description>
 		<release name="Test Title (Europe)" region="Europe" language="En"/>
-		<rom name="Test Title (Europe).cue" crc="00000000"/>
 		<rom name="Test Title (Europe).bin" crc="00000000"/>
+		<rom name="Test Title (Europe).cue" crc="00000000"/>
 	</game>
 	<game name="Test Title (Europe) (Da,No,Sv)" cloneof="Test Title (Europe) (En,Fr,De,It)">
 		<category>Games</category>
@@ -24,8 +24,8 @@
 		<release name="Test Title (Europe) (Da,No,Sv)" region="Europe" language="Da"/>
 		<release name="Test Title (Europe) (Da,No,Sv)" region="Europe" language="No"/>
 		<release name="Test Title (Europe) (Da,No,Sv)" region="Europe" language="Sv"/>
-		<rom name="Test Title (Europe) (Da,No,Sv).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title (Europe) (Da,No,Sv).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe) (Da,No,Sv).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title (Europe) (En,Fr,De,It)">
 		<category>Games</category>

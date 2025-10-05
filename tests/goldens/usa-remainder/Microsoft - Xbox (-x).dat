@@ -676,8 +676,8 @@
 		<category>Applications</category>
 		<description>August 2003 External Recovery (Build 5659) (USA)</description>
 		<release name="August 2003 External Recovery (Build 5659) (USA)" region="USA" language="En"/>
-		<rom name="August 2003 External Recovery (Build 5659) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="August 2003 External Recovery (Build 5659) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="August 2003 External Recovery (Build 5659) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Auto Modellista (USA, Japan)">
 		<category>Games</category>
@@ -19093,8 +19093,8 @@
 		<release name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)" region="USA" language="Ko"/>
 		<release name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)" region="USA" language="Pt"/>
 		<release name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)" region="USA" language="Zh"/>
-		<rom name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Alt)" cloneof="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)">
 		<category>Applications</category>
@@ -19108,8 +19108,8 @@
 		<release name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Alt)" region="USA" language="Ko"/>
 		<release name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Alt)" region="USA" language="Pt"/>
 		<release name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Alt)" region="USA" language="Zh"/>
-		<rom name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Alt).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Alt).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Alt).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Xbox Live Arcade (World) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (Rev 1)" cloneof="Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)">
 		<category>Applications</category>
@@ -19253,8 +19253,8 @@
 		<category>Applications</category>
 		<description>Xbox Wireless Adapter Setup v1.0 (USA)</description>
 		<release name="Xbox Wireless Adapter Setup v1.0 (USA)" region="USA" language="En"/>
-		<rom name="Xbox Wireless Adapter Setup v1.0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Xbox Wireless Adapter Setup v1.0 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Xbox Wireless Adapter Setup v1.0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Xbox the Best of Demo Disk Version 10.0 (Europe) (En,Fr,De,Es,It,Nl,Sv)">
 		<category>Demos</category>

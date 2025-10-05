@@ -1,39 +1,43 @@
 {
 	"description": {
 		"name": "Retool - Prefer oldest",
-		"lastUpdated": "24 June 2025",
-		"minimumVersion": "2.02"
+		"lastUpdated": "2025-08-30 10:23:54",
+		"minimumVersion": "2.4.0"
 	},
 	"variants": [
-        {
-            "group": "Test Title 4",
-            "titles": [
-                {"searchTerm": "Test Title 4"}
-            ],
-            "supersets": [
-                {"searchTerm": "Test Title 4 - GOTY"}
-            ]
-        },
-        {
-            "group": "Test Title 5",
-            "titles": [
-                {"searchTerm": "Test Title 5 - I like this version"},
-                {"searchTerm": "Test Title 5", "priority": 2, "isOldest": true}
-            ]
-        },
-        {
-            "group": "Test Title 6",
-            "titles": [
-                {
-                    "searchTerm": "Test Title 6",
-                    "filters": [
-                        {
-                            "conditions": {"matchString": "\\(Rev 1\\)"},
-                            "results": {"isOldest": true}
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+		{
+			"group": "Test Title 4",
+			"titles": [
+				{"searchTerm": "Test Title 4"}
+			],
+			"supersets": [
+				{"searchTerm": "Test Title 4 - GOTY"}
+			]
+		},
+		{
+			"group": "Test Title 5",
+			"titles": [
+				{"searchTerm": "Test Title 5 - I like this version"},
+				{"searchTerm": "Test Title 5", "priority": 2, "isOldest": true}
+			]
+		},
+		{
+			"group": "Test Title 6",
+			"titles": [
+				{
+					"searchTerm": "Test Title 6",
+					"filters": [
+						{
+							"conditions": {
+								"matchString": "\\(Rev 1\\)"
+							},
+							"results": {
+								"isOldest": true
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }

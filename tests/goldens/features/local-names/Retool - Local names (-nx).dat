@@ -15,21 +15,21 @@
 		<category>Games</category>
 		<description>Test Title (USA)</description>
 		<release name="テストタイトル (USA)" region="USA" language="En"/>
-		<rom name="Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="測試標題 2 (USA)">
 		<category>Games</category>
 		<description>Test Title 2 (USA)</description>
 		<release name="測試標題 2 (USA)" region="USA" language="En"/>
-		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 2 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Titre du test 3 (USA)">
 		<category>Games</category>
 		<description>Test Title 3 (USA)</description>
 		<release name="Titre du test 3 (USA)" region="USA" language="En"/>
-		<rom name="Test Title 3 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 3 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 3 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 </datafile>

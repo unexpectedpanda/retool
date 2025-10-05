@@ -100,6 +100,15 @@ You can use the following keys in an object that's in a `compilations` array:
       </td>
     </tr>
     <tr>
+      <td><code>categories</code></td>
+      <td><code>array[str]</code></td>
+      <td>
+        <p>Optional, A category is a class of titles, like Demos, Games, and Multimedia.
+          Multiple categories can be assigned to a title, and existing categories are
+          overridden.</p>
+      </td>
+    </tr>
+    <tr>
       <td><code>titlePosition</code></td>
       <td><code>int</code></td>
       <td>

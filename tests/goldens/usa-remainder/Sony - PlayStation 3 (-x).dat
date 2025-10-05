@@ -174,15 +174,15 @@
 		<category>Applications</category>
 		<description>3.40 IDU-IDU FW Update (USA)</description>
 		<release name="3.40 IDU-IDU FW Update (USA)" region="USA" language="En"/>
-		<rom name="3.40 IDU-IDU FW Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="3.40 IDU-IDU FW Update (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="3.40 IDU-IDU FW Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="3.66 IDU FW (USA)">
 		<category>Applications</category>
 		<description>3.66 IDU FW (USA)</description>
 		<release name="3.66 IDU FW (USA)" region="USA" language="En"/>
-		<rom name="3.66 IDU FW (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="3.66 IDU FW (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="3.66 IDU FW (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="3D Collection (Asia)">
 		<category>Games</category>
@@ -13616,7 +13616,7 @@
 		<release name="Gran Turismo 5 - Prologue - Special Event Version - GT by Citroen (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Demo)" region="Europe" language="Pt"/>
 		<rom name="Gran Turismo 5 - Prologue - Special Event Version - GT by Citroen (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Demo).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Gran Turismo 5 - Prologue Spec III (Japan)" cloneof="Gran Turismo 5 - 2013 Edition (Asia) (En,Zh)">
+	<game name="Gran Turismo 5 - Prologue Spec III (Japan)" cloneof="Gran Turismo 5 - Prologue (USA) (En,Fr) (v03.00)">
 		<category>Games</category>
 		<description>Gran Turismo 5 - Prologue Spec III (Japan)</description>
 		<release name="Gran Turismo 5 - Prologue Spec III (Japan)" region="Japan" language="Ja"/>
@@ -14139,8 +14139,8 @@
 		<category>Demos</category>
 		<description>Guitar Hero - Smash Hits - May 2.76 IDU Update (USA)</description>
 		<release name="Guitar Hero - Smash Hits - May 2.76 IDU Update (USA)" region="USA" language="En"/>
-		<rom name="Guitar Hero - Smash Hits - May 2.76 IDU Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Guitar Hero - Smash Hits - May 2.76 IDU Update (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Guitar Hero - Smash Hits - May 2.76 IDU Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Guitar Hero - Van Halen (Australia) (En,Fr,De,Es,It)" cloneof="Guitar Hero - Van Halen (USA) (En,Fr)">
 		<category>Games</category>
@@ -24552,43 +24552,43 @@
 		<category>Applications</category>
 		<description>PS3 IDU 3.50 FW - Oct 2010 (USA)</description>
 		<release name="PS3 IDU 3.50 FW - Oct 2010 (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU 3.50 FW - Oct 2010 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="PS3 IDU 3.50 FW - Oct 2010 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 3.50 FW - Oct 2010 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU 3.56 FW (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU 3.56 FW (USA)</description>
 		<release name="PS3 IDU 3.56 FW (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU 3.56 FW (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="PS3 IDU 3.56 FW (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 3.56 FW (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU 3.72 PS 3D Display Update (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU 3.72 PS 3D Display Update (USA)</description>
 		<release name="PS3 IDU 3.72 PS 3D Display Update (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU 3.72 PS 3D Display Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="PS3 IDU 3.72 PS 3D Display Update (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 3.72 PS 3D Display Update (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU 431 (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU 431 (USA)</description>
 		<release name="PS3 IDU 431 (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU 431 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="PS3 IDU 431 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU 431 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU Update 4.10 (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU Update 4.10 (USA)</description>
 		<release name="PS3 IDU Update 4.10 (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU Update 4.10 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="PS3 IDU Update 4.10 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU Update 4.10 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 IDU Update 430 (USA)">
 		<category>Applications</category>
 		<description>PS3 IDU Update 430 (USA)</description>
 		<release name="PS3 IDU Update 430 (USA)" region="USA" language="En"/>
-		<rom name="PS3 IDU Update 430 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="PS3 IDU Update 430 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 IDU Update 430 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PS3 Standard IDU 4.23 - Holiday 2012 Update (USA)">
 		<category>Demos</category>
@@ -24600,8 +24600,8 @@
 		<category>Applications</category>
 		<description>PS3 System Software v.4.21 - F-W Only (USA)</description>
 		<release name="PS3 System Software v.4.21 - F-W Only (USA)" region="USA" language="En"/>
-		<rom name="PS3 System Software v.4.21 - F-W Only (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="PS3 System Software v.4.21 - F-W Only (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PS3 System Software v.4.21 - F-W Only (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Pac-Man and the Ghostly Adventures (Europe) (En,Fr,De,Es,It)" cloneof="Pac-Man and the Ghostly Adventures (USA) (En,Fr,Es,Pt)">
 		<category>Games</category>
@@ -24967,16 +24967,16 @@
 		<release name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr)" region="Europe" language="Sv"/>
 		<release name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr)" region="Europe" language="Tr"/>
 		<release name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr)" region="Europe" language="Zh"/>
-		<rom name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PlayStation 3 System Software Update (Version 2.0) (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr)">
 		<category>Applications</category>
 		<description>PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr)</description>
 		<release name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr)" region="USA" language="En"/>
 		<release name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr)" region="USA" language="Fr"/>
-		<rom name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="PlayStation 3 System Software Update (Version 2.0) (USA) (En,Fr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="PlayStation All-Stars Battle Royale (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)" cloneof="PlayStation All-Stars Battle Royale (USA) (En,Fr,Es,Pt)">
 		<category>Games</category>

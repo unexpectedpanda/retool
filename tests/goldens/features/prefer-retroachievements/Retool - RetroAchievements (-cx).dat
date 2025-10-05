@@ -15,35 +15,35 @@
 		<category>Games</category>
 		<description>Test Title (USA)</description>
 		<release name="Test Title (USA)" region="USA" language="En"/>
-		<rom name="Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title (USA).bin" size="1000" crc="22222222" md5="22222222222222222222222222222222" sha1="2222222222222222222222222222222222222222"/>
+		<rom name="Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title (USA) (Rev 1)" cloneof="Test Title (USA)">
 		<category>Games</category>
 		<description>Test Title (USA) (Rev 1)</description>
 		<release name="Test Title (USA) (Rev 1)" region="USA" language="En"/>
-		<rom name="Test Title (USA) (Rev 1).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title (USA) (Rev 1).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA) (Rev 1).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 2 (Europe)" retroachievements="yes">
 		<category>Games</category>
 		<description>Test Title 2 (Europe)</description>
 		<release name="Test Title 2 (Europe)" region="Europe" language="En"/>
-		<rom name="Test Title 2 (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 2 (Europe).bin" size="1000" crc="44444444" md5="44444444444444444444444444444444" sha1="4444444444444444444444444444444444444444"/>
+		<rom name="Test Title 2 (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 2 (USA)" cloneof="Test Title 2 (Europe)">
 		<category>Games</category>
 		<description>Test Title 2 (USA)</description>
 		<release name="Test Title 2 (USA)" region="USA" language="En"/>
-		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 2 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
 	<game name="Test Title 3 (Europe)" retroachievements="yes">
 		<category>Games</category>
 		<description>Test Title 3 (Europe)</description>
 		<release name="Test Title 3 (Europe)" region="Europe" language="En"/>
-		<rom name="Test Title 3 (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000"/>
 		<rom name="Test Title 3 (Europe).bin" size="1000" crc="6666666666666666" md5="66666666666666666666666666666666"/>
+		<rom name="Test Title 3 (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000"/>
 	</game>
 </datafile>

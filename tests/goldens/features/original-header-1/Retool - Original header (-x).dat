@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<completely_made_up_tag>This tests the original header setting</completely_made_up_tag>
+		<name>Retool - Original header</name>
+		<description>Retool - Original header (2025-06-21)</description>
+		<version>2025-06-21 00-00-00</version>
+		<date>2025-06-21 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<url>https://unexpectedpanda.github.io/retool</url>
+		<retool>Created by Retool X</retool>
+	</header>
+	<game name="Test Title (Europe)" cloneof="Test Title (USA)">
+		<category>Games</category>
+		<description>Test Title (Europe)</description>
+		<release name="Test Title (Europe)" region="Europe" language="En"/>
+		<rom name="Test Title (Europe).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title (USA)">
+		<category>Games</category>
+		<description>Test Title (USA)</description>
+		<release name="Test Title (USA)" region="USA" language="En"/>
+		<rom name="Test Title (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

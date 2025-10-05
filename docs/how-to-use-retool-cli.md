@@ -365,6 +365,9 @@ can pass other settings via command line options.
 These options change how Retool handles certain titles.
 
 * **`-c` Prefer titles with RetroAchievements**
+  <br>The data source uses hashes from CHD/RVZ files for disc-based images, so for this
+  feature to work on Redump DAT files you need to use CHD/RVZ versions, like those found
+  at [MAME Redump](https://github.com/MetalSlug/MAMERedump).
 
 * **`-d` Disable 1G1R filtering**{:#disable-1g1r}
   <br>Ignore clone lists, and treat each title as unique. Useful if you want to keep
@@ -547,6 +550,9 @@ The available exclusions are as follows:
   <br>Don't use this if you're a DATVault subscriber.
 
 * **`--labelretro` Mark titles with a retroachievements="yes" attribute**
+  <br>The data source uses hashes from CHD/RVZ files for disc-based images, so for this
+  feature to work on Redump DAT files you need to use CHD/RVZ versions, like those found
+  at [MAME Redump](https://github.com/MetalSlug/MAMERedump).
 
 * **`--listnames` Also output a TXT file of just the kept title names**
   <br>See [`config/user-config.yaml`](#the-user-configyaml-file) to add a prefix and/or

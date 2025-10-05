@@ -1,10 +1,9 @@
 {
 	"description": {
 		"name": "Nintendo - Nintendo 3DS (No-Intro)",
-		"lastUpdated": "30 December 2023",
-		"minimumVersion": "2.02"
+		"lastUpdated": "2025-08-30 10:23:53",
+		"minimumVersion": "2.4.0"
 	},
-
 	"variants": [
 		{
 			"group": "3D Game Collection - 55-in-1",
@@ -23,15 +22,15 @@
 		{
 			"group": "Ace Combat - Assault Horizon Legacy",
 			"titles": [
-				{"searchTerm": "Ace Combat - Assault Horizon Legacy"},
-				{"searchTerm": "Ace Combat 3D - Cross Rumble"}
+				{"searchTerm": "Ace Combat 3D - Cross Rumble"},
+				{"searchTerm": "Ace Combat - Assault Horizon Legacy"}
 			]
 		},
 		{
 			"group": "Ace Combat - Assault Horizon Legacy+",
 			"titles": [
-				{"searchTerm": "Ace Combat - Assault Horizon Legacy+"},
-				{"searchTerm": "Ace Combat 3D - Cross Rumble+"}
+				{"searchTerm": "Ace Combat 3D - Cross Rumble+"},
+				{"searchTerm": "Ace Combat - Assault Horizon Legacy+"}
 			]
 		},
 		{
@@ -116,19 +115,19 @@
 			]
 		},
 		{
+			"group": "Big Hero 6 - Battle in the Bay",
+			"titles": [
+				{"searchTerm": "Big Hero 6 - Battle in the Bay"},
+				{"searchTerm": "Disney Baymax - Heroes Battle"}
+			]
+		},
+		{
 			"group": "Brain Age - Concentration Training",
 			"titles": [
 				{"searchTerm": "Brain Age - Concentration Training"},
 				{"searchTerm": "Dr. Kawashima's Devilish Brain Training - Can You Stay Focused"},
 				{"searchTerm": "Kawashima Ryuuta Baksa Gamsu - Chogangnyeok! 5-bunganui Jipjungnyeok Training"},
 				{"searchTerm": "Tohoku Daigaku Karei Igaku Kenkyuusho - Kawashima Ryuuta Kyouju Kanshuu - Monosugoku Nou wo Kitaeru 5-Funkan no Oni Training"}
-			]
-		},
-		{
-			"group": "Big Hero 6 - Battle in the Bay",
-			"titles": [
-				{"searchTerm": "Big Hero 6 - Battle in the Bay"},
-				{"searchTerm": "Disney Baymax - Heroes Battle"}
 			]
 		},
 		{
@@ -189,13 +188,6 @@
 			]
 		},
 		{
-			"group": "Cooking Mama - Sweet Shop",
-			"titles": [
-				{"searchTerm": "Cooking Mama - Sweet Shop"},
-				{"searchTerm": "Cooking Mama - Watashi no Sweets Shop"}
-			]
-		},
-		{
 			"group": "Cooking Mama 4 - Kitchen Magic",
 			"titles": [
 				{"searchTerm": "Cooking Mama 4"},
@@ -210,6 +202,13 @@
 				{"searchTerm": "Cooking Mama 5 - Bon Appetit!"},
 				{"searchTerm": "Cooking Mama - Bon Appetit!"},
 				{"searchTerm": "Cooking Mama - Mamareul Dowajullae"}
+			]
+		},
+		{
+			"group": "Cooking Mama - Sweet Shop",
+			"titles": [
+				{"searchTerm": "Cooking Mama - Sweet Shop"},
+				{"searchTerm": "Cooking Mama - Watashi no Sweets Shop"}
 			]
 		},
 		{
@@ -307,8 +306,8 @@
 		{
 			"group": "Doraemon - Nobita's Number Adventure",
 			"titles": [
-				{"searchTerm": "Doraemon - Nobita's Number Adventure"},
 				{"searchTerm": "Doraemon - Jinguui Suhak Daemoheom"},
+				{"searchTerm": "Doraemon - Nobita's Number Adventure"},
 				{"searchTerm": "DoraKazu - Nobita no Suuji Daibouken"}
 			]
 		},
@@ -423,8 +422,8 @@
 		{
 			"group": "Farming Simulator 2012 3D",
 			"titles": [
-				{"searchTerm": "Farming Simulator 2012 3D"},
-				{"searchTerm": "Farming Simulator 3D - Pocket Nouen"}
+				{"searchTerm": "Farming Simulator 3D - Pocket Nouen"},
+				{"searchTerm": "Farming Simulator 2012 3D"}
 			]
 		},
 		{
@@ -507,10 +506,10 @@
 		{
 			"group": "Gardening Mama 2 - Forest Friends",
 			"titles": [
+				{"searchTerm": "Gardening Mama 2 - Forest Friends"},
 				{"searchTerm": "Gardening Mama - Forest Friends"},
 				{"searchTerm": "Gardening Mama - Mama to Mori no Nakama-tachi"},
-				{"searchTerm": "Gardening Mama - Mamawa Sup Sok Chingudeul"},
-				{"searchTerm": "Gardening Mama 2 - Forest Friends"}
+				{"searchTerm": "Gardening Mama - Mamawa Sup Sok Chingudeul"}
 			]
 		},
 		{
@@ -543,17 +542,17 @@
 			]
 		},
 		{
-			"group": "Harvest Moon 3D - The Lost Valley",
-			"titles": [
-				{"searchTerm": "Harvest Moon - The Lost Valley"},
-				{"searchTerm": "Harvest Moon 3D - The Lost Valley"}
-			]
-		},
-		{
 			"group": "Harvest Moon 3D - A New Beginning",
 			"titles": [
 				{"searchTerm": "Bokujou Monogatari - Hajimari no Daichi"},
 				{"searchTerm": "Harvest Moon 3D - A New Beginning"}
+			]
+		},
+		{
+			"group": "Harvest Moon 3D - The Lost Valley",
+			"titles": [
+				{"searchTerm": "Harvest Moon 3D - The Lost Valley"},
+				{"searchTerm": "Harvest Moon - The Lost Valley"}
 			]
 		},
 		{
@@ -578,17 +577,17 @@
 			]
 		},
 		{
-			"group": "Hello Kitty Picnic with Sanrio Friends",
-			"titles": [
-				{"searchTerm": "Hello Kitty Picnic with Sanrio Characters"},
-				{"searchTerm": "Hello Kitty Picnic with Sanrio Friends"}
-			]
-		},
-		{
 			"group": "Hello Kitty and the Apron of Magic - Rhythm Cooking",
 			"titles": [
 				{"searchTerm": "Hello Kitty and the Apron of Magic - Rhythm Cooking"},
 				{"searchTerm": "Hello Kitty to Mahou no Apron - Rhythm Cooking"}
+			]
+		},
+		{
+			"group": "Hello Kitty Picnic with Sanrio Friends",
+			"titles": [
+				{"searchTerm": "Hello Kitty Picnic with Sanrio Characters"},
+				{"searchTerm": "Hello Kitty Picnic with Sanrio Friends"}
 			]
 		},
 		{
@@ -609,8 +608,8 @@
 		{
 			"group": "Ice Age - Continental Drift - Arctic Games",
 			"titles": [
-				{"searchTerm": "Ice Age - Continental Drift - Arctic Games"},
 				{"searchTerm": "Ice Age 4 - Continental Drift - Arctic Games"},
+				{"searchTerm": "Ice Age - Continental Drift - Arctic Games"},
 				{"searchTerm": "L'Era Glaciale 4 - Continenti alla Deriva - Giochi Polari"}
 			]
 		},
@@ -639,15 +638,15 @@
 		{
 			"group": "Inazuma Eleven GO - Chrono Stones - Thunderflash",
 			"titles": [
-				{"searchTerm": "Inazuma Eleven GO - Chrono Stones - Thunderflash"},
-				{"searchTerm": "Inazuma Eleven Go 2 - Chrono Stone - Raimei"}
+				{"searchTerm": "Inazuma Eleven Go 2 - Chrono Stone - Raimei"},
+				{"searchTerm": "Inazuma Eleven GO - Chrono Stones - Thunderflash"}
 			]
 		},
 		{
 			"group": "Inazuma Eleven GO - Chrono Stones - Wildfire",
 			"titles": [
-				{"searchTerm": "Inazuma Eleven GO - Chrono Stones - Wildfire"},
-				{"searchTerm": "Inazuma Eleven Go 2 - Chrono Stone - Neppuu"}
+				{"searchTerm": "Inazuma Eleven Go 2 - Chrono Stone - Neppuu"},
+				{"searchTerm": "Inazuma Eleven GO - Chrono Stones - Wildfire"}
 			]
 		},
 		{
@@ -832,8 +831,8 @@
 		{
 			"group": "LEGO Movie Videogame, The",
 			"titles": [
-				{"searchTerm": "LEGO Movie Videogame, The"},
 				{"searchTerm": "Grande LEGO Aventure - Le Jeu Video, La"},
+				{"searchTerm": "LEGO Movie Videogame, The"},
 				{"searchTerm": "LEGO Pelicula el Videojuego, La"}
 			]
 		},
@@ -895,16 +894,16 @@
 		{
 			"group": "Luigi's Mansion",
 			"titles": [
-				{"searchTerm": "Luigi's Mansion"},
-				{"searchTerm": "Luigi Mansion"}
+				{"searchTerm": "Luigi Mansion"},
+				{"searchTerm": "Luigi's Mansion"}
 			]
 		},
 		{
 			"group": "Luigi's Mansion - Dark Moon",
 			"titles": [
-				{"searchTerm": "Luigi's Mansion - Dark Moon"},
+				{"searchTerm": "Luigi Mansion 2"},
 				{"searchTerm": "Luigi's Mansion 2"},
-				{"searchTerm": "Luigi Mansion 2"}
+				{"searchTerm": "Luigi's Mansion - Dark Moon"}
 			]
 		},
 		{
@@ -978,8 +977,8 @@
 		{
 			"group": "Mario Party - The Top 100",
 			"titles": [
-				{"searchTerm": "Mario Party - The Top 100"},
-				{"searchTerm": "Mario Party 100 - Mini Game Collection"}
+				{"searchTerm": "Mario Party 100 - Mini Game Collection"},
+				{"searchTerm": "Mario Party - The Top 100"}
 			]
 		},
 		{
@@ -1027,8 +1026,8 @@
 		{
 			"group": "Naruto Shippuden 3D - The New Era",
 			"titles": [
-				{"searchTerm": "Naruto Shippuden - Shinobi Rittai Emaki! Saikyou Ninkai Kessen!!"},
-				{"searchTerm": "Naruto Shippuden 3D - The New Era"}
+				{"searchTerm": "Naruto Shippuden 3D - The New Era"},
+				{"searchTerm": "Naruto Shippuden - Shinobi Rittai Emaki! Saikyou Ninkai Kessen!!"}
 			]
 		},
 		{
@@ -1056,8 +1055,13 @@
 		{
 			"group": "Nintendogs + Cats - French Bulldog & New Friends",
 			"titles": [
-				{"searchTerm": "Nintendogs + Cats - French Bulldog & New Friends"},
-				{"searchTerm": "Nintendogs + Cats - French Bull & New Chingudeul", "localNames": {"korean": "Nintendogs + Cats 프렌치 불 & NEW친구들"}}
+				{
+					"searchTerm": "Nintendogs + Cats - French Bull & New Chingudeul",
+					"localNames": {
+						"korean": "Nintendogs + Cats 프렌치 불 & NEW친구들"
+					}
+				},
+				{"searchTerm": "Nintendogs + Cats - French Bulldog & New Friends"}
 			]
 		},
 		{
@@ -1065,7 +1069,12 @@
 			"titles": [
 				{"searchTerm": "Nintendogs + Cats - Golden Retriever & New Friends"},
 				{"searchTerm": "Nintendogs + Cats - Shiba & New Friends"},
-				{"searchTerm": "Nintendogs + Cats - Shiba Inu & New Chingudeul", "localNames": {"korean": "Nintendogs + Cats 시바 이누 & NEW친구들"}}
+				{
+					"searchTerm": "Nintendogs + Cats - Shiba Inu & New Chingudeul",
+					"localNames": {
+						"korean": "Nintendogs + Cats 시바 이누 & NEW친구들"
+					}
+				}
 			]
 		},
 		{
@@ -1155,8 +1164,8 @@
 		{
 			"group": "Pinball Hall of Fame - The Williams' Collection",
 			"titles": [
-				{"searchTerm": "Pinball Hall of Fame - The Williams' Collection"},
-				{"searchTerm": "Pinball Hall of Fame 3D - The Williams' Collection"}
+				{"searchTerm": "Pinball Hall of Fame 3D - The Williams' Collection"},
+				{"searchTerm": "Pinball Hall of Fame - The Williams' Collection"}
 			]
 		},
 		{
@@ -1277,8 +1286,8 @@
 			"group": "Professor Layton vs. Phoenix Wright - Ace Attorney",
 			"titles": [
 				{"searchTerm": "Layton Kyouju vs Gyakuten Saiban"},
-				{"searchTerm": "Professor Layton vs. Phoenix Wright - Ace Attorney"},
-				{"searchTerm": "Professor Layton vs Phoenix Wright - Ace Attorney"}
+				{"searchTerm": "Professor Layton vs Phoenix Wright - Ace Attorney"},
+				{"searchTerm": "Professor Layton vs. Phoenix Wright - Ace Attorney"}
 			]
 		},
 		{
@@ -1309,8 +1318,8 @@
 		{
 			"group": "Rabbids - Travel in Time 3D",
 			"titles": [
-				{"searchTerm": "Rabbids - Travel in Time 3D"},
 				{"searchTerm": "Rabbids 3D"},
+				{"searchTerm": "Rabbids - Travel in Time 3D"},
 				{"searchTerm": "Rabbids Time Travel"}
 			]
 		},
@@ -1487,8 +1496,8 @@
 		{
 			"group": "Skylanders - Spyro's Adventure",
 			"titles": [
-				{"searchTerm": "Skylanders - Spyro's Adventure"},
-				{"searchTerm": "Skylanders - Spyro no Daibouken"}
+				{"searchTerm": "Skylanders - Spyro no Daibouken"},
+				{"searchTerm": "Skylanders - Spyro's Adventure"}
 			]
 		},
 		{
@@ -1576,8 +1585,8 @@
 		{
 			"group": "Super Black Bass 3D",
 			"titles": [
-				{"searchTerm": "Super Black Bass - 3D Fight"},
-				{"searchTerm": "Super Black Bass 3D"}
+				{"searchTerm": "Super Black Bass 3D"},
+				{"searchTerm": "Super Black Bass - 3D Fight"}
 			]
 		},
 		{
@@ -1613,8 +1622,8 @@
 			"group": "Tomodachi Life",
 			"titles": [
 				{"searchTerm": "Chin-gumoa Apateu"},
-				{"searchTerm": "Tomodachi Life"},
-				{"searchTerm": "Tomodachi Collection - Shin Seikatsu"}
+				{"searchTerm": "Tomodachi Collection - Shin Seikatsu"},
+				{"searchTerm": "Tomodachi Life"}
 			]
 		},
 		{

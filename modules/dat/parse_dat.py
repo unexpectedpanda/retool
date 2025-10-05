@@ -594,9 +594,14 @@ def get_logiqx_header(dat_file: pathlib.Path) -> list[str]:
                     regex_search_index_start.start() : regex_search_index_end.start()
                 ]
 
-            header = [line.replace('\r', '\n') for line in header_str.split('\n') if line != '\r'][
-                1:
-            ]
+            # Convert header lines to a list, and handle line endings
+            header = [line.replace('\r', '\n') for line in header_str.split('\n') if line != '\r']
+            header = [f'{x}\n' if '\n' not in x else x for x in header]
+            header[-1] = header[-1].replace('\n', '')
+
+            # Remove the opening header tag
+            header_tag_position: int = [index for index, s in enumerate(header) if '<header>' in s][0] + 1
+            header = header[header_tag_position:]
 
     return header
 

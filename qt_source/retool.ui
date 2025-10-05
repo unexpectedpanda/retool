@@ -4159,7 +4159,7 @@ games.</string>
                         <property name="geometry">
                          <rect>
                           <x>0</x>
-                          <y>0</y>
+                          <y>-570</y>
                           <width>573</width>
                           <height>1159</height>
                          </rect>
@@ -5158,7 +5158,8 @@ and suffix to each name.</string>
                          <item>
                           <widget class="QLabel" name="labelGlobalOnlineExplanation">
                            <property name="text">
-                            <string>These features use data supplied by third parties. When those third parties stop updating, Retool might make choices that are out-of-date.</string>
+                            <string>These features use data supplied by third parties. When those third parties stop updating,
+Retool might make choices that are out-of-date.</string>
                            </property>
                            <property name="textFormat">
                             <enum>Qt::TextFormat::PlainText</enum>
@@ -5216,7 +5217,7 @@ and suffix to each name.</string>
                             <string notr="true"/>
                            </property>
                            <property name="text">
-                            <string>Add MIA attributes to files (DatVault users should leave this disabled)</string>
+                            <string>Add MIA attributes to DAT files (DatVault users should leave this disabled)</string>
                            </property>
                           </widget>
                          </item>
@@ -5247,13 +5248,16 @@ and suffix to each name.</string>
                            </property>
                            <property name="toolTip">
                             <string>For titles that support RetroAchievements, add retroachievements=&quot;yes&quot;
-to game/machine tags.</string>
+to game/machine tags.
+
+For Redump, you need to use alternative DAT files that use either CHD
+or RVZ image formats, like the MAME Redump DAT files.</string>
                            </property>
                            <property name="styleSheet">
                             <string notr="true"/>
                            </property>
                            <property name="text">
-                            <string>Add RetroAchievements attributes to files</string>
+                            <string>Add RetroAchievements attributes to DAT files (Requires CHD or RVZ DAT files for Redump)</string>
                            </property>
                           </widget>
                          </item>
@@ -5272,10 +5276,13 @@ to game/machine tags.</string>
                             </size>
                            </property>
                            <property name="toolTip">
-                            <string>Prioritizes titles that support RetroAchievements.</string>
+                            <string>Prioritizes titles that support RetroAchievements.
+
+For Redump, you need to use alternative DAT files that use either CHD
+or RVZ image formats, like the MAME Redump DAT files.</string>
                            </property>
                            <property name="text">
-                            <string>Prefer titles with RetroAchievements</string>
+                            <string>Prefer titles with RetroAchievements (Requires CHD or RVZ DAT files for Redump)</string>
                            </property>
                           </widget>
                          </item>
@@ -10639,7 +10646,7 @@ text in the name:
                         <property name="geometry">
                          <rect>
                           <x>0</x>
-                          <y>0</y>
+                          <y>-614</y>
                           <width>573</width>
                           <height>1124</height>
                          </rect>
@@ -11566,7 +11573,8 @@ and suffix to each name.</string>
                          <item>
                           <widget class="QLabel" name="labelSystemOnlineExplanation">
                            <property name="text">
-                            <string>These features use data supplied by third parties. When those third parties stop updating, Retool might make choices that are out-of-date.</string>
+                            <string>These features use data supplied by third parties. When those third parties stop updating,
+Retool might make choices that are out-of-date.</string>
                            </property>
                            <property name="textFormat">
                             <enum>Qt::TextFormat::PlainText</enum>
@@ -11655,13 +11663,16 @@ and suffix to each name.</string>
                            </property>
                            <property name="toolTip">
                             <string>For titles that support RetroAchievements, add retroachievements=&quot;yes&quot;
-to game/machine tags.</string>
+to game/machine tags.
+
+For Redump, you need to use alternative DAT files that use either CHD
+or RVZ image formats, like the MAME Redump DAT files.</string>
                            </property>
                            <property name="styleSheet">
                             <string notr="true"/>
                            </property>
                            <property name="text">
-                            <string>Add RetroAchievements attributes to files</string>
+                            <string>Add RetroAchievements attributes to DAT files (Requires CHD or RVZ DAT files for Redump)</string>
                            </property>
                           </widget>
                          </item>
@@ -11680,10 +11691,13 @@ to game/machine tags.</string>
                             </size>
                            </property>
                            <property name="toolTip">
-                            <string>Prioritizes titles that support RetroAchievements.</string>
+                            <string>Prioritizes titles that support RetroAchievements.
+
+For Redump, you need to use alternative DAT files that use either CHD
+or RVZ image formats, like the MAME Redump DAT files.</string>
                            </property>
                            <property name="text">
-                            <string>Prefer titles with RetroAchievements</string>
+                            <string>Prefer titles with RetroAchievements (Requires CHD or RVZ DAT files for Redump)</string>
                            </property>
                           </widget>
                          </item>

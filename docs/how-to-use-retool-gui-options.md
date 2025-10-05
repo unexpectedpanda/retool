@@ -25,10 +25,6 @@ These options change how Retool handles certain titles.
   <br>If this option is disabled, it's because you've enabled
   **Output DAT files in legacy parent/clone format**, which isn't compatible with this feature.
 
-* **Include titles without hashes or sizes specified in input DAT files**
-  <br>Some DAT files don't list any hashes or sizes for some files, and Retool filters these
-  out by default. This option makes sure those files are kept.
-
 * **Prefer regions over languages**
   <br>By default, if a title from a higher priority region doesn't support your preferred
   languages but a lower priority region does, Retool selects the latter. This option
@@ -102,10 +98,6 @@ These options change the files that Retool outputs as part of its process.
   have been modified. Enable this if you want to load Retool DAT files as updates to
   original Redump and No-Intro DAT files already loaded in your ROM manager.
 
-* **Don't use clone lists to mark titles as MIA**
-  <br>MIA titles are scraped from Redump's wiki, however DatVault users should enable this
-  for more up-to-date information.
-
 * **Use `<machine>` instead of `<game>` in output DAT files**
    <br>Exports each title node using the MAME standard of `<machine>` instead of `<game>`.
 
@@ -119,7 +111,7 @@ These options change the files that Retool outputs as part of its process.
   <br>In addition to output DAT files, create DAT files containing the titles Retool
   removed.
 
-* **Also output lists of what titles have been kept and removed**
+* **Also output reports of what titles have been kept and removed**
   <br>In addition to output DAT files, produce TXT files that list what titles have been
   kept, and what titles have been removed.
 
@@ -128,6 +120,26 @@ These options change the files that Retool outputs as part of its process.
   title in the output DAT files, and optionally add a prefix and suffix to each name.
   If you add a prefix that starts with `http://`, `https://` or `ftp://`, each line in the
   file is URL encoded.
+
+## Online features
+
+These features use data supplied by third parties. When those third parties stop updating,
+Retool might make choices that are out of date.
+
+* **Add MIA attributes to DAT files**
+  <br>For files that no one has, adds `mia="yes"` to `rom/file` tags.
+
+* **Add RetroAchievements attributes to DAT files**
+  <br>For titles that support RetroAchievements, adds `retroachievements="yes"` to
+  `game/machine` tags. The data source uses hashes from CHD/RVZ files for disc-based
+  images, so for this feature to work on Redump DAT files you need to use CHD/RVZ
+  versions, like those found at [MAME Redump](https://github.com/MetalSlug/MAMERedump).
+
+* **Prefer titles with RetroAchievements**
+  <br>Prioritizes titles that support RetroAchievements. The data source uses hashes from
+  CHD/RVZ files for disc-based images, so for this feature to work on Redump DAT files you
+  need to use CHD/RVZ versions, like those found at
+  [MAME Redump](https://github.com/MetalSlug/MAMERedump).
 
 ## Debug options
 
@@ -143,9 +155,6 @@ These options are useful for developing and testing Retool.
   <br>Not recommended unless you're debugging or comparing outputs between DAT file
   versions. If this is disabled, it's because you've disabled 1G1R filtering or chosen to
   split by region, which isn't compatible with this option.
-
-* **Bypass DTD validation**
-  <br>Skips DTD validation of DAT files, useful if validation is causing issues.
 
 * **Disable multiprocessor usage**
   <br>Forces Retool to use only a single CPU core, at the cost of performance. This can
