@@ -1,5 +1,5 @@
 # Set the user files and options
-__version__ = '2.4.2'
+__version__ = '2.4.3'
 CLONE_LIST_METADATA_DOWNLOAD_LOCATION: str = (
     'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main'
 )

@@ -3611,8 +3611,8 @@ games.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>590</width>
-                          <height>396</height>
+                          <width>169</width>
+                          <height>559</height>
                          </rect>
                         </property>
                         <layout class="QGridLayout" name="gridLayoutGlobalUserFilters">
@@ -3917,8 +3917,8 @@ games.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>590</width>
-                          <height>396</height>
+                          <width>235</width>
+                          <height>431</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -4159,8 +4159,8 @@ games.</string>
                         <property name="geometry">
                          <rect>
                           <x>0</x>
-                          <y>-570</y>
-                          <width>573</width>
+                          <y>0</y>
+                          <width>523</width>
                           <height>1159</height>
                          </rect>
                         </property>
@@ -9916,8 +9916,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>590</width>
-                          <height>396</height>
+                          <width>169</width>
+                          <height>559</height>
                          </rect>
                         </property>
                         <property name="minimumSize">
@@ -10228,8 +10228,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>590</width>
-                          <height>396</height>
+                          <width>391</width>
+                          <height>383</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -10646,8 +10646,8 @@ text in the name:
                         <property name="geometry">
                          <rect>
                           <x>0</x>
-                          <y>-614</y>
-                          <width>573</width>
+                          <y>0</y>
+                          <width>523</width>
                           <height>1124</height>
                          </rect>
                         </property>

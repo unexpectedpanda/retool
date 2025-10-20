@@ -5,6 +5,14 @@ hide:
 
 # Changelog
 
+## 2.4.3 (2025-10-20)
+
+-  **_Change_**: Titles with the `(Video)` tag are now categorized as Videos.
+
+-  **_Fix_**: Updated QT version bundled with the compiled Windows version to correct
+   issue #354.
+
+
 ## 2.4.2 (2025-10-06)
 
 -  **_Change_**: The `<rom>` elements in output DAT files are now listed in alphabetical
@@ -18,7 +26,7 @@ hide:
    example, RVZ and WUX versions of Redump DAT files). Turns out reading the file in as
    bytes required extra work to deal with LF line endings.
 
--  **_Fix_**: The data source that provided RetroAchievement hashes has switched from
+-  **_Fix_**: The data source that provided RetroAchievements hashes has switched from
    providing ISO, BIN, and CHD hashes to CHD and RVZ hashes. As such, Retool can now add
    RetroAchievements labels to
    [MAME Redump DAT files](https://github.com/MetalSlug/MAMERedump).
@@ -606,7 +614,8 @@ Here are the changes for 2.4.0:
 -   **_Fix_**: Fixed Retool falsely thinking CLRMAMEPro DAT files have already been
     processed.
 
--   **_Chore_**: Updated dependencies. Pinned PySide6 version due to a [bug](https://bugreports.qt.io/projects/PYSIDE/issues/PYSIDE-2665?filter=allopenissues)
+-   **_Chore_**: Updated dependencies. Pinned PySide6 version due to a
+    [bug](https://bugreports.qt.io/projects/PYSIDE/issues/PYSIDE-2665?filter=allopenissues)
     that interferes with testing.
 
 
@@ -696,7 +705,8 @@ Here are the changes for 2.4.0:
     `python retoolgui.py`, if you have your environment set up correctly you can just run
     `retool` or `retoolgui` from anywhere.
 
-    Want to try it out? [Clone Retool from the GitHub repo](https://unexpectedpanda.github.io/retool/download/#git-and-python-gui-and-cli),
+    Want to try it out?
+    [Clone Retool from the GitHub repo](https://unexpectedpanda.github.io/retool/download/#git-and-python-gui-and-cli),
     navigate to the folder it was cloned to, then install it as a package with
     `pip install .`. Retool is then installed to your Python scripts folder, and your
     config files, clone lists, and metadata files are also kept there. Providing that
@@ -732,8 +742,8 @@ Here are the changes for 2.4.0:
 
 -   **_Fix_**: Retool now works on Windows Server 2019+.
 
--   **_Chore_**: Removed the `(Homebrew)` tag from Retool's processing, as No-Intro doesn't
-    use it anymore.
+-   **_Chore_**: Removed the `(Homebrew)` tag from Retool's processing, as No-Intro
+    doesn't use it anymore.
 
 
 ## 2.02.2 (2024-03-08)
@@ -745,9 +755,9 @@ Here are the changes for 2.4.0:
     instead of being set to `(Unknown)`. This was most obvious when converting
     Redump BIOS DAT files.
 
--   **_Fix_**: When outputting a DAT file of removed titles while using legacy parent/clone
-    format, the removes DAT file no longer contains clones found in the legacy parent/clone
-    DAT file.
+-   **_Fix_**: When outputting a DAT file of removed titles while using legacy
+    parent/clone format, the removes DAT file no longer contains clones found in the
+    legacy parent/clone DAT file.
 
 -   **_Fix_**: More reliable sorting of exclusions and user option tags in
     filenames and descriptions.
@@ -761,8 +771,9 @@ Here are the changes for 2.4.0:
 
 ## 2.02.1 (2024-02-18)
 
--   **_Feature_**: Retool now supports [MAME Redump](https://github.com/MetalSlug/MAMERedump/tree/main)
-    sets. These DATs match against Redump clone lists.
+-   **_Feature_**: Retool now supports
+    [MAME Redump](https://github.com/MetalSlug/MAMERedump/tree/main) sets. These DATs
+    match against Redump clone lists.
 
 -   **_Feature_**: You can now choose to use `<machine>` for your title nodes in
     the output DAT file instead of `<game>`.

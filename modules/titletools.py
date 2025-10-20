@@ -91,8 +91,9 @@ class Regex:
         self.hyperscan_version: Pattern[str] = re.compile('\\(USE[0-9]\\)')
         self.nec_mastering_code: Pattern[str] = re.compile('\\((?:(?:F|S)A[A-F][ABTS](?:, )?)+\\)')
         self.nintendo_mastering_code: Pattern[str] = re.compile(
-            '\\((?:A[BDEFNPS]|B[58DFJNPT]|CX|FT|JE|K[AFIKMRZ]|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[ABCDEFGHIKJMLNPQSTUVWYZ0-9][DEJPVXYZ]\\)'
+            '\\((?:A[BDEFHNPS]|B[58DFJNPT]|C[BX]|FT|JE|K[AFIKMRZ]|LB|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[A-Z0-9][DEJPVXYZ]\\)'
         )
+        self.nintendo_3ds_product_code: Pattern[str] = re.compile('\\(?:[CT][TW][LR]-[NP]-[AK][7E]A[EV]\\)')
         self.ps_firmware: Pattern[str] = re.compile('\\(FW[0-9].*?\\)', flags=re.I)
         self.ps1_2_id: Pattern[str] = re.compile(
             '\\([LSPT][ABCDEILRSTU][ACEKPTUXZ][ACDHJLMNSX]-\\d{5}\\)'
@@ -200,6 +201,7 @@ class Regex:
 
         self.versions: tuple[Pattern[str], ...] = (
             self.nintendo_mastering_code,
+            self.nintendo_3ds_product_code,
             self.fmtowns_version,
             self.dreamcast_version,
             self.version,
@@ -232,6 +234,7 @@ class Regex:
             re.compile('Game Boy Advance Video', flags=re.I),
             re.compile('- (Preview|Movie) Trailer', flags=re.I),
             re.compile('\\((?:\\w*\\s)*Trailer(?:s|\\sDisc)?(?:\\s\\w*)*\\)', flags=re.I),
+            re.compile('\\(Video\\)', flags=re.I),
         )
 
     def __getitem__(self, key: str) -> Any:

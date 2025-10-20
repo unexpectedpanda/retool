@@ -87,13 +87,3 @@ the operating system you use.
             or `python` to run them.
 
     1.  You can now run `retool.py` or `retoolgui.py`.
-
-    **Linux issues**
-
-    If you get a libxcb error in Linux when launching `retoolgui`, this fixed
-    the problem for me in Ubuntu 20.04:
-
-    ```
-    sudo apt-get install libxcb-randr0-dev \
-            libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev
-    ```

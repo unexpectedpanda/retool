@@ -19,11 +19,11 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
 ]
 dependencies = [
-    "alive-progress>=3.2.0",
+    "alive-progress>=3.3.0",
     "darkdetect>=0.8.0",
-    "lxml>=5.4.0",
-    "psutil>=7.0.0",
-    "PySide6>=6.9.1",
+    "lxml>=6.0.2",
+    "psutil>=7.1.0",
+    "PySide6>=6.10.0",
     "strictyaml>=1.7.3",
     "validators>=0.35.0",
 ]

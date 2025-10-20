@@ -2,7 +2,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id":"https://www.github.com/unexpectedpanda/retool",
     "title": "Clone list specification. For a how to create clone lists, see https://unexpectedpanda.github.io/retool/contribute-clone-lists/.",
-    "description": "2025-08-28 19:52",
+    "description": "2025-10-06 10:50",
     "$comment": "Clone list requires both a `description` and `variants` key, and accepts no other keys.",
     "type": "object",
     "required": ["description", "variants"],
@@ -268,6 +268,9 @@
                     },
                     {
                         "pattern": "\\s+$"
+                    },
+                    {
+                        "pattern": ".+,$"
                     }
                 ]
             }
