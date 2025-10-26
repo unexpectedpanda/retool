@@ -95,7 +95,7 @@ class CustomList(qtw.QListWidget):
                 event.accept()
 
     # Handle drag and drop events
-    dropped = qtc.Signal(int)
+    dropped = qtc.Signal(qtg.QDropEvent)
 
     def dropEvent(self, event: qtg.QDropEvent) -> None:
         super().dropEvent(event)
@@ -149,7 +149,7 @@ class CustomListSelfDrag(CustomList):
             event.ignore()
 
     # Handle drag and drop events
-    dropped = qtc.Signal(int)
+    dropped = qtc.Signal(qtg.QDropEvent)
 
     def dropEvent(self, event: qtg.QDropEvent) -> None:
         super().dropEvent(event)
@@ -193,7 +193,7 @@ class CustomListDropFiles(CustomList):
             event.ignore()
 
     # Handle drag and drop events
-    dropped = qtc.Signal(int)
+    dropped = qtc.Signal(qtg.QDropEvent)
 
     def dropEvent(self, event: qtg.QDropEvent) -> None:
         super().dropEvent(event)

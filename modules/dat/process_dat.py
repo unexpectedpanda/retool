@@ -707,8 +707,9 @@ def process_dat(
     if input_dat.retool and not config.user_input.reprocess_dat:
         eprint(
             '• Skipping file as it\'s already been processed by Retool. You can allow '
-            f'this with the {Font.b}--reprocess{Font.be} flag, or by setting the '
-            f'appropriate output option in Retool GUI.'
+            f'this with the {Font.b}--reprocess{Font.be} flag, or in the Retool GUI '
+            f'go to {Font.b}Options > Output options{Font.be} and enable '
+            f'{Font.b}Allow processing of already processed files{Font.be}.'
         )
         if input_type == 'file':
             if gui_input:

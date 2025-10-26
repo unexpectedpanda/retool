@@ -1,5 +1,13 @@
 # Retool changelog
 
+## 2.4.4 (2025-10-26)
+
+-  **_Fix_**: Prevents stacking of RetroAchievements tags if a DAT file is processed more
+   than once.
+
+-  **_Fix_**: Fixed a type warning when dragging and dropping files using Retool with
+   PySide6 6.10.0.0.
+
 ## 2.4.3 (2025-10-20)
 
 -  **_Change_**: Titles with the `(Video)` tag are now categorized as Videos.

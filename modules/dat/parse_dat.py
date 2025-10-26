@@ -637,7 +637,7 @@ def get_logiqx_titles(
 
                 # Only add the title if there's a name
                 if title.name:
-                    known_attribs: set[str] = {'name', 'cloneof', 'cloneofid', 'romof'}
+                    known_attribs: set[str] = {'name', 'cloneof', 'cloneofid', 'retroachievements', 'romof'}
                     collected_attribs: dict[str, str] = {}
 
                     for attrib in element.attrib:
