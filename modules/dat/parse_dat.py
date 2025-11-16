@@ -600,7 +600,9 @@ def get_logiqx_header(dat_file: pathlib.Path) -> list[str]:
             header[-1] = header[-1].replace('\n', '')
 
             # Remove the opening header tag
-            header_tag_position: int = [index for index, s in enumerate(header) if '<header>' in s][0] + 1
+            header_tag_position: int = [index for index, s in enumerate(header) if '<header>' in s][
+                0
+            ] + 1
             header = header[header_tag_position:]
 
     return header
@@ -637,7 +639,13 @@ def get_logiqx_titles(
 
                 # Only add the title if there's a name
                 if title.name:
-                    known_attribs: set[str] = {'name', 'cloneof', 'cloneofid', 'retroachievements', 'romof'}
+                    known_attribs: set[str] = {
+                        'name',
+                        'cloneof',
+                        'cloneofid',
+                        'retroachievements',
+                        'romof',
+                    }
                     collected_attribs: dict[str, str] = {}
 
                     for attrib in element.attrib:

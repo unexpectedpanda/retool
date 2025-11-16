@@ -43,21 +43,20 @@ def _initializer_wrapper(actual_initializer: Any, *rest: Any) -> None:
 
 class InterruptiblePool(Pool):
     """
-    A modified version of :class:`multiprocessing.pool.Pool` that has better behavior
-    with regard to ``KeyboardInterrupts`` in the :func:`map` method.
+    A modified version of :class:`multiprocessing.pool.Pool` that has better behavior with
+    regard to `KeyboardInterrupts` in the :func:`map` method.
 
     Args:
-        processes (Any, optional): The number of worker processes to use; defaults to the number
-        of CPUs. Defaults to `None`.
+        processes (Any, optional): The number of worker processes to use; defaults to the
+        number of CPUs. Defaults to `None`.
 
-        initializer (Any, optional): Either `None`, or a callable that will be invoked by each
-        worker process when it starts. Defaults to `None`.
+        initializer (Any, optional): Either `None`, or a callable that will be invoked by
+        each worker process when it starts. Defaults to `None`.
 
         initargs: (Any, optional): Arguments for *initializer*; it will be called as
         `initializer(*initargs)`. Defaults to `()`.
 
-        kwargs (Any, optional): Extra arguments. Python 2.7 supports a `maxtasksperchild`
-        parameter.
+        kwargs (Any, optional): Extra arguments.
     """
 
     wait_timeout = 3600

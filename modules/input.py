@@ -1025,7 +1025,9 @@ def get_config_value(
     return value
 
 
-def import_clone_list_mia_ra(input_dat: Dat, gui_input: UserInput | None, config: Config) -> CloneList:
+def import_clone_list_mia_ra(
+    input_dat: Dat, gui_input: UserInput | None, config: Config
+) -> CloneList:
     """
     Imports a clone list, RetroAchievements and MIAs from the relevant files and sets them
     up for use in Retool.

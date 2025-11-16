@@ -21,7 +21,7 @@ from PySide6 import QtWidgets as qtw
 import retool
 from modules.config.config import Config
 from modules.gui.gui_config import import_config, write_config
-from modules.gui.gui_setup import setup_gui_global, setup_gui_system
+from modules.gui.gui_init import init_gui_global, init_gui_system
 from modules.gui.gui_utils import enable_go_button, show_hide
 from modules.gui.gui_widgets import CustomComboBox, CustomList, custom_widgets
 from modules.gui.retool_ui import Ui_MainWindow  # type: ignore
@@ -121,10 +121,10 @@ class MainWindow(qtw.QMainWindow):
         self.ui.tabWidgetSystemSettings.setEnabled(False)
 
         # Populate the global settings with data and set up user interactions
-        setup_gui_global(self, dat_details, self.config)
+        init_gui_global(self, dat_details, self.config)
 
         # Populate the system settings with data and set up user interactions
-        setup_gui_system(self, dat_details, self.config)
+        init_gui_system(self, dat_details, self.config)
 
         # Check if clone lists or metadata files are required
         if not (

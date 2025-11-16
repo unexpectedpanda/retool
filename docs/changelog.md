@@ -5,6 +5,13 @@ hide:
 
 # Changelog
 
+## 2.4.5 (2025-11-05)
+
+-  **_Feature_**: Added some Nintendo mastering codes.
+
+-  **_Change_**: Category matching is no longer case-sensitive (issue #357).
+
+
 ## 2.4.4 (2025-10-26)
 
 -  **_Fix_**: Prevents stacking of RetroAchievements tags if a DAT file is processed more

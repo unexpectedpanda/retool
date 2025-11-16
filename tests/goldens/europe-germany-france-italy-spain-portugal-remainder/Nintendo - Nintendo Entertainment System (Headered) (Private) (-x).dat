@@ -2335,13 +2335,13 @@
 		<release name="Altercation (World) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Altercation (World) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Alwa's Awakening - The 8-Bit Edition (Europe) (Evercade) (Aftermarket) (Unl)" id="5544">
+	<game name="Alwa's Awakening - The 8-Bit Edition (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Alwa's Awakening - The 8-Bit Edition (World) (Aftermarket) (Unl)" id="5544">
 		<category>Games</category>
 		<description>Alwa's Awakening - The 8-Bit Edition (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Alwa's Awakening - The 8-Bit Edition (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Alwa's Awakening - The 8-Bit Edition (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Alwa's Awakening - The 8-Bit Edition (World) (Aftermarket) (Unl)" cloneof="Alwa's Awakening - The 8-Bit Edition (Europe) (Evercade) (Aftermarket) (Unl)" id="3306">
+	<game name="Alwa's Awakening - The 8-Bit Edition (World) (Aftermarket) (Unl)" id="3306">
 		<category>Games</category>
 		<description>Alwa's Awakening - The 8-Bit Edition (World) (Aftermarket) (Unl)</description>
 		<release name="Alwa's Awakening - The 8-Bit Edition (World) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -4925,25 +4925,25 @@
 		<release name="Bobby Six Seven - Time-Traveling Detective (World) (Digital) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Bobby Six Seven - Time-Traveling Detective (World) (Digital) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Bobl (Europe) (v1.2) (Evercade) (Aftermarket) (Unl)" id="5545">
+	<game name="Bobl (Europe) (v1.2) (Evercade) (Aftermarket) (Unl)" cloneof="Bobl (World) (v1.2) (Aftermarket) (Unl)" id="5545">
 		<category>Games</category>
 		<description>Bobl (Europe) (v1.2) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Bobl (Europe) (v1.2) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Bobl (Europe) (v1.2) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Bobl (World) (v1.0) (Aftermarket) (Unl)" cloneof="Bobl (Europe) (v1.2) (Evercade) (Aftermarket) (Unl)" id="3378">
+	<game name="Bobl (World) (v1.0) (Aftermarket) (Unl)" cloneof="Bobl (World) (v1.2) (Aftermarket) (Unl)" id="3378">
 		<category>Games</category>
 		<description>Bobl (World) (v1.0) (Aftermarket) (Unl)</description>
 		<release name="Bobl (World) (v1.0) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Bobl (World) (v1.0) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Bobl (World) (v1.1) (Aftermarket) (Unl)" cloneof="Bobl (Europe) (v1.2) (Evercade) (Aftermarket) (Unl)" id="3379">
+	<game name="Bobl (World) (v1.1) (Aftermarket) (Unl)" cloneof="Bobl (World) (v1.2) (Aftermarket) (Unl)" id="3379">
 		<category>Games</category>
 		<description>Bobl (World) (v1.1) (Aftermarket) (Unl)</description>
 		<release name="Bobl (World) (v1.1) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Bobl (World) (v1.1) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Bobl (World) (v1.2) (Aftermarket) (Unl)" cloneof="Bobl (Europe) (v1.2) (Evercade) (Aftermarket) (Unl)" id="3380">
+	<game name="Bobl (World) (v1.2) (Aftermarket) (Unl)" id="3380">
 		<category>Games</category>
 		<description>Bobl (World) (v1.2) (Aftermarket) (Unl)</description>
 		<release name="Bobl (World) (v1.2) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -5331,7 +5331,7 @@
 		<release name="Buggy Popper (Asia) (En) (KT 2136) (Aftermarket) (Pirate)" region="Asia" language="En"/>
 		<rom name="Buggy Popper (Asia) (En) (KT 2136) (Aftermarket) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Buggy Popper (Japan)" cloneof="Burnin Rubber (Europe) (Evercade) (Aftermarket) (Unl)" id="0311">
+	<game name="Buggy Popper (Japan)" cloneof="Bump 'n' Jump (USA)" id="0311">
 		<category>Games</category>
 		<description>Buggy Popper (Japan)</description>
 		<release name="Buggy Popper (Japan)" region="Japan" language="Ja"/>
@@ -5379,7 +5379,7 @@
 		<release name="BullyBoy Super Game 402-in-1 (World) (Aftermarket) (Pirate)" region="World" language="En"/>
 		<rom name="BullyBoy Super Game 402-in-1 (World) (Aftermarket) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Bump 'n' Jump (USA)" cloneof="Burnin Rubber (Europe) (Evercade) (Aftermarket) (Unl)" id="0317">
+	<game name="Bump 'n' Jump (USA)" id="0317">
 		<category>Games</category>
 		<description>Bump 'n' Jump (USA)</description>
 		<release name="Bump 'n' Jump (USA)" region="USA" language="En"/>
@@ -5403,25 +5403,25 @@
 		<release name="Burai Fighter (USA)" region="USA" language="En"/>
 		<rom name="Burai Fighter (USA).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="BurgerTime (Europe) (Evercade) (Aftermarket) (Unl)" id="5658">
+	<game name="BurgerTime (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="BurgerTime (USA)" id="5658">
 		<category>Games</category>
 		<description>BurgerTime (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="BurgerTime (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="BurgerTime (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="BurgerTime (Japan)" cloneof="BurgerTime (Europe) (Evercade) (Aftermarket) (Unl)" id="0321">
+	<game name="BurgerTime (Japan)" cloneof="BurgerTime (USA)" id="0321">
 		<category>Games</category>
 		<description>BurgerTime (Japan)</description>
 		<release name="BurgerTime (Japan)" region="Japan" language="Ja"/>
 		<rom name="BurgerTime (Japan).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="BurgerTime (USA)" cloneof="BurgerTime (Europe) (Evercade) (Aftermarket) (Unl)" id="0322">
+	<game name="BurgerTime (USA)" id="0322">
 		<category>Games</category>
 		<description>BurgerTime (USA)</description>
 		<release name="BurgerTime (USA)" region="USA" language="En"/>
 		<rom name="BurgerTime (USA).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Burnin Rubber (Europe) (Evercade) (Aftermarket) (Unl)" id="5659">
+	<game name="Burnin Rubber (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Bump 'n' Jump (USA)" id="5659">
 		<category>Games</category>
 		<description>Burnin Rubber (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Burnin Rubber (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
@@ -8759,13 +8759,13 @@
 		<release name="Dizzy - Sheep Disaster (World) (2017-07-11) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Dizzy - Sheep Disaster (World) (2017-07-11) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Dizzy the Adventurer (Europe) (Evercade) (Aftermarket) (Unl)" id="5664">
+	<game name="Dizzy the Adventurer (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Dizzy the Adventurer (USA) (Aladdin Compact Cartridge) (Unl)" id="5664">
 		<category>Games</category>
 		<description>Dizzy the Adventurer (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Dizzy the Adventurer (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Dizzy the Adventurer (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Dizzy the Adventurer (USA) (Aladdin Compact Cartridge) (Unl)" cloneof="Dizzy the Adventurer (Europe) (Evercade) (Aftermarket) (Unl)" id="0536">
+	<game name="Dizzy the Adventurer (USA) (Aladdin Compact Cartridge) (Unl)" id="0536">
 		<category>Games</category>
 		<description>Dizzy the Adventurer (USA) (Aladdin Compact Cartridge) (Unl)</description>
 		<release name="Dizzy the Adventurer (USA) (Aladdin Compact Cartridge) (Unl)" region="USA" language="En"/>
@@ -12010,19 +12010,19 @@
 		<release name="Flappy Jack (World) (NESDev 2016) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Flappy Jack (World) (NESDev 2016) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Flea! (Europe) (Evercade) (Aftermarket) (Unl)" id="5550">
+	<game name="Flea! (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Flea! (World) (Aftermarket) (Unl)" id="5550">
 		<category>Games</category>
 		<description>Flea! (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Flea! (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Flea! (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Flea! (World) (Aftermarket) (Unl)" cloneof="Flea! (Europe) (Evercade) (Aftermarket) (Unl)" id="3316">
+	<game name="Flea! (World) (Aftermarket) (Unl)" id="3316">
 		<category>Games</category>
 		<description>Flea! (World) (Aftermarket) (Unl)</description>
 		<release name="Flea! (World) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Flea! (World) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Flea! (World) (Broke Studio) (Aftermarket) (Unl)" cloneof="Flea! (Europe) (Evercade) (Aftermarket) (Unl)" id="4757">
+	<game name="Flea! (World) (Broke Studio) (Aftermarket) (Unl)" cloneof="Flea! (World) (Aftermarket) (Unl)" id="4757">
 		<category>Games</category>
 		<description>Flea! (World) (Broke Studio) (Aftermarket) (Unl)</description>
 		<release name="Flea! (World) (Broke Studio) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -12055,7 +12055,7 @@
 		<release name="Flea! (World) (Demo) (Byte-Off 2019) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Flea! (World) (Demo) (Byte-Off 2019) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Flea! (World) (Switch) (Aftermarket) (Unl)" cloneof="Flea! (Europe) (Evercade) (Aftermarket) (Unl)" id="4125">
+	<game name="Flea! (World) (Switch) (Aftermarket) (Unl)" cloneof="Flea! (World) (Aftermarket) (Unl)" id="4125">
 		<category>Games</category>
 		<description>Flea! (World) (Switch) (Aftermarket) (Unl)</description>
 		<release name="Flea! (World) (Switch) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -16776,19 +16776,19 @@
 		<release name="Just Breed (Japan)" region="Japan" language="Ja"/>
 		<rom name="Just Breed (Japan).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Justice Duel (Europe) (Evercade) (Aftermarket) (Unl)" id="5551">
+	<game name="Justice Duel (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Justice Duel (USA) (RetroGameCon 5 Edition) (Aftermarket) (Unl)" id="5551">
 		<category>Games</category>
 		<description>Justice Duel (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Justice Duel (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Justice Duel (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Justice Duel (USA) (RetroGameCon 5 Edition) (Aftermarket) (Unl)" cloneof="Justice Duel (Europe) (Evercade) (Aftermarket) (Unl)" id="3613">
+	<game name="Justice Duel (USA) (RetroGameCon 5 Edition) (Aftermarket) (Unl)" id="3613">
 		<category>Games</category>
 		<description>Justice Duel (USA) (RetroGameCon 5 Edition) (Aftermarket) (Unl)</description>
 		<release name="Justice Duel (USA) (RetroGameCon 5 Edition) (Aftermarket) (Unl)" region="USA" language="En"/>
 		<rom name="Justice Duel (USA) (RetroGameCon 5 Edition) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Justice Duel (World) (Aftermarket) (Unl)" cloneof="Justice Duel (Europe) (Evercade) (Aftermarket) (Unl)" id="3428">
+	<game name="Justice Duel (World) (Aftermarket) (Unl)" cloneof="Justice Duel (USA) (RetroGameCon 5 Edition) (Aftermarket) (Unl)" id="3428">
 		<category>Games</category>
 		<description>Justice Duel (World) (Aftermarket) (Unl)</description>
 		<release name="Justice Duel (World) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -17093,19 +17093,19 @@
 		<release name="Karaoke Studio Senyou Cassette - Top Hit 20 Vol. 2 (Japan)" region="Japan" language="Ja"/>
 		<rom name="Karaoke Studio Senyou Cassette - Top Hit 20 Vol. 2 (Japan).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Karate Champ (Europe) (Evercade) (Aftermarket) (Unl)" id="5661">
+	<game name="Karate Champ (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Karate Champ (USA) (Rev 1)" id="5661">
 		<category>Games</category>
 		<description>Karate Champ (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Karate Champ (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Karate Champ (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Karate Champ (USA)" cloneof="Karate Champ (Europe) (Evercade) (Aftermarket) (Unl)" id="1158">
+	<game name="Karate Champ (USA)" cloneof="Karate Champ (USA) (Rev 1)" id="1158">
 		<category>Games</category>
 		<description>Karate Champ (USA)</description>
 		<release name="Karate Champ (USA)" region="USA" language="En"/>
 		<rom name="Karate Champ (USA).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Karate Champ (USA) (Rev 1)" cloneof="Karate Champ (Europe) (Evercade) (Aftermarket) (Unl)" id="1159">
+	<game name="Karate Champ (USA) (Rev 1)" id="1159">
 		<category>Games</category>
 		<description>Karate Champ (USA) (Rev 1)</description>
 		<release name="Karate Champ (USA) (Rev 1)" region="USA" language="En"/>
@@ -22239,13 +22239,13 @@
 		<release name="Mugen Senshi Valis (Japan)" region="Japan" language="Ja"/>
 		<rom name="Mugen Senshi Valis (Japan).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Multidude (Europe) (Evercade) (Aftermarket) (Unl)" id="5553">
+	<game name="Multidude (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Multidude (World) (Aftermarket) (Unl)" id="5553">
 		<category>Games</category>
 		<description>Multidude (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Multidude (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Multidude (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Multidude (World) (Aftermarket) (Unl)" cloneof="Multidude (Europe) (Evercade) (Aftermarket) (Unl)" id="3220">
+	<game name="Multidude (World) (Aftermarket) (Unl)" id="3220">
 		<category>Games</category>
 		<description>Multidude (World) (Aftermarket) (Unl)</description>
 		<release name="Multidude (World) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -22993,19 +22993,19 @@
 		<release name="Nesglovphone (World) (Music Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Nesglovphone (World) (Music Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Nessy the NES Robot (Europe) (v1.35) (Evercade) (Aftermarket) (Unl)" id="5554">
+	<game name="Nessy the NES Robot (Europe) (v1.35) (Evercade) (Aftermarket) (Unl)" cloneof="Nessy the NES Robot (World) (v1.30) (Aftermarket) (Unl)" id="5554">
 		<category>Games</category>
 		<description>Nessy the NES Robot (Europe) (v1.35) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Nessy the NES Robot (Europe) (v1.35) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Nessy the NES Robot (Europe) (v1.35) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Nessy the NES Robot (World) (v1.25) (Aftermarket) (Unl)" cloneof="Nessy the NES Robot (Europe) (v1.35) (Evercade) (Aftermarket) (Unl)" id="6238">
+	<game name="Nessy the NES Robot (World) (v1.25) (Aftermarket) (Unl)" cloneof="Nessy the NES Robot (World) (v1.30) (Aftermarket) (Unl)" id="6238">
 		<category>Games</category>
 		<description>Nessy the NES Robot (World) (v1.25) (Aftermarket) (Unl)</description>
 		<release name="Nessy the NES Robot (World) (v1.25) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Nessy the NES Robot (World) (v1.25) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Nessy the NES Robot (World) (v1.30) (Aftermarket) (Unl)" cloneof="Nessy the NES Robot (Europe) (v1.35) (Evercade) (Aftermarket) (Unl)" id="4086">
+	<game name="Nessy the NES Robot (World) (v1.30) (Aftermarket) (Unl)" id="4086">
 		<category>Games</category>
 		<description>Nessy the NES Robot (World) (v1.30) (Aftermarket) (Unl)</description>
 		<release name="Nessy the NES Robot (World) (v1.30) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -24245,31 +24245,31 @@
 		<release name="PCB Artist (World) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="PCB Artist (World) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="PLOID (Europe) (Evercade) (Aftermarket) (Unl)" id="5555">
+	<game name="PLOID (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="PLOID (World) (v2.0) (Aftermarket) (Unl)" id="5555">
 		<category>Games</category>
 		<description>PLOID (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="PLOID (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="PLOID (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="PLOID (World) (Aftermarket) (Unl)" cloneof="PLOID (Europe) (Evercade) (Aftermarket) (Unl)" id="5887">
+	<game name="PLOID (World) (Aftermarket) (Unl)" cloneof="PLOID (World) (v2.0) (Aftermarket) (Unl)" id="5887">
 		<category>Games</category>
 		<description>PLOID (World) (Aftermarket) (Unl)</description>
 		<release name="PLOID (World) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="PLOID (World) (Aftermarket) (Unl).nes" size="1000" mia="yes" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="PLOID (World) (Switch) (Aftermarket) (Unl)" cloneof="PLOID (Europe) (Evercade) (Aftermarket) (Unl)" id="4271">
+	<game name="PLOID (World) (Switch) (Aftermarket) (Unl)" cloneof="PLOID (World) (v2.0) (Aftermarket) (Unl)" id="4271">
 		<category>Games</category>
 		<description>PLOID (World) (Switch) (Aftermarket) (Unl)</description>
 		<release name="PLOID (World) (Switch) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="PLOID (World) (Switch) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="PLOID (World) (v2.0) (Aftermarket) (Unl)" cloneof="PLOID (Europe) (Evercade) (Aftermarket) (Unl)" id="6215">
+	<game name="PLOID (World) (v2.0) (Aftermarket) (Unl)" id="6215">
 		<category>Games</category>
 		<description>PLOID (World) (v2.0) (Aftermarket) (Unl)</description>
 		<release name="PLOID (World) (v2.0) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="PLOID (World) (v2.0) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="PLOID (World) (vX) (Aftermarket) (Unl)" cloneof="PLOID (Europe) (Evercade) (Aftermarket) (Unl)" id="3570">
+	<game name="PLOID (World) (vX) (Aftermarket) (Unl)" cloneof="PLOID (World) (v2.0) (Aftermarket) (Unl)" id="3570">
 		<category>Games</category>
 		<description>PLOID (World) (vX) (Aftermarket) (Unl)</description>
 		<release name="PLOID (World) (vX) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -27483,13 +27483,13 @@
 		<release name="Rongyu Xunzhang (China) (Aftermarket) (Pirate)" region="China" language="Zh-Hans"/>
 		<rom name="Rongyu Xunzhang (China) (Aftermarket) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Roniu's Tale (Europe) (Evercade) (Aftermarket) (Unl)" id="5557">
+	<game name="Roniu's Tale (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Roniu's Tale (World) (Aftermarket) (Unl)" id="5557">
 		<category>Games</category>
 		<description>Roniu's Tale (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Roniu's Tale (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Roniu's Tale (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Roniu's Tale (World) (Aftermarket) (Unl)" cloneof="Roniu's Tale (Europe) (Evercade) (Aftermarket) (Unl)" id="4216">
+	<game name="Roniu's Tale (World) (Aftermarket) (Unl)" id="4216">
 		<category>Games</category>
 		<description>Roniu's Tale (World) (Aftermarket) (Unl)</description>
 		<release name="Roniu's Tale (World) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -27501,7 +27501,7 @@
 		<release name="Roniu's Tale (World) (Demo) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Roniu's Tale (World) (Demo) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Roniu's Tale (World) (Switch) (Aftermarket) (Unl)" cloneof="Roniu's Tale (Europe) (Evercade) (Aftermarket) (Unl)" id="4849">
+	<game name="Roniu's Tale (World) (Switch) (Aftermarket) (Unl)" cloneof="Roniu's Tale (World) (Aftermarket) (Unl)" id="4849">
 		<category>Games</category>
 		<description>Roniu's Tale (World) (Switch) (Aftermarket) (Unl)</description>
 		<release name="Roniu's Tale (World) (Switch) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -32934,33 +32934,33 @@
 		<release name="Super Hero (China) (En) (Unl)" region="China" language="En"/>
 		<rom name="Super Hero (China) (En) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)" id="5559">
+	<game name="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" id="5559">
 		<category>Games</category>
 		<description>Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" cloneof="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)" id="3587">
+	<game name="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" id="3587">
 		<category>Games</category>
 		<description>Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)</description>
 		<release name="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Super Homebrew War (World) (Beta) (2018-11-08) (Aftermarket) (Unl)" cloneof="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)" id="6369">
+	<game name="Super Homebrew War (World) (Beta) (2018-11-08) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" id="6369">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Super Homebrew War (World) (Beta) (2018-11-08) (Aftermarket) (Unl)</description>
 		<release name="Super Homebrew War (World) (Beta) (2018-11-08) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Super Homebrew War (World) (Beta) (2018-11-08) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Super Homebrew War (World) (Beta) (2018-11-21) (Aftermarket) (Unl)" cloneof="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)" id="6370">
+	<game name="Super Homebrew War (World) (Beta) (2018-11-21) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" id="6370">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Super Homebrew War (World) (Beta) (2018-11-21) (Aftermarket) (Unl)</description>
 		<release name="Super Homebrew War (World) (Beta) (2018-11-21) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Super Homebrew War (World) (Beta) (2018-11-21) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)" cloneof="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)" id="3588">
+	<game name="Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" id="3588">
 		<category>Games</category>
 		<description>Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)</description>
 		<release name="Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -36365,25 +36365,25 @@
 		<release name="Uchusen - Ultimate PLOID Avengers (World) (Demo) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Uchusen - Ultimate PLOID Avengers (World) (Demo) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Uchusen - Ultimate PLOID Battle (Europe) (Evercade) (Aftermarket) (Unl)" id="5561">
+	<game name="Uchusen - Ultimate PLOID Battle (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Uchusen - Ultimate PLOID Battle (World) (v1.1) (Aftermarket) (Unl)" id="5561">
 		<category>Games</category>
 		<description>Uchusen - Ultimate PLOID Battle (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Uchusen - Ultimate PLOID Battle (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Uchusen - Ultimate PLOID Battle (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Uchusen - Ultimate PLOID Battle (World) (v1.0) (Aftermarket) (Unl)" cloneof="Uchusen - Ultimate PLOID Battle (Europe) (Evercade) (Aftermarket) (Unl)" id="3572">
+	<game name="Uchusen - Ultimate PLOID Battle (World) (v1.0) (Aftermarket) (Unl)" cloneof="Uchusen - Ultimate PLOID Battle (World) (v1.1) (Aftermarket) (Unl)" id="3572">
 		<category>Games</category>
 		<description>Uchusen - Ultimate PLOID Battle (World) (v1.0) (Aftermarket) (Unl)</description>
 		<release name="Uchusen - Ultimate PLOID Battle (World) (v1.0) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Uchusen - Ultimate PLOID Battle (World) (v1.0) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Uchusen - Ultimate PLOID Battle (World) (v1.1) (Aftermarket) (Unl)" cloneof="Uchusen - Ultimate PLOID Battle (Europe) (Evercade) (Aftermarket) (Unl)" id="4119">
+	<game name="Uchusen - Ultimate PLOID Battle (World) (v1.1) (Aftermarket) (Unl)" id="4119">
 		<category>Games</category>
 		<description>Uchusen - Ultimate PLOID Battle (World) (v1.1) (Aftermarket) (Unl)</description>
 		<release name="Uchusen - Ultimate PLOID Battle (World) (v1.1) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Uchusen - Ultimate PLOID Battle (World) (v1.1) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Uchusen - Ultimate PLOID Battle (World) (v1.1) (Switch) (Aftermarket) (Unl)" cloneof="Uchusen - Ultimate PLOID Battle (Europe) (Evercade) (Aftermarket) (Unl)" id="4273">
+	<game name="Uchusen - Ultimate PLOID Battle (World) (v1.1) (Switch) (Aftermarket) (Unl)" cloneof="Uchusen - Ultimate PLOID Battle (World) (v1.1) (Aftermarket) (Unl)" id="4273">
 		<category>Games</category>
 		<description>Uchusen - Ultimate PLOID Battle (World) (v1.1) (Switch) (Aftermarket) (Unl)</description>
 		<release name="Uchusen - Ultimate PLOID Battle (World) (v1.1) (Switch) (Aftermarket) (Unl)" region="World" language="En"/>

@@ -22,7 +22,6 @@ from modules.utils import Font, eprint
 def choose_compilation(
     compilations: set[DatNode],
     all_titles: dict[str, set[DatNode]],
-    quick_lookup: dict[str, dict[str, set[DatNode]]],
     config: Config,
     is_numbered: bool,
 ) -> dict[str, set[DatNode]]:
@@ -35,11 +34,6 @@ def choose_compilation(
             DatNode instances.
 
         all_titles (dict[str, set[DatNode]]): All non-compilation titles to be considered.
-
-        quick_lookup (dict[str, set[DatNode]]): A dictionary keyed by multiple title
-            properties that enables quick lookup of titles. Due to the way Python
-            references variables, changes made here are also reflected in
-            `processed_titles`.
 
         config (Config): The Retool config object.
 

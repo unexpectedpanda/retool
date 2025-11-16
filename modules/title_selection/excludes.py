@@ -120,7 +120,7 @@ def excludes(
 
         # Category excludes
         for exclude_category in exclude_categories:
-            if exclude_category in title.categories:
+            if exclude_category in title.categories or exclude_category.lower() in title.categories:
                 if report_on_match and pattern2string(
                     re.compile(config.user_input.trace), title.full_name
                 ):

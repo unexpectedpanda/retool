@@ -62,7 +62,7 @@ class Regex:
             '\\((?:\\w*?\\s)*Proto(?:type)?(?:\\s\\d+)?\\)', flags=re.I
         )
         self.preprod: Pattern[str] = re.compile('\\((?:Pre-production|Prerelease)\\)', flags=re.I)
-        self.dev: Pattern[str] = re.compile('\\((?:DEV|DEBUG)\\)', flags=re.I)
+        self.dev: Pattern[str] = re.compile('\\((?:DEV|DEBUG|Debug Build)\\)', flags=re.I)
 
         # Possibly production
         self.not_for_resale: Pattern[str] = re.compile(
@@ -91,9 +91,11 @@ class Regex:
         self.hyperscan_version: Pattern[str] = re.compile('\\(USE[0-9]\\)')
         self.nec_mastering_code: Pattern[str] = re.compile('\\((?:(?:F|S)A[A-F][ABTS](?:, )?)+\\)')
         self.nintendo_mastering_code: Pattern[str] = re.compile(
-            '\\((?:A[BDEFHNPS]|B[58DFJNPT]|C[BX]|FT|JE|K[AFIKMRZ]|LB|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[A-Z0-9][DEJPVXYZ]\\)'
+            '\\((?:A[BDEFHLNPSXY]|B[58DFJLNPRT]|C[BX]|FT|JE|K[ADFIKMRXZ]|LB|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[A-Z0-9][ADEJPVXYZ]\\)'
         )
-        self.nintendo_3ds_product_code: Pattern[str] = re.compile('\\(?:[CT][TW][LR]-[NP]-[AK][7E]A[EV]\\)')
+        self.nintendo_3ds_product_code: Pattern[str] = re.compile(
+            '\\(?:[CT][TW][LR]-[NP]-[AK][7E]A[EV]\\)'
+        )
         self.ps_firmware: Pattern[str] = re.compile('\\(FW[0-9].*?\\)', flags=re.I)
         self.ps1_2_id: Pattern[str] = re.compile(
             '\\([LSPT][ABCDEILRSTU][ACEKPTUXZ][ACDHJLMNSX]-\\d{5}\\)'
@@ -234,7 +236,7 @@ class Regex:
             re.compile('Game Boy Advance Video', flags=re.I),
             re.compile('- (Preview|Movie) Trailer', flags=re.I),
             re.compile('\\((?:\\w*\\s)*Trailer(?:s|\\sDisc)?(?:\\s\\w*)*\\)', flags=re.I),
-            re.compile('\\(Video\\)', flags=re.I),
+            re.compile('\\((?:E3.*)?Video\\)', flags=re.I),
         )
 
     def __getitem__(self, key: str) -> Any:
@@ -481,6 +483,8 @@ class TitleTools:
             if pattern2string(re.compile(pattern_string), title_full_name):
                 problem_title_found = True
 
+        fm_towns_pattern_used: bool = False
+
         for pattern in config.regex.versions:
             # Guard against DreamCast/FMTowns and version collisions
             if 'dreamcast' in versions:
@@ -503,11 +507,7 @@ class TitleTools:
                 continue
 
             # Normalize version strings
-            if (
-                pattern != config.regex.nintendo_mastering_code
-                and pattern != config.regex.fmtowns_version
-                and not problem_title_found
-            ):
+            if fm_towns_pattern_used and not problem_title_found:
                 title_full_name = re.sub(' Version ((\\d\\.?)+)', ' (v\\1)', title_full_name)
                 title_full_name = re.sub(' (v(\\d\\.?)+)', ' (\\1)', title_full_name)
 
@@ -515,6 +515,11 @@ class TitleTools:
                 title_full_name = re.sub(
                     ' \\((v(\\d\\.?)+)beta\\)', ' (\\1) (Beta)', title_full_name
                 )
+
+            # Don't do the previous normalization of version strings until the FM Towns
+            # pattern has been used
+            if pattern == config.regex.fmtowns_version:
+                fm_towns_pattern_used = True
 
             # Get the version from the title, if it exists
             regex_search_str = pattern2string(pattern, title_full_name)

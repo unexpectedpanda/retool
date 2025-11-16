@@ -257,9 +257,7 @@ def choose_1g1r_orchestrator(
                             )
 
         # Now process compilations
-        processed_titles = choose_compilation(
-            compilations, processed_titles, quick_lookup, config, is_numbered
-        )
+        processed_titles = choose_compilation(compilations, processed_titles, config, is_numbered)
 
         if not config.user_input.single_cpu and bar:
             for _ in compilations:
