@@ -396,6 +396,9 @@ class DatNode:
                     self.categories.append(category)
 
         self.categories = category_assign(
+            self.full_name, self.categories, (config.regex.addons,), 'Add-Ons'
+        )
+        self.categories = category_assign(
             self.full_name, self.categories, (config.regex.programs,), 'Applications'
         )
         self.categories = category_assign(
