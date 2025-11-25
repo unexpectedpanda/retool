@@ -27,22 +27,22 @@
 		<rom name="Test Title 51 (USA) (Addon).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
     </game>
     <game name="Test Title 52 (USA) (DLC)">
-		<description>TTest Title 52 (USA) (DLC)</description>
+		<description>Test Title 52 (USA) (DLC)</description>
 		<rom name="Test Title 52 (USA) (DLC).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 52 (USA) (DLC).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
     </game>
     <game name="Test Title 53 (USA) (update)">
-		<description>TTest Title 53 (USA) (update)</description>
+		<description>Test Title 53 (USA) (update)</description>
 		<rom name="Test Title 53 (USA) (update).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 53 (USA) (update).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
     </game>
     <game name="Test Title 54 (USA) (Title Update)">
-		<description>TTest Title 54 (USA) (Title Update)</description>
+		<description>Test Title 54 (USA) (Title Update)</description>
 		<rom name="Test Title 54 (USA) (Title Update).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 54 (USA) (Title Update).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
     </game>
     <game name="Test Title 55 (USA) (addon for xbla)">
-		<description>TTest Title 55 (USA) (addon for xbla)</description>
+		<description>Test Title 55 (USA) (addon for xbla)</description>
 		<rom name="Test Title 55 (USA) (addon for xbla).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 55 (USA) (addon for xbla).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
     </game>
