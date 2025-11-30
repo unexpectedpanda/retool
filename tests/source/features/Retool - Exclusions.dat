@@ -14,7 +14,7 @@
 		<rom name="Test Title 0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 0 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
     </game>
-    <!-- This title should be removed when add-ons are excluded -->
+    <!-- These titles should be removed when add-ons are excluded -->
 	<game name="Test Title 1 (USA)">
         <category>Add-Ons</category>
 		<description>Test Title 1 (USA)</description>
@@ -31,20 +31,10 @@
 		<rom name="Test Title 52 (USA) (DLC).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Test Title 52 (USA) (DLC).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
     </game>
-    <game name="Test Title 53 (USA) (update)">
-		<description>Test Title 53 (USA) (update)</description>
-		<rom name="Test Title 53 (USA) (update).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Test Title 53 (USA) (update).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-    </game>
-    <game name="Test Title 54 (USA) (Title Update)">
-		<description>Test Title 54 (USA) (Title Update)</description>
-		<rom name="Test Title 54 (USA) (Title Update).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Test Title 54 (USA) (Title Update).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-    </game>
-    <game name="Test Title 55 (USA) (addon for xbla)">
-		<description>Test Title 55 (USA) (addon for xbla)</description>
-		<rom name="Test Title 55 (USA) (addon for xbla).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
-		<rom name="Test Title 55 (USA) (addon for xbla).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    <game name="Test Title 55 (USA) (Addon for XBLA)">
+		<description>Test Title 55 (USA) (Addon for XBLA)</description>
+		<rom name="Test Title 55 (USA) (Addon for XBLA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 55 (USA) (Addon for XBLA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
     </game>
 	<!-- These titles should be removed when aftermarket titles are excluded -->
 	<game name="Test Title 49 (USA) (Aftermarket)">

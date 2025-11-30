@@ -4,7 +4,6 @@
 !.gitignore
 !.dev
 !tests/**/*.dat
-/_internal/
 /config/
 /config/systems/*.yaml
 /clonelists/

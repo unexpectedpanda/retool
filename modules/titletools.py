@@ -126,7 +126,7 @@ class Regex:
 
         # Other tags
         self.addons: Pattern[str] = re.compile(
-            '\\((Addon( for XBLA)?|DLC|(Title )?Update)\\)', flags=re.I
+            '\\((?:Addon(?: for XBLA)?|DLC)\\)', flags=re.I
         )
         self.aftermarket: Pattern[str] = re.compile('\\(Aftermarket\\)', flags=re.I)
         self.alt: Pattern[str] = re.compile('\\(Alt.*?\\)', flags=re.I)
