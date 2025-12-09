@@ -125,6 +125,9 @@ class Regex:
         self.secam_2: Pattern[str] = re.compile('\\[(.*)?SECAM(.*)?\\]')
 
         # Other tags
+        self.addons: Pattern[str] = re.compile(
+            '\\((?:Addon(?: for XBLA)?|DLC)\\)', flags=re.I
+        )
         self.aftermarket: Pattern[str] = re.compile('\\(Aftermarket\\)', flags=re.I)
         self.alt: Pattern[str] = re.compile('\\(Alt.*?\\)', flags=re.I)
         self.bad: Pattern[str] = re.compile('\\[b\\]', flags=re.I)
