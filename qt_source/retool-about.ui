@@ -61,7 +61,6 @@
    </property>
    <property name="font">
     <font>
-     <family>Segoe UI</family>
     </font>
    </property>
    <property name="text">
@@ -94,7 +93,6 @@
    </property>
    <property name="font">
     <font>
-     <family>Segoe UI</family>
     </font>
    </property>
    <property name="text">
@@ -137,7 +135,6 @@
    </property>
    <property name="font">
     <font>
-     <family>Segoe UI</family>
     </font>
    </property>
    <property name="text">

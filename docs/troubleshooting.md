@@ -13,10 +13,10 @@ operating systems.
     <h4>SSL: CERTIFICATE_VERIFY_FAILED error</h4>
     If you see the error
     `[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate`
-    when trying to download files in Retool, it means that
-    [Python's SSL module doesn't have access to the certificates it needs](https://github.com/python/cpython/issues/80192#issuecomment-1093815322)
-    on your local machine to verify that it can trust the secure website it wants to
-    download from.
+    when trying to download files in Retool, it's a
+    [shortcoming in the way Python's SSL module is designed](https://github.com/python/cpython/issues/80192#issuecomment-1093815322)
+    that prevents it from obtaining the certificates it needs to verify that it can trust
+    the secure website it wants to download from.
 
     The easiest way to work around this is to install OpenSSL and import the Mozilla CA
     certificate store:
@@ -36,7 +36,7 @@ operating systems.
 
     1.  Run the following script to download and import the Mozilla CA certificate store:
 
-        ```ps
+        ```ps {.copy}
         cd $env:USERPROFILE;
         Invoke-WebRequest https://curl.se/ca/cacert.pem -OutFile $env:USERPROFILE\cacert.pem;
         $plaintext_pw = 'PASSWORD';
@@ -47,6 +47,25 @@ operating systems.
 
     Retool should now be able to download the files it needs.
 
+=== ":simple-apple: macOS"
+
+    <h4>SSL: CERTIFICATE_VERIFY_FAILED error</h4>
+    If you see the error
+    `[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate`
+    when trying to download files in Retool, it's a
+    [shortcoming in the way Python's SSL module is designed](https://github.com/python/cpython/issues/80192#issuecomment-1093815322)
+    that prevents it from obtaining the certificates it needs to verify that it can trust
+    the secure website it wants to download from.
+
+    To work around this, run the following commands, which will download the required
+    certificates into your home folder and add them to your system keychain.
+
+    <pre class="copy"><code>curl -o ~/cacert.pem https://curl.se/ca/cacert.pem
+    awk '/-----BEGIN CERTIFICATE-----/{flag=1} flag{print} /-----END CERTIFICATE-----/{exit}' ~/cacert.pem > ~/first-cert.pem
+    sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ~/first-cert.pem
+    open /Applications/Python\ 3.<span class="variable">REPLACE_WITH_PYTHON_MINOR_VERSION</span>/Install\ Certificates.command</code></pre>
+
+
 === ":simple-ubuntu: Ubuntu"
 
     <h4>libxcb error</h4>
@@ -54,7 +73,7 @@ operating systems.
     If you get a libxcb error in Linux when launching `retoolgui` in Ubuntu, you might need to
     download the following libraries:
 
-    ```sh
+    ```sh {.copy}
     sudo apt-get install libxcb-randr0-dev \
             libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev
     ```

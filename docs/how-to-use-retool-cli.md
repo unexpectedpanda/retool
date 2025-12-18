@@ -118,7 +118,7 @@ collection, it's not great for those looking to operate in their own language, o
 people who are multilingual.
 
 Retool can use local names for titles if they are available in metadata files or clone
-lists. For example, the Japanese `シャイニング●フォースⅡ 『古の封印』` instead of the romanized
+lists. For example, the Japanese `シャイニング·フォースⅡ 『古の封印』` instead of the romanized
 `Shining Force II - Inishie no Fuuin`.
 
 Language order is important, as some titles are multi-region and have multiple local
@@ -382,7 +382,7 @@ These options change how Retool handles certain titles.
   `config/user-config.yaml`).
 
 * **`-n` Use local names for titles if available**
-  <br>For example, `シャイニング●フォースⅡ 『古の封印』` instead of
+  <br>For example, `シャイニング·フォースⅡ 『古の封印』` instead of
   `Shining Force II - Inishie no Fuuin` (see `config/user-config.yaml`).
 
 * **`-o` * Prefer oldest production versions instead of newest**

@@ -1,4 +1,5 @@
 import pathlib
+import sys
 import webbrowser
 from typing import Any
 
@@ -1376,7 +1377,12 @@ def init_gui_system(
 
     # Set up the delete key for various lists
     def on_key(key: int, listWidget: qtw.QListWidget) -> None:
-        if key == 16777223:
+        del_key: int = 16777223
+
+        if sys.platform == 'darwin':
+            del_key = 16777219
+
+        if key == del_key:
             if listWidget == main_window.ui.listWidgetOpenFiles:
                 remove_list_items(
                     listWidget,

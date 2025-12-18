@@ -4,6 +4,7 @@ import re
 from typing import Any
 
 import darkdetect  # type: ignore
+import sys
 import validators
 from PySide6 import QtCore as qtc
 from PySide6 import QtWidgets as qtw
@@ -85,7 +86,7 @@ class SettingsWindow(qtw.QDialog):
             qtc.QCoreApplication.translate('Settings', 'No clone list folder selected', None)
         )
         self.ui.labelCloneListsLocation.setObjectName('labelCloneListsLocation')
-        self.ui.labelCloneListsLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
+        self.ui.labelCloneListsLocation.setGeometry(qtc.QRect(56, 20, 520, 20))
         self.ui.labelCloneListsLocation.setStyleSheet('color: #777')
 
         self.ui.labelMetadataLocation.hide()
@@ -95,7 +96,7 @@ class SettingsWindow(qtw.QDialog):
             qtc.QCoreApplication.translate('Settings', 'No metadata folder selected', None)
         )
         self.ui.labelMetadataLocation.setObjectName('labelMetadataLocation')
-        self.ui.labelMetadataLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
+        self.ui.labelMetadataLocation.setGeometry(qtc.QRect(56, 20, 520, 20))
         self.ui.labelMetadataLocation.setStyleSheet('color: #777')
 
         self.ui.labelMIALocation.hide()
@@ -105,7 +106,7 @@ class SettingsWindow(qtw.QDialog):
             qtc.QCoreApplication.translate('Settings', 'No MIA folder selected', None)
         )
         self.ui.labelMIALocation.setObjectName('labelMIALocation')
-        self.ui.labelMIALocation.setGeometry(qtc.QRect(50, 20, 531, 20))
+        self.ui.labelMIALocation.setGeometry(qtc.QRect(56, 20, 520, 20))
         self.ui.labelMIALocation.setStyleSheet('color: #777')
 
         self.ui.labelRALocation.hide()
@@ -115,7 +116,7 @@ class SettingsWindow(qtw.QDialog):
             qtc.QCoreApplication.translate('Settings', 'No RetroAchievements folder selected', None)
         )
         self.ui.labelRALocation.setObjectName('labelRALocation')
-        self.ui.labelRALocation.setGeometry(qtc.QRect(50, 20, 531, 20))
+        self.ui.labelRALocation.setGeometry(qtc.QRect(56, 20, 520, 20))
         self.ui.labelRALocation.setStyleSheet('color: #777')
 
         self.ui.labelQuickImportLocation.hide()
@@ -125,7 +126,7 @@ class SettingsWindow(qtw.QDialog):
             qtc.QCoreApplication.translate('Settings', 'No quick import folder selected', None)
         )
         self.ui.labelQuickImportLocation.setObjectName('labelQuickImportLocation')
-        self.ui.labelQuickImportLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
+        self.ui.labelQuickImportLocation.setGeometry(qtc.QRect(56, 20, 520, 20))
         self.ui.labelQuickImportLocation.setStyleSheet('color: #777')
 
         # Fix the fonts
@@ -289,24 +290,25 @@ class TitleToolWindow(qtw.QMainWindow):
         # Fix checkboxes, which have a weird hover effect on Windows 4k monitors on hover if
         # you don't set a size that's divisible by 4. Also add custom SVGs to fix
         # check mark scaling.
-        checkbox_style = '''
-                        QCheckBox::indicator {width: 16px; height: 16px;}
-                        QCheckBox::indicator:unchecked {image: url(:/checkboxes/images/checkbox.svg);}
-                        QCheckBox::indicator:unchecked:disabled {image: url(:/checkboxes/images/checkbox-disabled.svg);}
-                        QCheckBox::indicator:unchecked:hover {image: url(:/checkboxes/images/checkbox-hover.svg);}
-                        QCheckBox::indicator:unchecked:pressed {image: url(:/checkboxes/images/checkbox-pressed.svg);}
-                        QCheckBox::indicator:checked {image: url(:/checkboxes/images/checkbox-checked.svg);}
-                        QCheckBox::indicator:checked:disabled {image: url(:/checkboxes/images/checkbox-checked-disabled.svg);}
-                        QCheckBox::indicator:checked:hover {image: url(:/checkboxes/images/checkbox-checked-hover.svg);}
-                        QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
-                        QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
-                        '''
+        if not sys.platform == 'darwin':
+            checkbox_style = '''
+                            QCheckBox::indicator {width: 16px; height: 16px;}
+                            QCheckBox::indicator:unchecked {image: url(:/checkboxes/images/checkbox.svg);}
+                            QCheckBox::indicator:unchecked:disabled {image: url(:/checkboxes/images/checkbox-disabled.svg);}
+                            QCheckBox::indicator:unchecked:hover {image: url(:/checkboxes/images/checkbox-hover.svg);}
+                            QCheckBox::indicator:unchecked:pressed {image: url(:/checkboxes/images/checkbox-pressed.svg);}
+                            QCheckBox::indicator:checked {image: url(:/checkboxes/images/checkbox-checked.svg);}
+                            QCheckBox::indicator:checked:disabled {image: url(:/checkboxes/images/checkbox-checked-disabled.svg);}
+                            QCheckBox::indicator:checked:hover {image: url(:/checkboxes/images/checkbox-checked-hover.svg);}
+                            QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
+                            QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
+                            '''
 
-        checkboxes = self.ui.centralwidget.findChildren(
-            qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)')
-        )
-        for checkbox in checkboxes:
-            checkbox.setStyleSheet(checkbox_style)
+            checkboxes = self.ui.centralwidget.findChildren(
+                qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)')
+            )
+            for checkbox in checkboxes:
+                checkbox.setStyleSheet(checkbox_style)
 
         def update_names() -> None:
             """

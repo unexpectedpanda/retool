@@ -34,7 +34,10 @@ Issues = "https://github.com/unexpectedpanda/retool/issues"
 Source = "https://github.com/unexpectedpanda/retool"
 
 [build-system]
-requires = ["hatchling"]
+requires = [
+    "hatchling",
+    "hatch-pyinstaller", # requires the hatch-pyinstaller plugin
+    ]
 build-backend = "hatchling.build"
 
 [project.scripts]
@@ -44,6 +47,14 @@ retoolgui = "retoolgui:main"
 # Hatch
 [tool.hatch.version]
 path = "modules/constants.py"
+
+[tool.hatch.build.targets.pyinstaller]
+require-runtime-dependencies = true
+scriptname = "retoolgui.py"
+flags = ['-iimages/retool.ico', "--upx-dir=c:/upx", "--noconfirm"]
+collect-submodules = ["grapheme"]
+log-level = "WARN"
+zip = false
 
 [tool.hatch.build.targets.wheel]
 packages = ["retool.py", "retoolgui.py", "modules"]

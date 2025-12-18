@@ -125,6 +125,9 @@ class Regex:
         self.secam_2: Pattern[str] = re.compile('\\[(.*)?SECAM(.*)?\\]')
 
         # Other tags
+        self.addons: Pattern[str] = re.compile(
+            '\\((?:Addon(?: for XBLA)?|DLC)\\)', flags=re.I
+        )
         self.aftermarket: Pattern[str] = re.compile('\\(Aftermarket\\)', flags=re.I)
         self.alt: Pattern[str] = re.compile('\\(Alt.*?\\)', flags=re.I)
         self.bad: Pattern[str] = re.compile('\\[b\\]', flags=re.I)
@@ -235,6 +238,7 @@ class Regex:
         self.video: tuple[Pattern[str], ...] = (
             re.compile('Game Boy Advance Video', flags=re.I),
             re.compile('- (Preview|Movie) Trailer', flags=re.I),
+            re.compile('\\(Nintendo (?:3DS )?Direct.*?\\)', flags=re.I),
             re.compile('\\((?:\\w*\\s)*Trailer(?:s|\\sDisc)?(?:\\s\\w*)*\\)', flags=re.I),
             re.compile('\\((?:E3.*)?Video\\)', flags=re.I),
         )

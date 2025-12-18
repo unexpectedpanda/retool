@@ -114,6 +114,10 @@ def add_list_items(
 
         enable_go_button(main_window)
 
+    # If the user cancels out of adding DAT files, reset the list widget
+    if not [list_widget.item(x) for x in range(list_widget.count())]:
+            list_widget.addItem('No DAT files added yet')
+
 
 def disable_incompatible_checkbox(
     checkbox_select: qtw.QCheckBox,
@@ -212,12 +216,12 @@ def enable_go_button(main_window: Any) -> None:
         disabled = True
 
         if message:
-            message = f'{message},\nand add at least one region before you can process DATs'
+            message = f'{message},\nand add at least one region before you can process DATs.'
         else:
-            message = 'You need to add at least one region before you can process DATs'
+            message = 'You need to add at least one region before you can process DATs.'
 
     if message == 'You need to add DAT files to the list':
-        message = f'{message} before you can process them'
+        message = f'{message} before you can process them.'
 
     main_window.ui.buttonGo.setDisabled(disabled)
 
@@ -472,27 +476,16 @@ def set_fonts(parent: Any) -> None:
 
     if sys.platform.startswith('win'):
         fonts = 'Segoe UI, Tahoma, Arial'
+    elif sys.platform == 'darwin':
+        fonts = '.AppleSystemUIFont, Helvetica Neue, Tahoma, Arial'
     elif 'linux' in sys.platform:
         fonts = 'Ubuntu, DejaVu Sans, FreeSans'
 
-        all_widgets = []
-
-        # Since Ubuntu fonts are really wide, find all widgets and decrease their font size
-        try:
-            all_widgets.extend(parent.findChildren(qtw.QPushButton))
-            all_widgets.extend(parent.findChildren(qtw.QCheckBox))
-            all_widgets.extend(parent.findChildren(qtw.QLabel))
-            all_widgets.extend(parent.findChildren(qtw.QLineEdit))
-            all_widgets.extend(parent.findChildren(qtw.QListWidget))
-            all_widgets.extend(parent.findChildren(qtw.QTabWidget))
-            all_widgets.extend(parent.findChildren(qtw.QTextEdit))
-            all_widgets.extend(parent.findChildren(qtw.QToolTip))
-        except Exception:
-            pass
+        widgets = parent.findChildren(qtw.QWidget)
 
         font: qtg.QFont
 
-        for widget in all_widgets:
+        for widget in widgets:
             try:
                 font = widget.font()
                 font.setPointSize(10)
@@ -527,7 +520,18 @@ def set_fonts(parent: Any) -> None:
         except Exception:
             pass
 
-    parent.setStyleSheet(f'font-family: {fonts}')
+    # Change the font assignment for all elements
+    widgets = parent.findChildren(qtw.QWidget)
+
+    for widget in widgets:
+        font_size = widget.font().pointSize()
+        font_weight = widget.font().weight()
+
+        if sys.platform == 'darwin':
+            if font_size == 8:
+                font_size = 12
+
+        widget.setFont(qtg.QFont(fonts, font_size, font_weight))
 
 
 def set_path(
