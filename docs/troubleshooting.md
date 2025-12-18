@@ -57,13 +57,15 @@ operating systems.
     that prevents it from obtaining the certificates it needs to verify that it can trust
     the secure website it wants to download from.
 
-    To work around this, run the following commands, which will download the required
-    certificates into your home folder and add them to your system keychain.
+    To work around this, run the following commands, which download the required
+    certificates into your home folder and then add them to your system keychain. Replace
+    <span class="variable">PYTHON_VERSION</span> with the major.minor version of your
+    Python install. For example, for Python 3.14.0, use `3.14`.
 
     <pre class="copy"><code>curl -o ~/cacert.pem https://curl.se/ca/cacert.pem
     awk '/-----BEGIN CERTIFICATE-----/{flag=1} flag{print} /-----END CERTIFICATE-----/{exit}' ~/cacert.pem > ~/first-cert.pem
     sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ~/first-cert.pem
-    open /Applications/Python\ 3.<span class="variable">REPLACE_WITH_PYTHON_MINOR_VERSION</span>/Install\ Certificates.command</code></pre>
+    open "/Applications/Python\ <span class="variable">PYTHON_VERSION</span>/Install\ Certificates.command"</code></pre>
 
 
 === ":simple-ubuntu: Ubuntu"
