@@ -48,11 +48,7 @@ hide:
 
    - Tab contents have had their layouts reworked for consistent item placement.
 
-   - On Windows and Ubuntu, native-looking arrows show if a row of tabs exceeds the
-     window, allowing you to scroll through the tabs. On macOS these don't show by
-     default, and if you turn them on they look awful. Additionally, tabs all show at an
-     equal width, which means they run off the screen sooner. Now on macOS only the tab
-     labels elide to the right to overcome the scrolling and tab width issue.
+   - Tabs labels now elide to the right to overcome tab width issues.
 
 
 ## 2.4.5 (2025-11-05)
