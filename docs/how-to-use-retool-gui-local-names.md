@@ -21,7 +21,7 @@ collection, it's not great for those looking to operate in their own language, o
 people who are multilingual.
 
 Retool can use local names for titles if they are available in metadata files or clone
-lists. For example, the Japanese `シャイニング●フォースⅡ 『古の封印』` instead of the
+lists. For example, the Japanese `シャイニング·フォースⅡ 『古の封印』` instead of the
 romanized `Shining Force II - Inishie no Fuuin`.
 
 ## Change the local names order

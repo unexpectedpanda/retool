@@ -27,8 +27,16 @@ the operating system you use.
     1.  In that folder, double click `retoolgui.exe`. A Command Prompt window opens, which
         shows the output when Retool is running. Don't close it, as this also closes the
         GUI.
+
     1.  Click **File > Update clone lists** to download the latest clone lists and
         metadata files.
+
+        !!! warning "SSL: CERTIFICATE_VERIFY_FAILED error"
+
+            If you see the error
+            `[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate`
+            when trying to download files in Retool, see
+            [Troubleshooting](troubleshooting.md#windows) for the fix.
 
     !!! note
         Retool's binary is [UPX packed](https://upx.github.io/) to reduce its size on
@@ -53,7 +61,7 @@ the operating system you use.
 
         === "Pip"
             ```
-            pip install alive-progress lxml psutil pyside6 darkdetect strictyaml validators
+            python3 -m pip install alive-progress lxml psutil pyside6 darkdetect strictyaml validators
             ```
 
         === "Hatch"
@@ -61,7 +69,7 @@ the operating system you use.
             1.  Install Hatch if you haven't already:
 
                 ```
-                pip install hatch
+                python3 -m pip install hatch
                 ```
 
             1.  Enter the Hatch virtual environment:
@@ -72,18 +80,17 @@ the operating system you use.
 
                 To exit the environment at any time, run the `exit` command.
 
-        !!! info
-            On systems that have both Python 2 and 3 installed, you might need to run
-            `pip3` instead of `pip`.
-
     1.  Download the latest clone lists and metadata files:
 
         ```
-        retool.py --update
+        python3 retool.py --update
         ```
 
-        !!! info
-            On some operating systems you might need to prefix Python files with `python3`
-            or `python` to run them.
+        !!! warning "SSL: CERTIFICATE_VERIFY_FAILED error"
+
+            If you see the error
+            `[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate`
+            on macOS when trying to download files in Retool, see
+            [Troubleshooting](troubleshooting.md#macos) for the fix.
 
     1.  You can now run `retool.py` or `retoolgui.py`.

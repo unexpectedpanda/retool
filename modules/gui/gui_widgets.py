@@ -1,3 +1,4 @@
+import sys
 import threading
 from typing import Any
 
@@ -403,25 +404,26 @@ def custom_widgets(main_window: Any) -> Any:
     # Fix checkboxes, which have a weird hover effect on Windows 4k monitors on hover if
     # you don't set a size that's divisible by 4. Also add a custom SVGs to fix check
     # mark scaling.
-    checkbox_style = '''
-                    QCheckBox::indicator {width: 16px; height: 16px;}
-                    QCheckBox::indicator:unchecked {image: url(:/checkboxes/images/checkbox.svg);}
-                    QCheckBox::indicator:unchecked:disabled {image: url(:/checkboxes/images/checkbox-disabled.svg);}
-                    QCheckBox::indicator:unchecked:hover {image: url(:/checkboxes/images/checkbox-hover.svg);}
-                    QCheckBox::indicator:unchecked:pressed {image: url(:/checkboxes/images/checkbox-pressed.svg);}
-                    QCheckBox::indicator:checked {image: url(:/checkboxes/images/checkbox-checked.svg);}
-                    QCheckBox::indicator:checked:disabled {image: url(:/checkboxes/images/checkbox-checked-disabled.svg);}
-                    QCheckBox::indicator:checked:hover {image: url(:/checkboxes/images/checkbox-checked-hover.svg);}
-                    QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
-                    QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
-                    '''
+    if not sys.platform == 'darwin':
+        checkbox_style = '''
+                        QCheckBox::indicator {width: 16px; height: 16px;}
+                        QCheckBox::indicator:unchecked {image: url(:/checkboxes/images/checkbox.svg);}
+                        QCheckBox::indicator:unchecked:disabled {image: url(:/checkboxes/images/checkbox-disabled.svg);}
+                        QCheckBox::indicator:unchecked:hover {image: url(:/checkboxes/images/checkbox-hover.svg);}
+                        QCheckBox::indicator:unchecked:pressed {image: url(:/checkboxes/images/checkbox-pressed.svg);}
+                        QCheckBox::indicator:checked {image: url(:/checkboxes/images/checkbox-checked.svg);}
+                        QCheckBox::indicator:checked:disabled {image: url(:/checkboxes/images/checkbox-checked-disabled.svg);}
+                        QCheckBox::indicator:checked:hover {image: url(:/checkboxes/images/checkbox-checked-hover.svg);}
+                        QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
+                        QCheckBox::indicator:checked:pressed {image: url(:/checkboxes/images/checkbox-checked-pressed.svg);}
+                        '''
 
-    checkboxes = main_window.ui.centralwidget.findChildren(
-        qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)')
-    )
+        checkboxes = main_window.ui.centralwidget.findChildren(
+            qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)')
+        )
 
-    for checkbox in checkboxes:
-        checkbox.setStyleSheet(checkbox_style)
+        for checkbox in checkboxes:
+            checkbox.setStyleSheet(checkbox_style)
 
     # Fix markers on dropdown boxes
     dropdown_style = '''
@@ -443,7 +445,7 @@ def custom_widgets(main_window: Any) -> Any:
     for dropdown in dropdowns:
         dropdown.setStyleSheet(dropdown_style)
 
-    # Fix the scrollArea background color,which for some reason is altered by setting
+    # Fix the scrollArea background color, which for some reason is altered by setting
     # the font previously
     scroll_area_style = '''
                         QScrollArea { background: transparent; }
@@ -451,19 +453,31 @@ def custom_widgets(main_window: Any) -> Any:
                         QScrollArea > QWidget > QScrollBar { background-color: none; }
                         '''
 
-    main_window.ui.scrollAreaGlobalOptions.setStyleSheet(scroll_area_style)
-    main_window.ui.scrollAreaGlobalOverrides.setStyleSheet(scroll_area_style)
-    main_window.ui.scrollAreaGlobalPostFilters.setStyleSheet(scroll_area_style)
-    main_window.ui.scrollAreaSystemOptions.setStyleSheet(scroll_area_style)
-    main_window.ui.scrollAreaSystemOverrides.setStyleSheet(scroll_area_style)
-    main_window.ui.scrollAreaSystemPostFilters.setStyleSheet(scroll_area_style)
+    scroll_widgets = main_window.findChildren(qtw.QScrollArea)
+
+    for scroll_widget in scroll_widgets:
+        scroll_widget.setStyleSheet(scroll_area_style)
 
     # Change the splitter drag handle
     drag_handle = '''
-                    QSplitter::handle { image: url(:/Arrows/images/vertical-grip.png); }
+                    QSplitter::handle { image: url(:/arrows/images/vertical-grip.png); }
                   '''
 
     main_window.ui.splitter.setStyleSheet(drag_handle)
+
+    # Adjust language and video moving button Y positions on macOS
+    if sys.platform == 'darwin':
+        main_window.ui.verticalSpacerGlobalLanguageLeftRightBottomBuffer.changeSize(20, 59)
+        main_window.ui.verticalSpacerGlobalLanguageUpDownBottomBuffer.changeSize(20, 59)
+        main_window.ui.verticalSpacerGlobalVideoUpDownBottomBuffer.changeSize(20, 59)
+        main_window.ui.verticalSpacerSystemLanguageLeftRightBottomBuffer.changeSize(20, 59)
+        main_window.ui.verticalSpacerSystemLanguageUpDownBottomBuffer.changeSize(20, 59)
+        main_window.ui.verticalSpacerSystemVideoUpDownBottomBuffer.changeSize(20, 59)
+
+    # Set macOS tabs to ElideRight so all tabs are visible in a constrained window
+    if sys.platform == 'darwin':
+        main_window.ui.tabWidgetGlobalSettings.setElideMode(qtc.Qt.ElideRight)
+        main_window.ui.tabWidgetSystemSettings.setElideMode(qtc.Qt.ElideRight)
 
     # Create a "stop" button
     sizePolicy = qtw.QSizePolicy(qtw.QSizePolicy.Fixed, qtw.QSizePolicy.Fixed)  # type: ignore

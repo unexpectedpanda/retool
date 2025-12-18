@@ -428,7 +428,7 @@ def check_input() -> UserInput:
         '-n',
         action='store_true',
         help=f'R|Use local names for titles if available. For example,'
-        '\nシャイニング●フォースⅡ 『古の封印』 instead of'
+        '\nシャイニング·フォースⅡ 『古の封印』 instead of'
         '\nShining Force II - Inishie no Fuuin'
         f'\n(see {Font.b}config/user-config.yaml{Font.be}).'
         '\n\n',
@@ -771,20 +771,25 @@ def check_input() -> UserInput:
         )
         sys.exit(1)
 
-    # Set warnings and legacy to always be true if in dev environment
+    # Set warnings to always be true if in dev mode
     dev_mode: bool = False
 
     if pathlib.Path('.dev').is_file() and not args.q:
         dev_mode = True
-        setattr(args, 'legacy', True)
         if not args.test:
             setattr(args, 'warnings', True)
             setattr(args, 'warningpause', True)
             eprint(f'• {Font.b}Operating in dev mode{Font.be}', level='warning')
-        else:
-            eprint(f'• {Font.b}Operating in test mode{Font.be}', level='warning')
-            eprint(f'• {Font.b}Running Python version: {sys.version}{Font.be}', level='warning')
         eprint('')
+
+    # Notify if in test mode
+    if args.test:
+        eprint(f'• {Font.b}Operating in test mode{Font.be}', level='warning')
+        eprint(f'• {Font.b}Running Python version: {sys.version}{Font.be}', level='warning')
+
+    # Set legacy mode if in dev mode or test mode
+    if (dev_mode or args.test) and not args.q:
+        setattr(args, 'legacy', True)
 
     # Compensate for trailing backslash in Windows
     if args.Input is not None:
@@ -1039,9 +1044,6 @@ def import_clone_list_mia_ra(
             GUI.
 
         config (Config): The Retool config object.
-
-    Raises:
-        ExitRetool: Silently exit if run from the GUI, so UI elements can re-enable.
 
     Returns:
         CloneList: A CloneList object which is used to enable custom matching of titles,
@@ -1602,7 +1604,8 @@ def import_system_settings(
                 config.system_exclusions_options, 'trace', '', is_path=False
             )
 
-            config.user_input.user_options = f' (-{"".join(sorted(options))})'
+            if options:
+                config.user_input.user_options = f' (-{"".join(sorted(options))})'
 
 
 def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:

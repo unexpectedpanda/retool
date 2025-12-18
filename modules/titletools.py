@@ -238,6 +238,7 @@ class Regex:
         self.video: tuple[Pattern[str], ...] = (
             re.compile('Game Boy Advance Video', flags=re.I),
             re.compile('- (Preview|Movie) Trailer', flags=re.I),
+            re.compile('\\(Nintendo (?:3DS )?Direct.*?\\)', flags=re.I),
             re.compile('\\((?:\\w*\\s)*Trailer(?:s|\\sDisc)?(?:\\s\\w*)*\\)', flags=re.I),
             re.compile('\\((?:E3.*)?Video\\)', flags=re.I),
         )

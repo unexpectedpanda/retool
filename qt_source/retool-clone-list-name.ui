@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>601</width>
-    <height>365</height>
+    <width>680</width>
+    <height>370</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,20 +18,18 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>601</width>
-    <height>350</height>
+    <width>680</width>
+    <height>370</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>601</width>
-    <height>365</height>
+    <width>680</width>
+    <height>370</height>
    </size>
   </property>
   <property name="font">
-   <font>
-    <family>Segoe UI</family>
-   </font>
+   <font/>
   </property>
   <property name="windowTitle">
    <string>Title tool</string>
@@ -44,28 +42,50 @@
    <locale language="English" country="UnitedStates"/>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
    <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>8</number>
+    </property>
     <property name="leftMargin">
-     <number>15</number>
+     <number>10</number>
     </property>
     <property name="topMargin">
-     <number>15</number>
+     <number>10</number>
     </property>
     <property name="rightMargin">
-     <number>15</number>
+     <number>10</number>
     </property>
     <item>
      <widget class="QLabel" name="labelContribute">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="minimumSize">
        <size>
         <width>0</width>
         <height>36</height>
        </size>
       </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
       <property name="font">
-       <font>
-        <family>Segoe UI</family>
-       </font>
+       <font/>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
       </property>
       <property name="text">
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This tool is useful for contributing to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to it by default as part of its matching process. &lt;a href=&quot;https://unexpectedpanda.github.io/retool/naming-system/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Read the documentation&lt;/span&gt;&lt;/a&gt; to learn more.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -105,9 +125,14 @@
     </item>
     <item>
      <widget class="QLabel" name="labelEnterName">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="font">
        <font>
-        <family>Segoe UI</family>
         <bold>true</bold>
        </font>
       </property>
@@ -129,7 +154,7 @@
     <item>
      <widget class="QCheckBox" name="checkBoxDemos">
       <property name="text">
-       <string>Title has a category of Demos (adds a tag to title names that have no recognized demo tags)</string>
+       <string>Title has a category of Demos in the DAT file, but is missing demo tags in the filename</string>
       </property>
      </widget>
     </item>
@@ -151,9 +176,14 @@
     </item>
     <item>
      <widget class="QLabel" name="labelShortName">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="font">
        <font>
-        <family>Segoe UI</family>
         <bold>false</bold>
        </font>
       </property>
@@ -236,9 +266,14 @@
     </item>
     <item>
      <widget class="QLabel" name="labelGroupName">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="font">
        <font>
-        <family>Segoe UI</family>
         <bold>false</bold>
        </font>
       </property>
@@ -315,9 +350,14 @@
     </item>
     <item>
      <widget class="QLabel" name="labelRegionFreeName">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="font">
        <font>
-        <family>Segoe UI</family>
         <bold>false</bold>
        </font>
       </property>
@@ -382,7 +422,7 @@
        <enum>Qt::Orientation::Vertical</enum>
       </property>
       <property name="sizeType">
-       <enum>QSizePolicy::Policy::Fixed</enum>
+       <enum>QSizePolicy::Policy::Expanding</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>

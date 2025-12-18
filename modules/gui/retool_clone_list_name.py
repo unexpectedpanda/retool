@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-clone-list-name.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.9.1
+## Created by: Qt User Interface Compiler version 6.10.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -26,16 +26,15 @@ class Ui_CloneListNameTool(object):
     def setupUi(self, CloneListNameTool):
         if not CloneListNameTool.objectName():
             CloneListNameTool.setObjectName(u"CloneListNameTool")
-        CloneListNameTool.resize(601, 365)
+        CloneListNameTool.resize(680, 370)
         sizePolicy = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(CloneListNameTool.sizePolicy().hasHeightForWidth())
         CloneListNameTool.setSizePolicy(sizePolicy)
-        CloneListNameTool.setMinimumSize(QSize(601, 350))
-        CloneListNameTool.setMaximumSize(QSize(601, 365))
+        CloneListNameTool.setMinimumSize(QSize(680, 370))
+        CloneListNameTool.setMaximumSize(QSize(680, 370))
         font = QFont()
-        font.setFamilies([u"Segoe UI"])
         CloneListNameTool.setFont(font)
         icon = QIcon()
         icon.addFile(u":/retoolIcon/images/retool.ico", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
@@ -43,13 +42,23 @@ class Ui_CloneListNameTool(object):
         CloneListNameTool.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.centralwidget = QWidget(CloneListNameTool)
         self.centralwidget.setObjectName(u"centralwidget")
+        sizePolicy1 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        sizePolicy1.setHorizontalStretch(0)
+        sizePolicy1.setVerticalStretch(0)
+        sizePolicy1.setHeightForWidth(self.centralwidget.sizePolicy().hasHeightForWidth())
+        self.centralwidget.setSizePolicy(sizePolicy1)
         self.verticalLayout = QVBoxLayout(self.centralwidget)
+        self.verticalLayout.setSpacing(8)
         self.verticalLayout.setObjectName(u"verticalLayout")
-        self.verticalLayout.setContentsMargins(15, 15, 15, -1)
+        self.verticalLayout.setContentsMargins(10, 10, 10, -1)
         self.labelContribute = QLabel(self.centralwidget)
         self.labelContribute.setObjectName(u"labelContribute")
+        sizePolicy1.setHeightForWidth(self.labelContribute.sizePolicy().hasHeightForWidth())
+        self.labelContribute.setSizePolicy(sizePolicy1)
         self.labelContribute.setMinimumSize(QSize(0, 36))
+        self.labelContribute.setMaximumSize(QSize(16777215, 16777215))
         self.labelContribute.setFont(font)
+        self.labelContribute.setLineWidth(0)
         self.labelContribute.setScaledContents(False)
         self.labelContribute.setAlignment(Qt.AlignmentFlag.AlignLeading|Qt.AlignmentFlag.AlignLeft|Qt.AlignmentFlag.AlignTop)
         self.labelContribute.setWordWrap(True)
@@ -64,8 +73,12 @@ class Ui_CloneListNameTool(object):
 
         self.labelEnterName = QLabel(self.centralwidget)
         self.labelEnterName.setObjectName(u"labelEnterName")
+        sizePolicy2 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        sizePolicy2.setHorizontalStretch(0)
+        sizePolicy2.setVerticalStretch(0)
+        sizePolicy2.setHeightForWidth(self.labelEnterName.sizePolicy().hasHeightForWidth())
+        self.labelEnterName.setSizePolicy(sizePolicy2)
         font1 = QFont()
-        font1.setFamilies([u"Segoe UI"])
         font1.setBold(True)
         self.labelEnterName.setFont(font1)
 
@@ -88,8 +101,9 @@ class Ui_CloneListNameTool(object):
 
         self.labelShortName = QLabel(self.centralwidget)
         self.labelShortName.setObjectName(u"labelShortName")
+        sizePolicy2.setHeightForWidth(self.labelShortName.sizePolicy().hasHeightForWidth())
+        self.labelShortName.setSizePolicy(sizePolicy2)
         font2 = QFont()
-        font2.setFamilies([u"Segoe UI"])
         font2.setBold(False)
         self.labelShortName.setFont(font2)
 
@@ -116,6 +130,8 @@ class Ui_CloneListNameTool(object):
 
         self.labelGroupName = QLabel(self.centralwidget)
         self.labelGroupName.setObjectName(u"labelGroupName")
+        sizePolicy2.setHeightForWidth(self.labelGroupName.sizePolicy().hasHeightForWidth())
+        self.labelGroupName.setSizePolicy(sizePolicy2)
         self.labelGroupName.setFont(font2)
 
         self.verticalLayout.addWidget(self.labelGroupName)
@@ -138,6 +154,8 @@ class Ui_CloneListNameTool(object):
 
         self.labelRegionFreeName = QLabel(self.centralwidget)
         self.labelRegionFreeName.setObjectName(u"labelRegionFreeName")
+        sizePolicy2.setHeightForWidth(self.labelRegionFreeName.sizePolicy().hasHeightForWidth())
+        self.labelRegionFreeName.setSizePolicy(sizePolicy2)
         self.labelRegionFreeName.setFont(font2)
 
         self.verticalLayout.addWidget(self.labelRegionFreeName)
@@ -154,7 +172,7 @@ class Ui_CloneListNameTool(object):
 
         self.verticalLayout.addWidget(self.lineEditRegionFreeName)
 
-        self.verticalSpacer_6 = QSpacerItem(20, 15, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacer_6 = QSpacerItem(20, 15, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
 
         self.verticalLayout.addItem(self.verticalSpacer_6)
 
@@ -169,7 +187,7 @@ class Ui_CloneListNameTool(object):
         CloneListNameTool.setWindowTitle(QCoreApplication.translate("CloneListNameTool", u"Title tool", None))
         self.labelContribute.setText(QCoreApplication.translate("CloneListNameTool", u"<html><head/><body><p>This tool is useful for contributing to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to it by default as part of its matching process. <a href=\"https://unexpectedpanda.github.io/retool/naming-system/\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the documentation</span></a> to learn more.</p></body></html>", None))
         self.labelEnterName.setText(QCoreApplication.translate("CloneListNameTool", u"Enter the full name as it appears in the DAT file", None))
-        self.checkBoxDemos.setText(QCoreApplication.translate("CloneListNameTool", u"Title has a category of Demos (adds a tag to title names that have no recognized demo tags)", None))
+        self.checkBoxDemos.setText(QCoreApplication.translate("CloneListNameTool", u"Title has a category of Demos in the DAT file, but is missing demo tags in the filename", None))
         self.labelShortName.setText(QCoreApplication.translate("CloneListNameTool", u"Default short name", None))
         self.lineEditShortName.setText("")
         self.labelGroupName.setText(QCoreApplication.translate("CloneListNameTool", u"Default group name", None))

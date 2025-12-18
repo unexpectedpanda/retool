@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>604</width>
-    <height>500</height>
+    <height>520</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -19,13 +19,13 @@
   <property name="minimumSize">
    <size>
     <width>604</width>
-    <height>500</height>
+    <height>520</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>604</width>
-    <height>500</height>
+    <height>520</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -43,7 +43,7 @@
      <x>-1</x>
      <y>-1</y>
      <width>601</width>
-     <height>486</height>
+     <height>524</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
@@ -63,20 +63,26 @@
      <number>0</number>
     </property>
     <property name="verticalSpacing">
-     <number>12</number>
+     <number>10</number>
     </property>
     <item row="5" column="0">
      <widget class="QFrame" name="frameMetadataLocation">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="minimumSize">
        <size>
         <width>0</width>
-        <height>41</height>
+        <height>48</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>41</height>
+        <height>48</height>
        </size>
       </property>
       <property name="locale">
@@ -96,13 +102,18 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>41</width>
-         <height>41</height>
+         <width>44</width>
+         <height>48</height>
         </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -129,15 +140,14 @@
       <widget class="QLabel" name="labelSelectMetadataLocation">
        <property name="geometry">
         <rect>
-         <x>50</x>
+         <x>56</x>
          <y>0</y>
-         <width>531</width>
+         <width>510</width>
          <height>22</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <bold>false</bold>
         </font>
        </property>
@@ -151,9 +161,9 @@
       <widget class="ElisionLabel" name="labelMetadataLocation">
        <property name="geometry">
         <rect>
-         <x>50</x>
+         <x>56</x>
          <y>20</y>
-         <width>531</width>
+         <width>510</width>
          <height>20</height>
         </rect>
        </property>
@@ -223,7 +233,6 @@
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <pointsize>8</pointsize>
         </font>
        </property>
@@ -276,7 +285,6 @@
         </property>
         <property name="font">
          <font>
-          <family>Segoe UI</family>
           <bold>false</bold>
          </font>
         </property>
@@ -354,16 +362,22 @@
     </item>
     <item row="7" column="0">
      <widget class="QFrame" name="frameRALocation">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="minimumSize">
        <size>
         <width>0</width>
-        <height>41</height>
+        <height>48</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>41</height>
+        <height>48</height>
        </size>
       </property>
       <property name="locale">
@@ -383,13 +397,18 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>41</width>
-         <height>41</height>
+         <width>44</width>
+         <height>48</height>
         </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -416,15 +435,14 @@
       <widget class="QLabel" name="labelSelectRALocation">
        <property name="geometry">
         <rect>
-         <x>50</x>
+         <x>56</x>
          <y>0</y>
-         <width>531</width>
+         <width>510</width>
          <height>22</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <bold>false</bold>
         </font>
        </property>
@@ -438,9 +456,9 @@
       <widget class="ElisionLabel" name="labelRALocation">
        <property name="geometry">
         <rect>
-         <x>50</x>
+         <x>56</x>
          <y>20</y>
-         <width>531</width>
+         <width>510</width>
          <height>20</height>
         </rect>
        </property>
@@ -510,7 +528,6 @@
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <pointsize>8</pointsize>
         </font>
        </property>
@@ -589,7 +606,6 @@
       </property>
       <property name="font">
        <font>
-        <family>Segoe UI</family>
         <bold>true</bold>
        </font>
       </property>
@@ -620,7 +636,6 @@
       </property>
       <property name="font">
        <font>
-        <family>Segoe UI</family>
         <bold>true</bold>
        </font>
       </property>
@@ -637,16 +652,22 @@
     </item>
     <item row="4" column="0">
      <widget class="QFrame" name="frameCloneListsLocation">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="minimumSize">
        <size>
         <width>0</width>
-        <height>41</height>
+        <height>48</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>41</height>
+        <height>48</height>
        </size>
       </property>
       <property name="locale">
@@ -666,13 +687,18 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>41</width>
-         <height>41</height>
+         <width>44</width>
+         <height>48</height>
         </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -699,15 +725,14 @@
       <widget class="QLabel" name="labelSelectCloneListsLocation">
        <property name="geometry">
         <rect>
-         <x>50</x>
+         <x>56</x>
          <y>0</y>
-         <width>531</width>
+         <width>510</width>
          <height>16</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <bold>false</bold>
         </font>
        </property>
@@ -718,9 +743,9 @@
       <widget class="ElisionLabel" name="labelCloneListsLocation">
        <property name="geometry">
         <rect>
-         <x>50</x>
+         <x>56</x>
          <y>20</y>
-         <width>531</width>
+         <width>510</width>
          <height>20</height>
         </rect>
        </property>
@@ -790,7 +815,6 @@
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <pointsize>8</pointsize>
         </font>
        </property>
@@ -802,16 +826,22 @@
     </item>
     <item row="6" column="0">
      <widget class="QFrame" name="frameMIALocation">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="minimumSize">
        <size>
         <width>0</width>
-        <height>41</height>
+        <height>48</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>41</height>
+        <height>48</height>
        </size>
       </property>
       <property name="locale">
@@ -831,13 +861,18 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>41</width>
-         <height>41</height>
+         <width>44</width>
+         <height>48</height>
         </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -864,15 +899,14 @@
       <widget class="QLabel" name="labelSelectMIALocation">
        <property name="geometry">
         <rect>
-         <x>50</x>
+         <x>56</x>
          <y>0</y>
-         <width>531</width>
+         <width>510</width>
          <height>22</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <bold>false</bold>
         </font>
        </property>
@@ -886,9 +920,9 @@
       <widget class="ElisionLabel" name="labelMIALocation">
        <property name="geometry">
         <rect>
-         <x>50</x>
+         <x>56</x>
          <y>20</y>
-         <width>531</width>
+         <width>510</width>
          <height>20</height>
         </rect>
        </property>
@@ -958,7 +992,6 @@
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <pointsize>8</pointsize>
         </font>
        </property>
@@ -1048,9 +1081,9 @@
        <property name="geometry">
         <rect>
          <x>546</x>
-         <y>0</y>
+         <y>-2</y>
          <width>25</width>
-         <height>25</height>
+         <height>28</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -1062,13 +1095,13 @@
        <property name="minimumSize">
         <size>
          <width>25</width>
-         <height>25</height>
+         <height>28</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
          <width>25</width>
-         <height>25</height>
+         <height>28</height>
         </size>
        </property>
        <property name="toolTip">
@@ -1110,9 +1143,7 @@
         </size>
        </property>
        <property name="font">
-        <font>
-         <family>Segoe UI</family>
-        </font>
+        <font/>
        </property>
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Settings are saved automatically.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -1184,16 +1215,22 @@
     </item>
     <item row="3" column="0">
      <widget class="QFrame" name="frameQuickImportLocation">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="minimumSize">
        <size>
         <width>0</width>
-        <height>41</height>
+        <height>48</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>41</height>
+        <height>48</height>
        </size>
       </property>
       <property name="locale">
@@ -1213,13 +1250,18 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>41</width>
-         <height>41</height>
+         <width>44</width>
+         <height>48</height>
         </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -1246,15 +1288,14 @@
       <widget class="QLabel" name="labelSelectQuickImportLocation">
        <property name="geometry">
         <rect>
-         <x>50</x>
+         <x>56</x>
          <y>0</y>
-         <width>531</width>
+         <width>510</width>
          <height>22</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <bold>false</bold>
         </font>
        </property>
@@ -1268,9 +1309,9 @@
       <widget class="ElisionLabel" name="labelQuickImportLocation">
        <property name="geometry">
         <rect>
-         <x>50</x>
+         <x>56</x>
          <y>20</y>
-         <width>531</width>
+         <width>510</width>
          <height>20</height>
         </rect>
        </property>
@@ -1340,7 +1381,6 @@
        </property>
        <property name="font">
         <font>
-         <family>Segoe UI</family>
          <pointsize>8</pointsize>
         </font>
        </property>

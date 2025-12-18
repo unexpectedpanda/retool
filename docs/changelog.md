@@ -5,6 +5,56 @@ hide:
 
 # Changelog
 
+## 2.4.6 (2025-18-11)
+
+-  **_Change_**: Excluding Add-ons now also excludes titles with `(DLC)`, `(Addon)`, and
+   `(Addon for XBLA)` tags (issue #359). Thanks
+   [steven-sheehy](https://github.com/steven-sheehy)!
+
+-  **_Fix_**: Running tests through Hatch doesn't rely on there being a `.dev` file in
+   Retool's root folder any more.
+
+-  **_Fix_**: Fixed missing grip handle graphic between the DAT files list and the rest of
+   the app.
+
+-  **_Fix_**: If a user cancels out of adding DAT files, and there's no DAT files in the
+   list, Retool now returns the placeholder text to "No DAT files added yet".
+
+-  **_Fix_**: If you select **Override global settings** in the system **Options** tab,
+   but nothing else in the options tab, Retool no longer outputs an empty options string
+   (`(-)`) in the filename.
+
+-  **_Fix_**: I bought myself a Mac, and so the following things have been fixed in the
+   GUI on macOS:
+
+   - The **Settings** and **About** options are now in the proper menus, and not moved by
+     macOS heuristics into different places.
+
+   - The delete key now works for removing items from list boxes.
+
+   - The minimum width and height of the Retool GUI has been increased to accommodate
+     better widget rendering on macOS.
+
+   - Fonts are no longer statically set in the QT design file. Instead they're assigned
+     on an OS-basis in Python, which avoids font loading miss penalties and wrong font
+     sizes being assigned.
+
+   - Many buttons now have a fixed size with explicitly set minimum and maximum sizes to
+     prevent deformation into odd aspect ratios.
+
+   - Custom checkboxes have been replaced with native checkboxes.
+
+   - An outline has been removed from the status bar.
+
+   - Tab contents have had their layouts reworked for consistent item placement.
+
+   - On Windows and Ubuntu, native-looking arrows show if a row of tabs exceeds the
+     window, allowing you to scroll through the tabs. On macOS these don't show by
+     default, and if you turn them on they look awful. Additionally, tabs all show at an
+     equal width, which means they run off the screen sooner. Now on macOS only the tab
+     labels elide to the right to overcome the scrolling and tab width issue.
+
+
 ## 2.4.5 (2025-11-05)
 
 -  **_Feature_**: Added some Nintendo mastering codes.
@@ -812,7 +862,7 @@ Here are the changes for 2.4.0:
     unicode, if it's available in the metadata scraped from Redump and No-Intro,
     or included in a clone list. For example, instead of
     `Shining Force II - Inishie no Fuuin (Japan)`, you can output
-    `シャイニング●フォースII 『古の封印』 (Japan)`. Tags like `(Japan)` and
+    `シャイニング·フォースII 『古の封印』 (Japan)`. Tags like `(Japan)` and
     `(Disc 1)` remain in English.
 
     Open the **Local names** tab to choose which languages to enable local

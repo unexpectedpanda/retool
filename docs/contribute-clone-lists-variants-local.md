@@ -27,7 +27,7 @@ These names fall into one of the following categories:
   clones, but don't actually feature that English name on the title screen or box.
 
 For example, `Shining Force II - Inishie no Fuuin` is the romanized version of the proper
-Japanese name, `シャイニング●フォースII 『古の封印』`. The title doesn't support English, and
+Japanese name, `シャイニング·フォースII 『古の封印』`. The title doesn't support English, and
 when someone chooses local names for Japanese titles in Retool, the name should be
 replaced with the Japanese version.
 
@@ -41,7 +41,7 @@ Here's how to add this information to a clone list:
       {
         "searchTerm": "Shining Force II - Inishie no Fuuin",
         "localNames": {
-          "japanese": "シャイニング●フォースII 『古の封印』"
+          "japanese": "シャイニング·フォースII 『古の封印』"
         }
       }
     ]
@@ -59,16 +59,16 @@ file related to this clone list, the following process occurs:
 1.  Because the user has indicated that they want Japanese local names, if a
     `localNames` object is present within a `searchTerm`, Retool checks for a
     `japanese` key. If found, it uses the key's value for the title's new full name:
-    `シャイニング●フォースII 『古の封印』`.
+    `シャイニング·フォースII 『古の封印』`.
 
     Retool doesn't check if the title actually supports Japanese &mdash; because No-Intro
     and Redump language data can be incomplete, this is up to the clone list maintainer
     to determine.
 
 1.  All tags are copied from the original title to the new full name. In this case,
-    `(Japan)` is appended to `シャイニング●フォースII 『古の封印』`.
+    `(Japan)` is appended to `シャイニング·フォースII 『古の封印』`.
 
-1.  `シャイニング●フォースII 『古の封印』 (Japan)` is used instead of
+1.  `シャイニング·フォースII 『古の封印』 (Japan)` is used instead of
     `Shining Force II - Inishie no Fuuin (Japan)` in the output DAT file.
 
 All languages supported in Retool are also supported in the `localNames` object. Use
