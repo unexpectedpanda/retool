@@ -417,6 +417,8 @@ class WriteFiles:
                     for unrecognized_child in title.unrecognized_children:
                         dat_xml.append(f'\t\t{unrecognized_child}\n')
 
+                size: int = 0
+
                 for rom in sorted(title.roms, key=lambda x: x["name"]):
                     crc: str = ''
                     md5: str = ''
@@ -437,6 +439,8 @@ class WriteFiles:
                         header = f'header="{rom["header"]}"'
                     if rom['mia']:
                         mia = f'mia="{rom["mia"]}"'
+                    if rom['size']:
+                        size += int(rom['size'])
 
                     rom_status: str = ''
 
@@ -457,6 +461,7 @@ class WriteFiles:
                     dat_xml.append(f'\t\t<{rom["type"]} {" ".join(rom_xml)}/>\n')
 
                 dat_xml.append(f'\t</{element_name}>\n')
+                config.stats.final_size += size
 
         dat_xml.append('</datafile>\n')
 

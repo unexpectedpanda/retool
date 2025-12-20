@@ -14,6 +14,7 @@ class Stats:
         self,
         original_count: int = 0,
         final_count: int = 0,
+        final_size: int = 0,
         file_count: int = 0,
         applications_count: int = 0,
         audio_count: int = 0,
@@ -55,6 +56,9 @@ class Stats:
                 Defaults to `0`.
 
             final_count (int, optional): The final number of titles in the main output
+                DAT file. Only used in the final stats report. Defaults to `0`.
+
+            final_size (int, optional): The final size in bytes of all titles in the main output
                 DAT file. Only used in the final stats report. Defaults to `0`.
 
             file_count (int, optional): The final number of titles in any DAT file Retool
@@ -150,6 +154,7 @@ class Stats:
         self.original_count: int = original_count
         self.final_count: int = final_count
         self.file_count: int = file_count
+        self.final_size: int = final_size
         self.applications_count: int = applications_count
         self.audio_count: int = audio_count
         self.bad_dumps_count: int = bad_dumps_count
@@ -439,6 +444,7 @@ def report_stats(removed_titles: Removes, config: Config) -> None:
     eprint(f'{total_titles}{Font.b}')
     eprint('-' * len(total_titles))
     eprint(f'=  Final title count: {config.stats.final_count:,}{Font.be}')
+    eprint(f'=  Final size: {config.stats.final_size:,}{Font.be}')
 
     if config.user_input.dev_mode:
         delta: int = (
