@@ -7,7 +7,7 @@ hide:
 
 Retool is supported on :fontawesome-brands-windows:{:style="margin-left:0.5em; margin-right:0.2em"}
 Windows 10+, :simple-ubuntu:{:style="margin-left:0.5em; margin-right:0.2em"} Ubuntu 20+,
-and :simple-apple:{:style="margin-left:0.5em; margin-right:0.2em"} macOS 10+.
+and :simple-apple:{:style="margin-left:0.5em; margin-right:0.2em"} macOS 15+.
 
 How you download and install Retool will depend on your level of comfort with code, and
 the operating system you use.
@@ -18,9 +18,9 @@ the operating system you use.
 
     1.  Download the Windows binary ZIP file:
 
-        {% include 'includes/file.md' %}
+        {% include 'includes/file_windows.md' %}
 
-        `SHA256: {% include 'includes/sha256.md' %}`
+        `SHA256: {% include 'includes/sha256_windows.md' %}`
 
     1.  Extract the ZIP file to a folder of your choosing.
 
@@ -61,7 +61,7 @@ the operating system you use.
 
         === "Pip"
             ```
-            python3 -m pip install alive-progress lxml psutil pyside6 darkdetect strictyaml validators
+            python3 -m pip install alive-progress darkdetect lxml psutil pyside6 strictyaml validators
             ```
 
         === "Hatch"

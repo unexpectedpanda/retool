@@ -14,6 +14,8 @@ class Stats:
         self,
         original_count: int = 0,
         final_count: int = 0,
+        original_size: int = 0,
+        final_size: int = 0,
         file_count: int = 0,
         applications_count: int = 0,
         audio_count: int = 0,
@@ -56,6 +58,12 @@ class Stats:
 
             final_count (int, optional): The final number of titles in the main output
                 DAT file. Only used in the final stats report. Defaults to `0`.
+
+            original_size (int, optional): The original size in bytes of all titles in the
+                input DAT file. Only used in the final stats report. Defaults to `0`.
+
+            final_size (int, optional): The final size in bytes of all titles in the main
+                output DAT file. Only used in the final stats report. Defaults to `0`.
 
             file_count (int, optional): The final number of titles in any DAT file Retool
                 creates. Unlike `final_count`, this includes both the main output DAT
@@ -149,6 +157,8 @@ class Stats:
         """
         self.original_count: int = original_count
         self.final_count: int = final_count
+        self.original_size: int = original_size
+        self.final_size: int = final_size
         self.file_count: int = file_count
         self.applications_count: int = applications_count
         self.audio_count: int = audio_count
@@ -180,6 +190,33 @@ class Stats:
         self.system_exclude_count: int = system_exclude_count
         self.global_filter_count: int = global_filter_count
         self.system_filter_count: int = system_filter_count
+
+
+def friendly_size(size_bytes: int) -> str:
+    """
+    Takes a file size in bytes as an integer, and then converts it to the nearest
+    appropriate SI prefix value for easy reading: either B, KiB, MiB, TiB, or PiB.
+
+    Args:
+        size_bytes (int): A file size in bytes.
+
+    Returns:
+        str: An SI-prefixed file size with units.
+    """
+    if size_bytes < 1000:
+        friendly_size = f'{size_bytes:.2f} B'
+    elif 1000000 > size_bytes > 999:
+        friendly_size = f'{size_bytes / 1000:.2f} KiB'
+    elif 1000000000 > size_bytes > 999999:
+        friendly_size = f'{size_bytes / 1000000:.2f} MiB'
+    elif 1000000000000 > size_bytes > 999999999:
+        friendly_size = f'{size_bytes / 1000000000:.2f} GiB'
+    elif 1000000000000000 > size_bytes > 999999999999:
+        friendly_size = f'{size_bytes / 1000000000000:.2f} TiB'
+    elif size_bytes > 999999999999999:
+        friendly_size = f'{size_bytes / 1000000000000000:,.2f} PiB'
+
+    return friendly_size
 
 
 def get_report_data(
@@ -310,6 +347,10 @@ def report_stats(removed_titles: Removes, config: Config) -> None:
     config.stats.video_count = len(removed_titles.video_removes)
 
     eprint(f'\nStats:\n•  Original title count: {config.stats.original_count:,}', wrap=False)
+    eprint(
+        f'•  Original uncompressed titles size: {friendly_size(config.stats.original_size)}',
+        wrap=False,
+    )
 
     if config.user_input.legacy and not config.user_input.no_1g1r:
         eprint(f'•  Titles assigned as clones: {config.stats.clones_count:,}', wrap=False)
@@ -432,13 +473,16 @@ def report_stats(removed_titles: Removes, config: Config) -> None:
             wrap=False,
         )
 
-    total_titles: str = (
-        f'\n-  Total titles removed: {config.stats.original_count - config.stats.final_count:,}'
+    eprint(f'\n-  Total titles removed: {config.stats.original_count - config.stats.final_count:,}')
+
+    space_saved: str = (
+        f'-  Uncompressed space saved: {friendly_size(config.stats.original_size - config.stats.final_size)}'
     )
 
-    eprint(f'{total_titles}{Font.b}')
-    eprint('-' * len(total_titles))
-    eprint(f'=  Final title count: {config.stats.final_count:,}{Font.be}')
+    eprint(f'{space_saved}{Font.b}')
+    eprint('-' * len(space_saved))
+    eprint(f'=  Final title count: {config.stats.final_count:,}')
+    eprint(f'=  Final uncompressed titles size: {friendly_size(config.stats.final_size)}{Font.be}')
 
     if config.user_input.dev_mode:
         delta: int = (

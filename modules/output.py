@@ -251,10 +251,14 @@ class WriteFiles:
         for title in title_list:
             rom_mia: bool = False
 
-            if config.user_input.no_mia:
-                for rom in title.roms:
-                    if rom['mia']:
-                        rom_mia = True
+            for rom in title.roms:
+                # Don't include MIA roms in the output if the user doesn't want them
+                if config.user_input.no_mia and rom['mia']:
+                    rom_mia = True
+
+                # Keep a count of the total uncompressed size of all roms/disks in the DAT file
+                if rom['size']:
+                    config.stats.original_size += int(rom['size'])
 
             if not rom_mia:
                 # Work with numbered DAT files
@@ -317,6 +321,7 @@ class WriteFiles:
                 if config.user_input.label_retro and title.is_retroachievement:
                     retroachievements = ' retroachievements="yes"'
 
+                # Deal with clones and parents
                 if title.cloneof:
                     config.stats.clones_count += 1
                     if config.user_input.legacy:
@@ -417,6 +422,8 @@ class WriteFiles:
                     for unrecognized_child in title.unrecognized_children:
                         dat_xml.append(f'\t\t{unrecognized_child}\n')
 
+                size: int = 0
+
                 for rom in sorted(title.roms, key=lambda x: x["name"]):
                     crc: str = ''
                     md5: str = ''
@@ -437,6 +444,8 @@ class WriteFiles:
                         header = f'header="{rom["header"]}"'
                     if rom['mia']:
                         mia = f'mia="{rom["mia"]}"'
+                    if rom['size']:
+                        size += int(rom['size'])
 
                     rom_status: str = ''
 
@@ -457,6 +466,8 @@ class WriteFiles:
                     dat_xml.append(f'\t\t<{rom["type"]} {" ".join(rom_xml)}/>\n')
 
                 dat_xml.append(f'\t</{element_name}>\n')
+
+                config.stats.final_size += size
 
         dat_xml.append('</datafile>\n')
 

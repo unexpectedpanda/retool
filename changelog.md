@@ -1,6 +1,17 @@
 # Retool changelog
 
-## 2.4.6 (2025-18-11)
+## 2.4.7 (2025-12-20)
+
+-  **_Feature_**: Retool now reports the uncompressed space you've saved after filtering
+   (issue #361). Thanks for getting things started on this one,
+   [steven-sheehy](https://github.com/steven-sheehy)!
+
+-  **_Fix_**: Retool's icon is now shown on the macOS dock instead of the Python Launcher
+   icon when running Retool GUI. Unfortunately it doesn't seem possible to change the name
+   of the app in the dock or menu without providing an app bundle.
+
+
+## 2.4.6 (2025-12-18)
 
 -  **_Change_**: Excluding Add-ons now also excludes titles with `(DLC)`, `(Addon)`, and
    `(Addon for XBLA)` tags (issue #359). Thanks
@@ -12,7 +23,7 @@
 -  **_Fix_**: Fixed missing grip handle graphic between the DAT files list and the rest of
    the app.
 
--  **_Fix_**: If a user cancels out of adding DAT files, and there's no DAT files in the
+-  **_Fix_**: If a user cancels out of adding DAT files, and there are no DAT files in the
    list, Retool now returns the placeholder text to "No DAT files added yet".
 
 -  **_Fix_**: If you select **Override global settings** in the system **Options** tab,
@@ -1783,7 +1794,7 @@ Check out the following list for other changes that have come in v2.
     }
     ```
 
-    Retool v2 now chooses the correct superset for the selected region, You can
+    Retool v2 now chooses the correct superset for the selected region. You can
     still specify a `priority` on supersets, just in case there are multiple
     supersets of varying amounts of content. That priority is _only_ respected
     between supersets, and isn't related to the priority set on a `title`.
@@ -2554,28 +2565,28 @@ Things of note for this release:
     - The exclude compilations option has been removed, and compilations are now
       usually treated in one of two ways:
 
-      - As a remove; that is, the compilation is removed entirely from the DAT
-        as it's covered by other titles or compilations.
+        - As a remove; that is, the compilation is removed entirely from the DAT
+            as it's covered by other titles or compilations.
 
-      - As the 1G1R title for a set, depending on the region.
+        - As the 1G1R title for a set, depending on the region.
 
     - The guidelines for when to use a 0 priority in clone lists have changed
       because of this. You can use a 0 for:
 
-      - Compilations that include multiple titles.
+        - Compilations that include multiple titles.
 
-      - DVD releases of titles that are distributed as multiple CDs for other
-        releases.
+        - DVD releases of titles that are distributed as multiple CDs for other
+            releases.
 
-      - World releases that should be elevated above USA (as a World release
-        includes USA).
+        - World releases that should be elevated above USA (as a World release
+            includes USA).
 
-      - A superset (gold edition, game of the year edition, etc) version of a
-        title available in one region, but not in another.
+        - A superset (gold edition, game of the year edition, etc) version of a
+            title available in one region, but not in another.
 
-      - A title in one region that definitely has more content than another
-        region. For example, a release in Europe that's uncensored compared to
-        the US release.
+        - A title in one region that definitely has more content than another
+            region. For example, a release in Europe that's uncensored compared to
+            the US release.
 
 
 ## 0.88 (2021-03-01)

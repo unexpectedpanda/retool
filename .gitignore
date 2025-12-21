@@ -1,19 +1,20 @@
 .*
 *.dat
+*.spec
+*.xlsx
+debug.log
+__pycache__/
+clonelists/
+config/
+config/systems/*.yaml
+metadata/
+mias/
+retroachievements/
+
 !.gitattributes
 !.gitignore
 !.dev
 !tests/**/*.dat
-/config/
-/config/systems/*.yaml
-/clonelists/
-/metadata/
-/mias/
-/retroachievements/
-__pycache__/
-debug.log
-*.spec
-*.xlsx
 
 # dependencies
 /node_modules

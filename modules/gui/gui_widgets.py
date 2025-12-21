@@ -404,7 +404,7 @@ def custom_widgets(main_window: Any) -> Any:
     # Fix checkboxes, which have a weird hover effect on Windows 4k monitors on hover if
     # you don't set a size that's divisible by 4. Also add a custom SVGs to fix check
     # mark scaling.
-    if not sys.platform == 'darwin':
+    if sys.platform != 'darwin':
         checkbox_style = '''
                         QCheckBox::indicator {width: 16px; height: 16px;}
                         QCheckBox::indicator:unchecked {image: url(:/checkboxes/images/checkbox.svg);}

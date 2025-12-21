@@ -6945,7 +6945,7 @@ core, at the cost of performance.</string>
                           <x>0</x>
                           <y>0</y>
                           <width>649</width>
-                          <height>410</height>
+                          <height>404</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -8307,8 +8307,8 @@ for RomVault or DatVault users operating directly on their DatRoot files.</strin
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>640</width>
+                          <height>189</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -9160,8 +9160,8 @@ English-speaking regions and 60Hz titles.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>640</width>
+                          <height>119</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -10014,8 +10014,8 @@ English-speaking regions and 60Hz titles.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>580</width>
+                          <height>119</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -10518,8 +10518,8 @@ English-speaking regions and 60Hz titles.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>514</width>
+                          <height>277</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -11206,7 +11206,7 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
+                          <width>640</width>
                           <height>429</height>
                          </rect>
                         </property>
@@ -12060,8 +12060,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>413</height>
+                          <width>315</width>
+                          <height>477</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -12523,8 +12523,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>478</width>
+                          <height>413</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -12977,7 +12977,7 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
+                          <width>573</width>
                           <height>1075</height>
                          </rect>
                         </property>
