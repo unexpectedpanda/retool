@@ -47,6 +47,12 @@ def main() -> None:
     app: qtw.QApplication = qtw.QApplication(sys.argv)
     window: MainWindow = MainWindow()
 
+    # Fix the dock icon on macOS
+    if sys.platform == 'darwin':
+        icon = qtg.QIcon()
+        icon.addFile(':/retoolIcon/images/retool.icns', qtc.QSize(), qtg.QIcon.Normal, qtg.QIcon.Off)  # type: ignore
+        app.setWindowIcon(icon)
+
     # Show any line edits we need to if an associated checkbox is selected in
     # user-config.yaml. This has to be delayed, or they don't show.
     show_hide(window.ui.checkBoxGlobalOptions1G1RNames, window.ui.frameGlobalOptions1G1RPrefix)

@@ -365,7 +365,7 @@ class DatNode:
         ]
 
         for attribute in rom_attributes:
-            self.roms = format_rom(self.roms, attribute)
+            self.roms = process_roms(self.roms, attribute, self.full_name)
 
         self.cloneof: str = ''
         self.clonelist_priority: int = 1
@@ -376,13 +376,9 @@ class DatNode:
         self.contains_titles: dict[str, dict[str, int]] = {}
 
         # Determine if a title is fully MIA
-        if '[MIA]' in self.full_name:
-            self.is_mia = True
-
-            for rom in self.roms:
-                rom['mia'] = 'yes'
-
-        if len([x for x in self.roms if x['mia'] == 'yes']) == len(self.roms):
+        if '[MIA]' in self.full_name or len([x for x in self.roms if x['mia'] == 'yes']) == len(
+            self.roms
+        ):
             self.is_mia = True
 
         # Work with categories
@@ -595,33 +591,6 @@ def format_attribute(attribute: Any, string: str, tabs: str, is_rom: bool = Fals
         attribute_result = f'  ├ {string}:{tabs}{attribute}\n'
 
     return attribute_result
-
-
-def format_rom(roms: list[dict[str, str]], attribute: str) -> list[dict[str, str]]:
-    """
-    Checks that the various ROM attributes are available for a given title, and formats
-    them accordingly.
-
-    Args:
-        attribute (str): The attribute to format, either `crc`, `md5`, `sha1`, `sha256`,
-            or `header`.
-
-        roms (list[dict[str, str]]): The ROMs from the title.
-    """
-    for rom in roms:
-        if attribute not in rom:
-            rom[attribute] = ''
-
-        if (
-            attribute == 'crc'
-            or attribute == 'md5'
-            or attribute == 'sha1'
-            or attribute == 'sha256'
-            or attribute == 'header'
-        ):
-            rom[attribute] = rom[attribute].lower()
-
-    return roms
 
 
 def process_dat(
@@ -968,3 +937,39 @@ def process_dat(
     eprint('• Processing DAT file... done.', overwrite=True)
 
     return (input_dat, clone_list, original_titles)
+
+
+def process_roms(
+    roms: list[dict[str, str]], attribute: str, full_name: str
+) -> list[dict[str, str]]:
+    """
+    Checks that the various ROM attributes are available for a given title, and formats
+    them accordingly. Additionally marks ROMs as MIA where necessary.
+
+    Args:
+        attribute (str): The attribute to format, either `crc`, `md5`, `sha1`, `sha256`,
+            or `header`.
+
+        full_name (str): The full name of the ROM.
+
+        roms (list[dict[str, str]]): The ROMs from the title.
+    """
+    for rom in roms:
+        if attribute not in rom:
+            rom[attribute] = ''
+
+        # Format digests with lower case
+        if (
+            attribute == 'crc'
+            or attribute == 'md5'
+            or attribute == 'sha1'
+            or attribute == 'sha256'
+            or attribute == 'header'
+        ):
+            rom[attribute] = rom[attribute].lower()
+
+        # Mark ROMs as MIA if the title is marked as MIA
+        if '[MIA]' in full_name:
+            rom['mia'] = 'yes'
+
+    return roms

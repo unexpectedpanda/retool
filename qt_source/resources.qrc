@@ -40,5 +40,6 @@
   </qresource>
   <qresource prefix="retoolIcon">
     <file>../images/retool.ico</file>
+    <file>../images/retool.icns</file>
   </qresource>
 </RCC>

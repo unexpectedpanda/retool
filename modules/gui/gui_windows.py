@@ -1,10 +1,10 @@
 import html
 import pathlib
 import re
+import sys
 from typing import Any
 
 import darkdetect  # type: ignore
-import sys
 import validators
 from PySide6 import QtCore as qtc
 from PySide6 import QtWidgets as qtw
@@ -290,7 +290,7 @@ class TitleToolWindow(qtw.QMainWindow):
         # Fix checkboxes, which have a weird hover effect on Windows 4k monitors on hover if
         # you don't set a size that's divisible by 4. Also add custom SVGs to fix
         # check mark scaling.
-        if not sys.platform == 'darwin':
+        if sys.platform != 'darwin':
             checkbox_style = '''
                             QCheckBox::indicator {width: 16px; height: 16px;}
                             QCheckBox::indicator:unchecked {image: url(:/checkboxes/images/checkbox.svg);}

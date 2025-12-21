@@ -116,7 +116,7 @@ def add_list_items(
 
     # If the user cancels out of adding DAT files, reset the list widget
     if not [list_widget.item(x) for x in range(list_widget.count())]:
-            list_widget.addItem('No DAT files added yet')
+        list_widget.addItem('No DAT files added yet')
 
 
 def disable_incompatible_checkbox(
