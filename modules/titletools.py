@@ -91,7 +91,7 @@ class Regex:
         self.hyperscan_version: Pattern[str] = re.compile('\\(USE[0-9]\\)')
         self.nec_mastering_code: Pattern[str] = re.compile('\\((?:(?:F|S)A[A-F][ABTS](?:, )?)+\\)')
         self.nintendo_mastering_code: Pattern[str] = re.compile(
-            '\\((?:A[BDEFHLNPSXY]|B[58DFJLNPRT]|C[BX]|FT|JE|K[ADFIKMRXZ]|LB|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[A-Z0-9][ADEJPVXYZ]\\)'
+            '\\((?:A[BDEFHLNPSXY]|B[58BDFJLNPRT]|C[BX]|FT|JE|K[ADFIKMRXZ]|LB|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[A-Z0-9][ADEJPVXYZ]\\)'
         )
         self.nintendo_3ds_product_code: Pattern[str] = re.compile(
             '\\(?:[CT][TW][LR]-[NP]-[AK][7E]A[EV]\\)'
@@ -236,7 +236,7 @@ class Regex:
         self.video: tuple[Pattern[str], ...] = (
             re.compile('Game Boy Advance Video', flags=re.I),
             re.compile('- (Preview|Movie) Trailer', flags=re.I),
-            re.compile('\\(Nintendo (?:3DS )?Direct.*?\\)', flags=re.I),
+            re.compile('\\(Nintendo (?:3DS )?(?:Direct|Conference).*?\\)', flags=re.I),
             re.compile('\\((?:\\w*\\s)*Trailer(?:s|\\sDisc)?(?:\\s\\w*)*\\)', flags=re.I),
             re.compile('\\((?:E3.*)?Video\\)', flags=re.I),
         )
