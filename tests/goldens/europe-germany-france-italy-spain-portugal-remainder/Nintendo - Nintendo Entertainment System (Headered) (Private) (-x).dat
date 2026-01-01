@@ -285,235 +285,235 @@
 		<release name="23-in-1 Super Game (Europe) (K23-001) (Pirate)" region="Europe" language="En"/>
 		<rom name="23-in-1 Super Game (Europe) (K23-001) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.01) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4149">
+	<game name="240p Test Suite (World) (v0.01) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4149">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.01) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.01) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.01) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.02) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4150">
+	<game name="240p Test Suite (World) (v0.02) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4150">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.02) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.02) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.02) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.03) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4151">
+	<game name="240p Test Suite (World) (v0.03) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4151">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.03) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.03) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.03) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.04) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4152">
+	<game name="240p Test Suite (World) (v0.04) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4152">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.04) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.04) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.04) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.05) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4153">
+	<game name="240p Test Suite (World) (v0.05) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4153">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.05) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.05) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.05) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.06) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4161">
+	<game name="240p Test Suite (World) (v0.06) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4161">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.06) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.06) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.06) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.07) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4229">
+	<game name="240p Test Suite (World) (v0.07) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4229">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.07) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.07) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.07) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.08) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4233">
+	<game name="240p Test Suite (World) (v0.08) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4233">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.08) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.08) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.08) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.08) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4234">
+	<game name="240p Test Suite (World) (v0.08) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4234">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.08) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.08) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.08) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.09) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4300">
+	<game name="240p Test Suite (World) (v0.09) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4300">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.09) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.09) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.09) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.09) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4301">
+	<game name="240p Test Suite (World) (v0.09) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4301">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.09) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.09) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.09) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.10) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4306">
+	<game name="240p Test Suite (World) (v0.10) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4306">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.10) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.10) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.10) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.10) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4307">
+	<game name="240p Test Suite (World) (v0.10) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4307">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.10) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.10) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.10) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.11) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4308">
+	<game name="240p Test Suite (World) (v0.11) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4308">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.11) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.11) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.11) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.11) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4309">
+	<game name="240p Test Suite (World) (v0.11) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4309">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.11) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.11) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.11) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.12) (BNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (BNROM) (Program) (Aftermarket) (Unl)" id="4342">
+	<game name="240p Test Suite (World) (v0.12) (BNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4342">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.12) (BNROM) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.12) (BNROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.12) (BNROM) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.12) (UNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (UNROM) (Program) (Aftermarket) (Unl)" id="4341">
+	<game name="240p Test Suite (World) (v0.12) (UNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4341">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.12) (UNROM) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.12) (UNROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.12) (UNROM) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.13) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4339">
+	<game name="240p Test Suite (World) (v0.13) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4339">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.13) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.13) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.13) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.13) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4340">
+	<game name="240p Test Suite (World) (v0.13) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4340">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.13) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.13) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.13) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.14) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4337">
+	<game name="240p Test Suite (World) (v0.14) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4337">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.14) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.14) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.14) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.14) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4338">
+	<game name="240p Test Suite (World) (v0.14) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4338">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.14) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.14) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.14) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.15) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4335">
+	<game name="240p Test Suite (World) (v0.15) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4335">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.15) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.15) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.15) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.15) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4336">
+	<game name="240p Test Suite (World) (v0.15) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4336">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.15) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.15) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.15) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.16) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4333">
+	<game name="240p Test Suite (World) (v0.16) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4333">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.16) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.16) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.16) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.16) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4334">
+	<game name="240p Test Suite (World) (v0.16) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4334">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.16) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.16) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.16) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.17) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4331">
+	<game name="240p Test Suite (World) (v0.17) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4331">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.17) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.17) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.17) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.17) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4332">
+	<game name="240p Test Suite (World) (v0.17) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4332">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.17) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.17) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.17) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.18) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4329">
+	<game name="240p Test Suite (World) (v0.18) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4329">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.18) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.18) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.18) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.18) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4330">
+	<game name="240p Test Suite (World) (v0.18) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4330">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.18) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.18) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.18) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.19) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4327">
+	<game name="240p Test Suite (World) (v0.19) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4327">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.19) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.19) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.19) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.19) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4328">
+	<game name="240p Test Suite (World) (v0.19) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4328">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.19) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.19) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.19) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.20) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4325">
+	<game name="240p Test Suite (World) (v0.20) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4325">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.20) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.20) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.20) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.20) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4326">
+	<game name="240p Test Suite (World) (v0.20) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4326">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.20) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.20) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.20) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4323">
+	<game name="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4323">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl)" id="4324">
+	<game name="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl) (Alt)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4324">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl) (Alt)</description>
 		<release name="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl) (Alt)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.21) (Program) (Aftermarket) (Unl) (Alt).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.22) (BNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (BNROM) (Program) (Aftermarket) (Unl)" id="4322">
+	<game name="240p Test Suite (World) (v0.22) (BNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4322">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.22) (BNROM) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.22) (BNROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.22) (BNROM) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.22) (UNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (UNROM) (Program) (Aftermarket) (Unl)" id="4321">
+	<game name="240p Test Suite (World) (v0.22) (UNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="4321">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.22) (UNROM) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.22) (UNROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.22) (UNROM) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.22-132) (BNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (BNROM) (Program) (Aftermarket) (Unl)" id="6326">
+	<game name="240p Test Suite (World) (v0.22-132) (BNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="6326">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.22-132) (BNROM) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.22-132) (BNROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.22-132) (BNROM) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.22-132) (SGROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (SGROM) (Program) (Aftermarket) (Unl)" id="6327">
+	<game name="240p Test Suite (World) (v0.22-132) (SGROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="6327">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.22-132) (SGROM) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.22-132) (SGROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -525,19 +525,19 @@
 		<release name="240p Test Suite (World) (v0.22-132) (TGROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.22-132) (TGROM) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.22-132) (UNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (UNROM) (Program) (Aftermarket) (Unl)" id="6325">
+	<game name="240p Test Suite (World) (v0.22-132) (UNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="6325">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.22-132) (UNROM) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.22-132) (UNROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.22-132) (UNROM) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.23) (BNROM) (Program) (Aftermarket) (Unl)" id="6322">
+	<game name="240p Test Suite (World) (v0.23) (BNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="6322">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.23) (BNROM) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.23) (BNROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.23) (BNROM) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.23) (SGROM) (Program) (Aftermarket) (Unl)" id="6323">
+	<game name="240p Test Suite (World) (v0.23) (SGROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="6323">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.23) (SGROM) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.23) (SGROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -549,7 +549,7 @@
 		<release name="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="240p Test Suite (World) (v0.23) (UNROM) (Program) (Aftermarket) (Unl)" id="6321">
+	<game name="240p Test Suite (World) (v0.23) (UNROM) (Program) (Aftermarket) (Unl)" cloneof="240p Test Suite (World) (v0.23) (TGROM) (Program) (Aftermarket) (Unl)" id="6321">
 		<category>Applications</category>
 		<description>240p Test Suite (World) (v0.23) (UNROM) (Program) (Aftermarket) (Unl)</description>
 		<release name="240p Test Suite (World) (v0.23) (UNROM) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -1227,7 +1227,7 @@
 		<release name="Abbaye des Morts, L' (World) (En,Ja,Fr,Es,Pt) (Aftermarket) (Unl)" region="World" language="Pt"/>
 		<rom name="Abbaye des Morts, L' (World) (En,Ja,Fr,Es,Pt) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Abbaye des Morts, L' (World) (En,Ja,Fr,Es,Pt) (Broke Studio) (Aftermarket) (Unl)" id="3229">
+	<game name="Abbaye des Morts, L' (World) (En,Ja,Fr,Es,Pt) (Broke Studio) (Aftermarket) (Unl)" cloneof="Abbaye des Morts, L' (World) (En,Ja,Fr,Es,Pt) (Aftermarket) (Unl)" id="3229">
 		<category>Games</category>
 		<description>Abbaye des Morts, L' (World) (En,Ja,Fr,Es,Pt) (Broke Studio) (Aftermarket) (Unl)</description>
 		<release name="Abbaye des Morts, L' (World) (En,Ja,Fr,Es,Pt) (Broke Studio) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -13799,13 +13799,13 @@
 		<release name="Grocery Warfare (World) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Grocery Warfare (World) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Gruniozerca (World) (Pl) (NROM) (Aftermarket) (Unl)" id="3424">
+	<game name="Gruniozerca (World) (Pl) (NROM) (Aftermarket) (Unl)" cloneof="Gruniozerca (World) (Pl) (UOROM) (Aftermarket) (Unl)" id="3424">
 		<category>Games</category>
 		<description>Gruniozerca (World) (Pl) (NROM) (Aftermarket) (Unl)</description>
 		<release name="Gruniozerca (World) (Pl) (NROM) (Aftermarket) (Unl)" region="World" language="Pl"/>
 		<rom name="Gruniozerca (World) (Pl) (NROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Gruniozerca (World) (Pl) (UOROM) (Aftermarket) (Unl)" cloneof="Gruniozerca (World) (Pl) (NROM) (Aftermarket) (Unl)" id="3999">
+	<game name="Gruniozerca (World) (Pl) (UOROM) (Aftermarket) (Unl)" id="3999">
 		<category>Games</category>
 		<description>Gruniozerca (World) (Pl) (UOROM) (Aftermarket) (Unl)</description>
 		<release name="Gruniozerca (World) (Pl) (UOROM) (Aftermarket) (Unl)" region="World" language="Pl"/>
@@ -14855,7 +14855,7 @@
 		<release name="Highway Star (Asia) (En) (Whirlwind Manu) (LH42) (Pirate)" region="Asia" language="En"/>
 		<rom name="Highway Star (Asia) (En) (Whirlwind Manu) (LH42) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Highway Star (Japan) (Famicom 3D System)" id="0955">
+	<game name="Highway Star (Japan) (Famicom 3D System)" cloneof="Rad Racer (Europe)" id="0955">
 		<category>Games</category>
 		<description>Highway Star (Japan) (Famicom 3D System)</description>
 		<release name="Highway Star (Japan) (Famicom 3D System)" region="Japan" language="Ja"/>
@@ -15243,7 +15243,7 @@
 		<release name="Hottarman no Chitei Tanken (Japan) (Beta)" region="Japan" language="Ja"/>
 		<rom name="Hottarman no Chitei Tanken (Japan) (Beta).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="House in the Cemetery, The (World) (Broke Studio) (Aftermarket) (Unl)" id="6162">
+	<game name="House in the Cemetery, The (World) (Broke Studio) (Aftermarket) (Unl)" cloneof="House in the Cemetery, The (World) (Digital Version) (Aftermarket) (Unl)" id="6162">
 		<category>Games</category>
 		<description>House in the Cemetery, The (World) (Broke Studio) (Aftermarket) (Unl)</description>
 		<release name="House in the Cemetery, The (World) (Broke Studio) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -15256,7 +15256,7 @@
 		<release name="House in the Cemetery, The (World) (Demo) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="House in the Cemetery, The (World) (Demo) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="House in the Cemetery, The (World) (Digital Version) (Aftermarket) (Unl)" cloneof="House in the Cemetery, The (World) (Broke Studio) (Aftermarket) (Unl)" id="6170">
+	<game name="House in the Cemetery, The (World) (Digital Version) (Aftermarket) (Unl)" id="6170">
 		<category>Games</category>
 		<description>House in the Cemetery, The (World) (Digital Version) (Aftermarket) (Unl)</description>
 		<release name="House in the Cemetery, The (World) (Digital Version) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -21948,7 +21948,7 @@
 		<release name="Mortal Kombat 7 (Asia) (En) (Pirate)" region="Asia" language="En"/>
 		<rom name="Mortal Kombat 7 (Asia) (En) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Mortal Kombat II (Asia) (En) (Hummer Team) (Blue Version) (Pirate)" cloneof="Mortal Kombat II (Asia) (En) (Hummer Team) (M-O9) (Pirate)" id="4928">
+	<game name="Mortal Kombat II (Asia) (En) (Hummer Team) (Blue Version) (Pirate)" id="4928">
 		<category>Games</category>
 		<description>Mortal Kombat II (Asia) (En) (Hummer Team) (Blue Version) (Pirate)</description>
 		<release name="Mortal Kombat II (Asia) (En) (Hummer Team) (Blue Version) (Pirate)" region="Asia" language="En"/>
@@ -21960,7 +21960,7 @@
 		<release name="Mortal Kombat II (Asia) (En) (Hummer Team) (M-O9) (Pirate)" region="Asia" language="En"/>
 		<rom name="Mortal Kombat II (Asia) (En) (Hummer Team) (M-O9) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Mortal Kombat II (Asia) (En) (Hummer Team) (Pirate)" cloneof="Mortal Kombat II (Asia) (En) (Hummer Team) (M-O9) (Pirate)" id="4224">
+	<game name="Mortal Kombat II (Asia) (En) (Hummer Team) (Pirate)" id="4224">
 		<category>Games</category>
 		<description>Mortal Kombat II (Asia) (En) (Hummer Team) (Pirate)</description>
 		<release name="Mortal Kombat II (Asia) (En) (Hummer Team) (Pirate)" region="Asia" language="En"/>
@@ -21978,7 +21978,7 @@
 		<release name="Mortal Kombat II Special (Asia) (En) (Pirate)" region="Asia" language="En"/>
 		<rom name="Mortal Kombat II Special (Asia) (En) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Mortal Kombat II Turbo (Asia) (En) (Pirate)" cloneof="Mortal Kombat II (Asia) (En) (Hummer Team) (M-O9) (Pirate)" id="5037">
+	<game name="Mortal Kombat II Turbo (Asia) (En) (Pirate)" id="5037">
 		<category>Games</category>
 		<description>Mortal Kombat II Turbo (Asia) (En) (Pirate)</description>
 		<release name="Mortal Kombat II Turbo (Asia) (En) (Pirate)" region="Asia" language="En"/>
@@ -22002,25 +22002,25 @@
 		<release name="Mortal Kombat III Super Special (Asia) (En) (YY-030) (Pirate)" region="Asia" language="En"/>
 		<rom name="Mortal Kombat III Super Special (Asia) (En) (YY-030) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Mortal Kombat III Turbo (Asia) (En) (MD102) (Pirate)" cloneof="Mortal Kombat II (Asia) (En) (Hummer Team) (M-O9) (Pirate)" id="5942">
+	<game name="Mortal Kombat III Turbo (Asia) (En) (MD102) (Pirate)" cloneof="Mortal Kombat II Turbo (Asia) (En) (Pirate)" id="5942">
 		<category>Games</category>
 		<description>Mortal Kombat III Turbo (Asia) (En) (MD102) (Pirate)</description>
 		<release name="Mortal Kombat III Turbo (Asia) (En) (MD102) (Pirate)" region="Asia" language="En"/>
 		<rom name="Mortal Kombat III Turbo (Asia) (En) (MD102) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Mortal Kombat III Turbo - 18 People (Asia) (En) (JY-011) (Pirate)" cloneof="Mortal Kombat II (Asia) (En) (Hummer Team) (M-O9) (Pirate)" id="4929">
+	<game name="Mortal Kombat III Turbo - 18 People (Asia) (En) (JY-011) (Pirate)" cloneof="Mortal Kombat II Turbo (Asia) (En) (Pirate)" id="4929">
 		<category>Games</category>
 		<description>Mortal Kombat III Turbo - 18 People (Asia) (En) (JY-011) (Pirate)</description>
 		<release name="Mortal Kombat III Turbo - 18 People (Asia) (En) (JY-011) (Pirate)" region="Asia" language="En"/>
 		<rom name="Mortal Kombat III Turbo - 18 People (Asia) (En) (JY-011) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Mortal Kombat III Turbo - 18 People (Asia) (En) (JY-609) (Pirate)" cloneof="Mortal Kombat II (Asia) (En) (Hummer Team) (M-O9) (Pirate)" id="5943">
+	<game name="Mortal Kombat III Turbo - 18 People (Asia) (En) (JY-609) (Pirate)" cloneof="Mortal Kombat II Turbo (Asia) (En) (Pirate)" id="5943">
 		<category>Games</category>
 		<description>Mortal Kombat III Turbo - 18 People (Asia) (En) (JY-609) (Pirate)</description>
 		<release name="Mortal Kombat III Turbo - 18 People (Asia) (En) (JY-609) (Pirate)" region="Asia" language="En"/>
 		<rom name="Mortal Kombat III Turbo - 18 People (Asia) (En) (JY-609) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Mortal Kombat III Turbo - 18 People (Asia) (En) (NT-851) (Pirate)" cloneof="Mortal Kombat II (Asia) (En) (Hummer Team) (M-O9) (Pirate)" id="4930">
+	<game name="Mortal Kombat III Turbo - 18 People (Asia) (En) (NT-851) (Pirate)" cloneof="Mortal Kombat II Turbo (Asia) (En) (Pirate)" id="4930">
 		<category>Games</category>
 		<description>Mortal Kombat III Turbo - 18 People (Asia) (En) (NT-851) (Pirate)</description>
 		<release name="Mortal Kombat III Turbo - 18 People (Asia) (En) (NT-851) (Pirate)" region="Asia" language="En"/>
@@ -22062,13 +22062,13 @@
 		<release name="Mortal Kombat V Turbo - 30 People (Asia) (En) (ZR006) (Pirate)" region="Asia" language="En"/>
 		<rom name="Mortal Kombat V Turbo - 30 People (Asia) (En) (ZR006) (Pirate).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Moshen Fashi - Demogorgon Monk (China) (FS005) (Unl)" cloneof="Moshen Fashi - Demogorgon Monk (China) (TKROM) (Unl)" id="5867">
+	<game name="Moshen Fashi - Demogorgon Monk (China) (FS005) (Unl)" id="5867">
 		<category>Games</category>
 		<description>Moshen Fashi - Demogorgon Monk (China) (FS005) (Unl)</description>
 		<release name="Moshen Fashi - Demogorgon Monk (China) (FS005) (Unl)" region="China" language="Zh-Hans"/>
 		<rom name="Moshen Fashi - Demogorgon Monk (China) (FS005) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Moshen Fashi - Demogorgon Monk (China) (TKROM) (Unl)" id="5866">
+	<game name="Moshen Fashi - Demogorgon Monk (China) (TKROM) (Unl)" cloneof="Moshen Fashi - Demogorgon Monk (China) (FS005) (Unl)" id="5866">
 		<category>Games</category>
 		<description>Moshen Fashi - Demogorgon Monk (China) (TKROM) (Unl)</description>
 		<release name="Moshen Fashi - Demogorgon Monk (China) (TKROM) (Unl)" region="China" language="Zh-Hans"/>
@@ -22122,13 +22122,13 @@
 		<release name="Mouryou Senki Madara (Japan)" region="Japan" language="Ja"/>
 		<rom name="Mouryou Senki Madara (Japan).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Moyu Yingxiong Chuan - Hero on Devil Lands (China) (FS005) (Unl)" cloneof="Moyu Yingxiong Chuan - Hero on Devil Lands (China) (TKROM) (Unl)" id="5864">
+	<game name="Moyu Yingxiong Chuan - Hero on Devil Lands (China) (FS005) (Unl)" id="5864">
 		<category>Games</category>
 		<description>Moyu Yingxiong Chuan - Hero on Devil Lands (China) (FS005) (Unl)</description>
 		<release name="Moyu Yingxiong Chuan - Hero on Devil Lands (China) (FS005) (Unl)" region="China" language="Zh-Hans"/>
 		<rom name="Moyu Yingxiong Chuan - Hero on Devil Lands (China) (FS005) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Moyu Yingxiong Chuan - Hero on Devil Lands (China) (TKROM) (Unl)" id="5863">
+	<game name="Moyu Yingxiong Chuan - Hero on Devil Lands (China) (TKROM) (Unl)" cloneof="Moyu Yingxiong Chuan - Hero on Devil Lands (China) (FS005) (Unl)" id="5863">
 		<category>Games</category>
 		<description>Moyu Yingxiong Chuan - Hero on Devil Lands (China) (TKROM) (Unl)</description>
 		<release name="Moyu Yingxiong Chuan - Hero on Devil Lands (China) (TKROM) (Unl)" region="China" language="Zh-Hans"/>
@@ -26386,19 +26386,19 @@
 		<release name="Race-Car Guzzler (World) (Final Version) (UNROM 512) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Race-Car Guzzler (World) (Final Version) (UNROM 512) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Race-Car Guzzler (World) (Final Version) (UNROM) (Aftermarket) (Unl)" id="5044">
+	<game name="Race-Car Guzzler (World) (Final Version) (UNROM) (Aftermarket) (Unl)" cloneof="Race-Car Guzzler (World) (Final Version) (UNROM 512) (Aftermarket) (Unl)" id="5044">
 		<category>Games</category>
 		<description>Race-Car Guzzler (World) (Final Version) (UNROM) (Aftermarket) (Unl)</description>
 		<release name="Race-Car Guzzler (World) (Final Version) (UNROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Race-Car Guzzler (World) (Final Version) (UNROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Race-Car Guzzler (World) (NESDev 2022) (NROM) (Aftermarket) (Unl)" cloneof="Race-Car Guzzler (World) (Final Version) (UNROM) (Aftermarket) (Unl)" id="4530">
+	<game name="Race-Car Guzzler (World) (NESDev 2022) (NROM) (Aftermarket) (Unl)" cloneof="Race-Car Guzzler (World) (NESDev 2022) (UNROM) (Aftermarket) (Unl)" id="4530">
 		<category>Games</category>
 		<description>Race-Car Guzzler (World) (NESDev 2022) (NROM) (Aftermarket) (Unl)</description>
 		<release name="Race-Car Guzzler (World) (NESDev 2022) (NROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Race-Car Guzzler (World) (NESDev 2022) (NROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Race-Car Guzzler (World) (NESDev 2022) (UNROM) (Aftermarket) (Unl)" cloneof="Race-Car Guzzler (World) (Final Version) (UNROM) (Aftermarket) (Unl)" id="4790">
+	<game name="Race-Car Guzzler (World) (NESDev 2022) (UNROM) (Aftermarket) (Unl)" id="4790">
 		<category>Games</category>
 		<description>Race-Car Guzzler (World) (NESDev 2022) (UNROM) (Aftermarket) (Unl)</description>
 		<release name="Race-Car Guzzler (World) (NESDev 2022) (UNROM) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -26410,7 +26410,7 @@
 		<release name="Race-Car Guzzler (World) (Preliminary Speed Version) (UNROM 512) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Race-Car Guzzler (World) (Preliminary Speed Version) (UNROM 512) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Race-Car Guzzler (World) (Preliminary Speed Version) (UNROM) (Aftermarket) (Unl)" cloneof="Race-Car Guzzler (World) (Final Version) (UNROM) (Aftermarket) (Unl)" id="5055">
+	<game name="Race-Car Guzzler (World) (Preliminary Speed Version) (UNROM) (Aftermarket) (Unl)" cloneof="Race-Car Guzzler (World) (Preliminary Speed Version) (UNROM 512) (Aftermarket) (Unl)" id="5055">
 		<category>Games</category>
 		<description>Race-Car Guzzler (World) (Preliminary Speed Version) (UNROM) (Aftermarket) (Unl)</description>
 		<release name="Race-Car Guzzler (World) (Preliminary Speed Version) (UNROM) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -29910,39 +29910,39 @@
 		<release name="Solar Jetman - Hunt for the Golden Warpship (USA)" region="USA" language="En"/>
 		<rom name="Solar Jetman - Hunt for the Golden Warpship (USA).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Solar Wars (World) (Beta 1) (No Sound) (Aftermarket) (Unl)" cloneof="Solar Wars (World) (v1.3) (Aftermarket) (Unl)" id="3671">
+	<game name="Solar Wars (World) (Beta 1) (No Sound) (Aftermarket) (Unl)" cloneof="Solar Wars (World) (v1.5) (UNROM) (Aftermarket) (Unl)" id="3671">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Solar Wars (World) (Beta 1) (No Sound) (Aftermarket) (Unl)</description>
 		<release name="Solar Wars (World) (Beta 1) (No Sound) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Solar Wars (World) (Beta 1) (No Sound) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Solar Wars (World) (Beta 2) (No Sound) (Aftermarket) (Unl)" cloneof="Solar Wars (World) (v1.3) (Aftermarket) (Unl)" id="3672">
+	<game name="Solar Wars (World) (Beta 2) (No Sound) (Aftermarket) (Unl)" cloneof="Solar Wars (World) (v1.5) (UNROM) (Aftermarket) (Unl)" id="3672">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Solar Wars (World) (Beta 2) (No Sound) (Aftermarket) (Unl)</description>
 		<release name="Solar Wars (World) (Beta 2) (No Sound) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Solar Wars (World) (Beta 2) (No Sound) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Solar Wars (World) (v1.0) (Aftermarket) (Unl)" cloneof="Solar Wars (World) (v1.3) (Aftermarket) (Unl)" id="3668">
+	<game name="Solar Wars (World) (v1.0) (Aftermarket) (Unl)" cloneof="Solar Wars (World) (v1.5) (UNROM) (Aftermarket) (Unl)" id="3668">
 		<category>Games</category>
 		<description>Solar Wars (World) (v1.0) (Aftermarket) (Unl)</description>
 		<release name="Solar Wars (World) (v1.0) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Solar Wars (World) (v1.0) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Solar Wars (World) (v1.3) (Aftermarket) (Unl)" id="3669">
+	<game name="Solar Wars (World) (v1.3) (Aftermarket) (Unl)" cloneof="Solar Wars (World) (v1.5) (UNROM) (Aftermarket) (Unl)" id="3669">
 		<category>Games</category>
 		<description>Solar Wars (World) (v1.3) (Aftermarket) (Unl)</description>
 		<release name="Solar Wars (World) (v1.3) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Solar Wars (World) (v1.3) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Solar Wars (World) (v1.5) (CNROM) (Aftermarket) (Unl)" cloneof="Solar Wars (World) (v1.3) (Aftermarket) (Unl)" id="3670">
+	<game name="Solar Wars (World) (v1.5) (CNROM) (Aftermarket) (Unl)" cloneof="Solar Wars (World) (v1.5) (UNROM) (Aftermarket) (Unl)" id="3670">
 		<category>Games</category>
 		<description>Solar Wars (World) (v1.5) (CNROM) (Aftermarket) (Unl)</description>
 		<release name="Solar Wars (World) (v1.5) (CNROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Solar Wars (World) (v1.5) (CNROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Solar Wars (World) (v1.5) (UNROM) (Aftermarket) (Unl)" cloneof="Solar Wars (World) (v1.3) (Aftermarket) (Unl)" id="6368">
+	<game name="Solar Wars (World) (v1.5) (UNROM) (Aftermarket) (Unl)" id="6368">
 		<category>Games</category>
 		<description>Solar Wars (World) (v1.5) (UNROM) (Aftermarket) (Unl)</description>
 		<release name="Solar Wars (World) (v1.5) (UNROM) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -30080,7 +30080,7 @@
 		<release name="SoundTest 2 (World) (Program) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="SoundTest 2 (World) (Program) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="South Park (World) (2023-05-29) (UNROM 512) (Aftermarket) (Pirate)" id="5770">
+	<game name="South Park (World) (2023-05-29) (UNROM 512) (Aftermarket) (Pirate)" cloneof="South Park (World) (2023-11-11) (Aftermarket) (Pirate)" id="5770">
 		<category>Games</category>
 		<description>South Park (World) (2023-05-29) (UNROM 512) (Aftermarket) (Pirate)</description>
 		<release name="South Park (World) (2023-05-29) (UNROM 512) (Aftermarket) (Pirate)" region="World" language="En"/>
@@ -31004,7 +31004,7 @@
 		<release name="Storied Sword, The (World) (Beta) (2022-09-19) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Storied Sword, The (World) (Beta) (2022-09-19) (GTROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Storied Sword, The (World) (Beta) (2022-09-19) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Beta) (2022-11-20) (UNROM 512) (Aftermarket) (Unl)" id="4802">
+	<game name="Storied Sword, The (World) (Beta) (2022-09-19) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Beta) (2022-11-20) (GTROM) (Aftermarket) (Unl)" id="4802">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Storied Sword, The (World) (Beta) (2022-09-19) (UNROM 512) (Aftermarket) (Unl)</description>
@@ -31018,7 +31018,7 @@
 		<release name="Storied Sword, The (World) (Beta) (2022-10-08) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Storied Sword, The (World) (Beta) (2022-10-08) (GTROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Storied Sword, The (World) (Beta) (2022-10-08) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Beta) (2022-11-20) (UNROM 512) (Aftermarket) (Unl)" id="4804">
+	<game name="Storied Sword, The (World) (Beta) (2022-10-08) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Beta) (2022-11-20) (GTROM) (Aftermarket) (Unl)" id="4804">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Storied Sword, The (World) (Beta) (2022-10-08) (UNROM 512) (Aftermarket) (Unl)</description>
@@ -31032,7 +31032,7 @@
 		<release name="Storied Sword, The (World) (Beta) (2022-11-18) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Storied Sword, The (World) (Beta) (2022-11-18) (GTROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Storied Sword, The (World) (Beta) (2022-11-18) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Beta) (2022-11-20) (UNROM 512) (Aftermarket) (Unl)" id="4810">
+	<game name="Storied Sword, The (World) (Beta) (2022-11-18) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Beta) (2022-11-20) (GTROM) (Aftermarket) (Unl)" id="4810">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Storied Sword, The (World) (Beta) (2022-11-18) (UNROM 512) (Aftermarket) (Unl)</description>
@@ -31046,7 +31046,7 @@
 		<release name="Storied Sword, The (World) (Beta) (2022-11-20) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Storied Sword, The (World) (Beta) (2022-11-20) (GTROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Storied Sword, The (World) (Beta) (2022-11-20) (UNROM 512) (Aftermarket) (Unl)" id="4880">
+	<game name="Storied Sword, The (World) (Beta) (2022-11-20) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Beta) (2022-11-20) (GTROM) (Aftermarket) (Unl)" id="4880">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Storied Sword, The (World) (Beta) (2022-11-20) (UNROM 512) (Aftermarket) (Unl)</description>
@@ -31557,7 +31557,7 @@
 		<release name="Storied Sword, The (World) (Demo) (2023-05-08-1) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Storied Sword, The (World) (Demo) (2023-05-08-1) (GTROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Storied Sword, The (World) (Demo) (2023-05-08-1) (UNROM 512) (Aftermarket) (Unl)" id="5752">
+	<game name="Storied Sword, The (World) (Demo) (2023-05-08-1) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Demo) (2023-05-08-1) (GTROM) (Aftermarket) (Unl)" id="5752">
 		<category>Demos</category>
 		<category>Games</category>
 		<description>Storied Sword, The (World) (Demo) (2023-05-08-1) (UNROM 512) (Aftermarket) (Unl)</description>
@@ -31571,7 +31571,7 @@
 		<release name="Storied Sword, The (World) (Demo) (2023-05-08-2) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Storied Sword, The (World) (Demo) (2023-05-08-2) (GTROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Storied Sword, The (World) (Demo) (2023-05-08-2) (UNROM 512) (Aftermarket) (Unl)" id="5754">
+	<game name="Storied Sword, The (World) (Demo) (2023-05-08-2) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Demo) (2023-05-08-2) (GTROM) (Aftermarket) (Unl)" id="5754">
 		<category>Demos</category>
 		<category>Games</category>
 		<description>Storied Sword, The (World) (Demo) (2023-05-08-2) (UNROM 512) (Aftermarket) (Unl)</description>
@@ -31641,7 +31641,7 @@
 		<release name="Storied Sword, The (World) (Demo) (2023-05-27-1) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Storied Sword, The (World) (Demo) (2023-05-27-1) (GTROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Storied Sword, The (World) (Demo) (2023-05-27-1) (UNROM 512) (Aftermarket) (Unl)" id="5766">
+	<game name="Storied Sword, The (World) (Demo) (2023-05-27-1) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Demo) (2023-05-27-1) (GTROM) (Aftermarket) (Unl)" id="5766">
 		<category>Demos</category>
 		<category>Games</category>
 		<description>Storied Sword, The (World) (Demo) (2023-05-27-1) (UNROM 512) (Aftermarket) (Unl)</description>
@@ -31655,7 +31655,7 @@
 		<release name="Storied Sword, The (World) (Demo) (2023-05-27-2) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Storied Sword, The (World) (Demo) (2023-05-27-2) (GTROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Storied Sword, The (World) (Demo) (2023-05-27-2) (UNROM 512) (Aftermarket) (Unl)" id="5768">
+	<game name="Storied Sword, The (World) (Demo) (2023-05-27-2) (UNROM 512) (Aftermarket) (Unl)" cloneof="Storied Sword, The (World) (Demo) (2023-05-27-2) (GTROM) (Aftermarket) (Unl)" id="5768">
 		<category>Demos</category>
 		<category>Games</category>
 		<description>Storied Sword, The (World) (Demo) (2023-05-27-2) (UNROM 512) (Aftermarket) (Unl)</description>
@@ -32934,33 +32934,33 @@
 		<release name="Super Hero (China) (En) (Unl)" region="China" language="En"/>
 		<rom name="Super Hero (China) (En) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" id="5559">
+	<game name="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)" id="5559">
 		<category>Games</category>
 		<description>Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)</description>
 		<release name="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl)" region="Europe" language="En"/>
 		<rom name="Super Homebrew War (Europe) (Evercade) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" id="3587">
+	<game name="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)" id="3587">
 		<category>Games</category>
 		<description>Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)</description>
 		<release name="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Super Homebrew War (World) (Beta) (2018-11-08) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" id="6369">
+	<game name="Super Homebrew War (World) (Beta) (2018-11-08) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)" id="6369">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Super Homebrew War (World) (Beta) (2018-11-08) (Aftermarket) (Unl)</description>
 		<release name="Super Homebrew War (World) (Beta) (2018-11-08) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Super Homebrew War (World) (Beta) (2018-11-08) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Super Homebrew War (World) (Beta) (2018-11-21) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" id="6370">
+	<game name="Super Homebrew War (World) (Beta) (2018-11-21) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)" id="6370">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Super Homebrew War (World) (Beta) (2018-11-21) (Aftermarket) (Unl)</description>
 		<release name="Super Homebrew War (World) (Beta) (2018-11-21) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Super Homebrew War (World) (Beta) (2018-11-21) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)" cloneof="Super Homebrew War (World) (BNROM) (Aftermarket) (Unl)" id="3588">
+	<game name="Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)" id="3588">
 		<category>Games</category>
 		<description>Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)</description>
 		<release name="Super Homebrew War (World) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -34001,7 +34001,7 @@
 		<release name="Tailgate Party (World) (GTROM) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Tailgate Party (World) (GTROM) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Tailgate Party (World) (UNROM 512) (Aftermarket) (Unl)" id="3577">
+	<game name="Tailgate Party (World) (UNROM 512) (Aftermarket) (Unl)" cloneof="Tailgate Party (World) (GTROM) (Aftermarket) (Unl)" id="3577">
 		<category>Games</category>
 		<description>Tailgate Party (World) (UNROM 512) (Aftermarket) (Unl)</description>
 		<release name="Tailgate Party (World) (UNROM 512) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -36180,7 +36180,7 @@
 		<release name="Turtle Paint - Volume 1 (World) (UNROM 512) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Turtle Paint - Volume 1 (World) (UNROM 512) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Turtle Paint - Volume 1 (World) (UOROM) (Aftermarket) (Unl)" id="4265">
+	<game name="Turtle Paint - Volume 1 (World) (UOROM) (Aftermarket) (Unl)" cloneof="Turtle Paint - Volume 1 (World) (UNROM 512) (Aftermarket) (Unl)" id="4265">
 		<category>Games</category>
 		<description>Turtle Paint - Volume 1 (World) (UOROM) (Aftermarket) (Unl)</description>
 		<release name="Turtle Paint - Volume 1 (World) (UOROM) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -38102,13 +38102,13 @@
 		<release name="Xiake Chuanqi (China) (Aftermarket) (Unl)" region="China" language="Zh-Hans"/>
 		<rom name="Xiake Chuanqi (China) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xiake Qing - Jingke Ci Qinwang (China) (FS005) (Unl)" cloneof="Xiake Qing - Jingke Ci Qinwang (China) (TKROM) (Unl)" id="5806">
+	<game name="Xiake Qing - Jingke Ci Qinwang (China) (FS005) (Unl)" id="5806">
 		<category>Games</category>
 		<description>Xiake Qing - Jingke Ci Qinwang (China) (FS005) (Unl)</description>
 		<release name="Xiake Qing - Jingke Ci Qinwang (China) (FS005) (Unl)" region="China" language="Zh-Hans"/>
 		<rom name="Xiake Qing - Jingke Ci Qinwang (China) (FS005) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Xiake Qing - Jingke Ci Qinwang (China) (TKROM) (Unl)" id="5807">
+	<game name="Xiake Qing - Jingke Ci Qinwang (China) (TKROM) (Unl)" cloneof="Xiake Qing - Jingke Ci Qinwang (China) (FS005) (Unl)" id="5807">
 		<category>Games</category>
 		<description>Xiake Qing - Jingke Ci Qinwang (China) (TKROM) (Unl)</description>
 		<release name="Xiake Qing - Jingke Ci Qinwang (China) (TKROM) (Unl)" region="China" language="Zh-Hans"/>
