@@ -176,6 +176,7 @@ python = ["3.13"]
 [tool.hatch.envs.quick.scripts]
 clone_list_filters = "python -m tests.clone_list_filters"
 compilations = "python -m tests.compilations"
+determinism = "python -m tests.determinism"
 exclusions = "python -m tests.exclusions"
 label_retroachievements = "python -m tests.label_retroachievements"
 languages = "python -m tests.languages"

@@ -2,7 +2,7 @@
 	"description": {
 		"name": "Retool - Post Filters",
 		"lastUpdated": "2025-08-30 10:23:54",
-		"minimumVersion": "2.4.0"
+		"minimumVersion": "2.4.8"
 	},
 	"variants": [
 		{

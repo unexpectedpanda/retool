@@ -71,32 +71,35 @@ specific Retool functionality.
 Tests different settings for compilation handling:
 
 ```
-hatch run integration:compilations
+hatch run quick:compilations
 ```
 
 Tests that Retool outputs the same content five times in a row:
 
 ```
-hatch run integration:determinism
+hatch run quick:determinism
 ```
 
 Tests that Retool is correctly excluding all user-selected title types:
 
 ```
-hatch run integration:exclusions
+hatch run quick:exclusions
 ```
 
 Tests that Retool is correctly filtering by different language priorities:
 
 ```
-hatch run integration:languages
+hatch run quick:languages
 ```
 
 Tests that Retool is correctly filtering by different region priorities:
 
 ```
-hatch run integration:regions
+hatch run quick:regions
 ```
+
+To view all tests that you can run, see the `[tool.hatch.envs.quick.scripts]` section in
+`pyproject.toml`.
 
 ## Enable developer mode
 

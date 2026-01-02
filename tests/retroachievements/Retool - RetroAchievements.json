@@ -13,7 +13,11 @@
 		},
         {
 			"name": "Test Title 3 But Renamed (Europe).bin",
-			"crc": "6666666666666666"
+			"crc": "66666666"
+		},
+		{
+			"name": "Test Title 4 & 5 (Europe).bin",
+			"crc": "77777777"
 		}
 	]
 }

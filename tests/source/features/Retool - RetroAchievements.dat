@@ -21,6 +21,12 @@
         <rom name="Test Title (USA) (Rev 1).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
         <rom name="Test Title (USA) (Rev 1).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
     </game>
+    <game name="Test Title - Special Edition (USA)">
+        <category>Games</category>
+        <description>Test Title - Special Edition (USA)</description>
+        <rom name="Test Title - Special Edition (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+        <rom name="Test Title - Special Edition (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
     <game name="Test Title 2 (USA)">
         <category>Games</category>
         <description>Test Title 2 (USA)</description>
@@ -37,6 +43,24 @@
         <category>Games</category>
         <description>Test Title 3 (Europe)</description>
         <rom name="Test Title 3 (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000"/>
-        <rom name="Test Title 3 (Europe).bin" size="1000" crc="6666666666666666" md5="66666666666666666666666666666666"/>
+        <rom name="Test Title 3 (Europe).bin" size="1000" crc="66666666" md5="66666666666666666666666666666666"/>
+    </game>
+    <game name="Test Title 4 (Europe)">
+        <category>Games</category>
+        <description>Test Title 4 (Europe)</description>
+        <rom name="Test Title 4 (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000"/>
+        <rom name="Test Title 4 (Europe).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 5 (Europe)">
+        <category>Games</category>
+        <description>Test Title 5 (Europe)</description>
+        <rom name="Test Title 5 (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000"/>
+        <rom name="Test Title 5 (Europe).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 4 &amp; 5 (Europe)">
+        <category>Games</category>
+        <description>Test Title 4 &amp; 5 (Europe)</description>
+        <rom name="Test Title 4 &amp; 5 (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000"/>
+        <rom name="Test Title 4 &amp; 5 (Europe).bin" size="1000" crc="77777777" md5="77777777777777777777777777777777"/>
     </game>
 </datafile>
