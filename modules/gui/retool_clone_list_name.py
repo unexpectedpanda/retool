@@ -15,9 +15,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QCheckBox, QLabel, QLineEdit,
-    QMainWindow, QSizePolicy, QSpacerItem, QVBoxLayout,
-    QWidget)
+from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QMainWindow,
+    QSizePolicy, QSpacerItem, QVBoxLayout, QWidget)
 
 from modules.gui.gui_widgets import CustomLineEdit
 from . import resources_rc
@@ -26,14 +25,14 @@ class Ui_CloneListNameTool(object):
     def setupUi(self, CloneListNameTool):
         if not CloneListNameTool.objectName():
             CloneListNameTool.setObjectName(u"CloneListNameTool")
-        CloneListNameTool.resize(680, 370)
+        CloneListNameTool.resize(680, 345)
         sizePolicy = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(CloneListNameTool.sizePolicy().hasHeightForWidth())
         CloneListNameTool.setSizePolicy(sizePolicy)
-        CloneListNameTool.setMinimumSize(QSize(680, 370))
-        CloneListNameTool.setMaximumSize(QSize(680, 370))
+        CloneListNameTool.setMinimumSize(QSize(680, 345))
+        CloneListNameTool.setMaximumSize(QSize(680, 345))
         font = QFont()
         CloneListNameTool.setFont(font)
         icon = QIcon()
@@ -89,11 +88,6 @@ class Ui_CloneListNameTool(object):
         self.lineEditEnterName.setMinimumSize(QSize(320, 24))
 
         self.verticalLayout.addWidget(self.lineEditEnterName)
-
-        self.checkBoxDemos = QCheckBox(self.centralwidget)
-        self.checkBoxDemos.setObjectName(u"checkBoxDemos")
-
-        self.verticalLayout.addWidget(self.checkBoxDemos)
 
         self.verticalSpacer = QSpacerItem(13, 8, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
@@ -187,7 +181,6 @@ class Ui_CloneListNameTool(object):
         CloneListNameTool.setWindowTitle(QCoreApplication.translate("CloneListNameTool", u"Title tool", None))
         self.labelContribute.setText(QCoreApplication.translate("CloneListNameTool", u"<html><head/><body><p>This tool is useful for contributing to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to it by default as part of its matching process. <a href=\"https://unexpectedpanda.github.io/retool/naming-system/\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the documentation</span></a> to learn more.</p></body></html>", None))
         self.labelEnterName.setText(QCoreApplication.translate("CloneListNameTool", u"Enter the full name as it appears in the DAT file", None))
-        self.checkBoxDemos.setText(QCoreApplication.translate("CloneListNameTool", u"Title has a category of Demos in the DAT file, but is missing demo tags in the filename", None))
         self.labelShortName.setText(QCoreApplication.translate("CloneListNameTool", u"Default short name", None))
         self.lineEditShortName.setText("")
         self.labelGroupName.setText(QCoreApplication.translate("CloneListNameTool", u"Default group name", None))

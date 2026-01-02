@@ -7,7 +7,7 @@ if TYPE_CHECKING:
     from modules.config.config import Config
     from modules.dat.process_dat import DatNode
 
-from modules.titletools import TraceTools
+from modules.titletools import TitleTools, TraceTools
 from modules.utils import eprint
 
 
@@ -29,11 +29,7 @@ def choose_priority(title_set: set[DatNode], config: Config, report_on_match: bo
     title_set_temp: set[DatNode] = title_set.copy()
 
     for title_1, title_2 in itertools.combinations(title_set_temp, 2):
-        if (
-            title_1.short_name == title_2.short_name
-            and title_1 in title_set
-            and title_2 in title_set
-        ):
+        if TitleTools.check_title_equivalence(title_1, title_2, title_set):
             if config.user_input.oldest:
                 if title_1.is_oldest or title_2.is_oldest:
                     if title_1.is_oldest:

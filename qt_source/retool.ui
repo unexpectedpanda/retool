@@ -348,8 +348,8 @@
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>680</width>
+                          <height>467</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -755,8 +755,8 @@ for RomVault or DatVault users operating directly on their DatRoot files.</strin
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>680</width>
+                          <height>467</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -1607,8 +1607,8 @@ English-speaking regions and 60Hz titles.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>680</width>
+                          <height>467</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -2448,8 +2448,8 @@ English-speaking regions and 60Hz titles.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>680</width>
+                          <height>467</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -2939,8 +2939,8 @@ English-speaking regions and 60Hz titles.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>680</width>
+                          <height>467</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -3110,8 +3110,14 @@ English-speaking regions and 60Hz titles.</string>
                                 <item>
                                  <widget class="QCheckBox" name="checkBoxGlobalExcludeAddOns">
                                   <property name="toolTip">
-                                   <string>Exclude titles with the DAT category &quot;Add-Ons&quot;, which includes
-expansion packs and additional materials for titles.</string>
+                                   <string>Exclude titles with the DAT category &quot;Add-Ons&quot;, or with the following
+text in the name:
+
+•  (Addon)
+•  (Addon for XBLA)
+•  (DLC)
+
+These include expansion packs and additional materials for titles.</string>
                                   </property>
                                   <property name="text">
                                    <string>Add-ons</string>
@@ -3614,8 +3620,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>429</height>
+                          <width>680</width>
+                          <height>467</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -4455,8 +4461,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>413</height>
+                          <width>680</width>
+                          <height>467</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -4918,8 +4924,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>410</height>
+                          <width>680</width>
+                          <height>467</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -5282,8 +5288,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>1075</height>
+                          <width>663</width>
+                          <height>1118</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -6944,8 +6950,8 @@ core, at the cost of performance.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>649</width>
-                          <height>404</height>
+                          <width>680</width>
+                          <height>467</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -8308,7 +8314,7 @@ for RomVault or DatVault users operating directly on their DatRoot files.</strin
                           <x>0</x>
                           <y>0</y>
                           <width>640</width>
-                          <height>189</height>
+                          <height>170</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -9161,7 +9167,7 @@ English-speaking regions and 60Hz titles.</string>
                           <x>0</x>
                           <y>0</y>
                           <width>640</width>
-                          <height>119</height>
+                          <height>105</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -10014,8 +10020,8 @@ English-speaking regions and 60Hz titles.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>580</width>
-                          <height>119</height>
+                          <width>540</width>
+                          <height>105</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -10518,8 +10524,8 @@ English-speaking regions and 60Hz titles.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>514</width>
-                          <height>277</height>
+                          <width>680</width>
+                          <height>467</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -10702,8 +10708,14 @@ English-speaking regions and 60Hz titles.</string>
                                 <item>
                                  <widget class="QCheckBox" name="checkBoxSystemExcludeAddOns">
                                   <property name="toolTip">
-                                   <string>Exclude titles with the DAT category &quot;Add-Ons&quot;, which includes
-expansion packs and additional materials for titles.</string>
+                                   <string>Exclude titles with the DAT category &quot;Add-Ons&quot;, or with the following
+text in the name:
+
+•  (Addon)
+•  (Addon for XBLA)
+•  (DLC)
+
+These include expansion packs and additional materials for titles.</string>
                                   </property>
                                   <property name="text">
                                    <string>Add-ons</string>
@@ -12060,8 +12072,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>315</width>
-                          <height>477</height>
+                          <width>300</width>
+                          <height>439</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -12523,8 +12535,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>478</width>
-                          <height>413</height>
+                          <width>442</width>
+                          <height>391</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -12977,8 +12989,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>573</width>
-                          <height>1075</height>
+                          <width>505</width>
+                          <height>1118</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -15051,7 +15063,7 @@ do this by pressing DEL on the keyboard.</string>
      <x>0</x>
      <y>0</y>
      <width>1080</width>
-     <height>37</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">

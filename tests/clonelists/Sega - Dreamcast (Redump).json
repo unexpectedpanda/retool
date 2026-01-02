@@ -141,17 +141,17 @@
 			]
 		},
 		{
-			"group": "Debug Indie Sampler 1 (Demo)",
+			"group": "Debug Indie Sampler 1",
 			"categories": ["Demos", "Games"],
 			"titles": [
-				{"searchTerm": "Debug Indie Sampler 1 (Demo)"}
+				{"searchTerm": "Debug Indie Sampler 1"}
 			]
 		},
 		{
-			"group": "Debug Indie Sampler 2 (Demo)",
+			"group": "Debug Indie Sampler 2",
 			"categories": ["Demos", "Games"],
 			"titles": [
-				{"searchTerm": "Debug Indie Sampler 2 (Demo)"}
+				{"searchTerm": "Debug Indie Sampler 2"}
 			]
 		},
 		{
@@ -294,7 +294,7 @@
 			"group": "Frame Gride - Test Operation Disc",
 			"titles": [
 				{
-					"searchTerm": "Frame Gride - Test Operation Disc (Demo)",
+					"searchTerm": "Frame Gride - Test Operation Disc",
 					"localNames": {
 						"japanese": "フレームグライド）　～体験版～"
 					}

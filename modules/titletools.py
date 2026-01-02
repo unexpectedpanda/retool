@@ -160,6 +160,7 @@ class Regex:
                 '\\((January|February|March|April|May|June|July|August|September|October|November|December),\\s?\\d{4}\\)',
                 flags=re.I,
             ),
+            re.compile('\\((\\d{1,2}-\\d{1,2}\\))'),
         )
 
         self.demos: tuple[Pattern[str], ...] = (
@@ -247,6 +248,40 @@ class Regex:
 
 class TitleTools:
     """Manipulates and validates titles found in DATs for use in Retool."""
+
+    @staticmethod
+    def check_title_equivalence(
+        title_1: DatNode, title_2: DatNode, title_set: set[DatNode] = set()
+    ) -> bool:
+        """
+        Checks if one title is related to another.
+
+        Args:
+            title_1 (DatNode): The first title.
+            title_2 (DatNode): The second title.
+            title_set (set[DatNode], optional): A set to check for titles in.
+                Defaults to set().
+
+        Returns:
+            bool: Whether the titles are related.
+        """
+        equivalent: bool = False
+        in_title_set: bool = True
+
+        if title_set:
+            if not (title_1 in title_set and title_2 in title_set):
+                in_title_set = False
+
+        if (
+            title_1.short_name == title_2.short_name
+            and title_1.is_demo == title_2.is_demo
+            and 'BIOS' not in title_1.categories
+            and 'BIOS' not in title_2.categories
+            and in_title_set
+        ):
+            equivalent = True
+
+        return equivalent
 
     @staticmethod
     def convert_to_virtual_titles(
@@ -339,12 +374,15 @@ class TitleTools:
 
         formatted_date: int = 0
 
-        # Normalize YYYY-MM-xx and YYYY-xx-xx dates
+        # Normalize YYYY-MM-xx, YYYY-xx-xx, and MM-DD dates
         if re.search(config.regex.dates[5], name):
             name = re.sub(config.regex.dates[5], '(\\1-01)', name)
 
         if re.search(config.regex.dates[6], name):
             name = re.sub(config.regex.dates[6], '(\\1-01-01)', name)
+
+        if re.search(config.regex.dates[8], name):
+            name = re.sub(config.regex.dates[8], '(1970-\\1)', name)
 
         us_date: bool = False
         short_date: bool = False
@@ -1279,6 +1317,8 @@ class TraceTools:
             message = 'ACTION: Choose RetroAchievements:'
         if trace_reference == 'REF0138':
             message = 'ACTION: Choose RetroAchievements:'
+        if trace_reference == 'REF0139':
+            message = 'Group after choosing RetroAchievements titles due to user preference:'
 
         if trace_reference:
             eprint(

@@ -6,13 +6,13 @@ hide:
 # Contribute to code
 
 Retool uses [Hatch](https://github.com/pypa/hatch) for environment management, code
-formatting and testing. Tests are run using Python 3.10, 3.11, and 3.12.
+formatting and testing. Tests are run using Python 3.10, 3.11, 3.12, and 3.13.
 
 
-You can install Hatch and `hatch-pip-compile` with the following command:
+You can install Hatch and the dependencies Retool uses with the following command:
 
 ```
-pip install hatch hatch-pip-compile
+pip install hatch hatch-pip-compile hatch-pyinstaller
 ```
 
 To enter an environment and install Retool's depedencies, run the following command:
@@ -33,10 +33,19 @@ Before running any tests, install [Visual Studio Code](https://code.visualstudio
 and set its path in `tests/integration.py`. This is used for comparing diffs if a test
 fails.
 
-To run all formatters and tests, run the following command:
+To run all formatters, and then run all tests with all defined Python versions in
+`pyproject.toml`, run the following command:
 
 ```
 hatch run all
+```
+
+For speed when developing, you can run quick tests instead. This skips the formatters, and
+runs all tests _except_ the determinism test using only the latest defined Python version.
+To run the quick tests, run the following command:
+
+```
+hatch run quick:test
 ```
 
 ### Formatting and syntax

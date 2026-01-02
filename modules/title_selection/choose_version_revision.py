@@ -8,7 +8,7 @@ if TYPE_CHECKING:
     from modules.config.config import Config
     from modules.dat.process_dat import DatNode
 
-from modules.titletools import TraceTools
+from modules.titletools import TitleTools, TraceTools
 
 
 def choose_version_revision(
@@ -34,14 +34,7 @@ def choose_version_revision(
     remove_titles: set[DatNode] = set()
 
     for title_1, title_2 in itertools.combinations(title_set, 2):
-        if (
-            title_1.short_name == title_2.short_name
-            and title_1 in title_set
-            and title_2 in title_set
-            and 'BIOS' not in title_1.categories
-            and 'BIOS' not in title_2.categories
-        ):
-
+        if TitleTools.check_title_equivalence(title_1, title_2, title_set):
             keep_title_name: str = ''
             remove_title_name: str = ''
 

@@ -21,7 +21,7 @@ from modules.title_selection.choose_string import choose_string
 from modules.title_selection.choose_superset import choose_superset
 from modules.title_selection.choose_version_revision import choose_version_revision
 from modules.title_selection.choose_video_standard import choose_video_standard
-from modules.titletools import TraceTools
+from modules.titletools import TitleTools, TraceTools
 from modules.utils import Font, eprint, pattern2string
 
 
@@ -569,7 +569,7 @@ def choose_1g1r(
             cross_region_temp = titles.copy()
 
             for title_1, title_2 in itertools.combinations(cross_region_temp, 2):
-                if title_1.short_name == title_2.short_name:
+                if TitleTools.check_title_equivalence(title_1, title_2):
                     pattern_1_found: bool = False
                     pattern_2_found: bool = False
 
@@ -675,13 +675,7 @@ def choose_1g1r(
         cross_region_temp = cross_region_parent_titles.copy()
 
         for title_1, title_2 in itertools.combinations(cross_region_temp, 2):
-            if (
-                title_1.short_name == title_2.short_name
-                and title_1 in cross_region_parent_titles
-                and title_2 in cross_region_parent_titles
-                and 'BIOS' not in title_1.categories
-                and 'BIOS' not in title_2.categories
-            ):
+            if TitleTools.check_title_equivalence(title_1, title_2, cross_region_parent_titles):
                 if not config.user_input.region_bias:
                     # Leave supersets alone if the user doesn't specify region priority
                     if not title_1.is_superset and not title_2.is_superset:
@@ -723,13 +717,7 @@ def choose_1g1r(
             cross_region_temp = cross_region_parent_titles.copy()
 
             for title_1, title_2 in itertools.combinations(cross_region_temp, 2):
-                if (
-                    title_1.short_name == title_2.short_name
-                    and title_1 in cross_region_parent_titles
-                    and title_2 in cross_region_parent_titles
-                    and 'BIOS' not in title_1.categories
-                    and 'BIOS' not in title_2.categories
-                ):
+                if TitleTools.check_title_equivalence(title_1, title_2, cross_region_parent_titles):
                     if title_1.is_superset and not title_2.is_superset:
                         cross_region_parent_titles.remove(title_2)
                     elif title_2.is_superset and not title_1.is_superset:
@@ -788,7 +776,7 @@ def choose_1g1r(
                 for title_1, title_2 in itertools.combinations(
                     [x for x in cross_region_parent_titles if region in x.regions], 2
                 ):
-                    if title_1.short_name == title_2.short_name:
+                    if TitleTools.check_title_equivalence(title_1, title_2):
                         language_winner = choose_language(
                             {title_1, title_2}, config, report_on_match
                         )
@@ -894,7 +882,7 @@ def choose_1g1r(
 
                 for title in cross_region_temp:
                     for superset_title in superset_titles_final:
-                        if title.short_name == superset_title.short_name:
+                        if TitleTools.check_title_equivalence(title, superset_title):
                             if title in cross_region_parent_titles:
                                 if config.user_input.region_bias:
                                     if title.region_priority < superset_title.region_priority:
@@ -946,10 +934,8 @@ def choose_1g1r(
     for cross_region_title in cross_region_parent_titles:
         for title in original_titles[group_name]:
             if (
-                title.full_name != cross_region_title.full_name
-                and title.short_name == cross_region_title.short_name
-                and 'BIOS' not in title.categories
-                and 'BIOS' not in cross_region_title.categories
+                TitleTools.check_title_equivalence(title, cross_region_title)
+                and title.full_name != cross_region_title.full_name
             ):
                 if is_superset_titles and title.full_name not in potential_parents:
                     potential_parents[title.full_name] = set()

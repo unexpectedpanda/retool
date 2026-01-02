@@ -6,7 +6,7 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from modules.dat.process_dat import DatNode
 
-from modules.titletools import TraceTools
+from modules.titletools import TitleTools, TraceTools
 from modules.utils import Font
 
 
@@ -36,11 +36,7 @@ def choose_region(
     remove_titles: set[DatNode] = set()
 
     for title_1, title_2 in itertools.combinations(title_set, 2):
-        if (
-            title_1.short_name == title_2.short_name
-            and title_1 in title_set
-            and title_2 in title_set
-        ):
+        if TitleTools.check_title_equivalence(title_1, title_2, title_set):
             if world_is_usa_europe_japan:
                 if (
                     (title_1.primary_region == 'World' and 'USA' in title_2.regions)

@@ -549,10 +549,10 @@
 			]
 		},
 		{
-			"group": "Family Games (Demo)",
+			"group": "Family Games",
 			"titles": [
-				{"searchTerm": "Family Games (Demo)"},
-				{"searchTerm": "Family Games (Toys R Us) (Demo)", "priority": 2}
+				{"searchTerm": "Family Games"},
+				{"searchTerm": "Family Games (Toys R Us)", "priority": 2}
 			]
 		},
 		{

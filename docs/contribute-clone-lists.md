@@ -105,6 +105,7 @@ Databases:
 - [PlayStation DataCenter](https://psxdatacenter.com/) (PlayStation, PlayStation 2,
   and PlayStation Portable titles)
 - [PSCX2 Wiki](https://wiki.pcsx2.net) (PlayStation 2 titles)
+- [Random Meaningless Characters](https://randommeaninglesscharacters.com/) (Nintendo DS/DSi apps and firmware)
 - [Renascene](https://renascene.com/psv/) (PlayStation Vita titles)
 - [Retroplace](https://www.retroplace.com)
 - [Sega Retro](https://segaretro.org/) (Sega console titles)

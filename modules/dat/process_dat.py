@@ -419,17 +419,12 @@ class DatNode:
         elif self.categories == []:
             self.categories.append('Games')
 
-        # Check if there's no (Demo) or related tags for titles with the category "Demos",
-        # and add it if so
-        is_demo: bool = False
+        # Check if the title should be tagged as a demo
+        self.is_demo: bool = False
 
         for demo_regex in config.regex.demos:
-            if re.search(demo_regex, self.full_name):
-                is_demo = True
-
-        if not is_demo and 'Demos' in self.categories:
-            self.short_name = f'{self.short_name.strip()} (Demo)'
-            self.region_free_name = f'{self.region_free_name.strip()} (Demo)'
+            if re.search(demo_regex, self.full_name) or 'Demos' in self.categories:
+                self.is_demo = True
 
         self.short_name = self.short_name.lower()
 
@@ -503,6 +498,7 @@ class DatNode:
         return_list.append(format_attribute(self.languages, 'languages', '\t\t\t'))
         return_list.append(format_attribute(self.normalized_version, 'normalized_version', '\t'))
         return_list.append(format_attribute(self.cloneof, 'cloneof', '\t\t\t'))
+        return_list.append(format_attribute(self.is_demo, 'is_demo', '\t\t\t'))
         return_list.append(format_attribute(self.is_mia, 'is_mia', '\t\t\t'))
         return_list.append(format_attribute(self.is_oldest, 'is_oldest', '\t\t\t'))
         return_list.append(format_attribute(self.is_retroachievement, 'is_retroachievement', '\t'))

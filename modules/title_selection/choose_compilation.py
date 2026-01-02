@@ -14,6 +14,7 @@ from modules.title_selection.choose_good import choose_good
 from modules.title_selection.choose_language import choose_language
 from modules.title_selection.choose_priority import choose_priority
 from modules.title_selection.choose_region import choose_region
+from modules.title_selection.choose_retroachievements import choose_retroachievements
 from modules.title_selection.choose_superset import choose_superset
 from modules.titletools import TitleTools, TraceTools
 from modules.utils import Font, eprint
@@ -103,7 +104,9 @@ def choose_compilation(
         if short_name not in grouped_titles:
             grouped_titles[short_name] = set()
 
-        TitleTools.convert_to_virtual_titles(compilations, grouped_titles, short_name, config)
+        grouped_titles = TitleTools.convert_to_virtual_titles(
+            compilations, grouped_titles, short_name, config
+        )
 
         for individual_title in individual_titles:
             if short_name == individual_title.short_name:
@@ -123,6 +126,13 @@ def choose_compilation(
             eprint(f'Comparing titles with {key} short name', level='heading')
 
             TraceTools.trace_title('REF0067', [key], comparison_set, keep_remove=False)
+
+        # Choose RetroAchievements if the user requests it
+        if config.user_input.retroachievements:
+            comparison_set = choose_retroachievements(comparison_set, report_on_match)
+
+            if comparison_report_on_match:
+                TraceTools.trace_title('REF0139', [key], comparison_set, keep_remove=False)
 
         # Filter by preproduction and pirate
         if len(comparison_set) > 1:
@@ -207,7 +217,7 @@ def choose_compilation(
             remove_compilations: set[DatNode] = set()
 
             for title_1, title_2 in itertools.combinations(comparison_set, 2):
-                if title_1.short_name == title_2.short_name:
+                if TitleTools.check_title_equivalence(title_1, title_2):
                     if title_1.contains_titles and not title_2.contains_titles:
                         remove_compilations.add(title_1)
 
@@ -766,7 +776,7 @@ def choose_compilation(
                     # If the winner is an individual title...
                     if not title.contains_titles:
                         # Assign individual title discards to individual winners
-                        if winner_title.short_name == title.short_name:
+                        if TitleTools.check_title_equivalence(winner_title, title):
                             title.cloneof = winner_title_name
                             clone_set = True
                             break

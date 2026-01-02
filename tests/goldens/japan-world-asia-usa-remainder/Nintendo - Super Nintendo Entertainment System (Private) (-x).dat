@@ -7180,7 +7180,7 @@
 		<release name="Hatayama Hatch no Pro Yakyuu News! - Jitsumei Ban (Japan)" region="Japan" language="Ja"/>
 		<rom name="Hatayama Hatch no Pro Yakyuu News! - Jitsumei Ban (Japan).sfc" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Havoc (USA) (Demo)" cloneof="Royal Conquest (Japan) (En)" id="3582">
+	<game name="Havoc (USA) (Demo)" id="3582">
 		<category>Demos</category>
 		<description>Havoc (USA) (Demo)</description>
 		<release name="Havoc (USA) (Demo)" region="USA" language="En"/>

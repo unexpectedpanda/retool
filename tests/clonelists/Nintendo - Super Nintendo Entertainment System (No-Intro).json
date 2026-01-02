@@ -1068,7 +1068,7 @@
 			"titles": [
 				{"searchTerm": "King Arthur's World"},
 				{"searchTerm": "Royal Conquest"},
-				{"searchTerm": "Havoc (Demo)", "priority": 2}
+				{"searchTerm": "Havoc", "priority": 2}
 			]
 		},
 		{

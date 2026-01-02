@@ -1,6 +1,5 @@
 import html
 import pathlib
-import re
 import sys
 from typing import Any
 
@@ -315,17 +314,6 @@ class TitleToolWindow(qtw.QMainWindow):
             Grabs the different name variants of the title the user entered and populates
             the fields.
             """
-            demo_string: str = ''
-            if self.ui.checkBoxDemos.isChecked() and self.ui.lineEditEnterName.text():
-                is_demo: bool = False
-
-                for demo_regex in config.regex.demos:
-                    if re.search(demo_regex, self.ui.lineEditEnterName.text()):
-                        is_demo = True
-
-                if not is_demo:
-                    demo_string = ' (Demo)'
-
             tags: set[str] = set(
                 [f'({x}' for x in html.unescape(self.ui.lineEditEnterName.text()).split(' (')][
                     1:None
@@ -333,14 +321,13 @@ class TitleToolWindow(qtw.QMainWindow):
             )
 
             self.ui.lineEditShortName.setText(
-                f'{TitleTools.get_short_name(html.unescape(self.ui.lineEditEnterName.text()), tags, config)}{demo_string.lower()}'
+                f'{TitleTools.get_short_name(html.unescape(self.ui.lineEditEnterName.text()), tags, config)}'
             )
             self.ui.lineEditGroupName.setText(
                 TitleTools.get_group_name(html.unescape(self.ui.lineEditEnterName.text()), config)
             )
             self.ui.lineEditRegionFreeName.setText(
-                f'{TitleTools.get_region_free_name(html.unescape(self.ui.lineEditEnterName.text()), tags, config)}{demo_string}'
+                f'{TitleTools.get_region_free_name(html.unescape(self.ui.lineEditEnterName.text()), tags, config)}'
             )
 
         self.ui.lineEditEnterName.keyPressed.connect(update_names)
-        self.ui.checkBoxDemos.clicked.connect(update_names)

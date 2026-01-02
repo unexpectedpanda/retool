@@ -3595,10 +3595,10 @@
 			]
 		},
 		{
-			"group": "Konami Kids Playground (Demo)",
-			"categories": ["Demo", "Educational", "Games"],
+			"group": "Konami Kids Playground",
+			"categories": ["Demos", "Educational", "Games"],
 			"titles": [
-				{"searchTerm": "Konami Kids Playground (Demo)"}
+				{"searchTerm": "Konami Kids Playground"}
 			]
 		},
 		{
@@ -4543,10 +4543,10 @@
 			]
 		},
 		{
-			"group": "Namco Transmission (Demo)",
+			"group": "Namco Transmission",
 			"titles": [
-				{"searchTerm": "Namco Transmission (Demo)"},
-				{"searchTerm": "Namco Transmission (PS2 Game Bundle) (Demo)"}
+				{"searchTerm": "Namco Transmission"},
+				{"searchTerm": "Namco Transmission (PS2 Game Bundle)"}
 			]
 		},
 		{

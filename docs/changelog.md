@@ -5,115 +5,136 @@ hide:
 
 # Changelog
 
+## 2.4.8 (2026-01-02)
+
+-   **_Fix_**: Added yet another No-Intro date format: `(MM-DD)`. This should help
+    auto-detect versions in the Satellaview DAT file.
+
+-   **_Fix_**: If you prefer RetroAchievements titles, and a compilation is the only
+    variant of a RetroAchievements title, then that compilation is now selected in all
+    scenarios.
+
+-   **_Change_**: Retool used to append `(Demo)` to the short names of demos it found that
+    were missing a demo tag -- it did this to prevent demos from getting confused with full
+    versions of titles during title comparison. Unfortunately, it also made adding these
+    titles to clone lists confusing for contributors, as you had to know what Retool was
+    doing behind the scenes, and when to add the `(Demo)` string to a title in the clone
+    list to match that behavior.
+
+    Retool now handles demo/full version comparison behind the scenes without adding a
+    `(Demo)` tag to short names, meaning you also don't need to know when to add it in
+    clone lists.
+
+
 ## 2.4.7 (2025-12-20)
 
--  **_Feature_**: Retool now reports the uncompressed space you've saved after filtering
-   (issue #361). Thanks for getting things started on this one,
-   [steven-sheehy](https://github.com/steven-sheehy)!
+-   **_Feature_**: Retool now reports the uncompressed space you've saved after filtering
+    (issue #361). Thanks for getting things started on this one,
+    [steven-sheehy](https://github.com/steven-sheehy)!
 
--  **_Fix_**: Retool's icon is now shown on the macOS dock instead of the Python Launcher
-   icon when running Retool GUI. Unfortunately it doesn't seem possible to change the name
-   of the app in the dock or menu without providing an app bundle.
+-   **_Fix_**: Retool's icon is now shown on the macOS dock instead of the Python Launcher
+    icon when running Retool GUI. Unfortunately it doesn't seem possible to change the name
+    of the app in the dock or menu without providing an app bundle.
 
 
 ## 2.4.6 (2025-12-18)
 
--  **_Change_**: Excluding Add-ons now also excludes titles with `(DLC)`, `(Addon)`, and
-   `(Addon for XBLA)` tags (issue #359). Thanks
-   [steven-sheehy](https://github.com/steven-sheehy)!
+-   **_Change_**: Excluding Add-ons now also excludes titles with `(DLC)`, `(Addon)`, and
+    `(Addon for XBLA)` tags (issue #359). Thanks
+    [steven-sheehy](https://github.com/steven-sheehy)!
 
--  **_Fix_**: Running tests through Hatch doesn't rely on there being a `.dev` file in
-   Retool's root folder any more.
+-   **_Fix_**: Running tests through Hatch doesn't rely on there being a `.dev` file in
+    Retool's root folder any more.
 
--  **_Fix_**: Fixed missing grip handle graphic between the DAT files list and the rest of
-   the app.
+-   **_Fix_**: Fixed missing grip handle graphic between the DAT files list and the rest of
+    the app.
 
--  **_Fix_**: If a user cancels out of adding DAT files, and there are no DAT files in the
-   list, Retool now returns the placeholder text to "No DAT files added yet".
+-   **_Fix_**: If a user cancels out of adding DAT files, and there are no DAT files in the
+    list, Retool now returns the placeholder text to "No DAT files added yet".
 
--  **_Fix_**: If you select **Override global settings** in the system **Options** tab,
-   but nothing else in the options tab, Retool no longer outputs an empty options string
-   (`(-)`) in the filename.
+-   **_Fix_**: If you select **Override global settings** in the system **Options** tab,
+    but nothing else in the options tab, Retool no longer outputs an empty options string
+    (`(-)`) in the filename.
 
--  **_Fix_**: I bought myself a Mac, and so the following things have been fixed in the
-   GUI on macOS:
+-   **_Fix_**: I bought myself a Mac, and so the following things have been fixed in the
+    GUI on macOS:
 
-   - The **Settings** and **About** options are now in the proper menus, and not moved by
-     macOS heuristics into different places.
+    - The **Settings** and **About** options are now in the proper menus, and not moved by
+      macOS heuristics into different places.
 
-   - The delete key now works for removing items from list boxes.
+    - The delete key now works for removing items from list boxes.
 
-   - The minimum width and height of the Retool GUI has been increased to accommodate
+    - The minimum width and height of the Retool GUI has been increased to accommodate
      better widget rendering on macOS.
 
-   - Fonts are no longer statically set in the QT design file. Instead they're assigned
+    - Fonts are no longer statically set in the QT design file. Instead they're assigned
      on an OS-basis in Python, which avoids font loading miss penalties and wrong font
      sizes being assigned.
 
-   - Many buttons now have a fixed size with explicitly set minimum and maximum sizes to
+    - Many buttons now have a fixed size with explicitly set minimum and maximum sizes to
      prevent deformation into odd aspect ratios.
 
-   - Custom checkboxes have been replaced with native checkboxes.
+    - Custom checkboxes have been replaced with native checkboxes.
 
-   - An outline has been removed from the status bar.
+    - An outline has been removed from the status bar.
 
-   - Tab contents have had their layouts reworked for consistent item placement.
+    - Tab contents have had their layouts reworked for consistent item placement.
 
-   - Tabs labels now elide to the right to overcome tab width issues.
+    - Tabs labels now elide to the right to overcome tab width issues.
 
 
 ## 2.4.5 (2025-11-05)
 
--  **_Feature_**: Added some Nintendo mastering codes.
+-   **_Feature_**: Added some Nintendo mastering codes.
 
--  **_Change_**: Category matching is no longer case-sensitive (issue #357).
+-   **_Change_**: Category matching is no longer case-sensitive (issue #357).
 
 
 ## 2.4.4 (2025-10-26)
 
--  **_Fix_**: Prevents stacking of RetroAchievements tags if a DAT file is processed more
-   than once.
+-   **_Fix_**: Prevents stacking of RetroAchievements tags if a DAT file is processed more
+    than once.
 
--  **_Fix_**: Fixed a type warning when dragging and dropping files using Retool with
-   PySide6 6.10.0.0.
+-   **_Fix_**: Fixed a type warning when dragging and dropping files using Retool with
+    PySide6 6.10.0.0.
 
 
 ## 2.4.3 (2025-10-20)
 
--  **_Change_**: Titles with the `(Video)` tag are now categorized as Videos.
+-   **_Change_**: Titles with the `(Video)` tag are now categorized as Videos.
 
--  **_Fix_**: Updated QT version bundled with the compiled Windows version to correct
-   issue #354.
+-   **_Fix_**: Updated QT version bundled with the compiled Windows version to correct
+    issue #354.
 
 
 ## 2.4.2 (2025-10-06)
 
--  **_Change_**: The `<rom>` elements in output DAT files are now listed in alphabetical
-   order based on file name. This makes it easier to find problems when analyzing DAT
-   files.
+-   **_Change_**: The `<rom>` elements in output DAT files are now listed in alphabetical
+    order based on file name. This makes it easier to find problems when analyzing DAT
+    files.
 
--  **_Fix_**: Removed video regular expressions from the tags Retool ignores when grouping
-   titles together. These were added accidentally in 2.4.0.
+-   **_Fix_**: Removed video regular expressions from the tags Retool ignores when
+    grouping titles together. These were added accidentally in 2.4.0.
 
--  **_Fix_**: Original header output now works again for custom No-Intro DAT files (for
-   example, RVZ and WUX versions of Redump DAT files). Turns out reading the file in as
-   bytes required extra work to deal with LF line endings.
+-   **_Fix_**: Original header output now works again for custom No-Intro DAT files (for
+    example, RVZ and WUX versions of Redump DAT files). Turns out reading the file in as
+    bytes required extra work to deal with LF line endings.
 
--  **_Fix_**: The data source that provided RetroAchievements hashes has switched from
-   providing ISO, BIN, and CHD hashes to CHD and RVZ hashes. As such, Retool can now add
-   RetroAchievements labels to
-   [MAME Redump DAT files](https://github.com/MetalSlug/MAMERedump).
+-   **_Fix_**: The data source that provided RetroAchievements hashes has switched from
+    providing ISO, BIN, and CHD hashes to CHD and RVZ hashes. As such, Retool can now add
+    RetroAchievements labels to
+    [MAME Redump DAT files](https://github.com/MetalSlug/MAMERedump).
 
 
 ## 2.4.1 (2025-08-13)
 
-- **_Fix_**: Turns out pathing in QT is case sensitive, and a path rename broke wherever
-  there were arrow icons on buttons. This has now been fixed.
+-   **_Fix_**: Turns out pathing in QT is case sensitive, and a path rename broke wherever
+    there were arrow icons on buttons. This has now been fixed.
 
-- **_Fix_**: The `<retool>` element is now added to output DAT file headers again in all
-  circumstances. This enables the skipping of files that have already been processed.
+-   **_Fix_**: The `<retool>` element is now added to output DAT file headers again in all
+    circumstances. This enables the skipping of files that have already been processed.
 
--  **_Fix_**: Added a Benesse ID regex to version detection.
+-   **_Fix_**: Added a Benesse ID regex to version detection.
 
 
 ## 2.4.0 (2025-08-11)
