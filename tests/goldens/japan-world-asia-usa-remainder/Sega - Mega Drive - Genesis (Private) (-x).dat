@@ -4316,7 +4316,7 @@
 		<release name="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (Steam) (Aftermarket) (Unl)" region="World" language="Pt-BR"/>
 		<rom name="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (Steam) (Aftermarket) (Unl).md" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (neofid-studios.com) (Aftermarket) (Unl)" id="2858">
+	<game name="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (neofid-studios.com) (Aftermarket) (Unl)" cloneof="Demons of Asteborg (Asia) (En,Ja,Fr,Zh,Ko,Ru) (v3) (April, 2023) (Aftermarket) (Unl)" id="2858">
 		<category>Games</category>
 		<description>Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (neofid-studios.com) (Aftermarket) (Unl)</description>
 		<release name="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (neofid-studios.com) (Aftermarket) (Unl)" region="World" language="De"/>
@@ -19301,26 +19301,26 @@
 		<release name="Zany Golf (USA, Europe)" region="USA" language="En"/>
 		<rom name="Zany Golf (USA, Europe).md" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Zero Tolerance (Europe)" cloneof="Zero Tolerance (World) (GOG) (Aftermarket) (Unl)" id="3078">
+	<game name="Zero Tolerance (Europe)" cloneof="Zero Tolerance (USA, Europe) (Rev A)" id="3078">
 		<category>Games</category>
 		<description>Zero Tolerance (Europe)</description>
 		<release name="Zero Tolerance (Europe)" region="Europe" language="En"/>
 		<rom name="Zero Tolerance (Europe).md" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Zero Tolerance (USA, Europe) (Rev A)" cloneof="Zero Tolerance (World) (GOG) (Aftermarket) (Unl)" id="1604">
+	<game name="Zero Tolerance (USA, Europe) (Rev A)" id="1604">
 		<category>Games</category>
 		<description>Zero Tolerance (USA, Europe) (Rev A)</description>
 		<release name="Zero Tolerance (USA, Europe) (Rev A)" region="Europe" language="En"/>
 		<release name="Zero Tolerance (USA, Europe) (Rev A)" region="USA" language="En"/>
 		<rom name="Zero Tolerance (USA, Europe) (Rev A).md" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Zero Tolerance (World) (GOG) (Aftermarket) (Unl)" id="2720">
+	<game name="Zero Tolerance (World) (GOG) (Aftermarket) (Unl)" cloneof="Zero Tolerance (USA, Europe) (Rev A)" id="2720">
 		<category>Games</category>
 		<description>Zero Tolerance (World) (GOG) (Aftermarket) (Unl)</description>
 		<release name="Zero Tolerance (World) (GOG) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Zero Tolerance (World) (GOG) (Aftermarket) (Unl).md" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Zero Tolerance (World) (Switch) (Aftermarket) (Unl)" cloneof="Zero Tolerance (World) (GOG) (Aftermarket) (Unl)" id="2968">
+	<game name="Zero Tolerance (World) (Switch) (Aftermarket) (Unl)" cloneof="Zero Tolerance (USA, Europe) (Rev A)" id="2968">
 		<category>Games</category>
 		<description>Zero Tolerance (World) (Switch) (Aftermarket) (Unl)</description>
 		<release name="Zero Tolerance (World) (Switch) (Aftermarket) (Unl)" region="World" language="En"/>

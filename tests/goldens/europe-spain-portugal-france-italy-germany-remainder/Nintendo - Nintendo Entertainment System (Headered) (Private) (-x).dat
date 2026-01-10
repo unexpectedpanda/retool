@@ -10677,27 +10677,27 @@
 		<release name="Expedition (USA) (Aftermarket) (Unl)" region="USA" language="En"/>
 		<rom name="Expedition (USA) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Exploding Fist (USA) (Proto 1)" cloneof="Exploding Fist (World) (Piko Interactive) (Aftermarket) (Unl)" id="2645">
+	<game name="Exploding Fist (USA) (Proto 1)" cloneof="Exploding Fist (World) (Digital Release) (Aftermarket) (Unl)" id="2645">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Exploding Fist (USA) (Proto 1)</description>
 		<release name="Exploding Fist (USA) (Proto 1)" region="USA" language="En"/>
 		<rom name="Exploding Fist (USA) (Proto 1).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Exploding Fist (USA) (Proto 2)" cloneof="Exploding Fist (World) (Piko Interactive) (Aftermarket) (Unl)" id="6097">
+	<game name="Exploding Fist (USA) (Proto 2)" cloneof="Exploding Fist (World) (Digital Release) (Aftermarket) (Unl)" id="6097">
 		<category>Games</category>
 		<category>Preproduction</category>
 		<description>Exploding Fist (USA) (Proto 2)</description>
 		<release name="Exploding Fist (USA) (Proto 2)" region="USA" language="En"/>
 		<rom name="Exploding Fist (USA) (Proto 2).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Exploding Fist (World) (Digital Release) (Aftermarket) (Unl)" cloneof="Exploding Fist (World) (Piko Interactive) (Aftermarket) (Unl)" id="2644">
+	<game name="Exploding Fist (World) (Digital Release) (Aftermarket) (Unl)" id="2644">
 		<category>Games</category>
 		<description>Exploding Fist (World) (Digital Release) (Aftermarket) (Unl)</description>
 		<release name="Exploding Fist (World) (Digital Release) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Exploding Fist (World) (Digital Release) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Exploding Fist (World) (Piko Interactive) (Aftermarket) (Unl)" id="5662">
+	<game name="Exploding Fist (World) (Piko Interactive) (Aftermarket) (Unl)" cloneof="Exploding Fist (World) (Digital Release) (Aftermarket) (Unl)" id="5662">
 		<category>Games</category>
 		<description>Exploding Fist (World) (Piko Interactive) (Aftermarket) (Unl)</description>
 		<release name="Exploding Fist (World) (Piko Interactive) (Aftermarket) (Unl)" region="World" language="En"/>
@@ -16412,19 +16412,19 @@
 		<release name="Jim &amp; Dill 2 - Bobson's Revenge (World) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Jim &amp; Dill 2 - Bobson's Revenge (World) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Jim Power - The Lost Dimension (USA) (Piko Interactive) (Aftermarket) (Unl)" id="4763">
+	<game name="Jim Power - The Lost Dimension (USA) (Piko Interactive) (Aftermarket) (Unl)" cloneof="Jim Power - The Lost Dimension (World) (Digital Release) (Aftermarket) (Unl)" id="4763">
 		<category>Games</category>
 		<description>Jim Power - The Lost Dimension (USA) (Piko Interactive) (Aftermarket) (Unl)</description>
 		<release name="Jim Power - The Lost Dimension (USA) (Piko Interactive) (Aftermarket) (Unl)" region="USA" language="En"/>
 		<rom name="Jim Power - The Lost Dimension (USA) (Piko Interactive) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Jim Power - The Lost Dimension (World) (Digital Release) (Aftermarket) (Unl)" cloneof="Jim Power - The Lost Dimension (USA) (Piko Interactive) (Aftermarket) (Unl)" id="3198">
+	<game name="Jim Power - The Lost Dimension (World) (Digital Release) (Aftermarket) (Unl)" id="3198">
 		<category>Games</category>
 		<description>Jim Power - The Lost Dimension (World) (Digital Release) (Aftermarket) (Unl)</description>
 		<release name="Jim Power - The Lost Dimension (World) (Digital Release) (Aftermarket) (Unl)" region="World" language="En"/>
 		<rom name="Jim Power - The Lost Dimension (World) (Digital Release) (Aftermarket) (Unl).nes" size="1000" header="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Jim Power - The Lost Dimension (World) (QUByte Classics)" cloneof="Jim Power - The Lost Dimension (USA) (Piko Interactive) (Aftermarket) (Unl)" id="4118">
+	<game name="Jim Power - The Lost Dimension (World) (QUByte Classics)" cloneof="Jim Power - The Lost Dimension (World) (Digital Release) (Aftermarket) (Unl)" id="4118">
 		<category>Games</category>
 		<description>Jim Power - The Lost Dimension (World) (QUByte Classics)</description>
 		<release name="Jim Power - The Lost Dimension (World) (QUByte Classics)" region="World" language="En"/>

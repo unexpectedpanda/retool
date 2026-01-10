@@ -4316,7 +4316,7 @@
 		<release name="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (Steam) (Aftermarket) (Unl)" region="World" language="Pt-BR"/>
 		<rom name="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (Steam) (Aftermarket) (Unl).md" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000" sha256="0000000000000000000000000000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (neofid-studios.com) (Aftermarket) (Unl)" id="2858">
+	<game name="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (neofid-studios.com) (Aftermarket) (Unl)" cloneof="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.1) (Aftermarket) (Unl)" id="2858">
 		<category>Games</category>
 		<description>Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (neofid-studios.com) (Aftermarket) (Unl)</description>
 		<release name="Demons of Asteborg (World) (En,Fr,De,Es,It,Pt-BR) (v1.11) (neofid-studios.com) (Aftermarket) (Unl)" region="World" language="De"/>
