@@ -12843,7 +12843,7 @@
 		<rom name="Qui Veut Gagner des Millions (France) (Track 5).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 		<rom name="Qui Veut Gagner des Millions (France).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Quiz Aa Megami-sama - Tatakau Tsubasa to Tomoni (Japan)">
+	<game name="Quiz Aa Megami-sama - Tatakau Tsubasa to Tomoni (Japan)" cloneof="Quiz Aa Megami-sama - Tatakau Tsubasa to Tomoni (Japan) (Tokubetsu Omake GD-ROM)">
 		<category>Games</category>
 		<description>Quiz Aa Megami-sama - Tatakau Tsubasa to Tomoni (Japan)</description>
 		<release name="Quiz Aa Megami-sama - Tatakau Tsubasa to Tomoni (Japan)" region="Japan" language="Ja"/>
